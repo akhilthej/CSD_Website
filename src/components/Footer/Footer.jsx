@@ -152,7 +152,7 @@ const Footer = () => {
           <nav className="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
             <a className="hover:opacity-75" href="">
               {" "}
-              About{" "}
+              About us{" "}
             </a>
             <a className="hover:opacity-75" href="">
               {" "}
