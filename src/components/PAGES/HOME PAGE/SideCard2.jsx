@@ -10,7 +10,7 @@ const SideCard2 = () => {
         <div className="w-full space-y-12 lg:w-1/2 ">
           <div>
             <h1 className="text-3xl font-semibold text-white capitalize lg:text-4xl ">
-              explore our <br /> awesome Components
+              explore our <br /> Resources for our community
             </h1>
             <div className="mt-2">
               <span className="inline-block w-40 h-1 rounded-full bg-blue-500" />
@@ -37,7 +37,7 @@ const SideCard2 = () => {
             </span>
             <div className="mt-4 md:mx-4 md:mt-0">
               <h1 className="text-2xl font-semibold text-white capitalize ">
-                Copy &amp; paste components
+                Custom CRM
               </h1>
               <p className="mt-3 text-gray-300 ">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -65,7 +65,7 @@ const SideCard2 = () => {
             </span>
             <div className="mt-4 md:mx-4 md:mt-0">
               <h1 className="text-2xl font-semibold text-white capitalize ">
-                Zero Configrations
+                Google Data Maps Mining
               </h1>
               <p className="mt-3 text-gray-300 ">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -99,7 +99,7 @@ const SideCard2 = () => {
             </span>
             <div className="mt-4 md:mx-4 md:mt-0">
               <h1 className="text-2xl font-semibold text-white capitalize">
-                elegant Dark Mode
+                Custom Testing Tools
               </h1>
               <p className="mt-3 text-gray-300 ">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.

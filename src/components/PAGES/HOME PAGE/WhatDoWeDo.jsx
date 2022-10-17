@@ -27,9 +27,9 @@ const WhatDoWeDo = () => {
         </div>
         <h3 className="mb-2 text-xl font-bold ">Documentation</h3>
         <p className="text-gray-500 ">
-          Plan it, create it, launch it. Collaborate seamlessly with all the
-          organization and hit your marketing goals every month with our
-          marketing plan.
+        seems to be a herculean task for a project manager. 
+        Project managers are often engaged in delivering 
+        high-end complex projects.
         </p>
       </div>
       <div>
@@ -38,8 +38,11 @@ const WhatDoWeDo = () => {
         </div>
         <h3 className="mb-2 text-xl font-bold ">Analyze</h3>
         <p className="text-gray-500 ">
-          Protect your organization, devices and stay compliant with our
-          structured workflows and custom permissions made for you.
+        When executing a project,we analyze it 
+        periodically. Failing to do so, would mean unexpected 
+        challenges, overlooked critical information, or flaws 
+        in the work process that manifest as the project 
+        unfolds.
         </p>
       </div>
       <div>
@@ -50,8 +53,10 @@ const WhatDoWeDo = () => {
           Social Media Presents
         </h3>
         <p className="text-gray-500 ">
-          Auto-assign tasks, send Slack messages, and much more. Now power up
-          with hundreds of new templates to help you get started.
+        A company's social media presence is how they portray 
+        themselves online through their social networking 
+        accounts and activity. Building a social media 
+        presence starts with developing your goals.
         </p>
       </div>
       <div>
@@ -60,8 +65,9 @@ const WhatDoWeDo = () => {
         </div>
         <h3 className="mb-2 text-xl font-bold ">Finance</h3>
         <p className="text-gray-500 ">
-          Audit-proof software built for critical financial operations like
-          month-end close and quarterly budgeting.
+        the funding of long-term projects, such as public 
+        infrastructure or services, industrial projects, and 
+        others through a specific financial structure.
         </p>
       </div>
       <div>
@@ -82,8 +88,8 @@ const WhatDoWeDo = () => {
         </div>
         <h3 className="mb-2 text-xl font-bold ">Business Report</h3>
         <p className="text-gray-500 ">
-          Keep your company’s lights on with customizable, iterative, and
-          structured workflows built for all efficient teams and individual.
+          At the end of every project we present our clients with detailed reports
+           .which can help them understand what we did for there project.
         </p>
       </div>
     </div>

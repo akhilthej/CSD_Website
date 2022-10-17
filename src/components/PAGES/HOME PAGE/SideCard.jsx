@@ -20,9 +20,9 @@ const SideCard = () => {
         We develop our brand with passionate developers.
         </h2>
         <p className="mt-6 text-gray-600">
-         We develop our companies and brands with a purpose,
-         to help them engage their clients and audience so they can
-         build awareness, Trust , create conversation for a long-time. 
+         We develop our companies, projects and brands with a purpose,
+         to help them engage their clients and audience. Providing them a first-class quality.
+          so they can build awareness, Trust , create conversation for a long-time. 
         </p>
         <p className="mt-4 text-gray-600">
           {" "}

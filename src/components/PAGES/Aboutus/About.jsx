@@ -24,7 +24,7 @@ const About = () => {
   <div className="container mx-auto px-6 md:px-12 xl:px-32">
     <div className="mb-16 text-center">
       <h2 className="mb-4 text-center text-2xl text-gray-900 font-bold md:text-4xl">
-        Leadership Block
+        Leadership Board
       </h2>
       <p className="text-gray-600 lg:w-8/12 lg:mx-auto">
         CSD is known for its multi-project handeling. we deal with various technology and
