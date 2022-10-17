@@ -1,6 +1,4 @@
-import React from 'react';
-import {Link} from 'react-router-dom';
-
+import React from 'react'
 
 const ContactusHeader = () => {
   return (
@@ -20,10 +18,12 @@ const ContactusHeader = () => {
         </p>
       </div>
       <div className="mt-6 flex items-center justify-center gap-4">
-        <Link to = 'https://app.gather.town/invite?token=14Xcl0LAQlCAMrEenIcl'><a className="transform rounded-md bg-indigo-600/95 px-5 py-3 font-medium text-white transition-colors hover:bg-indigo-700"
+        <a
+          href="https://app.gather.town/invite?token=14Xcl0LAQlCAMrEenIcl"
+          className="transform rounded-md bg-indigo-600/95 px-5 py-3 font-medium text-white transition-colors hover:bg-indigo-700"
         >
           Digital office Space
-        </a></Link>
+        </a>
         
       </div>
     </div>
