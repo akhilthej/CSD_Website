@@ -16,6 +16,8 @@ import GetQuotation from './routes/GetQuotation';
 import Aboutus from './routes/Aboutus';
 import Contactus from './routes/CONTACTUS';
 
+import Reactblog from './components/PAGES/Technologies/Blogpages/Reactblog';
+
 
 function App() {
   return (
@@ -31,7 +33,9 @@ function App() {
 
 
         <Route path='/services' element={<Services />} />
+
         <Route path='/technologies' element={<Technologies />} />
+              <Route path='/reactblog' element={<Reactblog />} />
         
         <Route path='/clients' element={<Clients />} />
         <Route path='/reviews' element={<Reviews />} />

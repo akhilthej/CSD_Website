@@ -1,42 +1,26 @@
-import React from 'react'
+import React from 'react';
+import {Link} from 'react-router-dom';
+
+
+import './TechnologiesHeader.scss';
 
 const TechnologiesHeader = () => {
   return (
-    <>
-  {/*Technology Title Card*/}
-  <section className="mt-2 flex items-center justify-center bg-white pb-20">
-    <div className="mx-auto max-w-[43rem]">
-      <div className="text-center">
-        <p className="text-lg font-medium leading-8 text-indigo-600/95">
-          [ TECHNOLOGIES ]
-        </p>
-        <h1 className="mt-3 text-[3.5rem] font-bold leading-[4rem] tracking-tight text-black">
-          Distribute your brand from&nbsp;design to code
-        </h1>
-        <p className="mt-3 text-lg leading-relaxed text-slate-400">
-          Specify helps you unify your brand identity by collecting, storing and
-          distributing design tokens and assets — automatically.
-        </p>
+  <div class="TechnologiesHeader-wrapper">
+    <div class="TechnologiesHeader-container">
+      <h1 className='sm:text-7xl uppercase font-black  m-auto min-w-full '>Technologies</h1>
+        <p class='text-white mt-5'>CSD is known for its freelance services.
+          <br />We are a team of developers, technology enthusiasts, creative designers, content developers ,
+          <br />creative directors and web art developers. We come together to build your businesses across the globe.</p>
+  
+      <div class="mt-8 flex flex-wrap justify-center gap-4">
+        <Link to= '/aboutus'>
+        <a class="block w-full rounded border border-bg-green-300 px-12 py-3 text-sm font-medium text-white hover:bg-green-700 focus:outline-none focus:ring  sm:w-auto ">
+        Learn More </a></Link>
       </div>
-      <div className="mt-6 flex items-center justify-center gap-4">
-        <a
-          href="#"
-          className="transform rounded-md bg-indigo-600/95 px-5 py-3 font-medium text-white transition-colors hover:bg-indigo-700"
-        >
-          Get started for free
-        </a>
-        <a
-          href="#"
-          className="transform rounded-md border border-slate-200 px-5 py-3 font-medium text-slate-900 transition-colors hover:bg-slate-50"
-        >
-          {" "}
-          Request a demo{" "}
-        </a>
-      </div>
-    </div>
-  </section>
-</>
 
+  </div>
+</div>
   )
 }
 

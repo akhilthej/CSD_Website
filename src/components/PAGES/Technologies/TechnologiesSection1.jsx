@@ -1,49 +1,87 @@
-import React from 'react'
+import React from 'react';
+import {Link} from 'react-router-dom';
 
 const TechnologiesSection1 = () => {
   return (
-    <section className="bg-white dark:bg-gray-900">
-  <div className="container px-6 py-10 mx-auto">
-    <h1 className="text-3xl font-semibold text-gray-800 capitalize lg:text-4xl dark:text-white">
-      From the blog
-    </h1>
-    <div className="mt-8 lg:-mx-6 lg:flex lg:items-center">
-      <img
-        className="object-cover w-full lg:mx-6 lg:w-1/2 rounded-xl h-72 lg:h-96"
-        src="https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
-        alt=""
-      />
-      <div className="mt-6 lg:w-1/2 lg:mt-0 lg:mx-6 ">
-        <p className="text-sm text-blue-500 uppercase">category</p>
-        <a
-          href="#"
-          className="block mt-4 text-2xl font-semibold text-gray-800 hover:underline dark:text-white md:text-3xl"
-        >
-          All the features you want to know
-        </a>
-        <p className="mt-3 text-sm text-gray-500 dark:text-gray-300 md:text-sm">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure
-          veritatis sint autem nesciunt, laudantium quia tempore delect
-        </p>
-        <a
-          href="#"
-          className="inline-block mt-2 text-blue-500 underline hover:text-blue-400"
-        >
-          Read more
-        </a>
-        <div className="flex items-center mt-6">
+    <main>
+      <section className="text-gray-600 body-font">
+  <div className="container px-5 py-24 mx-auto">
+    <div className="flex flex-wrap -m-4">
+      <div className="p-4 md:w-1/3">
+        <div className="h-full rounded-xl shadow-cla-blue bg-gradient-to-r from-indigo-50 to-blue-50 overflow-hidden">
           <img
-            className="object-cover object-center w-10 h-10 rounded-full"
-            src="https://images.unsplash.com/photo-1531590878845-12627191e687?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
-            alt=""
+            className="lg:h-48 md:h-36 w-full object-cover object-center scale-110 transition-all duration-400 hover:scale-100"
+            src="https://images.unsplash.com/photo-1618172193622-ae2d025f4032?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1064&q=80"
+            alt="blog"
           />
-          <div className="mx-4">
-            <h1 className="text-sm text-gray-700 dark:text-gray-200">
-              Amelia. Anderson
+          <div className="p-6">
+            <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
+              CATEGORY-1
+            </h2>
+            <h1 className="title-font text-lg font-medium text-gray-600 mb-3">
+              The Catalyzer
             </h1>
-            <p className="text-sm text-gray-500 dark:text-gray-400">
-              Lead Developer
+            <p className="leading-relaxed mb-3">
+              Photo booth fam kinfolk cold-pressed sriracha leggings jianbing
+              microdosing tousled waistcoat.
             </p>
+            <div className="flex items-center flex-wrap ">
+              <Link to ='/reactblog'><button className="bg-gradient-to-r from-cyan-400 to-blue-400 hover:scale-105 drop-shadow-md  shadow-cla-blue px-4 py-1 rounded-lg">
+                Learn more
+              </button></Link>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="p-4 md:w-1/3">
+        <div className="h-full rounded-xl shadow-cla-violate bg-gradient-to-r from-pink-50 to-red-50 overflow-hidden">
+          <img
+            className="lg:h-48 md:h-36 w-full object-cover object-center scale-110 transition-all duration-400 hover:scale-100"
+            src="https://images.unsplash.com/photo-1624628639856-100bf817fd35?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8M2QlMjBpbWFnZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60"
+            alt="blog"
+          />
+          <div className="p-6">
+            <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
+              CATEGORY-1
+            </h2>
+            <h1 className="title-font text-lg font-medium text-gray-600 mb-3">
+              The Catalyzer
+            </h1>
+            <p className="leading-relaxed mb-3">
+              Photo booth fam kinfolk cold-pressed sriracha leggings jianbing
+              microdosing tousled waistcoat.
+            </p>
+            <div className="flex items-center flex-wrap ">
+              <button className="bg-gradient-to-r from-orange-300 to-amber-400 hover:scale-105 drop-shadow-md shadow-cla-violate px-4 py-1 rounded-lg">
+                Learn more
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="p-4 md:w-1/3">
+        <div className="h-full rounded-xl shadow-cla-pink bg-gradient-to-r from-fuchsia-50 to-pink-50 overflow-hidden">
+          <img
+            className="lg:h-48 md:h-36 w-full object-cover object-center scale-110 transition-all duration-400 hover:scale-100"
+            src="https://images.unsplash.com/photo-1631700611307-37dbcb89ef7e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDIwfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=600&q=60"
+            alt="blog"
+          />
+          <div className="p-6">
+            <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
+              CATEGORY-1
+            </h2>
+            <h1 className="title-font text-lg font-medium text-gray-600 mb-3">
+              The Catalyzer
+            </h1>
+            <p className="leading-relaxed mb-3">
+              Photo booth fam kinfolk cold-pressed sriracha leggings jianbing
+              microdosing tousled waistcoat.
+            </p>
+            <div className="flex items-center flex-wrap ">
+              <button className="bg-gradient-to-r from-fuchsia-300 to-pink-400 hover:scale-105  shadow-cla-blue px-4 py-1 rounded-lg">
+                Learn more
+              </button>
+            </div>
           </div>
         </div>
       </div>
@@ -51,6 +89,8 @@ const TechnologiesSection1 = () => {
   </div>
 </section>
 
+
+    </main>
 
   )
 }
