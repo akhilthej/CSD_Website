@@ -4,7 +4,7 @@ import HomeHeroVideo from '../../../assets/HomeHeroVideo.mp4'
 
 const HomeHero = () => {
   return (
-    <div className='z-0 w-full h-screen '>
+    <div className='z-0 w-full h-screen -mt-20'>
         <div className="absolute w-full h-full  "></div>
         <video className='w-full h-full object-cover ' src={HomeHeroVideo} autoPlay loop muted />
         <div className="absolute w-full h-full top-0 flex flex-col justify-center items-center text-white text-center">

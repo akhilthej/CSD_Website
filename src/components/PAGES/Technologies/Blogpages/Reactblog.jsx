@@ -1,124 +1,119 @@
-import React from 'react';
-import {Link} from 'react-router-dom';
+import React from 'react'
 
 const Reactblog = () => {
   return (
-	<>
-  <link
-    rel="stylesheet"
-    href="https://demos.creative-tim.com/notus-js/assets/styles/tailwind.css"
-  />
-  <link
-    rel="stylesheet"
-    href="https://demos.creative-tim.com/notus-js/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css"
-  />
-  <main className="profile-page">
-    <section className="relative block h-500-px">
-      <div
-        className="absolute top-0 w-full h-full bg-center bg-cover"
-        style={{
-          backgroundImage:
-            'url("https://images.unsplash.com/photo-1499336315816-097655dcfbda?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2710&q=80")'
-        }}
-      >
-        <span
-          id="blackOverlay"
-          className="w-full h-full absolute opacity-50 bg-black"
-        />
-      </div>
-      <div
-        className="top-auto bottom-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden h-70-px"
-        style={{ transform: "translateZ(0px)" }}
-      >
-        <svg
-          className="absolute bottom-0 overflow-hidden"
-          xmlns="http://www.w3.org/2000/svg"
-          preserveAspectRatio="none"
-          version="1.1"
-          viewBox="0 0 2560 100"
-          x={0}
-          y={0}
-        >
-          <polygon
-            className="text-blueGray-200 fill-current"
-            points="2560 0 2560 100 0 100"
-          />
-        </svg>
-      </div>
-    </section>
-    <section className="relative py-16 bg-blueGray-200">
-      <div className="container mx-auto px-4">
-        <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-xl rounded-lg -mt-64">
-          <div className="px-6">
-            <div className="flex flex-wrap justify-center">
-              <div className="w-full lg:w-3/12 px-4 lg:order-2 flex justify-center">
-                <div className="relative">
-                  <img
-                    alt="..."
-                    src="https://drive.google.com/uc?export=view&id=11_CezP5LvHpqyiZOPIgsIsFiPi6yHynR"
-                    className="shadow-xl rounded-full h-auto align-middle border-none absolute -m-16 -ml-20 lg:-ml-16 max-w-150-px"
-                  />
-                </div>
-              </div>
-              <div className="w-full lg:w-4/12 px-4 lg:order-3 lg:text-right lg:self-center">
-                <div className="py-6 px-3 mt-32 sm:mt-0">
-				<a href="https://www.instagram.com/cyber.space.digital">
-                  <button className="bg-green-700 active:bg-green-600 uppercase text-white font-bold hover:shadow-md shadow text-xs px-4 py-2 rounded outline-none focus:outline-none sm:mr-2 mb-1 ease-linear transition-all duration-150"
-                    type="button"> Connect </button></a>
-                </div>
-              </div>
-              <div className="w-full lg:w-4/12 px-4 lg:order-1">
-                <div className="py-6 px-3 mt-32 sm:mt-0">
-				<a href="https://www.instagram.com/cyber.space.digital">
-                  <button className="bg-green-700 active:bg-green-600 uppercase text-white font-bold hover:shadow-md shadow text-xs px-4 py-2 rounded outline-none focus:outline-none sm:mr-2 mb-1 ease-linear transition-all duration-150"
-                    type="button"> Contact Us </button></a>
-              </div>
-              </div>
-            </div>
-            <div className="text-center mt-12">
-              <h3 className="text-4xl font-semibold leading-normal mb-2 text-blueGray-700 ">
-                React.js
-              </h3>
-            </div>
-            <div className="mt-10 py-10 border-t border-blueGray-200 text-center">
-              <div className="flex flex-wrap justify-center">
-                <div className="w-full lg:w-9/12 px-4">
-                  <p className="mb-4 text-lg leading-relaxed text-blueGray-700">
-                    An artist of considerable range, Jenna the name taken by
-                    Melbourne-raised, Brooklyn-based Nick Murphy writes,
-                    performs and records all of his own music, giving it a warm,
-                    intimate feel with a solid groove structure. An artist of
-                    considerable range.
-                  </p>
-                
-                </div>
-              </div>
-            </div>
-          </div>
+    <>
+  {/* Component Code */}
+  <div className="max-w-screen-xl mx-auto p-5 sm:p-10 md:p-16 relative">
+    <div
+      className="bg-cover h-64 text-center overflow-hidden"
+      style={{
+        height: 450,
+        backgroundImage:
+          'url("http://drive.google.com/uc?export=view&id=1IEuFboh98HbpXskEXiY6CRzQ8izXTf0d")'
+      }}
+      
+    ></div>
+    <div className="max-w-2xl mx-auto">
+      <div className="mt-3 bg-white rounded-b lg:rounded-b-none lg:rounded-r flex flex-col justify-between leading-normal">
+        <div className="">
+          <a
+            className="text-xs text-indigo-600 uppercase font-medium hover:text-gray-900 transition duration-500 ease-in-out"
+          >
+            Web Development
+          </a>
+          ,{" "}
+          <a
+            className="text-xs text-indigo-600 uppercase font-medium hover:text-gray-900 transition duration-500 ease-in-out"
+          >
+            Front-end
+          </a>
+          <h1 href="#" className="text-gray-900 font-bold text-3xl mb-2">
+            React.js
+          </h1>
+          <p className="text-gray-700 text-xs mt-2">
+            Written By:{" "}
+            <a
+              href="https://cyberspacedigital.in/"
+              className="text-indigo-600 font-medium hover:text-gray-900 transition duration-500 ease-in-out"
+            >
+              CSD
+            </a>
+          </p>
+          <p className="text-base leading-8 my-5">
+          React is a popular JavaScript library used for web development. 
+          React.js or ReactJS or React are different ways to represent ReactJS. 
+          Today’s many large-scale companies (Netflix, Instagram, to name a few) 
+          also use React JS. There are many advantages of using this framework over 
+          other frameworks, and It’s ranking under the top 10 programming languages 
+          for the last few years under various language ranking indices.
+          </p>
+          <h3 className="text-2xl font-bold my-5">#1. What is Lorem Ipsum?</h3>
+          <p className="text-base leading-8 my-5">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. It has survived not
+            only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged. It was popularised in the 1960s
+            with the release of Letraset sheets containing Lorem Ipsum passages,
+            and more recently with desktop publishing software like Aldus
+            PageMaker including versions of Lorem Ipsum.
+          </p>
+          <blockquote className="border-l-4 text-base italic leading-8 my-5 p-5 text-indigo-600">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s
+          </blockquote>
+          <p className="text-base leading-8 my-5">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. It has survived not
+            only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged. It was popularised in the 1960s
+            with the release of Letraset sheets containing Lorem Ipsum passages,
+            and more recently with desktop publishing software like Aldus
+            PageMaker including versions of Lorem Ipsum.
+          </p>
+          <a
+            href="#"
+            className="text-xs text-indigo-600 font-medium hover:text-gray-900 transition duration-500 ease-in-out"
+          >
+            #Election
+          </a>
+          ,{" "}
+          <a
+            href="#"
+            className="text-xs text-indigo-600 font-medium hover:text-gray-900 transition duration-500 ease-in-out"
+          >
+            #people
+          </a>
+          ,{" "}
+          <a
+            href="#"
+            className="text-xs text-indigo-600 font-medium hover:text-gray-900 transition duration-500 ease-in-out"
+          >
+            #Election2020
+          </a>
+          ,{" "}
+          <a
+            href="#"
+            className="text-xs text-indigo-600 font-medium hover:text-gray-900 transition duration-500 ease-in-out"
+          >
+            #trump
+          </a>
+          ,
+          <a
+            href="#"
+            className="text-xs text-indigo-600 font-medium hover:text-gray-900 transition duration-500 ease-in-out"
+          >
+            #Joe
+          </a>
         </div>
       </div>
-      <footer className="relative bg-blueGray-200 pt-8 pb-6 mt-8">
-        <div className="container mx-auto px-4">
-          <div className="flex flex-wrap items-center md:justify-between justify-center">
-            <div className="w-full md:w-6/12 px-4 mx-auto text-center">
-              <div className="text-sm text-blueGray-500 font-semibold py-1">
-                Made by{" "}
-                <a
-                  href="https://www.instagram.com/cyber.space.digital/"
-                  className="text-blueGray-500 hover:text-blueGray-800"
-                  target="_blank"
-                >
-                  {" "}
-                  #CyberSpaceDigital
-                </a>
-                .
-              </div>
-            </div>
-          </div>
-        </div>
-      </footer>
-    </section>
-  </main>
+    </div>
+  </div>
 </>
 
   )

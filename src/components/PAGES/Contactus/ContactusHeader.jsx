@@ -7,9 +7,7 @@ const ContactusHeader = () => {
   <section className="mt-2 flex items-center justify-center bg-white ">
     <div className="mx-auto max-w-[43rem]">
       <div className="text-center">
-        <p className="text-lg font-medium leading-8 text-indigo-600/95">
-          [ SERVICES ]
-        </p>
+        
         <h1 className="mt-3 text-[3.5rem] font-bold leading-[4rem] tracking-tight text-black">
         Get in touch,<br />we’d love to hear from you.
         </h1>

@@ -57,7 +57,7 @@ const About = () => {
         <div>
           <h4 className="text-2xl">Akhil Thej Reddy</h4>
           <span className="block text-sm text-gray-500">
-            Founder<br/>Chief Technical Officer</span>
+            Founder<br/>Chief Executive Officer<br/>( Full Stack Developer )</span>
         </div>
       </div>
       <div className="space-y-4 text-center">
@@ -71,7 +71,7 @@ const About = () => {
         <div>
           <h4 className="text-2xl">Patner</h4>
           <span className="block text-sm text-gray-500">
-            Chief Operations Officer
+            Chief Technical Officer
           </span>
         </div>
       </div>
@@ -85,25 +85,26 @@ const About = () => {
         <section className="bg-gray-900">
   <div className="container px-6 py-10 mx-auto">
     <h1 className="text-3xl font-semibold text-center capitalize lg:text-4xl text-white">
-      Our Executive Team
+      Our Team, Friends & Family
     </h1>
     <p className="max-w-2xl mx-auto my-6 text-center text-gray-300">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo incidunt ex
-      placeat modi magni quia error alias, adipisci rem similique, at omnis
-      eligendi optio eos harum.
+      We have a dedicated team of quick-learners and more than 10 years of experince in each craft.
     </p>
     <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-4">
       <div className="flex flex-col items-center p-8 transition-colors duration-200 transform cursor-pointer group hover:bg-blue-600 rounded-xl">
         <img
-          className="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300"
-          src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+          className="object-cover w-32 h-42 rounded-full ring-2 ring-gray-300"
+          src="http://drive.google.com/uc?export=view&id=1BGwKANvkHsETmSysa49o23urActBB12a"
           alt=""
         />
         <h1 className="mt-4 text-2xl font-semibold  capitalize text-white group-hover:text-white">
-          arthur melo
+          Chaitanya Teja
         </h1>
         <p className="mt-2  capitalize text-gray-300 group-hover:text-gray-300">
-          design director
+         Senior AWS cloud
+        </p>
+        <p className="mt-2  text-sm capitalize text-gray-300 group-hover:text-gray-300">
+         devops engineer
         </p>
         <div className="flex mt-3 -mx-2">
           <a
@@ -152,12 +153,12 @@ const About = () => {
       </div>
       <div className="flex flex-col items-center p-8 transition-colors duration-200 transform cursor-pointer group hover:bg-blue-600 rounded-xl">
         <img
-          className="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300"
-          src="https://images.unsplash.com/photo-1531590878845-12627191e687?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
+          className="object-cover w-32 h-42 rounded-full ring-2 ring-gray-300"
+          src="http://drive.google.com/uc?export=view&id=1ANDL7Gfan4ejG2sMHqZVjanODSk8yvlB"
           alt=""
         />
         <h1 className="mt-4 text-2xl font-semibold capitalize text-white group-hover:text-white">
-          Amelia. Anderson
+          Srikar
         </h1>
         <p className="mt-2  capitalize text-gray-300 group-hover:text-gray-300">
           Lead Developer
@@ -209,12 +210,12 @@ const About = () => {
       </div>
       <div className="flex flex-col items-center p-8 transition-colors duration-200 transform cursor-pointer group hover:bg-blue-600 rounded-xl">
         <img
-          className="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300"
-          src="https://images.unsplash.com/photo-1488508872907-592763824245?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+          className="object-cover w-32 h-42 rounded-full ring-2 ring-gray-300"
+          src="http://drive.google.com/uc?export=view&id=1jLmasDLG1HHlT4MoK4_IBQyoDvaC8_oV"
           alt=""
         />
         <h1 className="mt-4 text-2xl font-semibold  capitalize text-white group-hover:text-white">
-          Olivia Wathan
+          Sai Kiran
         </h1>
         <p className="mt-2  capitalize text-gray-300 group-hover:text-gray-300">
           Lead designer
@@ -266,15 +267,18 @@ const About = () => {
       </div>
       <div className="flex flex-col items-center p-8 transition-colors duration-200 transform cursor-pointer group hover:bg-blue-600 rounded-xl">
         <img
-          className="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300"
-          src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+          className="object-cover w-32 h-42 rounded-full ring-2 ring-gray-300"
+          src="http://drive.google.com/uc?export=view&id=1TVZBZvfxP5yIPcWGZVkkuNFg_XVQc5UY"
           alt=""
         />
         <h1 className="mt-4 text-2xl font-semibold  capitalize text-white group-hover:text-white">
-          John Doe
+          Tej Varun
         </h1>
         <p className="mt-2  capitalize text-gray-300 group-hover:text-gray-300">
-          Full stack developer
+        Senior Graphic Designer
+        </p>
+        <p className="mt-2  text-sm capitalize text-gray-300 group-hover:text-gray-300">
+         Senior Video Editor
         </p>
         <div className="flex mt-3 -mx-2">
           <a
