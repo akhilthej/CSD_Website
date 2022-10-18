@@ -8,10 +8,14 @@
     filter: drop-shadow(0 0.9rem 0.25rem rgba(0, 0, 0, 0.2));
     padding: 1.5rem;   
     text-align: center;
+    margin-top: -5%;
+    padding-top: 10%;
+    
     
   }
 
   .TechnologiesHeader-container h1 {
+    max-width: fit-content;
     background: linear-gradient(219deg, 
       var(--color-1TG) 19%, 
       transparent 19%,transparent 20%, 
