@@ -1,6 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-
+import Subscribe from '../../assets/Icons/Subscribe.png'
 
 
 import footer_csd from '../../assets/Common/footer_csd.png';
@@ -10,6 +10,51 @@ const Footer = () => {
   return (
     
     <main>
+
+      {/*Subscription section*/}
+  <section>
+
+<div className="bg-white  flex items-center justify-center">
+  <div className="mx-auto w-full max-w-screen-lg bg-white px-5 py-10">
+    <div className="grid gap-5 md:grid-cols-2 md:gap-10 lg:gap-20">
+      <div className="flex justify-center md:justify-end">
+        <img
+          className="w-full max-w-sm"
+          src={Subscribe}
+          alt="Marketing newsletter via computer Illustration in PNG, SVG"
+        />
+      </div>
+      <div className="flex items-center">
+        <div className="mx-auto md:mx-0">
+          <h3 className="text-4xl font-bold text-black">Subscribe</h3>
+          <p className="mt-2 max-w-[20rem] text-lg text-black">
+            Join our weekly digest. You'll also receive some of our best posts
+            today.
+          </p>
+          <form action="" className="mt-4 flex flex-col">
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Enter your email"
+              className="w-full rounded border border-black/50 bg-transparent px-3 py-2 text-white placeholder:text-black/50 md:max-w-[18rem]"
+            />
+            <button
+              type="submit"
+              className="mt-4 w-full max-w-[14rem] rounded bg-blue-600 hover:bg-blue-900 px-14 py-2 text-center text-white"
+            >
+              Subscribe
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+
+      {/* Donwload Section */}
         <section>
         <div class="p-4 w-full text-center bg-gray-900   shadow-md sm:p-8 ">
     <h5 class="mb-2 text-3xl font-bold text-white">Work fast from anywhere</h5>
@@ -213,22 +258,23 @@ const Footer = () => {
         <div>
           <p className="font-medium text-white">Legal</p>
           <nav className="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
-            <a className="hover:opacity-75" href="#/privacypolicy">
+            <Link to='/privacypolicy'><a className="hover:opacity-75">
               {" "}
               Privacy Policy{" "}
-            </a>
-            <a className="hover:opacity-75" href="">
+            </a></Link>
+
+            <Link to='/terms&conditions'><a className="hover:opacity-75">
               {" "}
               Terms &amp; Conditions{" "}
-            </a>
+            </a></Link>
             <a className="hover:opacity-75" href="">
               {" "}
               Returns Policy{" "}
             </a>
-            <a className="hover:opacity-75" href="">
+            <Link to='/disclaimer'><a className="hover:opacity-75" href="">
               {" "}
-              Accessibility{" "}
-            </a>
+              Disclaimer{" "}
+            </a></Link>
           </nav>
         </div>
       </div>
@@ -237,6 +283,9 @@ const Footer = () => {
   </div>
 </footer>
 <section/>
+
+
+  
 
     {/* Whatapp us */}
   <div className="flex items-end justify-start fixed bottom-0 left-0 ml-4 z-10">

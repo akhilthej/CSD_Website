@@ -8,7 +8,6 @@ import Homesection1 from '../components/PAGES/HOME PAGE/Homesection1'
 import SideCard from '../components/PAGES/HOME PAGE/SideCard'
 import WhatDoWeDo from '../components/PAGES/HOME PAGE/WhatDoWeDo'
 import Herosection2 from '../components/PAGES/HOME PAGE/Herosection2'
-import Subscriberform from '../components/Tools/Subscriberform'
 import SideCard2 from '../components/PAGES/HOME PAGE/SideCard2'
 
 
@@ -24,7 +23,7 @@ const Home = () => {
             <Herosection2 />
             <WhatDoWeDo />
             <SideCard2 />
-            <Subscriberform />
+           
             
 
         </div>
