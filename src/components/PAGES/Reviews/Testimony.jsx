@@ -16,13 +16,13 @@ const Testimony = () => {
     <figcaption className="flex justify-center items-center space-x-3">
       <img
         className="w-9 h-9 rounded-full"
-        src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/karen-nelson.png"
+        src="https://drive.google.com/uc?export=view&id=1ZfZFxaOL5upxwVjnt9K2MdoTRzHjBpIP"
         alt="profile picture"
       />
       <div className="space-y-0.5 font-medium  text-left">
-        <div>Bonnie Green</div>
+        <div>Usha P</div>
         <div className="text-sm font-light text-gray-500 ">
-          Developer at Open AI
+        Business (Marketing)
         </div>
       </div>
     </figcaption>
@@ -33,20 +33,19 @@ const Testimony = () => {
         Solid foundation for any project
       </h3>
       <p className="my-4 font-light">
-        Designing with Figma components that can be easily translated to the
-        utility classes of Tailwind CSS is a huge timesaver!"
+        Its been amazing working with your team.
       </p>
     </blockquote>
     <figcaption className="flex justify-center items-center space-x-3">
       <img
         className="w-9 h-9 rounded-full"
-        src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/roberta-casas.png"
+        src="https://drive.google.com/uc?export=view&id=13h6rIUy-L8wXGtS-V-Aqv3TKTauVsW2l"
         alt="profile picture"
       />
       <div className="space-y-0.5 font-medium  text-left">
-        <div>Roberta Casas</div>
+        <div>Sameera Reddy</div>
         <div className="text-sm font-light text-gray-500 ">
-          Lead designer at Dropbox
+          Designer
         </div>
       </div>
     </figcaption>
@@ -57,20 +56,20 @@ const Testimony = () => {
         Mindblowing workflow
       </h3>
       <p className="my-4 font-light">
-        Aesthetically, the well designed components are beautiful and will
-        undoubtedly level up your next application."
+        I am amazed with the delivery time and build quality.Happy to find you guys.
+        Thanks for giving such an amazing support.
       </p>
     </blockquote>
     <figcaption className="flex justify-center items-center space-x-3">
       <img
         className="w-9 h-9 rounded-full"
-        src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png"
+        src="https://drive.google.com/uc?export=view&id=1M-AbRa9kv65LR2UrqKyIlylpYLzUNDla"
         alt="profile picture"
       />
       <div className="space-y-0.5 font-medium  text-left">
-        <div>Jese Leos</div>
+        <div>Sundeep R</div>
         <div className="text-sm font-light text-gray-500 ">
-          Software Engineer at Facebook
+          Business (e-commerce)
         </div>
       </div>
     </figcaption>
@@ -81,20 +80,20 @@ const Testimony = () => {
         Efficient Collaborating
       </h3>
       <p className="my-4 font-light">
-        You have many examples that can be used to create a fast prototype for
-        your team."
+        You have many examples to create a fast prototype.
+        i am surprised with the delivery quality. Keep up the good work!
       </p>
     </blockquote>
     <figcaption className="flex justify-center items-center space-x-3">
       <img
         className="w-9 h-9 rounded-full"
-        src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/joseph-mcfall.png"
+        src="https://drive.google.com/uc?export=view&id=16wqeCgQZNrLOimkyX7Zj2mYastAIGLTJ"
         alt="profile picture"
       />
       <div className="space-y-0.5 font-medium  text-left">
-        <div>Joseph McFall</div>
+        <div>Dipika Joseph</div>
         <div className="text-sm font-light text-gray-500 ">
-          CTO at Google
+          Business (Pharma)
         </div>
       </div>
     </figcaption>
