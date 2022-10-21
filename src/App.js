@@ -1,6 +1,7 @@
 import React from 'react';import { Routes, Route} from 'react-router-dom';
 import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
+import PrivacyPolicy from './components/PAGES/Aboutus/PrivacyPolicy';
 
 import Home from './routes/HOME'
 import Error404 from './components/Tools/Error404';
@@ -44,6 +45,8 @@ function App() {
 
         <Route path='/aboutus' element={<Aboutus />} />
         <Route path='/contactus' element={<Contactus />} /> 
+        <Route path='/privacypolicy' element={<PrivacyPolicy />} /> 
+        
         </Routes>
       
         </>

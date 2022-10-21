@@ -213,7 +213,7 @@ const Footer = () => {
         <div>
           <p className="font-medium text-white">Legal</p>
           <nav className="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
-            <a className="hover:opacity-75" href="">
+            <a className="hover:opacity-75" href="#/privacypolicy">
               {" "}
               Privacy Policy{" "}
             </a>
