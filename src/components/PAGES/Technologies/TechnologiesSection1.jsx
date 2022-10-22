@@ -11,7 +11,7 @@ const TechnologiesSection1 = () => {
         <div className="h-full rounded-xl shadow-cla-blue bg-gradient-to-r from-indigo-50 to-blue-50 overflow-hidden">
           <img
             className="lg:h-48 md:h-36 w-full object-cover object-center scale-110 transition-all duration-400 hover:scale-100"
-            src="http://drive.google.com/uc?export=view&id=1IEuFboh98HbpXskEXiY6CRzQ8izXTf0d&auto=format&fit=crop&w=1064&q=80"
+            src="https://drive.google.com/uc?export=view&id=1IEuFboh98HbpXskEXiY6CRzQ8izXTf0d&auto=format&fit=crop&w=1064&q=80"
           
           />
           <div className="p-6">

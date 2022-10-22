@@ -21,7 +21,7 @@ const SideCard2 = () => {
           <div className="md:flex md:items-start md:-mx-4">
             <span className="inline-block p-2 text-white bg-blue-500 rounded-xl md:mx-4  ">
               <svg
-                xmlns="http://www.w3.org/2000/svg"
+                xmlns="https://www.w3.org/2000/svg"
                 className="w-6 h-6"
                 fill="none"
                 viewBox="0 0 24 24"
@@ -49,7 +49,7 @@ const SideCard2 = () => {
           <div className="md:flex md:items-start md:-mx-4">
             <span className="inline-block p-2 text-white bg-blue-500 rounded-xl md:mx-4 ">
               <svg
-                xmlns="http://www.w3.org/2000/svg"
+                xmlns="https://www.w3.org/2000/svg"
                 className="w-6 h-6"
                 fill="none"
                 viewBox="0 0 24 24"
@@ -77,7 +77,7 @@ const SideCard2 = () => {
           <div className="md:flex md:items-start md:-mx-4">
             <span className="inline-block p-2 text-white  bg-blue-500 rounded-xl md:mx-4 ">
               <svg
-                xmlns="http://www.w3.org/2000/svg"
+                xmlns="https://www.w3.org/2000/svg"
                 className="w-6 h-6"
                 fill="none"
                 viewBox="0 0 24 24"
@@ -122,7 +122,7 @@ const SideCard2 = () => {
         <div className="flex items-center justify-center col-span-1 md:col-span-2 lg:col-span-1">
           <svg
             className="h-12 text-gray-300 fill-current "
-            xmlns="http://www.w3.org/2000/svg"
+            xmlns="https://www.w3.org/2000/svg"
             viewBox="0 0 266 100"
           >
             <path fill="none" d="M0 0h266v100H0z" />
@@ -132,8 +132,8 @@ const SideCard2 = () => {
         <div className="flex items-center justify-center col-span-1 md:col-span-2 lg:col-span-1">
           <svg
             className="h-10 text-gray-300 fill-current "
-            xmlns="http://www.w3.org/2000/svg"
-            xmlnsXlink="http://www.w3.org/1999/xlink"
+            xmlns="https://www.w3.org/2000/svg"
+            xmlnsXlink="https://www.w3.org/1999/xlink"
             viewBox="0 0 316 60"
           >
             <g transform="translate(9.259 4.552) scale(.4941)">
@@ -157,7 +157,7 @@ const SideCard2 = () => {
           <svg
             className="h-8 mt-2 text-gray-300 fill-current "
             viewBox="0 0 398 120"
-            xmlns="http://www.w3.org/2000/svg"
+            xmlns="https://www.w3.org/2000/svg"
           >
             <g fillRule="nonzero">
               <path d="M247.292 94.106C224.124 111.016 190.526 120 161.608 120c-40.544 0-77.046-14.822-104.673-39.476-2.164-1.936-.235-4.583 2.369-3.082 29.806 17.15 66.66 27.475 104.731 27.475 25.677 0 53.906-5.271 79.884-16.163 3.923-1.646 7.21 2.545 3.373 5.352" />
@@ -168,7 +168,7 @@ const SideCard2 = () => {
         <div className="flex items-center justify-center col-span-1 md:col-span-3 lg:col-span-1">
           <svg
             className="h-5 mt-1 text-gray-300 fill-current "
-            xmlns="http://www.w3.org/2000/svg"
+            xmlns="https://www.w3.org/2000/svg"
             viewBox="0 0 278.7 36.3"
           >
             <g>
@@ -183,7 +183,7 @@ const SideCard2 = () => {
           <svg
             className="h-8 text-gray-300 fill-current "
             viewBox="0 0 2270 546"
-            xmlns="http://www.w3.org/2000/svg"
+            xmlns="https://www.w3.org/2000/svg"
           >
             <g fillRule="evenodd">
               <path
