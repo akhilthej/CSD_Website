@@ -3,6 +3,7 @@ import React from 'react';
 const About = () => {
     return (
         <main>
+          {/*for drive visiblity (http://drive.google.com/uc?export=view&id=) */}
         <div className="2xl:container 2xl:mx-auto lg:py-16 lg:px-20 md:py-12 md:px-6 py-9 px-4">
             <div className="flex flex-col lg:flex-row justify-between gap-8">
                 <div className="w-full lg:w-5/12 flex flex-col justify-center">
@@ -36,7 +37,7 @@ const About = () => {
       <div className="space-y-4 text-center">
         <img
           className="w-64 h-64 mx-auto object-cover rounded-xl md:w-40 md:h-40 lg:w-64 lg:h-64"
-          src="https://drive.google.com/uc?export=view&id=1bwO3a9nrCA4R64Y582Os7GCI7GPpu5Qt"
+          src="https://raw.githubusercontent.com/akhilthej/CDSDump/main/About/pavan.png"
           loading="lazy"
           width={640}
           height={805}
@@ -49,7 +50,7 @@ const About = () => {
       <div className="space-y-4 text-center">
         <img
           className="w-64 h-64 mx-auto object-cover rounded-xl md:w-48 md:h-64 lg:w-64 lg:h-80"
-          src="https://drive.google.com/uc?export=view&id=1MOs5X4WY0fcWTD72c0ukrUzaEzHcLpQ4"
+          src="https://raw.githubusercontent.com/akhilthej/CDSDump/main/About/Founder.png"
           loading="lazy"
           width={1000}
           height={667}
@@ -94,7 +95,7 @@ const About = () => {
       <div className="flex flex-col items-center p-8 transition-colors duration-200 transform cursor-pointer group hover:bg-blue-600 rounded-xl">
         <img
           className="object-cover w-32 h-42 rounded-full ring-2 ring-gray-300"
-          src="http://drive.google.com/uc?export=view&id=1BGwKANvkHsETmSysa49o23urActBB12a"
+          src="https://raw.githubusercontent.com/akhilthej/CDSDump/main/About/chaitanya%20teja.jpeg"
           alt=""
         />
         <h1 className="mt-4 text-2xl font-semibold  capitalize text-white group-hover:text-white">
