@@ -219,7 +219,7 @@ const About = () => {
           Sai Kiran
         </h1>
         <p className="mt-2  capitalize text-gray-300 group-hover:text-gray-300">
-          Lead designer
+          designer
         </p>
         <div className="flex mt-3 -mx-2">
           <a
