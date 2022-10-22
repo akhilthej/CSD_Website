@@ -1,4 +1,5 @@
 import React from 'react';
+import { motion } from 'framer-motion';
 import HomeCards from '../components/PAGES/HOME PAGE/HomeCards';
 
 import HomeHero from '../components/PAGES/HOME PAGE/HomeHero'
@@ -13,7 +14,11 @@ import SideCard2 from '../components/PAGES/HOME PAGE/SideCard2'
 
 const Home = () => {
     return (
-        <div>
+        <motion.div className='home'
+        intial={{opacity: 0}}
+        animate={{opacity: 1}}
+        exit={{opacity: 0}}
+        >
             <HomeHero />
             <HomeCards />
             <SideCard />
@@ -26,7 +31,7 @@ const Home = () => {
            
             
 
-        </div>
+        </motion.div>
             
         
         
