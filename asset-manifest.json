@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.3bce77bf.css",
-    "main.js": "/static/js/main.ef139e68.js",
-    "static/media/HomeHeroVideo.mp4": "/static/media/HomeHeroVideo.634f83d78a4ed475c545.mp4",
-    "static/media/democover.jpg": "/static/media/democover.d6b5331c54468424aed5.jpg",
-    "static/media/ClientHeader.jpg": "/static/media/ClientHeader.4aecf9b9f3730622b915.jpg",
-    "static/media/WhatsApp.png": "/static/media/WhatsApp.a696dbd74a78c7e9e5e4.png",
-    "static/media/GetQoutationHeader.jpg": "/static/media/GetQoutationHeader.0f2a2d7a5569920f8686.jpg",
-    "static/media/ReviewsHero.png": "/static/media/ReviewsHero.f3eb97f0e0d7e31a8344.png",
-    "static/media/Subscribe.png": "/static/media/Subscribe.68f61a5d75abbc0d1333.png",
-    "static/media/mobiledev.png": "/static/media/mobiledev.7ab74e755f69935c9bc1.png",
-    "static/media/graphicsdesign.png": "/static/media/graphicsdesign.ac5cc1edae28e3741537.png",
-    "static/media/digitalmarketing.png": "/static/media/digitalmarketing.ddc1de3d667518a5e17a.png",
-    "static/media/footer_csd.png": "/static/media/footer_csd.abd48e4bed7ca0898f98.png",
-    "static/media/codeing.png": "/static/media/codeing.924aefcd21dab990e435.png",
-    "index.html": "/index.html",
-    "main.3bce77bf.css.map": "/static/css/main.3bce77bf.css.map",
-    "main.ef139e68.js.map": "/static/js/main.ef139e68.js.map"
+    "main.css": "/CSD_Website/static/css/main.e1118397.css",
+    "main.js": "/CSD_Website/static/js/main.1fa6fb56.js",
+    "static/media/HomeHeroVideo.mp4": "/CSD_Website/static/media/HomeHeroVideo.634f83d78a4ed475c545.mp4",
+    "static/media/democover.jpg": "/CSD_Website/static/media/democover.d6b5331c54468424aed5.jpg",
+    "static/media/ClientHeader.jpg": "/CSD_Website/static/media/ClientHeader.4aecf9b9f3730622b915.jpg",
+    "static/media/WhatsApp.png": "/CSD_Website/static/media/WhatsApp.a696dbd74a78c7e9e5e4.png",
+    "static/media/GetQoutationHeader.jpg": "/CSD_Website/static/media/GetQoutationHeader.0f2a2d7a5569920f8686.jpg",
+    "static/media/ReviewsHero.png": "/CSD_Website/static/media/ReviewsHero.f3eb97f0e0d7e31a8344.png",
+    "static/media/Subscribe.png": "/CSD_Website/static/media/Subscribe.68f61a5d75abbc0d1333.png",
+    "static/media/mobiledev.png": "/CSD_Website/static/media/mobiledev.7ab74e755f69935c9bc1.png",
+    "static/media/graphicsdesign.png": "/CSD_Website/static/media/graphicsdesign.ac5cc1edae28e3741537.png",
+    "static/media/digitalmarketing.png": "/CSD_Website/static/media/digitalmarketing.ddc1de3d667518a5e17a.png",
+    "static/media/footer_csd.png": "/CSD_Website/static/media/footer_csd.abd48e4bed7ca0898f98.png",
+    "static/media/codeing.png": "/CSD_Website/static/media/codeing.924aefcd21dab990e435.png",
+    "index.html": "/CSD_Website/index.html",
+    "main.e1118397.css.map": "/CSD_Website/static/css/main.e1118397.css.map",
+    "main.1fa6fb56.js.map": "/CSD_Website/static/js/main.1fa6fb56.js.map"
   },
   "entrypoints": [
-    "static/css/main.3bce77bf.css",
-    "static/js/main.ef139e68.js"
+    "static/css/main.e1118397.css",
+    "static/js/main.1fa6fb56.js"
   ]
 }
