@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.b342f5f5.css",
-    "main.js": "/static/js/main.e625787c.js",
+    "main.css": "/static/css/main.c1da0840.css",
+    "main.js": "/static/js/main.71ac0cee.js",
     "static/media/HomeHeroVideo.mp4": "/static/media/HomeHeroVideo.634f83d78a4ed475c545.mp4",
     "static/media/democover.jpg": "/static/media/democover.d6b5331c54468424aed5.jpg",
+    "static/media/ContactusHeaderimage.png": "/static/media/ContactusHeaderimage.25bfaf86713f9ae3f933.png",
     "static/media/ClientHeader.jpg": "/static/media/ClientHeader.4aecf9b9f3730622b915.jpg",
     "static/media/WhatsApp.png": "/static/media/WhatsApp.a696dbd74a78c7e9e5e4.png",
     "static/media/GetQoutationHeader.jpg": "/static/media/GetQoutationHeader.0f2a2d7a5569920f8686.jpg",
@@ -12,14 +13,15 @@
     "static/media/mobiledev.png": "/static/media/mobiledev.7ab74e755f69935c9bc1.png",
     "static/media/graphicsdesign.png": "/static/media/graphicsdesign.ac5cc1edae28e3741537.png",
     "static/media/digitalmarketing.png": "/static/media/digitalmarketing.ddc1de3d667518a5e17a.png",
+    "static/media/ServicesHeaderImage.webp": "/static/media/ServicesHeaderImage.e695a826ad7bc2cf8bd7.webp",
     "static/media/footer_csd.png": "/static/media/footer_csd.abd48e4bed7ca0898f98.png",
     "static/media/codeing.png": "/static/media/codeing.924aefcd21dab990e435.png",
     "index.html": "/index.html",
-    "main.b342f5f5.css.map": "/static/css/main.b342f5f5.css.map",
-    "main.e625787c.js.map": "/static/js/main.e625787c.js.map"
+    "main.c1da0840.css.map": "/static/css/main.c1da0840.css.map",
+    "main.71ac0cee.js.map": "/static/js/main.71ac0cee.js.map"
   },
   "entrypoints": [
-    "static/css/main.b342f5f5.css",
-    "static/js/main.e625787c.js"
+    "static/css/main.c1da0840.css",
+    "static/js/main.71ac0cee.js"
   ]
 }
