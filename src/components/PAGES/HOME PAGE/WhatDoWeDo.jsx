@@ -27,7 +27,7 @@ const WhatDoWeDo = () => {
         </div>
         <h3 className="mb-2 text-xl font-bold ">Documentation</h3>
         <p className="text-gray-500 ">
-        seems to be a herculean task for a project manager. 
+        Seems to be a herculean task for a project manager. 
         Project managers are often engaged in delivering 
         high-end complex projects.
         </p>

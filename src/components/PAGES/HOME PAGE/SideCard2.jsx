@@ -40,9 +40,10 @@ const SideCard2 = () => {
                 Custom CRM
               </h1>
               <p className="mt-3 text-gray-300 ">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Provident ab nulla quod dignissimos vel non corrupti doloribus
-                voluptatum eveniet
+              Customer relationship management (CRM) is a technology 
+              for managing all your company's relationships and interactions with 
+              customers and potential customers. The goal is simple: Improve business 
+              relationships.
               </p>
             </div>
           </div>
@@ -68,9 +69,9 @@ const SideCard2 = () => {
                 Google Data Maps Mining
               </h1>
               <p className="mt-3 text-gray-300 ">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Provident ab nulla quod dignissimos vel non corrupti doloribus
-                voluptatum eveniet
+              Data mapping is crucial to the success of many data processes. 
+              One misstep in data mapping can ripple throughout your organization, leading 
+              to replicated errors, and ultimately, to inaccurate analysis.
               </p>
             </div>
           </div>
@@ -102,9 +103,9 @@ const SideCard2 = () => {
                 Custom Testing Tools
               </h1>
               <p className="mt-3 text-gray-300 ">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Provident ab nulla quod dignissimos vel non corrupti doloribus
-                voluptatum eveniet
+              Testing Tools in software testing can be defined as products 
+              that support various test activities starting from planning, requirement 
+              gathering, build creation, test execution, defect logging and test analysis.
               </p>
             </div>
           </div>

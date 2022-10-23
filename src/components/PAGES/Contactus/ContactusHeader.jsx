@@ -1,4 +1,6 @@
-import React from 'react'
+import React from 'react';
+import ContactusHeaderimage from '../../../assets/ImagesPage/ContactusHeaderimage.png';
+
 
 const ContactusHeader = () => {
   return (
@@ -24,6 +26,11 @@ const ContactusHeader = () => {
         </a>
         
       </div>
+      <img
+            className="contactanimation w-full max-w-xl"
+            src={ContactusHeaderimage}
+            alt="Marketing newsletter via computer Illustration in PNG, SVG"
+          />
     </div>
   </section>
 </>

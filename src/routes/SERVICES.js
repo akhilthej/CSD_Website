@@ -2,7 +2,8 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 import ServicesHeader from '../components/PAGES/Services/ServicesHeader';
-import ServiceSection1 from '../components/PAGES/Services/ServicesSection1';
+
+import HomeCards from '../components/PAGES/HOME PAGE/HomeCards';
 
 
 const SERVICES = () => {
@@ -14,8 +15,7 @@ const SERVICES = () => {
         >
 
     <ServicesHeader />
-    
-    <ServiceSection1 />
+    <HomeCards />
 
     </motion.div>
   )
