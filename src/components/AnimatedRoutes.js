@@ -25,6 +25,7 @@ import { AnimatePresence } from 'framer-motion';
 
 const AnimatedRoutes = () => {
   const location= useLocation();
+  window.scrollTo(0, 0); /*---ResetPagelocation---*/
 
   return (
     <AnimatePresence>
