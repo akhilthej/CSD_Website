@@ -64,13 +64,13 @@ const About = () => {
       <div className="space-y-4 text-center">
         <img
           className="w-64 h-64 mx-auto object-cover rounded-xl md:w-40 md:h-40 lg:w-64 lg:h-64"
-          src="#"
+          src="https://tailus.io/sources/blocks/classic/preview/images/woman.jpg"
           loading="lazy"
           width={1000}
           height={667}
         />
         <div>
-          <h4 className="text-2xl">Business Partner</h4>
+          <h4 className="text-2xl">Patner</h4>
           <span className="block text-sm text-gray-500">
             Chief Technical Officer
           </span>
@@ -94,7 +94,7 @@ const About = () => {
     <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-4">
       <div className="flex flex-col items-center p-8 transition-colors duration-200 transform cursor-pointer group hover:bg-blue-600 rounded-xl">
         <img
-          className="object-cover w-32 h-42 rounded-full ring-4 ring-gray-300"
+          className="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300"
           src="https://raw.githubusercontent.com/akhilthej/CDSDump/main/About/chaitanya.webp"
           alt=""
         />
@@ -154,7 +154,7 @@ const About = () => {
       </div>
       <div className="flex flex-col items-center p-8 transition-colors duration-200 transform cursor-pointer group hover:bg-blue-600 rounded-xl">
         <img
-          className="object-cover w-32 h-42 rounded-full ring-4 ring-gray-300"
+          className="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300"
           src="https://raw.githubusercontent.com/akhilthej/CDSDump/main/About/srikar.webp"
           alt=""
         />
@@ -212,7 +212,7 @@ const About = () => {
       
       <div className="flex flex-col items-center p-8 transition-colors duration-200 transform cursor-pointer group hover:bg-blue-600 rounded-xl">
         <img
-          className="object-cover w-32 h-42 rounded-full ring-4 ring-gray-300"
+          className="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300"
           src="https://raw.githubusercontent.com/akhilthej/CDSDump/main/About/varun.webp"
           alt=""
         />
@@ -272,15 +272,15 @@ const About = () => {
       </div>
       <div className="flex flex-col items-center p-8 transition-colors duration-200 transform cursor-pointer group hover:bg-blue-600 rounded-xl">
         <img
-          className="object-cover w-32 h-42 rounded-full ring-4 ring-gray-300"
-          src="https://raw.githubusercontent.com/akhilthej/CDSDump/main/About/saikiran.webp"
+          className="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300"
+          src="https://images.unsplash.com/photo-1499470932971-a90681ce8530?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
           alt=""
         />
         <h1 className="mt-4 text-2xl font-semibold  capitalize text-white group-hover:text-white">
-          Sai Kiran
+          Mia
         </h1>
         <p className="mt-2  capitalize text-gray-300 group-hover:text-gray-300">
-        Professional Photographer
+          Graphic Designer
         </p>
         <div className="flex mt-3 -mx-2">
           <a
