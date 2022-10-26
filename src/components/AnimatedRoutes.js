@@ -20,12 +20,17 @@ import Aboutus from '../routes/Aboutus';
 import Contactus from '../routes/CONTACTUS';
 
 import Reactblog from '../components/PAGES/Technologies/Blogpages/Reactblog';
+import ReactGA from 'react-ga';
 
 import { AnimatePresence } from 'framer-motion';
 
 const AnimatedRoutes = () => {
   const location= useLocation();
   window.scrollTo(0, 0); /*---ResetPagelocation---*/
+
+  /*---Google Analytics Tracker---*/
+const TRACKING_ID = "UA-247075028-1";
+ReactGA.initialize(TRACKING_ID);
 
   return (
     <AnimatePresence>
