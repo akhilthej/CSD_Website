@@ -64,13 +64,13 @@ const About = () => {
       <div className="space-y-4 text-center">
         <img
           className="w-64 h-64 mx-auto object-cover rounded-xl md:w-40 md:h-40 lg:w-64 lg:h-64"
-          src="https://tailus.io/sources/blocks/classic/preview/images/woman.jpg"
+          src="#"
           loading="lazy"
           width={1000}
           height={667}
         />
         <div>
-          <h4 className="text-2xl">Patner</h4>
+          <h4 className="text-2xl">business partner </h4>
           <span className="block text-sm text-gray-500">
             Chief Technical Officer
           </span>
