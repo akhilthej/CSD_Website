@@ -3,7 +3,7 @@ import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
 import ReactGA from 'react-ga';
 import AnimatedRoutes from './components/AnimatedRoutes';
-import Cookies from './components/Tools/Cookies';
+
 
 
 
@@ -17,7 +17,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <Cookies />
+      
         <AnimatedRoutes />
 
         <Footer />
