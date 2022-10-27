@@ -2,6 +2,7 @@ import React from 'react'
 import { motion } from 'framer-motion';
 
 import ClientsHeader from '../components/PAGES/Clients/ClientsHeader'
+import Clientmain from '../components/PAGES/Clients/Clientsmain'
 
 
 const Clients = () => {
@@ -13,6 +14,7 @@ const Clients = () => {
         >
     
     <ClientsHeader />
+    <Clientmain />
     
     </motion.div>
   )

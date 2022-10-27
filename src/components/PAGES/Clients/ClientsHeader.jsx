@@ -5,7 +5,7 @@ import ClientHeader from '../../../assets/ImagesPage/ClientHeader.jpg';
 
 const ClientsHeader = () => {
   return (
-    <>
+    <main>
 
   <div className="bg-white  flex items-center justify-center my-2">
     <div className="mx-auto w-full max-w-screen-lg bg-white px-5 ">
@@ -46,7 +46,7 @@ const ClientsHeader = () => {
       </div>
     </div>
   </div>
-</>
+</main>
   )
 }
 
