@@ -58,7 +58,7 @@ const About = () => {
         <div>
           <h4 className="text-2xl">Akhil Thej Reddy</h4>
           <span className="block text-sm text-gray-500">
-            Founder<br/>Chief Executive Officer<br/>( Full Stack Developer )</span>
+            Founder<br/>Chief Executive Officer<br/></span>
         </div>
       </div>
       <div className="space-y-4 text-center">
@@ -273,14 +273,14 @@ const About = () => {
       <div className="flex flex-col items-center p-8 transition-colors duration-200 transform cursor-pointer group hover:bg-blue-600 rounded-xl">
         <img
           className="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300"
-          src="https://images.unsplash.com/photo-1499470932971-a90681ce8530?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+          src="https://raw.githubusercontent.com/akhilthej/CDSDump/main/About/saikiran.webp"
           alt=""
         />
         <h1 className="mt-4 text-2xl font-semibold  capitalize text-white group-hover:text-white">
-          Mia
+          Sai Kiran
         </h1>
         <p className="mt-2  capitalize text-gray-300 group-hover:text-gray-300">
-          Graphic Designer
+          Designer
         </p>
         <div className="flex mt-3 -mx-2">
           <a
