@@ -1,7 +1,7 @@
 {
   "name": "csd_website",
-  "homepage": "https://akhilthej.github.io/CSD_Website",
-  "version": "0.2.0",
+  "homepage": "https://cyberspacedigital.in/",
+  "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@chakra-ui/icons": "^2.0.11",
