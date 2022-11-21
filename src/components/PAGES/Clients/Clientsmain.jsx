@@ -5,12 +5,13 @@ import './Clients.scss'
 const clinetmain = () => {
   
     return(
-      /* Brands Section Start */
-<section class="bg-white py-20 lg:py-[120px]">
+      <main>
+      {/* Brands Section Start */}
+<section class="bg-white pt-20 lg:pt-[120px]">
   <div class="container mx-auto">
     <div class="-mx-4 flex flex-wrap">
-      <div class="w-full px-4">
-        <div class="flex flex-wrap items-center justify-center">
+      <div class="w-full px-1">
+        <div class="flex flex-wrap items-center justify-center ">
           <a
             href="https://archivitusdesigners.com/"
             class="mx-4 flex w-[150px] items-center justify-center py-5 2xl:w-[180px]"
@@ -53,8 +54,10 @@ const clinetmain = () => {
     </div>
   </div>
 </section>
-/* ====== Brands Section End */
+{/* ====== Brands Section End */}
 
+
+</main>
 
     )
     }
