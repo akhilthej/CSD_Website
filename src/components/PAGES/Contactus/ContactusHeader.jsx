@@ -6,7 +6,7 @@ const ContactusHeader = () => {
   return (
     <>
   {/*Services Title Card*/}
-  <section className="mt-2 flex items-center justify-center bg-white ">
+  <section className="mt-20 flex items-center justify-center bg-white ">
     <div className="mx-auto max-w-[43rem]">
       <div className="text-center">
         
