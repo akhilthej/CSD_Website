@@ -28,9 +28,7 @@ const AnimatedRoutes = () => {
   const location= useLocation();
   window.scrollTo(0, 0); /*---ResetPagelocation---*/
 
-  /*---Google Analytics Tracker---*/
-const TRACKING_ID = "UA-247075028-1";
-ReactGA.initialize(TRACKING_ID);
+
 
   return (
     <AnimatePresence>

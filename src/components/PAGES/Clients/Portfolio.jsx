@@ -21,8 +21,8 @@ const Portfolio = () => {
         spaceBetween={30}
         slidesPerView={4}
         grabCursor={true}
-        className="portfolio-slider"
-      >
+        className="portfolio-slider">
+          
         <SwiperSlide>
           <img src={ARK} alt="" />
         </SwiperSlide>
