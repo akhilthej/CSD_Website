@@ -1,7 +1,7 @@
 {
-  "name": "csd_website",
   "homepage": "https://cyberspacedigital.in/",
-  "version": "0.1.0",
+  "name": "csd_website",
+  "version": "0.2.0",
   "private": true,
   "dependencies": {
     "@chakra-ui/icons": "^2.0.11",
