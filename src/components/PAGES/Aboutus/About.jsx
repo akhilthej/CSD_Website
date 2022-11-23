@@ -1,4 +1,13 @@
 import React from 'react';
+import coverimage from '../../../assets/About/aboutheader.webp';
+
+import akilthejreddy from '../../../assets/About/Founder.webp';
+import pavanchappa from '../../../assets/About/pavan.webp';
+import chaitanya from '../../../assets/About/chaitanya.webp';
+import srikar from '../../../assets/About/srikar.webp';
+import saikiran from '../../../assets/About/saikiran.webp';
+import varuntej from '../../../assets/About/varun.webp';
+
 
 const About = () => {
     return (
@@ -14,7 +23,7 @@ const About = () => {
                                 
                 </div>
                 <div className="w-full lg:w-8/12 ">
-                    <img className="w-full h-full rounded-2xl shadow-2xl" src="https://raw.githubusercontent.com/akhilthej/CDSDump/main/About/aboutheader.webp" alt="A group of People" />
+                    <img className="w-full h-full rounded-2xl shadow-2xl" src= {coverimage} alt="A group of People" />
                 </div>
             </div>
         </div>
@@ -37,7 +46,7 @@ const About = () => {
       <div className="space-y-4 text-center">
         <img
           className="w-64 h-64 mx-auto object-cover rounded-xl md:w-40 md:h-40 lg:w-64 lg:h-64"
-          src="https://raw.githubusercontent.com/akhilthej/CDSDump/main/About/pavan.webp"
+          src= {pavanchappa}
           loading="lazy"
           width={640}
           height={805}
@@ -50,7 +59,7 @@ const About = () => {
       <div className="space-y-4 text-center">
         <img
           className="w-64 h-64 mx-auto object-cover rounded-xl md:w-48 md:h-64 lg:w-64 lg:h-80"
-          src="https://raw.githubusercontent.com/akhilthej/CDSDump/main/About/Founder.webp"
+          src={akilthejreddy}
           loading="lazy"
           width={1000}
           height={667}
@@ -94,9 +103,8 @@ const About = () => {
     <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-4">
       <div className="flex flex-col items-center p-8 transition-colors duration-200 transform cursor-pointer group hover:bg-blue-600 rounded-xl">
         <img
-          className="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300"
-          src="https://raw.githubusercontent.com/akhilthej/CDSDump/main/About/chaitanya.webp"
-          alt=""
+          className="object-cover w-32 h-42 rounded-full ring-4 ring-gray-300"
+          src={chaitanya}
         />
         <h1 className="mt-4 text-2xl font-semibold  capitalize text-white group-hover:text-white">
           Chaitanya Teja
@@ -154,9 +162,8 @@ const About = () => {
       </div>
       <div className="flex flex-col items-center p-8 transition-colors duration-200 transform cursor-pointer group hover:bg-blue-600 rounded-xl">
         <img
-          className="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300"
-          src="https://raw.githubusercontent.com/akhilthej/CDSDump/main/About/srikar.webp"
-          alt=""
+          className="object-cover w-32 h-42 rounded-full ring-4 ring-gray-300"
+          src={srikar}
         />
         <h1 className="mt-4 text-2xl font-semibold capitalize text-white group-hover:text-white">
           Srikar
@@ -212,9 +219,8 @@ const About = () => {
       
       <div className="flex flex-col items-center p-8 transition-colors duration-200 transform cursor-pointer group hover:bg-blue-600 rounded-xl">
         <img
-          className="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300"
-          src="https://raw.githubusercontent.com/akhilthej/CDSDump/main/About/varun.webp"
-          alt=""
+          className="object-cover w-32 h-42 rounded-full ring-4 ring-gray-300"
+          src={varuntej}
         />
         <h1 className="mt-4 text-2xl font-semibold  capitalize text-white group-hover:text-white">
           Tej Varun
@@ -272,9 +278,8 @@ const About = () => {
       </div>
       <div className="flex flex-col items-center p-8 transition-colors duration-200 transform cursor-pointer group hover:bg-blue-600 rounded-xl">
         <img
-          className="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300"
-          src="https://raw.githubusercontent.com/akhilthej/CDSDump/main/About/saikiran.webp"
-          alt=""
+          className="object-cover w-32 h-42 rounded-full ring-4 ring-gray-300"
+          src= {saikiran}
         />
         <h1 className="mt-4 text-2xl font-semibold  capitalize text-white group-hover:text-white">
           Sai Kiran

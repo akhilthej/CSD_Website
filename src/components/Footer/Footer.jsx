@@ -287,7 +287,7 @@ const Footer = () => {
 
   
 
-    {/* Whatapp us */}
+    {/* Whatapp us 
   <div className="flex items-end justify-start fixed bottom-0 left-0 ml-4 z-10">
     <div>
       <a
@@ -302,7 +302,8 @@ const Footer = () => {
         />
       </a>
     </div>
-  </div>
+  </div>*/}
+
 </section>
 </main>
   )
