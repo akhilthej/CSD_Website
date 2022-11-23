@@ -3,7 +3,6 @@ import { motion } from 'framer-motion';
 
 import ServicesHeader from '../components/PAGES/Services/ServicesHeader';
 
-import HomeCards from '../components/PAGES/HOME PAGE/HomeCards';
 
 
 const SERVICES = () => {
@@ -15,7 +14,7 @@ const SERVICES = () => {
         >
 
     <ServicesHeader />
-    <HomeCards />
+    
 
     </motion.div>
   )

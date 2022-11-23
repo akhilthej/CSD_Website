@@ -1,8 +1,462 @@
-import React from 'react'
+import React from 'react';
+import {Link} from 'react-router-dom';
 
-const SideCard2 = () => {
+import {HomeHeroVideo } from '../../data/data.jsx';
+import {codeing ,graphicsdesign ,digitalmarketing ,mobiledev ,recruitment ,brand } from '../../data/data.jsx';
+import {documentationicon ,socialicon ,analysisicon ,financeicon ,statergyicon ,businessreporticon ,}from '../../data/data.jsx';
+
+const HomeHero = () => {
   return (
-    <>
+  <main>
+{/*herosection */}
+      <section>
+        <div className='z-0 w-full h-screen -mt-20'>
+          <div className="absolute w-full h-full  "></div>
+            <video className='w-full h-full object-cover ' src={HomeHeroVideo} autoPlay loop muted />
+              <div className="absolute w-full h-full top-0 flex flex-col justify-center items-center text-white text-center">
+
+              <h1 class=" bg-gradient-to-r from-green-300 via-green-700 to-green-400 bg-clip-text text-5xl font-extrabold text-transparent sm:text-7xl ">
+              Cyber Space Digital<br />
+              <span class="sm:block sm:text-3xl sm:pt-3 text-gray-300 text-3xl"> Solution for businesses </span>
+              </h1>
+          
+          
+              <p class=" border-black border-5 rounded-lg bg-black/80 mx-auto mt-4 max-w-xl sm:text-xl sm:leading-relaxed text-green-300 text-center">
+            <div className='typed-out px-2'>Let's Build your Business Digitally..!</div>
+              </p>
+
+          <div class="mt-8 flex flex-wrap justify-center gap-4">
+          <Link to= '/contactus'>
+            <a class=" block w-full rounded border border-green-300 bg-green-700 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-white focus:outline-none focus:ring active:text-opacity-75 sm:w-auto">
+                Get in-touch </a></Link>
+
+          <Link to= '/aboutus'>
+            <a class="block w-full rounded border border-bg-green-300 px-12 py-3 text-sm font-medium text-white hover:bg-green-700 focus:outline-none focus:ring active:bg-green-500 sm:w-auto ">
+                Learn More </a></Link>
+       
+            </div>
+          </div>
+        </div>
+      </section>
+
+{/*MainFeatures */}
+      <section>
+      <section>
+      <div className="pt-16 bg-gray-50 overflow-hidden">
+      <div className="container m-auto px-6 space-y-8 text-gray-500 md:px-12">
+      <div>
+      <span className="text-gray-600 text-lg font-semibold">Main features</span>
+      <h2 className="mt-4 text-2xl text-gray-900 font-bold md:text-4xl">
+        Services, We Provide
+      </h2>
+      </div>
+    
+      <div className="mt-16 grid border divide-x divide-y rounded-xl overflow-hidden sm:grid-cols-2 lg:divide-y-0 lg:grid-cols-3 xl:grid-cols-4">
+      <div className="relative group bg-white transition hover:z-[1] hover:shadow-2xl">
+        <div className="relative p-8 space-y-8">
+          <img src= {codeing}
+            className="w-10"
+            width={512}
+            height={512}
+            alt="coding_icon"
+          /> 
+          <div className="space-y-2">
+            <h5 className="text-xl text-gray-800 font-medium transition group-hover:text-yellow-600">
+              WEB DEVELOPMENT
+            </h5>
+            <p className="text-sm text-gray-600">
+            Web development is the work involved in developing a website for the Internet (World Wide Web) or an intranet (a private network).
+            </p>
+          </div>
+          <a href="#/services" className="flex justify-between items-center group-hover:text-yellow-600">
+            <span className="text-sm">Read more</span>
+            <span className="-translate-x-4 opacity-0 text-2xl transition duration-300 group-hover:opacity-100 group-hover:translate-x-0">
+              →
+            </span>
+          </a>
+        </div>
+      </div>
+      <div className="relative group bg-white transition hover:z-[1] hover:shadow-2xl">
+        <div className="relative p-8 space-y-8">
+          <img
+            src= {recruitment}
+            className="w-10"
+            width={512}
+            height={512}
+            alt="burger illustration"
+          />
+          <div className="space-y-2">
+            <h5 className="text-lg text-gray-800 font-medium transition group-hover:text-yellow-600">
+              IT STAFFING & RECRUITING
+            </h5>
+            <p className="text-sm text-gray-600">
+            IT staffing is the act of finding job candidates with the specialized skills needed to fill technology roles on your team.
+            </p>
+          </div>
+          <a
+            href="#/services"
+            className="flex justify-between items-center group-hover:text-yellow-600"
+          >
+            <span className="text-sm">Read more</span>
+            <span className="-translate-x-4 opacity-0 text-2xl transition duration-300 group-hover:opacity-100 group-hover:translate-x-0">
+              →
+            </span>
+          </a>
+        </div>
+      </div>
+      <div className="relative group bg-white transition hover:z-[1] hover:shadow-2xl">
+        <div className="relative p-8 space-y-8">
+          <img
+            src= {mobiledev}
+            className="w-10"
+            width={512}
+            height={512}
+            alt="burger illustration"
+          />
+          <div className="space-y-2">
+            <h5 className="text-base text-gray-800 font-medium transition group-hover:text-yellow-600">
+              MOBILE APP DEVELOPMENT
+            </h5>
+            <p className="text-sm text-gray-600">
+            The process of creating software applications that run on a mobile device.
+            </p>
+          </div>
+          <a
+            href="#/services"
+            className="flex justify-between items-center group-hover:text-yellow-600"
+          >
+            <span className="text-sm">Read more</span>
+            <span className="-translate-x-4 opacity-0 text-2xl transition duration-300 group-hover:opacity-100 group-hover:translate-x-0">
+              →
+            </span>
+          </a>
+        </div>
+      </div>
+      <div className="relative group bg-gray-100 transition hover:z-[1] hover:shadow-2xl lg:hidden xl:block">
+        <div className="relative p-8 space-y-8 border-dashed rounded-lg transition duration-300 group-hover:bg-white group-hover:border group-hover:scale-90">
+          <img
+            src="https://tailus.io/sources/blocks/stacked/preview/images/avatars/metal.png"
+            className="w-10"
+            width={512}
+            height={512}
+            alt="burger illustration"
+          />
+          <div className="space-y-2">
+            <h5 className="text-xl text-gray-800 font-medium transition group-hover:text-yellow-600">
+              More features
+            </h5>
+            <p className="text-sm text-gray-600">
+              Checkout of services page for more features or contact our support team if your looking for some new ideas.
+            </p>
+          </div>
+          <a
+            href="#/services"
+            className="flex justify-between items-center group-hover:text-yellow-600"
+          >
+            <span className="text-sm">Read more</span>
+            <span className="-translate-x-4 opacity-0 text-2xl transition duration-300 group-hover:opacity-100 group-hover:translate-x-0">
+              →
+            </span>
+          </a>
+        </div>
+      </div>
+      </div>
+      </div>
+        </div>
+      </section>
+
+
+
+      <section>
+      <div className="pb-10 bg-gray-50 overflow-hidden">
+        <div className="container m-auto px-6 space-y-8 text-gray-500 md:px-12">
+        <div className="mt-0.5 grid border divide-x divide-y rounded-xl overflow-hidden sm:grid-cols-2 lg:divide-y-0 lg:grid-cols-3 xl:grid-cols-4">
+      <div className="relative group bg-white transition hover:z-[1] hover:shadow-2xl">
+        <div className="relative p-8 space-y-8">
+          <img
+            src= {graphicsdesign}
+            className="w-10"
+            width={512}
+            height={512}
+            alt="burger illustration"
+          />
+          <div className="space-y-2">
+            <h5 className="text-xl text-gray-800 font-medium transition group-hover:text-yellow-600">
+              UX/UI DESIGN
+            </h5>
+            <p className="text-sm text-gray-600">
+            When it comes to product design, we often hear the terms “User Experience (UX)” and “User Interface (UI).”
+            </p>
+          </div>
+          <a
+            href="#/services"
+            className="flex justify-between items-center group-hover:text-yellow-600"
+          >
+            <span className="text-sm">Read more</span>
+            <span className="-translate-x-4 opacity-0 text-2xl transition duration-300 group-hover:opacity-100 group-hover:translate-x-0">
+              →
+            </span>
+          </a>
+        </div>
+      </div>
+      <div className="relative group bg-white transition hover:z-[1] hover:shadow-2xl">
+        <div className="relative p-8 space-y-8">
+          <img
+            src= {digitalmarketing}
+            className="w-10"
+            width={512}
+            height={512}
+            alt="burger illustration"
+          />
+          <div className="space-y-2">
+            <h5 className="text-xl text-gray-800 font-medium transition group-hover:text-yellow-600">
+              DIGITAL MARKETING
+            </h5>
+            <p className="text-sm text-gray-600">
+            Marketing has always been about connecting with your audience in the right place and at the right time. Today, that means you need to meet them where they are already spending time: on the internet.
+            </p>
+          </div>
+          <a
+            href="#/services"
+            className="flex justify-between items-center group-hover:text-yellow-600"
+          >
+            <span className="text-sm">Read more</span>
+            <span className="-translate-x-4 opacity-0 text-2xl transition duration-300 group-hover:opacity-100 group-hover:translate-x-0">
+              →
+            </span>
+          </a>
+        </div>
+      </div>
+      <div className="relative group bg-white transition hover:z-[1] hover:shadow-2xl">
+        <div className="relative p-8 space-y-8">
+          <img
+            src={brand}
+            className="w-10"
+            width={512}
+            height={512}
+            alt="burger illustration"
+          />
+          <div className="space-y-2">
+            <h5 className="text-xl text-gray-800 font-medium transition group-hover:text-yellow-600">
+              ENDORSEMENT BRAND            </h5>
+            <p className="text-sm text-gray-600">
+            There are many potential methods that business professionals can use to develop successful branding strategies. Endorsed branding can allow companies to unify their branding efforts to meet their goals.
+            </p>
+          </div>
+          <a
+            href="#/services"
+            className="flex justify-between items-center group-hover:text-yellow-600"
+          >
+            <span className="text-sm">Read more</span>
+            <span className="-translate-x-4 opacity-0 text-2xl transition duration-300 group-hover:opacity-100 group-hover:translate-x-0">
+              →
+            </span>
+          </a>
+        </div>
+      </div>
+      <div className="relative group bg-gray-100 transition hover:z-[1] hover:shadow-2xl lg:hidden xl:block">
+        <div className="relative p-8 space-y-8 border-dashed rounded-lg transition duration-300 group-hover:bg-white group-hover:border group-hover:scale-90">
+          <img
+            src="https://tailus.io/sources/blocks/stacked/preview/images/avatars/metal.png"
+            className="w-10"
+            width={512}
+            height={512}
+            alt="burger illustration"
+          />
+          <div className="space-y-2">
+            <h5 className="text-xl text-gray-800 font-medium transition group-hover:text-yellow-600">
+              More features
+            </h5>
+            <p className="text-sm text-gray-600">
+            Checkout of services page for more features or contact our support team if your looking for some new ideas.
+            </p>
+          </div>
+          <a
+            href="#/services"
+            className="flex justify-between items-center group-hover:text-yellow-600"
+          >
+            <span className="text-sm">Read more</span>
+            <span className="-translate-x-4 opacity-0 text-2xl transition duration-300 group-hover:opacity-100 group-hover:translate-x-0">
+              →
+            </span>
+          </a>
+        </div>
+      </div>
+      </div>
+      </div>
+      </div>
+      </section>
+      </section>
+
+{/*Sidecard1 */}
+      <section>
+  <div className="py-16 bg-white">
+  <div className="container m-auto px-6 text-gray-600 md:px-12 xl:px-6">
+    <div className="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-12">
+      <div className="md:5/12 lg:w-5/12">
+        <img
+          src="https://tailus.io/sources/blocks/left-image/preview/images/startup.png"
+          alt="image"
+          loading="lazy"
+          width=""
+          height=""
+        />
+      </div>
+      <div className="md:7/12 lg:w-6/12">
+        <h2 className="text-2xl text-gray-900 font-bold md:text-4xl">
+        We develop our brand with passionate developers.
+        </h2>
+        <p className="mt-6 text-gray-600">
+         We develop our companies, projects and brands with a purpose,
+         to help them engage their clients and audience. Providing them a first-class quality.
+          so they can build awareness, Trust , create conversation for a long-time. 
+        </p>
+        <p className="mt-4 text-gray-600">
+          {" "}
+          Quality comany or Brand, is the perception of quality that a brand achieves with its customers & clients.
+          Quality is often defined as the meeting the expectations of customers.
+  
+        </p>
+      </div>
+    </div>
+  </div>
+  </div>
+      </section>
+
+{/*HomeSection1 */}
+      <section>
+        <div class='bg-gray-900 py-20 px-4 text-center '>
+          <h1 className="mb-4 text-3xl font-extrabold text-white  md:text-5xl lg:text-6xl ">
+            <h1>we build</h1>
+            <span className="sm:text-5xl text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">
+              "SIMPLE BUT COMPLEX"
+            </span>{" "}
+          <h1>Stable community.</h1></h1>
+          </div>
+      </section>
+
+{/*HomeSection2 */}
+      <section>
+    <div className="bg-gray-200">
+    <div className="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:flex lg:items-center lg:justify-between lg:py-16 lg:px-8">
+      <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+        <span className="pl-5 block">Lets start building!</span>
+        <span className="pl-5 pt-2 block text-indigo-600 text-xl">Are you Ready to build your project with us?</span>
+      </h2>
+      <div className="pr-40 mt-8 flex lg:mt-0 lg:flex-shrink-0">
+        <div className="inline-flex rounded-md shadow">
+        <Link to = '/contactus'><a
+            
+            className="inline-flex items-center rounded-md border border-transparent bg-indigo-600 px-5 py-3 text-base font-medium text-white hover:bg-indigo-700"
+          >
+            started
+          </a></Link>
+        </div>
+        <div className="ml-3 inline-flex rounded-md shadow">
+        <Link to = '/aboutus'><a
+            href="#"
+            className="inline-flex items-center justify-center rounded-md border border-transparent bg-white px-5 py-3 text-base font-medium text-indigo-600 hover:bg-indigo-50"
+          >
+            more
+          </a></Link>
+        </div>
+      </div>
+    </div>
+  </div>
+      </section>
+
+{/*Whatdowedo */}
+      <section>
+    <section className="bg-white ">
+  <div className="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
+    <div className="max-w-screen-md mb-8 lg:mb-16">
+      <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 ">
+        What do we do?
+      </h2>
+      <p className="text-gray-500 sm:text-xl ">
+        How we research our clients requirements and processes.
+      </p>
+    </div>
+    <div className="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
+      <div>
+        <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 ">
+        <img src= {documentationicon}
+            alt="coding_icon"/> 
+        </div>
+        <h3 className="mb-2 text-xl font-bold ">Documentation</h3>
+        <p className="text-gray-500 ">
+        Seems to be a herculean task for a project manager. 
+        Project managers are often engaged in delivering 
+        high-end complex projects.
+        </p>
+      </div>
+      <div>
+        <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 ">
+        <img src= {analysisicon} /> 
+        </div>
+        <h3 className="mb-2 text-xl font-bold ">Analyze</h3>
+        <p className="text-gray-500 ">
+        When executing a project,we analyze it 
+        periodically. Failing to do so, would mean unexpected 
+        challenges, overlooked critical information, or flaws 
+        in the work process that manifest as the project 
+        unfolds.
+        </p>
+      </div>
+      <div>
+        <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 ">
+        <img src= {socialicon} /> 
+        </div>
+        <h3 className="mb-2 text-xl font-bold ">
+          Social Media Presents
+        </h3>
+        <p className="text-gray-500 ">
+        A company's social media presence is how they portray 
+        themselves online through their social networking 
+        accounts and activity. Building a social media 
+        presence starts with developing your goals.
+        </p>
+      </div>
+      <div>
+        <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 ">
+        <img src= {financeicon}/>
+        </div>
+        <h3 className="mb-2 text-xl font-bold ">Finance</h3>
+        <p className="text-gray-500 ">
+        the funding of long-term projects, such as public 
+        infrastructure or services, industrial projects, and 
+        others through a specific financial structure.
+        </p>
+      </div>
+      <div>
+        <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 ">
+        <img src= {statergyicon}/>
+        </div>
+        <h3 className="mb-2 text-xl font-bold ">
+        Strategy
+        </h3>
+        <p className="text-gray-500 ">
+          Craft beautiful, delightful experiences for both marketing and product
+          with real cross-company collaboration.
+        </p>
+      </div>
+      <div>
+        <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 ">
+        <img src= {businessreporticon}/>
+        </div>
+        <h3 className="mb-2 text-xl font-bold ">Business Report</h3>
+        <p className="text-gray-500 ">
+          At the end of every project we present our clients with detailed reports
+           .which can help them understand what we did for there project.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+      </section>
+
+{/*Sidecard2 */}
+      <section>
   {/* component */}
   <section className="bg-gray-900">
     <div className="container px-6 py-10 mx-auto">
@@ -198,9 +652,12 @@ const SideCard2 = () => {
       </div>
     </div>
   </section>
-</>
+      </section>
+
+  </main>
+
 
   )
 }
 
-export default SideCard2
+export default HomeHero
