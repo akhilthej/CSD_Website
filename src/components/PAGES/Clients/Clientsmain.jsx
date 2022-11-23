@@ -1,5 +1,6 @@
 import React from "react";
 import './Clients.scss'
+import {Archivitus ,serpsit , labelanuneni ,} from '../../data/data'
 
 
 const clinetmain = () => {
@@ -17,7 +18,7 @@ const clinetmain = () => {
             class="mx-4 flex w-[150px] items-center justify-center py-5 2xl:w-[180px]"
           >
             <img
-              src="https://raw.githubusercontent.com/akhilthej/CDSDump/main/Clients/Archivitus.png"
+              src= {Archivitus}
               class="h-10 w-full"
             />
           </a>
@@ -26,7 +27,7 @@ const clinetmain = () => {
             class="mx-4 flex w-[150px] items-center justify-center py-5 2xl:w-[180px]"
           >
             <img
-              src="https://raw.githubusercontent.com/akhilthej/CDSDump/main/Clients/serpsit.png"
+              src={serpsit}
               class="h-10 w-full"
             />
           </a>
@@ -35,7 +36,7 @@ const clinetmain = () => {
             class="mx-4 flex w-[150px] items-center justify-center py-5 2xl:w-[180px]"
           >
             <img
-              src="https://raw.githubusercontent.com/akhilthej/CDSDump/main/Clients/labelanuneni.png"
+              src={labelanuneni}
               class="h-10 w-full"
             />
           </a>
