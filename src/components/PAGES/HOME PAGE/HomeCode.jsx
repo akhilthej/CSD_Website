@@ -11,9 +11,9 @@ const HomeHero = () => {
 
 {/*herosection */}    
     <section>
-      <div className='z-0 w-full h-screen'>
+      <div className=' w-full h-screen'>
             <video autoPlay loop muted id='homeherovideo'>
-                <source src={HomeHeroVideo} />
+                <source src={HomeHeroVideo} type="video/mp4"/>
             </video>
             <div className="absolute w-full h-full top-0 flex flex-col justify-center items-center text-white text-center">
 
@@ -28,7 +28,7 @@ const HomeHero = () => {
                 Get in-touch </a></Link>
 
           <Link to= '/aboutus'>
-            <a class="block w-full rounded border border-bg-green-300 px-12 py-3 text-sm font-medium text-white hover:bg-green-700 focus:outline-none focus:ring active:bg-orange-500 sm:w-auto ">
+            <a class="block w-full rounded border border-bg-green-300 px-12 py-3 text-sm font-medium text-white hover:bg-orange-700 focus:outline-none focus:ring active:bg-orange-500 sm:w-auto ">
                 Learn More </a></Link>
        
             </div>
