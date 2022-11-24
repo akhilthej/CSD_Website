@@ -19,8 +19,7 @@ const Footer = () => {
   <div className="mx-auto w-full max-w-screen-lg bg-white px-5 py-10">
     <div className="grid gap-5 md:grid-cols-2 md:gap-10 lg:gap-20">
       <div className="flex justify-center md:justify-end">
-        <img
-          className="w-full max-w-sm"
+        <img className=" mx-auto flex "
           src={Subscribe}
           alt="Marketing newsletter via computer Illustration in PNG, SVG"
         />
@@ -287,7 +286,7 @@ const Footer = () => {
 
   
 
-    {/* Whatapp us 
+    {/* Whatapp us */}
   <div className="flex items-end justify-start fixed bottom-0 left-0 ml-4 z-10">
     <div>
       <a
@@ -302,7 +301,7 @@ const Footer = () => {
         />
       </a>
     </div>
-  </div>*/}
+  </div>
 
 </section>
 </main>
