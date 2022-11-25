@@ -2,7 +2,7 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 
 import './Home.scss';
-import {HomeHeroVideo, HomeHeroVideo1,community } from '../../data/data.jsx';
+import {HomeHeroVideo, HomeHeroVideo1,CSDbothome } from '../../data/data.jsx';
 import {codeing ,graphicsdesign ,digitalmarketing ,mobiledev ,recruitment ,brand } from '../../data/data.jsx';
 import {documentationicon ,socialicon ,analysisicon ,financeicon ,statergyicon ,businessreporticon ,}from '../../data/data.jsx';
 
@@ -292,10 +292,10 @@ const HomeHero = () => {
   <div className="py-16 bg-white">
   <div className="container m-auto px-6 text-gray-600 md:px-12 xl:px-6">
     <div className="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-12">
-      <div className="md:5/12 lg:w-5/12">
+      <div className=" md:5/12 lg:w-3/12">
         <img
-          src="https://tailus.io/sources/blocks/left-image/preview/images/startup.png"
-          alt="image"
+          src={CSDbothome}
+          alt="CSDbothome"
           loading="lazy"
           width=""
           height=""
@@ -331,7 +331,7 @@ const HomeHero = () => {
             <span className="sm:text-6xl bg-clip-text bg-gradient-to-r to-orange-600 from-yellow-400">
               "SIMPLE BUT COMPLEX"
             </span>{" "}
-          <h1>-stable community-</h1></h1></div></div>
+          <h1>-STABLE COMMUNITY-</h1></h1></div></div>
           
       </section>
 
