@@ -1,7 +1,8 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 
-import {HomeHeroVideo } from '../../data/data.jsx';
+import './Home.scss';
+import {HomeHeroVideo, HomeHeroVideo1,community } from '../../data/data.jsx';
 import {codeing ,graphicsdesign ,digitalmarketing ,mobiledev ,recruitment ,brand } from '../../data/data.jsx';
 import {documentationicon ,socialicon ,analysisicon ,financeicon ,statergyicon ,businessreporticon ,}from '../../data/data.jsx';
 
@@ -12,8 +13,8 @@ const HomeHero = () => {
 {/*herosection */}    
     <section>
       <div className=' w-full h-screen'>
-            <video autoPlay loop muted id='homeherovideo'>
-                <source src={HomeHeroVideo} type="video/mp4"/>
+            <video autoPlay loop muted playsinline id='homeherovideo'>
+                <source src={HomeHeroVideo1} type="video/mp4"/>
             </video>
             <div className="absolute w-full h-full top-0 flex flex-col justify-center items-center text-white text-center">
 
@@ -323,14 +324,16 @@ const HomeHero = () => {
 
 {/*HomeSection1 */}
       <section>
-        <div class='bg-gray-900 py-20 px-4 text-center '>
-          <h1 className="mb-4 text-3xl font-extrabold text-white  md:text-5xl lg:text-6xl ">
+       
+        <div className='backgroundhome1'>
+
+          <div class='px-4 text-center'><h1 className="mb-4 text-3xl font-extrabold text-white  md:text-5xl lg:text-6xl ">
             <h1>we build</h1>
             <span className="sm:text-5xl text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">
               "SIMPLE BUT COMPLEX"
             </span>{" "}
-          <h1>Stable community.</h1></h1>
-          </div>
+          <h1>Stable community.</h1></h1></div></div>
+          
       </section>
 
 {/*HomeSection2 */}

@@ -3,6 +3,8 @@ import serpsit from '../../assets/Clients/serpsit.png'
 import labelanuneni from '../../assets/Clients/labelanuneni.png'
 
 import HomeHeroVideo from '../../assets/HomeHeroVideo.mp4'
+import HomeHeroVideo1 from '../../assets/HomeHeroVideo1.mp4'
+import community from '../../assets/Common/community.jpg'
 
 
 import codeing from '../../assets/Icons/codeing.png';
@@ -30,7 +32,7 @@ export {
 
 
     /* Home */
-    HomeHeroVideo,
+    HomeHeroVideo,HomeHeroVideo1,community,
     codeing,graphicsdesign,digitalmarketing,mobiledev,recruitment,brand,
     documentationicon,socialicon,analysisicon,financeicon,statergyicon,businessreporticon,
 
