@@ -325,9 +325,8 @@ const HomeHero = () => {
 {/*HomeSection1 */}
       <section>
        
-        <div className='backgroundhome1'>
-
-          <div class='px-4 text-center'><h1 className="mb-4 text-3xl font-extrabold text-white  md:text-5xl lg:text-6xl ">
+        <div className ='backgroundhome1'>
+          <div class='px-4 pt-20 text-center'><h1 className="text-3xl font-extrabold text-white  md:text-5xl lg:text-6xl ">
             <h1>we build</h1>
             <span className="sm:text-5xl text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">
               "SIMPLE BUT COMPLEX"
