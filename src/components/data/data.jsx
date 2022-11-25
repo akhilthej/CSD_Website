@@ -4,7 +4,8 @@ import labelanuneni from '../../assets/Clients/labelanuneni.png'
 
 import HomeHeroVideo from '../../assets/HomeHeroVideo.mp4'
 import HomeHeroVideo1 from '../../assets/HomeHeroVideo1.mp4'
-import CSDbothome from '../../assets/Common/CSDbothome.png'
+import CSDbothome from '../../assets/Common/CSD_Bot/CSDbothome.png'
+import CSDbothome_bg from '../../assets/Common/CSD_Bot/CSDbothome_bg.png'
 
 
 
@@ -33,7 +34,7 @@ export {
 
 
     /* Home */
-    HomeHeroVideo,HomeHeroVideo1,CSDbothome,
+    HomeHeroVideo,HomeHeroVideo1,CSDbothome,CSDbothome_bg,
     codeing,graphicsdesign,digitalmarketing,mobiledev,recruitment,brand,
     documentationicon,socialicon,analysisicon,financeicon,statergyicon,businessreporticon,
 
