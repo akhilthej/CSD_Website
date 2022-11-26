@@ -289,34 +289,27 @@ const HomeHero = () => {
 
 {/*Sidecard1 */}
       <section>
-  <div className=" bg-white pt-20">
-  <div className="container m-auto text-gray-600 ">
-    <div className="md:flex md:gap-6 lg:items-center lg:gap-1">
-      
-        <div className="scale-50 mx-auto z-1 -mb-40 -mt-20">
-        <img className="animate-bounce" src= {CSDbothome}
-          alt="CSDbothome"/>
-          </div>
-          
-          
-          
+  <div className="homesidecard1">
+    <div className="md:flex md:gap-6 lg:gap-1">
+    <div className=" backgroundhome2 ">
+        <img src= {CSDbothome} alt="CSDbothome"/>
+        </div>
 
-      <div className="md:7/12 lg:w-6/12">
-        <h2 className="text-2xl text-gray-900 font-bold md:text-4xl">
+           <div className="md:7/12 lg:w-6/12">
+        <h2 className=" text-gray-900">
         We develop our brand with passionate developers.
         </h2>
-        <p className="mt-6 text-gray-600">
+        <p className=" mt-6 text-gray-600">
          We develop our companies, projects and brands with a purpose,
          to help them engage their clients and audience. Providing them a first-class quality.
           so they can build awareness, Trust , create conversation for a long-time. 
         </p>
-        <p className="mt-4 text-gray-600">
+        <p className=" mt-4 text-gray-600">
           {" "}
           Quality comany or Brand, is the perception of quality that a brand achieves with its customers & clients.
           Quality is often defined as the meeting the expectations of customers.
   
         </p>
-      </div>
     </div>
   </div>
   </div>
