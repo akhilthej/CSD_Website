@@ -2,7 +2,7 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 
 import './Home.scss';
-import {HomeHeroVideo, HomeHeroVideo1,CSDbothome,CSDbothome_bg } from '../../data/data.jsx';
+import {HomeHeroVideo, HomeHeroVideo1,CSDbothome,CSDbothome_bg, } from '../../data/data.jsx';
 import {codeing ,graphicsdesign ,digitalmarketing ,mobiledev ,recruitment ,brand } from '../../data/data.jsx';
 import {documentationicon ,socialicon ,analysisicon ,financeicon ,statergyicon ,businessreporticon ,}from '../../data/data.jsx';
 
@@ -10,9 +10,9 @@ const HomeHero = () => {
   return (
   <main>
 
-{/*herosection */}    
+{/*herosection desktop*/}    
     <section>
-      <div className=' w-full h-screen'>
+      <div className=' hidden md:block w-full h-screen'>
             <video autoPlay loop muted playsinline id='homeherovideo'>
                 <source src={HomeHeroVideo1} type="video/mp4"/>
             </video>
@@ -37,11 +37,74 @@ const HomeHero = () => {
       </div>
     </section>
       
+{/*---hero section mobile--- */}
+      <section >
+        
+      <div className="z-0 text-center  sm:block md:hidden flex flex-col items-center justify-cente  pt-20">
+      <div className="max-w-xl mb-3   ">
+        <h1 class=" pt-5 bg-gradient-to-r  from-orange-500 via-orange-300 to-orange-500 bg-clip-text font-extrabold text-transparent text-5xl ">
+          CYBER SPACE DIGITAL
+        </h1>
+        <span class="text-black-300 text-2xl"> Solution for your Business </span>
+      </div>
+      <div className="master-container ">
+          <div className="content center">
+            <h1 id="master">
+              <div id="master-container-scroller">
+                <div className="master-container-scroller_item">
+                  <a className="cta-link" href="#">Web Development</a>
+                </div>
+                <div className="master-container-scroller_item">
+                  <a className="cta-link" href="#">App Development</a>
+                </div>
+                <div className="master-container-scroller_item">
+                  <a className="cta-link" href="#">Digital Marketing</a>
+                </div>
+                <div className="master-container-scroller_item">
+                  <a className="cta-link" href="#">Product Design</a>
+                </div>
+                <div className="master-container-scroller_item">
+                  <a className="cta-link" href="#">Instructional Design</a>
+                </div>
+                <div className="master-container-scroller_item">
+                  <a className="cta-link" href="#">Interactive Design</a>
+                </div>
+                <div className="master-container-scroller_item">
+                  <a className="cta-link" href="#">Brand Design</a>
+                </div>
+                <div className="master-container-scroller_item">
+                  <a className="cta-link" href="#">UI/ UX Design</a>
+                </div>
+                <div className="master-container-scroller_item">
+                  <a className="cta-link" href="#">Social Meida</a>
+                </div>
+                <div className="master-container-scroller_item">
+                  <a className="cta-link" href="#">SEO</a>
+                </div>
+                <div className="master-container-scroller_item">
+                  <a className="cta-link" href="#">Graphic Design</a>
+                </div>
+                <div className="master-container-scroller_item" />
+              </div>
+              <div className='text-sm py-3 '>Let's Build your business today !</div>
+            </h1>
+          </div>
+        </div>
+        <Link to= '/contactus'>
+            <a class=" block w-full rounded border bg-orange-600 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-black focus:outline-none focus:ring active:text-opacity-75 sm:w-auto">
+                Get in-touch </a></Link>
+   
+      <img src="https://kitwind.io/assets/kometa/half-phone.png"
+        className=" pt-2 px-8 w-full mx-auto "/>
+        
+        
+        </div>
+      </section>
 
 {/*MainFeatures */}
       <section>
       <section>
-      <div className="pt-16 bg-gray-50 overflow-hidden">
+      <div className="pt-10 bg-gray-50 overflow-hidden">
       <div className="container m-auto px-6 space-y-8 text-gray-500 md:px-12">
       <div>
       <span className="text-gray-600 text-lg font-semibold">Main features</span>
