@@ -20,7 +20,7 @@ import Aboutus from '../routes/Aboutus';
 import Contactus from '../routes/CONTACTUS';
 
 import Reactblog from '../components/PAGES/Technologies/Blogpages/Reactblog';
-import ReactGA from 'react-ga';
+
 
 import { AnimatePresence } from 'framer-motion';
 
