@@ -9,7 +9,9 @@
     padding: 1.5rem;   
     text-align: center;
     margin-top: -5%;
+    @media screen and (max-width: 650px) {
     padding-top: 30%;
+    }
     
     
   }

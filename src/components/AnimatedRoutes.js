@@ -6,7 +6,7 @@ import TermsnConditions from '../components/PAGES/Aboutus/TermsnConditions';
 import Disclaimer from '../components/PAGES/Aboutus/Disclaimer';
 
 import Home from '../routes/HOME';
-import Error404 from '../components/Tools/Error404';
+import Error404 from './Tools/Error404';
 
 import Services from '../routes/SERVICES';
 import Technologies from '../routes/TECHNOLOGIES';
