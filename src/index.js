@@ -2,16 +2,21 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import { BrowserRouter } from 'react-router-dom';
+import {BrowserRouter } from 'react-router-dom';
 import { HelmetProvider } from 'react-helmet-async';
 
 ReactDOM.render(
   
-  <BrowserRouter forceRefresh={true}>
-    <HelmetProvider> {/*For indexing seo */}
-    <App />
-    </HelmetProvider>
-  </BrowserRouter>,
+  <React.StrictMode>
+    <BrowserRouter >
+      <HelmetProvider> {/*For indexing seo <forceRefresh={true}>*/}
+      <App />
+      </HelmetProvider>
+    </BrowserRouter>
+
+
+    </React.StrictMode>,
+  
   document.getElementById('root')
 );
 
