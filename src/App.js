@@ -2,6 +2,7 @@ import React from 'react';
 import {  Routes, Route, useLocation  } from 'react-router-dom';
 
 
+
 import {Navbar,Footer,PrivacyPolicy,TermsnConditions,Disclaimer,Sitemaps,Error404,Home,
         Services,Technologies,Clients,Reviews,GetQuotation,Aboutus,Contactus,
         Reactblog,} from './routes/Routesmap';
@@ -27,9 +28,10 @@ export function App() {
           <Route path='/services' element={<Services />} />
 
           <Route path='/technologies' element={<Technologies />} />
-            <Route path='/reactblog' element={<Reactblog />} />
+            <Route path='/technologies/reactblog' element={<Reactblog />} />
         
           <Route path='/clients' element={<Clients />} />
+          
           <Route path='/reviews' element={<Reviews />} />
 
           <Route path='/getquotation' element={<GetQuotation />} />
