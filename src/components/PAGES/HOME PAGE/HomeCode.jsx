@@ -12,7 +12,7 @@ const HomeHero = () => {
 
 {/*herosection desktop*/}    
     <section>
-      <div className=' hidden md:block w-full h-screen'>
+      <div className='invisible sm:visible hidden md:block w-full h-screen'>
             <video autoPlay loop muted playsinline id='homeherovideo'>
                 <source src={HomeHeroVideo1} type="video/mp4"/>
             </video>
@@ -123,7 +123,7 @@ const HomeHero = () => {
             alt="coding_icon"
           /> 
           <div className="space-y-2">
-            <h5 className="text-xl text-gray-800 font-medium transition group-hover:text-yellow-600">
+            <h5 className="text-lg text-gray-800 font-medium transition group-hover:text-yellow-600">
               WEB DEVELOPMENT
             </h5>
             <p className="text-sm text-gray-600">
