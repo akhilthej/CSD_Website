@@ -95,7 +95,7 @@ const Footer = () => {
         <div className="flex mt-8 space-x-6 text-gray-600">
           <a
             className="hover:opacity-75"
-            href=""
+            href="https://www.facebook.com/profile.php?id=100087441512479"
             target="_blank"
             rel="noreferrer"
           >
@@ -115,7 +115,7 @@ const Footer = () => {
           </a>
           <a
             className="hover:opacity-75"
-            href=""
+            href="https://www.instagram.com/cyber.space.digital/"
             target="_blank"
             rel="noreferrer"
           >
@@ -194,61 +194,43 @@ const Footer = () => {
         <div>
           <p className="font-medium text-white">Company</p>
           <nav className="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
-            <a className="hover:opacity-75" href="">
+            <a className="hover:opacity-75" href="#/aboutus">
               {" "}
               About us{" "}
             </a>
-            <a className="hover:opacity-75" href="">
-              {" "}
-              Meet the Team{" "}
-            </a>
-            <a className="hover:opacity-75" href="">
+            <a className="hover:opacity-75" href="#/clients">
               {" "}
               History{" "}
-            </a>
-            <a className="hover:opacity-75" href="">
-              {" "}
-              Careers{" "}
             </a>
           </nav>
         </div>
         <div>
           <p className="font-medium text-white">Services</p>
           <nav className="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
-            <a className="hover:opacity-75" href="">
+            
+            <a className="hover:opacity-75" href="https://goo.gl/maps/bfLrrZXcQ62JfyNTA">
               {" "}
-              1on1 Coaching{" "}
+              Google Map Review{" "}
             </a>
-            <a className="hover:opacity-75" href="">
+            <a className="hover:opacity-75" href="#/reviews">
               {" "}
-              Company Review{" "}
+              Client Review{" "}
             </a>
-            <a className="hover:opacity-75" href="">
-              {" "}
-              Accounts Review{" "}
-            </a>
-            <a className="hover:opacity-75" href="">
-              {" "}
-              HR Consulting{" "}
-            </a>
-            <a className="hover:opacity-75" href="">
-              {" "}
-              SEO Optimisation{" "}
-            </a>
+            
           </nav>
         </div>
         <div>
           <p className="font-medium text-white">Helpful Links</p>
           <nav className="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
-            <a className="hover:opacity-75" href="">
+            <a className="hover:opacity-75" href="#/contactus">
               {" "}
               Contact{" "}
             </a>
-            <a className="hover:opacity-75" href="">
+            <a className="hover:opacity-75" href="#/contactus">
               {" "}
               FAQs{" "}
             </a>
-            <a className="hover:opacity-75" href="">
+            <a className="hover:opacity-75" href="https://api.whatsapp.com/send?phone=918143407758&text=Welcome%20to%20Cyberspacedigital">
               {" "}
               Live Chat{" "}
             </a>
@@ -273,6 +255,10 @@ const Footer = () => {
             <Link to='/disclaimer'><a className="hover:opacity-75" href="">
               {" "}
               Disclaimer{" "}
+            </a></Link>
+            <Link to='/sitemaps'><a className="hover:opacity-75" href="">
+              {" "}
+              Sitemaps{" "}
             </a></Link>
           </nav>
         </div>
