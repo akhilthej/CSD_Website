@@ -7,7 +7,7 @@ import { HelmetProvider } from 'react-helmet-async';
 
 ReactDOM.render(
   
-  <BrowserRouter>
+  <BrowserRouter forceRefresh={true}>
     <HelmetProvider> {/*For indexing seo */}
     <App />
     </HelmetProvider>
