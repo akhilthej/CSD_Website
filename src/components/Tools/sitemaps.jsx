@@ -10,7 +10,7 @@ const sitemaps = () => {
                       <li className="sitemap-main">   
                         <ul>
                           <li>
-                            <a href="#/services">Services</a>
+                            <a href="/services">Services</a>
                             {/*<ul>
                               <li>
                                 <a href="/about/careers/">Careers</a>
@@ -27,27 +27,27 @@ const sitemaps = () => {
                           </li>
 
                           <li>
-                            <a href="#/technologies">Technologies</a>
+                            <a href="/technologies">Technologies</a>
                             <ul>
                               <li>
-                                <a href="#/reactblog">React.js</a>
+                                <a href="/technologies/reactblog">React.js</a>
                               </li>
                             </ul>
 
                           </li>
                           <li>
-                            <a href="#/getquotation">Get Quotation</a>
+                            <a href="/getquotation">Get Quotation</a>
                           </li>
 
-                          <li><a href="#/aboutus">About us</a></li>
-                          <li><a href="#/contactus">Contact us</a></li>
+                          <li><a href="/aboutus">About us</a></li>
+                          <li><a href="/contactus">Contact us</a></li>
 
                           <li>
-                            <a href="#/clients">Clients</a>
+                            <a href="/clients">Clients</a>
                            </li>
 
                           <li>
-                            <a href="#/reviews">Reviews</a>
+                            <a href="/reviews">Reviews</a>
                           </li>
 
                         </ul> 
@@ -57,13 +57,13 @@ const sitemaps = () => {
                       <li className="sitemap-aux">
                         <ul>
                           <li>
-                            <a href="#/disclaimer">Disclaimer</a>
+                            <a href="/disclaimer">Disclaimer</a>
                           </li>
                           <li>
-                            <a href="#/privacypolicy">Privacy</a>
+                            <a href="/privacypolicy">Privacy</a>
                           </li>
                           <li>
-                            <a href="#/terms&conditions">Terms &amp; Conditions</a>
+                            <a href="/terms&conditions">Terms &amp; Conditions</a>
                           </li>
                         </ul>
                       </li>
