@@ -8,7 +8,7 @@ import { HelmetProvider } from 'react-helmet-async';
 ReactDOM.render(
   
   <BrowserRouter>
-    <HelmetProvider>
+    <HelmetProvider> {/*For indexing seo */}
     <App />
     </HelmetProvider>
   </BrowserRouter>,
