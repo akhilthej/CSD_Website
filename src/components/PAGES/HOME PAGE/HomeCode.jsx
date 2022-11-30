@@ -2,40 +2,33 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 
 import './Home.scss';
-import {HomeHeroVideo, HomeHeroVideo1,CSDbothome,CSDbothome_bg, } from '../../data/data.jsx';
+import {HomeHeroVideo, HomeHeroVideo1,CSDbothome,HomeHeroimage, } from '../../data/data.jsx';
+import '../../Tools/Animations.scss';
 import {codeing ,graphicsdesign ,digitalmarketing ,mobiledev ,recruitment ,brand } from '../../data/data.jsx';
 import {documentationicon ,socialicon ,analysisicon ,financeicon ,statergyicon ,businessreporticon ,}from '../../data/data.jsx';
+
 
 const HomeHero = () => {
   return (
   <main>
 
 {/*herosection desktop*/}    
-    <section>
-      <div className='invisible sm:visible hidden md:block w-full h-screen'>
-            <video autoPlay loop muted playsinline id='homeherovideo'>
-                <source src={HomeHeroVideo1} type="video/mp4"/>
-            </video>
-            <div className="absolute w-full h-full top-0 flex flex-col justify-center items-center text-white text-center">
+    <header className='HerosectionDesktop'>
+    <div className="homehero">
+  <div className="homeimage imagehover">
+    <img src={HomeHeroimage} />
+  </div>
+  <div className="hometext ">
+  <h1>
+          CYBER SPACE DIGITAL
+        </h1>
+        <h2> Solution for your Business </h2>
+        
+        
+  </div>
+</div>
 
-              <h1 class=" pb-60 bg-gradient-to-r from-orange-300 via-orange-700 to-orange-400 bg-clip-text text-5xl font-extrabold text-transparent sm:text-7xl ">
-              Cyber Space Digital<br />
-              <span class="sm:block sm:text-3xl sm:pt-3 text-gray-300 text-3xl"> Solution for businesses </span>
-              </h1>
-
-              <div class="mt-8 flex flex-wrap justify-center gap-4">
-          <Link to= '/contactus'>
-            <a class=" block w-full rounded border bg-orange-700 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-white focus:outline-none focus:ring active:text-opacity-75 sm:w-auto">
-                Get in-touch </a></Link>
-
-          <Link to= '/aboutus'>
-            <a class="block w-full rounded border border-bg-green-300 px-12 py-3 text-sm font-medium text-white hover:bg-orange-700 focus:outline-none focus:ring active:bg-orange-500 sm:w-auto ">
-                Learn More </a></Link>
-       
-            </div>
-          </div>  
-      </div>
-    </section>
+    </header>
       
 {/*---hero section mobile--- */}
       <section >
@@ -45,7 +38,7 @@ const HomeHero = () => {
         <h1 class=" pt-5 bg-gradient-to-r  from-orange-500 via-orange-300 to-orange-500 bg-clip-text font-extrabold text-transparent text-5xl ">
           CYBER SPACE DIGITAL
         </h1>
-        <span class="text-black-300 text-2xl"> Solution for your Business </span>
+        <span class="text-black-300 text-2xl  "> Solution for your Business </span>
       </div>
       <div className="master-container ">
           <div className="content center">
@@ -91,7 +84,7 @@ const HomeHero = () => {
           </div>
         </div>
         <Link to= '/contactus'>
-            <a class=" block w-full rounded border bg-orange-600 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-black focus:outline-none focus:ring active:text-opacity-75 sm:w-auto">
+            <a class=" block w-full rounded border bg-orange-600 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-black focus:outline-none focus:ring active:text-opacity-75 sm:w-auto">
                 Get in-touch </a></Link>
    
       <img src="https://kitwind.io/assets/kometa/half-phone.png"

@@ -1,0 +1,19 @@
+.imagehover > *{
+    animation: fly 5s linear infinite;
+    top: 0;
+	left: 0;
+	
+	z-index: 999;
+	pointer-events: none;
+}
+@keyframes fly {
+    0%{
+        transform: translate(0,25px);
+    }
+    50%{
+        transform: translate(0,-25px);
+    }
+    100%{
+        transform: translate(0,25px);
+    }
+}
