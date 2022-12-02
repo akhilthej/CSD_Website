@@ -28,7 +28,7 @@ export function App() {
           <Route path='/services' element={<Services />} />
 
           <Route path='/technologies' element={<Technologies />} />
-            <Route path='/technologies/reactblog' element={<Reactblog />} />
+            <Route path='/technologies/blog/reactblog' element={<Reactblog />} />
         
           <Route path='/clients' element={<Clients />} />
           

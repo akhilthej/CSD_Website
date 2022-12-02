@@ -891,12 +891,10 @@
 .homesidecard1{
   background-color: white;
  .backgroundhome2 {
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 80px;
-  margin-bottom: 0px;
-  z-index: 0;
-  width: 30%;
+  margin: auto;
+  margin-right: 0;
+  image-rendering: optimizeSpeed;
+  width: 20%;;
   height: auto;
   -webkit-animation: mover 1s infinite  alternate;
   animation: mover 1s infinite  alternate;
@@ -906,20 +904,8 @@
     margin-bottom: auto;
   }
 }
-.backgroundhome2 {
-    -webkit-animation: mover 1s infinite  alternate;
-    animation: mover 1s infinite  alternate;
-}
-@-webkit-keyframes mover {
-    0% { transform: translateY(0); }
-    100% { transform: translateY(-100px); }
-}
-@keyframes mover {
-    0% { transform: translateY(0); }
-    100% { transform: translateY(-100px); }
-}
 h2{
-  
+  position: relative;
  font-size: 50px;
  font-weight: 700;
  padding-left: 20px;

@@ -8,15 +8,15 @@ function classNames(...classes) {
 
 const Navbar = () => {
   return (
-    <main class ='sticky top-0 z-50 backdrop-blur bg-black/50 -mb-20 ' >
-    <div className=' w-full h-20 flex justify-between items-center pl-10 md:pl-40 text-white shadow-md z-50'>
+    <main class ='mt-4 mx-4 rounded-2xl sticky top-0 z-50 bg-black/70 -mb-28 ' >
+    <div className=' w-full h-20 flex justify-between items-center pl-10 md:pl-40 text-white'>
       <Link to='/'><img class="h-auto w-14" src={require('../../assets/Common/csd_navbarlogo.png')} alt='csd_logo' /></Link>
       
       <div class=" justify-end ">
       <ul className='flex items-center '>
         
         <li className='p-4 hidden md:block'><Link to='/services'>Services</Link></li>
-        <li className='p-4 hidden md:block'><Link to='/technologies'>Technologies</Link></li>
+        <li className='p-4 hidden md:block'><Link to='/clients'>Clients</Link></li>
         <li className='p-4 hidden md:block'><Link to='/getquotation'>Get Quotation</Link></li>
         <li className='p-4 hidden md:block'><Link to='/aboutus'>About us</Link></li>
         <li className='p-4 hidden md:block'><Link to='/contactus'>Contact us</Link></li>
@@ -73,7 +73,7 @@ const Navbar = () => {
                   </Menu.Item>
                   <Menu.Item >
                     {({ active }) => (
-                      <Link to='/technologies'><a
+                      <Link to='/clients'><a
                         className={classNames(
                           active
                             ? 'bg-gray-100 text-gray-900'
@@ -81,7 +81,7 @@ const Navbar = () => {
                           'block px-4 py-2 text-sm'
                         )}
                       >
-                      Technologies
+                      Clients
                       </a></Link>
                     )}
                   </Menu.Item>
@@ -89,7 +89,7 @@ const Navbar = () => {
                 <div className='py-1 mt-1'>
                   <Menu.Item>
                     {({ active }) => (
-                      <Link to='/clients'><a
+                      <Link to='/technologies'><a
                       
                         className={classNames(
                           active
@@ -98,7 +98,7 @@ const Navbar = () => {
                           'block px-4 py-2 text-sm'
                         )}
                       >
-                        Clients
+                        Technologies
                         
                       </a></Link>
                     )}
