@@ -6,6 +6,7 @@ import HomeHeroVideo from '../../assets/HomeHeroVideo.mp4'
 import HomeHeroVideo1 from '../../assets/HomeHeroVideo1.mp4'
 import CSDbothome from '../../assets/Common/CSD_Bot/CSDbothome.png'
 import HomeHeroimage from '../../assets/Common/HomeHero.png'
+import HeroCoverBG from '../../assets/Common/Home/HeroCoverBG.jpg'
 
 
 
@@ -35,7 +36,7 @@ export {
 
 
     /* Home */
-    HomeHeroVideo,HomeHeroVideo1,CSDbothome,HomeHeroimage,
+    HomeHeroVideo,HomeHeroVideo1,CSDbothome,HomeHeroimage,HeroCoverBG,
     codeing,graphicsdesign,digitalmarketing,mobiledev,recruitment,brand,
     documentationicon,socialicon,analysisicon,financeicon,statergyicon,businessreporticon,
 
