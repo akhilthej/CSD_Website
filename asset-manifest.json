@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.1dd9d1a6.css",
-    "main.js": "/static/js/main.653ec929.js",
+    "main.js": "/static/js/main.46bbf79a.js",
     "static/media/HomeHeroVideo.mp4": "/static/media/HomeHeroVideo.634f83d78a4ed475c545.mp4",
     "static/media/HomeHeroVideo1.mp4": "/static/media/HomeHeroVideo1.745b13d0c2a49dee58ed.mp4",
     "static/media/democover.jpg": "/static/media/democover.d6b5331c54468424aed5.jpg",
@@ -15,6 +15,7 @@
     "static/media/musicapp.png": "/static/media/musicapp.f1c301f91904ef5f9249.png",
     "static/media/ReviewsHero.png": "/static/media/ReviewsHero.f3eb97f0e0d7e31a8344.png",
     "static/media/CSDbothome.png": "/static/media/CSDbothome.5a7c3b45d031c6565c34.png",
+    "static/media/HeroCoverBG.jpg": "/static/media/HeroCoverBG.0eee936930e641956cd6.jpg",
     "static/media/Subscribe.png": "/static/media/Subscribe.68f61a5d75abbc0d1333.png",
     "static/media/labelanuneni.png": "/static/media/labelanuneni.46adaa542261382d6b23.png",
     "static/media/mobiledev.png": "/static/media/mobiledev.7ab74e755f69935c9bc1.png",
@@ -35,10 +36,10 @@
     "static/media/codeing.png": "/static/media/codeing.924aefcd21dab990e435.png",
     "index.html": "/index.html",
     "main.1dd9d1a6.css.map": "/static/css/main.1dd9d1a6.css.map",
-    "main.653ec929.js.map": "/static/js/main.653ec929.js.map"
+    "main.46bbf79a.js.map": "/static/js/main.46bbf79a.js.map"
   },
   "entrypoints": [
     "static/css/main.1dd9d1a6.css",
-    "static/js/main.653ec929.js"
+    "static/js/main.46bbf79a.js"
   ]
 }
