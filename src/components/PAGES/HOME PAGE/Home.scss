@@ -892,14 +892,14 @@
   background-color: white;
  .backgroundhome2 {
   margin: auto;
-  margin-right: 0;
+  display: flex;
   image-rendering: optimizeSpeed;
-  width: 20%;;
+  max-width: 30%;
   height: auto;
-  -webkit-animation: mover 1s infinite  alternate;
-  animation: mover 1s infinite  alternate;
   @media only screen and (max-width: 600px) {
     padding-top: 50px;
+    width: 20%;
+    display: flex;
     margin-top: auto;
     margin-bottom: auto;
   }

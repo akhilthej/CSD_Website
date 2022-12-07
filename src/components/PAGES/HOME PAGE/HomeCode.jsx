@@ -23,7 +23,7 @@ const HomeHero = () => {
           CYBER SPACE DIGITAL
         </h1>
         <h2> Solution for your Business </h2>
-        <button>Get In-Touch</button>
+        <Link to="/contactus"> <button className='mx-auto block w-full rounded border bg-orange-600 py-3 px-3 text-sm font-medium text-white hover:bg-transparent hover:text-black focus:outline-none focus:ring active:text-opacity-75 sm:w-auto'>Get In-Touch</button></Link>
         
   </div>
 </div>
@@ -346,7 +346,7 @@ const HomeHero = () => {
 {/*Sidecard1 */}
       <section>
   <div className="homesidecard1">
-    <div className="md:flex md:gap-6 lg:gap-1">
+    <div className=" md:flex md:gap-6 lg:gap-1">
     <div className='backgroundhome2'>
         <img src= {CSDbothome} alt="CSDbothome"/>
         </div>
@@ -385,7 +385,7 @@ const HomeHero = () => {
                     </p>
                     <a
                         className="mt-5 px-4 py-2 text-indigo-600 font-medium bg-indigo-50 rounded-full inline-flex items-center"
-                        href="javascript:void()">
+                        href="/contactus">
                         Try it out
                         <div className="h-6 w-6 ml-1 duration-150" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />

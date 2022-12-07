@@ -162,7 +162,7 @@ const Navbar = () => {
                           'block px-4 py-2 text-sm'
                         )}
                       >
-                        Share
+                        Downlaods
                       </a>
                     )}
                   </Menu.Item>
