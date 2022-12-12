@@ -2,7 +2,7 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 
 import './Home.scss';
-import {HomeHeroVideo, HomeHeroVideo1,CSDbothome,HomeHeroimage, } from '../../data/data.jsx';
+import {CSDbothome,HomeHeroimage,HeroCoverBG } from '../../data/data.jsx';
 import '../../Tools/Animations.scss';
 import {codeing ,graphicsdesign ,digitalmarketing ,mobiledev ,recruitment ,brand } from '../../data/data.jsx';
 import {documentationicon ,socialicon ,analysisicon ,financeicon ,statergyicon ,businessreporticon ,}from '../../data/data.jsx';
@@ -14,23 +14,18 @@ const HomeHero = () => {
 
 {/*herosection desktop*/}    
     <header className='HerosectionDesktop'>
-    <div className="homehero">
-  <div className="homeimage imagehover">
-    <img src={HomeHeroimage} />
-  </div>
-  <div className="hometext ">
-  <h1>
-          CYBER SPACE DIGITAL
-        </h1>
-        <h2> Solution for your Business </h2>
-        <Link to="/contactus"> <button className='mx-auto block w-full rounded border bg-orange-600 py-3 px-3 text-sm font-medium text-white hover:bg-transparent hover:text-black focus:outline-none focus:ring active:text-opacity-75 sm:w-auto'>Get In-Touch</button></Link>
-        
-  </div>
-</div>
-
+      <div className="homehero">
+        <div className="homeimage imagehover"> <img src={HomeHeroimage} /> </div>
+          <div className="hometext ">
+            <h1>CYBER SPACE DIGITAL</h1>
+            <h2>Solution for your Business</h2>
+            <Link to="/contactus"> <button className='mx-auto block w-full rounded border bg-orange-600 py-3 px-3 text-sm font-medium text-white hover:bg-transparent hover:text-black focus:outline-none focus:ring active:text-opacity-75 sm:w-auto'>Get In-Touch</button></Link>
+          </div>
+        <div className='homeheroBG'><img src={HeroCoverBG} /></div>
+      </div>
     </header>
       
-{/*---hero section mobile--- */}
+{/*---hero section mobile
       <section >
         
       <div className="z-0 text-center  sm:block md:hidden flex flex-col items-center justify-cente  pt-20">
@@ -92,7 +87,7 @@ const HomeHero = () => {
         
         
         </div>
-      </section>
+      </section>--- */}
 
 {/*MainFeatures */}
       <section>
