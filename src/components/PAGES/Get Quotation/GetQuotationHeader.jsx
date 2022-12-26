@@ -7,7 +7,7 @@ import GetQoutation from '../../../assets/ImagesPage/GetQoutationHeader.jpg';
 const GetQuotationHeader = () => {
   return (
     <>
-
+    <header>
   <div className="bg-white  flex items-center justify-center my-2">
     <div className="mx-auto w-full max-w-screen-lg bg-white px-5 ">
       <div className="grid gap-5 md:grid-cols-2 md:gap-10 lg:gap-20">
@@ -46,8 +46,14 @@ const GetQuotationHeader = () => {
         </div>
       </div>
     </div>
-  </div>
-</>
+  </div></header>
+
+
+  <section>
+    <WebDevelopment />
+  </section>
+  </>
+  
 
   )
 }
