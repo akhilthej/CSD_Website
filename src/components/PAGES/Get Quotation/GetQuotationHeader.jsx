@@ -3,6 +3,7 @@ import {Link} from 'react-router-dom';
 
 
 import GetQoutation from '../../../assets/ImagesPage/GetQoutationHeader.jpg';
+import WebDevelopmentForm from './Forms/WebDevelopmentForm';
 
 const GetQuotationHeader = () => {
   return (
@@ -50,7 +51,7 @@ const GetQuotationHeader = () => {
 
 
   <section>
-    <WebDevelopment />
+    <WebDevelopmentForm />
   </section>
   </>
   
