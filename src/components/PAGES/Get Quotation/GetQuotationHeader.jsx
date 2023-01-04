@@ -52,7 +52,7 @@ const GetQuotationHeader = () => {
 
 
   <section>
-    <WebDevelopmentForm />
+    
     <Testqotes/>
   </section>
   </>

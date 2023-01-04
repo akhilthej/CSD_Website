@@ -2,7 +2,7 @@ import React from 'react'
 
 const Testqotes = () => {
   return (
-    <div>Testqotes</div>
+    <div>We are underconstruction Please contact (admin@cyberspacedigital.in) to get your quotation.</div>
   )
 }
 
