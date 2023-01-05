@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.13e6d4f0.css",
-    "main.js": "/static/js/main.1c00a14f.js",
+    "main.css": "/static/css/main.a588cfe0.css",
+    "main.js": "/static/js/main.870c4cb9.js",
     "static/media/democover.jpg": "/static/media/democover.d6b5331c54468424aed5.jpg",
     "static/media/ContactusHeaderimage.png": "/static/media/ContactusHeaderimage.25bfaf86713f9ae3f933.png",
     "static/media/ClientHeader.jpg": "/static/media/ClientHeader.4aecf9b9f3730622b915.jpg",
     "static/media/ARK.png": "/static/media/ARK.c6fbe33b6b688091b0ea.png",
-    "static/media/WhatsApp.png": "/static/media/WhatsApp.a696dbd74a78c7e9e5e4.png",
+    "static/media/WhatsApp.png": "/static/media/WhatsApp.34e879f5812c0c92dc03.png",
     "static/media/ecommerce.png": "/static/media/ecommerce.522da76635d52117102b.png",
     "static/media/aboutheader.webp": "/static/media/aboutheader.237579978fb7c06a9e56.webp",
     "static/media/GetQoutationHeader.jpg": "/static/media/GetQoutationHeader.0f2a2d7a5569920f8686.jpg",
@@ -33,11 +33,11 @@
     "static/media/varun.webp": "/static/media/varun.5a957c81713e5e8e3510.webp",
     "static/media/codeing.png": "/static/media/codeing.924aefcd21dab990e435.png",
     "index.html": "/index.html",
-    "main.13e6d4f0.css.map": "/static/css/main.13e6d4f0.css.map",
-    "main.1c00a14f.js.map": "/static/js/main.1c00a14f.js.map"
+    "main.a588cfe0.css.map": "/static/css/main.a588cfe0.css.map",
+    "main.870c4cb9.js.map": "/static/js/main.870c4cb9.js.map"
   },
   "entrypoints": [
-    "static/css/main.13e6d4f0.css",
-    "static/js/main.1c00a14f.js"
+    "static/css/main.a588cfe0.css",
+    "static/js/main.870c4cb9.js"
   ]
 }
