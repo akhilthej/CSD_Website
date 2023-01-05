@@ -329,8 +329,8 @@ const HomeHero = () => {
 {/*HomeSection1 */}
       <section>
        
-        <div className ='backgroundhome1'>
-          <div class='px-4 text-center'><h1 className="text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400  md:text-5xl lg:text-6xl ">
+        <div className ='backgroundhome1 pt-20'>
+          <div class='glass '><h1 className=" py-5 text-center text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400  md:text-5xl lg:text-6xl ">
             <h1>WE BUILD</h1>
             <span className="sm:text-6xl bg-clip-text bg-gradient-to-r to-orange-600 from-yellow-400">
               "SIMPLE BUT COMPLEX"
