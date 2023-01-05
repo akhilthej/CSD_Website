@@ -15,8 +15,8 @@ const Footer = () => {
       {/*Subscription section*/}
   <section>
 
-<div className="bg-white  flex items-center justify-center">
-  <div className="mx-auto w-full max-w-screen-lg bg-white px-5 py-10">
+<div className=" flex items-center justify-center">
+  <div className="mx-auto w-full max-w-screen-lg  px-5 py-10">
     <div className="grid gap-5 md:grid-cols-2 md:gap-10 lg:gap-20">
       <div className="flex justify-center md:justify-end">
         <img className=" mx-auto flex "
@@ -26,8 +26,8 @@ const Footer = () => {
       </div>
       <div className="flex items-center">
         <div className="mx-auto md:mx-0">
-          <h3 className="text-4xl font-bold text-black">Subscribe</h3>
-          <p className="mt-2 max-w-[20rem] text-lg text-black">
+          <h3 className="text-4xl font-bold text-white">Subscribe</h3>
+          <p className="mt-2 max-w-[20rem] text-lg text-white">
             Join our weekly digest. You'll also receive some of our best posts
             today.
           </p>
@@ -37,11 +37,11 @@ const Footer = () => {
               name="email"
               id="email"
               placeholder="Enter your email"
-              className="w-full rounded border border-black/50 bg-transparent px-3 py-2 text-white placeholder:text-black/50 md:max-w-[18rem]"
+              className="w-full rounded border border-white/50 bg-transparent px-3 py-2 text-white placeholder:black-black/50 md:max-w-[18rem]"
             />
             <button
               type="submit"
-              className="mt-4 w-full max-w-[14rem] rounded bg-blue-600 hover:bg-blue-900 px-14 py-2 text-center text-white"
+              className="mt-4 w-full max-w-[14rem] rounded bg-yellow-500 hover:bg-white px-14 py-2 text-center text-black"
             >
               Subscribe
             </button>
@@ -56,7 +56,7 @@ const Footer = () => {
 
       {/* Donwload Section */}
         <section>
-        <div class="p-4 w-full text-center bg-gray-900   shadow-md sm:p-8 ">
+        <div class="p-4 w-full text-center bg-black   shadow-md sm:p-8 ">
     <h5 class="mb-2 text-3xl font-bold text-white">Work fast from anywhere</h5>
     <p class="mb-5 text-base text-gray-400">Stay up to date and move work forward with Flowbite on iOS &amp; Android. Download the app today.</p>
     <div class="justify-center items-center space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
@@ -81,7 +81,7 @@ const Footer = () => {
 
     {/* Footer */}
     <section>
-    <footer className="bg-gradient-to-r from-gray-900 via-[#191d20] to-gray-700">
+    <footer className="bg-gradient-to-r from-balck via-[#191d20] to-gray-700">
   <div className="max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8">
     <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
     <div>

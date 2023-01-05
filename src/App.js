@@ -17,7 +17,7 @@ export function App() {
     setTimeout(() => {
       preloader.style.display = "none";
       setLoading(false);
-    }, 1000);
+    }, 5000);
   }
 
   return (

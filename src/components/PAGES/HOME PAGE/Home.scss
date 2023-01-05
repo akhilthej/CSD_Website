@@ -1,13 +1,20 @@
-.herohomebg{
-  background-image: url("https://github.com/akhilthej/CSD_Website/blob/5c8e4b53d662c1deb4c03414a841cf867b29d121/src/components/PAGES/HOME%20PAGE/HomeCode.jsx");
-  background-size: cover;
-  height: 100vh;
-  
+
+.glass{
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border:1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
 }
 
 /*--HomeSection1 start--*/
 .backgroundhome1{
-    background-image: url("https://raw.githubusercontent.com/akhilthej/CSD_Website/main/src/assets/Common/community.png");
+    background-image: url("src\assets\Common\community.jpg");
     position: relative;
     bottom: 0%;
     background-size: cover;
@@ -16,17 +23,17 @@
     min-height: calc(50vh - 16px);
     filter: drop-shadow(0 0.9rem 0.25rem rgba(0, 0, 0, 0.2));
 } 
-/*--HomeSection1 end--*/
 
 /*----homesidecard1 start---*/
 .homesidecard1{
-  background-color: white;
+
  .backgroundhome2 {
   margin: auto;
   display: flex;
   image-rendering: optimizeSpeed;
-  max-width: 30%;
+  max-width: 350px;
   height: auto;
+  padding-bottom: 50px;
   @media only screen and (max-width: 600px) {
     padding-top: 50px;
     width: 20%;
@@ -69,6 +76,8 @@ p{
 
 
 }
+
+
 /*----homesidecard1 end---*/
 
 

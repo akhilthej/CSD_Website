@@ -13,14 +13,15 @@ const HomeHero = () => {
   return (
   <main>
 {/*herosection desktop*/}    
-    <header className='herohomebg'>
-  <section className="py-24 flex items-center min-h-screen justify-center ">
+    <header><div style={{ backgroundImage: `url(${HeroCoverBG})`,backgroundRepeat:"no-repeat",backgroundSize:"cover"}}>
+      <div className='glass'>
+  <section className="flex items-center min-h-screen justify-center">
     <div className="mx-auto max-w-[55rem]">
       <div className="text-center">
         <p className="text-lg font-medium leading-8 text-white ">
           Introducing Design Data Platform
         </p>
-        <h1 className="pb-8 font-extrabold text-transparent text-8xl bg-clip-text bg-gradient-to-r from-yellow-400 to-pink-600 mt-3 text-[3.5rem]  leading-[4rem] tracking-tight text-black">
+        <h1 className="fade-in-down pb-8 font-extrabold text-transparent text-8xl bg-clip-text bg-gradient-to-r from-yellow-400 to-pink-600 mt-3 text-[3.5rem]  leading-[4rem] tracking-tight text-black">
           Cyber Space Digital
         </h1>
         <p className="mt-3 text-lg leading-relaxed text-slate-400">
@@ -43,23 +44,23 @@ const HomeHero = () => {
         </a>
       </div>
     </div>
-  </section>
+  </section></div></div>
  </header>
 
 {/*MainFeatures */}
+    <div style={{ backgroundImage: `url(${HeroCoverBG})`,backgroundRepeat:"no-repeat",backgroundSize:"cover"}}>
+      <section>
+      <div className="overflow-hidden">
+      <div className="container m-auto px-6 space-y-8 text-white md:px-12">
       <div>
-      <section className='mt-10'>
-      <div className="  overflow-hidden">
-      <div className="container m-auto px-6 space-y-8 text-gray-500 md:px-12">
-      <div>
-      <span className="text-gray-600 text-lg font-semibold">Main features</span>
-      <h2 className="mt-4 text-2xl text-gray-900 font-bold md:text-4xl">
+      <span className="text-lg font-semibold">Main features</span>
+      <h2 className="mt-4 text-2xl text-white font-bold md:text-4xl">
         Services, We Provide
       </h2>
       </div>
     
-      <div className="mt-16 grid border divide-x divide-y rounded-xl overflow-hidden sm:grid-cols-2 lg:divide-y-0 lg:grid-cols-3 xl:grid-cols-4">
-      <div className="relative group bg-white transition hover:z-[1] hover:shadow-2xl">
+      <div className="mt-16 grid glass border divide-x divide-y rounded-xl overflow-hidden sm:grid-cols-2 lg:divide-y-0 lg:grid-cols-3 xl:grid-cols-4">
+      <div className="relative group  transition hover:z-[1] hover:shadow-2xl">
         <div className="relative p-8 space-y-8">
           <img src= {codeing}
             className="w-10"
@@ -68,10 +69,10 @@ const HomeHero = () => {
             alt="coding_icon"
           /> 
           <div className="space-y-2">
-            <h5 className="text-lg text-gray-800 font-medium transition group-hover:text-yellow-600">
+            <h5 className="text-lg text-white font-medium transition group-hover:text-yellow-600">
               WEB DEVELOPMENT
             </h5>
-            <p className="text-sm text-gray-600">
+            <p className="text-sm text-white">
             Web development is the work involved in developing a website for the Internet (World Wide Web) or an intranet (a private network).
             </p>
           </div>
@@ -83,7 +84,7 @@ const HomeHero = () => {
           </a>
         </div>
       </div>
-      <div className="relative group bg-white transition hover:z-[1] hover:shadow-2xl">
+      <div className="relative group  transition hover:z-[1] hover:shadow-2xl">
         <div className="relative p-8 space-y-8">
           <img
             src= {recruitment}
@@ -93,10 +94,10 @@ const HomeHero = () => {
             alt="burger illustration"
           />
           <div className="space-y-2">
-            <h5 className="text-lg text-gray-800 font-medium transition group-hover:text-yellow-600">
+            <h5 className="text-lg text-white font-medium transition group-hover:text-yellow-600">
               IT STAFFING & RECRUITING
             </h5>
-            <p className="text-sm text-gray-600">
+            <p className="text-sm text-white">
             IT staffing is the act of finding job candidates with the specialized skills needed to fill technology roles on your team.
             </p>
           </div>
@@ -111,7 +112,7 @@ const HomeHero = () => {
           </a>
         </div>
       </div>
-      <div className="relative group bg-white transition hover:z-[1] hover:shadow-2xl">
+      <div className="relative group  transition hover:z-[1] hover:shadow-2xl">
         <div className="relative p-8 space-y-8">
           <img
             src= {mobiledev}
@@ -121,10 +122,10 @@ const HomeHero = () => {
             alt="burger illustration"
           />
           <div className="space-y-2">
-            <h5 className="text-base text-gray-800 font-medium transition group-hover:text-yellow-600">
+            <h5 className="text-base text-white font-medium transition group-hover:text-yellow-600">
               MOBILE APP DEVELOPMENT
             </h5>
-            <p className="text-sm text-gray-600">
+            <p className="text-sm text-white">
             The process of creating software applications that run on a mobile device.
             </p>
           </div>
@@ -139,8 +140,8 @@ const HomeHero = () => {
           </a>
         </div>
       </div>
-      <div className="relative group bg-gray-100 transition hover:z-[1] hover:shadow-2xl lg:hidden xl:block">
-        <div className="relative p-8 space-y-8 border-dashed rounded-lg transition duration-300 group-hover:bg-white group-hover:border group-hover:scale-90">
+      <div className="relative group transition hover:z-[1] hover:shadow-2xl lg:hidden xl:block">
+        <div className="relative p-8 space-y-8 border-dashed rounded-lg transition duration-300 group-hover:bg-yellow-500 group-hover:border group-hover:scale-90">
           <img
             src="https://tailus.io/sources/blocks/stacked/preview/images/avatars/metal.png"
             className="w-10"
@@ -149,10 +150,10 @@ const HomeHero = () => {
             alt="burger illustration"
           />
           <div className="space-y-2">
-            <h5 className="text-xl text-gray-800 font-medium transition group-hover:text-yellow-600">
+            <h5 className="text-xl text-white font-medium transition group-hover:text-yellow-600">
               More features
             </h5>
-            <p className="text-sm text-gray-600">
+            <p className="text-sm text-white">
               Checkout of services page for more features or contact our support team if your looking for some new ideas.
             </p>
           </div>
@@ -176,9 +177,9 @@ const HomeHero = () => {
 
       <section>
       <div className="pb-10  overflow-hidden">
-        <div className="container m-auto px-6 space-y-8 text-gray-500 md:px-12">
-        <div className="mt-0.5 grid border divide-x divide-y rounded-xl overflow-hidden sm:grid-cols-2 lg:divide-y-0 lg:grid-cols-3 xl:grid-cols-4">
-      <div className="relative group bg-white transition hover:z-[1] hover:shadow-2xl">
+        <div className=" container m-auto px-6 space-y-8 text-gray-500 md:px-12">
+        <div className="glass mt-0.5 grid border divide-x divide-y rounded-xl overflow-hidden sm:grid-cols-2 lg:divide-y-0 lg:grid-cols-3 xl:grid-cols-4">
+      <div className="relative group transition hover:z-[1] hover:shadow-2xl">
         <div className="relative p-8 space-y-8">
           <img
             src= {graphicsdesign}
@@ -188,10 +189,10 @@ const HomeHero = () => {
             alt="burger illustration"
           />
           <div className="space-y-2">
-            <h5 className="text-xl text-gray-800 font-medium transition group-hover:text-yellow-600">
+            <h5 className="text-xl text-white font-medium transition group-hover:text-yellow-600">
               UX/UI DESIGN
             </h5>
-            <p className="text-sm text-gray-600">
+            <p className="text-sm text-white">
             When it comes to product design, we often hear the terms “User Experience (UX)” and “User Interface (UI).”
             </p>
           </div>
@@ -206,7 +207,7 @@ const HomeHero = () => {
           </a>
         </div>
       </div>
-      <div className="relative group bg-white transition hover:z-[1] hover:shadow-2xl">
+      <div className="relative group transition hover:z-[1] hover:shadow-2xl">
         <div className="relative p-8 space-y-8">
           <img
             src= {digitalmarketing}
@@ -216,10 +217,10 @@ const HomeHero = () => {
             alt="burger illustration"
           />
           <div className="space-y-2">
-            <h5 className="text-xl text-gray-800 font-medium transition group-hover:text-yellow-600">
+            <h5 className="text-xl text-white font-medium transition group-hover:text-yellow-600">
               DIGITAL MARKETING
             </h5>
-            <p className="text-sm text-gray-600">
+            <p className="text-sm text-white">
             Marketing has always been about connecting with your audience in the right place and at the right time. Today, that means you need to meet them where they are already spending time: on the internet.
             </p>
           </div>
@@ -234,7 +235,7 @@ const HomeHero = () => {
           </a>
         </div>
       </div>
-      <div className="relative group bg-white transition hover:z-[1] hover:shadow-2xl">
+      <div className="relative group transition hover:z-[1] hover:shadow-2xl">
         <div className="relative p-8 space-y-8">
           <img
             src={brand}
@@ -244,9 +245,9 @@ const HomeHero = () => {
             alt="burger illustration"
           />
           <div className="space-y-2">
-            <h5 className="text-xl text-gray-800 font-medium transition group-hover:text-yellow-600">
+            <h5 className="text-xl text-white font-medium transition group-hover:text-yellow-600">
               ENDORSEMENT BRAND            </h5>
-            <p className="text-sm text-gray-600">
+            <p className="text-sm text-white">
             There are many potential methods that business professionals can use to develop successful branding strategies. Endorsed branding can allow companies to unify their branding efforts to meet their goals.
             </p>
           </div>
@@ -261,8 +262,8 @@ const HomeHero = () => {
           </a>
         </div>
       </div>
-      <div className="relative group bg-gray-100 transition hover:z-[1] hover:shadow-2xl lg:hidden xl:block">
-        <div className="relative p-8 space-y-8 border-dashed rounded-lg transition duration-300 group-hover:bg-white group-hover:border group-hover:scale-90">
+      <div className="relative group  transition hover:z-[1] hover:shadow-2xl lg:hidden xl:block">
+        <div className="relative p-8 space-y-8 border-dashed rounded-lg transition duration-300 group-hover:bg-pink-500 group-hover:border group-hover:scale-90">
           <img
             src="https://tailus.io/sources/blocks/stacked/preview/images/avatars/metal.png"
             className="w-10"
@@ -271,10 +272,10 @@ const HomeHero = () => {
             alt="burger illustration"
           />
           <div className="space-y-2">
-            <h5 className="text-xl text-gray-800 font-medium transition group-hover:text-yellow-600">
+            <h5 className="text-xl text-white font-medium transition group-hover:text-yellow-600">
               More features
             </h5>
-            <p className="text-sm text-gray-600">
+            <p className="text-sm text-white">
             Checkout of services page for more features or contact our support team if your looking for some new ideas.
             </p>
           </div>
@@ -297,22 +298,23 @@ const HomeHero = () => {
 
 {/*Sidecard1 */}
       <section>
-  <div className="homesidecard1">
+  <div className="homesidecard1 ">
     <div className=" md:flex md:gap-6 lg:gap-1">
     <div className='backgroundhome2'>
-        <img src= {CSDbothome} alt="CSDbothome"/>
+      <div className="wobble" >
+        <img src= {CSDbothome} alt="CSDbothome "/></div>
         </div>
 
            <div className="mr-14 md:7/12 lg:w-6/12">
-        <h2 className="text-gray-900">
+        <h2 className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-pink-600 mt-3 text-[3.5rem]  leading-[4rem] tracking-tight text-black">
         We develop our brand with passionate developers.
         </h2>
-        <p className=" mt-6 text-gray-600">
+        <p className=" mt-6 text-blue-500">
          We develop our companies, projects and brands with a purpose,
          to help them engage their clients and audience. Providing them a first-class quality.
           so they can build awareness, Trust , create conversation for a long-time. 
         </p>
-        <p className=" mt-4 text-gray-600">
+        <p className=" my-4 text-blue-600">
           {" "}
           Quality comany or Brand, is the perception of quality that a brand achieves with its customers & clients.
           Quality is often defined as the meeting the expectations of customers.
@@ -321,44 +323,6 @@ const HomeHero = () => {
     </div>
   </div>
   </div>
-      </section>
-
-{/*CTA Section */}
-      <section>
-      <section className="cta-sec relative max-w-screen-xl mx-auto py-4 px-4 sm:px-8">
-            <div className="absolute top-0 left-0 w-full h-full bg-white opacity-40"></div>
-            <div className="relative z-1 gap-5 items-center lg:flex">
-                <div className="flex-1 max-w-lg py-5 sm:mx-auto sm:text-center lg:max-w-max lg:text-left">
-                    <h3 className="text-3xl text-gray-800 font-semibold md:text-4xl">
-                        build your websites with <span className="text-indigo-600">high performance</span>
-                    </h3>
-                    <p className="text-gray-500 leading-relaxed mt-3">
-                        Let's build your business online today!
-                    </p>
-                    <a
-                        className="mt-5 px-4 py-2 text-indigo-600 font-medium bg-indigo-50 rounded-full inline-flex items-center"
-                        href="/contactus">
-                        Try it out
-                        <div className="h-6 w-6 ml-1 duration-150" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
-                        </div>
-                    </a>
-                </div>
-                <div className="flex-1 mt-5 mx-auto sm:w-9/12 lg:mt-0 lg:w-auto">
-                    <img 
-                        src="https://i.postimg.cc/kgd4WhyS/container.png" 
-                        alt="" 
-                        className="w-full" 
-                    />
-                </div>
-            </div>
-
-            <style jsx>{`
-                .cta-sec {
-                    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23e5e7eb' fill-opacity='0.4'%3E%3Cpath opacity='.5' d='M96 95h4v1h-4v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9zm-1 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9z'/%3E%3Cpath d='M6 5V0H5v5H0v1h5v94h1V6h94V5H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
-                }
-            `}</style>
-        </section>
       </section>
 
 
@@ -377,26 +341,24 @@ const HomeHero = () => {
 
 {/*HomeSection2 */}
       <section>
-    <div className="bg-gray-200">
+    <div className="glass">
     <div className="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:flex lg:items-center lg:justify-between lg:py-16 lg:px-8">
-      <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+      <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
         <span className="pl-5 block">Lets start building!</span>
-        <span className="pl-5 pt-2 block text-indigo-600 text-xl">Are you Ready to build your project with us?</span>
+        <span className="pl-5 pt-2 block text-blue-600 text-xl">Are you Ready to build your project with us?</span>
       </h2>
       <div className="pr-40 mt-8 flex lg:mt-0 lg:flex-shrink-0">
         <div className="inline-flex rounded-md shadow">
         <Link to = '/contactus'><a
             
-            className="inline-flex items-center rounded-md border border-transparent bg-indigo-600 px-5 py-3 text-base font-medium text-white hover:bg-indigo-700"
-          >
-            started
+            className="transform rounded-mdpx-6 rounded bg-gradient-to-r from-orange-400 to-pink-600 px-5 py-3 font-medium text-white transition-colors hover:from-pink-600 hover:to-orange-400">
+             Get Started
           </a></Link>
         </div>
         <div className="ml-3 inline-flex rounded-md shadow">
         <Link to = '/aboutus'><a
             href="#"
-            className="inline-flex items-center justify-center rounded-md border border-transparent bg-white px-5 py-3 text-base font-medium text-indigo-600 hover:bg-indigo-50"
-          >
+            className="transform rounded-mdpx-6 rounded bg-gradient-to-r from-white to-white px-5 py-3 font-medium text-black transition-colors ">
             more
           </a></Link>
         </div>
@@ -407,13 +369,13 @@ const HomeHero = () => {
 
 {/*Whatdowedo */}
       <section>
-    <section className="bg-white ">
-  <div className="py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
+    <section className=" ">
+  <div className="px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
     <div className="max-w-screen-md mb-8 lg:mb-16">
-      <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 ">
+      <h2 className="text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-pink-600 mt-3 text-[3.5rem]  leading-[4rem] tracking-tight ">
         What do we do?
       </h2>
-      <p className="text-gray-500 sm:text-xl ">
+      <p className="text-gray-300 sm:text-xl ">
         How we research our clients requirements and processes.
       </p>
     </div>
@@ -423,8 +385,8 @@ const HomeHero = () => {
         <img src= {documentationicon}
             alt="coding_icon"/> 
         </div>
-        <h3 className="mb-2 text-xl font-bold ">Documentation</h3>
-        <p className="text-gray-500 ">
+        <h3 className="text-white mb-2 text-xl font-bold ">Documentation</h3>
+        <p className="text-gray-300 ">
         Seems to be a herculean task for a project manager. 
         Project managers are often engaged in delivering 
         high-end complex projects.
@@ -434,8 +396,8 @@ const HomeHero = () => {
         <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 ">
         <img src= {analysisicon} /> 
         </div>
-        <h3 className="mb-2 text-xl font-bold ">Analyze</h3>
-        <p className="text-gray-500 ">
+        <h3 className="text-white mb-2 text-xl font-bold ">Analyze</h3>
+        <p className="text-gray-300 ">
         When executing a project,we analyze it 
         periodically. Failing to do so, would mean unexpected 
         challenges, overlooked critical information, or flaws 
@@ -447,10 +409,10 @@ const HomeHero = () => {
         <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 ">
         <img src= {socialicon} /> 
         </div>
-        <h3 className="mb-2 text-xl font-bold ">
+        <h3 className="text-white mb-2 text-xl font-bold ">
           Social Media Presents
         </h3>
-        <p className="text-gray-500 ">
+        <p className="text-gray-300 ">
         A company's social media presence is how they portray 
         themselves online through their social networking 
         accounts and activity. Building a social media 
@@ -461,8 +423,8 @@ const HomeHero = () => {
         <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 ">
         <img src= {financeicon}/>
         </div>
-        <h3 className="mb-2 text-xl font-bold ">Finance</h3>
-        <p className="text-gray-500 ">
+        <h3 className="text-white mb-2 text-xl font-bold ">Finance</h3>
+        <p className="text-gray-300 ">
         the funding of long-term projects, such as public 
         infrastructure or services, industrial projects, and 
         others through a specific financial structure.
@@ -472,10 +434,10 @@ const HomeHero = () => {
         <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 ">
         <img src= {statergyicon}/>
         </div>
-        <h3 className="mb-2 text-xl font-bold ">
+        <h3 className="text-white mb-2 text-xl font-bold ">
         Strategy
         </h3>
-        <p className="text-gray-500 ">
+        <p className="text-gray-300 ">
           Craft beautiful, delightful experiences for both marketing and product
           with real cross-company collaboration.
         </p>
@@ -484,8 +446,8 @@ const HomeHero = () => {
         <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 ">
         <img src= {businessreporticon}/>
         </div>
-        <h3 className="mb-2 text-xl font-bold ">Business Report</h3>
-        <p className="text-gray-500 ">
+        <h3 className="text-white mb-2 text-xl font-bold ">Business Report</h3>
+        <p className="text-gray-300 ">
           At the end of every project we present our clients with detailed reports
            .which can help them understand what we did for there project.
         </p>
@@ -498,7 +460,7 @@ const HomeHero = () => {
 {/*Sidecard2 */}
       <section>
   {/* component */}
-  <section className="bg-gray-900">
+  <section className="glass">
     <div className="container px-6 py-10 mx-auto">
       <div className="lg:flex lg:items-center">
         <div className="w-full space-y-12 lg:w-1/2 ">
