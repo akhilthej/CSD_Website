@@ -14,7 +14,7 @@ const HomeHero = () => {
   <main>
 {/*herosection desktop*/}    
     <header className='herohomebg'>
-  <section className="py-24 flex items-center min-h-screen justify-center bg-black">
+  <section className="py-24 flex items-center min-h-screen justify-center ">
     <div className="mx-auto max-w-[55rem]">
       <div className="text-center">
         <p className="text-lg font-medium leading-8 text-white ">
