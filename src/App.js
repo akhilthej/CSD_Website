@@ -1,6 +1,5 @@
-import React from 'react';
+import React, { useState } from "react";
 import {  Routes, Route, useLocation  } from 'react-router-dom';
-
 
 
 import {Navbar,Footer,PrivacyPolicy,TermsnConditions,Disclaimer,Sitemaps,Error404,Home,
@@ -8,16 +7,22 @@ import {Navbar,Footer,PrivacyPolicy,TermsnConditions,Disclaimer,Sitemaps,Error40
         Reactblog,} from './routes/Routesmap';
 
 
-import { AnimatePresence } from 'framer-motion';
-
 export function App() {
   const location= useLocation();
   window.scrollTo(0, 0); /*---ResetPagelocation---*/
 
+  const [setLoading] = useState(true);
+  const preloader = document.getElementById("preloader");
+  if (preloader) {
+    setTimeout(() => {
+      preloader.style.display = "none";
+      setLoading(false);
+    }, 5000);
+  }
+
   return (
   <>
   <Navbar />
-    <AnimatePresence>
       
       <Routes location ={location} key={location.pathname}>
         
@@ -46,7 +51,7 @@ export function App() {
 
 
       </Routes>
-    </AnimatePresence>
+
 
   <Footer />   
 </>

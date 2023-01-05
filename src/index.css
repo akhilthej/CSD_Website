@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
 }
 
 * {
@@ -11,22 +11,31 @@ body {
   padding: 0;
 }
 
+/*---PreLoader---*/
+  .preloader {
+    position: fixed;
+    z-index: 100;
+    align-items: center;
+    background-color: black;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    width: 100vw;
+    
+  }
 
-.typed-out{
-    overflow: hidden; /* Ensures the content is not revealed until the animation */
-    white-space: nowrap; /* Keeps the content on a single line */
-    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-    animation: 
-      typing 3.5s steps(40, end),
-      blink-caret .75s step-end infinite;
+  @keyframes sk-scaleout {
+    0% {
+      -webkit-transform: scale(0);
+      transform: scale(0);
+    }
+    100% {
+      -webkit-transform: scale(1);
+      opacity: 0.5;
+      transform: scale(1);
+    }
   }
-  
-  /* The typing effect */
-  @keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
-  }
-  
+
 
 
 

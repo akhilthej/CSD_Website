@@ -4,7 +4,7 @@ import labelanuneni from '../../assets/Clients/labelanuneni.png'
 
 import CSDbothome from '../../assets/Common/CSD_Bot/CSDbothome.png'
 import HomeHeroimage from '../../assets/Common/HomeHero.png'
-import HeroCoverBG from '../../assets/Common/Home/HeroCoverBG.jpg'
+import HeroCoverBG from '../../assets/Common/Home/HeroCoverBG.webp'
 
 
 

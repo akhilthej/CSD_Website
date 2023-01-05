@@ -4,6 +4,7 @@ import {Link} from 'react-router-dom';
 import './Home.scss';
 import {CSDbothome,HeroCoverBG } from '../../data/data.jsx';
 import '../../Tools/Animations.scss';
+
 import {codeing ,graphicsdesign ,digitalmarketing ,mobiledev ,recruitment ,brand } from '../../data/data.jsx';
 import {documentationicon ,socialicon ,analysisicon ,financeicon ,statergyicon ,businessreporticon ,}from '../../data/data.jsx';
 
@@ -11,48 +12,44 @@ import {documentationicon ,socialicon ,analysisicon ,financeicon ,statergyicon ,
 const HomeHero = () => {
   return (
   <main>
-
 {/*herosection desktop*/}    
-    <header>
-      <section class="pt-40 pb-10">
-        
-          <div class=" px-12 mx-auto max-w-7xl z-1">
-            <div class="text-center w-full mx-auto md:w-11/12 xl:w-9/12 md:text-center">
-              <h1 class="mb-8 text-4xl font-extrabold leading-none tracking-normal text-gray-900 md:text-6xl md:tracking-tight">
-                <span>Cyber</span> <span class="block w-full py-2 text-transparent bg-clip-text leading-12 bg-gradient-to-r from-orange-400 to-orange-700 lg:inline">Space</span> <span>Digital</span>
-              </h1>
-                <p class="px-0 mb-8 text-lg text-gray-600 md:text-xl lg:px-24">
-                  Build your business online today !</p>
-            <div class="mb-4 space-x-0 md:space-x-2 md:mb-8">
-                <a href="/getquotation" class="inline-flex items-center justify-center w-full px-6 py-3 mb-2 text-lg text-white bg-orange-400 rounded-2xl sm:w-auto sm:mb-0">
-                    Get Started
-                    <svg class="w-4 h-4 ml-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
-                </a>
-                <a href="/aboutus" class="inline-flex items-center justify-center w-full px-6 py-3 mb-2 text-lg bg-gray-100 rounded-2xl sm:w-auto sm:mb-0">
-                    Learn More
-                    <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path></svg>
-                </a>
-                
-            </div>
-            </div></div>  
-          
-          <div className='homeherobg z-0  w-full mx-auto mt-20 text-center md:w-10/12 '>
-          <div class="flex items-center flex-none px-4 bg-orange-400 rounded-b-none h-11 rounded-xl">
-                        <div class="flex  space-x-1.5">
-                            <div class="w-3 h-3 border-2 border-white rounded-full"></div>
-                            <div class="w-3 h-3 border-2 border-white rounded-full"></div>
-                            <div class="w-3 h-3 border-2 border-white rounded-full"></div>
-                        </div>
-                    </div>
-            <img src={HeroCoverBG} />
-          </div>
-      </section>
-    </header>
+    <header className='herohomebg'>
+  <section className="py-24 flex items-center min-h-screen justify-center bg-black">
+    <div className="mx-auto max-w-[55rem]">
+      <div className="text-center">
+        <p className="text-lg font-medium leading-8 text-white ">
+          Introducing Design Data Platform
+        </p>
+        <h1 className="pb-8 font-extrabold text-transparent text-8xl bg-clip-text bg-gradient-to-r from-yellow-400 to-pink-600 mt-3 text-[3.5rem]  leading-[4rem] tracking-tight text-black">
+          Cyber Space Digital
+        </h1>
+        <p className="mt-3 text-lg leading-relaxed text-slate-400">
+          We help  your brand to build digital, Providing Gobal Presents.
+        </p>
+      </div>
+      <div className="mt-6 flex items-center justify-center gap-4">
+        <a
+          href="/contactus"
+          className="transform rounded-mdpx-6 rounded bg-gradient-to-r from-orange-400 to-pink-600 px-5 py-3 font-medium text-white transition-colors hover:from-pink-600 hover:to-orange-400 "
+        >
+          Build Today
+        </a>
+        <a
+          href="/getquotation"
+          className="transform rounded-md border border-slate-200 px-5 py-3 font-medium text-white transition-colors hover:bg-slate-50 hover:text-black"
+        >
+          {" "}
+          Get Quotation{" "}
+        </a>
+      </div>
+    </div>
+  </section>
+ </header>
 
 {/*MainFeatures */}
-      <section>
-      <section>
-      <div className="pt-10 bg-gray-50 overflow-hidden">
+      <div>
+      <section className='mt-10'>
+      <div className="  overflow-hidden">
       <div className="container m-auto px-6 space-y-8 text-gray-500 md:px-12">
       <div>
       <span className="text-gray-600 text-lg font-semibold">Main features</span>
@@ -178,7 +175,7 @@ const HomeHero = () => {
 
 
       <section>
-      <div className="pb-10 bg-gray-50 overflow-hidden">
+      <div className="pb-10  overflow-hidden">
         <div className="container m-auto px-6 space-y-8 text-gray-500 md:px-12">
         <div className="mt-0.5 grid border divide-x divide-y rounded-xl overflow-hidden sm:grid-cols-2 lg:divide-y-0 lg:grid-cols-3 xl:grid-cols-4">
       <div className="relative group bg-white transition hover:z-[1] hover:shadow-2xl">
@@ -296,7 +293,7 @@ const HomeHero = () => {
       </div>
       </div>
       </section>
-      </section>
+      </div>
 
 {/*Sidecard1 */}
       <section>
@@ -330,7 +327,7 @@ const HomeHero = () => {
       <section>
       <section className="cta-sec relative max-w-screen-xl mx-auto py-4 px-4 sm:px-8">
             <div className="absolute top-0 left-0 w-full h-full bg-white opacity-40"></div>
-            <div className="relative z-10 gap-5 items-center lg:flex">
+            <div className="relative z-1 gap-5 items-center lg:flex">
                 <div className="flex-1 max-w-lg py-5 sm:mx-auto sm:text-center lg:max-w-max lg:text-left">
                     <h3 className="text-3xl text-gray-800 font-semibold md:text-4xl">
                         build your websites with <span className="text-indigo-600">high performance</span>
