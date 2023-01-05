@@ -21,7 +21,7 @@ const HomeHero = () => {
         <p className="text-lg font-medium leading-8 text-white ">
           Introducing Design Data Platform
         </p>
-        <h1 className="fade-in-down pb-8 font-extrabold text-transparent text-8xl bg-clip-text bg-gradient-to-r from-yellow-400 to-pink-600 mt-3 text-[3.5rem]  leading-[4rem] tracking-tight text-black">
+        <h1 className="fade-in-down pb-8 font-extrabold text-transparent text-2xl md:text-8xl bg-clip-text bg-gradient-to-r from-yellow-400 to-pink-600 mt-3 text-[3.5rem]  leading-[4rem] tracking-tight text-black">
           Cyber Space Digital
         </h1>
         <p className="mt-3 text-lg leading-relaxed text-slate-400">
@@ -305,8 +305,8 @@ const HomeHero = () => {
         <img src= {CSDbothome} alt="CSDbothome "/></div>
         </div>
 
-           <div className="mr-14 md:7/12 lg:w-6/12">
-        <h2 className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-pink-600 mt-3 text-[3.5rem]  leading-[4rem] tracking-tight text-black">
+           <div className="md:7/12 lg:w-6/12">
+        <h2 className=" text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-pink-600 mt-3  leading-[4rem] tracking-tight">
         We develop our brand with passionate developers.
         </h2>
         <p className=" mt-6 text-blue-500">
@@ -330,7 +330,7 @@ const HomeHero = () => {
       <section>
        
         <div className ='backgroundhome1 pt-20'>
-          <div class='glass '><h1 className=" py-5 text-center text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400  md:text-5xl lg:text-6xl ">
+          <div class='glass'><h1 className=" py-5 text-center text-xl sm:text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400  md:text-5xl lg:text-6xl ">
             <h1>WE BUILD</h1>
             <span className="sm:text-6xl bg-clip-text bg-gradient-to-r to-orange-600 from-yellow-400">
               "SIMPLE BUT COMPLEX"
@@ -352,14 +352,14 @@ const HomeHero = () => {
         <Link to = '/contactus'><a
             
             className="transform rounded-mdpx-6 rounded bg-gradient-to-r from-orange-400 to-pink-600 px-5 py-3 font-medium text-white transition-colors hover:from-pink-600 hover:to-orange-400">
-             Get Started
+             Build.Now
           </a></Link>
         </div>
         <div className="ml-3 inline-flex rounded-md shadow">
         <Link to = '/aboutus'><a
             href="#"
             className="transform rounded-mdpx-6 rounded bg-gradient-to-r from-white to-white px-5 py-3 font-medium text-black transition-colors ">
-            more
+            More
           </a></Link>
         </div>
       </div>
@@ -369,13 +369,13 @@ const HomeHero = () => {
 
 {/*Whatdowedo */}
       <section>
-    <section className=" ">
+    <section className="">
   <div className="px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
     <div className="max-w-screen-md mb-8 lg:mb-16">
-      <h2 className="text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-pink-600 mt-3 text-[3.5rem]  leading-[4rem] tracking-tight ">
+      <h2 className="fade-in-left text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-pink-600 mt-3 text-[3.5rem]  leading-[4rem] tracking-tight ">
         What do we do?
       </h2>
-      <p className="text-gray-300 sm:text-xl ">
+      <p className=" text-gray-300 sm:text-xl ">
         How we research our clients requirements and processes.
       </p>
     </div>

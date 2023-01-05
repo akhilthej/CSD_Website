@@ -1,5 +1,6 @@
 import React from 'react';
 import coverimage from '../../../assets/About/aboutheader.webp';
+import '../../Tools/Animations.scss';
 
 import akilthejreddy from '../../../assets/About/Founder.webp';
 import pavanchappa from '../../../assets/About/pavan.webp';
@@ -9,18 +10,19 @@ import saikiran from '../../../assets/About/saikiran.webp';
 import varuntej from '../../../assets/About/varun.webp';
 
 
+
 const About = () => {
     return (
         <main>
           {/*for drive visiblity (https://drive.google.com/uc?export=view&id=) */}
         <div className="2xl:container 2xl:mx-auto lg:py-16 lg:px-20 md:py-12 md:px-6 py-9 px-4">
             <div className="flex flex-col lg:flex-row justify-between gap-8">
-                <div className="w-full lg:w-5/12 flex flex-col justify-center">
-                    <h1 className="text-3xl mt-20 lg:text-4xl lg:mt-10 font-bold leading-9 text-gray-800 pb-4">About Us</h1>
+                <div className="w-full lg:w-5/12 flex flex-col justify-center">         
+                    <h1 className="text-3xl mt-20 lg:text-4xl lg:mt-10 font-bold leading-9  pb-4  md:text-8xl text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-pink-600 ">About Us</h1>
                     <p className="font-normal text-base leading-6 text-gray-600 pb-4">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum.In the first place we have granted to God, and by this our present charter confirmed for us and our heirs forever that the English Church shall be free, and shall have her rights entire, and her liberties inviolate; and we will that it be thus observed; which is apparent from</p>
-                    <h1 className="text-3xl lg:text-4xl font-bold leading-9 text-gray-800 pb-4">Our Story</h1>
+                    <h1 className="text-3xl lg:text-4xl font-bold leading-9 text-gray-800 pb-4 text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-pink-600">Our Story</h1>
                     <p className="font-normal text-base leading-6 text-gray-600 ">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum.In the first place we have granted to God, and by this our present charter confirmed for us and our heirs forever that the English Church shall be free, and shall have her rights entire, and her liberties inviolate; and we will that it be thus observed; which is apparent from</p>
-                                
+                    
                 </div>
                 <div className="w-full lg:w-8/12 ">
                     <img className="w-full h-full rounded-2xl shadow-2xl" src= {coverimage} alt="A group of People" />
@@ -30,13 +32,13 @@ const About = () => {
 
 
             {/*.....Owners.....*/}
-            <div className="py-20 bg-gray-50">
+            <div className="glass py-20">
   <div className="container mx-auto px-6 md:px-12 xl:px-32">
     <div className="mb-16 text-center">
-      <h2 className="mb-4 text-center text-2xl text-gray-900 font-bold md:text-4xl">
+      <h2 className="mb-4 text-center text-2xl  font-bold md:text-4xl text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-pink-600">
         Leadership Board
       </h2>
-      <p className="text-gray-600 lg:w-8/12 lg:mx-auto">
+      <p className="text-white lg:w-8/12 lg:mx-auto">
         CSD is known for its multi-project handeling. we deal with various technology and
          with on development projects,the talent of its people of some of the brightest 
          minds and most experienced executives in business.
@@ -52,8 +54,8 @@ const About = () => {
           height={805}
         />
         <div>
-          <h4 className="text-2xl">Pavan Kumar</h4>
-          <span className="block text-sm text-gray-500">Patner<br/>Chief Operations Officer</span>
+          <h4 className="text-2xl text-white">Pavan Kumar</h4>
+          <span className="block text-sm text-gray-300">Patner<br/>Chief Operations Officer</span>
         </div>
       </div>
       <div className="space-y-4 text-center">
@@ -65,8 +67,8 @@ const About = () => {
           height={667}
         />
         <div>
-          <h4 className="text-2xl">Akhil Thej Reddy</h4>
-          <span className="block text-sm text-gray-500">
+          <h4 className="text-2xl text-white">Akhil Thej Reddy</h4>
+          <span className="block text-sm text-gray-300">
             Founder<br/>Chief Executive Officer<br/></span>
         </div>
       </div>
@@ -79,8 +81,8 @@ const About = () => {
           height={667}
         />
         <div>
-          <h4 className="text-2xl">business partner </h4>
-          <span className="block text-sm text-gray-500">
+          <h4 className="text-2xl text-white">Raj Shaker </h4>
+          <span className="block text-sm text-gray-300">
             Chief Technical Officer
           </span>
         </div>
@@ -92,9 +94,9 @@ const About = () => {
 
 
         {/*...Teams...*/}
-        <section className="bg-gray-900">
+        <section className="glass">
   <div className="container px-6 py-10 mx-auto">
-    <h1 className="text-3xl font-semibold text-center capitalize lg:text-4xl text-white">
+    <h1 className="text-3xl pb-1 font-semibold text-center capitalize lg:text-4xl text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-pink-600">
       Our Team, Friends & Family
     </h1>
     <p className="max-w-2xl mx-auto my-6 text-center text-gray-300">

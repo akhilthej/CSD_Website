@@ -8,7 +8,7 @@ function classNames(...classes) {
 
 const Navbar = () => {
   return (
-    <main class ='mt-1 mx-20 rounded-2xl sticky top-0 z-50 bg-black/90  -mb-16' >
+    <main class ='mt-1 mx-4 sm:mx-20 rounded-2xl sticky top-0 z-50 bg-black/90  -mb-16' >
     <div className=' w-full h-14 flex justify-between items-center pl-10 md:pl-15 text-white'>
       <Link to='/'><img class="h-auto w-10" src={require('../../assets/Common/csd_navbarlogo.png')} alt='csd_logo' /></Link>
       

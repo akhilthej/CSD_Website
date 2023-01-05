@@ -245,7 +245,7 @@
 }
 
 .fade-in-left {
-  animation: fade-in-left 2s ease infinite;
+  animation: fade-in-left 2s ease ;
 }
 @keyframes fade-in-left {
   0% {
@@ -419,3 +419,9 @@
     transform: translateX(100%) rotate(120deg);
   }
 }
+
+
+
+
+
+

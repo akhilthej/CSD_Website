@@ -1,5 +1,9 @@
 import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
+
+import '../../Tools/Animations.scss';
+
+
 function ContactForm() {
   const [state, handleSubmit] = useForm("myyagqep");
   if (state.succeeded) {
@@ -56,7 +60,9 @@ function ContactForm() {
         errors={state.errors}
       />
 
-      
+
+  
+  
         <button type="submit" disabled={state.submitting} className="block w-full rounded-3xl border bg-black border-black px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-black focus:outline-none focus:ring active:text-opacity-75 sm:w-auto" >
           Send Message
         </button>

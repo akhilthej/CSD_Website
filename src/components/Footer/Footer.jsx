@@ -273,7 +273,7 @@ const Footer = () => {
   
 
     {/* Whatapp us */}
-  <div className="flex items-end justify-start fixed bottom-0 left-0 ml-4 z-10">
+  <div className="fade-in-left flex items-end justify-start fixed bottom-0 left-0 ml-4 z-10">
     <div>
       <a
         title="Whatsapp"
@@ -282,10 +282,11 @@ const Footer = () => {
         className="mb-1 block w-12 rounded-full transition-all shadow hover:shadow-lg transform hover:scale-110 hover:rotate-12"
       >
         <img
-          className="object-cover object-center w-12 rounded-full"
+          className=" object-cover object-center w-8 sm:w-12"
           src={WhatsApp}
         />
       </a>
+      <h1 class='fade-in-left delay-100 cursor-default text-gray-500 text-xs pb-2'>Desgined & Developed by CSD</h1>
     </div>
   </div>
 
