@@ -1,12 +1,14 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import {  Routes, Route, useLocation  } from 'react-router-dom';
+import OneSignal from 'react-onesignal';
 
 
 import {Navbar,Footer,PrivacyPolicy,TermsnConditions,Disclaimer,Sitemaps,Error404,Home,
         Services,Technologies,Clients,Reviews,GetQuotation,Aboutus,Contactus,
         Reactblog,} from './routes/Routesmap';
 
-
+        
+        
 export function App() {
   const location= useLocation();
   window.scrollTo(0, 0); /*---ResetPagelocation---*/
@@ -19,6 +21,11 @@ export function App() {
       setLoading(false);
     }, 3000);
   }
+  useEffect(() => {
+    OneSignal.init({
+      appId: "0360b886-1a9d-4204-bd34-af4aba2203f9"
+    });
+  }, []);
 
   return (
   <>

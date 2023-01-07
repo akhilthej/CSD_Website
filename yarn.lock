@@ -8170,6 +8170,11 @@
   "resolved" "https://registry.npmjs.org/react-is/-/react-is-18.2.0.tgz"
   "version" "18.2.0"
 
+"react-onesignal@^2.0.4":
+  "integrity" "sha512-llZ4PV1+EsWWZDt0BRils6gAxaxMoYP0Z3rlNivQy4xqUaiO1/PcRaIJ6CuzCci/koDsw5IzLOXEHlV4Yn+d9Q=="
+  "resolved" "https://registry.npmjs.org/react-onesignal/-/react-onesignal-2.0.4.tgz"
+  "version" "2.0.4"
+
 "react-redux@^8.0.5":
   "integrity" "sha512-Q2f6fCKxPFpkXt1qNRZdEDLlScsDWyrgSj0mliK59qU6W5gvBiKkdMEG2lJzhd1rCctf0hb6EtePPLZ2e0m1uw=="
   "resolved" "https://registry.npmjs.org/react-redux/-/react-redux-8.0.5.tgz"
@@ -8257,7 +8262,7 @@
   optionalDependencies:
     "fsevents" "^2.3.2"
 
-"react@*", "react@^15.6.2 || ^16.0 || ^17 || ^18", "react@^16 || ^17 || ^18", "react@^16.6.0 || ^17.0.0 || ^18.0.0", "react@^16.8 || ^17.0 || ^18.0", "react@^16.8.0 || ^17 || ^18", "react@^16.8.0 || ^17.0.0 || ^18.0.0", "react@^18.0.0", "react@^18.2.0", "react@>= 16", "react@>=16", "react@>=16.13", "react@>=16.8", "react@>=16.8.0", "react@>=18":
+"react@*", "react@^15.6.2 || ^16.0 || ^17 || ^18", "react@^16 || ^17 || ^18", "react@^16.6.0 || ^17.0.0 || ^18.0.0", "react@^16.8 || ^17.0 || ^18.0", "react@^16.8.0 || ^17 || ^18", "react@^16.8.0 || ^17.0.0 || ^18.0.0", "react@^18.0.0", "react@^18.2.0", "react@>= 16", "react@>= 16.8", "react@>=16", "react@>=16.13", "react@>=16.8", "react@>=16.8.0", "react@>=18":
   "integrity" "sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ=="
   "resolved" "https://registry.npmjs.org/react/-/react-18.2.0.tgz"
   "version" "18.2.0"
