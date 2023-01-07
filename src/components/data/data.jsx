@@ -27,6 +27,8 @@ import ContactusHeaderimage from '../../assets/ImagesPage/ContactusHeaderimage.p
 
 import LabelAnuneniwhite from '../../assets/Common/portfolio_images/LAN-001-white.png';
 import LabelAnunenipc from '../../assets/Common/portfolio_images/LAN-002.png';
+import Ilahewhite from '../../assets/Common/portfolio_images/ILA-001-white.png';
+import Ilahepc from '../../assets/Common/portfolio_images/ILA-002.png';
 
 export {
 
@@ -45,6 +47,6 @@ export {
     ContactusHeaderimage,
 
     /*Mock-up Images */
-    LabelAnuneniwhite,LabelAnunenipc,
+    LabelAnuneniwhite,LabelAnunenipc,Ilahewhite,Ilahepc,
   }    
  
