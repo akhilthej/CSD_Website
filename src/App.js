@@ -10,6 +10,12 @@ import {Navbar,Footer,PrivacyPolicy,TermsnConditions,Disclaimer,Sitemaps,Error40
         
         
 export function App() {
+  useEffect(() => {
+    OneSignal.init({
+      appId: "0360b886-1a9d-4204-bd34-af4aba2203f9"
+    });
+  }, []); /*---Onesignal---*/
+
   const location= useLocation();
   window.scrollTo(0, 0); /*---ResetPagelocation---*/
 
@@ -20,13 +26,9 @@ export function App() {
       preloader.style.display = "none";
       setLoading(false);
     }, 3000);
-  }
-  useEffect(() => {
-    OneSignal.init({
-      appId: "0360b886-1a9d-4204-bd34-af4aba2203f9"
-    });
-  }, []);
+  };/*---LogoPreLoager---*/
 
+  
   return (
   <>
   <Navbar />

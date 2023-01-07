@@ -1,5 +1,4 @@
 import React from 'react'
-import { motion } from 'framer-motion';
 import { Helmet } from 'react-helmet-async';
 
 import ContactForm from '../components/PAGES/Contactus/ContactForm'
@@ -8,11 +7,7 @@ import Faq from '../components/PAGES/Contactus/Faq'
 
 const CONTACTUS = () => {
   return (
-    <motion.div className='home'
-        intial={{opacity: 0}}
-        animate={{opacity: 1}}
-        exit={{opacity: 0}}
-        >
+    <div className='home'>
           <Helmet>
                 <title>Contact us</title>
                 <meta name="description" content='Build Your Business Digitally.'/>
@@ -23,7 +18,7 @@ const CONTACTUS = () => {
     <ContactForm />
     <Faq />
         
-    </motion.div>
+    </div>
   )
 }
 
