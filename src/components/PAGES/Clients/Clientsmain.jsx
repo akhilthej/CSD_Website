@@ -8,7 +8,7 @@ const clinetmain = () => {
     return(
       <main>
       {/* Brands Section Start */}
-<section class="bg-white pt-20 lg:pt-[120px]">
+<section class="glass ">
   <div class="container mx-auto">
     <div class="-mx-4 flex flex-wrap">
       <div class="w-full px-1">

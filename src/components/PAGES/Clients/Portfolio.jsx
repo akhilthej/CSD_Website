@@ -1,45 +1,58 @@
-import React, { useContext } from "react";
-import "./Portfolio.css";
-import { Swiper, SwiperSlide } from "swiper/react"
-import "swiper/css";
-import Sidebar from "../../../assets/Common/portfolio_images/ecommerce.png";
-import ARK from "../../../assets/Common/portfolio_images/ARK.png"
-import Ecommerce from "../../../assets/Common/portfolio_images/ecommerce.png";
-import HOC from "../../../assets/Common/portfolio_images/hoc.png";
-import MusicApp from "../../../assets/Common/portfolio_images/musicapp.png";
+import React from "react";
+import {Link} from 'react-router-dom';
+
+import '../../Tools/Animations.scss'
+
+import {LabelAnuneniwhite,LabelAnunenipc} from '../../data/data'
+
+
 
 const Portfolio = () => {
  
   return (
-    <div className="portfolio " >
+    <main className="text-center portfolio text-4xl font-extrabold text-transparent  md:text-6xl bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-400 tracking-tight" >
       {/* heading */}
+      <div>
       <span >Recent Projects</span>
-      <span>Portfolio</span>
+      <span>Portfolio</span></div>
 
-      {/* slider */}
-      <Swiper
-        spaceBetween={30}
-        slidesPerView={4}
-        grabCursor={true}
-        className="portfolio-slider">
-          
-        <SwiperSlide>
-          <img src={ARK} alt="" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={Ecommerce} alt="" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={MusicApp} alt="" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={HOC} alt="" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={Sidebar} alt="" />
-        </SwiperSlide>
-      </Swiper>
-    </div>
+      {/* mock-upimages */}
+      <section class='labelanuneniMockup'>
+        <div className="tracking-normal 2xl:container 2xl:mx-auto lg:py-16 lg:px-20 md:py-12 md:px-6 py-9 px-4">
+            <div className="flex flex-col lg:flex-row justify-between gap-8">
+                <div className="w-full lg:w-5/12 flex flex-col justify-center">         
+                    <h1 className="text-3xl lg:text-4xl font-bold leading-9 pb-4 text-pink-500">LabelAnuneni.com</h1>
+                    <p className="font-normal text-sm text-white/70 pb-4">The Art of Indian Handlooms is the greatest treasure one can preserve, and our authentic hand weaves are the "Labour of Love."</p>
+                    <img className="fade-in-down mt-6 active mx-auto  w-full max-w-sm" src= {LabelAnunenipc} alt="labelanunenimockup-2" />
+                </div>
+                <div className="w-full lg:w-8/12 ">
+                    <img className="fade-in-down w-full max-w-xl mx-auto" src= {LabelAnuneniwhite} alt="labelanunenimockup" />
+                    <h1 className="text-3xl lg:text-4xl font-bold leading-9 pb-4 text-pink-700">Tech Details</h1>
+                    <p className="font-normal   text-base leading-6 text-white/70 ">An e-commerce website with custom payment gate ways and auto delivery system.</p>
+                </div>
+            </div>
+        </div>
+      </section>  
+
+      <section class='labelanuneniMockup'>
+        <div className="tracking-normal 2xl:container 2xl:mx-auto lg:py-16 lg:px-20 md:py-12 md:px-6 py-9 px-4">
+            <div className="flex flex-col lg:flex-row justify-between gap-8">
+                <div className="w-full lg:w-5/12 flex flex-col justify-center">         
+                    <h1 className="text-3xl lg:text-4xl font-bold leading-9 pb-4 text-pink-500">LabelAnuneni.com</h1>
+                    <p className="font-normal text-sm text-white/70 pb-4">The Art of Indian Handlooms is the greatest treasure one can preserve, and our authentic hand weaves are the "Labour of Love."</p>
+                    <img className="fade-in-down mt-6 active mx-auto  w-full max-w-sm" src= {LabelAnunenipc} alt="labelanunenimockup-2" />
+                </div>
+                <div className="w-full lg:w-8/12 ">
+                    <img className="fade-in-down w-full max-w-xl mx-auto" src= {LabelAnuneniwhite} alt="labelanunenimockup" />
+                    <h1 className="text-3xl lg:text-4xl font-bold leading-9 pb-4 text-pink-700">Tech Details</h1>
+                    <p className="font-normal   text-base leading-6 text-white/70 ">An e-commerce website with custom payment gate ways and auto delivery system.</p>
+                </div>
+            </div>
+        </div>
+      </section>  
+
+    </main>
+
   );
 };
 

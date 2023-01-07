@@ -25,6 +25,9 @@ import businessreporticon from '../../assets/Icons/business-report-icon.png';
 
 import ContactusHeaderimage from '../../assets/ImagesPage/ContactusHeaderimage.png';
 
+import LabelAnuneniwhite from '../../assets/Common/portfolio_images/LAN-001-white.png';
+import LabelAnunenipc from '../../assets/Common/portfolio_images/LAN-002.png';
+
 export {
 
     /* ClientsLogo */
@@ -40,5 +43,8 @@ export {
 
     /*Contactus */
     ContactusHeaderimage,
+
+    /*Mock-up Images */
+    LabelAnuneniwhite,LabelAnunenipc,
   }    
  
