@@ -11,24 +11,24 @@ function ContactForm() {
   }
 
   return (
-    <section className="bg-white ">
+    <section className="glass ">
       <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
         
-          <p className="mb-8 lg:mb-16 font-light text-center text-gray-500 sm:text-xl">
+          <p className="mb-8 lg:mb-16 font-light text-center text-white/90 sm:text-xl">
             Check out our FAQ pages for answers to the most common questions.
           </p>
 
 
           <form onSubmit={handleSubmit} className="space-y-8">
           <div>
-            <label htmlFor="Name" className="block mb-2 text-sm font-medium ">
+            <label htmlFor="Name" className="text-white block mb-2 text-sm font-medium ">
               Name
             </label>
             <input id="name" type="text" name="name" 
             className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5   "
           placeholder="Sam" />
 
-          <label htmlFor="email" className="block mb-2 text-sm font-medium pt-2">
+          <label htmlFor="email" className="text-white block mb-2 text-sm font-medium pt-2">
           Your email
         </label>
         <input id="email" type="email" name="email"
@@ -41,7 +41,7 @@ function ContactForm() {
       />
 
       <div>
-        <label htmlFor="subject" className="block mb-2 text-sm font-medium ">
+        <label htmlFor="subject" className="text-white block mb-2 text-sm font-medium ">
           Subject
         </label>
         <input id="subject" type="text" name="subject"
@@ -63,7 +63,7 @@ function ContactForm() {
 
   
   
-        <button type="submit" disabled={state.submitting} className="block w-full rounded-3xl border bg-black border-black px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-black focus:outline-none focus:ring active:text-opacity-75 sm:w-auto" >
+        <button type="submit" disabled={state.submitting} className="text-black block w-full rounded-3xl border bg-white border-white px-12 py-3 text-sm font-medium  hover:bg-transparent hover:text-white focus:outline-none focus:ring active:text-opacity-75 sm:w-auto" >
           Send Message
         </button>
       <div className='hidden'>
