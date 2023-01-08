@@ -11,9 +11,7 @@ import {Navbar,Footer,PrivacyPolicy,TermsnConditions,Disclaimer,Sitemaps,Error40
         
 export function App() {
   useEffect(() => {
-    OneSignal.init({
-      appId: "0360b886-1a9d-4204-bd34-af4aba2203f9"
-    });
+    OneSignal.init({ appId: "0360b886-1a9d-4204-bd34-af4aba2203f9" });
   }, []); /*---Onesignal---*/
 
   const location= useLocation();
