@@ -47,7 +47,7 @@ const About = () => {
     <div className="grid gap-12 items-center md:grid-cols-3">
       <div className="space-y-4 text-center">
         <img
-          className="w-64 h-64 mx-auto object-cover rounded-xl md:w-40 md:h-40 lg:w-64 lg:h-64"
+          className="grayscale w-64 h-64 mx-auto object-cover rounded-xl md:w-40 md:h-40 lg:w-64 lg:h-64"
           src= {pavanchappa}
           loading="lazy"
           width={640}
@@ -60,14 +60,14 @@ const About = () => {
       </div>
       <div className="space-y-4 text-center">
         <img
-          className="w-64 h-64 mx-auto object-cover rounded-xl md:w-48 md:h-64 lg:w-64 lg:h-80"
+          className="grayscale w-64 h-64 mx-auto object-cover rounded-xl md:w-48 md:h-64 lg:w-64 lg:h-80"
           src={akilthejreddy}
           loading="lazy"
           width={1000}
           height={667}
         />
         <div>
-          <h4 className="text-2xl text-white">Akhil Thej Reddy</h4>
+          <h4 className="text-2xl text-white ">Akhil Thej Reddy</h4>
           <span className="block text-sm text-gray-300">
             Founder<br/>Chief Executive Officer<br/></span>
         </div>
@@ -81,7 +81,7 @@ const About = () => {
           height={667}
         />
         <div>
-          <h4 className="text-2xl text-white">Pratha Sri Vatsav</h4>
+          <h4 className="text-2xl text-white">Riya Varma</h4>
           <span className="block text-sm text-gray-300">
             Chief Technical Officer
           </span>

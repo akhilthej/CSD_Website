@@ -7,7 +7,7 @@ import {Navbar,Footer,PrivacyPolicy,TermsnConditions,Disclaimer,Sitemaps,Error40
         Services,Technologies,Clients,Reviews,GetQuotation,Aboutus,Contactus,
         Reactblog,} from './routes/Routesmap';
 
-        
+import Notification from "./components/Tools/Notifications";        
         
 export function App() {
   useEffect(() => {
@@ -30,7 +30,7 @@ export function App() {
   return (
   <>
   <Navbar />
-      
+      <Notification/>
       <Routes location ={location} key={location.pathname}>
         
           <Route path='/' element={<Home />} />

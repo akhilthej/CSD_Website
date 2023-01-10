@@ -54,7 +54,7 @@ const Footer = () => {
 </section>
 
 
-      {/* Donwload Section */}
+      {/* Download Section */}
         <section>
         <div class="p-4 w-full text-center bg-black   shadow-md sm:p-8 ">
     <h5 class="mb-2 text-3xl font-bold text-white">Work fast from anywhere</h5>
@@ -81,7 +81,7 @@ const Footer = () => {
 
     {/* Footer */}
     <section>
-    <footer className="bg-gradient-to-r from-balck via-[#191d20] to-gray-700">
+    <footer className="bg-black">
   <div className="max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8">
     <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
     <div>
@@ -273,7 +273,7 @@ const Footer = () => {
   
 
     {/* Whatapp us */}
-  <div className="fade-in-left flex items-end justify-start fixed bottom-0 left-0 ml-4 z-10">
+  <div className=" fade-in-left flex items-end justify-start fixed bottom-0 left-0 ml-4 z-10">
     <div>
       <a
         title="Whatsapp"
