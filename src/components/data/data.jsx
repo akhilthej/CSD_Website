@@ -3,11 +3,7 @@ import serpsit from '../../assets/Clients/serpsit.png'
 import labelanuneni from '../../assets/Clients/labelanuneni.png'
 
 import CSDbothome from '../../assets/Common/CSD_Bot/CSDbothome.png'
-import HomeHeroimage from '../../assets/Common/HomeHero.png'
 import HeroCoverBG from '../../assets/Common/Home/HeroCoverBG.webp'
-
-
-
 
 import codeing from '../../assets/Icons/codeing.png';
 import graphicsdesign from '../../assets/Icons/graphicsdesign.png';
@@ -39,7 +35,7 @@ export {
 
 
     /* Home */
-    CSDbothome,HomeHeroimage,HeroCoverBG,
+    CSDbothome,HeroCoverBG,
     codeing,graphicsdesign,digitalmarketing,mobiledev,recruitment,brand,
     documentationicon,socialicon,analysisicon,financeicon,statergyicon,businessreporticon,
 

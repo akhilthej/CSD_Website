@@ -10,36 +10,32 @@ const ServicesHeader = () => {
     <main>
       {/*Hero */}
   <section>
-   <div className="bg-white  flex items-center justify-center mt-24 mb-5">
-    <div className="mx-auto w-full max-w-screen-lg bg-white px-5 ">
+   <div className="flex items-center justify-center mt-24 mb-5">
+    <div className="mx-auto w-full max-w-screen-lg  px-5 ">
       <div className="grid gap-5 md:grid-cols-2 md:gap-10 lg:gap-20">
         <div className="flex justify-center md:justify-end">
           <img
-            className="w-full max-w-xl"
+            className="w-full max-w-xl rounded-full"
             src={ServicesHeaderimage}
             alt="Marketing newsletter via computer Illustration in PNG, SVG"
           />
         </div>
         <div className="flex items-center">
           <div className="mx-auto md:mx-0">
-            <h3 className="text-4xl font-bold text-black"> Distribute your brand from&nbsp;design to code</h3>
-            <p className="mt-2 text-lg text-black">
+            <h3 className="text-4xl fade-in-down font-extrabold text-transparent  md:text-6xl bg-clip-text bg-gradient-to-r from-yellow-400 to-pink-600 tracking-tight">Distribute your brand from&nbsp;Design to Code</h3>
+            <p className="mt-2 text-lg text-white">
             Specify helps you unify your brand identity by collecting, storing and
             distributing design tokens and assets — automatically.
             </p>
             
             <div class="mt-8 flex flex-wrap justify-center gap-4">
         <Link to= '/contactus'><a
-          class=" block w-full rounded border border-blue-600 bg-blue-600 px-12 py-3 text-sm font-medium text-white hover:bg-blue-500 hover:text-white focus:outline-none focus:ring active:text-opacity-75 sm:w-auto"
-          
-        >
+          class="transform rounded-mdpx-6 rounded bg-gradient-to-r from-orange-400 to-pink-600 px-5 py-3 font-medium text-white transition-colors hover:from-pink-600 hover:to-orange-400">
           Get in-touch
         </a></Link>
 
         <Link to= '/aboutus'><a
-          class="block w-full rounded border border-blue-600 bg-blue-600 px-12 py-3 text-sm font-medium text-white hover:bg-blue-500 focus:outline-none focus:ring active:bg-blue-500 sm:w-auto "
-          
-        >
+          class="transform rounded-md border border-slate-200 px-5 py-3 font-medium text-white transition-colors hover:bg-slate-50 hover:text-black">
           Learn More
         </a></Link>
       </div>

@@ -12,7 +12,7 @@ const ClientsHeader = () => {
       <div className="grid gap-5 md:grid-cols-2 md:gap-10 lg:gap-20">
         <div className="flex justify-center md:justify-end">
           <img
-            className="w-full max-w-xl"
+            className="rounded-full w-full max-w-xl"
             src={ClientHeader}
             alt="Marketing newsletter via computer Illustration in PNG, SVG"
           />

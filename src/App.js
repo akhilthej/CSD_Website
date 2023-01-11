@@ -23,7 +23,7 @@ export function App() {
     setTimeout(() => {
       preloader.style.display = "none";
       setLoading(false);
-    }, 3000);
+    }, 5000);
   };/*---LogoPreLoager---*/
 
   

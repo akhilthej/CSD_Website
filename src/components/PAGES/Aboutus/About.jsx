@@ -103,7 +103,7 @@ const About = () => {
       We have a dedicated team of quick-learners and more than 10 years of experince in each craft.
     </p>
     <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-4">
-      <div className="flex flex-col items-center p-8 transition-colors duration-200 transform cursor-pointer group hover:bg-blue-600 rounded-xl">
+      <div className="flex flex-col items-center p-8 transition-colors duration-200 transform cursor-pointer group hover:bg-yellow-600 rounded-xl">
         <img
           className="object-cover w-32 h-42 rounded-full ring-4 ring-gray-300"
           src={chaitanya}
@@ -162,7 +162,7 @@ const About = () => {
           </a>
         </div>
       </div>
-      <div className="flex flex-col items-center p-8 transition-colors duration-200 transform cursor-pointer group hover:bg-blue-600 rounded-xl">
+      <div className="flex flex-col items-center p-8 transition-colors duration-200 transform cursor-pointer group hover:bg-yellow-600 rounded-xl">
         <img
           className="object-cover w-32 h-42 rounded-full ring-4 ring-gray-300"
           src={srikar}
@@ -219,7 +219,7 @@ const About = () => {
         </div>
       </div>
       
-      <div className="flex flex-col items-center p-8 transition-colors duration-200 transform cursor-pointer group hover:bg-blue-600 rounded-xl">
+      <div className="flex flex-col items-center p-8 transition-colors duration-200 transform cursor-pointer group hover:bg-yellow-600 rounded-xl">
         <img
           className="object-cover w-32 h-42 rounded-full ring-4 ring-gray-300"
           src={varuntej}
@@ -278,7 +278,7 @@ const About = () => {
           </a>
         </div>
       </div>
-      <div className="flex flex-col items-center p-8 transition-colors duration-200 transform cursor-pointer group hover:bg-blue-600 rounded-xl">
+      <div className="flex flex-col items-center p-8 transition-colors duration-200 transform cursor-pointer group hover:bg-yellow-600 rounded-xl">
         <img
           className="object-cover w-32 h-42 rounded-full ring-4 ring-gray-300"
           src= {saikiran}
