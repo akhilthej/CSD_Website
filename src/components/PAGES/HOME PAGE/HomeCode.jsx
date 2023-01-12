@@ -23,7 +23,7 @@ const HomeHero = () => {
 </div>
 
       <div className='glass'>
-  <section className="flex items-center min-h-screen justify-center">
+  <section className="flex items-center h-96 py-96 justify-center">
     <div className="mx-auto max-w-[55rem]">
       <div className="text-center">
         <p className="text-lg font-medium leading-8 text-white ">

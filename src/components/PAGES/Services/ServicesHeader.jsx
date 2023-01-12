@@ -1,9 +1,9 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 
-import {codeing ,graphicsdesign ,digitalmarketing ,mobiledev ,recruitment ,brand } from '../../data/data.jsx';
+import {codeing ,graphicsdesign ,digitalmarketing ,mobiledev ,recruitment ,brand , } from '../../data/data.jsx';
 
-import ServicesHeaderimage from '../../../assets/ImagesPage/ServicesHeaderImage.webp';
+import ServicesHeroImg from '../../../assets/ImagesPage/ServicesHeaderImage.png'
 
 const ServicesHeader = () => {
   return (
@@ -15,8 +15,8 @@ const ServicesHeader = () => {
       <div className="grid gap-5 md:grid-cols-2 md:gap-10 lg:gap-20">
         <div className="flex justify-center md:justify-end">
           <img
-            className="w-full max-w-xl rounded-full"
-            src={ServicesHeaderimage}
+            className="w-full max-w-xl"
+            src={ServicesHeroImg}
             alt="Marketing newsletter via computer Illustration in PNG, SVG"
           />
         </div>

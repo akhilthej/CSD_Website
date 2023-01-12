@@ -1,8 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 
-
-import GetQoutation from '../../../assets/ImagesPage/GetQoutationHeader.jpg';
+import {GetQoutation} from '../../data/data';
 import Testqotes from './Forms/Testqotes';
 import WebDevelopmentForm from './Forms/WebDevelopmentForm';
 
@@ -14,7 +13,7 @@ const GetQuotationHeader = () => {
     <div className="mx-auto w-full max-w-screen-lg  px-5 ">
       <div className="grid gap-5 md:grid-cols-2 md:gap-10 lg:gap-20">
         <div className="flex justify-center md:justify-end">
-          <img className="rounded-full w-full max-w-xl"
+          <img className="w-full max-w-xl"
             src={GetQoutation}
             alt="Marketing newsletter via computer Illustration in PNG, SVG"/>
         </div>

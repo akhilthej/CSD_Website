@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 
-import ClientHeader from '../../../assets/ImagesPage/ClientHeader.jpg';
+import ClientHeader from '../../../assets/ImagesPage/ClientHeader.png';
 
 const ClientsHeader = () => {
   return (
@@ -12,7 +12,7 @@ const ClientsHeader = () => {
       <div className="grid gap-5 md:grid-cols-2 md:gap-10 lg:gap-20">
         <div className="flex justify-center md:justify-end">
           <img
-            className="rounded-full w-full max-w-xl"
+            className="w-full max-w-xl"
             src={ClientHeader}
             alt="Marketing newsletter via computer Illustration in PNG, SVG"
           />

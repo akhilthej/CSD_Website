@@ -4,6 +4,9 @@ import labelanuneni from '../../assets/Clients/labelanuneni.png'
 
 import CSDbothome from '../../assets/Common/CSD_Bot/CSDbothome.png'
 import HeroCoverBG from '../../assets/Common/Home/HeroCoverBG.webp'
+import GetQoutation from '../../assets/ImagesPage/GetQoutationHeader.png';
+
+import TechHeroHeader from '../../assets/ImagesPage/TechHeroHeader.png'
 
 import codeing from '../../assets/Icons/codeing.png';
 import graphicsdesign from '../../assets/Icons/graphicsdesign.png';
@@ -38,6 +41,15 @@ export {
     CSDbothome,HeroCoverBG,
     codeing,graphicsdesign,digitalmarketing,mobiledev,recruitment,brand,
     documentationicon,socialicon,analysisicon,financeicon,statergyicon,businessreporticon,
+
+    /* Get Qout*/
+    GetQoutation,
+
+    /* Services */
+
+    /* Tech */
+    TechHeroHeader,
+    
 
     /*Contactus */
     ContactusHeaderimage,

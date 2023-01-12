@@ -126,7 +126,8 @@ p{
   z-index: -2;
 }
 #circle {
-  animation: rotate 10s linear infinite;
+  animation: rotate 2s linear infinite;
+  margin-top: -150px;
   background: var(--conic-gradient);
   border-radius: 70vh;
   display: grid;
@@ -195,7 +196,7 @@ p{
 .glowspear1 {
   position: fixed;
   overflow: hidden;
-  top: calc(100% - 150px);
+  top: calc(80% - 150px);
   left: calc(100% - 150px);
   width: 300px;
   height: 300px;

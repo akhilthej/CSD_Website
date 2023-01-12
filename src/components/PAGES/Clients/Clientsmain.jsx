@@ -56,8 +56,6 @@ const clinetmain = () => {
   </div>
 </section>
 {/* ====== Brands Section End */}
-
-
 </main>
 
     )
