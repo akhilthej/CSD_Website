@@ -1,6 +1,7 @@
 import Archivitus from '../../assets/Clients/Archivitus.png';
 import serpsit from '../../assets/Clients/serpsit.png'
 import labelanuneni from '../../assets/Clients/labelanuneni.png'
+import ilahe from '../../assets/Clients/iliha.png';
 
 import CSDbothome from '../../assets/Common/CSD_Bot/CSDbothome.png'
 import HeroCoverBG from '../../assets/Common/Home/HeroCoverBG.webp'
@@ -28,6 +29,8 @@ import LabelAnuneniwhite from '../../assets/Common/portfolio_images/LAN-001-whit
 import LabelAnunenipc from '../../assets/Common/portfolio_images/LAN-002.png';
 import Ilahewhite from '../../assets/Common/portfolio_images/ILA-001-white.png';
 import Ilahepc from '../../assets/Common/portfolio_images/ILA-002.png';
+import Arkwhite from '../../assets/Common/portfolio_images/ARK-001-white.png';
+import Arkwhitepc from '../../assets/Common/portfolio_images/ARK-002.png';
 
 export {
 
@@ -35,6 +38,7 @@ export {
     Archivitus,
     serpsit,
     labelanuneni,
+    ilahe,
 
 
     /* Home */
@@ -55,6 +59,6 @@ export {
     ContactusHeaderimage,
 
     /*Mock-up Images */
-    LabelAnuneniwhite,LabelAnunenipc,Ilahewhite,Ilahepc,
+    LabelAnuneniwhite,LabelAnunenipc,Ilahewhite,Ilahepc,Arkwhite,Arkwhitepc,
   }    
  

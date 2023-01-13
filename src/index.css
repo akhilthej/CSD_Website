@@ -139,3 +139,31 @@ body {
 
   /*--cookies end--*/
 
+  
+ 
+
+  /*--- payment---- */
+  .payment-icon {
+    background-size: 50px 33px;
+    margin: 10px;
+    display: inline-block;
+    height: 33px;
+    width: 50px;
+  }
+  
+  .payment-icon--visa {
+    background-image: url("./assets/payments/visa.svg");
+  }
+  
+  .payment-icon--master {
+    background-image: url("./assets/payments/mastercard.svg");
+  }
+  
+  .payment-icon--american-express {
+    background-image: url("./assets/payments/rupay.svg");
+  }
+
+  .payment-icon--phonepe {
+    background-image: url("./assets/payments/phonepe.svg");
+  }
+    /*--- payment end---- */

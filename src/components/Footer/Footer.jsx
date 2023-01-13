@@ -55,7 +55,7 @@ const Footer = () => {
 
 
       {/* Download Section */}
-        <section>
+        <section >
         <div class="p-4 w-full text-center bg-black   shadow-md sm:p-8 ">
     <h5 class="mb-2 text-3xl font-bold text-white">Work fast from anywhere</h5>
     <p class="mb-5 text-base text-gray-400">Stay up to date and move work forward with Flowbite on iOS &amp; Android. Download the app today.</p>
@@ -80,19 +80,28 @@ const Footer = () => {
     
 
     {/* Footer */}
-    <section>
-    <footer className="bg-black">
+    <section className='bg-black'>
+    <footer className="glass">
   <div className="max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8">
     <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
     <div>
     <Link to ='/'><img src= {footer_csd} className="mr-5 h-14 sm:h-20 animate-bounce" alt="footer_csd" /></Link>
         <p className="max-w-xs mt-4 text-sm text-gray-600">
-          We are here to build your business digitally.<br />
-          #CSD.
+        We are a web Developing & Designing company with a mission to help build there business online.
+        We accomplish this by continuously developing technology, giving expert assistance, and ensuring a flawless online website 
+       experience.<br />
         </p>
+        <section>
+          <div className="paymet-container">
+          <span className="payment-icon payment-icon--visa " />
+          <span className="payment-icon payment-icon--master" />
+          <span className="payment-icon payment-icon--american-express" />
+          <span className="payment-icon payment-icon--phonepe" />
+          </div>
+        </section>
         
 
-        <div className="flex mt-8 space-x-6 text-gray-600">
+        <div className="flex space-x-6 text-gray-600">
           <a
             className="hover:opacity-75"
             href="https://www.facebook.com/profile.php?id=100087441512479"
@@ -264,7 +273,8 @@ const Footer = () => {
         </div>
       </div>
     </div>
-    <p className="mt-8 text-xs text-white">© 2022 CyberSpaceDigital</p>
+    <div class="h-px my-8 border-0 bg-gray-700"/>
+    <p className="text-center text-xs text-white">© 2020-2023 cyberspacedigital.in - Web Development & Designer Community ( #CSD )</p>
   </div>
 </footer>
 <section/>
