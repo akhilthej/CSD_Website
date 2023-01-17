@@ -17,6 +17,7 @@ export function App() {
   const location= useLocation();
   window.scrollTo(0, 0); /*---ResetPagelocation---*/
 
+  /*---LogoPreLoager
   const [setLoading] = useState(true);
   const preloader = document.getElementById("preloader");
   if (preloader) {
@@ -24,7 +25,7 @@ export function App() {
       preloader.style.display = "none";
       setLoading(false);
     }, 5000);
-  };/*---LogoPreLoager---*/
+  };---*/
 
   
   return (
