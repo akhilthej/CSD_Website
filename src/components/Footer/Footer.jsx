@@ -10,10 +10,10 @@ const Footer = () => {
   
   return (
     
-    <main>
+    <main className='bg-black'>
 
       {/*Subscription section*/}
-  <section>
+  <section >
 
 <div className=" flex items-center justify-center">
   <div className="mx-auto w-full max-w-screen-lg  px-5 py-10">
@@ -80,9 +80,9 @@ const Footer = () => {
     
 
     {/* Footer */}
-    <section className='bg-black'>
+    <section className='bg-black pb-5'>
     <footer className="glass">
-  <div className="max-w-screen-xl px-4 py-16 mx-auto sm:px-6 lg:px-8">
+  <div className="max-w-screen-xl px-4 py-16 mx-auto sm:px-9 lg:px-8">
     <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
     <div>
     <Link to ='/'><img src= {footer_csd} className="mr-5 h-14 sm:h-20 animate-bounce" alt="footer_csd" /></Link>
