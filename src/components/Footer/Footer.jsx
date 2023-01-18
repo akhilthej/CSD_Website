@@ -54,7 +54,7 @@ const Footer = () => {
 </section>
 
 
-      {/* Download Section */}
+      {/* Download Section 
         <section >
         <div class="p-4 w-full text-center bg-black   shadow-md sm:p-8 ">
     <h5 class="mb-2 text-3xl font-bold text-white">Work fast from anywhere</h5>
@@ -76,7 +76,7 @@ const Footer = () => {
         </div>
     </div>
 </div>
-</section>
+</section>*/}
     
 
     {/* Footer */}
@@ -203,13 +203,13 @@ const Footer = () => {
         <div>
           <p className="font-medium text-white">Company</p>
           <nav className="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
-            <a className="hover:opacity-75" href="#/aboutus">
+            <a className="hover:opacity-75" href="/aboutus">
               {" "}
               About us{" "}
             </a>
-            <a className="hover:opacity-75" href="#/clients">
+            <a className="hover:opacity-75" href="/clients">
               {" "}
-              History{" "}
+              Clients{" "}
             </a>
           </nav>
         </div>
@@ -221,7 +221,7 @@ const Footer = () => {
               {" "}
               Google Map Review{" "}
             </a>
-            <a className="hover:opacity-75" href="#/reviews">
+            <a className="hover:opacity-75" href="/reviews">
               {" "}
               Client Review{" "}
             </a>
@@ -231,11 +231,11 @@ const Footer = () => {
         <div>
           <p className="font-medium text-white">Helpful Links</p>
           <nav className="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
-            <a className="hover:opacity-75" href="#/contactus">
+            <a className="hover:opacity-75" href="/contactus">
               {" "}
               Contact{" "}
             </a>
-            <a className="hover:opacity-75" href="#/contactus">
+            <a className="hover:opacity-75" href="/contactus">
               {" "}
               FAQs{" "}
             </a>

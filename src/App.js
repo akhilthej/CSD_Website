@@ -54,7 +54,6 @@ export function App() {
           <Route path='/privacypolicy' element={<PrivacyPolicy />} /> 
           <Route path='/terms&conditions' element={<TermsnConditions />} />
           <Route path='/disclaimer' element={<Disclaimer />} />
-          <Route path='/sitemaps' element={<Sitemaps/>} />
          
 
 
