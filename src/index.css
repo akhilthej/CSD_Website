@@ -43,7 +43,7 @@ body {
 
   
   /*---cookies---*/
-  .wrapper{
+  .wrappercookies{
     
     position: fixed;
     z-index: 50;
@@ -61,14 +61,14 @@ body {
 
   }
   
-  .wrapper.hide{
+  .wrappercookies.hide{
     opacity: 0;
     pointer-events: none;
     transform: scale(0.8);
     transition: all 0.3s ease;
   }
   
-  .wrapper img{
+  .wrappercookies img{
     max-width: 90px;
     object-position: center ;
     margin-left: auto;
@@ -113,7 +113,7 @@ body {
   }
   
   @media only screen and (max-width: 600px) {
-    .wrapper{
+    .wrappercookies{
       width: 250px;
     }
     .content header{

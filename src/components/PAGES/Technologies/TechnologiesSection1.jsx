@@ -10,7 +10,7 @@ const posts = [
         authorLogo: "https://api.uifaces.co/our-content/donated/xZ4wg2Xj.jpg",
         authorName: "Sidi dev",
         date: "Jan 4 2022",
-        href: "/technologies/blog/reactblog"
+        href: "/technologies/reactblog"
     },
     {
         title: "A Quick Guide to WordPress Hosting",

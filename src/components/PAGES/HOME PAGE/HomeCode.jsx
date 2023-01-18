@@ -5,7 +5,7 @@ import './Home.scss';
 import {CSDbothome,HeroCoverBG } from '../../data/data.jsx';
 import '../../Tools/Animations.scss';
 
-import {codeing ,graphicsdesign ,digitalmarketing ,mobiledev ,recruitment ,brand } from '../../data/data.jsx';
+import {codeing ,graphicsdesign ,digitalmarketing ,mobiledev ,recruitment ,brand ,morefeatures} from '../../data/data.jsx';
 import {documentationicon ,socialicon ,analysisicon ,financeicon ,statergyicon ,businessreporticon ,}from '../../data/data.jsx';
 
 
@@ -39,8 +39,7 @@ const HomeHero = () => {
       <div className="mt-6 flex items-center justify-center gap-4">
         <a
           href="/contactus"
-          className="transform rounded-mdpx-6 rounded bg-gradient-to-r from-orange-400 to-pink-600 px-5 py-3 font-medium text-white transition-colors hover:from-pink-600 hover:to-orange-400 "
-        >
+          className="transform rounded-md border border-slate-200 px-5 py-3 font-medium text-white transition-colors hover:bg-slate-50 hover:text-black">
           Build Today
         </a>
         <a
@@ -150,13 +149,12 @@ const HomeHero = () => {
       </div>
       <div className="relative group transition hover:z-[1] hover:shadow-2xl lg:hidden xl:block">
         <div className="relative p-8 space-y-8 border-dashed rounded-lg transition duration-300 group-hover:bg-yellow-500 group-hover:border group-hover:scale-90">
-          <img
-            src="https://tailus.io/sources/blocks/stacked/preview/images/avatars/metal.png"
+        <img src= {morefeatures}
             className="w-10"
             width={512}
             height={512}
-            alt="burger illustration"
-          />
+            alt="morefeatures"
+          /> 
           <div className="space-y-2">
             <h5 className="text-xl text-white font-medium transition group-hover:text-yellow-600">
               More features
@@ -166,7 +164,7 @@ const HomeHero = () => {
             </p>
           </div>
           <a
-            href="#/services"
+            href="/services"
             className="flex justify-between items-center group-hover:text-yellow-600"
           >
             <span className="text-sm">Read more</span>
@@ -273,11 +271,11 @@ const HomeHero = () => {
       <div className="relative group  transition hover:z-[1] hover:shadow-2xl lg:hidden xl:block">
         <div className="relative p-8 space-y-8 border-dashed rounded-lg transition duration-300 group-hover:bg-pink-500 group-hover:border group-hover:scale-90">
           <img
-            src="https://tailus.io/sources/blocks/stacked/preview/images/avatars/metal.png"
+            src={morefeatures}
             className="w-10"
             width={512}
             height={512}
-            alt="burger illustration"
+            alt="morefeatures"
           />
           <div className="space-y-2">
             <h5 className="text-xl text-white font-medium transition group-hover:text-yellow-600">
@@ -357,18 +355,14 @@ const HomeHero = () => {
       </h2>
       <div className="pr-40 mt-8 flex lg:mt-0 lg:flex-shrink-0">
         <div className="inline-flex rounded-md shadow">
-        <Link to = '/contactus'><a
-            
-            className="transform rounded-mdpx-6 rounded bg-gradient-to-r from-orange-400 to-pink-600 px-5 py-3 font-medium text-white transition-colors hover:from-pink-600 hover:to-orange-400">
+        <a href="/contactus" className="transform rounded-mdpx-6 rounded bg-gradient-to-r from-orange-400 to-pink-600 px-5 py-3 font-medium text-white transition-colors hover:from-pink-600 hover:to-orange-400">
              Build.Now
-          </a></Link>
+          </a>
         </div>
         <div className="ml-3 inline-flex rounded-md shadow">
-        <Link to = '/aboutus'><a
-            href="#"
-            className="transform rounded-mdpx-6 rounded bg-gradient-to-r from-white to-white px-5 py-3 font-medium text-black transition-colors ">
+        <a href="/aboutus" className="transform rounded-mdpx-6 rounded bg-gradient-to-r from-white to-white px-5 py-3 font-medium text-black transition-colors ">
             More
-          </a></Link>
+          </a>
         </div>
       </div>
     </div>
@@ -391,7 +385,7 @@ const HomeHero = () => {
       <div>
         <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 ">
         <img src= {documentationicon}
-            alt="coding_icon"/> 
+            alt="documentation"/> 
         </div>
         <h3 className="text-white mb-2 text-xl font-bold ">Documentation</h3>
         <p className="text-gray-300 ">
@@ -402,7 +396,7 @@ const HomeHero = () => {
       </div>
       <div>
         <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 ">
-        <img src= {analysisicon} /> 
+        <img src= {analysisicon} alt="analysisicon"/> 
         </div>
         <h3 className="text-white mb-2 text-xl font-bold ">Analyze</h3>
         <p className="text-gray-300 ">
@@ -415,7 +409,7 @@ const HomeHero = () => {
       </div>
       <div>
         <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 ">
-        <img src= {socialicon} /> 
+        <img src= {socialicon} alt="socialicon"/> 
         </div>
         <h3 className="text-white mb-2 text-xl font-bold ">
           Social Media Presents
@@ -429,7 +423,7 @@ const HomeHero = () => {
       </div>
       <div>
         <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 ">
-        <img src= {financeicon}/>
+        <img src= {financeicon} alt="financeicon"/>
         </div>
         <h3 className="text-white mb-2 text-xl font-bold ">Finance</h3>
         <p className="text-gray-300 ">
@@ -440,7 +434,7 @@ const HomeHero = () => {
       </div>
       <div>
         <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 ">
-        <img src= {statergyicon}/>
+        <img src= {statergyicon} alt="statergyicon"/>
         </div>
         <h3 className="text-white mb-2 text-xl font-bold ">
         Strategy
@@ -452,7 +446,7 @@ const HomeHero = () => {
       </div>
       <div>
         <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 ">
-        <img src= {businessreporticon}/>
+        <img src= {businessreporticon} alt="businessreporticon"/>
         </div>
         <h3 className="text-white mb-2 text-xl font-bold ">Business Report</h3>
         <p className="text-gray-300 ">

@@ -15,6 +15,7 @@ import digitalmarketing from '../../assets/Icons/digitalmarketing.png';
 import mobiledev from '../../assets/Icons/mobiledev.png';
 import recruitment from '../../assets/Icons/recruitment.png';
 import brand from '../../assets/Icons/brand.png'
+import morefeatures from '../../assets/Icons/morefeatures.png'
 
 import documentationicon from '../../assets/Icons/documentation-icon.png';
 import socialicon from '../../assets/Icons/social-icon.png';
@@ -44,7 +45,7 @@ export {
     /* Home */
     CSDbothome,HeroCoverBG,
     codeing,graphicsdesign,digitalmarketing,mobiledev,recruitment,brand,
-    documentationicon,socialicon,analysisicon,financeicon,statergyicon,businessreporticon,
+    documentationicon,socialicon,analysisicon,financeicon,statergyicon,businessreporticon,morefeatures,
 
     /* Get Qout*/
     GetQoutation,

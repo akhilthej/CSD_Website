@@ -293,7 +293,7 @@ const Footer = () => {
       >
         <img
           className=" object-cover object-center w-8 sm:w-12"
-          src={WhatsApp}
+          src={WhatsApp} alt="whatappicon"
         />
       </a>
       <h1 class='fade-in-left delay-100 cursor-default text-gray-500 text-xs pb-2'>Desgined & Developed by CSD</h1>
