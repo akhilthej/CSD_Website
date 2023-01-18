@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.debf2bd3.css",
-    "main.js": "/static/js/main.682934ef.js",
+    "main.css": "/static/css/main.d7ffd70e.css",
+    "main.js": "/static/js/main.8c543bf7.js",
     "static/media/democover.jpg": "/static/media/democover.d6b5331c54468424aed5.jpg",
     "static/media/ContactusHeaderimage.png": "/static/media/ContactusHeaderimage.25bfaf86713f9ae3f933.png",
     "static/media/LAN-001-white.png": "/static/media/LAN-001-white.4cd2dfdc96667fc57a19.png",
@@ -36,16 +36,16 @@
     "static/media/varun.webp": "/static/media/varun.5a957c81713e5e8e3510.webp",
     "static/media/iliha.png": "/static/media/iliha.6a6980554711cf801a9e.png",
     "static/media/codeing.png": "/static/media/codeing.924aefcd21dab990e435.png",
-    "static/media/rupay.svg": "/static/media/rupay.672ce9fd507c8490cbc7.svg",
+    "static/media/rupay.svg": "/static/media/rupay.2ce7f22c15f2c6d08000.svg",
     "static/media/phonepe.svg": "/static/media/phonepe.21de27d24b813cdd99b3.svg",
     "index.html": "/index.html",
-    "static/media/visa.svg": "/static/media/visa.10ab7832c0fe501c81a3.svg",
-    "static/media/mastercard.svg": "/static/media/mastercard.91fda2b49bbcdfa6157f.svg",
-    "main.debf2bd3.css.map": "/static/css/main.debf2bd3.css.map",
-    "main.682934ef.js.map": "/static/js/main.682934ef.js.map"
+    "static/media/visa.svg": "/static/media/visa.a5cbdf1750ce95606832.svg",
+    "static/media/mastercard.svg": "/static/media/mastercard.8d9b70ac61e4a23a840d.svg",
+    "main.d7ffd70e.css.map": "/static/css/main.d7ffd70e.css.map",
+    "main.8c543bf7.js.map": "/static/js/main.8c543bf7.js.map"
   },
   "entrypoints": [
-    "static/css/main.debf2bd3.css",
-    "static/js/main.682934ef.js"
+    "static/css/main.d7ffd70e.css",
+    "static/js/main.8c543bf7.js"
   ]
 }
