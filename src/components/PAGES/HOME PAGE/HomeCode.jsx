@@ -66,7 +66,7 @@ const HomeHero = () => {
       </h2>
       </div>
     
-      <div className="mt-16 grid glass border divide-x divide-y rounded-xl overflow-hidden sm:grid-cols-2 lg:divide-y-0 lg:grid-cols-3 xl:grid-cols-4">
+      <div className="mt-16 grid bg-black/80 border divide-x divide-y rounded-xl overflow-hidden sm:grid-cols-2 lg:divide-y-0 lg:grid-cols-3 xl:grid-cols-4">
       <div className="relative group  transition hover:z-[1] hover:shadow-2xl">
         <div className="relative p-8 space-y-8">
           <img src= {codeing}
@@ -184,7 +184,7 @@ const HomeHero = () => {
       <section>
       <div className="pb-10  overflow-hidden">
         <div className=" container m-auto px-6 space-y-8 text-gray-500 md:px-12">
-        <div className="glass mt-0.5 grid border divide-x divide-y rounded-xl overflow-hidden sm:grid-cols-2 lg:divide-y-0 lg:grid-cols-3 xl:grid-cols-4">
+        <div className="bg-black/80 mt-0.5 grid border divide-x divide-y rounded-xl overflow-hidden sm:grid-cols-2 lg:divide-y-0 lg:grid-cols-3 xl:grid-cols-4">
       <div className="relative group transition hover:z-[1] hover:shadow-2xl">
         <div className="relative p-8 space-y-8">
           <img

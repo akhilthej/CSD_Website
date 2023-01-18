@@ -4,7 +4,7 @@ import labelanuneni from '../../assets/Clients/labelanuneni.png'
 import ilahe from '../../assets/Clients/iliha.png';
 
 import CSDbothome from '../../assets/Common/CSD_Bot/CSDbothome.png'
-import HeroCoverBG from '../../assets/Common/Home/HeroCoverBG.webp'
+import HeroCoverBG from '../../assets/Common/Home/HeroCoverBG.png'
 import GetQoutation from '../../assets/ImagesPage/GetQoutationHeader.png';
 
 import TechHeroHeader from '../../assets/ImagesPage/TechHeroHeader.png'

@@ -1,83 +1,93 @@
-import React from 'react';
+import React from 'react'
 
-
-      export default () => {
-const posts = [
-  {
-      title: "What is React and React.Js?",
-        desc: "Going into this journey, I had a standard therapy regimen, based on looking at the research literature. After I saw the movie, I started to ask other people what they did for their anxiety, and some",
-        img: "https://images.unsplash.com/photo-1556155092-490a1ba16284?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
-        authorLogo: "https://api.uifaces.co/our-content/donated/xZ4wg2Xj.jpg",
-        authorName: "Sidi dev",
-        date: "Jan 4 2022",
-        href: "/technologies/reactblog"
-    },
-    {
-        title: "A Quick Guide to WordPress Hosting",
-        desc: "According to him, â€œI'm still surprised that this has happened. But we are surprised because we are so surprised.â€More revelations about Whittington will be featured in the film",
-        img: "https://images.unsplash.com/photo-1620287341056-49a2f1ab2fdc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
-        authorLogo: "https://api.uifaces.co/our-content/donated/FJkauyEa.jpg",
-        authorName: "Micheal",
-        date: "Jan 4 2022",
-        href: "javascript:void(0)"
-    },
-    {
-        title: "7 Promising VS Code Extensions Introduced in 2022",
-        desc: "I hope I remembered all the stuff that they needed to know. They're like, 'okay,' and write it in their little reading notebooks. I realized today that I have all this stuff that",
-        img: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
-        authorLogo: "https://randomuser.me/api/portraits/men/46.jpg",
-        authorName: "Luis",
-        date: "Jan 4 2022",
-        href: "javascript:void(0)"
-    },
-    {
-        title: "How to Use Root C++ Interpreter Shell to Write C++ Programs",
-        desc: "The powerful gravity waves resulting from the impact of the planets' moons â€” four in total â€” were finally resolved in 2015 when gravitational microlensing was used to observe the",
-        img: "https://images.unsplash.com/photo-1617529497471-9218633199c0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
-        authorLogo: "https://api.uifaces.co/our-content/donated/KtCFjlD4.jpg",
-        authorName: "Lourin",
-        date: "Jan 4 2022",
-        href: "javascript:void(0)"
-    }
-]
-
-return (
-    <section className="mt-12 mx-auto px-4 max-w-screen-xl lg:px-8">
-        <div className="text-center">
-            <h1 className="text-3xl text-gray-800 font-semibold">
-                Blog
+const TechnologiesSection1 = () => {
+  return (
+    <section className="text-gray-600 body-font">
+  <div className="container px-5 py-24 mx-auto">
+    <div className="flex flex-wrap -m-4">
+      <div className="p-4 md:w-1/3">
+        <div className="h-full rounded-xl shadow-cla-blue bg-gradient-to-r from-indigo-50 to-blue-50 overflow-hidden">
+          <img 
+            className="lg:h-48 md:h-36 w-full object-cover object-center scale-110 transition-all duration-400 hover:scale-100"
+            src="https://images.unsplash.com/photo-1618172193622-ae2d025f4032?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1064&q=80"
+            alt="blog"
+          />
+          <div className="p-6">
+            <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
+              CATEGORY-1
+            </h2>
+            <h1 className="title-font text-lg font-medium text-gray-600 mb-3">
+              What is ReactJs
             </h1>
-            <p className="mt-3 text-gray-500">
-                Blogs that are loved by the community. Updated every hour.
+            <p className="leading-relaxed mb-3">
+              Photo booth fam kinfolk cold-pressed sriracha leggings jianbing
+              microdosing tousled waistcoat.
             </p>
+            <div className="flex items-center flex-wrap ">
+              <button className="bg-gradient-to-r from-cyan-400 to-blue-400 hover:scale-105 drop-shadow-md  shadow-cla-blue px-4 py-1 rounded-lg">
+                <a href="/technologies/reactblog">Learn more</a>
+              </button>
+            </div>
+          </div>
         </div>
-        <div className="mt-12 grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
-            {
-                posts.map((items, key) => (
-                    <article className="max-w-md mx-auto mt-4 shadow-lg border rounded-md duration-300 hover:shadow-sm" key={key}>
-                        <a href={items.href}>
-                            <img src={items.img} loading="lazy" alt={items.title}  className="w-full h-48 rounded-t-md" />
-                            <div className="flex items-center mt-2 pt-3 ml-4 mr-2">
-                                <div className="flex-none w-10 h-10 rounded-full">
-                                    <img src={items.authorLogo} className="w-full h-full rounded-full" alt={items.authorName} />
-                                </div>
-                                <div className="ml-3">
-                                    <span className="block text-gray-900">{items.authorName}</span>
-                                    <span className="block text-gray-400 text-sm">{items.date}</span>
-                                </div>
-                            </div>
-                            <div className="pt-3 ml-4 mr-2 mb-3">
-                                <h3 className="text-xl text-gray-900">
-                                    {items.title}
-                                </h3>
-                                <p className="text-gray-400 text-sm mt-1">{items.desc}</p>
-                            </div>
-                        </a>
-                    </article>
-                ))
-            }
+      </div>
+      <div className="p-4 md:w-1/3">
+        <div className="h-full rounded-xl shadow-cla-violate bg-gradient-to-r from-pink-50 to-red-50 overflow-hidden">
+          <img
+            className="lg:h-48 md:h-36 w-full object-cover object-center scale-110 transition-all duration-400 hover:scale-100"
+            src="https://images.unsplash.com/photo-1624628639856-100bf817fd35?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8M2QlMjBpbWFnZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60"
+            alt="blog"
+          />
+          <div className="p-6">
+            <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
+              CATEGORY-1
+            </h2>
+            <h1 className="title-font text-lg font-medium text-gray-600 mb-3">
+              The Catalyzer
+            </h1>
+            <p className="leading-relaxed mb-3">
+              Photo booth fam kinfolk cold-pressed sriracha leggings jianbing
+              microdosing tousled waistcoat.
+            </p>
+            <div className="flex items-center flex-wrap ">
+              <button className="bg-gradient-to-r from-orange-300 to-amber-400 hover:scale-105 drop-shadow-md shadow-cla-violate px-4 py-1 rounded-lg">
+                Learn more
+              </button>
+            </div>
+          </div>
         </div>
-    </section>
-)
+      </div>
+      <div className="p-4 md:w-1/3">
+        <div className="h-full rounded-xl shadow-cla-pink bg-gradient-to-r from-fuchsia-50 to-pink-50 overflow-hidden">
+          <img
+            className="lg:h-48 md:h-36 w-full object-cover object-center scale-110 transition-all duration-400 hover:scale-100"
+            src="https://images.unsplash.com/photo-1631700611307-37dbcb89ef7e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDIwfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=600&q=60"
+            alt="blog"
+          />
+          <div className="p-6">
+            <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
+              CATEGORY-1
+            </h2>
+            <h1 className="title-font text-lg font-medium text-gray-600 mb-3">
+              The Catalyzer
+            </h1>
+            <p className="leading-relaxed mb-3">
+              Photo booth fam kinfolk cold-pressed sriracha leggings jianbing
+              microdosing tousled waistcoat.
+            </p>
+            <div className="flex items-center flex-wrap ">
+              <button className="bg-gradient-to-r from-fuchsia-300 to-pink-400 hover:scale-105  shadow-cla-blue px-4 py-1 rounded-lg">
+                Learn more
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  )
 }
 
+export default TechnologiesSection1
