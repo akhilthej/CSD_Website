@@ -265,7 +265,7 @@ const Footer = () => {
               {" "}
               Disclaimer{" "}
             </a></Link>
-            <Link to='/sitemaps'><a className="hover:opacity-75" href="">
+            <Link to='/sitemap'><a className="hover:opacity-75" href="">
               {" "}
               Sitemaps{" "}
             </a></Link>

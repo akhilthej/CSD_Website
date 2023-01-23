@@ -1,5 +1,6 @@
 import Navbar from "../components/Navbar/Navbar";
 import Footer from '../components/Footer/Footer';
+import Sitemap from '../components/Tools/sitemap';
 
 import PrivacyPolicy from '../components/PAGES/Aboutus/PrivacyPolicy';
 import TermsnConditions from '../components/PAGES/Aboutus/TermsnConditions';
@@ -24,7 +25,7 @@ import Contactus from './CONTACTUS';
 import Reactblog from '../components/PAGES/Technologies/Blogpages/Reactblog';
 
 export {
-Navbar,Footer,PrivacyPolicy,TermsnConditions,Disclaimer,Error404,Home,
+Navbar,Footer,Sitemap,PrivacyPolicy,TermsnConditions,Disclaimer,Error404,Home,
 Services,Technologies,Clients,Reviews,GetQuotation,Aboutus,Contactus,
 Reactblog,
 
