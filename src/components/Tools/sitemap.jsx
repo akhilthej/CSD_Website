@@ -19,25 +19,25 @@ const sitemap = () => {
                 <div className='glass px-10 py-10 mx-10 my-10'>
                     <a href="/" class=" transform rounded bg-gradient-to-r from-orange-400 to-pink-600 px-6 py-3 font-medium text-white transition-colors hover:from-pink-600 hover:to-orange-400">Company</a>
                     <a className='md:flex grid justify-center mt-10 space-x-4'>
-                    <a href="/contactus" class="font-medium text-orange-400 hover:text-orange-500 hover:underline cursor-pointer">About us</a>
-                    <a href="/getquotation" class="font-medium text-orange-400 hover:text-orange-500 hover:underline cursor-pointer">Our Process</a>
-                    <a href="/clients" class="font-medium text-orange-400 hover:text-orange-500 hover:underline cursor-pointer">Our Team</a>
-                    <a href="/reviews" class="font-medium text-orange-400 hover:text-orange-500 hover:underline cursor-pointer">Referral Program</a>
-                    <a href="/privacypolicy" class=" font-medium text-orange-400 hover:text-orange-500 hover:underline cursor-pointer">Our Blogs</a>
+                    <a href="/aboutus" class="font-medium text-orange-400 hover:text-orange-500 hover:underline cursor-pointer">About us</a>
+                    <a href="/our-process" class="font-medium text-orange-400 hover:text-orange-500 hover:underline cursor-pointer">Our Process</a>
+                    <a href="/our-team" class="font-medium text-orange-400 hover:text-orange-500 hover:underline cursor-pointer">Our Team</a>
+                    <a href="/referral-program" class="font-medium text-orange-400 hover:text-orange-500 hover:underline cursor-pointer">Referral Program</a>
+                    <a href="/blog" class=" font-medium text-orange-400 hover:text-orange-500 hover:underline cursor-pointer">Our Blogs</a>
                     </a>
                 </div>
                 <div className='glass px-10 py-10 mx-10 my-10'>
                     <a href="/" class=" transform rounded bg-gradient-to-r from-orange-400 to-pink-600 px-6 py-3 font-medium text-white transition-colors hover:from-pink-600 hover:to-orange-400">Services</a>
                     <a className='md:flex grid justify-center mt-10 space-x-4'>
-                    <a href="/contactus" class="font-medium text-orange-400 hover:text-orange-500 hover:underline cursor-pointer">Web Development</a>
-                    <a href="/getquotation" class="font-medium text-orange-400 hover:text-orange-500 hover:underline cursor-pointer">Mobile App Development</a>
-                    <a href="/clients" class="font-medium text-orange-400 hover:text-orange-500 hover:underline cursor-pointer">Game Development</a>
-                    <a href="/reviews" class="font-medium text-orange-400 hover:text-orange-500 hover:underline cursor-pointer">Graphic Designing</a>
-                    <a href="/privacypolicy" class=" font-medium text-orange-400 hover:text-orange-500 hover:underline cursor-pointer">3D Works</a>
-                    <a href="/privacypolicy" class=" font-medium text-orange-400 hover:text-orange-500 hover:underline cursor-pointer">Custom Software</a>
-                    <a href="/privacypolicy" class=" font-medium text-orange-400 hover:text-orange-500 hover:underline cursor-pointer">Digital Marketing</a>
-                    <a href="/termsofuse" class="font-medium text-orange-400 hover:text-orange-500 hover:underline cursor-pointer">Endoresement Brand</a>
-                    <a href="/sitemap" class=" font-medium text-orange-400 hover:text-orange-500 hover:underline cursor-pointer">CMS software <br/>(Content management system) </a>
+                    <a href="/web-development" class="font-medium text-orange-400 hover:text-orange-500 hover:underline cursor-pointer">Web Development</a>
+                    <a href="/mobile-app-development" class="font-medium text-orange-400 hover:text-orange-500 hover:underline cursor-pointer">Mobile App Development</a>
+                    <a href="/game-development" class="font-medium text-orange-400 hover:text-orange-500 hover:underline cursor-pointer">Game Development</a>
+                    <a href="/graphic-designing" class="font-medium text-orange-400 hover:text-orange-500 hover:underline cursor-pointer">Graphic Designing</a>
+                    <a href="/3d-works" class=" font-medium text-orange-400 hover:text-orange-500 hover:underline cursor-pointer">3D Works</a>
+                    <a href="/custom-software-development" class=" font-medium text-orange-400 hover:text-orange-500 hover:underline cursor-pointer">Custom Software</a>
+                    <a href="/digital-marketing" class=" font-medium text-orange-400 hover:text-orange-500 hover:underline cursor-pointer">Digital Marketing</a>
+                    <a href="/endoresement-brand" class="font-medium text-orange-400 hover:text-orange-500 hover:underline cursor-pointer">Endoresement Brand</a>
+                    <a href="/content-management-system" class=" font-medium text-orange-400 hover:text-orange-500 hover:underline cursor-pointer">CMS software <br/>(Content management system) </a>
                     </a>
                 </div>
                 <div className='glass px-10 py-10 mx-10 my-10'>
@@ -58,26 +58,26 @@ const sitemap = () => {
                 <div className='glass px-10 py-10 mx-10 my-10'>
                     <a href="/" class=" transform rounded bg-gradient-to-r from-orange-400 to-pink-600 px-6 py-3 font-medium text-white transition-colors hover:from-pink-600 hover:to-orange-400">Products</a>
                     <a className='md:flex grid justify-center mt-10 space-x-4'>
-                    <a href="/contactus" class="font-medium text-orange-400 hover:text-orange-500 hover:underline cursor-pointer">xxxxx</a>
-                    <a href="/getquotation" class="font-medium text-orange-400 hover:text-orange-500 hover:underline cursor-pointer">xxxxx</a>
-                    <a href="/clients" class="font-medium text-orange-400 hover:text-orange-500 hover:underline cursor-pointer">xxxxxx</a>
-                    <a href="/reviews" class="font-medium text-orange-400 hover:text-orange-500 hover:underline cursor-pointer">xxxxx</a>
-                    <a href="/privacypolicy" class=" font-medium text-orange-400 hover:text-orange-500 hover:underline cursor-pointer">xxxx</a>
-                    <a href="/termsofuse" class="font-medium text-orange-400 hover:text-orange-500 hover:underline cursor-pointer">xxx</a>
-                    <a href="/sitemap" class=" font-medium text-orange-400 hover:text-orange-500 hover:underline cursor-pointer">xxx</a>
+                    <a href="/#" class="font-medium text-orange-400 hover:text-orange-500 hover:underline cursor-pointer">xxxxx</a>
+                    <a href="/#" class="font-medium text-orange-400 hover:text-orange-500 hover:underline cursor-pointer">xxxxx</a>
+                    <a href="/#" class="font-medium text-orange-400 hover:text-orange-500 hover:underline cursor-pointer">xxxxxx</a>
+                    <a href="/#" class="font-medium text-orange-400 hover:text-orange-500 hover:underline cursor-pointer">xxxxx</a>
+                    <a href="/#" class=" font-medium text-orange-400 hover:text-orange-500 hover:underline cursor-pointer">xxxx</a>
+                    <a href="/#" class="font-medium text-orange-400 hover:text-orange-500 hover:underline cursor-pointer">xxx</a>
+                    <a href="/#" class=" font-medium text-orange-400 hover:text-orange-500 hover:underline cursor-pointer">xxx</a>
                     </a>
                 </div>
 
                 <div className='glass px-10 py-10 mx-10 my-10'>
                     <a href="/" class=" transform rounded bg-gradient-to-r from-orange-400 to-pink-600 px-6 py-3 font-medium text-white transition-colors hover:from-pink-600 hover:to-orange-400">Hire as Freelancer</a>
                     <a className='md:flex grid justify-center mt-10 space-x-4'>
-                    <a href="/contactus" class="font-medium text-orange-400 hover:text-orange-500 hover:underline cursor-pointer">Freelance Web Developer</a>
-                    <a href="/getquotation" class="font-medium text-orange-400 hover:text-orange-500 hover:underline cursor-pointer">Freelance Graphic Designer</a>
-                    <a href="/clients" class="font-medium text-orange-400 hover:text-orange-500 hover:underline cursor-pointer">Freelance Android Developer</a>
-                    <a href="/reviews" class="font-medium text-orange-400 hover:text-orange-500 hover:underline cursor-pointer">Freelance UI/UX Developer</a>
-                    <a href="/privacypolicy" class=" font-medium text-orange-400 hover:text-orange-500 hover:underline cursor-pointer">Freelance NodeJS Developer</a>
-                    <a href="/termsofuse" class="font-medium text-orange-400 hover:text-orange-500 hover:underline cursor-pointer">Freelance Unity Developer</a>
-                    <a href="/sitemap" class=" font-medium text-orange-400 hover:text-orange-500 hover:underline cursor-pointer">Freelance Photographer/Video</a>
+                    <a href="/freelance-web-developer" class="font-medium text-orange-400 hover:text-orange-500 hover:underline cursor-pointer">Freelance Web Developer</a>
+                    <a href="/freelance-graphic-designer" class="font-medium text-orange-400 hover:text-orange-500 hover:underline cursor-pointer">Freelance Graphic Designer</a>
+                    <a href="/freelance-android-developer" class="font-medium text-orange-400 hover:text-orange-500 hover:underline cursor-pointer">Freelance Android Developer</a>
+                    <a href="/freelance-uiux-developer" class="font-medium text-orange-400 hover:text-orange-500 hover:underline cursor-pointer">Freelance UI/UX Developer</a>
+                    <a href="/freelance-nodejs-developer" class=" font-medium text-orange-400 hover:text-orange-500 hover:underline cursor-pointer">Freelance NodeJS Developer</a>
+                    <a href="/freelance-unity-developer" class="font-medium text-orange-400 hover:text-orange-500 hover:underline cursor-pointer">Freelance Unity Developer</a>
+                    <a href="/freelance-photographer-video" class=" font-medium text-orange-400 hover:text-orange-500 hover:underline cursor-pointer">Freelance Photographer/Video</a>
                     </a>
                 </div>
 
