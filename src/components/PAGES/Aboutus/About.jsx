@@ -84,7 +84,7 @@ const About = () => {
         />
         <div>
           <h4 className="text-2xl text-white">Pavan Kumar</h4>
-          <span className="block text-sm text-gray-300">Patner<br/>Chief Operations Officer</span>
+          <span className="block text-sm text-gray-300">Partner<br/>Chief Operations Officer</span>
         </div>
       </div>
       <div className="space-y-4 text-center">

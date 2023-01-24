@@ -116,8 +116,10 @@ const Navbar = () => {
                         Reviews
                       </a></Link>
                     )}
-                  </Menu.Item>
-                </div>
+                  </Menu.Item></div>
+                  
+                  
+
                 <div className='py-1 md:hidden '>
                   <Menu.Item>
                     {({ active }) => (
@@ -135,6 +137,7 @@ const Navbar = () => {
                       </a></Link>
                     )}
                   </Menu.Item>
+
                   <Menu.Item >
                     {({ active }) => (
                       <Link to='/contactus'><a
@@ -147,6 +150,24 @@ const Navbar = () => {
                       >
                        Contact us
                       </a></Link>
+                    )}
+                  </Menu.Item>
+                </div>
+
+                {/*---Payments--- */}
+                <div className='py-1 mt-1'>
+                  <Menu.Item>
+                    {({ active }) => (
+                      <a href="https://rzp.io/l/IqQRFHrUB"><a
+                        className={classNames(
+                          active
+                            ? 'bg-gray-700 text-white'
+                            : 'text-white',
+                          'block px-4 py-2 text-sm'
+                        )}
+                      >
+                        Payment
+                      </a></a>
                     )}
                   </Menu.Item>
                 </div>

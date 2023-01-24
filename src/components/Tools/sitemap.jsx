@@ -4,8 +4,12 @@ const sitemap = () => {
   return (
     <section>
         <div className='text-center justify-center'>
-            <h1 className='py-10 font-extrabold text-transparent text-2xl md:text-8xl bg-clip-text bg-gradient-to-r from-yellow-400 to-pink-600 mt-3 text-[3.5rem]  leading-[4rem] tracking-tight text-black'>Site Map</h1> 
-            <div className='glass px-10 py-10 mx-10 my-10'>
+            <header class='glass'>
+                <h1 className='py-10 font-extrabold text-transparent text-2xl md:text-8xl bg-clip-text bg-gradient-to-r from-yellow-400 to-pink-600 mt-3 text-[3.5rem]  leading-[4rem] tracking-tight text-black'>Site Map</h1>
+                <a class='writer text-white pb-9 animation-typo '><a class='writer-text'>Build your Business presents on digital Platforms.</a></a>
+            </header> 
+            
+            <div className=' px-10 py-10 mx-10 my-10'>
                     <a href="/" class=" transform rounded bg-gradient-to-r from-orange-400 to-pink-600 px-6 py-3 font-medium text-white transition-colors hover:from-pink-600 hover:to-orange-400">Home</a>
                     <a className='md:flex grid justify-center mt-10 space-x-4'>
                     <a href="/services" class="font-medium text-orange-400 hover:text-orange-500 hover:underline cursor-pointer ">Services</a>
@@ -16,7 +20,7 @@ const sitemap = () => {
                     <a href="/technologies" class="font-medium text-orange-400 hover:text-orange-500 hover:underline cursor-pointer">Technologies</a>
                     </a>
                 </div>
-                <div className='glass px-10 py-10 mx-10 my-10'>
+                <div className=' px-10 py-10 mx-10 my-10'>
                     <a href="/" class=" transform rounded bg-gradient-to-r from-orange-400 to-pink-600 px-6 py-3 font-medium text-white transition-colors hover:from-pink-600 hover:to-orange-400">Company</a>
                     <a className='md:flex grid justify-center mt-10 space-x-4'>
                     <a href="/aboutus" class="font-medium text-orange-400 hover:text-orange-500 hover:underline cursor-pointer">About us</a>
@@ -26,7 +30,7 @@ const sitemap = () => {
                     <a href="/blog" class=" font-medium text-orange-400 hover:text-orange-500 hover:underline cursor-pointer">Our Blogs</a>
                     </a>
                 </div>
-                <div className='glass px-10 py-10 mx-10 my-10'>
+                <div className=' px-10 py-10 mx-10 my-10'>
                     <a href="/" class=" transform rounded bg-gradient-to-r from-orange-400 to-pink-600 px-6 py-3 font-medium text-white transition-colors hover:from-pink-600 hover:to-orange-400">Services</a>
                     <a className='md:flex grid justify-center mt-10 space-x-4'>
                     <a href="/web-development" class="font-medium text-orange-400 hover:text-orange-500 hover:underline cursor-pointer">Web Development</a>
@@ -40,7 +44,7 @@ const sitemap = () => {
                     <a href="/content-management-system" class=" font-medium text-orange-400 hover:text-orange-500 hover:underline cursor-pointer">CMS software <br/>(Content management system) </a>
                     </a>
                 </div>
-                <div className='glass px-10 py-10 mx-10 my-10'>
+                <div className=' px-10 py-10 mx-10 my-10'>
                     <a href="/" class=" transform rounded bg-gradient-to-r from-orange-400 to-pink-600 px-6 py-3 font-medium text-white transition-colors hover:from-pink-600 hover:to-orange-400">Technologies</a>
                     <a className='md:flex grid justify-center mt-10 space-x-4'>
                     <a href="/reactjs-development" class="font-medium text-orange-400 hover:text-orange-500 hover:underline cursor-pointer">React Js</a>
@@ -55,7 +59,7 @@ const sitemap = () => {
                     </a>
                 </div>
 
-                <div className='glass px-10 py-10 mx-10 my-10'>
+                <div className=' px-10 py-10 mx-10 my-10'>
                     <a href="/" class=" transform rounded bg-gradient-to-r from-orange-400 to-pink-600 px-6 py-3 font-medium text-white transition-colors hover:from-pink-600 hover:to-orange-400">Products</a>
                     <a className='md:flex grid justify-center mt-10 space-x-4'>
                     <a href="/#" class="font-medium text-orange-400 hover:text-orange-500 hover:underline cursor-pointer">xxxxx</a>
@@ -68,7 +72,7 @@ const sitemap = () => {
                     </a>
                 </div>
 
-                <div className='glass px-10 py-10 mx-10 my-10'>
+                <div className=' px-10 py-10 mx-10 my-10'>
                     <a href="/" class=" transform rounded bg-gradient-to-r from-orange-400 to-pink-600 px-6 py-3 font-medium text-white transition-colors hover:from-pink-600 hover:to-orange-400">Hire as Freelancer</a>
                     <a className='md:flex grid justify-center mt-10 space-x-4'>
                     <a href="/freelance-web-developer" class="font-medium text-orange-400 hover:text-orange-500 hover:underline cursor-pointer">Freelance Web Developer</a>
@@ -81,7 +85,7 @@ const sitemap = () => {
                     </a>
                 </div>
 
-                <div className='glass px-10 py-10 mx-10 my-10'>
+                <div className=' px-10 py-10 mx-10 my-10'>
                     <a href="/" class=" transform rounded bg-gradient-to-r from-orange-400 to-pink-600 px-6 py-3 font-medium text-white transition-colors hover:from-pink-600 hover:to-orange-400">Other</a>
                     <a className='md:flex grid justify-center mt-10 space-x-4'>
                     <a href="/contactus" class="font-medium text-orange-400 hover:text-orange-500 hover:underline cursor-pointer">Contact us</a>
@@ -96,6 +100,7 @@ const sitemap = () => {
                  
         </div>
     </section>
+
   )
 }
 
