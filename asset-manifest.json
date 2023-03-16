@@ -1,14 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.a3ee2b9f.css",
-    "main.js": "/static/js/main.773c8d81.js",
+    "main.js": "/static/js/main.c17d0a5e.js",
     "static/media/democover.jpg": "/static/media/democover.d6b5331c54468424aed5.jpg",
     "static/media/ContactusHeaderimage.png": "/static/media/ContactusHeaderimage.25bfaf86713f9ae3f933.png",
     "static/media/LAN-001-white.png": "/static/media/LAN-001-white.4cd2dfdc96667fc57a19.png",
     "static/media/ARK-001-white.png": "/static/media/ARK-001-white.7552533bfc49040f3d2c.png",
     "static/media/ILA-001-white.png": "/static/media/ILA-001-white.f564de403c6562c37412.png",
+    "static/media/LAC-001-white.png": "/static/media/LAC-001-white.7fb1c8bcbc341190ece4.png",
     "static/media/WhatsApp.png": "/static/media/WhatsApp.34e879f5812c0c92dc03.png",
     "static/media/LAN-002.png": "/static/media/LAN-002.2866f1de5e70551c3b7a.png",
+    "static/media/LAC-002.png": "/static/media/LAC-002.95d8b66361c91a1d4c24.png",
     "static/media/ARK-002.png": "/static/media/ARK-002.0907260de9996bb721f2.png",
     "static/media/ClientHeader.png": "/static/media/ClientHeader.5685c097a73ff31edad1.png",
     "static/media/ILA-002.png": "/static/media/ILA-002.dc2e513de4db7ae2ddb1.png",
@@ -26,6 +28,7 @@
     "static/media/graphicsdesign.png": "/static/media/graphicsdesign.ac5cc1edae28e3741537.png",
     "static/media/Archivitus.png": "/static/media/Archivitus.ba4b78fb8b7ecca70482.png",
     "static/media/digitalmarketing.png": "/static/media/digitalmarketing.ddc1de3d667518a5e17a.png",
+    "static/media/latonskincare.png": "/static/media/latonskincare.a5eee386f66db8a18db9.png",
     "static/media/chaitanya.webp": "/static/media/chaitanya.498f899598a22ed9ec09.webp",
     "static/media/serpsit.png": "/static/media/serpsit.1d770e1466b098293403.png",
     "static/media/saikiran.webp": "/static/media/saikiran.e75af162cb4535eaa499.webp",
@@ -43,10 +46,10 @@
     "static/media/visa.svg": "/static/media/visa.10ab7832c0fe501c81a3.svg",
     "static/media/mastercard.svg": "/static/media/mastercard.91fda2b49bbcdfa6157f.svg",
     "main.a3ee2b9f.css.map": "/static/css/main.a3ee2b9f.css.map",
-    "main.773c8d81.js.map": "/static/js/main.773c8d81.js.map"
+    "main.c17d0a5e.js.map": "/static/js/main.c17d0a5e.js.map"
   },
   "entrypoints": [
     "static/css/main.a3ee2b9f.css",
-    "static/js/main.773c8d81.js"
+    "static/js/main.c17d0a5e.js"
   ]
 }
