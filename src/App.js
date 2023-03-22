@@ -5,7 +5,7 @@ import OneSignal from 'react-onesignal';
 
 import {Navbar,Footer,Sitemap,PrivacyPolicy,TermsnConditions,Disclaimer,Error404,Home,
         Services,Technologies,Clients,Reviews,GetQuotation,Aboutus,Contactus,
-        Reactblog,} from './routes/Routesmap';
+        Reactblog,Payment,} from './routes/Routesmap';
 
 import Notification from "./components/Tools/Notifications";        
         
@@ -49,6 +49,8 @@ export function App() {
           <Route path='/reviews' element={<Reviews />} />
 
           <Route path='/getquotation' element={<GetQuotation />} />
+
+          <Route path='/payment' element={<Payment />} />
 
           <Route path='/aboutus' element={<Aboutus />} />
           <Route path='/contactus' element={<Contactus />} /> 

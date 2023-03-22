@@ -1,5 +1,4 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
 
 import './Home.scss';
 import {CSDbothome,HeroCoverBG } from '../../data/data.jsx';
@@ -32,7 +31,7 @@ const HomeHero = () => {
         <h1 className="fade-in-down pb-8 font-extrabold text-transparent text-2xl md:text-8xl bg-clip-text bg-gradient-to-r from-yellow-400 to-pink-600 mt-3 text-[3.5rem]  leading-[4rem] tracking-tight text-black">
           Cyber Space Digital
         </h1>
-        <p className="mt-3 text-lg leading-relaxed text-slate-400">
+        <p className="px-4 mt-3 text-lg leading-relaxed text-slate-400">
           We help  your brand to build digital, Providing Gobal Presents.
         </p>
       </div>
@@ -302,6 +301,13 @@ const HomeHero = () => {
       </section>
       </div>
 
+
+{/*countdown */}
+<section className='countdown'>
+
+</section>
+
+
 {/*Sidecard1 */}
       <section>
   <div className="homesidecard1 ">
@@ -315,12 +321,12 @@ const HomeHero = () => {
         <h2 className=" text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-pink-600 mt-3  leading-[4rem] tracking-tight">
         We develop our brand with passionate developers.
         </h2>
-        <p className=" mt-6 text-blue-500">
+        <p className=" mt-6 text-white mx-2">
          We develop our companies, projects and brands with a purpose,
          to help them engage their clients and audience. Providing them a first-class quality.
           so they can build awareness, Trust , create conversation for a long-time. 
         </p>
-        <p className=" my-4 text-blue-600">
+        <p className=" my-4 text-white">
           {" "}
           Quality comany or Brand, is the perception of quality that a brand achieves with its customers & clients.
           Quality is often defined as the meeting the expectations of customers.

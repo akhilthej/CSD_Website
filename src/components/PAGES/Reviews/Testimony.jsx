@@ -1,8 +1,14 @@
 import React from 'react'
+import {googlereview} from '../../data/data.jsx';
 
 const Testimony = () => {
   return (
     <div>
+      <h2 class='text-white text-center '>Share your reviews at </h2>
+      <a href="https://search.google.com/local/writereview?placeid=ChIJM0IEPqRRmg0RyLQAP_5varc"> <img  class="h-10 hover:h-12  max-w-full ml-auto mr-auto mt-2" src= {googlereview} alt="googlereview_icon" /></a>
+      
+
+
         <div className="grid rounded-lg  shadow-sm  md:grid-cols-2">
   <figure className="glass flex flex-col justify-center items-center p-8 text-center  rounded-t-lg md:rounded-t-none md:rounded-tl-lg  ">
     <blockquote className="mx-auto mb-4 max-w-2xl text-white lg:mb-8 ">

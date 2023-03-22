@@ -1,7 +1,8 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 
-import {codeing ,graphicsdesign ,digitalmarketing ,mobiledev ,recruitment ,brand , } from '../../data/data.jsx';
+import {HeroCoverBG } from '../../data/data.jsx';
+import {morefeatures,softwaredev,codeing ,graphicsdesign ,digitalmarketing ,mobiledev ,recruitment ,brand , } from '../../data/data.jsx';
 
 import ServicesHeroImg from '../../../assets/ImagesPage/ServicesHeaderImage.png'
 
@@ -48,20 +49,21 @@ const ServicesHeader = () => {
   </section>
 
   
-    {/*MainFeatures */}
-  <section>
+{/*MainFeatures */}
+<section>
+<div style={{ backgroundImage: `url(${HeroCoverBG})`,backgroundRepeat:"no-repeat",backgroundSize:"cover"}}>
       <section>
-      <div className="pt-16 bg-gray-50 overflow-hidden">
-      <div className="container m-auto px-6 space-y-8 text-gray-500 md:px-12">
+      <div className="overflow-hidden">
+      <div className="container m-auto px-6 space-y-8 text-white md:px-12">
       <div>
-      <span className="text-gray-600 text-lg font-semibold">Main features</span>
-      <h2 className="mt-4 text-2xl text-gray-900 font-bold md:text-4xl">
+      <span className="text-lg font-semibold">Main features</span>
+      <h2 className="mt-4 text-2xl text-white font-bold md:text-4xl">
         Services, We Provide
       </h2>
       </div>
     
-      <div className="mt-16 grid border divide-x divide-y rounded-xl overflow-hidden sm:grid-cols-2 lg:divide-y-0 lg:grid-cols-3 xl:grid-cols-4">
-      <div className="relative group bg-white transition hover:z-[1] hover:shadow-2xl">
+      <div className="mt-16 grid bg-black/80 border divide-x divide-y rounded-xl overflow-hidden sm:grid-cols-2 lg:divide-y-0 lg:grid-cols-3 xl:grid-cols-4">
+      <div className="relative group  transition hover:z-[1] hover:shadow-2xl">
         <div className="relative p-8 space-y-8">
           <img src= {codeing}
             className="w-10"
@@ -70,10 +72,10 @@ const ServicesHeader = () => {
             alt="coding_icon"
           /> 
           <div className="space-y-2">
-            <h5 className="text-xl text-gray-800 font-medium transition group-hover:text-yellow-600">
+            <h5 className="text-lg text-white font-medium transition group-hover:text-yellow-600">
               WEB DEVELOPMENT
             </h5>
-            <p className="text-sm text-gray-600">
+            <p className="text-sm text-white">
             Web development is the work involved in developing a website for the Internet (World Wide Web) or an intranet (a private network).
             </p>
           </div>
@@ -85,7 +87,7 @@ const ServicesHeader = () => {
           </a>
         </div>
       </div>
-      <div className="relative group bg-white transition hover:z-[1] hover:shadow-2xl">
+      <div className="relative group  transition hover:z-[1] hover:shadow-2xl">
         <div className="relative p-8 space-y-8">
           <img
             src= {recruitment}
@@ -95,10 +97,10 @@ const ServicesHeader = () => {
             alt="burger illustration"
           />
           <div className="space-y-2">
-            <h5 className="text-lg text-gray-800 font-medium transition group-hover:text-yellow-600">
+            <h5 className="text-lg text-white font-medium transition group-hover:text-yellow-600">
               IT STAFFING & RECRUITING
             </h5>
-            <p className="text-sm text-gray-600">
+            <p className="text-sm text-white">
             IT staffing is the act of finding job candidates with the specialized skills needed to fill technology roles on your team.
             </p>
           </div>
@@ -113,7 +115,7 @@ const ServicesHeader = () => {
           </a>
         </div>
       </div>
-      <div className="relative group bg-white transition hover:z-[1] hover:shadow-2xl">
+      <div className="relative group  transition hover:z-[1] hover:shadow-2xl">
         <div className="relative p-8 space-y-8">
           <img
             src= {mobiledev}
@@ -123,10 +125,10 @@ const ServicesHeader = () => {
             alt="burger illustration"
           />
           <div className="space-y-2">
-            <h5 className="text-base text-gray-800 font-medium transition group-hover:text-yellow-600">
+            <h5 className="text-base text-white font-medium transition group-hover:text-yellow-600">
               MOBILE APP DEVELOPMENT
             </h5>
-            <p className="text-sm text-gray-600">
+            <p className="text-sm text-white">
             The process of creating software applications that run on a mobile device.
             </p>
           </div>
@@ -141,21 +143,20 @@ const ServicesHeader = () => {
           </a>
         </div>
       </div>
-      <div className="relative group bg-gray-100 transition hover:z-[1] hover:shadow-2xl lg:hidden xl:block">
-        <div className="relative p-8 space-y-8 border-dashed rounded-lg transition duration-300 group-hover:bg-white group-hover:border group-hover:scale-90">
+      <div className="relative group  transition hover:z-[1] hover:shadow-2xl">
+        <div className="relative p-8 space-y-8">
           <img
-            src="https://tailus.io/sources/blocks/stacked/preview/images/avatars/metal.png"
+            src= {softwaredev}
             className="w-10"
             width={512}
             height={512}
-            alt="burger illustration"
-          />
+            alt="burger illustration" />
           <div className="space-y-2">
-            <h5 className="text-xl text-gray-800 font-medium transition group-hover:text-yellow-600">
-              More features
+            <h5 className="text-base text-white font-medium transition group-hover:text-yellow-600">
+            SOFTWARE DEVELOPMENT
             </h5>
-            <p className="text-sm text-gray-600">
-              Checkout of services page for more features or contact our support team if your looking for some new ideas.
+            <p className="text-sm text-white">
+            Software development refers to a set of computer science activities dedicated to the process of creating, designing, deploying and supporting software.
             </p>
           </div>
           <a
@@ -177,10 +178,10 @@ const ServicesHeader = () => {
 
 
       <section>
-      <div className="pb-10 bg-gray-50 overflow-hidden">
-        <div className="container m-auto px-6 space-y-8 text-gray-500 md:px-12">
-        <div className="mt-0.5 grid border divide-x divide-y rounded-xl overflow-hidden sm:grid-cols-2 lg:divide-y-0 lg:grid-cols-3 xl:grid-cols-4">
-      <div className="relative group bg-white transition hover:z-[1] hover:shadow-2xl">
+      <div className="pb-10  overflow-hidden">
+        <div className=" container m-auto px-6 space-y-8 text-gray-500 md:px-12">
+        <div className="bg-black/80 mt-0.5 grid border divide-x divide-y rounded-xl overflow-hidden sm:grid-cols-2 lg:divide-y-0 lg:grid-cols-3 xl:grid-cols-4">
+      <div className="relative group transition hover:z-[1] hover:shadow-2xl">
         <div className="relative p-8 space-y-8">
           <img
             src= {graphicsdesign}
@@ -190,10 +191,10 @@ const ServicesHeader = () => {
             alt="burger illustration"
           />
           <div className="space-y-2">
-            <h5 className="text-xl text-gray-800 font-medium transition group-hover:text-yellow-600">
+            <h5 className="text-xl text-white font-medium transition group-hover:text-yellow-600">
               UX/UI DESIGN
             </h5>
-            <p className="text-sm text-gray-600">
+            <p className="text-sm text-white">
             When it comes to product design, we often hear the terms “User Experience (UX)” and “User Interface (UI).”
             </p>
           </div>
@@ -208,7 +209,7 @@ const ServicesHeader = () => {
           </a>
         </div>
       </div>
-      <div className="relative group bg-white transition hover:z-[1] hover:shadow-2xl">
+      <div className="relative group transition hover:z-[1] hover:shadow-2xl">
         <div className="relative p-8 space-y-8">
           <img
             src= {digitalmarketing}
@@ -218,10 +219,10 @@ const ServicesHeader = () => {
             alt="burger illustration"
           />
           <div className="space-y-2">
-            <h5 className="text-xl text-gray-800 font-medium transition group-hover:text-yellow-600">
+            <h5 className="text-xl text-white font-medium transition group-hover:text-yellow-600">
               DIGITAL MARKETING
             </h5>
-            <p className="text-sm text-gray-600">
+            <p className="text-sm text-white">
             Marketing has always been about connecting with your audience in the right place and at the right time. Today, that means you need to meet them where they are already spending time: on the internet.
             </p>
           </div>
@@ -236,7 +237,7 @@ const ServicesHeader = () => {
           </a>
         </div>
       </div>
-      <div className="relative group bg-white transition hover:z-[1] hover:shadow-2xl">
+      <div className="relative group transition hover:z-[1] hover:shadow-2xl">
         <div className="relative p-8 space-y-8">
           <img
             src={brand}
@@ -246,9 +247,9 @@ const ServicesHeader = () => {
             alt="burger illustration"
           />
           <div className="space-y-2">
-            <h5 className="text-xl text-gray-800 font-medium transition group-hover:text-yellow-600">
+            <h5 className="text-xl text-white font-medium transition group-hover:text-yellow-600">
               ENDORSEMENT BRAND            </h5>
-            <p className="text-sm text-gray-600">
+            <p className="text-sm text-white">
             There are many potential methods that business professionals can use to develop successful branding strategies. Endorsed branding can allow companies to unify their branding efforts to meet their goals.
             </p>
           </div>
@@ -263,20 +264,20 @@ const ServicesHeader = () => {
           </a>
         </div>
       </div>
-      <div className="relative group bg-gray-100 transition hover:z-[1] hover:shadow-2xl lg:hidden xl:block">
-        <div className="relative p-8 space-y-8 border-dashed rounded-lg transition duration-300 group-hover:bg-white group-hover:border group-hover:scale-90">
+      <div className="relative group  transition hover:z-[1] hover:shadow-2xl lg:hidden xl:block">
+        <div className="relative p-8 space-y-8 border-dashed rounded-lg transition duration-300 group-hover:bg-pink-500 group-hover:border group-hover:scale-90">
           <img
-            src="https://tailus.io/sources/blocks/stacked/preview/images/avatars/metal.png"
+            src={morefeatures}
             className="w-10"
             width={512}
             height={512}
-            alt="burger illustration"
+            alt="morefeatures"
           />
           <div className="space-y-2">
-            <h5 className="text-xl text-gray-800 font-medium transition group-hover:text-yellow-600">
+            <h5 className="text-xl text-white font-medium transition group-hover:text-yellow-600">
               More features
             </h5>
-            <p className="text-sm text-gray-600">
+            <p className="text-sm text-white">
             Checkout of services page for more features or contact our support team if your looking for some new ideas.
             </p>
           </div>
@@ -295,7 +296,8 @@ const ServicesHeader = () => {
       </div>
       </div>
       </section>
-  </section>
+      </div>
+      </section>
 
 </main>
 

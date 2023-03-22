@@ -2,7 +2,7 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 import Subscribe from '../../assets/Icons/Subscribe.png'
 
-
+import {googlereview} from '../data/data.jsx';
 import footer_csd from '../../assets/Common/footer_csd.png';
 import WhatsApp from '../../assets/Icons/WhatsApp.png';
 
@@ -54,11 +54,11 @@ const Footer = () => {
 </section>
 
 
-      {/* Download Section 
+      {/* Download Section */}
         <section >
         <div class="p-4 w-full text-center bg-black   shadow-md sm:p-8 ">
     <h5 class="mb-2 text-3xl font-bold text-white">Work fast from anywhere</h5>
-    <p class="mb-5 text-base text-gray-400">Stay up to date and move work forward with Flowbite on iOS &amp; Android. Download the app today.</p>
+    <p class="mb-5 text-base text-gray-400">Stay up to date and move work forward with CyberSpaceDigital on iOS &amp; Android.</p>
     <div class="justify-center items-center space-y-4 sm:flex sm:space-y-0 sm:space-x-4">
         <div class="w-full sm:w-auto bg-gray-700 hover:bg-gray-600 focus:ring-4 focus:outline-none focus:ring-gray-300 text-white rounded-lg inline-flex items-center justify-center px-4 py-2.5  ">
             <svg class="mr-3 w-7 h-7" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="apple" role="img" xmlns="https://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="currentColor" d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"></path></svg>
@@ -76,7 +76,7 @@ const Footer = () => {
         </div>
     </div>
 </div>
-</section>*/}
+</section>
     
 
     {/* Footer */}
@@ -217,7 +217,7 @@ const Footer = () => {
           <p className="font-medium text-white">Services</p>
           <nav className="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
             
-            <a className="hover:opacity-75" href="https://goo.gl/maps/bfLrrZXcQ62JfyNTA">
+            <a className="hover:opacity-75" href="https://search.google.com/local/writereview?placeid=ChIJM0IEPqRRmg0RyLQAP_5varc">
               {" "}
               Google Map Review{" "}
             </a>
@@ -273,33 +273,34 @@ const Footer = () => {
         </div>
       </div>
     </div>
+
+    <a href="https://search.google.com/local/writereview?placeid=ChIJM0IEPqRRmg0RyLQAP_5varc"> <img  class="h-10 hover:animate-pulse  max-w-full ml-auto mr-auto mt-2" src= {googlereview} alt="googlereview_icon" /></a>
+ 
     <div class="h-px my-8 border-0 bg-gray-700"/>
     <p className="text-center text-xs text-white">© 2020-2023 cyberspacedigital.in - Web Development & Designer Community ( #CSD )</p>
   </div>
 </footer>
 <section/>
-
+  
 
   
 
     {/* Whatapp us */}
   <div className=" fade-in-left flex items-end justify-start fixed bottom-0 left-0 ml-4 z-10">
     <div>
-      <a
-        title="Whatsapp"
+     
+     <a title="Whatsapp"
         href="https://wa.me/+918143407758"
         target="_blank"
-        className="mb-1 block w-12 rounded-full transition-all shadow hover:shadow-lg transform hover:scale-110 hover:rotate-12"
-      >
-        <img
-          className=" object-cover object-center w-8 sm:w-12"
-          src={WhatsApp} alt="whatappicon"
-        />
+        className="mb-1 block w-12 rounded-full transition-all shadow hover:shadow-lg transform hover:scale-110 hover:rotate-12"> 
+        <img className=" object-cover object-center w-8 sm:w-12"
+          src={WhatsApp} alt="whatappicon" />
       </a>
+
       <h1 class='fade-in-left delay-100 cursor-default text-gray-500 text-xs pb-2'>Desgined & Developed by CSD</h1>
     </div>
   </div>
-
+     
 </section>
 </main>
   )

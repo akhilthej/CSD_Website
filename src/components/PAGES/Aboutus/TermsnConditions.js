@@ -3,7 +3,7 @@ import React from 'react'
 const TermsnConditions = () => {
   return (
     <>
-    <div className='termsnconditions px-5'>
+    <div className='termsnconditions px-5 text-white mt-4 mx-4'>
         <h1 className='text-center text-2xl py-10 font-bold'> TERMS AND CONDITIONS </h1>
 Last updated: 2022-11-01 <br/><br/>
 <a className='text-2xl font-medium'>1. Introduction</a><br/>

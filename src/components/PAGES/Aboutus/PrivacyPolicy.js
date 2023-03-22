@@ -3,7 +3,7 @@ import React from 'react';
 const PrivacyPolicy = () => {
     return (
         <>
-        <div className='privacypoliocy px-5 text-white'>
+        <div className='privacypoliocy px-5 text-white mx-4'>
             <h1 className='text-center text-2xl py-10 font-bold text-white pt-20'> PRIVACY POLICY</h1>
 
 Effective date: 2022-11-01<br/><br/>

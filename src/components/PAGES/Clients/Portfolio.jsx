@@ -3,7 +3,7 @@ import React from "react";
 
 import '../../Tools/Animations.scss'
 
-import {LabelAnuneniwhite,LabelAnunenipc,Ilahewhite,Ilahepc,Arkwhite,Arkwhitepc} from '../../data/data'
+import {LabelAnuneniwhite,LabelAnunenipc,LaytonSkinpc,LaytonSkinWhite,Ilahewhite,Ilahepc,Arkwhite,Arkwhitepc} from '../../data/data'
 
 
 
@@ -46,6 +46,23 @@ const Portfolio = () => {
                     <img className="fade-in-down w-full max-w-xl mx-auto" src= {Ilahewhite} alt="ilihaMockup" />
                     <h1 className="text-3xl lg:text-4xl font-bold leading-9 pb-4 text-pink-700">Tech Details</h1>
                     <p className="font-normal   text-base leading-6 text-white/70 ">Wordpress developed website. Custom forms and elementor pro Designer tool.</p>
+                </div>
+            </div>
+        </div>
+      </section>  
+
+      <section class='labelanuneniMockup'>
+        <div className="tracking-normal 2xl:container 2xl:mx-auto lg:py-16 lg:px-20 md:py-12 md:px-6 py-9 px-4">
+            <div className="flex flex-col lg:flex-row justify-between gap-8">
+                <div className="w-full lg:w-5/12 flex flex-col justify-center">         
+                    <h1 className="text-3xl lg:text-4xl font-bold leading-9 pb-4 text-pink-500">Laytonskin.in</h1>
+                    <p className="font-normal text-sm text-white/70 pb-4">An e-commerce website from beauty and skin care products.</p>
+                    <img className="fade-in-down mt-6 active mx-auto  w-full max-w-sm" src= {LaytonSkinpc} alt="labelanunenimockup-2" />
+                </div>
+                <div className="w-full lg:w-8/12 ">
+                    <img className="fade-in-down w-full max-w-xl mx-auto" src= {LaytonSkinWhite} alt="labelanunenimockup" />
+                    <h1 className="text-3xl lg:text-4xl font-bold leading-9 pb-4 text-pink-700">Tech Details</h1>
+                    <p className="font-normal   text-base leading-6 text-white/70 ">An e-commerce website with custom payment gate ways and auto delivery system.</p>
                 </div>
             </div>
         </div>
