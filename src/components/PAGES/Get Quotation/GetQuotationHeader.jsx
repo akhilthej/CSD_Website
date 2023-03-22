@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 
 import {GetQoutation} from '../../data/data';
 import Testqotes from './Forms/Testqotes';
-import WebDevelopmentForm from './Forms/WebDevelopmentForm';
+
 
 const GetQuotationHeader = () => {
   return (
@@ -45,8 +45,14 @@ const GetQuotationHeader = () => {
 
 
   <section>
-    
     <Testqotes/>
+
+<div className=" flex items-center justify-center my-2">   
+        <a href='https://www.calconic.com/calculator-widgets/website-calculator/62bea9b5935ffc00291e0707?layouts=true' class="transform rounded-mdpx-6 rounded bg-gradient-to-r from-orange-400 to-yellow-600 px-5 py-3 font-medium text-white transition-colors hover:from-yellow-600 hover:to-orange-400">
+          Web Development Quotation
+        </a>
+</div>
+
   </section>
   </>
   

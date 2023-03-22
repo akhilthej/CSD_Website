@@ -1,8 +1,10 @@
-import React from 'react'
+import React from 'react';
+
+import Paypal from '../components/PAGES/Payment/paypal';
 
 const Payment = () => {
   return (
-    <div>Payment</div>
+    <Paypal />
   )
 }
 

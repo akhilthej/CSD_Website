@@ -12,6 +12,7 @@ const GetQuotation = () => {
                 <link rel="canonical" href="/technologies" />
       </Helmet>
     
+   
     <GetQuotationHeader />
 
     </div>
