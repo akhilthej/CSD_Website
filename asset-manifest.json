@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.963089c6.css",
-    "main.js": "/static/js/main.b895ad64.js",
+    "main.css": "/static/css/main.69348870.css",
+    "main.js": "/static/js/main.03b233e3.js",
     "static/media/democover.jpg": "/static/media/democover.d6b5331c54468424aed5.jpg",
     "static/media/ContactusHeaderimage.png": "/static/media/ContactusHeaderimage.25bfaf86713f9ae3f933.png",
     "static/media/LAN-001-white.png": "/static/media/LAN-001-white.4cd2dfdc96667fc57a19.png",
@@ -48,11 +48,11 @@
     "index.html": "/index.html",
     "static/media/visa.svg": "/static/media/visa.10ab7832c0fe501c81a3.svg",
     "static/media/mastercard.svg": "/static/media/mastercard.91fda2b49bbcdfa6157f.svg",
-    "main.963089c6.css.map": "/static/css/main.963089c6.css.map",
-    "main.b895ad64.js.map": "/static/js/main.b895ad64.js.map"
+    "main.69348870.css.map": "/static/css/main.69348870.css.map",
+    "main.03b233e3.js.map": "/static/js/main.03b233e3.js.map"
   },
   "entrypoints": [
-    "static/css/main.963089c6.css",
-    "static/js/main.b895ad64.js"
+    "static/css/main.69348870.css",
+    "static/js/main.03b233e3.js"
   ]
 }
