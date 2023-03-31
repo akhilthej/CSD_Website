@@ -29,6 +29,7 @@ import businessreporticon from '../../assets/Icons/business-report-icon.png';
 
 import ContactusHeaderimage from '../../assets/ImagesPage/ContactusHeaderimage.png';
 
+import Webdevimg from '../../assets/Quotation/website-development.jpg';
 
 import LabelAnuneniwhite from '../../assets/Common/portfolio_images/LAN-001-white.png';
 import LabelAnunenipc from '../../assets/Common/portfolio_images/LAN-002.png';
@@ -55,7 +56,7 @@ export {
     documentationicon,socialicon,analysisicon,financeicon,statergyicon,businessreporticon,morefeatures,
 
     /* Get Qout*/
-    GetQoutation,
+    GetQoutation,Webdevimg,
 
     /* Services */
 
