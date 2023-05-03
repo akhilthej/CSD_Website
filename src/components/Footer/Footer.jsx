@@ -277,7 +277,7 @@ const Footer = () => {
     <a href="https://search.google.com/local/writereview?placeid=ChIJM0IEPqRRmg0RyLQAP_5varc"> <img  class="h-10 hover:animate-pulse  max-w-full ml-auto mr-auto mt-2" src= {googlereview} alt="googlereview_icon" /></a>
  
     <div class="h-px my-8 border-0 bg-gray-700"/>
-    <p className="text-center text-xs text-white">© 2020-2023 cyberspacedigital.in - Web Development & Designer Community ( #CSD )</p>
+    <p className="text-center text-xs text-white">© 2010-2023 cyberspacedigital.in - Web Development & Designer Community ( #CSD )</p>
   </div>
 </footer>
 <section/>
