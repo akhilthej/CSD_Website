@@ -1,6 +1,6 @@
 import React from "react";
 import './Clients.scss'
-import {Archivitus ,serpsit , labelanuneni ,ilahe ,laytonskincare } from '../../data/data'
+import {Archivitus ,serpsit , labelanuneni ,ilahe ,laytonskincare,AlohaTechLogo } from '../../data/data'
 
 
 const clinetmain = () => {
@@ -36,6 +36,11 @@ const clinetmain = () => {
           <a href="https://laytonskin.in/" title="Created on-2023-03-15 . Expires-2024-03-15"
             class="mx-4 flex w-[150px] items-center justify-center py-5 2xl:w-[180px]" >
             <img src={laytonskincare}
+              class="h-10 w-full" />
+          </a>
+          <a href="https://alohatechnologies.ca" title="Created on-2023-03-15 . Expires-2024-03-15"
+            class="mx-4 flex w-[150px] items-center justify-center py-5 2xl:w-[180px]" >
+            <img src={AlohaTechLogo}
               class="h-10 w-full" />
           </a>
         </div>

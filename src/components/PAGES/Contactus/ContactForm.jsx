@@ -7,7 +7,7 @@ import '../../Tools/Animations.scss';
 function ContactForm() {
   const [state, handleSubmit] = useForm("myyagqep");
   if (state.succeeded) {
-      return <p className='text-center py-10'>Thanks for Submitting, We will get back to you!</p>;
+      return <p className='text-center py-10 text-white'>Thanks for Submitting, We will get back to you!</p>;
   }
 
   return (

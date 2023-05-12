@@ -3,6 +3,7 @@ import serpsit from '../../assets/Clients/serpsit.png'
 import labelanuneni from '../../assets/Clients/labelanuneni.png'
 import ilahe from '../../assets/Clients/iliha.png';
 import laytonskincare from '../../assets/Clients/latonskincare.png';
+import AlohaTechLogo from '../../assets/Clients/AlohaTechLogo.png';
 
 import CSDbothome from '../../assets/Common/CSD_Bot/CSDbothome.png'
 import HeroCoverBG from '../../assets/Common/Home/HeroCoverBG.png'
@@ -48,6 +49,7 @@ export {
     labelanuneni,
     ilahe,
     laytonskincare,
+    AlohaTechLogo,
 
 
     /* Home */
