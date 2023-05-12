@@ -158,7 +158,7 @@ const Navbar = () => {
                 <div className='py-1 mt-1'>
                   <Menu.Item>
                     {({ active }) => (
-                      <a href="/payment"><a
+                      <a href="https://rzp.io/l/IqQRFHrUB"><a
                         className={classNames(
                           active
                             ? 'bg-gray-700 text-white'

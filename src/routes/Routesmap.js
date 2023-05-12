@@ -21,14 +21,13 @@ import Reviews from './Reviews';
 
 import GetQuotation from './GetQuotation';
 
-import Payment from './Payment.js';
 import Aboutus from './Aboutus';
 import Contactus from './CONTACTUS';
 
 import Reactblog from '../components/PAGES/Technologies/Blogpages/Reactblog';
 
 export {
-Navbar,Payment,Footer,Sitemap,PrivacyPolicy,TermsnConditions,Disclaimer,Error404,Home,
+Navbar,Footer,Sitemap,PrivacyPolicy,TermsnConditions,Disclaimer,Error404,Home,
 Services,Technologies,Clients,Reviews,GetQuotation,Aboutus,Contactus,
 Reactblog,ReturnPolicy,ShippingandDelivery,
 

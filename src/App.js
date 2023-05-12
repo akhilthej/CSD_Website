@@ -50,8 +50,6 @@ export function App() {
 
           <Route path='/getquotation' element={<GetQuotation />} />
 
-          <Route path='/payment' element={<Payment />} />
-
           <Route path='/aboutus' element={<Aboutus />} />
           <Route path='/contactus' element={<Contactus />} /> 
 
