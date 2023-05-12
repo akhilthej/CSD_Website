@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.6d806627.css",
-    "main.js": "/static/js/main.62d74d8d.js",
+    "main.js": "/static/js/main.1f8a96fd.js",
     "static/media/democover.jpg": "/static/media/democover.d6b5331c54468424aed5.jpg",
     "static/media/ContactusHeaderimage.png": "/static/media/ContactusHeaderimage.25bfaf86713f9ae3f933.png",
     "static/media/LAN-001-white.png": "/static/media/LAN-001-white.4cd2dfdc96667fc57a19.png",
@@ -31,6 +31,7 @@
     "static/media/digitalmarketing.png": "/static/media/digitalmarketing.ddc1de3d667518a5e17a.png",
     "static/media/latonskincare.png": "/static/media/latonskincare.a5eee386f66db8a18db9.png",
     "static/media/serpsit.png": "/static/media/serpsit.1d770e1466b098293403.png",
+    "static/media/AlohaTechLogo.png": "/static/media/AlohaTechLogo.729acc2081734613a411.png",
     "static/media/footer_csd.png": "/static/media/footer_csd.abd48e4bed7ca0898f98.png",
     "static/media/iliha.png": "/static/media/iliha.208f37a9225016cf4a0c.png",
     "static/media/srikar.webp": "/static/media/srikar.5d1c58d938d0637de451.webp",
@@ -50,10 +51,10 @@
     "static/media/visa.svg": "/static/media/visa.10ab7832c0fe501c81a3.svg",
     "static/media/mastercard.svg": "/static/media/mastercard.91fda2b49bbcdfa6157f.svg",
     "main.6d806627.css.map": "/static/css/main.6d806627.css.map",
-    "main.62d74d8d.js.map": "/static/js/main.62d74d8d.js.map"
+    "main.1f8a96fd.js.map": "/static/js/main.1f8a96fd.js.map"
   },
   "entrypoints": [
     "static/css/main.6d806627.css",
-    "static/js/main.62d74d8d.js"
+    "static/js/main.1f8a96fd.js"
   ]
 }
