@@ -4,6 +4,8 @@ import Sitemap from '../components/Tools/sitemap';
 
 import PrivacyPolicy from '../components/PAGES/Aboutus/PrivacyPolicy';
 import TermsnConditions from '../components/PAGES/Aboutus/TermsnConditions';
+import ReturnPolicy from '../components/PAGES/Aboutus/ReturnsPolicy';
+import ShippingandDelivery from '../components/PAGES/Aboutus/ShippingandDelivery';
 import Disclaimer from '../components/PAGES/Aboutus/Disclaimer';
 
 import Error404 from '../components/Tools/Error404';
@@ -28,6 +30,6 @@ import Reactblog from '../components/PAGES/Technologies/Blogpages/Reactblog';
 export {
 Navbar,Payment,Footer,Sitemap,PrivacyPolicy,TermsnConditions,Disclaimer,Error404,Home,
 Services,Technologies,Clients,Reviews,GetQuotation,Aboutus,Contactus,
-Reactblog,
+Reactblog,ReturnPolicy,ShippingandDelivery,
 
 };

@@ -3,7 +3,7 @@ import {  Routes, Route, useLocation  } from 'react-router-dom';
 import OneSignal from 'react-onesignal';
 
 
-import {Navbar,Footer,Sitemap,PrivacyPolicy,TermsnConditions,Disclaimer,Error404,Home,
+import {Navbar,Footer,Sitemap,PrivacyPolicy,TermsnConditions,Disclaimer,ShippingandDelivery,ReturnPolicy,Error404,Home,
         Services,Technologies,Clients,Reviews,GetQuotation,Aboutus,Contactus,
         Reactblog,Payment,} from './routes/Routesmap';
 
@@ -54,8 +54,11 @@ export function App() {
 
           <Route path='/aboutus' element={<Aboutus />} />
           <Route path='/contactus' element={<Contactus />} /> 
+
           <Route path='/privacypolicy' element={<PrivacyPolicy />} /> 
           <Route path='/terms&conditions' element={<TermsnConditions />} />
+          <Route path='/returnpolicy' element={<ReturnPolicy />} />
+          <Route path='/shipping&delivery' element={<ShippingandDelivery />} />
           <Route path='/disclaimer' element={<Disclaimer />} />
          
 

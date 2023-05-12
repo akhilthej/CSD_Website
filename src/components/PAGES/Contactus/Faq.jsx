@@ -6,12 +6,12 @@ const Faq = () => {
   return (
 <section>
     <section className="text-gray-700 ">
-    <div className="container px-5 py-24 mx-auto">
+    <div className="container px-5 pt-24  mx-auto">
       <div className="text-center mb-20">
         <h1 className="pb-3 bg-gradient-to-r from-yellow-300 via-orange-700 to-yellow-400 bg-clip-text text-5xl font-extrabold text-transparent sm:text-7xl ">
           Frequently Asked Question
         </h1>
-        <p className="text-white text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
+        <p className="pt-4 text-white text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
           The most common questions about how our business works and what can do
           for you.
         </p>

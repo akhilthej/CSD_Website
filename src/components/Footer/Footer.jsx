@@ -252,19 +252,26 @@ const Footer = () => {
               {" "}
               Privacy Policy{" "}
             </a></Link>
-
             <Link to='/terms&conditions'><a className="hover:opacity-75">
               {" "}
               Terms &amp; Conditions{" "}
             </a></Link>
-            <a className="hover:opacity-75" href="">
+            
+            <Link to='/returnpolicy'><a className="hover:opacity-75" href="">
               {" "}
-              Returns Policy{" "}
-            </a>
+              Cancellation & Refund Policy{" "}
+            </a></Link>
+
             <Link to='/disclaimer'><a className="hover:opacity-75" href="">
               {" "}
               Disclaimer{" "}
             </a></Link>
+
+            <Link to='/shipping&delivery'><a className="hover:opacity-75" href="">
+              {" "}
+              Shipping & Delivery{" "}
+            </a></Link>
+
             <Link to='/sitemap'><a className="hover:opacity-75" href="">
               {" "}
               Sitemaps{" "}
