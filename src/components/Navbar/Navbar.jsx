@@ -154,23 +154,7 @@ const Navbar = () => {
                   </Menu.Item>
                 </div>
 
-                {/*---Payments--- */}
-                <div className='py-1 mt-1'>
-                  <Menu.Item>
-                    {({ active }) => (
-                      <a href="https://rzp.io/l/IqQRFHrUB"><a
-                        className={classNames(
-                          active
-                            ? 'bg-gray-700 text-white'
-                            : 'text-white',
-                          'block px-4 py-2 text-sm'
-                        )}
-                      >
-                        Payment
-                      </a></a>
-                    )}
-                  </Menu.Item>
-                </div>
+                
               </Menu.Items>
             </Transition>
           </Menu>
