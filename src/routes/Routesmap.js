@@ -24,11 +24,13 @@ import GetQuotation from './GetQuotation';
 import Aboutus from './Aboutus';
 import Contactus from './CONTACTUS';
 
+import  Renewal from './Renewal';
+
 import Reactblog from '../components/PAGES/Technologies/Blogpages/Reactblog';
 
 export {
 Navbar,Footer,Sitemap,PrivacyPolicy,TermsnConditions,Disclaimer,Error404,Home,
 Services,Technologies,Clients,Reviews,GetQuotation,Aboutus,Contactus,
-Reactblog,ReturnPolicy,ShippingandDelivery,
+Reactblog,ReturnPolicy,ShippingandDelivery,Renewal,
 
 };

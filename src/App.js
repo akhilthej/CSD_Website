@@ -5,7 +5,7 @@ import OneSignal from 'react-onesignal';
 
 import {Navbar,Footer,Sitemap,PrivacyPolicy,TermsnConditions,Disclaimer,ShippingandDelivery,ReturnPolicy,Error404,Home,
         Services,Technologies,Clients,Reviews,GetQuotation,Aboutus,Contactus,
-        Reactblog,Payment,} from './routes/Routesmap';
+        Reactblog,Payment,Renewal,} from './routes/Routesmap';
 
 import Notification from "./components/Tools/Notifications";        
         
@@ -58,6 +58,8 @@ export function App() {
           <Route path='/returnpolicy' element={<ReturnPolicy />} />
           <Route path='/shipping&delivery' element={<ShippingandDelivery />} />
           <Route path='/disclaimer' element={<Disclaimer />} />
+
+          <Route path='/renewal' element={<Renewal />} />
          
 
 
