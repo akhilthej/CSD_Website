@@ -15,11 +15,11 @@ const Navbar = () => {
       <div class=" justify-end ">
       <ul className='flex items-center '>
         
-        <li className='p-4 hidden md:block'><Link to='/services'>Services</Link></li>
-        <li className='p-4 hidden md:block'><Link to='/clients'>Clients</Link></li>
-        <li className='p-4 hidden md:block'><Link to='/getquotation'>Get Quotation</Link></li>
-        <li className='p-4 hidden md:block'><Link to='/aboutus'>About us</Link></li>
-        <li className='p-4 hidden md:block'><Link to='/contactus'>Contact us</Link></li>
+        <li className='p-4 hidden lg:block'><Link to='/services'>Services</Link></li>
+        <li className='p-4 hidden lg:block'><Link to='/clients'>Clients</Link></li>
+        <li className='p-4 hidden lg:block'><Link to='/getquotation'>Get Quotation</Link></li>
+        <li className='p-4 hidden lg:block'><Link to='/aboutus'>About us</Link></li>
+        <li className='p-4 hidden lg:block'><Link to='/contactus'>Contact us</Link></li>
         <li className='p-4'>
         <Menu as='div' className='relative inline-block text-left '>
             <div>
@@ -41,7 +41,7 @@ const Navbar = () => {
               leaveTo='transform opacity-0 scale-95'
             >
               <Menu.Items className='origin-top-right absolute right-0 mt-2 w-56 rounded-md shadow-lg bg-black ring-1 ring-black ring-opacity-5 divide-y divide-gray-900 focus:outline-none z-50'>
-                <div className='py-1  md:hidden '>
+                <div className='py-1  lg:hidden '>
                   <Menu.Item>
                     {({ active }) => (
                       <Link to='/services'><a
@@ -120,7 +120,7 @@ const Navbar = () => {
                   
                   
 
-                <div className='py-1 md:hidden '>
+                <div className='py-1 lg:hidden '>
                   <Menu.Item>
                     {({ active }) => (
                       <Link to='/aboutus'><a
