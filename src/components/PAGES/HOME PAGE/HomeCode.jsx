@@ -10,42 +10,42 @@ import {documentationicon ,socialicon ,analysisicon ,financeicon ,statergyicon ,
 
 const HomeHero = () => {
   return (
-  <main>
+  <main className='my-20 mx-20'>
 {/*herosection desktop*/}    
-    <header>
-   
+<header>
+  <div>
+    <section className="flex items-center  justify-center">
+      <div className="mx-auto max-w-[55rem]">
+        <div className="text-center">
+          <p className="text-sm font-medium leading-8 text-white">
+            Introducing Design Data Platform
+          </p>
+          <h1 className="fade-in-down pb-8 font-extrabold text-transparent text-6xl lg:text-8xl bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-600 mt-3 text-[3.5rem] leading-[4rem] tracking-tight text-black">
+            Cyber Space Digital
+          </h1>
+          <p className="text-sm font-medium leading-8 text-white">
+          We help your brand to build digital, Providing Global Presence.
+          </p>
+        </div>
+        <div className="mt-6 flex items-center justify-center gap-4">
+          <a
+            href="/contactus"
+            className="text-sm transform rounded bg-yellow-500 border border-slate-200 px-4 py-2 font-medium text-black transition-colors hover:bg-slate-50 "
+          >
+            Build Today
+          </a>
+          <a
+            href="/getquotation"
+            className="text-sm transform rounded border border-slate-200 px-4 py-2 font-medium text-white transition-colors hover:bg-slate-50 hover:text-black"
+          >
+            Get Quotation
+          </a>
+        </div>
+      </div>
+    </section>
+  </div>
+</header>
 
-      <div>
-  <section className="flex items-center h-96 py-96 justify-center">
-    <div className="mx-auto max-w-[55rem]">
-      <div className="text-center">
-        <p className="text-lg font-medium leading-8 text-white ">
-          Introducing Design Data Platform
-        </p>
-        <h1 className="fade-in-down pb-8 font-extrabold text-transparent text-2xl md:text-8xl bg-clip-text bg-gradient-to-r from-yellow-400 to-pink-600 mt-3 text-[3.5rem]  leading-[4rem] tracking-tight text-black">
-          Cyber Space Digital
-        </h1>
-        <p className="px-4 mt-3 text-lg leading-relaxed text-slate-400">
-          We help  your brand to build digital, Providing Gobal Presents.
-        </p>
-      </div>
-      <div className="mt-6 flex items-center justify-center gap-4">
-        <a
-          href="/contactus"
-          className="transform rounded-md border border-slate-200 px-5 py-3 font-medium text-white transition-colors hover:bg-slate-50 hover:text-black">
-          Build Today
-        </a>
-        <a
-          href="/getquotation"
-          className="transform rounded-md border border-slate-200 px-5 py-3 font-medium text-white transition-colors hover:bg-slate-50 hover:text-black"
-        >
-          {" "}
-          Get Quotation{" "}
-        </a>
-      </div>
-    </div>
-  </section></div>
- </header>
 
 {/*MainFeatures */}
     <div style={{ backgroundImage: `url(${HeroCoverBG})`,backgroundRepeat:"no-repeat",backgroundSize:"cover"}}>
