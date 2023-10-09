@@ -13,15 +13,9 @@ const HomeHero = () => {
   <main>
 {/*herosection desktop*/}    
     <header>
-    <div class='glowspear'/><div class='glowspear1'/>
-    <div id="background">
-  <div id="circle">
-    <div id="circle-glow"></div>
-    <div id="circle-inner"></div>
-  </div>
-</div>
+   
 
-      <div className='glass'>
+      <div>
   <section className="flex items-center h-96 py-96 justify-center">
     <div className="mx-auto max-w-[55rem]">
       <div className="text-center">
@@ -313,7 +307,7 @@ const HomeHero = () => {
   <div className="homesidecard1 ">
     <div className=" md:flex md:gap-6 lg:gap-1">
     <div className='backgroundhome2'>
-      <div className="wobble" >
+      <div>
         <img src= {CSDbothome} alt="CSDbothome "/></div>
         </div>
 
@@ -342,18 +336,18 @@ const HomeHero = () => {
       <section>
        
         <div className ='backgroundhome1 pt-20'>
-          <div class='glass'><h1 className=" py-5 text-center text-xl sm:text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400  md:text-5xl lg:text-6xl ">
+          <h1 className=" py-5 text-center text-xl sm:text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400  md:text-5xl lg:text-6xl ">
             <h1>WE BUILD</h1>
             <span className="sm:text-6xl bg-clip-text bg-gradient-to-r to-orange-600 from-yellow-400">
               "SIMPLE BUT COMPLEX"
             </span>{" "}
-          <h1>-STABLE COMMUNITY-</h1></h1></div></div>
+          <h1>-STABLE COMMUNITY-</h1></h1></div>
           
       </section>
 
 {/*HomeSection2 */}
       <section>
-    <div className="glass">
+    
     <div className="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:flex lg:items-center lg:justify-between lg:py-16 lg:px-8">
       <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
         <span className="pl-5 block">Lets start building!</span>
@@ -372,12 +366,12 @@ const HomeHero = () => {
         </div>
       </div>
     </div>
-  </div>
+
       </section>
 
 {/*Whatdowedo */}
       <section>
-    <section className="">
+    <section >
   <div className="px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
     <div className="max-w-screen-md mb-8 lg:mb-16">
       <h2 className="fade-in-left text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-pink-600 mt-3 text-[3.5rem]  leading-[4rem] tracking-tight ">
@@ -468,7 +462,7 @@ const HomeHero = () => {
 {/*Sidecard2 */}
       <section>
   {/* component */}
-  <section className="glass">
+  <section>
     <div className="container px-6 py-10 mx-auto">
       <div className="lg:flex lg:items-center">
         <div className="w-full space-y-12 lg:w-1/2 ">

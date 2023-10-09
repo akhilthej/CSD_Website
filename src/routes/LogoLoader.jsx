@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import applogo from "../assets/applogo.gif"
 
 const LogoLoader = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -19,13 +20,12 @@ const LogoLoader = () => {
     left: 0,
     width: '100%',
     height: '100%',
-    backgroundColor: 'rgba(0, 0, 0, 0.8)',
+    backgroundColor: 'black',
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
     zIndex: 100,
     transition: 'opacity 0.5s',
-    background: 'black',
   };
 
   const logoStyle = {
@@ -41,7 +41,7 @@ const LogoLoader = () => {
   return (
     <div style={logoLoaderStyle} className={`logo-loader ${isLoading ? 'show' : 'hide'}`}>
       {/* Replace 'your-logo.png' with the path to your logo */}
-      <img src="./applogo.gif" alt="Loading" style={logoStyle} className="logo" />
+      <img src={applogo} alt="Loading" style={logoStyle} className="logo" />
     </div>
   );
 };

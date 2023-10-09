@@ -7,7 +7,7 @@ const ReviewsHero = () => {
   return (
     <>
 
-  <div className=" glass flex items-center justify-center my-2">
+  <div className="  flex items-center justify-center my-2">
     <div className="mx-auto w-full max-w-screen-lg  px-5 ">
       <div className="grid gap-5 md:grid-cols-2 md:gap-10 lg:gap-20">
         <div className="flex justify-center md:justify-end">

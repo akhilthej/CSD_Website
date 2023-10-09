@@ -10,7 +10,7 @@ const Testimony = () => {
 
 
         <div className="grid rounded-lg  shadow-sm  md:grid-cols-2">
-  <figure className="glass flex flex-col justify-center items-center p-8 text-center  rounded-t-lg md:rounded-t-none md:rounded-tl-lg  ">
+  <figure className=" flex flex-col justify-center items-center p-8 text-center  rounded-t-lg md:rounded-t-none md:rounded-tl-lg  ">
     <blockquote className="mx-auto mb-4 max-w-2xl text-white lg:mb-8 ">
       <h3 className="text-lg font-semibold text-white ">
         Very easy this was to integrate
@@ -33,7 +33,7 @@ const Testimony = () => {
       </div>
     </figcaption>
   </figure>
-  <figure className="glass flex flex-col justify-center items-center p-8 text-center rounded-tr-lg ">
+  <figure className=" flex flex-col justify-center items-center p-8 text-center rounded-tr-lg ">
     <blockquote className="mx-auto mb-4 max-w-2xl text-gray-500 lg:mb-8 ">
       <h3 className="text-lg font-semibold text-white ">
         Solid foundation for any project
@@ -56,7 +56,7 @@ const Testimony = () => {
       </div>
     </figcaption>
   </figure>
-  <figure className="glass flex flex-col justify-center items-center p-8 text-center rounded-bl-lg  ">
+  <figure className=" flex flex-col justify-center items-center p-8 text-center rounded-bl-lg  ">
     <blockquote className="mx-auto mb-4 max-w-2xl text-gray-500 lg:mb-8 ">
       <h3 className="text-lg font-semibold text-white ">
         Mindblowing workflow
@@ -80,7 +80,7 @@ const Testimony = () => {
       </div>
     </figcaption>
   </figure>
-  <figure className="glass flex flex-col justify-center items-center p-8 text-center rounded-b-lg">
+  <figure className=" flex flex-col justify-center items-center p-8 text-center rounded-b-lg">
     <blockquote className="mx-auto mb-4 max-w-2xl text-gray-500 lg:mb-8 ">
       <h3 className="text-lg font-semibold text-white ">
         Efficient Collaborating

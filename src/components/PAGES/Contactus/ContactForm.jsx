@@ -1,7 +1,6 @@
 import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
 
-import '../../Tools/Animations.scss';
 
 
 function ContactForm() {
@@ -11,7 +10,7 @@ function ContactForm() {
   }
 
   return (
-    <main className="glass ">
+    <main>
 
 <section>
 <div class="relative flex items-top justify-center min-h-screen sm:items-center sm:pt-0">

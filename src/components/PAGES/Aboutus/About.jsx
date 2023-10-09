@@ -1,6 +1,5 @@
 import React from 'react';
 import coverimage from '../../../assets/About/aboutheader.webp';
-import '../../Tools/Animations.scss';
 
 import akilthejreddy from '../../../assets/About/Founder.webp';
 import pavanchappa from '../../../assets/About/pavan.webp';
@@ -62,7 +61,7 @@ const About = () => {
          informed throughout the development process, making sure that they are happy with the progress and that any issues are addressed in a timely manner.</p>
                      
             {/*.....Owners.....*/}
-            <div className="glass py-20">
+            <div className=" py-20">
   <div className="container mx-auto px-6 md:px-12 xl:px-32">
     <div className="mb-16 text-center">
       <h2 className="mb-4 text-center text-2xl  font-bold md:text-4xl text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-pink-600">
@@ -124,7 +123,7 @@ const About = () => {
 
 
         {/*...Teams...*/}
-        <section className="glass">
+        <section >
   <div className="container px-6 py-10 mx-auto">
     <h1 className="text-3xl pb-1 font-semibold text-center capitalize lg:text-4xl text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-pink-600">
       Our Team, Friends & Family

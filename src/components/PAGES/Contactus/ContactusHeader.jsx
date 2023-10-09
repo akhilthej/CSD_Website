@@ -17,16 +17,10 @@ const ContactusHeader = () => {
         </p>
       </div>
       
-      <img className="hero container max-w-screen-lg mx-auto flex w-64 wobble"
+      <img className="hero container max-w-screen-lg mx-auto flex w-64 "
             src={ContactusHeaderimage}/> 
     
-      <div className=" flex items-center justify-center gap-4">
-        <a href="https://app.gather.town/invite?token=14Xcl0LAQlCAMrEenIcl"
-          className="transform rounded-mdpx-6 rounded bg-gradient-to-r from-orange-400 to-pink-600 px-5 py-3 font-medium text-white transition-colors hover:from-pink-600 hover:to-orange-400">
-          Digital office Space
-        </a>
-        
-      </div>
+     
       </div>
      
   </section>
