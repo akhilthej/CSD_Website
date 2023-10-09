@@ -9,7 +9,7 @@ import LogoLoader from './routes/LogoLoader';
 ReactDOM.render(
   
   <React.StrictMode>
-    <BrowserRouter >
+    <BrowserRouter basename="/">
       <HelmetProvider> {/*For indexing seo <forceRefresh={true}>*/}
       <LogoLoader />
       <App />
