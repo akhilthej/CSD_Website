@@ -1,10 +1,10 @@
 import React from 'react';
 
 import './Home.scss';
-import {CSDbothome,HeroCoverBG } from '../../data/data.jsx';
+import {CSDbothome } from '../../data/data.jsx';
 import '../../Tools/Animations.scss';
 
-import {codeing ,graphicsdesign ,digitalmarketing ,mobiledev ,recruitment ,brand ,morefeatures} from '../../data/data.jsx';
+import {Advertising ,Branding ,DigitalMarketing ,GraphicDesign ,MobileAppDevelopment ,WebDevelopment ,morefeatures} from '../../data/data.jsx';
 import {documentationicon ,socialicon ,analysisicon ,financeicon ,statergyicon ,businessreporticon ,}from '../../data/data.jsx';
 
 
@@ -48,253 +48,141 @@ const HomeHero = () => {
 
 
 {/*MainFeatures */}
-    <div style={{ backgroundImage: `url(${HeroCoverBG})`,backgroundRepeat:"no-repeat",backgroundSize:"cover"}}>
-      <section>
-      <div className="overflow-hidden">
-      <div className="container m-auto px-6 space-y-8 text-white md:px-12">
-      <div>
-      <span className="text-lg font-semibold">Main features</span>
-      <h2 className="mt-4 text-2xl text-white font-bold md:text-4xl">
-        Services, We Provide
-      </h2>
-      </div>
-    
-      <div className="mt-16 grid bg-black/80 border divide-x divide-y rounded-xl overflow-hidden sm:grid-cols-2 lg:divide-y-0 lg:grid-cols-3 xl:grid-cols-4">
-      <div className="relative group  transition hover:z-[1] hover:shadow-2xl">
-        <div className="relative p-8 space-y-8">
-          <img src= {codeing}
-            className="w-10"
-            width={512}
-            height={512}
-            alt="coding_icon"
-          /> 
-          <div className="space-y-2">
-            <h5 className="text-lg text-white font-medium transition group-hover:text-yellow-600">
-              WEB DEVELOPMENT
-            </h5>
-            <p className="text-sm text-white">
-            Web development is the work involved in developing a website for the Internet (World Wide Web) or an intranet (a private network).
-            </p>
-          </div>
-          <a href="#/services" className="flex justify-between items-center group-hover:text-yellow-600">
-            <span className="text-sm">Read more</span>
-            <span className="-translate-x-4 opacity-0 text-2xl transition duration-300 group-hover:opacity-100 group-hover:translate-x-0">
-              →
-            </span>
+<section>
+<div>
+  <div className="container pt-10 m-auto px-6 text-gray-500 md:px-12 xl:px-0">
+    <div className="mx-auto grid gap-6 md:w-3/4 lg:w-full lg:grid-cols-3">
+      <div className="bg-white rounded-2xl shadow-xl px-8 py-12 sm:px-12 lg:px-8">
+        <div className="mb-12 space-y-4">
+          <h3 className="text-2xl font-semibold text-yellow-500">
+           Web Development
+          </h3>
+          <p className="mb-6">
+          Web development is the work involved in developing a website for the Internet (World Wide Web) or an intranet (a private network).
+          </p>
+          <a href="#" className="block font-medium text-orange-600">
+            Know more
           </a>
         </div>
+        <img
+          src={WebDevelopment}
+          className="w-2/3 ml-auto -mb-12"
+          alt="illustration"
+          loading="lazy"
+          width={900}
+          height={600}
+        />
       </div>
-      <div className="relative group  transition hover:z-[1] hover:shadow-2xl">
-        <div className="relative p-8 space-y-8">
-          <img
-            src= {recruitment}
-            className="w-10"
-            width={512}
-            height={512}
-            alt="burger illustration"
-          />
-          <div className="space-y-2">
-            <h5 className="text-lg text-white font-medium transition group-hover:text-yellow-600">
-              IT STAFFING & RECRUITING
-            </h5>
-            <p className="text-sm text-white">
-            IT staffing is the act of finding job candidates with the specialized skills needed to fill technology roles on your team.
-            </p>
-          </div>
-          <a
-            href="#/services"
-            className="flex justify-between items-center group-hover:text-yellow-600"
-          >
-            <span className="text-sm">Read more</span>
-            <span className="-translate-x-4 opacity-0 text-2xl transition duration-300 group-hover:opacity-100 group-hover:translate-x-0">
-              →
-            </span>
+      <div className="bg-white rounded-2xl shadow-xl px-8 py-12 sm:px-12 lg:px-8">
+        <div className="mb-12 space-y-4">
+          <h3 className="text-2xl font-semibold text-yellow-500">Mobile App Development</h3>
+          <p className="mb-6">
+          The process of creating software applications that run on a mobile device.
+          </p>
+          <a href="#" className="block font-medium text-orange-600">
+            Know more
           </a>
         </div>
+        <img
+          src={MobileAppDevelopment}
+          className="w-2/3 ml-auto"
+          alt="illustration"
+          loading="lazy"
+          width={900}
+          height={600}
+        />
       </div>
-      <div className="relative group  transition hover:z-[1] hover:shadow-2xl">
-        <div className="relative p-8 space-y-8">
-          <img
-            src= {mobiledev}
-            className="w-10"
-            width={512}
-            height={512}
-            alt="burger illustration"
-          />
-          <div className="space-y-2">
-            <h5 className="text-base text-white font-medium transition group-hover:text-yellow-600">
-              MOBILE APP DEVELOPMENT
-            </h5>
-            <p className="text-sm text-white">
-            The process of creating software applications that run on a mobile device.
-            </p>
-          </div>
-          <a
-            href="#/services"
-            className="flex justify-between items-center group-hover:text-yellow-600"
-          >
-            <span className="text-sm">Read more</span>
-            <span className="-translate-x-4 opacity-0 text-2xl transition duration-300 group-hover:opacity-100 group-hover:translate-x-0">
-              →
-            </span>
+      <div className="bg-white rounded-2xl shadow-xl px-8 py-12 sm:px-12 lg:px-8">
+        <div className="mb-12 space-y-4">
+          <h3 className="text-2xl font-semibold text-yellow-500">Digital Marketing</h3>
+          <p className="mb-6">
+          Marketing has always been about connecting with your audience in the right place and at the right time. Today, that means you need to meet them where they are already spending time: on the internet.
+          </p>
+          <a href="#" className="block font-medium text-orange-600">
+            Know more
           </a>
         </div>
+        <img
+          src={DigitalMarketing}
+          className="w-2/3 ml-auto "
+          alt="illustration"
+          loading="lazy"
+          width={900}
+          height={600}
+        />
       </div>
-      <div className="relative group transition hover:z-[1] hover:shadow-2xl lg:hidden xl:block">
-        <div className="relative p-8 space-y-8 border-dashed rounded-lg transition duration-300 group-hover:bg-yellow-500 group-hover:border group-hover:scale-90">
-        <img src= {morefeatures}
-            className="w-10"
-            width={512}
-            height={512}
-            alt="morefeatures"
-          /> 
-          <div className="space-y-2">
-            <h5 className="text-xl text-white font-medium transition group-hover:text-yellow-600">
-              More features
-            </h5>
-            <p className="text-sm text-white">
-              Checkout of services page for more features or contact our support team if your looking for some new ideas.
-            </p>
-          </div>
-          <a
-            href="/services"
-            className="flex justify-between items-center group-hover:text-yellow-600"
-          >
-            <span className="text-sm">Read more</span>
-            <span className="-translate-x-4 opacity-0 text-2xl transition duration-300 group-hover:opacity-100 group-hover:translate-x-0">
-              →
-            </span>
-          </a>
-        </div>
-      </div>
-      </div>
-      </div>
-        </div>
-      </section>
+    </div>
+  </div>
+</div>
 
 
-
-      <section>
-      <div className="pb-10  overflow-hidden">
-        <div className=" container m-auto px-6 space-y-8 text-gray-500 md:px-12">
-        <div className="bg-black/80 mt-0.5 grid border divide-x divide-y rounded-xl overflow-hidden sm:grid-cols-2 lg:divide-y-0 lg:grid-cols-3 xl:grid-cols-4">
-      <div className="relative group transition hover:z-[1] hover:shadow-2xl">
-        <div className="relative p-8 space-y-8">
-          <img
-            src= {graphicsdesign}
-            className="w-10"
-            width={512}
-            height={512}
-            alt="burger illustration"
-          />
-          <div className="space-y-2">
-            <h5 className="text-xl text-white font-medium transition group-hover:text-yellow-600">
-              UX/UI DESIGN
-            </h5>
-            <p className="text-sm text-white">
-            When it comes to product design, we often hear the terms “User Experience (UX)” and “User Interface (UI).”
-            </p>
-          </div>
-          <a
-            href="#/services"
-            className="flex justify-between items-center group-hover:text-yellow-600"
-          >
-            <span className="text-sm">Read more</span>
-            <span className="-translate-x-4 opacity-0 text-2xl transition duration-300 group-hover:opacity-100 group-hover:translate-x-0">
-              →
-            </span>
+<div className='py-8'>
+  <div className="container m-auto px-6 text-gray-500 md:px-12 xl:px-0">
+    <div className="mx-auto grid gap-6 md:w-3/4 lg:w-full lg:grid-cols-3">
+      <div className="bg-white rounded-2xl shadow-xl px-8 py-12 sm:px-12 lg:px-8">
+        <div className="mb-12 space-y-4">
+          <h3 className="text-2xl font-semibold text-yellow-500">
+            Graphic Design
+          </h3>
+          <p className="mb-6">
+          The art of conveying messages and ideas through creative visuals and layouts, combining aesthetics with effective communication.
+          </p>
+          <a href="#" className="block font-medium text-orange-600">
+            Know more
           </a>
         </div>
+        <img
+          src={GraphicDesign}
+          className="w-2/3 ml-auto -mb-12"
+          alt="illustration"
+          loading="lazy"
+          width={900}
+          height={600}
+        />
       </div>
-      <div className="relative group transition hover:z-[1] hover:shadow-2xl">
-        <div className="relative p-8 space-y-8">
-          <img
-            src= {digitalmarketing}
-            className="w-10"
-            width={512}
-            height={512}
-            alt="burger illustration"
-          />
-          <div className="space-y-2">
-            <h5 className="text-xl text-white font-medium transition group-hover:text-yellow-600">
-              DIGITAL MARKETING
-            </h5>
-            <p className="text-sm text-white">
-            Marketing has always been about connecting with your audience in the right place and at the right time. Today, that means you need to meet them where they are already spending time: on the internet.
-            </p>
-          </div>
-          <a
-            href="#/services"
-            className="flex justify-between items-center group-hover:text-yellow-600"
-          >
-            <span className="text-sm">Read more</span>
-            <span className="-translate-x-4 opacity-0 text-2xl transition duration-300 group-hover:opacity-100 group-hover:translate-x-0">
-              →
-            </span>
+      <div className="bg-white rounded-2xl shadow-xl px-8 py-12 sm:px-12 lg:px-8">
+        <div className="mb-12 space-y-4">
+          <h3 className="text-2xl font-semibold text-yellow-500">Brand Services</h3>
+          <p className="mb-6">
+          There are many potential methods that business professionals can use to develop successful branding strategies. Endorsed branding can allow companies to unify their branding efforts to meet their goals.
+          </p>
+          <a href="#" className="block font-medium text-orange-600">
+            Know more
           </a>
         </div>
+        <img
+          src={Branding}
+          className="w-2/3 ml-auto"
+          alt="illustration"
+          loading="lazy"
+          width={900}
+          height={600}
+        />
       </div>
-      <div className="relative group transition hover:z-[1] hover:shadow-2xl">
-        <div className="relative p-8 space-y-8">
-          <img
-            src={brand}
-            className="w-10"
-            width={512}
-            height={512}
-            alt="burger illustration"
-          />
-          <div className="space-y-2">
-            <h5 className="text-xl text-white font-medium transition group-hover:text-yellow-600">
-              ENDORSEMENT BRAND            </h5>
-            <p className="text-sm text-white">
-            There are many potential methods that business professionals can use to develop successful branding strategies. Endorsed branding can allow companies to unify their branding efforts to meet their goals.
-            </p>
-          </div>
-          <a
-            href="#/services"
-            className="flex justify-between items-center group-hover:text-yellow-600"
-          >
-            <span className="text-sm">Read more</span>
-            <span className="-translate-x-4 opacity-0 text-2xl transition duration-300 group-hover:opacity-100 group-hover:translate-x-0">
-              →
-            </span>
+      <div className="bg-white rounded-2xl shadow-xl px-8 py-12 sm:px-12 lg:px-8">
+        <div className="mb-12 space-y-4">
+          <h3 className="text-2xl font-semibold text-yellow-500">Advertising</h3>
+          <p className="mb-6">
+            
+Advertising ATL (Above the Line) refers to mass media advertising methods like TV, radio, and print, targeting a broad audience. BTL (Below the Line) involves more targeted, direct, and personalized marketing strategies, often using digital and experiential methods.
+          </p>
+          <a href="#" className="block font-medium text-orange-600">
+            Know more
           </a>
         </div>
+        <img
+          src={Advertising}
+          className="w-2/3 ml-auto "
+          alt="illustration"
+          loading="lazy"
+          width={900}
+          height={600}
+        />
       </div>
-      <div className="relative group  transition hover:z-[1] hover:shadow-2xl lg:hidden xl:block">
-        <div className="relative p-8 space-y-8 border-dashed rounded-lg transition duration-300 group-hover:bg-pink-500 group-hover:border group-hover:scale-90">
-          <img
-            src={morefeatures}
-            className="w-10"
-            width={512}
-            height={512}
-            alt="morefeatures"
-          />
-          <div className="space-y-2">
-            <h5 className="text-xl text-white font-medium transition group-hover:text-yellow-600">
-              More features
-            </h5>
-            <p className="text-sm text-white">
-            Checkout of services page for more features or contact our support team if your looking for some new ideas.
-            </p>
-          </div>
-          <a
-            href="#/services"
-            className="flex justify-between items-center group-hover:text-yellow-600"
-          >
-            <span className="text-sm">Read more</span>
-            <span className="-translate-x-4 opacity-0 text-2xl transition duration-300 group-hover:opacity-100 group-hover:translate-x-0">
-              →
-            </span>
-          </a>
-        </div>
-      </div>
-      </div>
-      </div>
-      </div>
-      </section>
-      </div>
-
+    </div>
+  </div>
+</div>
+</section>
 
 {/*countdown */}
 <section className='countdown'>

@@ -41,7 +41,19 @@ import Arkwhitepc from '../../assets/Common/portfolio_images/ARK-002.png';
 import LaytonSkinWhite from '../../assets/Common/portfolio_images/LAC-001-white.png';
 import LaytonSkinpc from '../../assets/Common/portfolio_images/LAC-002.png';
 
+
+import Advertising from '../../assets/Icons/Advertising.svg'
+import Branding from '../../assets/Icons/Branding.svg'
+import DigitalMarketing from '../../assets/Icons/DigitalMarketing.svg'
+import GraphicDesign from '../../assets/Icons/GraphicDesign.svg'
+import MobileAppDevelopment from '../../assets/Icons/MobileAppDevelopment.svg'
+import WebDevelopment from '../../assets/Icons/WebDevelopment.svg'
+
 export {
+
+
+  /*Icons*/
+  Advertising,Branding,DigitalMarketing,GraphicDesign,MobileAppDevelopment,WebDevelopment,
 
     /* ClientsLogo */
     Archivitus,
