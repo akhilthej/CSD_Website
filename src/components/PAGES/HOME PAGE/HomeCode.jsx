@@ -10,54 +10,55 @@ import {documentationicon ,socialicon ,analysisicon ,financeicon ,statergyicon ,
 
 const HomeHero = () => {
   return (
-  <main className='my-20 mx-20'>
+  <main className='my-20 mx-5 sm:my-20 sm:mx-20'>
 {/*herosection desktop*/}    
-<header>
-  <div>
+<header >
+  
     <section className="flex items-center  justify-center">
       <div className="mx-auto max-w-[55rem]">
         <div className="text-center">
           <p className="text-sm font-medium leading-8 text-white">
             Introducing Design Data Platform
           </p>
-          <h1 className="fade-in-down pb-8 font-extrabold text-transparent text-6xl lg:text-8xl bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-600 mt-3 text-[3.5rem] leading-[4rem] tracking-tight text-black">
-            Cyber Space Digital
-          </h1>
+          <h1 className="upanddown pb-8 font-extrabold text-transparent text-4xl md:text-5xl lg:text-6xl bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-600 mt-3 text-[2.5rem] md:text-[3rem] lg:text-[3.5rem] leading-[3.5rem] tracking-tight text-black">
+  Cyber Space Digital
+</h1>
+
           <p className="text-sm font-medium leading-8 text-white">
           We help your brand to build digital, Providing Global Presence.
           </p>
         </div>
-        <div className="mt-6 flex items-center justify-center gap-4">
-          <a
-            href="/contactus"
-            className="text-sm transform rounded bg-yellow-500 border border-slate-200 px-4 py-2 font-medium text-black transition-colors hover:bg-slate-50 "
-          >
-            Build Today
-          </a>
-          <a
-            href="/getquotation"
-            className="text-sm transform rounded border border-slate-200 px-4 py-2 font-medium text-white transition-colors hover:bg-slate-50 hover:text-black"
-          >
-            Get Quotation
-          </a>
-        </div>
+        <div className="mt-6 flex items-center justify-center gap-4 flex-wrap">
+  <a
+    href="/contactus"
+    className="text-xs sm:text-sm transform rounded bg-yellow-500 border border-slate-200 px-12 py-2 font-medium text-black transition-colors hover:bg-slate-50 "
+  >
+    Build Today
+  </a>
+  <a
+    href="/getquotation"
+    className="text-xs sm:text-sm transform rounded border border-slate-200 px-12 py-2 font-medium text-white transition-colors hover:bg-slate-50 hover:text-black"
+  >
+    Get Quotation
+  </a>
+</div>
+
       </div>
     </section>
-  </div>
 </header>
 
 
 {/*MainFeatures */}
 <section>
 <div>
-  <div className="container pt-10 m-auto px-6 text-gray-500 md:px-12 xl:px-0">
+  <div className="container pt-10 m-auto  text-gray-500 md:px-12 xl:px-0">
     <div className="mx-auto grid gap-6 md:w-3/4 lg:w-full lg:grid-cols-3">
-      <div className="bg-white rounded-2xl shadow-xl px-8 py-12 sm:px-12 lg:px-8">
+      <div className="bg-white rounded-2xl shadow-xl px-8 py-5 sm:px-12 lg:px-8">
         <div className="mb-12 space-y-4">
           <h3 className="text-2xl font-semibold text-yellow-500">
            Web Development
           </h3>
-          <p className="mb-6">
+          <p className="">
           Web development is the work involved in developing a website for the Internet (World Wide Web) or an intranet (a private network).
           </p>
           <a href="#" className="block font-medium text-orange-600">
@@ -73,6 +74,9 @@ const HomeHero = () => {
           height={600}
         />
       </div>
+
+
+      
       <div className="bg-white rounded-2xl shadow-xl px-8 py-12 sm:px-12 lg:px-8">
         <div className="mb-12 space-y-4">
           <h3 className="text-2xl font-semibold text-yellow-500">Mobile App Development</h3>
@@ -117,7 +121,7 @@ const HomeHero = () => {
 
 
 <div className='py-8'>
-  <div className="container m-auto px-6 text-gray-500 md:px-12 xl:px-0">
+  <div className="container m-auto  text-gray-500 md:px-12 xl:px-0">
     <div className="mx-auto grid gap-6 md:w-3/4 lg:w-full lg:grid-cols-3">
       <div className="bg-white rounded-2xl shadow-xl px-8 py-12 sm:px-12 lg:px-8">
         <div className="mb-12 space-y-4">
@@ -184,10 +188,7 @@ Advertising ATL (Above the Line) refers to mass media advertising methods like T
 </div>
 </section>
 
-{/*countdown */}
-<section className='countdown'>
 
-</section>
 
 
 {/*Sidecard1 */}
