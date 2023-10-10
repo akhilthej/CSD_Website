@@ -297,7 +297,7 @@ const ServicesHeader = () => {
       </div>
       </section>
       </div>
-      </section>
+</section>
 
 </main>
 
