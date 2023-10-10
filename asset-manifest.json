@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.8657338e.css",
-    "main.js": "/static/js/main.ef56f041.js",
+    "main.css": "/static/css/main.970954cb.css",
+    "main.js": "/static/js/main.db74c0a2.js",
     "static/media/applogo.gif": "/static/media/applogo.b8f77c8bd9e33777b1f6.gif",
     "static/media/democover.jpg": "/static/media/democover.d6b5331c54468424aed5.jpg",
     "static/media/ContactusHeaderimage.png": "/static/media/ContactusHeaderimage.25bfaf86713f9ae3f933.png",
@@ -56,11 +56,11 @@
     "static/media/MobileAppDevelopment.svg": "/static/media/MobileAppDevelopment.66c33473f41b3cec3fd4e8e7eeda9822.svg",
     "static/media/OntimeDelivery.svg": "/static/media/OntimeDelivery.2d9b87e51310b6c48d381d9335011a5a.svg",
     "index.html": "/index.html",
-    "main.8657338e.css.map": "/static/css/main.8657338e.css.map",
-    "main.ef56f041.js.map": "/static/js/main.ef56f041.js.map"
+    "main.970954cb.css.map": "/static/css/main.970954cb.css.map",
+    "main.db74c0a2.js.map": "/static/js/main.db74c0a2.js.map"
   },
   "entrypoints": [
-    "static/css/main.8657338e.css",
-    "static/js/main.ef56f041.js"
+    "static/css/main.970954cb.css",
+    "static/js/main.db74c0a2.js"
   ]
 }
