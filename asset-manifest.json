@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.c705ab36.css",
-    "main.js": "/static/js/main.e2a07066.js",
+    "main.css": "/static/css/main.8657338e.css",
+    "main.js": "/static/js/main.ef56f041.js",
     "static/media/applogo.gif": "/static/media/applogo.b8f77c8bd9e33777b1f6.gif",
     "static/media/democover.jpg": "/static/media/democover.d6b5331c54468424aed5.jpg",
     "static/media/ContactusHeaderimage.png": "/static/media/ContactusHeaderimage.25bfaf86713f9ae3f933.png",
@@ -46,18 +46,21 @@
     "static/media/GraphicDesign.svg": "/static/media/GraphicDesign.1b4fc031ef09c90bcde1e15911784dc8.svg",
     "static/media/codeing.png": "/static/media/codeing.924aefcd21dab990e435.png",
     "static/media/Founder.webp": "/static/media/Founder.d910516be9eeee2e63bc.webp",
+    "static/media/FixedPrice.svg": "/static/media/FixedPrice.28f3732c125aec9aa6e960d037be5a30.svg",
+    "static/media/TimeManage.svg": "/static/media/TimeManage.3e99c658b279ce1fbc7c12000fcc9d6a.svg",
     "static/media/Advertising.svg": "/static/media/Advertising.dda48b4c4703262df1c5e1e26cdd16cb.svg",
     "static/media/pavan.webp": "/static/media/pavan.3d51f56ae9262fc3e18e.webp",
     "static/media/morefeatures.png": "/static/media/morefeatures.9897853da9d9948c9a18.png",
     "static/media/Branding.svg": "/static/media/Branding.8c7133ef9ed0ac73c17dfcc35c384c98.svg",
     "static/media/googlereview.png": "/static/media/googlereview.85d0946b65c74505d37a.png",
     "static/media/MobileAppDevelopment.svg": "/static/media/MobileAppDevelopment.66c33473f41b3cec3fd4e8e7eeda9822.svg",
+    "static/media/OntimeDelivery.svg": "/static/media/OntimeDelivery.2d9b87e51310b6c48d381d9335011a5a.svg",
     "index.html": "/index.html",
-    "main.c705ab36.css.map": "/static/css/main.c705ab36.css.map",
-    "main.e2a07066.js.map": "/static/js/main.e2a07066.js.map"
+    "main.8657338e.css.map": "/static/css/main.8657338e.css.map",
+    "main.ef56f041.js.map": "/static/js/main.ef56f041.js.map"
   },
   "entrypoints": [
-    "static/css/main.c705ab36.css",
-    "static/js/main.e2a07066.js"
+    "static/css/main.8657338e.css",
+    "static/js/main.ef56f041.js"
   ]
 }
