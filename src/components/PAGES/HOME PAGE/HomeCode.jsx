@@ -5,6 +5,8 @@ import {CSDbothome } from '../../data/data.jsx';
 import '../../Tools/Animations.scss';
 
 import {Advertising ,Branding ,DigitalMarketing ,GraphicDesign ,MobileAppDevelopment ,WebDevelopment ,morefeatures} from '../../data/data.jsx';
+
+import {FixedPrice,OntimeDelivery,TimeManage} from '../../data/data'
 import {documentationicon ,socialicon ,analysisicon ,financeicon ,statergyicon ,businessreporticon ,}from '../../data/data.jsx';
 
 
@@ -13,8 +15,7 @@ const HomeHero = () => {
   <main className='my-20 mx-5 sm:my-20 sm:mx-20'>
 {/*herosection desktop*/}    
 <header >
-  
-    <section className="flex items-center  justify-center">
+  <section className="flex items-center  justify-center">
       <div className="mx-auto max-w-[55rem]">
         <div className="text-center">
           <p className="text-sm font-medium leading-8 text-white">
@@ -41,7 +42,7 @@ const HomeHero = () => {
   >
     Get Quotation
   </a>
-</div>
+ </div>
 
       </div>
     </section>
@@ -71,9 +72,8 @@ const HomeHero = () => {
           alt="illustration"
           loading="lazy"
           width={900}
-          height={600}
-        />
-      </div>
+          height={600}/>
+  </div>
 
 
       
@@ -192,33 +192,34 @@ Advertising ATL (Above the Line) refers to mass media advertising methods like T
 
 
 {/*Sidecard1 */}
-      <section>
-  <div className="homesidecard1 ">
-    <div className=" md:flex md:gap-6 lg:gap-1">
-    <div className='backgroundhome2'>
-      <div>
-        <img src= {CSDbothome} alt="CSDbothome "/></div>
+<section>
+  <div className="homesidecard1">
+    <div className="md:flex">
+      <div className='backgroundhome2'>
+        <div>
+          <img src={CSDbothome} alt="CSDbothome" style={{ maxWidth: '70%', height: 'auto' }} />
         </div>
+      </div>
 
-           <div className="md:7/12 lg:w-6/12">
-        <h2 className=" text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-pink-600 mt-3  leading-[4rem] tracking-tight">
-        We develop our brand with passionate developers.
+      <div className="md:w-7/12 lg:w-6/12">
+        <h2 className="text-4xl md:text-5xl lg:text-6xl text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-600 mt-3 leading-[4rem] tracking-tight">
+          We develop our brand with passionate developers.
         </h2>
-        <p className=" mt-6 text-white mx-2">
-         We develop our companies, projects and brands with a purpose,
-         to help them engage their clients and audience. Providing them a first-class quality.
-          so they can build awareness, Trust , create conversation for a long-time. 
+        <p className="text-sm pt-4 text-white mx-2">
+          We develop our companies, projects, and brands with a purpose,
+          to help them engage their clients and audience. Providing them first-class quality
+          so they can build awareness, trust, and create conversations for a long time.
         </p>
-        <p className=" my-4 text-white">
-          {" "}
-          Quality comany or Brand, is the perception of quality that a brand achieves with its customers & clients.
-          Quality is often defined as the meeting the expectations of customers.
-  
+        <p className="text-sm pt-4 text-white">
+          Quality company or brand is the perception of quality that a brand achieves with its customers and clients.
+          Quality is often defined as meeting the expectations of customers.
         </p>
+      </div>
     </div>
   </div>
-  </div>
-      </section>
+</section>
+
+
 
 
 {/*HomeSection1 */}
@@ -470,6 +471,157 @@ Advertising ATL (Above the Line) refers to mass media advertising methods like T
     </div>
   </section>
       </section>
+
+
+
+
+
+
+
+    <div id="services"
+  className="section relative pt-20 pb-8 md:pt-16 md:pb-0 ">
+  <div className="container xl:max-w-6xl mx-auto px-4">
+    {/* Heading start */}
+    <header className="text-center mx-auto mb-12 lg:px-20">
+    <h2 className=" pb-5 font-extrabold text-transparent text-4xl md:text-5xl lg:text-6xl bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-600 mt-3 text-[2.5rem] md:text-[3rem] lg:text-[3.5rem] leading-[3.5rem] tracking-tight text-black">
+  Line of Engagement 
+</h2>
+      
+      <p className="text-sm font-medium leading-8 text-white">
+          Streamline the management of advertising and content for your business, saving you valuable time
+          </p>
+    </header>
+    {/* End heading */}
+    {/* row */}
+    <div className="flex flex-wrap flex-row -mx-4 text-center">
+      <div
+        className="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/3 lg:px-6 wow fadeInUp"
+        data-wow-duration="1s"
+        style={{
+          visibility: "visible",
+          animationDuration: "1s",
+          animationName: "fadeInUp"
+        }}
+      >
+        {/* service block */}
+        <div className="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
+          <div className="inline-block text-gray-900 mb-4">
+          <img
+          src={FixedPrice}
+          className="w-40 ml-auto"
+          alt="illustration"
+          loading="lazy"
+          width={900}
+          height={600}/>
+            
+            
+          </div>
+          <h3 className="text-lg leading-normal mb-2 font-semibold text-black">
+          Fixed Price Model
+          </h3>
+          <p className="text-gray-500">
+          Under this model, the web development company and the client agree on a fixed price for the entire project scope.
+
+          </p>
+        </div>
+        {/* end service block */}
+      </div>
+      <div
+        className="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/3 lg:px-6 wow fadeInUp"
+        data-wow-duration="1s"
+        data-wow-delay=".1s"
+        style={{
+          visibility: "visible",
+          animationDuration: "1s",
+          animationDelay: "0.1s",
+          animationName: "fadeInUp"
+        }}
+      >
+        {/* service block */}
+        <div className="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
+          <div className="inline-block text-gray-900 mb-4">
+          <img
+          src={TimeManage}
+          className="w-40 ml-auto"
+          alt="illustration"
+          loading="lazy"
+          width={900}
+          height={600}/>
+
+          </div>
+          <h3 className="text-lg leading-normal mb-2 font-semibold text-black">
+          Time and Materials Model
+          </h3>
+          <p className="text-gray-500">
+          the client pays based on the time and resources spent on the project. 
+
+          </p>
+        </div>
+        {/* end service block */}
+      </div>
+      <div
+        className="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/3 lg:px-6 wow fadeInUp"
+        data-wow-duration="1s"
+        data-wow-delay=".3s"
+        style={{
+          visibility: "visible",
+          animationDuration: "1s",
+          animationDelay: "0.3s",
+          animationName: "fadeInUp"
+        }}
+      >
+        {/* service block */}
+        <div className="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
+          <div className="inline-block text-gray-900 mb-4">
+           <img
+          src={OntimeDelivery}
+          className="w-40 ml-auto"
+          alt="illustration"
+          loading="lazy"
+          width={900}
+          height={600}/>
+
+          </div>
+          <h3 className="text-lg leading-normal mb-2 font-semibold text-black">
+          On-Time Delivery
+          </h3>
+          <p className="text-gray-500">
+          The web development company commits to delivering projects on or before agreed-upon deadlines.
+
+          </p>
+        </div>
+        {/* end service block */}
+      </div>
+      <div
+        className="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/3 lg:px-6 wow fadeInUp"
+        data-wow-duration="1s"
+        style={{
+          visibility: "visible",
+          animationDuration: "1s",
+          animationName: "fadeInUp"
+        }}>
+        {/* end service block */}
+      </div>
+    </div>
+    {/* end row */}
+
+<div className="mt-2 flex items-center justify-center gap-4 flex-wrap">
+  <a
+    href="/contactus"
+    className="text-xs sm:text-sm transform rounded bg-yellow-500 border border-slate-200 px-20 py-2 font-medium text-black transition-colors hover:bg-slate-50 "
+  >
+    FAQ
+  </a>
+  <a
+    href="/getquotation"
+    className="text-xs sm:text-sm transform rounded border border-slate-200 px-14 py-2 font-medium text-white transition-colors hover:bg-slate-50 hover:text-black"
+  >
+    Know More
+  </a>
+ </div>
+  </div>
+</div>
+
 
   </main>
 

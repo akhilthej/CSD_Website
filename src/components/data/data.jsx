@@ -49,11 +49,16 @@ import GraphicDesign from '../../assets/Icons/GraphicDesign.svg'
 import MobileAppDevelopment from '../../assets/Icons/MobileAppDevelopment.svg'
 import WebDevelopment from '../../assets/Icons/WebDevelopment.svg'
 
+import FixedPrice from '../../assets/Icons/FixedPrice.svg'
+import TimeManage from '../../assets/Icons/TimeManage.svg'
+import OntimeDelivery from '../../assets/Icons/OntimeDelivery.svg'
+
 export {
 
 
   /*Icons*/
   Advertising,Branding,DigitalMarketing,GraphicDesign,MobileAppDevelopment,WebDevelopment,
+  FixedPrice,OntimeDelivery,TimeManage,
 
     /* ClientsLogo */
     Archivitus,
