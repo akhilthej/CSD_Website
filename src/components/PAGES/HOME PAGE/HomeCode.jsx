@@ -48,6 +48,14 @@ const HomeHero = () => {
     </section>
 </header>
 
+{/* Video */}
+<div className="rounded">
+  <video className="" poster="https://www.plugxr.com/newversion/images/poster.png" loop width="100%" height="100%" controls={false} autoPlay muted>
+    <source src="https://assets.plugxr.com/assets/casestudies/ghmev.mp4" type="video/mp4" />
+   
+  </video>
+</div>
+
 
 {/* Services */}
 <section>
