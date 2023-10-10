@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.3a5a36e4.css",
-    "main.js": "/static/js/main.16e4beff.js",
+    "main.css": "/static/css/main.02d8d0f3.css",
+    "main.js": "/static/js/main.e67ae465.js",
     "static/media/homepage1.mp4": "/static/media/homepage1.2dbe0bcbacd83762e32c.mp4",
     "static/media/applogo.gif": "/static/media/applogo.b8f77c8bd9e33777b1f6.gif",
     "static/media/democover.jpg": "/static/media/democover.d6b5331c54468424aed5.jpg",
@@ -59,11 +59,11 @@
     "static/media/SoftwareDeveloper.svg": "/static/media/SoftwareDeveloper.7aa91a6ff18b5a02526967bdfd98443e.svg",
     "static/media/OntimeDelivery.svg": "/static/media/OntimeDelivery.2d9b87e51310b6c48d381d9335011a5a.svg",
     "index.html": "/index.html",
-    "main.3a5a36e4.css.map": "/static/css/main.3a5a36e4.css.map",
-    "main.16e4beff.js.map": "/static/js/main.16e4beff.js.map"
+    "main.02d8d0f3.css.map": "/static/css/main.02d8d0f3.css.map",
+    "main.e67ae465.js.map": "/static/js/main.e67ae465.js.map"
   },
   "entrypoints": [
-    "static/css/main.3a5a36e4.css",
-    "static/js/main.16e4beff.js"
+    "static/css/main.02d8d0f3.css",
+    "static/js/main.e67ae465.js"
   ]
 }
