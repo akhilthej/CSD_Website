@@ -1,3 +1,8 @@
+/*Home Page */
+import HomeVideo from '../../assets/Videos/homepage2 - HD 1080p.mov';
+
+
+
 import Archivitus from '../../assets/Clients/Archivitus.png';
 import serpsit from '../../assets/Clients/serpsit.png'
 import labelanuneni from '../../assets/Clients/labelanuneni.png'
@@ -57,7 +62,10 @@ import OntimeDelivery from '../../assets/Icons/OntimeDelivery.svg'
 
 export {
 
+  /*Home Page */
+  HomeVideo,
 
+  
   /*Icons*/
   Advertising,Branding,DigitalMarketing,GraphicDesign,MobileAppDevelopment,WebDevelopment,SoftwareDeveloper,
   FixedPrice,OntimeDelivery,TimeManage,MoreFeatures,
