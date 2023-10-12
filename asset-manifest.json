@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.0e21138e.css",
-    "main.js": "/static/js/main.a001d81c.js",
+    "main.js": "/static/js/main.0a1e24e5.js",
     "static/media/homepage2 - HD 1080p.mov": "/static/media/homepage2 - HD 1080p.cd3dd2ddcfb1872583a7.mov",
     "static/media/applogo.gif": "/static/media/applogo.b8f77c8bd9e33777b1f6.gif",
     "static/media/democover.jpg": "/static/media/democover.d6b5331c54468424aed5.jpg",
@@ -16,7 +16,6 @@
     "static/media/ARK-002.png": "/static/media/ARK-002.0907260de9996bb721f2.png",
     "static/media/ClientHeader.png": "/static/media/ClientHeader.5685c097a73ff31edad1.png",
     "static/media/ILA-002.png": "/static/media/ILA-002.dc2e513de4db7ae2ddb1.png",
-    "static/media/aboutheader.webp": "/static/media/aboutheader.237579978fb7c06a9e56.webp",
     "static/media/csd_navbarlogo.png": "/static/media/csd_navbarlogo.f5588dda4b4726c0f4f0.png",
     "static/media/GetQoutationHeader.png": "/static/media/GetQoutationHeader.a61124233708b94daee2.png",
     "static/media/ReviewsHero.png": "/static/media/ReviewsHero.f3eb97f0e0d7e31a8344.png",
@@ -36,21 +35,15 @@
     "static/media/AlohaTechLogo.png": "/static/media/AlohaTechLogo.729acc2081734613a411.png",
     "static/media/footer_csd.png": "/static/media/footer_csd.abd48e4bed7ca0898f98.png",
     "static/media/iliha.png": "/static/media/iliha.208f37a9225016cf4a0c.png",
-    "static/media/srikar.webp": "/static/media/srikar.5d1c58d938d0637de451.webp",
-    "static/media/chaitanya.webp": "/static/media/chaitanya.b9fa93833d9c670fa1b5.webp",
     "static/media/WebDevelopment.svg": "/static/media/WebDevelopment.7498a8f8a7c9ac93da93b85c614ad058.svg",
-    "static/media/saikiran.webp": "/static/media/saikiran.2552a4977383b6b41b16.webp",
     "static/media/DigitalMarketing.svg": "/static/media/DigitalMarketing.e2cb248f9817e96e00ba82f270a8b150.svg",
     "static/media/HiringModel.svg": "/static/media/HiringModel.f6e30699722dba6df714c513872f7257.svg",
-    "static/media/varun.webp": "/static/media/varun.f1dc861443c3ebdee261.webp",
     "static/media/softwaredev.png": "/static/media/softwaredev.70e194ea53e4f48ae8ea.png",
-    "static/media/riyavarma.webp": "/static/media/riyavarma.5077b0c9a957bcabae8b.webp",
     "static/media/GraphicDesign.svg": "/static/media/GraphicDesign.1b4fc031ef09c90bcde1e15911784dc8.svg",
     "static/media/codeing.png": "/static/media/codeing.924aefcd21dab990e435.png",
     "static/media/FixedPrice.svg": "/static/media/FixedPrice.28f3732c125aec9aa6e960d037be5a30.svg",
     "static/media/TimeManage.svg": "/static/media/TimeManage.3e99c658b279ce1fbc7c12000fcc9d6a.svg",
     "static/media/MoreFeatures.svg": "/static/media/MoreFeatures.dda48b4c4703262df1c5e1e26cdd16cb.svg",
-    "static/media/pavan.webp": "/static/media/pavan.3d51f56ae9262fc3e18e.webp",
     "static/media/morefeatures.png": "/static/media/morefeatures.9897853da9d9948c9a18.png",
     "static/media/Branding.svg": "/static/media/Branding.8c7133ef9ed0ac73c17dfcc35c384c98.svg",
     "static/media/googlereview.png": "/static/media/googlereview.85d0946b65c74505d37a.png",
@@ -64,10 +57,10 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "main.0e21138e.css.map": "/static/css/main.0e21138e.css.map",
-    "main.a001d81c.js.map": "/static/js/main.a001d81c.js.map"
+    "main.0a1e24e5.js.map": "/static/js/main.0a1e24e5.js.map"
   },
   "entrypoints": [
     "static/css/main.0e21138e.css",
-    "static/js/main.a001d81c.js"
+    "static/js/main.0a1e24e5.js"
   ]
 }
