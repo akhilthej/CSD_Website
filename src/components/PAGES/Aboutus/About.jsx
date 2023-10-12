@@ -1,12 +1,7 @@
 import React from 'react';
-import coverimage from '../../../assets/About/aboutheader.webp';
 
-import pavanchappa from '../../../assets/About/pavan.webp';
-import chaitanya from '../../../assets/About/chaitanya.webp';
-import riyavarma from '../../../assets/About/riyavarma.webp'
-import srikar from '../../../assets/About/srikar.webp';
-import saikiran from '../../../assets/About/saikiran.webp';
-import varuntej from '../../../assets/About/varun.webp';
+
+
 
 
 
@@ -36,7 +31,7 @@ const About = () => {
                     
                 </div>
                 <div className="w-full lg:w-8/12 lg:h-3/5">
-                    <img className="w-full h-full rounded-2xl shadow-2xl" src= {coverimage} alt="A group of People" />
+                    <img className="w-full h-full rounded-2xl shadow-2xl" src= "https://drive.google.com/uc?id=1SW0pCjIgBzYPnmVrq7lpHTh8SpSyYoWV" alt="A group of People" />
                     <p className="font-normal text-base leading-6 mt-10 text-black ">We have had many successes and also faced many challenges, 
                     but we have learned from our mistakes and have grown as a team. Now, we are a team of experts who have worked with a variety of industries and have developed a deep 
                     understanding of what works best for each of them.<br/>We are proud of our achievements and are excited about the future. We are committed to continuously learning and 
@@ -103,7 +98,7 @@ const About = () => {
       <div className="space-y-4 text-center">
         <img
           className="w-64 h-64 mx-auto object-cover rounded-xl md:w-40 md:h-40 lg:w-64 lg:h-64"
-          src={riyavarma}
+          src="https://drive.google.com/uc?id=1envmd78e65ibA34_5MPUWgurexFn7IGu"
           loading="lazy"
           width={1000}
           height={667}
