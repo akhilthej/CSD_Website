@@ -70,11 +70,9 @@ const Home = () => {
 <section className="flex items-center my-10 justify-center  bg-white ">
       <div className="mx-auto max-w-[55rem]">
         <div className="text-center">
-          <p className="text-sm sm:text-2xl font-extrabold  text-gray-900">
+          <p className="text-sm sm:text-4xl font-extrabold  text-gray-900">
           Your Vision, Our Code – Perfectly Executed.
           </p>
-          
-
           <p className="text-sm sm:text-xl pt-5  text-gray-900">
           Unlocking the Full Potential of Your Online Brand.
           </p>
@@ -86,7 +84,142 @@ const Home = () => {
 
 
 {/* Technologies */}
+<div id="services" className="section relative pt-10 pb-8 md:pt-16 md:pb-10 ">
+  <div className=" xl:max-w-6xl mx-auto px-4">
+    
+    <section className="text-center mx-auto mb-12 lg:px-20">
+    <h2 className=" pb-2 font-extrabold text-transparent text-2xl md:text-5xl lg:text-6xl bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-600 mt-3 leading-[3.5rem] tracking-tight text-black">
+      Line of Engagement 
+    </h2>
+      
+      <p className="text-sm font-medium  text-black">
+          Streamline the management of advertising and content for your business, saving you valuable time.
+          </p>
+    </section>
 
+    <div className="flex flex-wrap flex-row -mx-4 text-center">
+      <div
+        className="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/3 lg:px-6 wow fadeInUp"
+        data-wow-duration="1s"
+        style={{
+          visibility: "visible",
+          animationDuration: "1s",
+          animationName: "fadeInUp"
+        }}>
+
+        <div className="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
+          <div className="inline-block text-gray-900 mb-4">
+          <img
+          src={FixedPrice}
+          className="w-40 ml-auto"
+          alt="illustration"
+          loading="lazy"
+          width={900}
+          height={600}/>
+            
+            
+          </div>
+          <h3 className="text-lg leading-normal mb-2 font-semibold text-black">
+          Fixed Price Model
+          </h3>
+          <p className="text-gray-500">
+          Under this model, the web development company and the client agree on a fixed price for the entire project scope.
+
+          </p>
+        </div>
+      </div>
+      <div
+        className="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/3 lg:px-6 wow fadeInUp"
+        data-wow-duration="1s"
+        data-wow-delay=".1s"
+        style={{
+          visibility: "visible",
+          animationDuration: "1s",
+          animationDelay: "0.1s",
+          animationName: "fadeInUp"
+        }}>
+
+        <div className="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
+          <div className="inline-block text-gray-900 mb-4">
+          <img
+          src={TimeManage}
+          className="w-40 ml-auto"
+          alt="illustration"
+          loading="lazy"
+          width={900}
+          height={600}/>
+
+          </div>
+          <h3 className="text-lg leading-normal mb-2 font-semibold text-black">
+          Time and Materials Model
+          </h3>
+          <p className="text-gray-500">
+          the client pays based on the time and resources spent on the project. 
+
+          </p>
+        </div>
+      </div>
+      <div
+        className="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/3 lg:px-6 wow fadeInUp"
+        data-wow-duration="1s"
+        data-wow-delay=".3s"
+        style={{
+          visibility: "visible",
+          animationDuration: "1s",
+          animationDelay: "0.3s",
+          animationName: "fadeInUp"
+        }}>
+
+        <div className="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
+          <div className="inline-block text-gray-900 mb-4">
+           <img
+          src={OntimeDelivery}
+          className="w-40 ml-auto"
+          alt="illustration"
+          loading="lazy"
+          width={900}
+          height={600}/>
+
+          </div>
+          <h3 className="text-lg leading-normal mb-2 font-semibold text-black">
+          On-Time Delivery
+          </h3>
+          <p className="text-gray-500">
+          The web development company commits to delivering projects on or before agreed-upon deadlines.
+
+          </p>
+        </div>
+      </div>
+      <div
+        className="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/3 lg:px-6 wow fadeInUp"
+        data-wow-duration="1s"
+        style={{
+          visibility: "visible",
+          animationDuration: "1s",
+          animationName: "fadeInUp"
+        }}>
+
+        
+      </div>
+      
+    </div>
+
+<div className="flex items-center justify-center gap-4 flex-wrap">
+  <a
+    href="/contactus"
+    className="text-xs sm:text-sm transform rounded bg-yellow-500 border border-slate-200 px-20 py-2 font-medium text-black transition-colors hover:bg-slate-50 "
+  >
+    FAQ
+  </a>
+  <a
+    href="/getquotation"
+    className="text-xs sm:text-sm transform rounded border border-slate-200 px-14 py-2 font-medium text-black transition-colors hover:bg-slate-50 hover:text-black"
+  >
+    Know More
+  </a>
+ </div>
+  </div>
+</div>
 
 {/* Clients */}
 <Brand_slider/>
@@ -354,7 +487,7 @@ const Home = () => {
 </section>
 
 
-{/* Title Section */}
+{/* WE BUILD */}
 <section>
   <div className='pt-10 flex flex-col items-center justify-center'>
     <div className="text-center">
@@ -465,8 +598,8 @@ const Home = () => {
   </div>
 </section>
 
-{/*Sidecard2 */}
-      <section>
+{/*Explore*/}
+<section>
   <section>
     <div className="container px-6 py-10 mx-auto">
       <div className="lg:flex lg:items-center">
@@ -585,17 +718,12 @@ const Home = () => {
      
     </div>
   </section>
-      </section>
+</section>
 
-
-
-
-
-
-
-    <div id="services" className="section relative pt-10 pb-8 md:pt-16 md:pb-10 ">
+{/* Line of Engagement */}
+<div id="services" className="section relative pt-10 pb-8 md:pt-16 md:pb-10 ">
   <div className=" xl:max-w-6xl mx-auto px-4">
-    {/* Heading start */}
+    
     <section className="text-center mx-auto mb-12 lg:px-20">
     <h2 className=" pb-2 font-extrabold text-transparent text-2xl md:text-5xl lg:text-6xl bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-600 mt-3 leading-[3.5rem] tracking-tight text-black">
       Line of Engagement 
