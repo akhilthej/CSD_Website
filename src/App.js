@@ -5,7 +5,7 @@ import OneSignal from 'react-onesignal';
 
 import {Navbar,Footer,Sitemap,PrivacyPolicy,TermsnConditions,Disclaimer,ShippingandDelivery,ReturnPolicy,Error404,Home,
         Services,Technologies,Clients,Reviews,GetQuotation,Aboutus,Contactus,
-        Reactblog,Payment,Renewal,} from './routes/Routesmap';
+        Reactblog,Renewal,} from './routes/Routesmap';
 
 import Notification from "./components/Tools/Notifications";        
         
