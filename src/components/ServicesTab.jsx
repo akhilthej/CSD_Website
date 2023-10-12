@@ -19,16 +19,15 @@ const ServicesTab = () => {
       <div className="overflow-hidden">
         <div className="container m-auto px-6 space-y-8 text-black md:px-12">
           <div>
-            <p className="text-xl font-bold text-black pt-10">
+            <p className="text-xl sm:text-4xl font-bold text-black pt-10">
               Main Features
             </p>
-            <h2 className="font-extrabold text-transparent text-3xl md:text-3xl lg:text-5xl bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-600 tracking-tight text-black">
+            <h2 className="font-extrabold text-transparent text-3xl md:text-6xl lg:text-6xl bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-600 tracking-tight ">
               Services, We Provide
             </h2>
           </div>
 
           <div
-            className="py-10"
             style={{
               backgroundPosition: "center",
               backgroundImage: `url(${HeroCoverBG})`,

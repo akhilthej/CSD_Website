@@ -500,18 +500,14 @@ const Home = () => {
       </p>
     
 <div className="flex items-center justify-center gap-4 flex-wrap">
-  <a
-    href="/contactus"
-    className="text-xs sm:text-sm transform rounded bg-yellow-500 border border-slate-200 px-20 py-2 font-medium text-black transition-colors hover:bg-slate-50 "
-  >
+<Link to='/contactus'>
+  <button className="text-xs sm:text-sm transform rounded bg-yellow-500 border border-slate-200 px-20 py-2 font-medium text-black transition-colors hover:bg-slate-50 ">
     FAQ
-  </a>
-  <a
-    href="/contactus"
-    className="text-xs sm:text-sm transform rounded border border-slate-200 px-14 py-2 font-medium text-black transition-colors hover:bg-slate-50 hover:text-black"
-  >
+  </button></Link>
+  <Link to='/contactus'>
+  <button className="text-xs sm:text-sm transform rounded border border-slate-200 px-14 py-2 font-medium text-black transition-colors hover:bg-slate-50 hover:text-black">
     Contact us
-  </a>
+  </button></Link>
  </div>
  </section>
 
