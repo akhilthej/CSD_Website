@@ -21,8 +21,7 @@ const Footer = () => {
       <div className="flex justify-center md:justify-end">
         <img className=" mx-auto flex "
           src={Subscribe}
-          alt="Marketing newsletter via computer Illustration in PNG, SVG"
-        />
+          alt="Marketing newsletter via computer Illustration in PNG, SVG"/>
       </div>
       <div className="flex items-center">
         <div className="mx-auto md:mx-0">
@@ -37,12 +36,10 @@ const Footer = () => {
               name="email"
               id="email"
               placeholder="Enter your email"
-              className="w-full rounded border border-white/50 bg-transparent px-3 py-2 text-white placeholder:black-black/50 md:max-w-[18rem]"
-            />
+              className="w-full rounded border border-white/50 bg-transparent px-3 py-2 text-white placeholder:black-black/50 md:max-w-[18rem]"/>
             <button
               type="submit"
-              className="mt-4 w-full max-w-[14rem] rounded bg-yellow-500 hover:bg-white px-14 py-2 text-center text-black"
-            >
+              className="mt-4 w-full max-w-[14rem] rounded bg-yellow-500 hover:bg-white px-14 py-2 text-center text-black">
               Subscribe
             </button>
           </form>

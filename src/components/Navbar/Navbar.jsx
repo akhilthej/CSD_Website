@@ -11,10 +11,8 @@ const Navbar = () => {
     <main class ='mt-1 mx-4 sm:mx-20 rounded-2xl sticky top-0 z-50 bg-white/90  -mb-16' >
     <div className=' w-full h-14 flex justify-between items-center pl-10 md:pl-15 text-black '>
       <Link to='/'><img class="h-auto w-10" src={require('../../assets/Common/csd_navbarlogo.png')} alt='csd_logo' /></Link>
-      
       <div class=" justify-end ">
       <ul className='flex items-center '>
-        
         <li className='p-4 hidden lg:block'><Link to='/services'>Services</Link></li>
         <li className='p-4 hidden lg:block'><Link to='/clients'>Clients</Link></li>
         <li className='p-4 hidden lg:block'><Link to='/getquotation'>Get Quotation</Link></li>
