@@ -229,8 +229,6 @@ const Home = () => {
 
 {/* Services */}
 
-{/* Services */}
-
 <section>
    <div className="overflow-hidden">
       <div className="container m-auto px-6 space-y-8 text-black md:px-12">
@@ -242,7 +240,6 @@ const Home = () => {
                Services, We Provide
             </h2>
          </div>
-         
          <div className='py-10' style={{ backgroundPosition: 'center', backgroundImage: `url(${HeroCoverBG})`, backgroundRepeat: "no-repeat", backgroundSize: "cover" }}>
          <div className="mt-16 grid bg-white/80 border divide-x divide-y rounded-xl overflow-hidden sm:grid-cols-2 lg:divide-y-0 lg:grid-cols-3 xl:grid-cols-4">
             <div className="relative group transition hover:z-[1] hover:shadow-2xl">
@@ -466,8 +463,6 @@ const Home = () => {
       </div>
    </div>
 </section>
-
-
 
 
 {/* WE BUILD */}

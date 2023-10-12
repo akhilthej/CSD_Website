@@ -56,7 +56,7 @@ import MobileAppDevelopment from '../../assets/Icons/MobileAppDevelopment.svg'
 import WebDevelopment from '../../assets/Icons/WebDevelopment.svg'
 import SoftwareDeveloper from '../../assets/Icons/SoftwareDeveloper.svg'
 import MoreFeatures from '../../assets/Icons/MoreFeatures.svg'
-
+import HiringModel from '../../assets/Icons/HiringModel.svg'
 import FixedPrice from '../../assets/Icons/FixedPrice.svg'
 import TimeManage from '../../assets/Icons/TimeManage.svg'
 import OntimeDelivery from '../../assets/Icons/OntimeDelivery.svg'
@@ -69,7 +69,7 @@ export {
   
   /*Icons*/
   Advertising,Branding,DigitalMarketing,GraphicDesign,MobileAppDevelopment,WebDevelopment,SoftwareDeveloper,
-  FixedPrice,OntimeDelivery,TimeManage,MoreFeatures,
+  FixedPrice,OntimeDelivery,TimeManage,HiringModel,MoreFeatures,
 
     /* ClientsLogo */
     Archivitus,
