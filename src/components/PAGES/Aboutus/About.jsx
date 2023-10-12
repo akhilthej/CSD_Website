@@ -1,7 +1,6 @@
 import React from 'react';
 import coverimage from '../../../assets/About/aboutheader.webp';
 
-import akilthejreddy from '../../../assets/About/Founder.webp';
 import pavanchappa from '../../../assets/About/pavan.webp';
 import chaitanya from '../../../assets/About/chaitanya.webp';
 import riyavarma from '../../../assets/About/riyavarma.webp'
@@ -18,15 +17,15 @@ const About = () => {
         <div className="2xl:container 2xl:mx-auto lg:py-16 lg:px-20 md:py-12 md:px-6 py-9 px-4">
             <div className="flex flex-col lg:flex-row justify-between gap-8">
                 <div className="w-full lg:w-5/12 flex flex-col justify-center">         
-                    <h1 className="text-3xl mt-20 lg:text-4xl lg:mt-10 font-bold leading-9  pb-4  md:text-8xl text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-pink-600 ">About Us</h1>
-                    <p className="font-normal text-base leading-6 text-white/70 pb-4">We are a group of 5 experienced individuals working in web development and digital services for a
+                    <h1 className="text-3xl mt-20 lg:text-4xl lg:mt-10 font-bold leading-9  pb-4  md:text-8xl text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-600 ">About Us</h1>
+                    <p className="font-normal text-base leading-6 text-black pb-4">We are a group of 5 experienced individuals working in web development and digital services for a
                      diverse range of local and international brands. We have been in business for the past 6 years, providing high-quality, innovative solutions to meet the unique needs 
                      of each of our clients. With a strong focus on user experience and a deep understanding of the latest industry trends and technologies, we have established a 
                      reputation for delivering exceptional results. Our team has a wide range of skills and expertise, including front-end and back-end development, digital marketing, 
                      and project management, which allows us to provide comprehensive services that drive real results for our clients. Whether you're a small startup or a large enterprise, 
                      we have the skills and experience to help you achieve your goals.</p>
-                    <h1 className="text-3xl lg:text-4xl font-bold leading-9 text-gray-800 pb-4 text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-pink-600">Our Story</h1>
-                    <p className="font-normal text-base leading-6 text-white/70 ">Our story began 6 years ago, when a group of 5 engineers students came together with a shared passion for 
+                    <h1 className="text-3xl lg:text-4xl font-bold leading-9  pb-4 text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-600">Our Story</h1>
+                    <p className="font-normal text-base leading-6 text-black ">Our story began 6 years ago, when a group of 5 engineers students came together with a shared passion for 
                     web development and digital services. We had all studied computer science and had a keen interest in technology, and we saw an opportunity to use our skills to help local 
                     and international brands grow their online presence.<br/>We started small, working on freelance projects and building our portfolio. We quickly realized that there was a high 
                     demand for our services and that we had a real talent for creating custom websites and web applications that met the unique needs of each of our clients.<br/>As our business 
@@ -38,7 +37,7 @@ const About = () => {
                 </div>
                 <div className="w-full lg:w-8/12 lg:h-3/5">
                     <img className="w-full h-full rounded-2xl shadow-2xl" src= {coverimage} alt="A group of People" />
-                    <p className="font-normal text-base leading-6 mt-10 text-white/70 ">We have had many successes and also faced many challenges, 
+                    <p className="font-normal text-base leading-6 mt-10 text-black ">We have had many successes and also faced many challenges, 
                     but we have learned from our mistakes and have grown as a team. Now, we are a team of experts who have worked with a variety of industries and have developed a deep 
                     understanding of what works best for each of them.<br/>We are proud of our achievements and are excited about the future. We are committed to continuously learning and 
                     staying up-to-date with the latest industry trends and technologies, so that we can continue to provide the best possible service to our clients.<br/>Looking back, we can 
@@ -48,8 +47,8 @@ const About = () => {
                 </div>
             </div>
         </div>
-        <h1 className="text-3xl text-center lg:text-4xl font-bold leading-9 text-gray-800  pb-4 text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-pink-600">More About us</h1>
-        <p className="font-normal text-base leading-6 text-white/70 px-10 pb-4">As a group of web developers and digital service providers, we specialize in creating custom websites and 
+        <h1 className="text-3xl text-center lg:text-4xl font-bold leading-9 pb-4 text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-600">More About us</h1>
+        <p className="font-normal text-base leading-6 text-black px-10 pb-4">As a group of web developers and digital service providers, we specialize in creating custom websites and 
         web applications that are tailored to the specific needs of each of our clients. Our team has a wealth of experience in various web development technologies and frameworks, 
         including HTML, CSS, JavaScript, React, Angular, Vue, and more.<br/> We are also proficient in back-end development, using technologies such as NodeJS, PHP, and Python to create 
         robust and scalable systems that can handle high traffic and complex business logic. Our team is also well-versed in database management and optimization, ensuring that our solutions 
@@ -64,10 +63,10 @@ const About = () => {
             <div className=" py-20">
   <div className="container mx-auto px-6 md:px-12 xl:px-32">
     <div className="mb-16 text-center">
-      <h2 className="mb-4 text-center text-2xl  font-bold md:text-4xl text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-pink-600">
+      <h2 className="mb-4 text-center text-2xl  font-bold md:text-4xl text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-600">
         Leadership Board
       </h2>
-      <p className="text-white lg:w-8/12 lg:mx-auto">
+      <p className="text-black lg:w-8/12 lg:mx-auto">
         CSD is known for its multi-project handeling. we deal with various technology and
          with on development projects,the talent of its people of some of the brightest 
          minds and most experienced executives in business.
@@ -77,27 +76,27 @@ const About = () => {
       <div className="space-y-4 text-center">
         <img
           className=" w-64 h-64 mx-auto object-cover rounded-xl md:w-40 md:h-40 lg:w-64 lg:h-64"
-          src= {pavanchappa}
+          src="https://drive.google.com/uc?id=1bwO3a9nrCA4R64Y582Os7GCI7GPpu5Qt"
           loading="lazy"
           width={640}
           height={805}
         />
         <div>
-          <h4 className="text-2xl text-white">Pavan Kumar</h4>
-          <span className="block text-sm text-gray-300">Partner<br/>Chief Operations Officer<br/>( IT Recruiter )</span>
+          <h4 className="text-2xl text-black">Pavan Kumar</h4>
+          <span className="block text-sm text-gray-900">Partner<br/>Chief Operations Officer<br/>( IT Recruiter )</span>
         </div>
       </div>
       <div className="space-y-4 text-center">
         <img
           className=" w-64 h-64 mx-auto object-cover rounded-xl md:w-48 md:h-64 lg:w-64 lg:h-80"
-          src={akilthejreddy}
+          src="https://drive.google.com/uc?id=1MOs5X4WY0fcWTD72c0ukrUzaEzHcLpQ4"
           loading="lazy"
           width={1000}
           height={667}
         />
         <div>
-          <h4 className="text-2xl text-white ">Akhil Thej Reddy</h4>
-          <span className="block text-sm text-gray-300">
+          <h4 className="text-2xl text-black ">Akhil Thej Reddy</h4>
+          <span className="block text-sm text-gray-900">
             Founder<br/>Chief Executive Officer<br/>( Full Stack Developer )<br/></span>
         </div>
       </div>
@@ -110,8 +109,8 @@ const About = () => {
           height={667}
         />
         <div>
-          <h4 className="text-2xl text-white">Riya Varma</h4>
-          <span className="block text-sm text-gray-300">
+          <h4 className="text-2xl text-black">Riya Varma</h4>
+          <span className="block text-sm text-gray-900">
           Patner<br/>Chief Technical Officer<br/>( Data Analyst )
           </span>
         </div>
@@ -125,31 +124,31 @@ const About = () => {
         {/*...Teams...*/}
         <section >
   <div className="container px-6 py-10 mx-auto">
-    <h1 className="text-3xl pb-1 font-semibold text-center capitalize lg:text-4xl text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-pink-600">
+    <h1 className="text-3xl pb-1 font-semibold text-center capitalize lg:text-4xl text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-600">
       Our Team, Friends & Family
     </h1>
-    <p className="max-w-2xl mx-auto my-6 text-center text-gray-300">
+    <p className="max-w-2xl mx-auto my-6 text-center text-gray-900">
       We have a dedicated team of quick-learners and more than 10 years of experince in each craft.
     </p>
     <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-4">
       <div className="flex flex-col items-center p-8 transition-colors duration-200 transform cursor-pointer group hover:bg-yellow-600 rounded-xl">
         <img
           className="object-cover w-32 h-40 rounded-full ring-4 ring-gray-300"
-          src={chaitanya}
+          src="https://drive.google.com/uc?id=1BGwKANvkHsETmSysa49o23urActBB12a"
         />
-        <h1 className="mt-4 text-2xl font-semibold  capitalize text-white group-hover:text-white">
+        <h1 className="mt-4 text-2xl font-semibold  capitalize text-black group-hover:text-black">
           Chaitanya Teja
         </h1>
-        <p className="mt-2  capitalize text-gray-300 group-hover:text-gray-300">
+        <p className="mt-2  capitalize text-gray-900 group-hover:text-gray-900">
         Front-end Developer
         </p>
-        <p className="mt-2  text-sm capitalize text-gray-300 group-hover:text-gray-300">
+        <p className="mt-2  text-sm capitalize text-gray-900 group-hover:text-gray-900">
          Web Developer
         </p>
         <div className="flex mt-3 -mx-2">
           <a
             href="#"
-            className="mx-2 text-gray-300 hover:text-gray-300 group-hover:text-white"
+            className="mx-2 text-gray-900 hover:text-gray-900 group-hover:text-black"
             aria-label="Reddit"
           >
             <svg
@@ -163,7 +162,7 @@ const About = () => {
           </a>
           <a
             href="#"
-            className="mx-2 text-gray-300 hover:text-gray-300 group-hover:text-white"
+            className="mx-2 text-gray-900 hover:text-gray-900 group-hover:text-black"
             aria-label="Facebook"
           >
             <svg
@@ -177,7 +176,7 @@ const About = () => {
           </a>
           <a
             href="#"
-            className="mx-2 text-gray-300 hover:text-gray-300 group-hover:text-white"
+            className="mx-2 text-gray-900 hover:text-gray-900 group-hover:text-black"
             aria-label="Github"
           >
             <svg
@@ -194,21 +193,21 @@ const About = () => {
       <div className="flex flex-col items-center p-8 transition-colors duration-200 transform cursor-pointer group hover:bg-yellow-600 rounded-xl">
         <img
           className="object-cover w-32 h-40 rounded-full ring-4 ring-gray-300"
-          src={srikar}
+          src="https://drive.google.com/uc?id=1ANDL7Gfan4ejG2sMHqZVjanODSk8yvlB"
         />
-        <h1 className="mt-4 text-2xl font-semibold capitalize text-white group-hover:text-white">
+        <h1 className="mt-4 text-2xl font-semibold capitalize text-black group-hover:text-black">
           Srikar
         </h1>
-        <p className="mt-2  capitalize text-gray-300 group-hover:text-gray-300">
+        <p className="mt-2  capitalize text-gray-900 group-hover:text-gray-900">
         Senior AWS cloud
         </p>
-        <p className="mt-2  text-sm capitalize text-gray-300 group-hover:text-gray-300">
+        <p className="mt-2  text-sm capitalize text-gray-900 group-hover:text-gray-900">
          devops engineer
         </p>
         <div className="flex mt-3 -mx-2">
           <a
             href="#"
-            className="mx-2 text-gray-300 hover:text-gray-300 group-hover:text-white"
+            className="mx-2 text-gray-900 hover:text-gray-900 group-hover:text-black"
             aria-label="Reddit"
           >
             <svg
@@ -222,7 +221,7 @@ const About = () => {
           </a>
           <a
             href="#"
-            className="mx-2 text-gray-300 hover:text-gray-300 group-hover:text-white"
+            className="mx-2 text-gray-900 hover:text-gray-900 group-hover:text-black"
             aria-label="Facebook"
           >
             <svg
@@ -236,7 +235,7 @@ const About = () => {
           </a>
           <a
             href="#"
-            className="mx-2 text-gray-300 hover:text-gray-300 group-hover:text-white"
+            className="mx-2 text-gray-900 hover:text-gray-900 group-hover:text-black"
             aria-label="Github"
           >
             <svg
@@ -254,21 +253,21 @@ const About = () => {
       <div className="flex flex-col items-center p-8 transition-colors duration-200 transform cursor-pointer group hover:bg-yellow-600 rounded-xl">
         <img
           className="object-cover w-32 h-40 rounded-full ring-4 ring-gray-300"
-          src={varuntej}
+          src="https://drive.google.com/uc?id=1TVZBZvfxP5yIPcWGZVkkuNFg_XVQc5UY"
         />
-        <h1 className="mt-4 text-2xl font-semibold  capitalize text-white group-hover:text-white">
+        <h1 className="mt-4 text-2xl font-semibold  capitalize text-black group-hover:text-black">
           Tej Varun
         </h1>
-        <p className="mt-2  capitalize text-gray-300 group-hover:text-gray-300">
+        <p className="mt-2  capitalize text-gray-900 group-hover:text-gray-900">
         Senior Graphic Designer
         </p>
-        <p className="mt-2  text-sm capitalize text-gray-300 group-hover:text-gray-300">
+        <p className="mt-2  text-sm capitalize text-gray-900 group-hover:text-gray-900">
          Senior Video Editor
         </p>
         <div className="flex mt-3 -mx-2">
           <a
             href="#"
-            className="mx-2 text-gray-300 hover:text-gray-300 group-hover:text-white"
+            className="mx-2 text-gray-900 hover:text-gray-900 group-hover:text-black"
             aria-label="Reddit"
           >
             <svg
@@ -282,7 +281,7 @@ const About = () => {
           </a>
           <a
             href="#"
-            className="mx-2 text-gray-300 hover:text-gray-300 group-hover:text-white"
+            className="mx-2 text-gray-900 hover:text-gray-900 group-hover:text-black"
             aria-label="Facebook"
           >
             <svg
@@ -296,7 +295,7 @@ const About = () => {
           </a>
           <a
             href="#"
-            className="mx-2 text-gray-300 hover:text-gray-300 group-hover:text-white"
+            className="mx-2 text-gray-900 hover:text-gray-900 group-hover:text-black"
             aria-label="Github"
           >
             <svg
@@ -313,18 +312,18 @@ const About = () => {
       <div className="flex flex-col items-center p-8 transition-colors duration-200 transform cursor-pointer group hover:bg-yellow-600 rounded-xl">
         <img
           className="object-cover w-32 h-40 rounded-full ring-4 ring-gray-300"
-          src= {saikiran}
+          src="https://drive.google.com/uc?id=1jLmasDLG1HHlT4MoK4_IBQyoDvaC8_oV"
         />
-        <h1 className="mt-4 text-2xl font-semibold  capitalize text-white group-hover:text-white">
+        <h1 className="mt-4 text-2xl font-semibold  capitalize text-black group-hover:text-black">
           Sai Kiran
         </h1>
-        <p className="mt-2  capitalize text-gray-300 group-hover:text-gray-300">
+        <p className="mt-2  capitalize text-gray-900 group-hover:text-gray-900">
           Designer
         </p>
         <div className="flex mt-3 -mx-2">
           <a
             href="#"
-            className="mx-2 text-gray-300 hover:text-gray-300 group-hover:text-white"
+            className="mx-2 text-gray-900 hover:text-gray-900 group-hover:text-black"
             aria-label="Reddit"
           >
             <svg
@@ -338,7 +337,7 @@ const About = () => {
           </a>
           <a
             href="#"
-            className="mx-2 text-gray-300 hover:text-gray-300 group-hover:text-white"
+            className="mx-2 text-gray-900 hover:text-gray-900 group-hover:text-black"
             aria-label="Facebook"
           >
             <svg
@@ -352,7 +351,7 @@ const About = () => {
           </a>
           <a
             href="#"
-            className="mx-2 text-gray-300 hover:text-gray-300 group-hover:text-white"
+            className="mx-2 text-gray-900 hover:text-gray-900 group-hover:text-black"
             aria-label="Github"
           >
             <svg
