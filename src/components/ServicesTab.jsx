@@ -57,7 +57,7 @@ const ServicesTab = () => {
                     </p>
                   </div>
                   <a
-                    href="#/services"
+                    href="/services"
                     className="flex justify-between items-center group-hover:text-yellow-600"
                   >
                     <span className="text-sm">Read more</span>
@@ -87,7 +87,7 @@ const ServicesTab = () => {
                     </p>
                   </div>
                   <a
-                    href="#/services"
+                    href="/services"
                     className="flex justify-between items-center group-hover:text-yellow-600"
                   >
                     <span className="text-sm">Read more</span>
@@ -119,7 +119,7 @@ const ServicesTab = () => {
                     </p>
                   </div>
                   <a
-                    href="#/services"
+                    href="/services"
                     className="flex justify-between items-center group-hover:text-yellow-600"
                   >
                     <span className="text-sm">Read more</span>
@@ -151,7 +151,7 @@ const ServicesTab = () => {
                     </p>
                   </div>
                   <a
-                    href="#/services"
+                    href="/services"
                     className="flex justify-between items-center group-hover:text-yellow-600"
                   >
                     <span className="text-sm">Read more</span>
@@ -191,7 +191,7 @@ const ServicesTab = () => {
                   </p>
                 </div>
                 <a
-                  href="#/services"
+                  href="/services"
                   className="flex justify-between items-center group-hover:text-yellow-600"
                 >
                   <span className="text-sm">Read more</span>
@@ -223,7 +223,7 @@ const ServicesTab = () => {
                   </p>
                 </div>
                 <a
-                  href="#/services"
+                  href="/services"
                   className="flex justify-between items-center group-hover:text-yellow-600"
                 >
                   <span className="text-sm">Read more</span>
@@ -256,7 +256,7 @@ const ServicesTab = () => {
                   </p>
                 </div>
                 <a
-                  href="#/services"
+                  href="/services"
                   className="flex justify-between items-center group-hover:text-yellow-600"
                 >
                   <span className="text-sm">Read more</span>
@@ -286,7 +286,7 @@ const ServicesTab = () => {
                   </p>
                 </div>
                 <a
-                  href="#/services"
+                  href="/services"
                   className="flex justify-between items-center"
                 >
                   <span className="text-sm">Read more</span>

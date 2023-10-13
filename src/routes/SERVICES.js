@@ -4,7 +4,8 @@ import { Helmet } from 'react-helmet-async';
 import {Link} from 'react-router-dom';
 
 
-import ServicesHeroImg from '../assets/ImagesPage/ServicesHeaderImage.png'
+import ServicesHeroImg from '../assets/ImagesPage/ServicesHeaderImage.png';
+import ServicesTab from '../components/ServicesTab';
 
 const SERVICES = () => {
   return (
@@ -31,7 +32,7 @@ const SERVICES = () => {
         </div>
         <div className="flex items-center">
           <div className="mx-auto md:mx-0">
-            <h3 className="text-4xl fade-in-down font-extrabold text-transparent  md:text-6xl bg-clip-text bg-gradient-to-r from-yellow-400 to-pink-600 tracking-tight">Distribute your brand from&nbsp;Design to Code</h3>
+            <h3 className="text-4xl fade-in-down font-extrabold text-transparent  md:text-6xl bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-600 tracking-tight">Distribute your brand from&nbsp;Design to Code</h3>
             <p className="mt-2 text-lg text-black">
             Specify helps you unify your brand identity by collecting, storing and
             distributing design tokens and assets — automatically.
@@ -40,7 +41,7 @@ const SERVICES = () => {
             <div class="mt-8 flex flex-wrap justify-center gap-4">
         <Link to= '/contactus'>
         <a
-          class="transform rounded-mdpx-6 rounded bg-gradient-to-r from-yellow-500 to-orange-600 px-5 py-3 font-medium text-white transition-colors hover:from-pink-600 hover:to-orange-400">
+          class="transform rounded-mdpx-6 rounded bg-gradient-to-r from-yellow-500 to-orange-600 px-5 py-3 font-medium text-white transition-colors hover:from-orange-600 hover:to-orange-400">
           Get in-touch
         </a></Link>
 
@@ -57,7 +58,7 @@ const SERVICES = () => {
     </div>
   </section>
 
-  
+  <ServicesTab/>
 
 </main>
     
