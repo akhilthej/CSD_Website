@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.d4a13689.css",
-    "main.js": "/static/js/main.6ae4e902.js",
+    "main.js": "/static/js/main.bd85e0c5.js",
     "static/media/homepage2 - HD 1080p.mov": "/static/media/homepage2 - HD 1080p.cd3dd2ddcfb1872583a7.mov",
     "static/media/applogo.gif": "/static/media/applogo.b8f77c8bd9e33777b1f6.gif",
     "static/media/democover.jpg": "/static/media/democover.d6b5331c54468424aed5.jpg",
@@ -23,7 +23,7 @@
     "static/media/CSDbothome.png": "/static/media/CSDbothome.5a7c3b45d031c6565c34.png",
     "static/media/TechHeroHeader.png": "/static/media/TechHeroHeader.c3cf1f0dd7a47819452a.png",
     "static/media/website-development.jpg": "/static/media/website-development.c85c7fe7ba4519d2ead7.jpg",
-    "static/media/csdLogo.png": "/static/media/csdLogo.ad7824d5b65f29a721b6.png",
+    "static/media/csdLogo.png": "/static/media/csdLogo.149f4d4c58ca3d2447a4.png",
     "static/media/labelanuneni.png": "/static/media/labelanuneni.4aa6b52ab418c760a2b6.png",
     "static/media/Subscribe.png": "/static/media/Subscribe.68f61a5d75abbc0d1333.png",
     "static/media/mobiledev.png": "/static/media/mobiledev.7ab74e755f69935c9bc1.png",
@@ -57,10 +57,10 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "main.d4a13689.css.map": "/static/css/main.d4a13689.css.map",
-    "main.6ae4e902.js.map": "/static/js/main.6ae4e902.js.map"
+    "main.bd85e0c5.js.map": "/static/js/main.bd85e0c5.js.map"
   },
   "entrypoints": [
     "static/css/main.d4a13689.css",
-    "static/js/main.6ae4e902.js"
+    "static/js/main.bd85e0c5.js"
   ]
 }
