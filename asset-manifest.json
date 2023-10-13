@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.0e21138e.css",
-    "main.js": "/static/js/main.0a1e24e5.js",
+    "main.css": "/static/css/main.d4a13689.css",
+    "main.js": "/static/js/main.6ae4e902.js",
     "static/media/homepage2 - HD 1080p.mov": "/static/media/homepage2 - HD 1080p.cd3dd2ddcfb1872583a7.mov",
     "static/media/applogo.gif": "/static/media/applogo.b8f77c8bd9e33777b1f6.gif",
     "static/media/democover.jpg": "/static/media/democover.d6b5331c54468424aed5.jpg",
@@ -16,7 +16,6 @@
     "static/media/ARK-002.png": "/static/media/ARK-002.0907260de9996bb721f2.png",
     "static/media/ClientHeader.png": "/static/media/ClientHeader.5685c097a73ff31edad1.png",
     "static/media/ILA-002.png": "/static/media/ILA-002.dc2e513de4db7ae2ddb1.png",
-    "static/media/csd_navbarlogo.png": "/static/media/csd_navbarlogo.f5588dda4b4726c0f4f0.png",
     "static/media/GetQoutationHeader.png": "/static/media/GetQoutationHeader.a61124233708b94daee2.png",
     "static/media/ReviewsHero.png": "/static/media/ReviewsHero.f3eb97f0e0d7e31a8344.png",
     "static/media/HeroCoverBG.png": "/static/media/HeroCoverBG.d4a05e8db52361610406.png",
@@ -24,6 +23,7 @@
     "static/media/CSDbothome.png": "/static/media/CSDbothome.5a7c3b45d031c6565c34.png",
     "static/media/TechHeroHeader.png": "/static/media/TechHeroHeader.c3cf1f0dd7a47819452a.png",
     "static/media/website-development.jpg": "/static/media/website-development.c85c7fe7ba4519d2ead7.jpg",
+    "static/media/csdLogo.png": "/static/media/csdLogo.ad7824d5b65f29a721b6.png",
     "static/media/labelanuneni.png": "/static/media/labelanuneni.4aa6b52ab418c760a2b6.png",
     "static/media/Subscribe.png": "/static/media/Subscribe.68f61a5d75abbc0d1333.png",
     "static/media/mobiledev.png": "/static/media/mobiledev.7ab74e755f69935c9bc1.png",
@@ -56,11 +56,11 @@
     "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
-    "main.0e21138e.css.map": "/static/css/main.0e21138e.css.map",
-    "main.0a1e24e5.js.map": "/static/js/main.0a1e24e5.js.map"
+    "main.d4a13689.css.map": "/static/css/main.d4a13689.css.map",
+    "main.6ae4e902.js.map": "/static/js/main.6ae4e902.js.map"
   },
   "entrypoints": [
-    "static/css/main.0e21138e.css",
-    "static/js/main.0a1e24e5.js"
+    "static/css/main.d4a13689.css",
+    "static/js/main.6ae4e902.js"
   ]
 }
