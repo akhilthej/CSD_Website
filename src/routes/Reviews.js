@@ -37,7 +37,7 @@ const Reviews = () => {
             
             <div class="mt-8 flex flex-wrap justify-center gap-4">
         <Link to= '/contactus'><a
-          class=" transform rounded-mdpx-6 rounded bg-gradient-to-r from-orange-400 to-orange-600 px-5 py-3 font-medium text-black transition-colors hover:from-orange-600 hover:to-orange-400"
+          class=" transform rounded-mdpx-6 rounded bg-gradient-to-r from-orange-400 to-orange-600 px-5 py-3 font-medium text-white transition-colors hover:from-orange-600 hover:to-orange-400"
           
         >
           Get in-touch
