@@ -251,8 +251,8 @@ const Footer = () => {
     <a href="https://search.google.com/local/writereview?placeid=ChIJM0IEPqRRmg0RyLQAP_5varc"> <img  class="h-10 hover:animate-pulse  max-w-full ml-auto mr-auto mt-2" src= {googlereview} alt="googlereview_icon" /></a>
  
     <div class="h-px my-8 border-0 bg-gray-700"/>
-    <p className="text-center text-xs text-white">© 2018-2023 cyberspacedigital.in - Web Development & Designer Community ( #CSD )</p>
-  </div>
+   <p id="copyright" class="cursor-default text-center text-xs text-white">© 2018-<span id="currentYear">2023</span> cyberspacedigital.in - Web Development & Designer Community ( #CSD )</p>
+ </div>
 </footer>
 <section/>
   
@@ -260,20 +260,22 @@ const Footer = () => {
   
 
     {/* Whatapp us */}
-  <div className=" fade-in-left flex items-end justify-start fixed bottom-0 left-0 ml-4 z-10">
+  <div className=" fade-in-left flex items-end justify-start fixed bottom-0 left-0 ml-2 mb-1 z-10">
     <div>
      
      <a title="Whatsapp"
         href="https://wa.me/+918143407758"
         target="_blank"
-        className="mb-1 block w-12 rounded-full transition-all shadow hover:shadow-lg transform hover:scale-110 hover:rotate-12"> 
+        className=" block w-12 rounded-full transition-all  transform hover:scale-110 hover:rotate-12"> 
         <img className=" object-cover object-center w-8 sm:w-12"
           src={WhatsApp} alt="whatappicon" />
       </a>
 
-      <h1 class='fade-in-left delay-100 cursor-default text-gray-500 text-xs pb-2'>Desgined & Developed by CSD</h1>
+     {/* <spam class='fade-in-left delay-100 cursor-default text-gray-500 text-xs pb-2'>Desgined & Developed by CSD</spam> */}
     </div>
   </div>
+
+
      
 </section>
 </main>
