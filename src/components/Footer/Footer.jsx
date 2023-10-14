@@ -126,7 +126,7 @@ const Footer = () => {
           </a>
           <a
             className="hover:opacity-75"
-            href=""
+            href="https://github.com/akhilthej"
             target="_blank"
             rel="noreferrer"
           >

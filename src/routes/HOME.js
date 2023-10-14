@@ -42,14 +42,14 @@ const Home = () => {
           <section className="flex items-center my-10 justify-center  bg-white ">
             <div className="mx-auto max-w-[55rem]">
               <div className="text-center">
-                <p className="text-sm sm:text-2xl font-extrabold leading-8  text-gray-900">
+                <p className="cursor-default text-sm sm:text-2xl font-extrabold leading-8  text-gray-900">
                   DESIGN . DEVELOP & DEPLOY
                 </p>
-                <h1 className="upanddown pb-8 font-extrabold text-transparent text-4xl md:text-7xl lg:text-8xl bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-600 mt-3  leading-[3.5rem] tracking-tight">
+                <h1 className="cursor-default upanddown pb-8 font-extrabold text-transparent text-4xl md:text-7xl lg:text-8xl bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-600 mt-3  leading-[3.5rem] tracking-tight">
                   Cyber Space Digital
                 </h1>
 
-                <p className="text-sm sm:text-xl font-extrabold leading-8  text-gray-900">
+                <p className="cursor-default text-sm sm:text-xl font-extrabold leading-8  text-gray-900">
                   Take your brand online today for a global presence.
                 </p>
               </div>
@@ -89,11 +89,11 @@ const Home = () => {
         <section className="flex items-center my-10 justify-center  bg-white ">
           <div className="mx-auto max-w-[55rem]">
             <div className="text-center">
-              <p className="text-sm sm:text-4xl font-extrabold  text-gray-900">
+              <p className="cursor-default text-sm sm:text-4xl font-extrabold  text-gray-900">
                 Your Vision, Our Code – Perfectly Executed.
               </p>
 
-              <p className="text-sm sm:text-xl pt-5  text-gray-900">
+              <p className="cursor-default text-sm sm:text-xl pt-5  text-gray-900">
                 Unlocking the Full Potential of Your Online Brand.
               </p>
             </div>
@@ -119,7 +119,7 @@ const Home = () => {
 
         {/* WE BUILD */}
         <section>
-          <div className="py-10 flex flex-col items-center justify-center">
+          <div className="cursor-default py-10 flex flex-col items-center justify-center">
             <div className="text-center">
               <h2 className="font-extrabold text-transparent text-4xl md:text-5xl lg:text-8xl bg-clip-text bg-yellow-400 tracking-tight ">
                 WE BUILD
@@ -140,7 +140,7 @@ const Home = () => {
 
         {/*Whatdowedo */}
         <section>
-          <div className="px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
+          <div className="cursor-default px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
             <div className="max-w-screen-md mb-8 lg:mb-16">
               <h2 className="font-extrabold text-transparent text-4xl md:text-5xl lg:text-8xl bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-600 mt-3 text-[2.5rem] md:text-[3rem] lg:text-[3.5rem] leading-[3.5rem] tracking-tight text-black">
                 What do we do?
@@ -230,7 +230,7 @@ const Home = () => {
         {/*Explore */}
         <section>
           <section>
-            <div className="container px-6 py-10 mx-auto">
+            <div className="cursor-default container px-6 py-10 mx-auto">
               <div className="lg:flex lg:items-center">
                 <div className="w-full space-y-12 lg:w-1/2 ">
                   <div>
@@ -355,7 +355,7 @@ const Home = () => {
      {/*CountDown */}
      
      {/*Line of Engagement */}
- <section id="services" className="section relative pt-10 pb-8 md:pt-16 md:pb-10">
+ <section id="services" className="cursor-default section relative pt-10 pb-8 md:pt-16 md:pb-10">
   <div className="xl:max-w-8xl mx-auto px-4">
     {/* Heading for "Line of Engagement" section */}
 
@@ -492,10 +492,10 @@ const Home = () => {
 
  {/* "Documentation" section */}
  <section className="text-center mx-auto my-8">
-      <h2 className="pb-2 font-extrabold text-transparent text-2xl md:text-5xl lg:text-6xl bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-600 mt-3  tracking-tight ">
+      <h2 className="cursor-default pb-2 font-extrabold text-transparent text-2xl md:text-5xl lg:text-6xl bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-600 mt-3  tracking-tight ">
         Need Help ?
       </h2>
-      <p className="text-sm font-medium text-black mt-5 mb-10">
+      <p className="cursor-default text-sm font-medium text-black mt-5 mb-10">
         Explore our comprehensive documentation for more information on our services.
       </p>
     

@@ -6,7 +6,7 @@ import 'slick-carousel/slick/slick-theme.css';
 const BrandCarousel = () => {
   const settings = {
     autoplay: true,
-    autoplaySpeed: 2000, // Set the rotation speed (in milliseconds)
+    autoplaySpeed: 1000, // Set the rotation speed (in milliseconds)
     arrows: true, // Remove arrow navigation
     dots: false, // Remove dot indicators
     infinite: true,

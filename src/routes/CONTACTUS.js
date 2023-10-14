@@ -20,15 +20,16 @@ const CONTACTUS = () => {
             </Helmet>
     
 {/*Services Title Card*/}
-<section className="mt-20 flex items-center justify-center ">
+<section className="my-20 flex items-center justify-center ">
     <div className="mx-auto max-w-[43rem]">
       <div className="text-center">
-        <h1 className="pb-3 text-4xl fade-in-down font-extrabold text-transparent  md:text-6xl bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-600 tracking-tight">
-        Get in touch,<br />we’d love to hear from you.
-        </h1>
-        <p className="mt-3 text-lg leading-relaxed text-black">
-          You can contact us through mail or you can get in touch at our digital office.
-        </p>
+      <h1 className="cursor-default upanddown pb-8 font-extrabold text-transparent text-4xl md:text-7xl lg:text-8xl bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-600 mt-3  leading-[3.5rem] tracking-tight">
+      Get in touch,<br />we’d love to hear from you.
+                </h1>
+        
+        <p className="cursor-default text-sm sm:text-2xl my-3 leading-8  text-gray-900">
+        You can contact us through mail or you can get in touch at our digital office.
+                </p>
       </div>
       <img className="hero container max-w-screen-lg mx-auto flex w-64 "
             src={('https://drive.google.com/uc?id=1-RKGIgPQ6gfNDnoW1jr6R_TzB9P_12ge')}/>  
