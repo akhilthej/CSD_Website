@@ -9,7 +9,7 @@ function classNames(...classes) {
 const Navbar = () => {
   return (
     <main class ='rounded-2xl sticky top-0 z-50 bg-white/90 drop-shadow-lg ' >
-    <div className=' sm:px-20 w-full h-14 flex justify-between items-center text-black '>
+    <div className=' sm:px-20 w-full h-17 flex justify-between items-center text-black '>
       <Link to='/'><img class="pl-2 h-auto w-40  lg:w-52" src={require('../../assets/Common/csdLogo.png')} alt='csd_logo' /></Link>
       <div class=" justify-end ">
       <ul className='flex items-center '>

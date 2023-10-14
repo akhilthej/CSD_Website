@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 import Subscribe from '../../assets/Icons/Subscribe.png'
 
 import {googlereview} from '../data/data.jsx';
-import footer_csd from '../../assets/Common/footer_csd.png';
+import footer_csd from '../../assets/Common/csdLogo.png';
 import WhatsApp from '../../assets/Icons/WhatsApp.png';
 
 const Footer = () => {
@@ -59,7 +59,7 @@ const Footer = () => {
   <div className="max-w-screen-xl px-4 py-16 mx-auto sm:px-9 lg:px-8">
     <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
     <div>
-    <Link to ='/'><img src= {footer_csd} className="mr-5 h-14 sm:h-20 " alt="footer_csd" /></Link>
+    <Link to ='/'><img src= {footer_csd} className="mr-5 h-10 sm:h-10 " alt="footer_csd" /></Link>
         <p className="max-w-xs mt-4 text-sm text-gray-600">
         We are a web Developing & Designing company with a mission to help build there business online.
         We accomplish this by continuously developing technology, giving expert assistance, and ensuring a flawless online website 
