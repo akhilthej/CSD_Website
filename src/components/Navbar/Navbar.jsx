@@ -9,15 +9,15 @@ function classNames(...classes) {
 const Navbar = () => {
   return (
     <main class ='rounded-2xl sticky top-0 z-50 bg-white/90 drop-shadow-lg ' >
-    <div className=' sm:px-20 w-full h-24 flex justify-between items-center text-black '>
-      <Link to='/'><img class="pl-2 h-auto w-40  lg:w-56" src={require('../../assets/Common/csdLogo.png')} alt='csd_logo' /></Link>
+    <div className=' sm:px-20 w-full h-14 flex justify-between items-center text-black '>
+      <Link to='/'><img class="pl-2 h-auto w-40  lg:w-52" src={require('../../assets/Common/csdLogo.png')} alt='csd_logo' /></Link>
       <div class=" justify-end ">
       <ul className='flex items-center '>
-        <li className='p-4 hidden lg:block'><Link to='/services'>Services</Link></li>
-        <li className='p-4 hidden lg:block'><Link to='/clients'>Clients</Link></li>
-        <li className='p-4 hidden lg:block'><Link to='/getquotation'>Get Quotation</Link></li>
-        <li className='p-4 hidden lg:block'><Link to='/aboutus'>About us</Link></li>
-        <li className='p-4 hidden lg:block'><Link to='/contactus'>Contact us</Link></li>
+        <li className='p-4 hidden lg:block font-semibold antialiased '><Link to='/services'>Services</Link></li>
+        <li className='p-4 hidden lg:block font-semibold antialiased'><Link to='/clients'>Clients</Link></li>
+        <li className='p-4 hidden lg:block font-semibold antialiased'><Link to='/getquotation'>Get Quotation</Link></li>
+        <li className='p-4 hidden lg:block font-semibold antialiased'><Link to='/aboutus'>About us</Link></li>
+        <li className='p-4 hidden lg:block font-semibold antialiased'><Link to='/contactus'>Contact us</Link></li>
         <li className='p-4'>
         <Menu as='div' className='relative inline-block text-left '>
             <div>
@@ -84,7 +84,7 @@ const Navbar = () => {
                     )}
                   </Menu.Item>
                 </div>
-                <div className='py-1 mt-1'>
+                <div className='py-1 mt-1 '>
                   <Menu.Item>
                     {({ active }) => (
                       <Link to='/technologies'><a
