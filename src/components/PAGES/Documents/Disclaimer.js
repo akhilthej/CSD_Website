@@ -3,7 +3,7 @@ import React from 'react';
 const Disclaimer = () => {
   return (
     <>
-    <div className='disclaimer px-5 mt-6 text-white mx-4'>
+    <div className='disclaimer px-5 mt-6 text-black mx-4'>
     <h1 className='text-center text-2xl py-10 font-bold'> DISCLAIMER </h1>
 Last updated: 2022-11-01<br/><br/>
 <a className='text-lg font-medium '>WEBSITE DISCLAIMER</a><br />
