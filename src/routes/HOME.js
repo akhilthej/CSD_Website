@@ -36,7 +36,7 @@ const Home = () => {
         <link rel="canonical" href="/" />
       </Helmet>
 
-      <main className="my-20 sm:my-20 sm:mx-20">
+      <main className="my-20 sm:my-20 sm:mx-20 overflow-hidden">
         {/*herosection */}
         <header>
           <section className="flex items-center my-10 justify-center  bg-white ">
