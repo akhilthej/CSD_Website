@@ -70,7 +70,7 @@ const Footer = () => {
 
         <div className="flex space-x-6 text-gray-600 pt-2">
           <a
-            className="hover:opacity-75"
+            className="hover:opacity-100"
             href="https://www.facebook.com/profile.php?id=100087441512479"
             target="_blank"
             rel="noreferrer"
@@ -90,7 +90,7 @@ const Footer = () => {
             </svg>
           </a>
           <a
-            className="hover:opacity-75"
+            className="hover:opacity-100"
             href="https://www.instagram.com/cyber.space.digital/"
             target="_blank"
             rel="noreferrer"
@@ -109,8 +109,8 @@ const Footer = () => {
             </svg>
           </a>
           <a
-            className="hover:opacity-75"
-            href=""
+            className="hover:opacity-100"
+            href="https://twitter.com/CyberSD1995"
             target="_blank"
             rel="noreferrer"
           >
@@ -125,7 +125,7 @@ const Footer = () => {
             </svg>
           </a>
           <a
-            className="hover:opacity-75"
+            className="hover:opacity-100"
             href="https://github.com/akhilthej"
             target="_blank"
             rel="noreferrer"
@@ -145,7 +145,7 @@ const Footer = () => {
             </svg>
           </a>
           <a
-            className="hover:opacity-75"
+            className="hover:opacity-100"
             href=""
             target="_blank"
             rel="noreferrer"
@@ -170,11 +170,11 @@ const Footer = () => {
         <div>
           <p className="font-medium text-white">Company</p>
           <nav className="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
-            <a className="hover:opacity-75" href="/aboutus">
+            <a className="hover:opacity-100" href="/aboutus">
               {" "}
               About us{" "}
             </a>
-            <a className="hover:opacity-75" href="/clients">
+            <a className="hover:opacity-100" href="/clients">
               {" "}
               Clients{" "}
             </a>
@@ -184,11 +184,11 @@ const Footer = () => {
           <p className="font-medium text-white">Services</p>
           <nav className="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
             
-            <a className="hover:opacity-75" href="https://search.google.com/local/writereview?placeid=ChIJM0IEPqRRmg0RyLQAP_5varc">
+            <a className="hover:opacity-100" href="https://search.google.com/local/writereview?placeid=ChIJM0IEPqRRmg0RyLQAP_5varc">
               {" "}
               Google Map Review{" "}
             </a>
-            <a className="hover:opacity-75" href="/reviews">
+            <a className="hover:opacity-100" href="/reviews">
               {" "}
               Client Review{" "}
             </a>
@@ -198,15 +198,15 @@ const Footer = () => {
         <div>
           <p className="font-medium text-white">Helpful Links</p>
           <nav className="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
-            <a className="hover:opacity-75" href="/contactus">
+            <a className="hover:opacity-100" href="/contactus">
               {" "}
               Contact{" "}
             </a>
-            <a className="hover:opacity-75" href="/contactus">
+            <a className="hover:opacity-100" href="/contactus">
               {" "}
               FAQs{" "}
             </a>
-            <a className="hover:opacity-75" href="https://api.whatsapp.com/send?phone=918143407758&text=Welcome%20to%20Cyberspacedigital">
+            <a className="hover:opacity-100" href="https://api.whatsapp.com/send?phone=918143407758&text=Welcome%20to%20Cyberspacedigital">
               {" "}
               Live Chat{" "}
             </a>
@@ -215,31 +215,31 @@ const Footer = () => {
         <div>
           <p className="font-medium text-white">Legal</p>
           <nav className="flex flex-col mt-4 space-y-2 text-sm text-gray-500">
-            <Link to='/privacypolicy'><a className="hover:opacity-75">
+            <Link to='/privacypolicy'>
               {" "}
               Privacy Policy{" "}
-            </a></Link>
-            <Link to='/terms&conditions'><a className="hover:opacity-75">
+            </Link>
+            <Link to='/terms&conditions'><a className="hover:opacity-100">
               {" "}
               Terms &amp; Conditions{" "}
             </a></Link>
             
-            <Link to='/returnpolicy'><a className="hover:opacity-75" href="">
+            <Link to='/returnpolicy'><a className="hover:opacity-100" href="">
               {" "}
               Cancellation & Refund Policy{" "}
             </a></Link>
 
-            <Link to='/disclaimer'><a className="hover:opacity-75" href="">
+            <Link to='/disclaimer'><a className="hover:opacity-100" href="">
               {" "}
               Disclaimer{" "}
             </a></Link>
 
-            <Link to='/shipping&delivery'><a className="hover:opacity-75" href="">
+            <Link to='/shipping&delivery'><a className="hover:opacity-100" href="">
               {" "}
               Shipping & Delivery{" "}
             </a></Link>
 
-            <Link to='/sitemap'><a className="hover:opacity-75" href="">
+            <Link to='/sitemap'><a className="hover:opacity-100" href="">
               {" "}
               Sitemaps{" "}
             </a></Link>
