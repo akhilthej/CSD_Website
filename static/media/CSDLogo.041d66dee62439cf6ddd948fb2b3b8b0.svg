@@ -7,19 +7,19 @@
 ><defs>
 <style>
 #background{
-  width: 100px;
-  height: 100px;
-  background-color: #3498db;
-  animation: fade 2s infinite alternate;
+  animation: blink 1s infinite;
 }
-
-@keyframes fade {
+@keyframes blink {
   0% {
     opacity: 1;
   }
-  100% {
+  50% {
     opacity: 0;
   }
+  100% {
+    opacity: 1;
+  }
+}
 </style>
 
 <style

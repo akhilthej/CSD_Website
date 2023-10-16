@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a1430f64.css",
-    "main.js": "/static/js/main.ada4720b.js",
+    "main.js": "/static/js/main.f18133c0.js",
     "static/media/homepage2 - HD 1080p.mov": "/static/media/homepage2 - HD 1080p.cd3dd2ddcfb1872583a7.mov",
     "static/media/ContactusHeaderimage.png": "/static/media/ContactusHeaderimage.25bfaf86713f9ae3f933.png",
     "static/media/LAN-001-white.png": "/static/media/LAN-001-white.4cd2dfdc96667fc57a19.png",
@@ -46,7 +46,7 @@
     "static/media/MobileAppDevelopment.svg": "/static/media/MobileAppDevelopment.66c33473f41b3cec3fd4e8e7eeda9822.svg",
     "static/media/Advertising.svg": "/static/media/Advertising.42233020f646b0d8b44ca8d7fa92ac57.svg",
     "static/media/SoftwareDeveloper.svg": "/static/media/SoftwareDeveloper.7aa91a6ff18b5a02526967bdfd98443e.svg",
-    "static/media/CSDLogo.svg": "/static/media/CSDLogo.6ed8171d82dacddc444a1c6a5088fbc8.svg",
+    "static/media/CSDLogo.svg": "/static/media/CSDLogo.041d66dee62439cf6ddd948fb2b3b8b0.svg",
     "static/media/OntimeDelivery.svg": "/static/media/OntimeDelivery.2d9b87e51310b6c48d381d9335011a5a.svg",
     "static/media/csdv2Logofooter.svg": "/static/media/csdv2Logofooter.fd1b0a495973bc9e3a9d8b4c42fed61b.svg",
     "static/media/csdv2Logonavbar.svg": "/static/media/csdv2Logonavbar.3fa8f66adfcfef202819dc65c9504133.svg",
@@ -56,10 +56,10 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "main.a1430f64.css.map": "/static/css/main.a1430f64.css.map",
-    "main.ada4720b.js.map": "/static/js/main.ada4720b.js.map"
+    "main.f18133c0.js.map": "/static/js/main.f18133c0.js.map"
   },
   "entrypoints": [
     "static/css/main.a1430f64.css",
-    "static/js/main.ada4720b.js"
+    "static/js/main.f18133c0.js"
   ]
 }
