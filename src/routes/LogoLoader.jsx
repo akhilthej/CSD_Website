@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import applogo from "../assets/applogo.gif"
+import applogo from "../assets/CSDLogo.svg"
 
 const LogoLoader = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -8,7 +8,7 @@ const LogoLoader = () => {
     // Simulate a loading delay (replace this with your actual data loading logic)
     const timer = setTimeout(() => {
       setIsLoading(false);
-    }, 5000); // Adjust the delay as needed
+    }, 2000); // Adjust the delay as needed
 
     // Clear the timer when the component unmounts or when isLoading becomes false
     return () => clearTimeout(timer);
@@ -29,8 +29,8 @@ const LogoLoader = () => {
   };
 
   const logoStyle = {
-    maxWidth: '100%', /* Make the logo width 100% of its container */
-    maxHeight: '100%', /* Make the logo height 100% of its container */
+    maxWidth: '20%', /* Make the logo width 100% of its container */
+    maxHeight: '20%', /* Make the logo height 100% of its container */
   };
 
   // Ensure the loader is hidden when isLoading becomes false
