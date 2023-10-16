@@ -4,7 +4,7 @@ import Subscribe from '../../assets/Icons/Subscribe.png'
 
 import {googlereview} from '../data/data.jsx';
 import footer_csd from './csdv2Logofooter.svg';
-import WhatsApp from '../../assets/Icons/WhatsApp.png';
+import WhatsApp from './WhatsApp.webp';
 
 const Footer = () => {
   
@@ -267,7 +267,7 @@ const Footer = () => {
         href="https://wa.me/+918143407758"
         target="_blank"
         className=" block w-12 rounded-full transition-all  transform hover:scale-110 hover:rotate-12"> 
-        <img className=" object-cover object-center w-8 sm:w-12"
+        <img className=" object-cover object-center sm:w-12 pb-5"
           src={WhatsApp} alt="whatappicon" />
       </a>
 

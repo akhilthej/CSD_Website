@@ -1,5 +1,5 @@
 /*Home Page */
-import HomeVideo from '../../assets/Videos/homepage2 - HD 1080p.mov';
+import HomeVideo from '../../assets/Videos/homepage1.mp4';
 
 
 /*BrandLogos */
@@ -11,7 +11,6 @@ import laytonskincare from '../../assets/Clients/latonskincare.png';
 import AlohaTechLogo from '../../assets/Clients/AlohaTechLogo.png';
 
 
-import CSDbothome from '../../assets/Common/CSD_Bot/CSDbothome.png'
 import HeroCoverBG from '../../assets/Common/Home/HeroCoverBG.png'
 import GetQoutation from '../../assets/ImagesPage/GetQoutationHeader.png';
 
@@ -81,7 +80,7 @@ export {
 
 
     /* Home */
-    CSDbothome,HeroCoverBG,
+    HeroCoverBG,
     codeing,graphicsdesign,digitalmarketing,mobiledev,recruitment,brand,softwaredev,googlereview,
     documentationicon,socialicon,analysisicon,financeicon,statergyicon,businessreporticon,morefeatures,
 
