@@ -1,14 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.a1430f64.css",
-    "main.js": "/static/js/main.f18133c0.js",
-    "static/media/homepage2 - HD 1080p.mov": "/static/media/homepage2 - HD 1080p.cd3dd2ddcfb1872583a7.mov",
+    "main.js": "/static/js/main.c6ee75c9.js",
+    "static/media/homepage1.mp4": "/static/media/homepage1.2dbe0bcbacd83762e32c.mp4",
     "static/media/ContactusHeaderimage.png": "/static/media/ContactusHeaderimage.25bfaf86713f9ae3f933.png",
     "static/media/LAN-001-white.png": "/static/media/LAN-001-white.4cd2dfdc96667fc57a19.png",
     "static/media/ARK-001-white.png": "/static/media/ARK-001-white.7552533bfc49040f3d2c.png",
     "static/media/ILA-001-white.png": "/static/media/ILA-001-white.f564de403c6562c37412.png",
     "static/media/LAC-001-white.png": "/static/media/LAC-001-white.7fb1c8bcbc341190ece4.png",
-    "static/media/WhatsApp.png": "/static/media/WhatsApp.34e879f5812c0c92dc03.png",
     "static/media/LAN-002.png": "/static/media/LAN-002.2866f1de5e70551c3b7a.png",
     "static/media/LAC-002.png": "/static/media/LAC-002.95d8b66361c91a1d4c24.png",
     "static/media/ARK-002.png": "/static/media/ARK-002.0907260de9996bb721f2.png",
@@ -18,7 +17,6 @@
     "static/media/ReviewsHero.png": "/static/media/ReviewsHero.f3eb97f0e0d7e31a8344.png",
     "static/media/HeroCoverBG.png": "/static/media/HeroCoverBG.d4a05e8db52361610406.png",
     "static/media/ServicesHeaderImage.png": "/static/media/ServicesHeaderImage.4f00ce74eb6e0eb8b0de.png",
-    "static/media/CSDbothome.png": "/static/media/CSDbothome.5a7c3b45d031c6565c34.png",
     "static/media/TechHeroHeader.png": "/static/media/TechHeroHeader.c3cf1f0dd7a47819452a.png",
     "static/media/website-development.jpg": "/static/media/website-development.c85c7fe7ba4519d2ead7.jpg",
     "static/media/labelanuneni.png": "/static/media/labelanuneni.4aa6b52ab418c760a2b6.png",
@@ -43,6 +41,7 @@
     "static/media/morefeatures.png": "/static/media/morefeatures.9897853da9d9948c9a18.png",
     "static/media/Branding.svg": "/static/media/Branding.8c7133ef9ed0ac73c17dfcc35c384c98.svg",
     "static/media/googlereview.png": "/static/media/googlereview.85d0946b65c74505d37a.png",
+    "static/media/WhatsApp.webp": "/static/media/WhatsApp.f3b54735f5be9f9103e0.webp",
     "static/media/MobileAppDevelopment.svg": "/static/media/MobileAppDevelopment.66c33473f41b3cec3fd4e8e7eeda9822.svg",
     "static/media/Advertising.svg": "/static/media/Advertising.42233020f646b0d8b44ca8d7fa92ac57.svg",
     "static/media/SoftwareDeveloper.svg": "/static/media/SoftwareDeveloper.7aa91a6ff18b5a02526967bdfd98443e.svg",
@@ -56,10 +55,10 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "main.a1430f64.css.map": "/static/css/main.a1430f64.css.map",
-    "main.f18133c0.js.map": "/static/js/main.f18133c0.js.map"
+    "main.c6ee75c9.js.map": "/static/js/main.c6ee75c9.js.map"
   },
   "entrypoints": [
     "static/css/main.a1430f64.css",
-    "static/js/main.f18133c0.js"
+    "static/js/main.c6ee75c9.js"
   ]
 }
