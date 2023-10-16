@@ -16,14 +16,8 @@ import GetQoutation from '../../assets/ImagesPage/GetQoutationHeader.png';
 
 import TechHeroHeader from '../../assets/ImagesPage/TechHeroHeader.png'
 
-import codeing from '../../assets/Icons/codeing.png';
+
 import graphicsdesign from '../../assets/Icons/graphicsdesign.png';
-import digitalmarketing from '../../assets/Icons/digitalmarketing.png';
-import mobiledev from '../../assets/Icons/mobiledev.png';
-import recruitment from '../../assets/Icons/recruitment.png';
-import brand from '../../assets/Icons/brand.png';
-import morefeatures from '../../assets/Icons/morefeatures.png';
-import softwaredev from '../../assets/Icons/softwaredev.png';
 import googlereview from '../../assets/Icons/googlereview.png';
 
 import documentationicon from '../../assets/Icons/documentation-icon.png';
@@ -33,7 +27,6 @@ import financeicon from '../../assets/Icons/finance-icon.png';
 import statergyicon from '../../assets/Icons/Statergy-icon.png';
 import businessreporticon from '../../assets/Icons/business-report-icon.png';
 
-import ContactusHeaderimage from '../../assets/ImagesPage/ContactusHeaderimage.png';
 
 import Webdevimg from '../../assets/Quotation/website-development.jpg';
 
@@ -81,8 +74,8 @@ export {
 
     /* Home */
     HeroCoverBG,
-    codeing,graphicsdesign,digitalmarketing,mobiledev,recruitment,brand,softwaredev,googlereview,
-    documentationicon,socialicon,analysisicon,financeicon,statergyicon,businessreporticon,morefeatures,
+    graphicsdesign,googlereview,
+    documentationicon,socialicon,analysisicon,financeicon,statergyicon,businessreporticon,
 
     /* Get Qout*/
     GetQoutation,Webdevimg,
@@ -93,8 +86,6 @@ export {
     TechHeroHeader,
     
 
-    /*Contactus */
-    ContactusHeaderimage,
 
     /*Mock-up Images */
     LabelAnuneniwhite,LabelAnunenipc,LaytonSkinWhite,LaytonSkinpc,Ilahewhite,Ilahepc,Arkwhite,Arkwhitepc,
