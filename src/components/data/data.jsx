@@ -12,7 +12,6 @@ import AlohaTechLogo from '../../assets/Clients/AlohaTechLogo.png';
 
 
 import HeroCoverBG from '../../assets/Common/Home/HeroCoverBG.png'
-import GetQoutation from '../../assets/ImagesPage/GetQoutationHeader.png';
 
 import TechHeroHeader from '../../assets/ImagesPage/TechHeroHeader.png'
 
@@ -28,7 +27,6 @@ import statergyicon from '../../assets/Icons/Statergy-icon.png';
 import businessreporticon from '../../assets/Icons/business-report-icon.png';
 
 
-import Webdevimg from '../../assets/Quotation/website-development.jpg';
 
 import LabelAnuneniwhite from '../../assets/Common/portfolio_images/LAN-001-white.png';
 import LabelAnunenipc from '../../assets/Common/portfolio_images/LAN-002.png';
@@ -77,8 +75,7 @@ export {
     graphicsdesign,googlereview,
     documentationicon,socialicon,analysisicon,financeicon,statergyicon,businessreporticon,
 
-    /* Get Qout*/
-    GetQoutation,Webdevimg,
+ 
 
     /* Services */
 
