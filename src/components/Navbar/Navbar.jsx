@@ -2,6 +2,7 @@ import React, { Fragment } from 'react';
 import {Link} from 'react-router-dom';
 import { Menu, Transition } from '@headlessui/react';
 
+import NavbarLogo from './csdv2Logonavbar.svg'
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ');
 }
@@ -10,7 +11,7 @@ const Navbar = () => {
   return (
     <main class ='rounded-2xl sticky top-0 z-50 bg-white/90 drop-shadow-lg ' >
     <div className=' sm:px-20 w-full h-17 flex justify-between items-center text-black '>
-      <Link to='/'><img class="pl-2 h-auto w-40  lg:w-52" src={require('../../assets/Common/csdLogo.png')} alt='csd_logo' /></Link>
+      <Link to='/'><img class="pl-2 h-auto w-44  lg:w-52" src={NavbarLogo} alt='csd_logo' /></Link>
       <div class=" justify-end ">
       <ul className='flex items-center '>
         <li className='p-4 hidden lg:block font-semibold antialiased '><Link to='/services'>Services</Link></li>

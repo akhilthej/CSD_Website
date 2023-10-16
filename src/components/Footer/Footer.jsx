@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 import Subscribe from '../../assets/Icons/Subscribe.png'
 
 import {googlereview} from '../data/data.jsx';
-import footer_csd from '../../assets/Common/csdLogo.png';
+import footer_csd from './csdv2Logofooter.svg';
 import WhatsApp from '../../assets/Icons/WhatsApp.png';
 
 const Footer = () => {
