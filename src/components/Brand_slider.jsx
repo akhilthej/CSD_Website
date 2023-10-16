@@ -24,6 +24,7 @@ const BrandCarousel = () => {
     'https://drive.google.com/uc?id=1VpKn4L8DYkh6gdz_7uGvXYT-UQCoBkJw',
     'https://drive.google.com/uc?id=1V654L6nrx8-ARIS4FDfeIuHBNhR2rqyg',
     'https://drive.google.com/uc?id=1Nkn6m0KqOJvHaCKYEJPX6xpKiipy_kMH',
+    'https://drive.google.com/uc?id=15obqrvDYs_uHE8EN4zMZi16G1g2K1oms',
     // Add more image URLs here
   ];
 
