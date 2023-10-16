@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.3bae00fd.css",
-    "main.js": "/static/js/main.521782cf.js",
+    "main.css": "/static/css/main.a0978b70.css",
+    "main.js": "/static/js/main.a1a79774.js",
     "static/media/homepage1.mp4": "/static/media/homepage1.3057c3e6533fc183f0f9.mp4",
     "static/media/LAN-001-white.png": "/static/media/LAN-001-white.4cd2dfdc96667fc57a19.png",
     "static/media/ARK-001-white.png": "/static/media/ARK-001-white.7552533bfc49040f3d2c.png",
@@ -12,12 +12,10 @@
     "static/media/ARK-002.png": "/static/media/ARK-002.0907260de9996bb721f2.png",
     "static/media/ClientHeader.png": "/static/media/ClientHeader.5685c097a73ff31edad1.png",
     "static/media/ILA-002.png": "/static/media/ILA-002.dc2e513de4db7ae2ddb1.png",
-    "static/media/GetQoutationHeader.png": "/static/media/GetQoutationHeader.a61124233708b94daee2.png",
     "static/media/ReviewsHero.png": "/static/media/ReviewsHero.f3eb97f0e0d7e31a8344.png",
     "static/media/HeroCoverBG.png": "/static/media/HeroCoverBG.d4a05e8db52361610406.png",
     "static/media/ServicesHeaderImage.png": "/static/media/ServicesHeaderImage.4f00ce74eb6e0eb8b0de.png",
     "static/media/TechHeroHeader.png": "/static/media/TechHeroHeader.c3cf1f0dd7a47819452a.png",
-    "static/media/website-development.jpg": "/static/media/website-development.c85c7fe7ba4519d2ead7.jpg",
     "static/media/labelanuneni.png": "/static/media/labelanuneni.4aa6b52ab418c760a2b6.png",
     "static/media/Subscribe.png": "/static/media/Subscribe.68f61a5d75abbc0d1333.png",
     "static/media/graphicsdesign.png": "/static/media/graphicsdesign.ac5cc1edae28e3741537.png",
@@ -48,11 +46,11 @@
     "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
-    "main.3bae00fd.css.map": "/static/css/main.3bae00fd.css.map",
-    "main.521782cf.js.map": "/static/js/main.521782cf.js.map"
+    "main.a0978b70.css.map": "/static/css/main.a0978b70.css.map",
+    "main.a1a79774.js.map": "/static/js/main.a1a79774.js.map"
   },
   "entrypoints": [
-    "static/css/main.3bae00fd.css",
-    "static/js/main.521782cf.js"
+    "static/css/main.a0978b70.css",
+    "static/js/main.a1a79774.js"
   ]
 }
