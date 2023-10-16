@@ -33,7 +33,7 @@ const Home = () => {
           name="Description"
           content="Web Development and Digital Marketing Company. We are here to build you business online. One stop for all your digital needs."
         />
-        <link rel="canonical" href="/" />
+        <link rel="canonical" href="https://cyberspacedigital.in/" />
       </Helmet>
 
       <main className="my-20 sm:my-20 sm:mx-20 overflow-hidden">
