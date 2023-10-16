@@ -42,9 +42,9 @@ const Home = () => {
           <section className="flex items-center my-10 justify-center  bg-white ">
             <div className="mx-auto max-w-[55rem]">
               <div className="text-center">
-                <p className="cursor-default text-sm sm:text-2xl font-extrabold leading-8  text-gray-900">
+                <null className="cursor-default text-sm sm:text-2xl font-extrabold leading-8  text-gray-900">
                   DESIGN . DEVELOP & DEPLOY
-                </p>
+                </null>
                 <h1 className="cursor-default upanddown pb-8 font-extrabold text-transparent text-4xl md:text-7xl lg:text-8xl bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-600 mt-3  leading-[3.5rem] tracking-tight">
                   Cyber Space Digital
                 </h1>
