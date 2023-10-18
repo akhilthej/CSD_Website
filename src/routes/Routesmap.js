@@ -14,7 +14,7 @@ import Home from './HOME';
 
 
 import Services from './SERVICES';
-import Technologies from './TECHNOLOGIES';
+import Blogs from './BLOGS';
 
 import Clients from './Clients';
 import Reviews from './Reviews';
@@ -26,11 +26,10 @@ import Contactus from './CONTACTUS';
 
 import  Renewal from './Renewal';
 
-import Reactblog from '../components/PAGES/Technologies/Blogpages/Reactblog';
 
 export {
 Navbar,Footer,Sitemap,PrivacyPolicy,TermsnConditions,Disclaimer,Error404,Home,
-Services,Technologies,Clients,Reviews,GetQuotation,Aboutus,Contactus,
-Reactblog,ReturnPolicy,ShippingandDelivery,Renewal,
+Services,Blogs,Clients,Reviews,GetQuotation,Aboutus,Contactus,
+ReturnPolicy,ShippingandDelivery,Renewal,
 
 };

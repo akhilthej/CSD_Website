@@ -1,18 +1,14 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import {  Routes, Route, useLocation  } from 'react-router-dom';
-import OneSignal from 'react-onesignal';
+
 
 
 import {Navbar,Footer,Sitemap,PrivacyPolicy,TermsnConditions,Disclaimer,ShippingandDelivery,ReturnPolicy,Error404,Home,
-        Services,Technologies,Clients,Reviews,GetQuotation,Aboutus,Contactus,
-        Reactblog,Renewal,} from './routes/Routesmap';
+        Services,Blogs,Clients,Reviews,GetQuotation,Aboutus,Contactus,Renewal,} from './routes/Routesmap';
 
 import Notification from "./components/Tools/Notifications";        
         
 export function App() {
-  useEffect(() => {
-    OneSignal.init({ appId: "0360b886-1a9d-4204-bd34-af4aba2203f9" });
-  }, []); /*---Onesignal---*/
 
   const location= useLocation();
   window.scrollTo(0, 0); /*---ResetPagelocation---*/
@@ -31,8 +27,7 @@ export function App() {
 
           <Route path='/services' element={<Services />} />
 
-          <Route path='/technologies' element={<Technologies />} />
-            <Route path='/technologies/reactblog' element={<Reactblog />} />
+          <Route path='/blogs' element={<Blogs />} />
         
           <Route path='/clients' element={<Clients />} />
           

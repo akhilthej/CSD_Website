@@ -88,7 +88,7 @@ const Navbar = () => {
                 <div className='py-1 mt-1 '>
                   <Menu.Item>
                     {({ active }) => (
-                      <Link to='/technologies'><a
+                      <Link to='/blogs'><a
                       
                         className={classNames(
                           active
@@ -97,7 +97,7 @@ const Navbar = () => {
                           'block px-4 py-2 text-sm'
                         )}
                       >
-                        Technologies
+                        Blogs
                         
                       </a></Link>
                     )}

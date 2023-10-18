@@ -2,7 +2,6 @@ import React from 'react'
 import { Helmet } from 'react-helmet-async';
 
 
-import Testqotes from '../components/PAGES/Forms/Testqotes';
 
 const GetQuotation = () => {
   return (
@@ -15,8 +14,7 @@ const GetQuotation = () => {
     
    
 <section className="text-gray-600 body-font">
-<Testqotes/>
-  
+
 </section>
 
     </div>
