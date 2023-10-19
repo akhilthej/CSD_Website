@@ -5,7 +5,6 @@ import {
   Advertising,
   Branding,
   DigitalMarketing,
-  SoftwareDeveloper,
   GraphicDesign,
   MobileAppDevelopment,
   WebDevelopment,
@@ -129,42 +128,41 @@ const ServicesTab = () => {
                   </a>
                 </div>
               </div>
-              <div className="relative group transition hover:z-[1] hover:shadow-2xl">
-                <div className="relative p-8 space-y-8">
-                  <img
-                    src={SoftwareDeveloper}
-                    className="w-2/3 ml-auto"
-                    alt="SoftwareDeveloper"
-                    loading="lazy"
-                    width={900}
-                    height={600}
-                  />
-                  <div className="space-y-2">
-                    <h5 className="text-base text-black font-medium transition group-hover:text-yellow-600">
-                      SOFTWARE DEVELOPMENT
-                    </h5>
-                    <p className="text-sm text-black">
-                      Software development refers to a set of computer
-                      science activities dedicated to the process of
-                      creating, designing, deploying, and supporting
-                      software.
-                    </p>
-                  </div>
-                  <a
-                    href="/services"
-                    className="flex justify-between items-center group-hover:text-yellow-600"
-                  >
-                    <span className="text-sm">Read more</span>
-                    <span className="-translate-x-4 opacity-0 text-2xl transition duration-300 group-hover:opacity-100 group-hover:translate-x-0">
-                      →
-                    </span>
-                  </a>
+              
+              <div className="relative group transition hover:z-[1] hover:shadow-2xl lg:hidden xl:block ">
+              <div className="relative p-8 space-y-8 border-dashed rounded-lg transition duration-300 group-hover:bg-yellow-500 group-hover:border group-hover:scale-90">
+                <img
+                  src={MoreFeatures}
+                  className="w-2/3 ml-auto"
+                  alt="MoreFeatures"
+                  loading="lazy"
+                  width={900}
+                  height={600}
+                />
+                <div className="space-y-2">
+                  <h5 className="text-xl text-black font-medium transition">
+                    More features
+                  </h5>
+                  <p className="text-sm text-black">
+                    Checkout our services page for more features or contact
+                    our support team if you're looking for some new ideas.
+                  </p>
                 </div>
+                <a
+                  href="/services"
+                  className="flex justify-between items-center"
+                >
+                  <span className="text-sm">Read more</span>
+                  <span className="-translate-x-4 opacity-0 text-2xl transition duration-300 group-hover:opacity-100 group-hover:translate-x-0">
+                    →
+                  </span>
+                </a>
               </div>
             </div>
           </div>
         </div>
-      </div>
+        </div>
+        </div>
     </section>
     <section>
       <div className="pb-10 overflow-hidden">
