@@ -352,8 +352,6 @@ const Home = () => {
 
 
 
-     {/*CountDown */}
-     
      {/*Line of Engagement */}
  <section id="services" className="cursor-default section relative pt-10 pb-8 md:pt-16 md:pb-10">
   <div className="xl:max-w-8xl mx-auto px-4">

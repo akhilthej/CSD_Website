@@ -6,6 +6,9 @@ import {  Routes, Route, useLocation  } from 'react-router-dom';
 import {Navbar,Footer,Sitemap,PrivacyPolicy,TermsnConditions,Disclaimer,ShippingandDelivery,ReturnPolicy,Error404,Home,
         Services,Blogs,Clients,Reviews,GetQuotation,Aboutus,Contactus,Renewal,} from './routes/Routesmap';
 
+
+import {WebDevelopment} from './routes/Routesmap'
+
 import Notification from "./components/Tools/Notifications";        
         
 export function App() {
@@ -27,6 +30,11 @@ export function App() {
 
           <Route path='/services' element={<Services />} />
 
+          <Route path='/web-developement-company' element={<WebDevelopment/>} />
+          <Route path="/web-developement-company-in-vizag" element={<WebDevelopment/>} />
+          <Route path="/best-web-developement-company-in-vizag" element={<WebDevelopment/>} />
+          
+          
           <Route path='/blogs' element={<Blogs />} />
         
           <Route path='/clients' element={<Clients />} />

@@ -57,7 +57,7 @@ const ServicesTab = () => {
                     </p>
                   </div>
                   <a
-                    href="/services"
+                    href="https://cyberspacedigital.in/web-developement-company"
                     className="flex justify-between items-center group-hover:text-yellow-600"
                   >
                     <span className="text-sm">Read more</span>

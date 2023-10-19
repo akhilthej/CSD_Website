@@ -14,6 +14,8 @@ import Home from './HOME';
 
 
 import Services from './SERVICES';
+import WebDevelopment from '../components/PAGES/WebDevelopment/Webdevelopment'
+
 import Blogs from './BLOGS';
 
 import Clients from './Clients';
@@ -31,5 +33,8 @@ export {
 Navbar,Footer,Sitemap,PrivacyPolicy,TermsnConditions,Disclaimer,Error404,Home,
 Services,Blogs,Clients,Reviews,GetQuotation,Aboutus,Contactus,
 ReturnPolicy,ShippingandDelivery,Renewal,
+
+
+WebDevelopment,
 
 };
