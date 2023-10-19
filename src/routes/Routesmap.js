@@ -14,7 +14,7 @@ import Home from './HOME';
 
 
 import Services from './SERVICES';
-import WebDevelopment from '../components/PAGES/WebDevelopment/Webdevelopment'
+import WebDevelopment from '../components/PAGES/Services/WebDevelopment/Webdevelopment'
 
 import Blogs from './BLOGS';
 
