@@ -85,7 +85,7 @@ const Navbar = () => {
                     )}
                   </Menu.Item>
                 </div>
-                <div className='py-1 mt-1 '>
+                
                   <Menu.Item>
                     {({ active }) => (
                       <Link to='/blogs'><a
@@ -115,7 +115,7 @@ const Navbar = () => {
                         Reviews
                       </a></Link>
                     )}
-                  </Menu.Item></div>
+                  </Menu.Item>
                   
                   
 
