@@ -1,6 +1,6 @@
 import Navbar from "../components/Navbar/Navbar";
 import Footer from '../components/Footer/Footer';
-import Sitemap from '../components/Tools/sitemap';
+
 
 import PrivacyPolicy from '../components/PAGES/Documents/PrivacyPolicy';
 import TermsnConditions from '../components/PAGES/Documents/TermsnConditions';
@@ -26,13 +26,12 @@ import GetQuotation from './GetQuotation';
 import Aboutus from './Aboutus';
 import Contactus from './CONTACTUS';
 
-import  Renewal from './Renewal';
 
 
 export {
-Navbar,Footer,Sitemap,PrivacyPolicy,TermsnConditions,Disclaimer,Error404,Home,
+Navbar,Footer,PrivacyPolicy,TermsnConditions,Disclaimer,Error404,Home,
 Services,Blogs,Clients,Reviews,GetQuotation,Aboutus,Contactus,
-ReturnPolicy,ShippingandDelivery,Renewal,
+ReturnPolicy,ShippingandDelivery,
 
 
 WebDevelopment,

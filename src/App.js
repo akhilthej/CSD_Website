@@ -3,8 +3,8 @@ import {  Routes, Route, useLocation  } from 'react-router-dom';
 
 
 
-import {Navbar,Footer,Sitemap,PrivacyPolicy,TermsnConditions,Disclaimer,ShippingandDelivery,ReturnPolicy,Error404,Home,
-        Services,Blogs,Clients,Reviews,GetQuotation,Aboutus,Contactus,Renewal,} from './routes/Routesmap';
+import {Navbar,Footer,PrivacyPolicy,TermsnConditions,Disclaimer,ShippingandDelivery,ReturnPolicy,Error404,Home,
+        Services,Blogs,Clients,Reviews,GetQuotation,Aboutus,Contactus,} from './routes/Routesmap';
 
 
 import {WebDevelopment} from './routes/Routesmap'
@@ -25,8 +25,7 @@ export function App() {
         
           <Route path='/' element={<Home />} />
           <Route path='/*' element={<Error404 />} />
-          <Route path='/sitemap' element={<Sitemap />} />
-
+         
 
           <Route path='/services' element={<Services />} />
 
@@ -47,12 +46,11 @@ export function App() {
           <Route path='/contactus' element={<Contactus />} /> 
 
           <Route path='/privacypolicy' element={<PrivacyPolicy />} /> 
-          <Route path='/terms&conditions' element={<TermsnConditions />} />
+          <Route path='/termsconditions' element={<TermsnConditions />} />
           <Route path='/returnpolicy' element={<ReturnPolicy />} />
-          <Route path='/shipping&delivery' element={<ShippingandDelivery />} />
+          <Route path='/shippingdelivery' element={<ShippingandDelivery />} />
           <Route path='/disclaimer' element={<Disclaimer />} />
 
-          <Route path='/renewal' element={<Renewal />} />
          
 
 
