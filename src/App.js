@@ -30,7 +30,7 @@ export function App() {
 
           <Route path='/services' element={<Services />} />
 
-          <Route path='/web-developement-company' element={<WebDevelopment/>} />
+          <Route path='/best-web-developement-company' element={<WebDevelopment/>} />
           <Route path="/web-developement-company-in-vizag" element={<WebDevelopment/>} />
           <Route path="/best-web-developement-company-in-vizag" element={<WebDevelopment/>} />
           
