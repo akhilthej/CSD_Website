@@ -50,6 +50,11 @@ import FixedPrice from '../../assets/Icons/FixedPrice.svg'
 import TimeManage from '../../assets/Icons/TimeManage.svg'
 import OntimeDelivery from '../../assets/Icons/OntimeDelivery.svg'
 
+import businesswebsite from '../../assets/Icons/businesswebsite.svg'
+import ecommercewebsite from '../../assets/Icons/ecommercewebsite.svg'
+import webrevamp from '../../assets/Icons/webrevamp.svg'
+import crm_ermpannel from '../../assets/Icons/crm_ermpannel.svg'
+
 export {
 
   /*Home Page */
@@ -68,6 +73,8 @@ export {
     laytonskincare,
     AlohaTechLogo,
 
+    /*Webservice*/
+    businesswebsite,ecommercewebsite,webrevamp,crm_ermpannel,
 
     /* Home */
     HeroCoverBG,
