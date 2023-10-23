@@ -142,10 +142,10 @@ const Navbar = () => {
 
 
         
-        <li className='p-4 hidden lg:block font-semibold antialiased'><Link to='/clients'>Clients</Link></li>
-        <li className='p-4 hidden lg:block font-semibold antialiased'><Link to='/getquotation'>Get Quotation</Link></li>
-        <li className='p-4 hidden lg:block font-semibold antialiased'><Link to='/aboutus'>About us</Link></li>
-        <li className='p-4 hidden lg:block font-semibold antialiased'><Link to='/contactus'>Contact us</Link></li>
+        <li className='p-4 hidden lg:block font-medium antialiased'><Link to='/clients'>Clients</Link></li>
+        <li className='p-4 hidden lg:block font-medium antialiased'><Link to='/getquotation'>Get Quotation</Link></li>
+        <li className='p-4 hidden lg:block font-medium antialiased'><Link to='/aboutus'>About us</Link></li>
+        <li className='p-4 hidden lg:block font-medium antialiased'><Link to='/contactus'>Contact us</Link></li>
         <li className='p-4'>
         <Menu as='div' className='relative inline-block text-left '>
             <div>
