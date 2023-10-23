@@ -8,7 +8,7 @@ import {
     OntimeDelivery,
     TimeManage,
     HiringModel,
-  } from "../../../data/data";
+  } from "../../../components/data/data";
 
 const Webdevelopment = () => {
   return (
