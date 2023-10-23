@@ -81,7 +81,7 @@ const Aboutus = () => {
         />
         <div>
           <h4 className="text-2xl text-black">Pavan Kumar</h4>
-          <span className="block text-sm text-gray-900">Partner<br/>Chief Operations Officer<br/>( IT Recruiter )</span>
+          <span className="block text-sm text-gray-900">Partner<br/>Chief Operations Officer</span>
         </div>
       </div>
       <div className="space-y-4 text-center">
@@ -95,7 +95,7 @@ const Aboutus = () => {
         <div>
           <h4 className="text-2xl text-black ">Akhil Thej Reddy</h4>
           <span className="block text-sm text-gray-900">
-            Founder<br/>Chief Executive Officer<br/>( Full Stack Developer )<br/></span>
+            Founder<br/>Chief Executive Officer</span>
         </div>
       </div>
       <div className="space-y-4 text-center">
@@ -109,7 +109,7 @@ const Aboutus = () => {
         <div>
           <h4 className="text-2xl text-black">Riya Varma</h4>
           <span className="block text-sm text-gray-900">
-          Patner<br/>Chief Technical Officer<br/>( Data Analyst )
+          Patner<br/>Chief Technical Officer
           </span>
         </div>
       </div>
@@ -138,11 +138,9 @@ const Aboutus = () => {
           Chaitanya Teja
         </h1>
         <p className="mt-2  capitalize text-gray-900 group-hover:text-gray-900">
-        Front-end Developer
+        Full Stack Developer
         </p>
-        <p className="mt-2  text-sm capitalize text-gray-900 group-hover:text-gray-900">
-         Web Developer
-        </p>
+        
         <div className="flex mt-3 -mx-2">
           <a
             href="#"
@@ -197,11 +195,9 @@ const Aboutus = () => {
           Srikar
         </h1>
         <p className="mt-2  capitalize text-gray-900 group-hover:text-gray-900">
-        Senior AWS cloud
+        Devops engineer
         </p>
-        <p className="mt-2  text-sm capitalize text-gray-900 group-hover:text-gray-900">
-         devops engineer
-        </p>
+        
         <div className="flex mt-3 -mx-2">
           <a
             href="#"
@@ -259,9 +255,7 @@ const Aboutus = () => {
         <p className="mt-2  capitalize text-gray-900 group-hover:text-gray-900">
         Senior Graphic Designer
         </p>
-        <p className="mt-2  text-sm capitalize text-gray-900 group-hover:text-gray-900">
-         Senior Video Editor
-        </p>
+       
         <div className="flex mt-3 -mx-2">
           <a
             href="#"
@@ -316,7 +310,7 @@ const Aboutus = () => {
           Sai Kiran
         </h1>
         <p className="mt-2  capitalize text-gray-900 group-hover:text-gray-900">
-          Designer
+         Brand Designer
         </p>
         <div className="flex mt-3 -mx-2">
           <a

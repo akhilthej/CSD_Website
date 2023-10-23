@@ -4,8 +4,8 @@ import { Helmet } from 'react-helmet-async';
 import {Link} from 'react-router-dom';
 
 
-import ServicesHeroImg from '../assets/ImagesPage/ServicesHeaderImage.png';
-import ServicesTab from '../components/ServicesTab';
+import ServicesHeroImg from '../../assets/ImagesPage/ServicesHeaderImage.png';
+import ServicesTab from '../../components/ServicesTab';
 
 const SERVICES = () => {
   return (
