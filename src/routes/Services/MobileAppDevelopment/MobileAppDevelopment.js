@@ -7,56 +7,57 @@ import {
     FixedPrice,
     OntimeDelivery,
     TimeManage,
-    HiringModel,
+    HiringModel,businesswebsite,ecommercewebsite,webrevamp,crm_ermpannel,
   } from "../../../components/data/data";
 
-const Webdevelopment = () => {
+const MobileAppDevelopment = () => {
   return (
     <main>
      <Helmet>
-        <title>Best Web Development Company in India | Web Developers near me | Web Developers Around Me</title>
+        <title>Mobile app Development Company in India | App Developers near me | App Developers Around Me</title>
         <meta
           name="Description"
           content="Best website development company around you, at best prices."
         />
-        <link rel="canonical" href="https://cyberspacedigital.in/web-developement-company" />
+        <link rel="canonical" href="" />
       </Helmet>
 
 
   {/* Title Card */}
-  <section className="mx-4 md:mx-10 lg:mx-20 my-10">
-    <div className="flex flex-col items-center md:flex-row justify-center">
-      <div className="md:w-1/2 md:pr-10">
-        <img
-          className="w-full max-w-xl rounded"
-          src="https://drive.google.com/uc?id=1IcH87oN0edQXe0_lqG6l8fUdNfvdYBHn"
-          alt="WebDevelopment"
-        />
-      </div>
-      <div className="md:w-1/2">
-        <h3 className="text-4xl pb-5 md:text-6xl fade-in-down font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-600 tracking-tight">
-          Best Web Development & Designing Company
-        </h3>
-        <p className=" text-black text-sm">
-          "Cyber Space Digital stands as a distinguished leader in the realm of web design and development, known for crafting captivating online experiences. Our innovative solutions and expertise propel businesses towards the fast lane of growth. With a dedicated team of creative professionals, we bring your digital aspirations to life, ensuring your online presence sets you apart in the digital landscape. Explore the limitless possibilities with Cyber Space Digital – where excellence meets innovation."
-        </p>
+  <section className="py-10" style={{ backgroundImage: 'url("https://drive.google.com/uc?id=1WWFf-rFcng34REwUqPxGDs-i240vjcgb")', backgroundSize: 'cover', backgroundPosition: 'center' }}>
+  <div className="flex flex-col items-center md:flex-row justify-center">
+    <div className="md:w-1/2 md:pr-10">
+      <img
+        className="w-full max-w-xl rounded px-5"
+        src="https://drive.google.com/uc?id=1IcH87oN0edQXe0_lqG6l8fUdNfvdYBHn"
+        alt="WebDevelopment"
+      />
+    </div>
+    <div className="md:w-1/2 px-5">
+      <h3 className="text-4xl pb-5 md:text-6xl fade-in-down font-extrabold text-white tracking-tight">
+       Mobile app Development
+      </h3>
+      <p className=" text-black  text-sm ">
+        "Cyber Space Digital stands as a distinguished leader in the realm of web design and development, known for crafting captivating online experiences. Our innovative solutions and expertise propel businesses towards the fast lane of growth. With a dedicated team of creative professionals, we bring your digital aspirations to life, ensuring your online presence sets you apart in the digital landscape. Explore the limitless possibilities with Cyber Space Digital – where excellence meets innovation."
+      </p>
 
-        <div className="mt-8 flex flex-wrap justify-center gap-4">
-          <Link to="/contactus">
-            <a className="transform rounded-md border bg-gradient-to-r from-yellow-500 to-orange-600 px-5 py-3 font-medium text-white transition-colors hover:from-orange-600 hover:to-orange-400">
-              Get in Touch
-            </a>
-          </Link>
-
-          <a href="https://api.whatsapp.com/send?phone=918143407758&text=Welcome%20to%20Cyberspacedigital">
-            <a className="transform rounded-md border border-slate-200 px-5 py-3 font-medium text-black transition-colors hover:bg-slate-50 hover:text-black">
-              WhatsApp
-            </a>
+      <div className="mt-8 flex flex-wrap justify-center gap-4">
+        <Link to="/contactus">
+          <a className="transform rounded-md bg-white  px-5 py-3 font-medium text-black transition-colors hover:bg-black hover:text-white">
+            Get in Touch
           </a>
-        </div>
+        </Link>
+
+        <a href="https://api.whatsapp.com/send?phone=918143407758&text=Welcome%20to%20Cyberspacedigital">
+          <a className="transform rounded-md bg-white  px-5 py-3 font-medium text-black transition-colors hover:bg-black hover:text-white">
+            WhatsApp
+          </a>
+        </a>
       </div>
     </div>
-  </section>
+  </div>
+</section>
+
 
 
 
@@ -80,7 +81,8 @@ const Webdevelopment = () => {
       </p>
     </section>
 
-    {/* "Fixed Price Model" section */}
+
+    {/* "Business Websites" section */}
     <div className="flex flex-wrap flex-row -mx-4 text-center">
       <div className="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/4 lg:px-6 wow fadeInUp"
         data-wow-duration="1s"
@@ -92,7 +94,7 @@ const Webdevelopment = () => {
         <div className="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
           <div className="inline-block text-gray-900 mb-4">
             <img
-              src={FixedPrice}
+              src={businesswebsite}
               className="w-40 ml-auto"
               alt="illustration"
               loading="lazy"
@@ -100,6 +102,148 @@ const Webdevelopment = () => {
               height={600} />
           </div>
           <h3 className="text-lg leading-normal mb-2 font-semibold text-black">
+            Business Websites
+          </h3>
+          <p className="text-gray-500 text-sm">
+          Catalyzing Business Success: Our business website solutions are designed to drive growth, enhance visibility, and boost profitability in the digital landscape.
+          </p>
+          <button className="mt-5 text-xs sm:text-sm transform rounded bg-yellow-500 border border-slate-200 px-12 py-2 font-medium text-black transition-colors hover:bg-slate-50 "> Get Quotation</button>
+        </div>
+      </div>
+
+      {/* "E-commerce Website" section */}
+      <div className="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/4 lg:px-6 wow fadeInUp"
+        data-wow-duration="1s"
+        data-wow-delay=".1s"
+        style={{
+          visibility: "visible",
+          animationDuration: "1s",
+          animationDelay: "0.1s",
+          animationName: "fadeInUp"
+        }}>
+        <div className="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
+          <div className="inline-block text-gray-900 mb-4">
+            <img
+              src={ecommercewebsite}
+              className="w-40 ml-auto"
+              alt="illustration"
+              loading="lazy"
+              width={900}
+              height={600} />
+          </div>
+          <h3 className="text-lg leading-normal mb-2 font-semibold text-black">
+            E-commerce
+          </h3>
+          <p className="text-gray-500 text-sm">
+          Crafting E-Commerce Excellence: Elevate your online retail with our bespoke e-commerce solutions. Boost sales, engage customers, and thrive online.
+          </p>
+          <button className="mt-5 text-xs sm:text-sm transform rounded bg-yellow-500 border border-slate-200 px-12 py-2 font-medium text-black transition-colors hover:bg-slate-50 "> Get Quotation</button>
+        </div>
+      </div>
+
+      {/* "Web Revamp" section */}
+      <div className="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/4 lg:px-6 wow fadeInUp"
+        data-wow-duration="1s"
+        data-wow-delay=".3s"
+        style={{
+          visibility: "visible",
+          animationDuration: "1s",
+          animationDelay: "0.3s",
+          animationName: "fadeInUp"
+        }}>
+        <div className="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
+          <div className="inline-block text-gray-900 mb-4">
+            <img
+              src={webrevamp}
+              className="w-40 ml-auto"
+              alt="illustration"
+              loading="lazy"
+              width={900}
+              height={600} />
+          </div>
+          <h3 className="text-lg leading-normal mb-2 font-semibold text-black">
+          Web Revamp
+          </h3>
+          <p className="text-gray-500 text-sm">
+          Revamp Your Online Presence: Transform and modernize your existing website with our web revamp services. Stay ahead and impress your audience.
+          </p>
+          <button className="mt-5 text-xs sm:text-sm transform rounded bg-yellow-500 border border-slate-200 px-12 py-2 font-medium text-black transition-colors hover:bg-slate-50 "> Get Quotation</button>
+        </div>
+      </div>
+
+
+      {/* "CRM/ERM Pannels" section */}
+      <div className="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/4 lg:px-6 wow fadeInUp"
+        data-wow-duration="1s"
+        data-wow-delay=".3s"
+        style={{
+          visibility: "visible",
+          animationDuration: "1s",
+          animationDelay: "0.3s",
+          animationName: "fadeInUp"
+        }}>
+        <div className="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
+          <div className="inline-block text-gray-900 mb-4">
+            <img
+              src={crm_ermpannel}
+              className="w-40 ml-auto"
+              alt="illustration"
+              loading="lazy"
+              width={900}
+              height={600} />
+          </div>
+          <h3 className="text-lg leading-normal mb-2 font-semibold text-black">
+          CRM/ERM Pannels
+          </h3>
+          <p className="text-gray-500 text-sm">
+          Efficient CRM/ERM Solutions: Enhance business operations with our CRM/ERM panels. Streamline processes, manage data, and boost productivity effectively.
+          </p>
+          <button className="mt-5 text-xs sm:text-sm transform rounded bg-yellow-500 border border-slate-200 px-12 py-2 font-medium text-black transition-colors hover:bg-slate-50 "> Get Quotation</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+     {/*Line of Engagement */}
+     <section id="services" className="cursor-default section relative ">
+  <div className="xl:max-w-8xl mx-auto px-4">
+    {/* Heading for "Line of Engagement" section */}
+
+    <section className="text-center mx-auto mb-12 lg:px-20">
+      <h2 className="pb-2 font-extrabold text-transparent text-2xl md:text-5xl lg:text-6xl bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-600 ">
+      Line of Engagement
+      </h2>
+      <p className="text-sm font-medium text-black">
+      "Streamline the management of advertising and content for your business, saving you valuable time."
+      </p>
+    </section>
+
+    {/* "Fixed Price Model" section */}
+    <div className="flex flex-wrap flex-row -mx-4 text-center">
+      <div className="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/4 lg:px-6 wow fadeInUp"
+        data-wow-duration="1s"
+        style={{
+          visibility: "visible",
+          animationDuration: "1s",
+          animationName: "fadeInUp"
+        }}>
+        <div className="py-8 px-12  bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
+          <div className="inline-block text-gray-900 ">
+            <img
+              src={FixedPrice}
+              className="w-40 ml-auto"
+              alt="illustration"
+              loading="lazy"
+              width={900}
+              height={600} />
+          </div>
+          <h3 className="text-lg leading-normal  font-semibold text-black">
             Fixed Price Model
           </h3>
           <p className="text-gray-500 text-sm">
@@ -119,8 +263,8 @@ const Webdevelopment = () => {
           animationDelay: "0.1s",
           animationName: "fadeInUp"
         }}>
-        <div className="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
-          <div className="inline-block text-gray-900 mb-4">
+        <div className="py-8 px-12  bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
+          <div className="inline-block text-gray-900">
             <img
               src={TimeManage}
               className="w-40 ml-auto"
@@ -129,7 +273,7 @@ const Webdevelopment = () => {
               width={900}
               height={600} />
           </div>
-          <h3 className="text-lg leading-normal mb-2 font-semibold text-black">
+          <h3 className="text-lg leading-normal font-semibold text-black">
             Time and Materials Model
           </h3>
           <p className="text-gray-500 text-sm">
@@ -149,8 +293,8 @@ const Webdevelopment = () => {
           animationDelay: "0.3s",
           animationName: "fadeInUp"
         }}>
-        <div className="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
-          <div className="inline-block text-gray-900 mb-4">
+        <div className="py-8 px-12  bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
+          <div className="inline-block text-gray-900 ">
             <img
               src={OntimeDelivery}
               className="w-40 ml-auto"
@@ -159,7 +303,7 @@ const Webdevelopment = () => {
               width={900}
               height={600} />
           </div>
-          <h3 className="text-lg leading-normal mb-2 font-semibold text-black">
+          <h3 className="text-lg leading-normal  font-semibold text-black">
             On-Time Delivery
           </h3>
           <p className="text-gray-500 text-sm">
@@ -180,8 +324,8 @@ const Webdevelopment = () => {
           animationDelay: "0.3s",
           animationName: "fadeInUp"
         }}>
-        <div className="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
-          <div className="inline-block text-gray-900 mb-4">
+        <div className="py-8 px-12  bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
+          <div className="inline-block text-gray-900 ">
             <img
               src={HiringModel}
               className="w-40 ml-auto"
@@ -190,7 +334,7 @@ const Webdevelopment = () => {
               width={900}
               height={600} />
           </div>
-          <h3 className="text-lg leading-normal mb-2 font-semibold text-black">
+          <h3 className="text-lg leading-normal font-semibold text-black">
           Hiring Model
           </h3>
           <p className="text-gray-500 text-sm">
@@ -202,7 +346,6 @@ const Webdevelopment = () => {
     </div>
   </div>
 </section>
-
 
 
 
@@ -232,4 +375,4 @@ const Webdevelopment = () => {
   )
 }
 
-export default Webdevelopment
+export default MobileAppDevelopment

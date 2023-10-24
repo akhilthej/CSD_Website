@@ -61,7 +61,7 @@ const Navbar = () => {
 
                   <Menu.Item>
                     {({ active }) => (
-                      <Link to='/reviews'><a
+                      <Link to='/best-digital-marketing-company'><a
                         className={classNames(
                           active
                             ? ' bg-yellow-500 text-white'
@@ -75,7 +75,7 @@ const Navbar = () => {
                   </Menu.Item>
                   <Menu.Item>
                     {({ active }) => (
-                      <Link to='/reviews'><a
+                      <Link to='/best-mobile-app-development-company'><a
                         className={classNames(
                           active
                             ? 'bg-yellow-500 text-white'
@@ -90,7 +90,7 @@ const Navbar = () => {
                   </Menu.Item>
                   <Menu.Item>
                     {({ active }) => (
-                      <Link to='/reviews'><a
+                      <Link to='/best-graphic-designing-company'><a
                         className={classNames(
                           active
                             ? 'bg-yellow-500 text-white'
@@ -105,7 +105,7 @@ const Navbar = () => {
                   </Menu.Item>
                   <Menu.Item>
                     {({ active }) => (
-                      <Link to='/reviews'><a
+                      <Link to='/best-brand-services-company'><a
                         className={classNames(
                           active
                             ? 'bg-yellow-500 text-white'
@@ -120,7 +120,7 @@ const Navbar = () => {
                   </Menu.Item>
                   <Menu.Item>
                     {({ active }) => (
-                      <Link to='/reviews'><a
+                      <Link to='/best-advertising-company'><a
                         className={classNames(
                           active
                             ? 'bg-yellow-500 text-white'

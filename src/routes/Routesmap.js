@@ -14,7 +14,13 @@ import Home from './HOME';
 
 
 import Services from './Services/SERVICES';
-import WebDevelopment from './Services/WebDevelopment/Webdevelopment'
+import WebDevelopment from './Services/WebDevelopment/Webdevelopment';
+import MobileAppDevelopment from './Services/MobileAppDevelopment/MobileAppDevelopment';
+import GraphicDesigning from './Services/GraphicDesigning/GraphicDesigning';
+import DigitalMarketing from './Services/DigitalMarketing/DigitalMarketing';
+import BrandServices from './Services/BrandServices/BrandServices';
+import Advertising from './Services/Advertising/Advertising';
+
 
 import Blogs from './BLOGS';
 
@@ -29,11 +35,17 @@ import Contactus from './CONTACTUS';
 
 
 export {
-Navbar,Footer,PrivacyPolicy,TermsnConditions,Disclaimer,Error404,Home,
-Services,Blogs,Clients,Reviews,GetQuotation,Aboutus,Contactus,
-ReturnPolicy,ShippingandDelivery,
+/*Fixed */
 
+Navbar,Footer,
+PrivacyPolicy,TermsnConditions,Disclaimer,ShippingandDelivery,
+Error404,Home,
 
-WebDevelopment,
+Blogs,Clients,Reviews,GetQuotation,Aboutus,Contactus,
+ReturnPolicy,
+
+/*Services */
+Services,
+WebDevelopment,MobileAppDevelopment,GraphicDesigning,DigitalMarketing,BrandServices,Advertising,
 
 };
