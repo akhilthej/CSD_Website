@@ -5,35 +5,43 @@ const ImageSlider = () => {
   const images = [
     {
       url:
-        'https://drive.google.com/uc?export=view&id=12bHt6P6Qm5csTlzr8S12lldRg-4-m2lg',
-      title: 'Events',
-      description: 'Discover exciting events in your area.',
-      button1: { text: 'Learn More', link: '/events' },
-      button2: { text: 'Get Tickets', link: '/tickets' },
+        'https://drive.google.com/uc?id=1WWFf-rFcng34REwUqPxGDs-i240vjcgb',
+      title: 'Web Development',
+      description: 'Create stunning websites, engage, grow online.',
+      button1: { text: 'Get Quotation', link: '/events' },
+      button2: { text: 'Contact us', link: 'https://api.whatsapp.com/send?phone=918143407758&text=Hi,%20need%20Detials%20Regarding%20WebDevelopment' },
     },
     {
       url:
-        'https://drive.google.com/uc?export=view&id=1B8bVQ2F9Cny7-p_7aEuP4ZESGrsy7uTj',
-      title: 'Advertising',
-      description: 'Effective advertising solutions for your business.',
-      button1: { text: 'See Services', link: '/services' },
-      button2: { text: 'Contact Us', link: '/contact' },
+        'https://drive.google.com/uc?id=1WWFf-rFcng34REwUqPxGDs-i240vjcgb',
+      title: 'Digital Marketing',
+      description: 'Boost brands, reach audiences, measure results.',
+      button1: { text: 'Learn More', link: '/services' },
+      button2: { text: 'Contact Us', link: 'https://api.whatsapp.com/send?phone=918143407758&text=Hi,%20need%20Detials%20Regarding%20DigitalMarketing' },
     },
     {
       url:
-        'https://drive.google.com/uc?export=view&id=1qbSwRu5YArcxbCsiWQYX6nnPm6K6LKrU',
+        'https://drive.google.com/uc?id=1WWFf-rFcng34REwUqPxGDs-i240vjcgb',
+      title: 'Graphic Designing',
+      description: 'Design visuals, convey messages, inspire creativity.',
+      button1: { text: 'Explore', link: '/plans' },
+      button2: { text: 'Contact Us', link: 'https://api.whatsapp.com/send?phone=918143407758&text=Hi,%20need%20Detials%20Regarding%20GraphicDesigning' },
+    },
+    {
+      url:
+        'https://drive.google.com/uc?id=1WWFf-rFcng34REwUqPxGDs-i240vjcgb',
       title: 'Branding',
-      description: 'Strategic marketing services to boost your brand.',
-      button1: { text: 'Explore Plans', link: '/plans' },
-      button2: { text: 'Contact Us', link: '/contact' },
+      description: 'Craft identities, build trust, leave impressions.',
+      button1: { text: 'Learn More', link: '/shop' },
+      button2: { text: 'Contact us', link: 'https://api.whatsapp.com/send?phone=918143407758&text=Hi,%20need%20Detials%20Regarding%20Branding' },
     },
     {
       url:
-        'https://drive.google.com/uc?export=view&id=1Bw291U5er6fgvxAmJwMf_y3T1juJ6KEY',
-      title: 'Digital Creative Media',
-      description: 'Explore our shop for unique products and gifts.',
-      button1: { text: 'Shop Now', link: '/shop' },
-      button2: { text: 'Contact Support', link: '/support' },
+        'https://drive.google.com/uc?id=1WWFf-rFcng34REwUqPxGDs-i240vjcgb',
+      title: 'Advertising',
+      description: 'Promote products, captivate audiences, drive sales.',
+      button1: { text: 'Learn More', link: '/shop' },
+      button2: { text: 'Contact us', link: 'https://api.whatsapp.com/send?phone=918143407758&text=Hi,%20need%20Detials%20Regarding%20Advertising' },
     },
   ];
 
@@ -57,7 +65,7 @@ const ImageSlider = () => {
   }, [currentIndex]);
 
   return (
-    <div className="relative mx-5 sm:mx-10">
+    <div className="relative mx-2">
       <div className="flex items-center justify-center h-96 md:h-72 lg:h-[70vh]">
         {images.map((image, index) => (
           <div
@@ -69,31 +77,19 @@ const ImageSlider = () => {
             <img
               src={image.url}
               alt={`Slide ${index + 1}`}
-              className="w-full h-full object-cover rounded-2xl"
+              className="w-full h-full object-cover rounded-lg "
             />
-            <div className="absolute inset-0 flex flex-col items-center justify-center upanddown pb-8 font-extrabold text-transparent text-4xl md:text-7xl lg:text-8xl bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-600 mt-3  ">
+            <div className="absolute inset-0 flex flex-col items-center justify-center upanddown pb-8 font-extrabold text-white text-4xl md:text-7xl lg:text-8xl  mt-3  ">
               {image.title}
-              <span className="text-lg text-white mt-2">{image.description}</span>
+              <span className="text-xs sm:text-lg text-white mt-2 text-center ">{image.description}</span>
               <div className="mt-2">
-                <a href={image.button1.link} className="text-xs sm:text-sm transform rounded bg-yellow-500 border border-slate-200 px-12 py-2 font-medium text-white transition-colors  mx-2">{image.button1.text}</a>
-                <a href={image.button2.link} className="text-xs sm:text-sm transform rounded bg-orange-500 border border-slate-200 px-12 py-2 font-medium text-white transition-colors  mx-2">{image.button2.text}</a>
+                <a href={image.button1.link} className="text-xs sm:text-sm transform rounded bg-yellow-500 border border-slate-200 px-5 sm:px-12 py-2 font-medium text-white transition-colors  mx-2">{image.button1.text}</a>
+                <a href={image.button2.link} className="text-xs sm:text-sm transform rounded bg-orange-500 border border-slate-200 px-5 sm:px-12 py-2 font-medium text-white transition-colors  mx-2">{image.button2.text}</a>
               </div>
             </div>
           </div>
         ))}
       </div>
-      <button
-        onClick={prevSlide}
-        className="absolute top-1/2 left-4 transform -translate-y-1/2 p-2  rounded-full cursor-pointer  focus:outline-none"
-      >
-        &lt;
-      </button>
-      <button
-        onClick={nextSlide}
-        className="absolute top-1/2 right-4 transform -translate-y-1/2 p-2 rounded-full cursor-pointer focus:outline-none"
-      >
-        &gt;
-      </button>
     </div>
   );
 };

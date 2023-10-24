@@ -38,15 +38,18 @@ const Home = () => {
       </Helmet>
 
       <main className=" overflow-hidden">
+
+      <ImageSlider/>
+
         {/*herosection */}
         <header>
-          <section className="flex items-center my-10 justify-center  bg-white ">
+          <section className="flex items-center my-5 justify-center  bg-white ">
             <div className="mx-auto max-w-[55rem]">
               <div className="text-center">
                 <null className="cursor-default text-sm sm:text-2xl font-extrabold leading-8  text-gray-900">
                   DESIGN . DEVELOP & DEPLOY
                 </null>
-                <h1 className="cursor-default upanddown pb-8 font-extrabold text-transparent text-4xl md:text-7xl lg:text-8xl bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-600 mt-3  leading-[3.5rem] tracking-tight">
+                <h1 className="cursor-default upanddown font-extrabold text-transparent text-4xl md:text-7xl lg:text-8xl bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-600 mt-3  leading-[3.5rem] tracking-tight">
                   Cyber Space Digital
                 </h1>
 
@@ -71,7 +74,7 @@ const Home = () => {
           
         </header>
 
-<ImageSlider/>
+
 
         {/* Video 
         <div className="flex justify-center items-center">
