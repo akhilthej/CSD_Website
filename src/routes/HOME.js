@@ -26,12 +26,12 @@ import {
 const Home = () => {
   return (
     <>
-      {/*SEO */}
+      {/* SEO */}
       <Helmet>
-        <title>Cyber Space Digital</title>
+        <title>Cyber Space Digital - Web Development and Digital Marketing Company</title>
         <meta
-          name="Description"
-          content="Web Development and Digital Marketing Company. We are here to build you business online. One stop for all your digital needs."
+          name="description"
+          content="Cyber Space Digital is a Web Development and Digital Marketing Company. We are here to build your business online. Your one-stop solution for all your digital needs."
         />
         <link rel="canonical" href="https://cyberspacedigital.in/" />
       </Helmet>
