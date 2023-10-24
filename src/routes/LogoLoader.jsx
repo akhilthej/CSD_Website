@@ -8,7 +8,7 @@ const LogoLoader = () => {
     // Simulate a loading delay (replace this with your actual data loading logic)
     const timer = setTimeout(() => {
       setIsLoading(false);
-    }, 2000); // Adjust the delay as needed
+    }, 1000); // Adjust the delay as needed
 
     // Clear the timer when the component unmounts or when isLoading becomes false
     return () => clearTimeout(timer);
