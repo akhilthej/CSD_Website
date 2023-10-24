@@ -42,37 +42,36 @@ const Home = () => {
       <ImageSlider/>
 
         {/*herosection */}
-        <header>
-          <section className="flex items-center my-5 justify-center  bg-white ">
-            <div className="mx-auto max-w-[55rem]">
-              <div className="text-center">
-                <null className="cursor-default text-sm sm:text-2xl font-extrabold leading-8  text-gray-900">
-                  DESIGN . DEVELOP & DEPLOY
-                </null>
-                <h1 className="cursor-default upanddown font-extrabold text-transparent text-4xl md:text-7xl lg:text-8xl bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-600 mt-3  leading-[3.5rem] tracking-tight">
-                  Cyber Space Digital
-                </h1>
+     
+  <section class="flex items-center my-5 justify-center  bg-white">
+    <div class="mx-auto max-w-[55rem]">
+      <div class="text-center">
+        <null class="cursor-default text-sm sm:text-2xl font-extrabold leading-8 text-gray-900">
+          DESIGN . DEVELOP & DEPLOY
+        </null>
+        <h1 class="cursor-default pb-0 sm:pb-5 upanddown font-extrabold text-transparent text-4xl md:text-7xl lg:text-8xl bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-600 mt-3 leading-[3.5rem] tracking-tight">
+          Cyber Space Digital
+        </h1>
 
-                <p className="cursor-default text-sm sm:text-xl font-extrabold leading-8  text-gray-900">
-                  Take your brand online today for a global presence.
-                </p>
-              </div>
-              <div className="mt-6 flex items-center justify-center gap-4 flex-wrap">
-                <Link to="/contactus">
-                  <button className="text-xs sm:text-sm transform rounded bg-yellow-500 border border-slate-200 px-12 py-2 font-medium text-black transition-colors hover:bg-slate-50 ">
-                    Build Today
-                  </button>
-                </Link>
-                <Link to="/getquotation">
-                  <button className="text-xs sm:text-sm transform rounded border border-slate-200 px-12 py-2 font-medium  text-black transition-colors hover:bg-orange-600 hover:text-black">
-                    Get Quotation
-                  </button>
-                </Link>
-              </div>
-            </div>
-          </section>
-          
-        </header>
+        <p class="cursor-default text-sm sm:text-xl font-extrabold leading-8 text-gray-900">
+          Take your brand online today for a global presence.
+        </p>
+      </div>
+      <div class="mt-6 flex items-center justify-center gap-4 flex-wrap">
+        <a href="/contactus">
+          <button class="text-xs sm:text-sm transform rounded bg-yellow-500 border border-slate-200 px-12 py-2 font-medium text-black transition-colors hover:bg-slate-50">
+            Build Today
+          </button>
+        </a>
+        <a href="/getquotation">
+          <button class="text-xs sm:text-sm transform rounded border border-slate-200 px-12 py-2 font-medium text-black transition-colors hover:bg-orange-600 hover:text-black">
+            Get Quotation
+          </button>
+        </a>
+      </div>
+    </div>
+  </section>
+
 
 
 
