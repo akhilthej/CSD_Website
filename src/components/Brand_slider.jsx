@@ -6,13 +6,13 @@ import 'slick-carousel/slick/slick-theme.css';
 const BrandCarousel = () => {
   const settings = {
     autoplay: true,
-    autoplaySpeed: 1000, // Set the rotation speed (in milliseconds)
-    arrows: true, // Remove arrow navigation
-    dots: false, // Remove dot indicators
+    autoplaySpeed: 1000,
+    arrows: true,
+    dots: false,
     infinite: true,
     speed: 400,
     slidesToScroll: 1,
-    slidesToShow: window.innerWidth < 768 ? 3 : 6, // 3 on small screens, 6 on larger screens
+    slidesToShow: window.innerWidth < 768 ? 3 : 6,
   };
 
   const brandImages = [
@@ -32,7 +32,7 @@ const BrandCarousel = () => {
 
   return (
     <div className="py-10 bg-gray-100">
-    <p className='text-center font-bold pb-5'>OUR CLIENTS</p>
+      <p className='text-center font-bold pb-5'>OUR CLIENTS</p>
       <div className="container mx-auto">
         <Slider {...settings}>
           {brandImages.map((imageUrl, index) => (
@@ -40,7 +40,9 @@ const BrandCarousel = () => {
               <img
                 src={imageUrl}
                 alt={`Brand Logo ${index + 1}`}
-                className="mx-auto h-16 md:h-20 lg:h-24 xl:h-32"
+                width={200} // Set the desired width
+                height={80}  // Set the desired height
+                className="mx-auto"
               />
             </div>
           ))}

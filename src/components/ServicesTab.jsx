@@ -8,7 +8,6 @@ import {
   GraphicDesign,
   MobileAppDevelopment,
   WebDevelopment,
-  MoreFeatures,
 } from "../components/data/data";
 
 const ServicesTab = () => {
@@ -34,7 +33,7 @@ const ServicesTab = () => {
               backgroundSize: "cover",
             }}
           >
-            <div className="mt-16 grid bg-white/80 border divide-x divide-y rounded-xl overflow-hidden grid-cols-3 sm:grid-cols-3 lg:divide-y-0 lg:grid-cols-3 xl:grid-cols-3">
+            <div className="mt-16 grid bg-white/80 border divide-x divide-y rounded-xl overflow-hidden  sm:grid-cols-3 lg:divide-y-0 lg:grid-cols-3 xl:grid-cols-3">
             <div className="relative group transition hover:z-[1] hover:shadow-2xl lg:hidden xl:block ">
               <div className="relative p-8 space-y-8 border-dashed rounded-lg transition duration-300 group-hover:bg-yellow-500 group-hover:border group-hover:scale-90">
                   <img
@@ -138,7 +137,7 @@ const ServicesTab = () => {
     <section>
   <div className="pb-10 overflow-hidden">
     <div className="container m-auto px-6 space-y-8 text-gray-500 md:px-12">
-      <div className="bg-white/80 mt-0.5 grid border divide-x divide-y rounded-xl overflow-hidden grid-cols-3 sm:grid-cols-3 lg:divide-y-0 lg:grid-cols-3 xl:grid-cols-3">
+      <div className="bg-white/80 mt-0.5 grid border divide-x divide-y rounded-xl overflow-hidden sm:grid-cols-3 lg:divide-y-0 lg:grid-cols-3 xl:grid-cols-3">
         {/* Graphic Design */}
         <div className="relative group transition hover:z-[1] hover:shadow-2xl lg:hidden xl:block ">
               <div className="relative p-8 space-y-8 border-dashed rounded-lg transition duration-300 group-hover:bg-yellow-500 group-hover:border group-hover:scale-90">
