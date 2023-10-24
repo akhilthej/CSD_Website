@@ -6,6 +6,7 @@ import Brand_slider from "../components/Brand_slider";
 import ServicesTab from '../components/ServicesTab'
 
 import { HomeVideo } from "../components/data/data";
+import ImageSlider from "../components/ImageSlider"
 
 
 import {
@@ -70,9 +71,9 @@ const Home = () => {
           
         </header>
 
+<ImageSlider/>
 
-
-        {/* Video */}
+        {/* Video 
         <div className="flex justify-center items-center">
           <video
             className="rounded-lg"
@@ -86,7 +87,9 @@ const Home = () => {
           >
             <source src={HomeVideo} type="video/mp4" />
           </video>
-        </div>
+        </div>*/}
+
+
 
         {/* Tagline */}
         <section className="flex items-center my-10 justify-center  bg-white ">
