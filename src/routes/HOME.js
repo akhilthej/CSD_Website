@@ -232,9 +232,9 @@ const Home = () => {
               <div className="lg:flex lg:items-center">
                 <div className="w-full space-y-12 lg:w-1/2 ">
                   <div>
-                    <h1 className="text-3xl font-semibold text-black capitalize lg:text-4xl ">
+                    <h2 className="text-3xl font-semibold text-black capitalize lg:text-4xl ">
                       explore our <br /> Resources for our community
-                    </h1>
+                    </h2>
                     <div className="mt-2">
                       <span className="inline-block w-40 h-1 rounded-full bg-yellow-500" />
                       <span className="inline-block w-3 h-1 ml-1 rounded-full bg-yellow-500" />
@@ -254,14 +254,14 @@ const Home = () => {
                           strokeLinecap="round"
                           strokeLinejoin="round"
                           strokeWidth={2}
-                          d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01"
+                          d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h20a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01"
                         />
                       </svg>
                     </span>
                     <div className="mt-4 md:mx-4 md:mt-0">
-                      <h1 className="text-2xl font-semibold text-black capitalize ">
+                      <h2 className="text-2xl font-semibold text-black capitalize ">
                         Custom CRM
-                      </h1>
+                      </h2>
                       <p className="mt-3 text-black ">
                         Customer relationship management (CRM) is a technology
                         for managing all your company's relationships and
@@ -288,9 +288,9 @@ const Home = () => {
                       </svg>
                     </span>
                     <div className="mt-4 md:mx-4 md:mt-0">
-                      <h1 className="text-2xl font-semibold text-black capitalize ">
+                      <h2 className="text-2xl font-semibold text-black capitalize ">
                         Google Data Maps Mining
-                      </h1>
+                      </h2>
                       <p className="mt-3 text-black ">
                         Data mapping is crucial to the success of many data
                         processes. One misstep in data mapping can ripple
@@ -323,9 +323,9 @@ const Home = () => {
                       </svg>
                     </span>
                     <div className="mt-4 md:mx-4 md:mt-0">
-                      <h1 className="text-2xl font-semibold text-black capitalize">
+                      <h2 className="text-2xl font-semibold text-black capitalize">
                         Custom Testing Tools
-                      </h1>
+                      </h2>
                       <p className="mt-3 text-black ">
                         Testing Tools in software testing can be defined as
                         products that support various test activities starting
