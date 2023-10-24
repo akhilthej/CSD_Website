@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.6b58d6eb.css",
-    "main.js": "/static/js/main.dd7dadeb.js",
+    "main.css": "/static/css/main.e2075a6b.css",
+    "main.js": "/static/js/main.fba653f2.js",
     "static/media/homepage1.mp4": "/static/media/homepage1.3057c3e6533fc183f0f9.mp4",
     "static/media/LAN-001-white.png": "/static/media/LAN-001-white.4cd2dfdc96667fc57a19.png",
     "static/media/ARK-001-white.png": "/static/media/ARK-001-white.7552533bfc49040f3d2c.png",
@@ -14,7 +14,6 @@
     "static/media/ILA-002.png": "/static/media/ILA-002.dc2e513de4db7ae2ddb1.png",
     "static/media/ReviewsHero.png": "/static/media/ReviewsHero.f3eb97f0e0d7e31a8344.png",
     "static/media/HeroCoverBG.png": "/static/media/HeroCoverBG.d4a05e8db52361610406.png",
-    "static/media/ServicesHeaderImage.png": "/static/media/ServicesHeaderImage.4f00ce74eb6e0eb8b0de.png",
     "static/media/TechHeroHeader.png": "/static/media/TechHeroHeader.c3cf1f0dd7a47819452a.png",
     "static/media/labelanuneni.png": "/static/media/labelanuneni.4aa6b52ab418c760a2b6.png",
     "static/media/Subscribe.png": "/static/media/Subscribe.68f61a5d75abbc0d1333.png",
@@ -31,30 +30,30 @@
     "static/media/FixedPrice.svg": "/static/media/FixedPrice.28f3732c125aec9aa6e960d037be5a30.svg",
     "static/media/TimeManage.svg": "/static/media/TimeManage.3e99c658b279ce1fbc7c12000fcc9d6a.svg",
     "static/media/MoreFeatures.svg": "/static/media/MoreFeatures.dda48b4c4703262df1c5e1e26cdd16cb.svg",
-    "static/media/businesswebsite.svg": "/static/media/businesswebsite.2e88359ab3cbde251668b80cb1cfbb0d.svg",
+    "static/media/businesswebsite.svg": "/static/media/businesswebsite.854d1420240bc7a49141bc86559ddabb.svg",
     "static/media/Branding.svg": "/static/media/Branding.8c7133ef9ed0ac73c17dfcc35c384c98.svg",
     "static/media/googlereview.png": "/static/media/googlereview.85d0946b65c74505d37a.png",
     "static/media/WhatsApp.webp": "/static/media/WhatsApp.f3b54735f5be9f9103e0.webp",
     "static/media/MobileAppDevelopment.svg": "/static/media/MobileAppDevelopment.66c33473f41b3cec3fd4e8e7eeda9822.svg",
+    "static/media/ecommercewebsite.svg": "/static/media/ecommercewebsite.78deccee9c8de27871e92e8158d9be8d.svg",
     "static/media/Advertising.svg": "/static/media/Advertising.42233020f646b0d8b44ca8d7fa92ac57.svg",
-    "static/media/ecommercewebsite.svg": "/static/media/ecommercewebsite.b0a1117b91f58cdbefffbd17939f9a32.svg",
     "static/media/SoftwareDeveloper.svg": "/static/media/SoftwareDeveloper.7aa91a6ff18b5a02526967bdfd98443e.svg",
-    "static/media/crm_ermpannel.svg": "/static/media/crm_ermpannel.c9a188ec3cdbbeefcd7f3432bffece32.svg",
-    "static/media/CSDLogo.svg": "/static/media/CSDLogo.041d66dee62439cf6ddd948fb2b3b8b0.svg",
+    "static/media/crm_ermpannel.svg": "/static/media/crm_ermpannel.3501b94f689616ce4deff54028a4223e.svg",
+    "static/media/CSDLogo.svg": "/static/media/CSDLogo.9b5176f8c344ec31c55bb52ad18012cc.svg",
     "static/media/OntimeDelivery.svg": "/static/media/OntimeDelivery.2d9b87e51310b6c48d381d9335011a5a.svg",
     "static/media/csdv2Logofooter.svg": "/static/media/csdv2Logofooter.fd1b0a495973bc9e3a9d8b4c42fed61b.svg",
     "static/media/csdv2Logonavbar.svg": "/static/media/csdv2Logonavbar.3fa8f66adfcfef202819dc65c9504133.svg",
-    "static/media/webrevamp.svg": "/static/media/webrevamp.5db8d95ce4f7f1a3c8836b7630983134.svg",
+    "static/media/webrevamp.svg": "/static/media/webrevamp.848f0b678b17e6dd2512b8d635aa812f.svg",
     "index.html": "/index.html",
     "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
-    "main.6b58d6eb.css.map": "/static/css/main.6b58d6eb.css.map",
-    "main.dd7dadeb.js.map": "/static/js/main.dd7dadeb.js.map"
+    "main.e2075a6b.css.map": "/static/css/main.e2075a6b.css.map",
+    "main.fba653f2.js.map": "/static/js/main.fba653f2.js.map"
   },
   "entrypoints": [
-    "static/css/main.6b58d6eb.css",
-    "static/js/main.dd7dadeb.js"
+    "static/css/main.e2075a6b.css",
+    "static/js/main.fba653f2.js"
   ]
 }
