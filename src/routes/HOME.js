@@ -116,8 +116,8 @@ const Home = () => {
         <ServicesTab />
 
         {/* WE BUILD */}
-        <section>
-          <div className="cursor-default py-10 flex flex-col items-center justify-center">
+        <section  style={{ backgroundImage: 'url("https://drive.google.com/uc?id=1YbaOxUrnvo_bq067RffGDgedztOaEMia")', backgroundSize: 'cover', backgroundPosition: 'top' }}>
+          <div className="cursor-default py-40 flex flex-col items-center justify-center bg-black/70">
             <div className="text-center">
               <h2 className="font-extrabold text-transparent text-4xl md:text-5xl lg:text-8xl bg-clip-text bg-yellow-400 tracking-tight ">
                 WE BUILD
@@ -226,13 +226,13 @@ const Home = () => {
         </section>
 
         {/*Explore */}
-        <section>
+        <section style={{ backgroundImage: 'url("https://drive.google.com/uc?id=17CKOf3456AJ6ZjKhbaLuKGziUWrTUrAG")', backgroundSize: 'cover', backgroundPosition: 'center' }}>
           <section>
-            <div className="cursor-default container px-6 py-10 mx-auto">
-              <div className="lg:flex lg:items-center">
+            <div className="cursor-default container px-6 py-10 mx-auto bg-black/60">
+              <div className="lg:flex lg:items-center ">
                 <div className="w-full space-y-12 lg:w-1/2 ">
                   <div>
-                    <h2 className="text-3xl font-semibold text-black capitalize lg:text-4xl ">
+                    <h2 className="text-3xl font-semibold text-white capitalize lg:text-4xl ">
                       explore our <br /> Resources for our community
                     </h2>
                     <div className="mt-2">
@@ -242,7 +242,7 @@ const Home = () => {
                     </div>
                   </div>
                   <div className="md:flex md:items-start md:-mx-4">
-                    <span className="inline-block p-2 text-black bg-yellow-500 rounded-xl md:mx-4  ">
+                    <span className="inline-block p-2 text-white bg-yellow-500 rounded-xl md:mx-4  ">
                       <svg
                         xmlns="https://www.w3.org/2000/svg"
                         className="w-6 h-6"
@@ -259,10 +259,10 @@ const Home = () => {
                       </svg>
                     </span>
                     <div className="mt-4 md:mx-4 md:mt-0">
-                      <h2 className="text-2xl font-semibold text-black capitalize ">
+                      <h2 className="text-2xl font-semibold text-white capitalize ">
                         Custom CRM
                       </h2>
-                      <p className="mt-3 text-black ">
+                      <p className="mt-3 text-white ">
                         Customer relationship management (CRM) is a technology
                         for managing all your company's relationships and
                         interactions with customers and potential customers. The
@@ -271,7 +271,7 @@ const Home = () => {
                     </div>
                   </div>
                   <div className="md:flex md:items-start md:-mx-4">
-                    <span className="inline-block p-2 text-black bg-yellow-500 rounded-xl md:mx-4 ">
+                    <span className="inline-block p-2 text-white bg-yellow-500 rounded-xl md:mx-4 ">
                       <svg
                         xmlns="https://www.w3.org/2000/svg"
                         className="w-6 h-6"
@@ -288,10 +288,10 @@ const Home = () => {
                       </svg>
                     </span>
                     <div className="mt-4 md:mx-4 md:mt-0">
-                      <h2 className="text-2xl font-semibold text-black capitalize ">
+                      <h2 className="text-2xl font-semibold text-white capitalize ">
                         Google Data Maps Mining
                       </h2>
-                      <p className="mt-3 text-black ">
+                      <p className="mt-3 text-white ">
                         Data mapping is crucial to the success of many data
                         processes. One misstep in data mapping can ripple
                         throughout your organization, leading to replicated
@@ -300,7 +300,7 @@ const Home = () => {
                     </div>
                   </div>
                   <div className="md:flex md:items-start md:-mx-4">
-                    <span className="inline-block p-2 text-black  bg-yellow-500 rounded-xl md:mx-4 ">
+                    <span className="inline-block p-2 text-white  bg-yellow-500 rounded-xl md:mx-4 ">
                       <svg
                         xmlns="https://www.w3.org/2000/svg"
                         className="w-6 h-6"
@@ -323,10 +323,10 @@ const Home = () => {
                       </svg>
                     </span>
                     <div className="mt-4 md:mx-4 md:mt-0">
-                      <h2 className="text-2xl font-semibold text-black capitalize">
+                      <h2 className="text-2xl font-semibold text-white capitalize">
                         Custom Testing Tools
                       </h2>
-                      <p className="mt-3 text-black ">
+                      <p className="mt-3 text-white ">
                         Testing Tools in software testing can be defined as
                         products that support various test activities starting
                         from planning, requirement gathering, build creation,
@@ -337,8 +337,8 @@ const Home = () => {
                 </div>
                 <div className="hidden lg:flex lg:items-center lg:w-1/2 lg:justify-center">
                   <img
-                    className="w-[28rem] h-[28rem] object-cover xl:w-[34rem] xl:h-[34rem] rounded-full"
-                    src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=755&q=80"
+                    className="w-[28rem] h-[28rem] object-cover xl:w-[34rem] xl:h-[34rem] "
+                    src="https://drive.google.com/uc?id=17CKOf3456AJ6ZjKhbaLuKGziUWrTUrAG"
                     alt=""
                   />
                 </div>
