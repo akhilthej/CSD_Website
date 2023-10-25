@@ -6,6 +6,8 @@ import {  Routes, Route, useLocation  } from 'react-router-dom';
 import {Navbar,Footer,PrivacyPolicy,TermsnConditions,Disclaimer,ShippingandDelivery,ReturnPolicy,Error404,Home,
         Services,Blogs,Clients,Reviews,Aboutus,Contactus,} from './routes/Routesmap';
 
+import NavbarMobile from './components/Navbar/NavbarMobile'
+
 
 import {WebDevelopment,MobileAppDevelopment,GraphicDesigning,DigitalMarketing,BrandServices,Advertising,} from './routes/Routesmap'
 
@@ -20,6 +22,7 @@ export function App() {
   return (
   <>
   <Navbar />
+  <NavbarMobile/>
       <Notification/>
       <Routes location ={location} key={location.pathname}>
         
