@@ -32,11 +32,11 @@ const DigitalMarketing = () => {
     </div>
     <div className="md:w-1/2 px-5">
       <div className="text-right md:text-left"> {/* Align titles to the right on mobile, left on larger screens */}
-        <h3 className="text-4xl pb-5 md:text-6xl fade-in-down font-extrabold text-white tracking-tight">
+        <h3 className="text-2xl pb-5 md:text-6xl fade-in-down font-extrabold text-center text-white tracking-tight">
         Digital Marketing & Social Media Marketing
         </h3>
-        <p className="text-white sm:text-sm text-xs ml-40 sm:ml-0">
-          "Cyber Space Digital stands as a distinguished leader in the realm of web design and development, known for crafting captivating online experiences. Our innovative solutions and expertise propel businesses towards the fast lane of growth. With a dedicated team of creative professionals, we bring your digital aspirations to life, ensuring your online presence sets you apart in the digital landscape. Explore the limitless possibilities with Cyber Space Digital – where excellence meets innovation."
+        <p className="text-white sm:text-sm text-xs text-center sm:ml-0">
+          "Cyber Space Digital stands as a distinguished leader in the realm"
         </p>
 
         <div className="mt-8 flex flex-wrap justify-center gap-4">
@@ -56,6 +56,7 @@ const DigitalMarketing = () => {
     </div>
   </div>
 </section>
+
 
 
 
