@@ -28,7 +28,9 @@ const Home = () => {
     <>
       {/* SEO */}
       <Helmet>
-        <title>Cyber Space Digital - Web Development and Digital Marketing Company</title>
+        <title>
+          Cyber Space Digital - Web Development and Digital Marketing Company
+        </title>
         <meta
           name="description"
           content="Cyber Space Digital is a Web Development and Digital Marketing Company. We are here to build your business online. Your one-stop solution for all your digital needs."
@@ -116,7 +118,14 @@ const Home = () => {
         <ServicesTab />
 
         {/* WE BUILD */}
-        <section  style={{ backgroundImage: 'url("https://drive.google.com/uc?id=1YbaOxUrnvo_bq067RffGDgedztOaEMia")', backgroundSize: 'cover', backgroundPosition: 'top' }}>
+        <section
+          style={{
+            backgroundImage:
+              'url("https://drive.google.com/uc?id=1YbaOxUrnvo_bq067RffGDgedztOaEMia")',
+            backgroundSize: "cover",
+            backgroundPosition: "top",
+          }}
+        >
           <div className="cursor-default py-40 flex flex-col items-center justify-center bg-black/70">
             <div className="text-center">
               <h2 className="font-extrabold text-transparent text-4xl md:text-5xl lg:text-8xl bg-clip-text bg-yellow-400 tracking-tight ">
@@ -226,7 +235,14 @@ const Home = () => {
         </section>
 
         {/*Explore */}
-        <section style={{ backgroundImage: 'url("https://drive.google.com/uc?id=17CKOf3456AJ6ZjKhbaLuKGziUWrTUrAG")', backgroundSize: 'cover', backgroundPosition: 'center' }}>
+        <section
+          style={{
+            backgroundImage:
+              'url("https://drive.google.com/uc?id=17CKOf3456AJ6ZjKhbaLuKGziUWrTUrAG")',
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+          }}
+        >
           <section>
             <div className="cursor-default container px-6 py-10 mx-auto bg-black/60">
               <div className="lg:flex lg:items-center ">
