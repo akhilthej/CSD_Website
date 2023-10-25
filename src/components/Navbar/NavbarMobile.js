@@ -18,7 +18,7 @@ const HamburgerMenu = () => {
     if (isOpen) {
       closeTimeout = setTimeout(() => {
         closeMenu();
-      }, 7000); // Close menu after 17 seconds
+      }, 7000); // Close menu after 7 seconds
     }
 
     return () => {
@@ -27,14 +27,14 @@ const HamburgerMenu = () => {
   }, [isOpen]);
 
   return (
-    <div className="z-10 sticky top-0 bg-white px-5">
+    <div className="z-10 sticky top-0 bg-white px-5 sm:hidden">
       <div className="flex items-center py-2">
-        <img
-          className="h-auto w-40 sm:hidden"
+      <Link to='/'><img
+          className="h-auto w-40"
           src={NavbarLogo}
           alt="csd_logo"
-        />
-        <button className="text-3xl sm:hidden ml-auto" onClick={toggleMenu}>
+        /></Link>
+        <button className="text-3xl  ml-auto" onClick={toggleMenu}>
           ☰
         </button>
       </div>
@@ -46,11 +46,10 @@ const HamburgerMenu = () => {
           >
             ✕
           </button>
-          <img
+          <Link to='/'><img
             className="pl-2 h-auto w-44 lg:w-52"
             src={NavbarLogo}
-            alt="csd_logo"
-          />
+            alt="csd_logo"/></Link>
           
           <div className="flex flex-col mt-6">
           <Link to='/aboutus'><a className="text-2xl my-2" onClick={closeMenu}>
