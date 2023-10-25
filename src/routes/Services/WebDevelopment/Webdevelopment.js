@@ -24,7 +24,7 @@ const Webdevelopment = () => {
 
 
  {/* Title Card */}
- <section className="py-10 sm:py-20" style={{ backgroundImage: 'url("https://drive.google.com/uc?id=1YOJ-Sjp3oiidK-JivRLm10UzunYuryOg")', backgroundSize: 'cover', backgroundPosition: 'center' }}>
+ <section className="py-10 sm:py-40" style={{ backgroundImage: 'url("https://drive.google.com/uc?id=1YOJ-Sjp3oiidK-JivRLm10UzunYuryOg")', backgroundSize: 'cover', backgroundPosition: 'center' }}>
   <div className="flex flex-col items-center md:flex-row justify-center">
     <div className="md:w-1/2 md:pr-10">
      
