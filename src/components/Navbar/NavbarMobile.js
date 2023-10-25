@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import NavbarLogo from "./csdv2Logonavbar.svg";
+import { Link } from "react-router-dom";
 
 const HamburgerMenu = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -50,25 +51,26 @@ const HamburgerMenu = () => {
             src={NavbarLogo}
             alt="csd_logo"
           />
+          
           <div className="flex flex-col mt-6">
-            <a href="/aboutus" className="text-2xl my-2" onClick={closeMenu}>
+          <Link to='/aboutus'><a className="text-2xl my-2" onClick={closeMenu}>
               About
-            </a>
-            <a href="/contactus" className="text-2xl my-2" onClick={closeMenu}>
+            </a></Link>
+            <Link to='/contactus'><a className="text-2xl my-2" onClick={closeMenu}>
               Contact Us
-            </a>
-            <a href="/services" className="text-2xl my-2" onClick={closeMenu}>
+            </a></Link>
+            <Link to='/services'><a className="text-2xl my-2" onClick={closeMenu}>
               Services
-            </a>
-            <a href="/clients" className="text-2xl my-2" onClick={closeMenu}>
+            </a></Link>
+            <Link to='/clients'><a className="text-2xl my-2" onClick={closeMenu}>
               Clients
-            </a>
-            <a href="/blogs" className="text-2xl my-2" onClick={closeMenu}>
+            </a></Link>
+            <Link to='/blogs'><a className="text-2xl my-2" onClick={closeMenu}>
               Blogs
-            </a>
-            <a href="/reviews" className="text-2xl my-2" onClick={closeMenu}>
+            </a></Link>
+            <Link to='/reviews'><a className="text-2xl my-2" onClick={closeMenu}>
               Reviews
-            </a>
+            </a></Link>
           </div>
         </div>
       )}
