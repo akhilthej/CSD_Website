@@ -27,7 +27,6 @@ import Blogs from './BLOGS';
 import Clients from './Clients';
 import Reviews from './Reviews';
 
-import GetQuotation from './GetQuotation';
 
 import Aboutus from './Aboutus';
 import Contactus from './CONTACTUS';
@@ -41,7 +40,7 @@ Navbar,Footer,
 PrivacyPolicy,TermsnConditions,Disclaimer,ShippingandDelivery,
 Error404,Home,
 
-Blogs,Clients,Reviews,GetQuotation,Aboutus,Contactus,
+Blogs,Clients,Reviews,Aboutus,Contactus,
 ReturnPolicy,
 
 /*Services */

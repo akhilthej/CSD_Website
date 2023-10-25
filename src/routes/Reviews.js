@@ -2,7 +2,7 @@ import React from 'react';
 import { Helmet } from 'react-helmet-async';
 import {Link} from 'react-router-dom';
 
-import ReviewsHeroImage from '../assets/ImagesPage/ReviewsHero.png';
+
 
 import {googlereview} from '../components/data/data';
 
@@ -15,49 +15,27 @@ const Reviews = () => {
                 <link rel="canonical" href="/technologies" />
       </Helmet>
     
-{/*Head*/}
-<>
-  <div className="  flex items-center justify-center my-2">
-    <div className="mx-auto w-full max-w-screen-lg  px-5 ">
-      <div className="grid gap-5 md:grid-cols-2 md:gap-10 lg:gap-20">
-        <div className="flex justify-center md:justify-end">
-          <img
-            className="w-full max-w-xl"
-            src={ReviewsHeroImage}
-            alt="Marketing newsletter via computer Illustration in PNG, SVG"
-          />
-        </div>
-        <div className="flex items-center">
-          <div className="mx-auto md:mx-0">
-            <h3 className=" text-4xl fade-in-down font-extrabold text-transparent  md:text-6xl bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-600 tracking-tight">Our Clients</h3>
-            <p className="mt-2 max-w-[20rem] text-lg text-black">
-              Join our weekly digest. You'll also receive some of our best posts
-              today.
-            </p>
-            
-            <div class="mt-8 flex flex-wrap justify-center gap-4">
-        <Link to= '/contactus'><a
-          class=" transform rounded-mdpx-6 rounded bg-gradient-to-r from-orange-400 to-orange-600 px-5 py-3 font-medium text-white transition-colors hover:from-orange-600 hover:to-orange-400"
-          
-        >
-          Get in-touch
-        </a></Link>
 
-        <Link to= '/aboutus'><a
-          class="transform rounded-md border bg-black px-5 py-3 font-medium text-white transition-colors hover:bg-slate-50 hover:text-black"
-          
-        >
-          Learn More
-        </a></Link>
-      </div>
-           
-          </div>
-        </div>
+ {/* Title Card */}
+ <section className="py-10 sm:py-40" style={{ backgroundImage: 'url("https://drive.google.com/uc?id=1YOJ-Sjp3oiidK-JivRLm10UzunYuryOg")', backgroundSize: 'cover', backgroundPosition: 'center' }}>
+  <div className="flex flex-col items-center md:flex-row justify-center">
+    <div className="md:w-1/2 md:pr-10">
+     
+    </div>
+    <div className="md:w-1/2 px-5">
+      <div className="text-right md:text-left"> {/* Align titles to the right on mobile, left on larger screens */}
+        <h3 className="text-2xl pb-5 md:text-6xl fade-in-down font-extrabold text-center text-white tracking-tight">
+        Reviews
+        </h3>
+        <p className="text-white sm:text-sm text-xs text-center sm:ml-0">
+        Feedback From our Community.
+        </p>
+
+       
       </div>
     </div>
   </div>
-</>
-
+</section>
 
 
 {/*Testimony*/}

@@ -2,18 +2,10 @@
 import HomeVideo from '../../assets/Videos/homepage1.mp4';
 
 
-/*BrandLogos */
-import Archivitus from '../../assets/Clients/Archivitus.png';
-import serpsit from '../../assets/Clients/serpsit.png'
-import labelanuneni from '../../assets/Clients/labelanuneni.png'
-import ilahe from '../../assets/Clients/iliha.png';
-import laytonskincare from '../../assets/Clients/latonskincare.png';
-import AlohaTechLogo from '../../assets/Clients/AlohaTechLogo.png';
 
 
 import HeroCoverBG from '../../assets/Common/Home/HeroCoverBG.png'
 
-import TechHeroHeader from '../../assets/ImagesPage/TechHeroHeader.png'
 
 
 import graphicsdesign from '../../assets/Icons/graphicsdesign.png';
@@ -65,13 +57,6 @@ export {
   Advertising,Branding,DigitalMarketing,GraphicDesign,MobileAppDevelopment,WebDevelopment,SoftwareDeveloper,
   FixedPrice,OntimeDelivery,TimeManage,HiringModel,MoreFeatures,
 
-    /* ClientsLogo */
-    Archivitus,
-    serpsit,
-    labelanuneni,
-    ilahe,
-    laytonskincare,
-    AlohaTechLogo,
 
     /*Webservice*/
     businesswebsite,ecommercewebsite,webrevamp,crm_ermpannel,
@@ -81,12 +66,7 @@ export {
     graphicsdesign,googlereview,
     documentationicon,socialicon,analysisicon,financeicon,statergyicon,businessreporticon,
 
- 
 
-    /* Services */
-
-    /* Tech */
-    TechHeroHeader,
     
 
 

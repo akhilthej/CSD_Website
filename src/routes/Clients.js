@@ -1,98 +1,48 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
+import Brand_slider from '../components/Brand_slider'
 
-import ClientHeader from '../assets/ImagesPage/ClientHeader.png'
-import {Archivitus ,serpsit , labelanuneni ,ilahe ,laytonskincare,AlohaTechLogo } from '../components/data/data'
 
 import {LabelAnuneniwhite,LabelAnunenipc,LaytonSkinpc,LaytonSkinWhite,Ilahewhite,Ilahepc,Arkwhite,Arkwhitepc} from '../components/data/data'
 
 
 const Clients = () => {
   return (
-    <div className='Clients'>
+    <div>
       <Helmet>
                 <title>Cyber Space Digital - Clients</title>
                 <meta name="description" content='Cyberspacedigital, Technologies we deal with to full fill your digital needs. Our research will be posted below.'/>
                 <link rel="canonical" href="/technologies" />
       </Helmet>
     
-<section>
-{/* Header*/}
-<div className="  flex items-center justify-center my-2 pt-20">
-  <div className="mx-auto w-full max-w-screen-lg  px-5  ">
-    <div className="grid gap-5 md:grid-cols-2 md:gap-10 lg:gap-20">
-      <div className="flex justify-center md:justify-end">
-        <img
-          className="w-full max-w-xl"
-          src={ClientHeader}
-          alt="Marketing newsletter via computer Illustration in PNG, SVG"
-        />
-      </div>
-      <div className="flex items-center">
-        <div className="mx-auto md:mx-0">
-          <h3 className="text-4xl fade-in-down font-extrabold text-transparent  md:text-6xl bg-clip-text bg-gradient-to-r from-yellow-400 via-orange-600 to-yellow-400 tracking-tight">Our Clients</h3>
-          <p className="mt-2 max-w-[20rem] text-lg text-black">
-            Join our weekly digest. You'll also receive some of our best posts
-            today.
-          </p>
-          
-          <div class="mt-8 flex flex-wrap justify-center gap-4">
-      <Link to= '/contactus'><a
-        class="transform rounded-mdpx-6 rounded bg-gradient-to-r from-orange-400 to-orange-600 px-5 py-3 font-medium text-white transition-colors hover:from-orange-600 hover:to-orange-400">
-        Get in-touch
-      </a></Link>
 
-      <Link to= '/aboutus'><a
-        class="transform rounded-md border bg-black px-5 py-3 font-medium text-white transition-colors hover:bg-slate-50 hover:text-black">
-        Learn More
-      </a></Link>
+ {/* Title Card */}
+ <section className="py-10 sm:py-40" style={{ backgroundImage: 'url("https://drive.google.com/uc?id=1YOJ-Sjp3oiidK-JivRLm10UzunYuryOg")', backgroundSize: 'cover', backgroundPosition: 'center' }}>
+  <div className="flex flex-col items-center md:flex-row justify-center">
+    <div className="md:w-1/2 md:pr-10">
+     
     </div>
-         
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+    <div className="md:w-1/2 px-5">
+      <div className="text-right md:text-left"> {/* Align titles to the right on mobile, left on larger screens */}
+        <h3 className="text-2xl pb-5 md:text-6xl fade-in-down font-extrabold text-center text-white tracking-tight">
+        Our Clients
+        </h3>
+        <p className="text-white sm:text-sm text-xs text-center sm:ml-0">
+        Join our weekly digest. You'll also receive some of our best posts today.
+        </p>
 
+        <div className="mt-8 flex flex-wrap justify-center gap-4">
+          <Link to="/aboutus">
+            <a className="transform rounded-md bg-white px-5 py-3 font-medium text-black transition-colors hover:bg-black hover:text-white">
+              Learn More
+            </a>
+          </Link>
 
-
-
-      {/* Brands Section Start */}
-      <section >
-  <div class="container mx-auto">
-    <div class="-mx-4 flex flex-wrap">
-      <div class="w-full px-1">
-        <div class="flex flex-wrap items-center justify-center ">
-          <a href="https://archivitusdesigners.com/" title="Created on-2022-08-01 . Expires-2023-08-01 "
-            class="mx-4 flex w-[150px] items-center justify-center py-5 2xl:w-[180px]" >
-            <img src= {Archivitus}
-              class="h-10 w-full" />
-          </a>
-          <a href="https://serpsit.com/" title="Created on-2022-10-01 . Expires-Jul 17, 2025"
-            class="mx-4 flex w-[150px] items-center justify-center py-5 2xl:w-[180px]" >
-            <img src={serpsit}
-              class="h-10 w-full" />
-          </a>
-          <a href="https://labelanuneni.com" title="Created on-2022-08-01 . Expires-2023-08-01"
-            class="mx-4 flex w-[150px] items-center justify-center py-5 2xl:w-[180px]" >
-            <img src={labelanuneni}
-              class="h-10 w-full" />
-          </a>
-          <a href="http://ilahe.in/" title="Created on-2022-08-01 . Expires-2023-08-01"
-            class="mx-4 flex w-[150px] items-center justify-center py-5 2xl:w-[180px]" >
-            <img src={ilahe}
-              class="h-10 w-full" />
-          </a>
-          <a href="https://laytonskin.in/" title="Created on-2023-03-15 . Expires-2024-03-15"
-            class="mx-4 flex w-[150px] items-center justify-center py-5 2xl:w-[180px]" >
-            <img src={laytonskincare}
-              class="h-10 w-full" />
-          </a>
-          <a href="https://alohatechnologies.ca" title="Created on-2023-03-15 . Expires-2024-03-15"
-            class="mx-4 flex w-[150px] items-center justify-center py-5 2xl:w-[180px]" >
-            <img src={AlohaTechLogo}
-              class="h-10 w-full" />
+          <a href="https://api.whatsapp.com/send?phone=918143407758&text=Welcome%20to%20Cyberspacedigital">
+            <a className="transform rounded-md bg-white px-5 py-3 font-medium text-black transition-colors hover:bg-black hover:text-white">
+              WhatsApp
+            </a>
           </a>
         </div>
       </div>
@@ -103,7 +53,13 @@ const Clients = () => {
 
 
 
+<Brand_slider/>
+
+
+
+
 {/* ====== Brands Section End */}
+<section>
 </section>
 <section className="text-center portfolio text-4xl font-extrabold text-transparent  md:text-6xl bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-400 tracking-tight" >
       {/* heading */}

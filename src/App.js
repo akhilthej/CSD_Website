@@ -4,7 +4,7 @@ import {  Routes, Route, useLocation  } from 'react-router-dom';
 
 
 import {Navbar,Footer,PrivacyPolicy,TermsnConditions,Disclaimer,ShippingandDelivery,ReturnPolicy,Error404,Home,
-        Services,Blogs,Clients,Reviews,GetQuotation,Aboutus,Contactus,} from './routes/Routesmap';
+        Services,Blogs,Clients,Reviews,Aboutus,Contactus,} from './routes/Routesmap';
 
 
 import {WebDevelopment,MobileAppDevelopment,GraphicDesigning,DigitalMarketing,BrandServices,Advertising,} from './routes/Routesmap'
@@ -61,8 +61,6 @@ export function App() {
           <Route path='/clients' element={<Clients />} />
           
           <Route path='/reviews' element={<Reviews />} />
-
-          <Route path='/getquotation' element={<GetQuotation />} />
 
           <Route path='/aboutus' element={<Aboutus />} />
           <Route path='/contactus' element={<Contactus />} /> 
