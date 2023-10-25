@@ -51,6 +51,12 @@ const CONTACTUS = () => {
                 digital office.
               </p>
               <div className="mt-8 flex flex-wrap justify-center gap-4">
+              <a href="mailto:admin@cyberspacedigital.in">
+                  <a className="transform rounded-md bg-white px-5 py-3 font-medium text-black transition-colors hover:bg-black hover:text-white">
+                    Email
+                  </a>
+                </a>
+              
                 <a href="https://api.whatsapp.com/send?phone=918143407758&text=Welcome%20to%20Cyberspacedigital">
                   <a className="transform rounded-md bg-white px-5 py-3 font-medium text-black transition-colors hover:bg-black hover:text-white">
                     WhatsApp
