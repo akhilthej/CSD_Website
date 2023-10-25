@@ -165,17 +165,17 @@ const Navbar = () => {
               </Transition>
             </Menu>
 
-            <li className="p-4 text-sm hidden lg:block font-medium antialiased">
+            <li className="p-4 text-sm hidden lg:block font-medium antialiased rounded-md  px-4 py-2   text-black hover:bg-yellow-500  focus:outline-none">
               <Link to="/clients">Clients</Link>
             </li>
-            <li className="p-4  text-sm  hidden lg:block font-medium antialiased">
+            <li className="p-4 text-sm hidden lg:block font-medium antialiased rounded-md  px-4 py-2   text-black hover:bg-yellow-500  focus:outline-none">
               <Link to="/aboutus">About us</Link>
             </li>
-            <li className="p-4  text-sm  hidden lg:block font-medium antialiased">
+            <li className="p-4 text-sm hidden lg:block font-medium antialiased rounded-md  px-4 py-2   text-black hover:bg-yellow-500  focus:outline-none">
               <Link to="/contactus">Contact us</Link>
             </li>
             <li className="p-4">
-              <Menu as="div" className="relative inline-block text-left ">
+              <Menu as="div" className="relative inline-block text-left  ">
                 <div>
                   <Menu.Button className=" text-3xl">
                   ☰
