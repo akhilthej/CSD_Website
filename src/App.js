@@ -1,90 +1,70 @@
 import React from "react";
-import {  Routes, Route, useLocation  } from 'react-router-dom';
+import { Routes, Route, useLocation } from 'react-router-dom';
+import { Navbar, Footer, PrivacyPolicy, TermsnConditions, Disclaimer, ShippingandDelivery, ReturnPolicy, Error404, Home, Aboutus, Contactus, Services, Blogs, Clients, Reviews } from './routes/Routesmap';
+import NavbarMobile from './components/Navbar/NavbarMobile';
+import Notification from "./components/Tools/Notifications";
+import {
+  WebDevelopment,
+  MobileAppDevelopment,
+  GraphicDesigning,
+  DigitalMarketing,
+  BrandServices,
+  Advertising
+} from './routes/Routesmap';
 
+const routes = [
+  { path: '/', element: <Home /> },
+  { path: '/*', element: <Error404 /> },
+  { path: '/services', element: <Services /> },
+  { path: '/best-web-developement-company', element: <WebDevelopment /> },
+  { path: '/web-developement-company-in-vizag', element: <WebDevelopment /> },
+  { path: '/best-web-developement-company-in-vizag', element: <WebDevelopment /> },
+  { path: '/best-mobile-app-development-company', element: <MobileAppDevelopment /> },
+  { path: '/mobile-app-development-in-vizag', element: <MobileAppDevelopment /> },
+  { path: '/best-mobile-app-development-in-vizag', element: <MobileAppDevelopment /> },
+  { path: '/best-graphic-designing-company', element: <GraphicDesigning /> },
+  { path: '/graphic-designing-company-in-vizag', element: <GraphicDesigning /> },
+  { path: '/best-graphic-designing-in-vizag', element: <GraphicDesigning /> },
+  { path: '/best-poster-designing-company', element: <GraphicDesigning /> },
+  { path: '/best-digital-marketing-company', element: <DigitalMarketing /> },
+  { path: '/digital-marketing-company-in-vizag', element: <DigitalMarketing /> },
+  { path: '/best-digital-marketing-company-in-vizag', element: <DigitalMarketing /> },
+  { path: '/social-media-marketing-company', element: <DigitalMarketing /> },
+  { path: '/best-brand-services-company', element: <BrandServices /> },
+  { path: '/brand-services-company-in-vizag', element: <BrandServices /> },
+  { path: '/best-brand-services-company-in-vizag', element: <BrandServices /> },
+  { path: '/best-advertising-company', element: <Advertising /> },
+  { path: '/advertising-company-in-vizag', element: <Advertising /> },
+  { path: '/best-advertising-company-in-vizag', element: <Advertising /> },
+  { path: '/blogs', element: <Blogs /> },
+  { path: '/clients', element: <Clients /> },
+  { path: '/reviews', element: <Reviews /> },
+  { path: '/aboutus', element: <Aboutus /> },
+  { path: '/contactus', element: <Contactus /> },
+  { path: '/privacypolicy', element: <PrivacyPolicy /> },
+  { path: '/termsconditions', element: <TermsnConditions /> },
+  { path: '/returnpolicy', element: <ReturnPolicy /> },
+  { path: '/shippingdelivery', element: <ShippingandDelivery /> },
+  { path: '/disclaimer', element: <Disclaimer /> },
+];
 
-
-import {Navbar,Footer,PrivacyPolicy,TermsnConditions,Disclaimer,ShippingandDelivery,ReturnPolicy,Error404,Home,
-        Services,Blogs,Clients,Reviews,Aboutus,Contactus,} from './routes/Routesmap';
-
-import NavbarMobile from './components/Navbar/NavbarMobile'
-
-
-import {WebDevelopment,MobileAppDevelopment,GraphicDesigning,DigitalMarketing,BrandServices,Advertising,} from './routes/Routesmap'
-
-import Notification from "./components/Tools/Notifications";        
-        
 export function App() {
+  const location = useLocation();
+  window.scrollTo(0, 0);
 
-  const location= useLocation();
-  window.scrollTo(0, 0); /*---ResetPagelocation---*/
-
-  
   return (
-  <>
-  <Navbar />
-  <NavbarMobile/>
-      <Notification/>
-      <Routes location ={location} key={location.pathname}>
-        
-          <Route path='/' element={<Home />} />
-          <Route path='/*' element={<Error404 />} />
-         
-
-          <Route path='/services' element={<Services />} />
-
-          <Route path='/best-web-developement-company' element={<WebDevelopment/>} />
-          <Route path="/web-developement-company-in-vizag" element={<WebDevelopment/>} />
-          <Route path="/best-web-developement-company-in-vizag" element={<WebDevelopment/>} />
-
-          <Route path='/best-mobile-app-development-company' element={<MobileAppDevelopment/>} />
-          <Route path="/mobile-app-development-in-vizag" element={<MobileAppDevelopment/>} />
-          <Route path="/best-mobile-app-development-in-vizag" element={<MobileAppDevelopment/>} />
-
-          <Route path='/best-graphic-designing-company' element={<GraphicDesigning/>} />
-          <Route path="/graphic-designing-company-in-vizag" element={<GraphicDesigning/>} />
-          <Route path="/best-graphic-designing-in-vizag" element={<GraphicDesigning/>} />
-          <Route path="/best-poster-designing-company" element={<GraphicDesigning/>} />
-
-          <Route path='/best-digital-marketing-company' element={<DigitalMarketing/>} />
-          <Route path="/digital-marketing-company-in-vizag" element={<DigitalMarketing/>} />
-          <Route path="/best-digital-marketing-company-in-vizag" element={<DigitalMarketing/>} />
-          <Route path="/social-media-marketing-company" element={<DigitalMarketing/>} />
-          
-          <Route path='/best-brand-services-company' element={<BrandServices/>} />
-          <Route path="/brand-services-company-in-vizag" element={<BrandServices/>} />
-          <Route path="/best-brand-services-company-in-vizag" element={<BrandServices/>} />
-
-          <Route path='/best-advertising-company' element={<Advertising/>} />
-          <Route path="/advertising-company-in-vizag" element={<Advertising/>} />
-          <Route path="/best-advertising-company-in-vizag" element={<Advertising/>} />
-          
-          
-          <Route path='/blogs' element={<Blogs />} />
-        
-          <Route path='/clients' element={<Clients />} />
-          
-          <Route path='/reviews' element={<Reviews />} />
-
-          <Route path='/aboutus' element={<Aboutus />} />
-          <Route path='/contactus' element={<Contactus />} /> 
-
-          <Route path='/privacypolicy' element={<PrivacyPolicy />} /> 
-          <Route path='/termsconditions' element={<TermsnConditions />} />
-          <Route path='/returnpolicy' element={<ReturnPolicy />} />
-          <Route path='/shippingdelivery' element={<ShippingandDelivery />} />
-          <Route path='/disclaimer' element={<Disclaimer />} />
-
-         
-
-
+    <>
+      <Navbar />
+      <NavbarMobile />
+      <Notification />
+      <Routes location={location} key={location.pathname}>
+        {routes.map((route, index) => (
+          <Route key={index} path={route.path} element={route.element} />
+        ))}
       </Routes>
-
-
-  <Footer />   
-</>
-    
+      <Footer />
+    </>
   );
-
 }
 
 export default App;
