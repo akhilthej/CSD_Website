@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
 
 import { useForm, ValidationError } from '@formspree/react';
@@ -18,24 +19,36 @@ const CONTACTUS = () => {
                 <meta name="description" content='Web Development and Digital Marketing Company. We are here to build you business online. One stop for all your digital needs.'/>
                 <link rel="canonical" href="/contactus" />
             </Helmet>
-    
-{/*Services Title Card*/}
-<section className="m-20 flex items-center justify-center" style={{ backgroundImage: 'url(https://drive.google.com/uc?id=1-RKGIgPQ6gfNDnoW1jr6R_TzB9P_12ge)',backgroundRepeat: 'no-repeat'  }}>
-  <div className="mx-auto max-w-[43rem]">
-    <div className="text-center">
-      <h1 className="cursor-default upanddown pb-8 font-extrabold text-transparent text-4xl md:text-7xl lg:text-8xl bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-600 mt-3 leading-[3.5rem] tracking-tight">
-        Get in touch,<br />we’d love to hear from you.
-      </h1>
 
-      <p className="cursor-default text-sm sm:text-2xl my-3 leading-8 text-gray-900">
+
+ {/* Title Card */}
+ <section className="py-10 sm:py-40" style={{ backgroundImage: 'url("https://drive.google.com/uc?id=1-RKGIgPQ6gfNDnoW1jr6R_TzB9P_12ge")', backgroundSize: 'cover', backgroundPosition: 'center' }}>
+  <div className="flex flex-col items-center md:flex-row justify-center">
+    <div className="md:w-1/2 md:pr-10">
+     
+    </div>
+    <div className="md:w-1/2 px-5">
+      <div className="text-right md:text-left"> {/* Align titles to the right on mobile, left on larger screens */}
+        <h3 className="cursor-default  text-2xl pb-5 md:text-6xl fade-in-down font-extrabold text-center text-white tracking-tight">
+        Get in touch,<br />we’d love to hear from you.
+        </h3>
+        <p className="cursor-default text-white sm:text-sm text-xs text-center sm:ml-0">
         You can contact us through mail or you can get in touch at our digital office.
-      </p>
+        </p>
+
+        <div className="mt-8 flex flex-wrap justify-center gap-4">
+        
+
+          <a href="https://api.whatsapp.com/send?phone=918143407758&text=Welcome%20to%20Cyberspacedigital">
+            <a className="transform rounded-md bg-white px-5 py-3 font-medium text-black transition-colors hover:bg-black hover:text-white">
+              WhatsApp
+            </a>
+          </a>
+        </div>
+      </div>
     </div>
   </div>
 </section>
-
-
-
 
 
 
