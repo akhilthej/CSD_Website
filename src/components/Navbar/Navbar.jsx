@@ -10,7 +10,7 @@ function classNames(...classes) {
 
 const Navbar = () => {
   return (
-    <Navbar class="rounded-2xl sticky top-0 z-50 bg-white/90 drop-shadow-lg hidden sm:block ">
+    <section class="rounded-2xl sticky top-0 z-50 bg-white/90 drop-shadow-lg hidden sm:block ">
       <div className=" sm:px-20 w-full h-17 flex justify-between items-center text-black ">
         <Link to="/">
           <img
@@ -318,7 +318,7 @@ const Navbar = () => {
           </ul>
         </div>
       </div>
-    </Navbar>
+    </section>
 
   );
 };
