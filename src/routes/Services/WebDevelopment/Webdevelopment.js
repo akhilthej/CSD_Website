@@ -171,7 +171,7 @@ const Webdevelopment = () => {
       </div>
 
 
-      {/* "CRM/ERM Pannels" section */}
+      {/* "CRM/ERM Panels" section */}
       <div className="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/4 lg:px-6 wow fadeInUp"
         data-wow-duration="1s"
         data-wow-delay=".3s"
@@ -192,7 +192,7 @@ const Webdevelopment = () => {
               height={600} />
           </div>
           <h3 className="text-lg leading-normal mb-2 font-semibold text-black">
-          CRM/ERM Pannels
+          CRM/ERP Panels
           </h3>
           <p className="text-gray-500 text-sm">
           Efficient CRM/ERM Solutions: Enhance business operations with our CRM/ERM panels. Streamline processes, manage data, and boost productivity effectively.
