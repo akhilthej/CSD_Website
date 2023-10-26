@@ -82,6 +82,7 @@ const Webdevelopment = () => {
 
 
     {/* "Business Websites" section */}
+    
     <div className="flex flex-wrap flex-row -mx-4 text-center">
       <div className="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/4 lg:px-6 wow fadeInUp"
         data-wow-duration="1s"
@@ -106,7 +107,7 @@ const Webdevelopment = () => {
           <p className="text-gray-500 text-sm">
           Catalyzing Business Success: Our business website solutions are designed to drive growth, enhance visibility, and boost profitability in the digital landscape.
           </p>
-          <button className="mt-5 text-xs sm:text-sm transform rounded bg-yellow-500 border border-slate-200 px-12 py-2 font-medium text-black transition-colors hover:bg-slate-50 "> Get Quotation</button>
+          <Link to='/best-website-for-small-business'><button className="mt-5 text-xs sm:text-sm transform rounded bg-yellow-500 border border-slate-200 px-12 py-2 font-medium text-black transition-colors hover:bg-slate-50 "> Get Quotation</button></Link>
         </div>
       </div>
 
@@ -136,8 +137,8 @@ const Webdevelopment = () => {
           <p className="text-gray-500 text-sm">
           Crafting E-Commerce Excellence: Elevate your online retail with our bespoke e-commerce solutions. Boost sales, engage customers, and thrive online.
           </p>
-          <button className="mt-5 text-xs sm:text-sm transform rounded bg-yellow-500 border border-slate-200 px-12 py-2 font-medium text-black transition-colors hover:bg-slate-50 "> Get Quotation</button>
-        </div>
+          <Link to='/ecommerce-website-india'><button className="mt-5 text-xs sm:text-sm transform rounded bg-yellow-500 border border-slate-200 px-12 py-2 font-medium text-black transition-colors hover:bg-slate-50 "> Get Quotation</button>
+          </Link></div>
       </div>
 
       {/* "Web Revamp" section */}
@@ -166,8 +167,8 @@ const Webdevelopment = () => {
           <p className="text-gray-500 text-sm">
           Revamp Your Online Presence: Transform and modernize your existing website with our web revamp services. Stay ahead and impress your audience.
           </p>
-          <button className="mt-5 text-xs sm:text-sm transform rounded bg-yellow-500 border border-slate-200 px-12 py-2 font-medium text-black transition-colors hover:bg-slate-50 "> Get Quotation</button>
-        </div>
+          <Link to='/website-rebuild'><button className="mt-5 text-xs sm:text-sm transform rounded bg-yellow-500 border border-slate-200 px-12 py-2 font-medium text-black transition-colors hover:bg-slate-50 "> Get Quotation</button>
+          </Link></div>
       </div>
 
 
@@ -197,8 +198,8 @@ const Webdevelopment = () => {
           <p className="text-gray-500 text-sm">
           Efficient CRM/ERM Solutions: Enhance business operations with our CRM/ERM panels. Streamline processes, manage data, and boost productivity effectively.
           </p>
-          <button className="mt-5 text-xs sm:text-sm transform rounded bg-yellow-500 border border-slate-200 px-12 py-2 font-medium text-black transition-colors hover:bg-slate-50 "> Get Quotation</button>
-        </div>
+          <Link to='/control-center-for-business'><button className="mt-5 text-xs sm:text-sm transform rounded bg-yellow-500 border border-slate-200 px-12 py-2 font-medium text-black transition-colors hover:bg-slate-50 "> Get Quotation</button>
+          </Link></div>
       </div>
     </div>
   </div>

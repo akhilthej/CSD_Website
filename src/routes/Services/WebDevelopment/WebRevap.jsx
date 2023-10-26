@@ -1,10 +1,11 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const WebRevap = () => {
   return (
     <div>
     {/* Title Card */}
-    <section className="py-20 sm:py-40" style={{ backgroundImage: 'url("https://drive.google.com/uc?id=1E3eQlScwaZ2DGrZPqN5Ve7qaixUaCKRc")', backgroundSize: 'cover', backgroundPosition: 'left' }}>
+    <section className="py-20 sm:py-40" style={{ backgroundImage: 'url("https://drive.google.com/uc?id=1hKe6oBNcQRmagty_cX8mokc7hh3Z6XJN")', backgroundSize: 'cover', backgroundPosition: 'left' }}>
      <div className="flex flex-col items-center md:flex-row justify-center">
        <div className="md:w-1/2 md:pr-10">
         

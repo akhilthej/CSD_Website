@@ -14,7 +14,13 @@ import Home from './HOME';
 
 
 import Services from './Services/SERVICES';
+
 import WebDevelopment from './Services/WebDevelopment/Webdevelopment';
+import BusinessWebsite from './Services/WebDevelopment/BusinessWebsite';
+import EcommerceWebsite from './Services/WebDevelopment/EcommerceWebsite';
+import WebRevap from './Services/WebDevelopment/WebRevap';
+import CRMERP from './Services/WebDevelopment/CRMERPPanels';
+
 import MobileAppDevelopment from './Services/MobileAppDevelopment/MobileAppDevelopment';
 import GraphicDesigning from './Services/GraphicDesigning/GraphicDesigning';
 import DigitalMarketing from './Services/DigitalMarketing/DigitalMarketing';
@@ -45,6 +51,7 @@ ReturnPolicy,
 
 /*Services */
 Services,
-WebDevelopment,MobileAppDevelopment,GraphicDesigning,DigitalMarketing,BrandServices,Advertising,
+WebDevelopment,BusinessWebsite,EcommerceWebsite,WebRevap,CRMERP,
+MobileAppDevelopment,GraphicDesigning,DigitalMarketing,BrandServices,Advertising,
 
 };

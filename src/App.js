@@ -4,7 +4,7 @@ import { Navbar, Footer, PrivacyPolicy, TermsnConditions, Disclaimer, Shippingan
 import NavbarMobile from './components/Navbar/NavbarMobile';
 import Notification from "./components/Tools/Notifications";
 import {
-  WebDevelopment,
+  WebDevelopment,BusinessWebsite,EcommerceWebsite,WebRevap,CRMERP,
   MobileAppDevelopment,
   GraphicDesigning,
   DigitalMarketing,
@@ -14,11 +14,28 @@ import {
 
 const routes = [
   { path: '/', element: <Home /> },
-  { path: '/*', element: <Error404 /> },
+
   { path: '/services', element: <Services /> },
+
+        /*---------WebDevelopment---------*/
   { path: '/best-web-developement-company', element: <WebDevelopment /> },
   { path: '/web-developement-company-in-vizag', element: <WebDevelopment /> },
   { path: '/best-web-developement-company-in-vizag', element: <WebDevelopment /> },
+
+  { path: '/build-business-website', element: <BusinessWebsite /> },
+  { path: '/best-website-for-small-business', element: <BusinessWebsite /> },
+  { path: '/build-a-business-website', element: <BusinessWebsite /> },
+
+  { path: '/build-ecommerce-website', element: <EcommerceWebsite /> },
+  { path: '/ecommerce-website-india', element: <EcommerceWebsite /> },
+
+  { path: '/customize-your-website', element: <WebRevap /> },
+  { path: '/website-rebuild', element: <WebRevap /> },
+  { path: '/customize-your-website', element: <WebRevap /> },
+
+  { path: '/control-center-for-business', element: <CRMERP /> },
+        /*---------WebDevelopment End---------*/
+
   { path: '/best-mobile-app-development-company', element: <MobileAppDevelopment /> },
   { path: '/mobile-app-development-in-vizag', element: <MobileAppDevelopment /> },
   { path: '/best-mobile-app-development-in-vizag', element: <MobileAppDevelopment /> },
@@ -36,6 +53,9 @@ const routes = [
   { path: '/best-advertising-company', element: <Advertising /> },
   { path: '/advertising-company-in-vizag', element: <Advertising /> },
   { path: '/best-advertising-company-in-vizag', element: <Advertising /> },
+
+
+  { path: '/*', element: <Error404 /> },
   { path: '/blogs', element: <Blogs /> },
   { path: '/clients', element: <Clients /> },
   { path: '/reviews', element: <Reviews /> },
