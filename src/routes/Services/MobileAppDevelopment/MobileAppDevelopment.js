@@ -30,9 +30,9 @@ const MobileAppDevelopment = () => {
     </div>
     <div className="md:w-1/2 px-5">
       <div className="text-right md:text-left"> {/* Align titles to the right on mobile, left on larger screens */}
-        <h3 className="text-2xl pb-5 md:text-6xl fade-in-down font-extrabold text-center text-white tracking-tight">
+        <h1 className="text-2xl pb-5 md:text-6xl fade-in-down font-extrabold text-center text-white tracking-tight">
         Mobile app Development
-        </h3>
+        </h1>
         <p className="text-white sm:text-sm text-xs text-center sm:ml-0">
           "Cyber Space Digital stands as a distinguished leader in the realm"
         </p>

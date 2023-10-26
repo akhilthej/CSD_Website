@@ -42,9 +42,9 @@ const Clients = () => {
             <div className="text-right md:text-left">
               {" "}
               {/* Align titles to the right on mobile, left on larger screens */}
-              <h3 className="text-2xl pb-5 md:text-6xl fade-in-down font-extrabold text-center text-white tracking-tight">
+              <h1 className="text-2xl pb-5 md:text-6xl fade-in-down font-extrabold text-center text-white tracking-tight">
                 Our Clients
-              </h3>
+              </h1>
               <p className="text-white sm:text-sm text-xs text-center sm:ml-0">
                 Join our weekly digest. You'll also receive some of our best
                 posts today.
@@ -83,9 +83,9 @@ const Clients = () => {
           <div className="tracking-normal 2xl:container 2xl:mx-auto lg:py-16 lg:px-20 md:py-12 md:px-6 py-9 px-4">
             <div className="flex flex-col lg:flex-row justify-between gap-8">
               <div className="w-full lg:w-5/12 flex flex-col justify-center">
-                <h1 className="text-3xl lg:text-4xl font-bold leading-9 pb-4 text-orange-600">
+                <h2 className="text-3xl lg:text-4xl font-bold leading-9 pb-4 text-orange-600">
                   LabelAnuneni.com
-                </h1>
+                </h2>
                 <p className="font-normal text-sm text-black pb-4">
                   The Art of Indian Handlooms is the greatest treasure one can
                   preserve, and our authentic hand weaves are the "Labour of
@@ -103,9 +103,9 @@ const Clients = () => {
                   src={LabelAnuneniwhite}
                   alt="labelanunenimockup"
                 />
-                <h1 className="text-3xl lg:text-4xl font-bold leading-9 pb-4 text-yellow-500">
+                <h2 className="text-3xl lg:text-4xl font-bold leading-9 pb-4 text-yellow-500">
                   Tech Details
-                </h1>
+                </h2>
                 <p className="font-normal   text-base leading-6 text-black ">
                   An e-commerce website with custom payment gate ways and auto
                   delivery system.
@@ -119,9 +119,9 @@ const Clients = () => {
           <div className="tracking-normal 2xl:container 2xl:mx-auto lg:py-16 lg:px-20 md:py-12 md:px-6 py-9 px-4">
             <div className="flex flex-col lg:flex-row justify-between gap-8">
               <div className="w-full lg:w-5/12 flex flex-col justify-center">
-                <h1 className="text-3xl lg:text-4xl font-bold leading-9 pb-4 text-orange-600">
+                <h2 className="text-3xl lg:text-4xl font-bold leading-9 pb-4 text-orange-600">
                   ilahe.in
-                </h1>
+                </h2>
                 <p className="font-normal text-sm text-black pb-4">
                   Modeling and Finishing School
                 </p>
@@ -137,9 +137,9 @@ const Clients = () => {
                   src={Ilahewhite}
                   alt="ilihaMockup"
                 />
-                <h1 className="text-3xl lg:text-4xl font-bold leading-9 pb-4 text-yellow-500">
+                <h2 className="text-3xl lg:text-4xl font-bold leading-9 pb-4 text-yellow-500">
                   Tech Details
-                </h1>
+                </h2>
                 <p className="font-normal   text-base leading-6 text-black ">
                   Wordpress developed website. Custom forms and elementor pro
                   Designer tool.
@@ -153,9 +153,9 @@ const Clients = () => {
           <div className="tracking-normal 2xl:container 2xl:mx-auto lg:py-16 lg:px-20 md:py-12 md:px-6 py-9 px-4">
             <div className="flex flex-col lg:flex-row justify-between gap-8">
               <div className="w-full lg:w-5/12 flex flex-col justify-center">
-                <h1 className="text-3xl lg:text-4xl font-bold leading-9 pb-4 text-orange-600">
+                <h2 className="text-3xl lg:text-4xl font-bold leading-9 pb-4 text-orange-600">
                   Laytonskin.in
-                </h1>
+                </h2>
                 <p className="font-normal text-sm text-black pb-4">
                   An e-commerce website from beauty and skin care products.
                 </p>
@@ -171,9 +171,9 @@ const Clients = () => {
                   src={LaytonSkinWhite}
                   alt="labelanunenimockup"
                 />
-                <h1 className="text-3xl lg:text-4xl font-bold leading-9 pb-4 text-yellow-500">
+                <h2 className="text-3xl lg:text-4xl font-bold leading-9 pb-4 text-yellow-500">
                   Tech Details
-                </h1>
+                </h2>
                 <p className="font-normal   text-base leading-6 text-black ">
                   An e-commerce website with custom payment gate ways and auto
                   delivery system.
@@ -187,9 +187,9 @@ const Clients = () => {
           <div className="tracking-normal 2xl:container 2xl:mx-auto lg:py-16 lg:px-20 md:py-12 md:px-6 py-9 px-4">
             <div className="flex flex-col lg:flex-row justify-between gap-8">
               <div className="w-full lg:w-5/12 flex flex-col justify-center">
-                <h1 className="text-3xl lg:text-4xl font-bold leading-9 pb-4 text-orange-600">
+                <h2 className="text-3xl lg:text-4xl font-bold leading-9 pb-4 text-orange-600">
                   archivitusdesigners.com
-                </h1>
+                </h2>
                 <p className="font-normal text-sm text-black pb-4">
                   Interior Designer / Construction
                 </p>
@@ -205,9 +205,9 @@ const Clients = () => {
                   src={Arkwhite}
                   alt="arkMockup"
                 />
-                <h1 className="text-3xl lg:text-4xl font-bold leading-9 pb-4 text-yellow-500">
+                <h2 className="text-3xl lg:text-4xl font-bold leading-9 pb-4 text-yellow-500">
                   Tech Details
-                </h1>
+                </h2>
                 <p className="font-normal   text-base leading-6 text-black ">
                   Wordpress developed website. Custom forms and elementor pro
                   Designer tool.

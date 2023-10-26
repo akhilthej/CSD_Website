@@ -28,9 +28,9 @@ const SERVICES = () => {
     </div>
     <div className="md:w-1/2 px-5">
       <div className="text-right md:text-left"> {/* Align titles to the right on mobile, left on larger screens */}
-        <h3 className="text-2xl pb-5 md:text-6xl fade-in-down font-extrabold text-center text-white tracking-tight">
+        <h1 className="text-2xl pb-5 md:text-6xl fade-in-down font-extrabold text-center text-white tracking-tight">
         Distribute your brand from&nbsp;Design to Code
-        </h3>
+        </h1>
         <p className="text-white sm:text-sm text-xs text-center sm:ml-0">
         Specify helps you unify your brand identity by collecting, storing and
             distributing design tokens and assets — automatically.
