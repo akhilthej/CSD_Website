@@ -244,7 +244,7 @@ const BrandServices = () => {
           <p className="text-gray-500 text-sm">
             Under this model, the web development company and the client agree on a fixed price for the entire project scope.
           </p>
-          <button className="mt-5 text-xs sm:text-sm transform rounded bg-yellow-500 border border-slate-200 px-12 py-2 font-medium text-black transition-colors hover:bg-slate-50 "> Know More</button>
+          
         </div>
       </div>
 
@@ -274,7 +274,7 @@ const BrandServices = () => {
           <p className="text-gray-500 text-sm">
             The client pays based on the time and resources spent on the project.
           </p>
-          <button className="mt-5 text-xs sm:text-sm transform rounded bg-yellow-500 border border-slate-200 px-12 py-2 font-medium text-black transition-colors hover:bg-slate-50 "> Know More</button>
+          
         </div>
       </div>
 
@@ -304,7 +304,7 @@ const BrandServices = () => {
           <p className="text-gray-500 text-sm">
             The web development company commits to delivering projects on or before agreed-upon deadlines.
           </p>
-          <button className="mt-5 text-xs sm:text-sm transform rounded bg-yellow-500 border border-slate-200 px-12 py-2 font-medium text-black transition-colors hover:bg-slate-50 "> Know More</button>
+          
         </div>
       </div>
 
@@ -335,7 +335,7 @@ const BrandServices = () => {
           <p className="text-gray-500 text-sm">
           if your project requires additional manpower and extra resources, we're ready to scale up and bring in the necessary talent to meet your needs.
           </p>
-          <button className="mt-5 text-xs sm:text-sm transform rounded bg-yellow-500 border border-slate-200 px-12 py-2 font-medium text-black transition-colors hover:bg-slate-50 "> Know More</button>
+          
         </div>
       </div>
     </div>
