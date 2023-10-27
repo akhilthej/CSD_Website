@@ -65,7 +65,7 @@ const ImageSlider = () => {
   }, [currentIndex]);
 
   return (
-    <div className="relative mx-2">
+    <div className="relative mx-2 py-10 md:py-0">
       <div className="flex items-center justify-center h-52 md:h-72 lg:h-[70vh]">
         {images.map((image, index) => (
           <div
