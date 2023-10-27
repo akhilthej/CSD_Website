@@ -2,7 +2,8 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 import Subscribe from '../../assets/Icons/Subscribe.png'
 
-import {googlereview} from '../data/data.jsx';
+import {googlereview,goodfirms} from '../data/data.jsx';
+ 
 import footer_csd from './csdv2Logofooter.svg';
 import WhatsApp from './WhatsApp.webp';
 
@@ -13,15 +14,18 @@ const Footer = () => {
     <main className='bg-black'>
 
       {/*Subscription section*/}
-  <section >
-
+<section >
 <div className=" flex items-center justify-center">
   <div className="mx-auto w-full max-w-screen-lg  px-5 py-10">
     <div className="grid gap-5 md:grid-cols-2 md:gap-10 lg:gap-20">
       <div className="flex justify-center md:justify-end">
-        <img className=" mx-auto flex "
-          src={Subscribe}
-          alt="Marketing newsletter via computer Illustration in PNG, SVG"/>
+      <img
+  className="mx-auto flex"
+  src={Subscribe}
+  alt="Marketing newsletter via computer Illustration in PNG, SVG"
+  width="300" // Specify the width in pixels or another suitable unit
+  height="200" // Specify the height in pixels or another suitable unit
+/>
       </div>
       <div className="flex items-center">
         <div className="mx-auto md:mx-0">
@@ -59,7 +63,16 @@ const Footer = () => {
   <div className="max-w-screen-xl px-4 py-16 mx-auto sm:px-9 lg:px-8">
     <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
     <div>
-    <Link to ='/'><img src= {footer_csd} className="mr-5 h-10 sm:h-10 " alt="footer_csd" /></Link>
+    <Link to ='/'>
+    <img
+  src={footer_csd}
+  className="mr-5 h-10 sm:h-10"
+  alt="footer_csd"
+  width="200" // Specify the width in pixels or another suitable unit
+  height="200" // Specify the height in pixels or another suitable unit
+/>
+
+</Link>
         <p className="max-w-xs mt-4 text-sm text-gray-600">
         We are a web Developing & Designing company with a mission to help build there business online.
         We accomplish this by continuously developing technology, giving expert assistance, and ensuring a flawless online website 
@@ -221,8 +234,28 @@ const Footer = () => {
       </div>
     </div>
 
-    <a href="https://search.google.com/local/writereview?placeid=ChIJM0IEPqRRmg0RyLQAP_5varc"> <img  class="h-10 hover:animate-pulse  max-w-full ml-auto mr-auto mt-2" src= {googlereview} alt="googlereview_icon" /></a>
- 
+    <div class="flex items-center justify-center">
+  <a className='p-2' href="https://www.goodfirms.co/company/cyber-space-digital">
+    <img
+      class="h-10 hover:animate-pulse max-w-full"
+      src={goodfirms}
+      alt="goodfirms_icon"
+      width="120"
+      height="50"
+    />
+  </a>
+  <a className='p-2' href="https://g.page/r/Cci0AD_-b2q3EAI/review">
+    <img
+      class="h-10 hover:animate-pulse max-w-full"
+      src={googlereview}
+      alt="googlereview_icon"
+      width="120"
+      height="50"
+    />
+  </a>
+</div>
+
+
     <div class="h-px my-8 border-0 bg-gray-700"/>
    <p id="copyright" class="cursor-default text-center text-xs text-white">© 2020-<span id="currentYear">2023</span> cyberspacedigital.in - Web Development & Designer Community ( #CSD )</p>
  </div>
@@ -240,8 +273,11 @@ const Footer = () => {
         href="https://wa.me/+918143407758"
         target="_blank"
         className=" block w-12 rounded-full transition-all  transform hover:scale-110 hover:rotate-12"> 
-        <img className=" object-cover object-center sm:w-12 pb-5"
-          src={WhatsApp} alt="whatappicon" />
+        <img
+  className="object-cover object-center sm:w-12 h-12"
+  src={WhatsApp}
+  alt="WhatsApp icon"
+/>
       </a>
 
      {/* <spam class='fade-in-left delay-100 cursor-default text-gray-500 text-xs pb-2'>Desgined & Developed by CSD</spam> */}

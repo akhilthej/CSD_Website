@@ -10,6 +10,7 @@ import HeroCoverBG from '../../assets/Common/Home/HeroCoverBG.png'
 
 import graphicsdesign from '../../assets/Icons/graphicsdesign.png';
 import googlereview from '../../assets/Icons/googlereview.png';
+import goodfirms from '../../assets/Icons/Goodfirms_Logo.jpg'
 
 import documentationicon from '../../assets/Icons/documentation-icon.png';
 import socialicon from '../../assets/Icons/social-icon.png';
@@ -63,7 +64,7 @@ export {
 
     /* Home */
     HeroCoverBG,
-    graphicsdesign,googlereview,
+    graphicsdesign,googlereview,goodfirms,
     documentationicon,socialicon,analysisicon,financeicon,statergyicon,businessreporticon,
 
 

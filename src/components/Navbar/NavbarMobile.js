@@ -29,11 +29,13 @@ const HamburgerMenu = () => {
   return (
     <div className="z-10 sticky top-0 bg-white px-5 sm:hidden">
       <div className="flex items-center py-2">
-      <Link to='/'><img
-          className="h-auto w-40"
-          src={NavbarLogo}
-          alt="csd_logo"
-        /></Link>
+      <Link to='/'>
+      <img
+  className="h-auto w-40"
+  src={NavbarLogo}
+  alt="CSD logo"
+/>
+          </Link>
         <button className="text-3xl  ml-auto" onClick={toggleMenu}>
           ☰
         </button>
