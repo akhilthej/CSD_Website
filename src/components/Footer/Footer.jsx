@@ -237,7 +237,7 @@ const Footer = () => {
     <div class="flex items-center justify-center">
   <a className='p-2' href="https://www.goodfirms.co/company/cyber-space-digital">
     <img
-      class="h-10 hover:animate-pulse max-w-full"
+      class="h-10 rounded-sm hover:animate-pulse max-w-full"
       src={goodfirms}
       alt="goodfirms_icon"
       width="120"
