@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Helmet } from "react-helmet-async";
 
 import Brand_slider from "../components/Brand_slider";
 import ServicesTab from "../components/ServicesTab";
@@ -26,18 +25,6 @@ import {
 const Home = () => {
   return (
     <>
-      {/* SEO */}
-      <Helmet>
-        <title>
-          Cyber Space Digital - Web Development and Digital Marketing Company
-        </title>
-        <meta
-          name="description"
-          content="Cyber Space Digital is a Web Development and Digital Marketing Company. We are here to build your business online. Your one-stop solution for all your digital needs."
-        />
-        <link rel="canonical" href="https://cyberspacedigital.in/" />
-      </Helmet>
-
       <main className=" overflow-hidden">
         <ImageSlider />
 
