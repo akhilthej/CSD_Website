@@ -76,6 +76,18 @@ const routes = [
   { path: '/best-mobile-app-development-company', element: <MobileAppDevelopment /> },
   { path: '/mobile-app-development-in-vizag', element: <MobileAppDevelopment /> },
   { path: '/best-mobile-app-development-in-vizag', element: <MobileAppDevelopment /> },
+
+  { path: '/mobile-app-design', element: <MobileAppDesign /> },
+  { path: '/ios-app-development', element: <iOSAppDevelopment /> },
+  { path: '/android-app-development', element: <AndroidAppDevelopment /> },
+  { path: '/cross-platform-app-development', element: <CrossPlatformAppDevelopment /> },
+  { path: '/app-prototyping', element: <AppPrototyping /> },
+  { path: '/app-testing-and-quality-assurance', element: <AppTestingandQualityAssurance /> },
+  { path: '/app-maintenance-and-support', element: <AppMaintenanceandSupport /> },
+  { path: '/app-security', element: <AppSecurity /> },
+  { path: '/app-monetization-strategy', element: <AppMonetizationStrategy /> },
+  { path: '/app-store-optimization', element: <AppStoreOptimization /> },
+  { path: '/ecommerce-app-development', element: <EcommerceAppDevelopment /> },
         /*---------WebDevelopment End---------*/
 
         /*---------GraphicDesigning---------*/
@@ -83,6 +95,27 @@ const routes = [
   { path: '/graphic-designing-company-in-vizag', element: <GraphicDesigning /> },
   { path: '/best-graphic-designing-in-vizag', element: <GraphicDesigning /> },
   { path: '/best-poster-designing-company', element: <GraphicDesigning /> },
+
+  { path: '/logo-design', element: <LogoDesign /> },
+  { path: '/brand-identity-design', element: <BrandIdentityDesign /> },
+  { path: '/print-design', element: <PrintDesign /> },
+  { path: '/web-design', element: <WebDesign /> },
+  { path: '/user-interface-design', element: <UserInterfaceDesign /> },
+  { path: '/user-experience-design', element: <UserExperienceDesign /> },
+  { path: '/packaging-design', element: <PackagingDesign /> },
+  { path: '/poster-and-flyer-design', element: <PosterandFlyerDesign /> },
+  { path: '/brochure-design', element: <BrochureDesign /> },
+  { path: '/banner-design', element: <BannerDesign /> },
+  { path: '/illustration-services', element: <IllustrationServices /> },
+  { path: '/infographic-design', element: <InfographicDesign /> },
+  { path: '/social-media-graphics', element: <SocialMediaGraphics /> },
+  { path: '/ebook-and-print-book-cover-design', element: <eBookandPrintBookCoverDesign /> },
+  { path: '/t-shirt-and-merchandise-design', element: <TshirtandMerchandiseDesign /> },
+  { path: '/signage-and-billboard-design', element: <SignageandBillboardDesign /> },
+  { path: '/business-card-and-stationery-design', element: <BusinessCardandStationeryDesign /> },
+  { path: '/rendering-and-visualization', element: <RenderingandVisualization /> },
+  { path: '/motion-graphics-and-animation', element: <MotionGraphicsandAnimation /> },
+  { path: '/photo-editing-and-retouching', element: <PhotoEditingandRetouching /> },
         /*---------GraphicDesigning End---------*/
 
         /*---------DigitalMarketing---------*/
@@ -90,18 +123,59 @@ const routes = [
   { path: '/digital-marketing-company-in-vizag', element: <DigitalMarketing /> },
   { path: '/best-digital-marketing-company-in-vizag', element: <DigitalMarketing /> },
   { path: '/social-media-marketing-company', element: <DigitalMarketing /> },
+
+  { path: '/search-engine-optimization', element: <SearchEngineOptimization /> },
+  { path: '/content-marketing', element: <ContentMarketing /> },
+  { path: '/social-media-marketing', element: <SocialMediaMarketing /> },
+  { path: '/email-marketing', element: <EmailMarketing /> },
+  { path: '/pay-per-click-advertising', element: <PayPerClickAdvertising /> },
+  { path: '/affiliate-marketing', element: <AffiliateMarketing /> },
+  { path: '/analytics-and-data-analysis', element: <AnalyticsandDataAnalysis /> },
+  { path: '/conversion-rate-optimization', element: <ConversionRateOptimization /> },
+  { path: '/mobile-marketing', element: <MobileMarketing /> },
+  { path: '/video-marketing', element: <VideoMarketing /> },
+  { path: '/local-seo-and-marketing', element: <LocalSEOandMarketing /> },
+  { path: '/ecommerce-marketing', element: <EcommerceMarketing /> },
+  { path: '/marketing-automation', element: <MarketingAutomation /> },
+  { path: '/remarketing-retargeting', element: <RemarketingRetargeting /> },
+  { path: '/influencer-marketing', element: <InfluencerMarketing /> },
         /*---------DigitalMarketing End---------*/
 
         /*---------BrandServices---------*/
   { path: '/best-brand-services-company', element: <BrandServices /> },
   { path: '/brand-services-company-in-vizag', element: <BrandServices /> },
   { path: '/best-brand-services-company-in-vizag', element: <BrandServices /> },
+
+  { path: '/brand-identity-design-exclusive', element: <BrandIdentityDesignExclusive /> },
+  { path: '/brand-logo-design', element: <BrandLogoDesign /> },
+  { path: '/brand-guidelines', element: <BrandGuidelines /> },
+  { path: '/brand-positioning', element: <BrandPositioning /> },
+  { path: '/brand-storytelling', element: <BrandStorytelling /> },
+  { path: '/brand-naming', element: <BrandNaming /> },
+  { path: '/visual-identity-design', element: <VisualIdentityDesign /> },
+  { path: '/brand-messaging', element: <BrandMessaging /> },
+  { path: '/brand-experience-design', element: <BrandExperienceDesign /> },
+  { path: '/brand-awareness-campaigns', element: <BrandAwarenessCampaigns /> },
+  { path: '/rebranding-services', element: <RebrandingServices /> },
+  { path: '/brand-research-and-analysis', element: <BrandResearchandAnalysis /> },
+  { path: '/brand-tracking-and-performance-evaluation', element: <BrandTrackingandPerformanceEvaluation /> },
         /*---------BrandServices End---------*/
 
         /*---------Advertising---------*/
   { path: '/best-advertising-company', element: <Advertising /> },
   { path: '/advertising-company-in-vizag', element: <Advertising /> },
   { path: '/best-advertising-company-in-vizag', element: <Advertising /> },
+
+  { path: '/display-advertising', element: <DisplayAdvertising /> },
+  { path: '/video-advertising', element: <VideoAdvertising /> },
+  { path: '/native-advertising', element: <NativeAdvertising /> },
+  { path: '/programmatic-advertising', element: <ProgrammaticAdvertising /> },
+  { path: '/outdoor-advertising', element: <OutdoorAdvertising /> },
+  { path: '/print-advertising', element: <PrintAdvertising /> },
+  { path: '/radio-advertising', element: <RadioAdvertising /> },
+  { path: '/tv-advertising', element: <TVAdvertising /> },
+  { path: '/ingame-advertising', element: <IngameAdvertising /> },
+  { path: '/theater-advertising', element: <TheaterAdvertising /> },
         /*---------Advertising End---------*/
 
   
