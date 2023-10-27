@@ -145,9 +145,9 @@ const Home = () => {
             </div>
             <div className="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
               <div>
-                <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 ">
-                  <img src={documentationicon} alt="documentation" />
-                </div>
+              <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12">
+  <img src={documentationicon} alt="documentationicon" width="50" height="50" />
+</div>
                 <h3 className="text-black mb-2 text-xl font-bold ">
                   Documentation
                 </h3>
@@ -158,9 +158,9 @@ const Home = () => {
                 </p>
               </div>
               <div>
-                <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 ">
-                  <img src={analysisicon} alt="analysisicon" />
-                </div>
+              <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12">
+              <img src={analysisicon} alt="analysisicon" width="50" height="50" />
+              </div>
                 <h3 className="text-black mb-2 text-xl font-bold ">Analyze</h3>
                 <p className="text-black ">
                   When executing a project,we analyze it periodically. Failing
@@ -170,9 +170,9 @@ const Home = () => {
                 </p>
               </div>
               <div>
-                <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 ">
-                  <img src={socialicon} alt="socialicon" />
-                </div>
+              <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12">
+  <img src={socialicon} alt="socialicon" width="50" height="50" />
+</div>
                 <h3 className="text-black mb-2 text-xl font-bold ">
                   Social Media Presents
                 </h3>
@@ -184,9 +184,10 @@ const Home = () => {
                 </p>
               </div>
               <div>
-                <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 ">
-                  <img src={financeicon} alt="financeicon" />
-                </div>
+              <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12">
+  <img src={financeicon} alt="financeicon" width="50" height="50" />
+</div>
+
                 <h3 className="text-black mb-2 text-xl font-bold ">Finance</h3>
                 <p className="text-black ">
                   the funding of long-term projects, such as public
@@ -195,9 +196,9 @@ const Home = () => {
                 </p>
               </div>
               <div>
-                <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 ">
-                  <img src={statergyicon} alt="statergyicon" />
-                </div>
+              <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12">
+  <img src={statergyicon} alt="statergyicon" width="50" height="50" />
+</div>
                 <h3 className="text-black mb-2 text-xl font-bold ">Strategy</h3>
                 <p className="text-black ">
                   Craft beautiful, delightful experiences for both marketing and
@@ -205,9 +206,9 @@ const Home = () => {
                 </p>
               </div>
               <div>
-                <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 ">
-                  <img src={businessreporticon} alt="businessreporticon" />
-                </div>
+              <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12">
+  <img src={businessreporticon} alt="businessreporticon" width="50" height="50" />
+</div>
                 <h3 className="text-black mb-2 text-xl font-bold ">
                   Business Report
                 </h3>
