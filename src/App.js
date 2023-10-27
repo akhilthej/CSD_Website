@@ -4,7 +4,6 @@ import { Navbar, Footer, PrivacyPolicy, TermsnConditions, Disclaimer, Shippingan
 import NavbarMobile from './components/Navbar/NavbarMobile';
 import Notification from "./components/Tools/Notifications";
 
-
 import {
 /*Web Development */
 WebDevelopment,BusinessWebsite,EcommerceWebsite,WebRevap,CRMERP,
@@ -182,30 +181,23 @@ const routes = [
   
 ];
 
-
-const shouldRenderRoutes = true; // Set this condition as needed
-
 export function App() {
   const location = useLocation();
   window.scrollTo(0, 0);
 
-  if (!shouldRenderRoutes) {
-    return null; // Or you can return an alternative component or content
-  }
   return (
-      <>
-        {/* Render your routes here */}
-        <Navbar />
-        <NavbarMobile />
-        <Notification />
-        <Routes location={location} key={location.pathname}>
-          {routes.map((route, index) => (
-            <Route key={index} path={route.path} element={route.element} />
-          ))}
-        </Routes>
-        <Footer />
-      </>
-    );
-  }
-  
-  export default App;
+    <>
+      <Navbar />
+      <NavbarMobile />
+      <Notification />
+      <Routes location={location} key={location.pathname}>
+        {routes.map((route, index) => (
+          <Route key={index} path={route.path} element={route.element} />
+        ))}
+      </Routes>
+      <Footer />
+    </>
+  );
+}
+
+export default App;
