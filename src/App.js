@@ -23,7 +23,7 @@ const routes = [
   { path: '/best-web-developement-company-in-vizag', element: <WebDevelopment /> },
 
   { path: '/build-business-website', element: <BusinessWebsite /> },
-  { path: '/best-website-for-small-business', element: <BusinessWebsite /> },
+  { path: '/best-website-for-business', element: <BusinessWebsite /> },
   { path: '/build-a-business-website', element: <BusinessWebsite /> },
 
   { path: '/build-ecommerce-website', element: <EcommerceWebsite /> },

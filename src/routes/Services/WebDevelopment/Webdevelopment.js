@@ -45,7 +45,7 @@ const Webdevelopment = () => {
             </a>
           </Link>
 
-          <a href="https://api.whatsapp.com/send?phone=918143407758&text=Welcome%20to%20Cyberspacedigital">
+          <a href="https://api.whatsapp.com/send?phone=918143407758&text=Need%20Details%20about%20business%20website.">
             <a className="transform rounded-md bg-white px-5 py-3 font-medium text-black transition-colors hover:bg-black hover:text-white">
               WhatsApp
             </a>
@@ -107,7 +107,7 @@ const Webdevelopment = () => {
           <p className="text-gray-500 text-sm">
           Catalyzing Business Success: Our business website solutions are designed to drive growth, enhance visibility, and boost profitability in the digital landscape.
           </p>
-          <Link to='/best-website-for-small-business'><button className="mt-5 text-xs sm:text-sm transform rounded bg-yellow-500 border border-slate-200 px-12 py-2 font-medium text-black transition-colors hover:bg-slate-50 "> Get Quotation</button></Link>
+          <Link to='/best-website-for-business'><button className="mt-5 text-xs sm:text-sm transform rounded bg-yellow-500 border border-slate-200 px-12 py-2 font-medium text-black transition-colors hover:bg-slate-50 "> Get Quotation</button></Link>
         </div>
       </div>
 
@@ -217,10 +217,10 @@ const Webdevelopment = () => {
 
     <section className="text-center mx-auto mb-12 lg:px-20">
       <h2 className="pb-2 font-extrabold text-transparent text-2xl md:text-5xl lg:text-6xl bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-600 ">
-      Line of Engagement
+      Additional Features With Each Plan
       </h2>
       <p className="text-sm font-medium text-black">
-      "Streamline the management of advertising and content for your business, saving you valuable time."
+      "We also add additional features while creating websites."
       </p>
     </section>
 
@@ -233,7 +233,7 @@ const Webdevelopment = () => {
           animationDuration: "1s",
           animationName: "fadeInUp"
         }}>
-        <div className="py-8 px-12  bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
+        <div className="py-8 px-12   transform transition duration-300 ease-in-out hover:-translate-y-2">
           <div className="inline-block text-gray-900 ">
             <img
               src={FixedPrice}
@@ -244,7 +244,7 @@ const Webdevelopment = () => {
               height={600} />
           </div>
           <h3 className="text-lg leading-normal  font-semibold text-black">
-            Fixed Price Model
+          Beautiful Website
           </h3>
           <p className="text-gray-500 text-sm">
             Under this model, the web development company and the client agree on a fixed price for the entire project scope.
@@ -263,7 +263,7 @@ const Webdevelopment = () => {
           animationDelay: "0.1s",
           animationName: "fadeInUp"
         }}>
-        <div className="py-8 px-12  bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
+        <div className="py-8 px-12   transform transition duration-300 ease-in-out hover:-translate-y-2">
           <div className="inline-block text-gray-900">
             <img
               src={TimeManage}
@@ -274,7 +274,7 @@ const Webdevelopment = () => {
               height={600} />
           </div>
           <h3 className="text-lg leading-normal font-semibold text-black">
-            Time and Materials Model
+          Website Safety
           </h3>
           <p className="text-gray-500 text-sm">
             The client pays based on the time and resources spent on the project.
@@ -293,7 +293,7 @@ const Webdevelopment = () => {
           animationDelay: "0.3s",
           animationName: "fadeInUp"
         }}>
-        <div className="py-8 px-12  bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
+        <div className="py-8 px-12   transform transition duration-300 ease-in-out hover:-translate-y-2">
           <div className="inline-block text-gray-900 ">
             <img
               src={OntimeDelivery}
@@ -304,7 +304,7 @@ const Webdevelopment = () => {
               height={600} />
           </div>
           <h3 className="text-lg leading-normal  font-semibold text-black">
-            On-Time Delivery
+          Fully Mobile Responsive and Quick
           </h3>
           <p className="text-gray-500 text-sm">
             The web development company commits to delivering projects on or before agreed-upon deadlines.
@@ -324,7 +324,7 @@ const Webdevelopment = () => {
           animationDelay: "0.3s",
           animationName: "fadeInUp"
         }}>
-        <div className="py-8 px-12  bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
+        <div className="py-8 px-12   transform transition duration-300 ease-in-out hover:-translate-y-2">
           <div className="inline-block text-gray-900 ">
             <img
               src={HiringModel}
@@ -335,7 +335,7 @@ const Webdevelopment = () => {
               height={600} />
           </div>
           <h3 className="text-lg leading-normal font-semibold text-black">
-          Hiring Model
+          Intelligent Designer
           </h3>
           <p className="text-gray-500 text-sm">
           if your project requires additional manpower and extra resources, we're ready to scale up and bring in the necessary talent to meet your needs.
@@ -359,10 +359,10 @@ const Webdevelopment = () => {
       </p>
     
 <div className="flex items-center justify-center gap-4 flex-wrap">
-<Link to='/contactus'>
-  <button className="text-xs sm:text-sm transform rounded bg-yellow-500 border border-slate-200 px-20 py-2 font-medium text-black transition-colors hover:bg-slate-50 ">
-    FAQ
-  </button></Link>
+
+  <a href='https://api.whatsapp.com/send?phone=918143407758&text=Need%20Details%20about%20business%20website.' className="text-xs sm:text-sm transform rounded bg-yellow-500 border border-slate-200 px-20 py-2 font-medium text-black transition-colors hover:bg-slate-50 ">
+    Whatsapp
+  </a>
   <Link to='/contactus'>
   <button className="text-xs sm:text-sm transform rounded border border-slate-200 px-14 py-2 font-medium text-black transition-colors hover:bg-slate-50 hover:text-black">
     Contact us
