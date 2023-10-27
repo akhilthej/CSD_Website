@@ -78,7 +78,7 @@ const routes = [
   { path: '/best-mobile-app-development-in-vizag', element: <MobileAppDevelopment /> },
 
   { path: '/mobile-app-design', element: <MobileAppDesign /> },
-  { path: '/ios-app-development', element: <iOSAppDevelopment /> },
+  { path: '/iosappdevelopment', element: <iOSAppDevelopment /> },
   { path: '/android-app-development', element: <AndroidAppDevelopment /> },
   { path: '/cross-platform-app-development', element: <CrossPlatformAppDevelopment /> },
   { path: '/app-prototyping', element: <AppPrototyping /> },
