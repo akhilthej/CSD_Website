@@ -48,10 +48,16 @@ const HamburgerMenu = () => {
           >
             ✕
           </button>
-          <Link to='/'><img
-            className="pl-2 h-auto w-44 lg:w-52"
-            src={NavbarLogo}
-            alt="csd_logo"/></Link>
+          <Link to='/'>
+          <img
+  class="pl-2 h-auto w-44 lg:w-52"
+  src={NavbarLogo}
+  alt="csd_logo"
+  width="52"
+  height="auto"
+/>
+            
+            </Link>
           
           <div className="flex flex-col mt-6">
           <Link to='/aboutus'><a className="text-2xl my-2" onClick={closeMenu}>

@@ -13,10 +13,13 @@ const Navbar = () => {
     <section class="rounded-2xl sticky top-0 z-50 bg-white/90 drop-shadow-lg hidden sm:block ">
       <div className=" sm:px-2 w-full h-17 flex justify-between items-center text-black ">
         <Link to="/">
-          <img
-            class="pl-2 h-auto w-44  lg:w-52"
-            src={NavbarLogo}
-            alt="csd_logo"/>
+        <img
+  class="pl-2 h-auto w-44 lg:w-52"
+  src={NavbarLogo}
+  alt="csd_logo"
+  width="52"
+  height="auto"
+/>
         </Link>
         <div class=" justify-end ">
           <ul className="flex items-center">
