@@ -2,7 +2,7 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 import Subscribe from '../../assets/Icons/Subscribe.png'
 
-import {googlereview,goodfirms} from '../data/data.jsx';
+import {googlereview,goodfirms} from '../../assets/data/Imagedata.jsx';
  
 import footer_csd from './csdv2Logofooter.svg';
 import WhatsApp from './WhatsApp.webp';

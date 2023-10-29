@@ -12,7 +12,7 @@ import {
   Ilahepc,
   Arkwhite,
   Arkwhitepc,
-} from "../components/data/data";
+} from "../assets/data/Imagedata";
 
 const Clients = () => {
   return (

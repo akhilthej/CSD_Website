@@ -4,6 +4,8 @@ import { Navbar, Footer, PrivacyPolicy, TermsnConditions, Disclaimer, Shippingan
 import NavbarMobile from './components/Navbar/NavbarMobile';
 import Notification from "./components/Tools/Notifications";
 
+import GoogleSignIn from './components/config/GoogleSignIn'
+
 import {
 /*Web Development */
 WebDevelopment,BusinessWebsite,EcommerceWebsite,WebRevap,CRMERP,
@@ -52,6 +54,7 @@ const routes = [
   { path: '/disclaimer', element: <Disclaimer /> },
 
   { path: '/services', element: <Services /> },
+  { path: '/login', element: <GoogleSignIn /> },
 
         /*---------WebDevelopment---------*/
   { path: '/best-web-developement-company', element: <WebDevelopment /> },

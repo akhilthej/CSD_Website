@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import Brand_slider from "../components/Brand_slider";
 import ServicesTab from "../components/ServicesTab";
 
-import { HomeVideo } from "../components/data/data";
+import { HomeVideo } from "../assets/data/Imagedata";
 import ImageSlider from "../components/ImageSlider";
 
 import {
@@ -12,7 +12,7 @@ import {
   OntimeDelivery,
   TimeManage,
   HiringModel,
-} from "../components/data/data";
+} from "../assets/data/Imagedata";
 import {
   documentationicon,
   socialicon,
@@ -20,7 +20,7 @@ import {
   financeicon,
   statergyicon,
   businessreporticon,
-} from "../components/data/data";
+} from "../assets/data/Imagedata";
 
 const Home = () => {
   return (

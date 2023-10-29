@@ -9,7 +9,7 @@ import {
   GraphicDesign,
   MobileAppDevelopment,
   WebDevelopment,
-} from "../components/data/data";
+} from "../assets/data/Imagedata";
 
 const ServicesTab = () => {
   return (

@@ -8,7 +8,7 @@ import {
   OntimeDelivery,
   TimeManage,
   HiringModel,
-} from "../../components/data/data";
+} from "../../assets/data/Imagedata";
 import {
   documentationicon,
   socialicon,
@@ -16,7 +16,7 @@ import {
   financeicon,
   statergyicon,
   businessreporticon,
-} from "../../components/data/data";
+} from "../../assets/data/Imagedata";
 
 import ServicesTab from '../../components/ServicesTab';
 

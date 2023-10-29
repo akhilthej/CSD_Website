@@ -6,7 +6,7 @@ import {
   OntimeDelivery,
   TimeManage,
   HiringModel,businesswebsite,ecommercewebsite,webrevamp,crm_ermpannel,
-} from "../../../components/data/data";
+} from "../../../assets/data/Imagedata";
 
 
 const BusinessWebsite = () => {

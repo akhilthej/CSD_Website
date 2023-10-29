@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 
 
 
-import {googlereview} from '../components/data/data';
+import {googlereview} from '../assets/data/Imagedata';
 
 const Reviews = () => {
   return (
