@@ -6,6 +6,7 @@ import Notification from "./components/Tools/Notifications";
 
 import GoogleSignIn from './components/config/GoogleSignIn'
 
+import Player from "./components/YT/Player";
 import {
 /*Web Development */
 WebDevelopment,BusinessWebsite,EcommerceWebsite,WebRevap,CRMERP,
@@ -39,6 +40,9 @@ WebDevelopment,BusinessWebsite,EcommerceWebsite,WebRevap,CRMERP,
        EcommerceAppDevelopment
 } from './routes/Routes';
 
+
+
+
 const routes = [
   { path: '/', element: <Home /> },
   { path: '/*', element: <Error404 /> },
@@ -55,7 +59,7 @@ const routes = [
 
   { path: '/services', element: <Services /> },
   { path: '/login', element: <GoogleSignIn /> },
-
+  { path: '/player/:videoId', element: <Player /> },
         /*---------WebDevelopment---------*/
   { path: '/best-web-developement-company', element: <WebDevelopment /> },
   { path: '/web-developement-company-in-vizag', element: <WebDevelopment /> },
@@ -188,6 +192,8 @@ export function App() {
   const location = useLocation();
   window.scrollTo(0, 0);
 
+   // Check if the current route is '/player'
+ const isPlayerRoute = location.pathname.startsWith('/player');
   return (
     <>
       <Navbar />

@@ -8,6 +8,7 @@ import {
   HiringModel,businesswebsite,ecommercewebsite,webrevamp,crm_ermpannel,
 } from "../../../assets/data/Imagedata";
 
+import Telugu from '../../../components/YT/Telugu'
 
 const BusinessWebsite = () => {
   return (
@@ -174,7 +175,7 @@ const BusinessWebsite = () => {
 
 
 
-
+<Telugu />
    
    
    </div>
