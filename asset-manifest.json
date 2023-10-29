@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.a641bdcf.css",
-    "main.js": "/static/js/main.e777cbd6.js",
+    "main.css": "/static/css/main.b585ff67.css",
+    "main.js": "/static/js/main.363755f8.js",
     "static/media/homepage1.mp4": "/static/media/homepage1.3057c3e6533fc183f0f9.mp4",
     "static/media/LAN-001-white.png": "/static/media/LAN-001-white.4cd2dfdc96667fc57a19.png",
     "static/media/ARK-001-white.png": "/static/media/ARK-001-white.7552533bfc49040f3d2c.png",
@@ -19,6 +19,7 @@
     "static/media/DigitalMarketing.svg": "/static/media/DigitalMarketing.e2cb248f9817e96e00ba82f270a8b150.svg",
     "static/media/HiringModel.svg": "/static/media/HiringModel.f6e30699722dba6df714c513872f7257.svg",
     "static/media/GraphicDesign.svg": "/static/media/GraphicDesign.1b4fc031ef09c90bcde1e15911784dc8.svg",
+    "static/media/GoogleloginIcon.png": "/static/media/GoogleloginIcon.b11509810d79c09cb33a.png",
     "static/media/FixedPrice.svg": "/static/media/FixedPrice.28f3732c125aec9aa6e960d037be5a30.svg",
     "static/media/TimeManage.svg": "/static/media/TimeManage.3e99c658b279ce1fbc7c12000fcc9d6a.svg",
     "static/media/MoreFeatures.svg": "/static/media/MoreFeatures.dda48b4c4703262df1c5e1e26cdd16cb.svg",
@@ -41,11 +42,11 @@
     "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
-    "main.a641bdcf.css.map": "/static/css/main.a641bdcf.css.map",
-    "main.e777cbd6.js.map": "/static/js/main.e777cbd6.js.map"
+    "main.b585ff67.css.map": "/static/css/main.b585ff67.css.map",
+    "main.363755f8.js.map": "/static/js/main.363755f8.js.map"
   },
   "entrypoints": [
-    "static/css/main.a641bdcf.css",
-    "static/js/main.e777cbd6.js"
+    "static/css/main.b585ff67.css",
+    "static/js/main.363755f8.js"
   ]
 }
