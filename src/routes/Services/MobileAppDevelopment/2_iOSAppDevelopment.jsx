@@ -1,9 +1,9 @@
 import React from 'react'
 
-const iOSAppDevelopment = () => {
+const MobileAppDvelop = () => {
   return (
-    <div>2_iOSAppDevelopment</div>
+    <div>MobileAppDvelop</div>
   )
 }
 
-export default iOSAppDevelopment
+export default MobileAppDvelop

@@ -141,7 +141,7 @@ const mobileappLinks = [
 <Menu as="div" className="relative inline-block text-left">
   <div>
     <Menu.Button className="lg:inline-flex font-semibold antialiased hidden justify-center w-full rounded-md px-4 py-2 text-sm text-black hover:bg-yellow-500 focus:outline-none">
-      <Link to="/best-web-development-company">
+      <Link to="/best-web-developement-company">
         Web Development
       </Link>
       <svg
@@ -522,7 +522,7 @@ const mobileappLinks = [
 <Menu as="div" className="relative inline-block text-left">
   <div>
     <Menu.Button className="lg:inline-flex font-semibold antialiased hidden justify-center w-full rounded-md px-4 py-2 text-sm text-black hover:bg-yellow-500 focus:outline-none">
-      <Link to="/best-brand-services-compan">
+      <Link to="/best-brand-services-company">
       Branding
       </Link>
       <svg

@@ -97,7 +97,7 @@ const routes = [
   { path: '/ecommerce-app-development', element: <EcommerceAppDevelopment /> },
         /*---------MobileAppDevelopment End---------*/
 
-        /*---------GraphicDesigning---------*/
+        /*---------Multimedia---------*/
   { path: '/best-graphic-designing-company', element: <GraphicDesigning /> },
   { path: '/graphic-designing-company-in-vizag', element: <GraphicDesigning /> },
   { path: '/best-graphic-designing-in-vizag', element: <GraphicDesigning /> },

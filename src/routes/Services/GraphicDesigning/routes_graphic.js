@@ -18,8 +18,8 @@ import eBookandPrintBookCoverDesign from './14_eBookandPrintBookCoverDesign';
 import TshirtandMerchandiseDesign from './15_TshirtandMerchandiseDesign';
 import SignageandBillboardDesign from './16_SignageandBillboardDesign';
 import BusinessCardandStationeryDesign from './17_BusinessCardandStationeryDesign';
-import RenderingandVisualization from './18_3DRenderingandVisualization.jsx';
-import MotionGraphicsandAnimation from './19_MotionGraphicsandAnimation.jsx';
+import RenderingandVisualization from './18_3DRenderingandVisualization.jsx.jsx';
+import MotionGraphicsandAnimation from './19_MotionGraphicsandAnimation.jsx.jsx';
 import PhotoEditingandRetouching from './20_PhotoEditingandRetouching';
 
 export {GraphicDesigning,
