@@ -363,6 +363,101 @@ const GraphicDesigning = () => {
  </div>
  </section>
 
+
+
+{/*Buttons */}
+<div>
+
+
+      {/* WebDevelopment Links */}
+      <Link to='/best-web-developement-company'>
+        <button className="mt-5 text-xs sm:text-sm transform rounded bg-yellow-500 border border-slate-200 px-12 py-2 font-medium text-black transition-colors hover:bg-slate-50">
+          Web Development
+        </button>
+      </Link>
+      <Link to='/build-business-website'>
+        <button className="mt-5 text-xs sm:text-sm transform rounded bg-yellow-500 border border-slate-200 px-12 py-2 font-medium text-black transition-colors hover:bg-slate-50">
+          Business Website
+        </button>
+      </Link>
+      <Link to='/build-ecommerce-website'>
+        <button className="mt-5 text-xs sm:text-sm transform rounded bg-yellow-500 border border-slate-200 px-12 py-2 font-medium text-black transition-colors hover:bg-slate-50">
+          Ecommerce Website
+        </button>
+      </Link>
+      <Link to='/customize-your-website'>
+        <button className="mt-5 text-xs sm:text-sm transform rounded bg-yellow-500 border border-slate-200 px-12 py-2 font-medium text-black transition-colors hover:bg-slate-50">
+          Customize Your Website
+        </button>
+      </Link>
+      <Link to='/control-center-for-business'>
+        <button className="mt-5 text-xs sm:text-sm transform rounded bg-yellow-500 border border-slate-200 px-12 py-2 font-medium text-black transition-colors hover:bg-slate-50">
+          Control Center for Business
+        </button>
+      </Link>
+
+      
+<div>
+      {/* Mobile app Links */}
+      <Link to='/mobile-app-design'>
+        <button className="mt-5 text-xs sm:text-sm transform rounded bg-yellow-500 border border-slate-200 px-12 py-2 font-medium text-black transition-colors hover:bg-slate-50">
+          m
+        </button>
+      </Link>
+      <Link to='/ios-application-development'>
+        <button className="mt-5 text-xs sm:text-sm transform rounded bg-yellow-500 border border-slate-200 px-12 py-2 font-medium text-black transition-colors hover:bg-slate-50">
+          Business Website
+        </button>
+      </Link>
+      <Link to='/android-app-development'>
+        <button className="mt-5 text-xs sm:text-sm transform rounded bg-yellow-500 border border-slate-200 px-12 py-2 font-medium text-black transition-colors hover:bg-slate-50">
+          Ecommerce Website
+        </button>
+      </Link>
+      <Link to='/cross-platform-app-development'>
+        <button className="mt-5 text-xs sm:text-sm transform rounded bg-yellow-500 border border-slate-200 px-12 py-2 font-medium text-black transition-colors hover:bg-slate-50">
+          c
+        </button>
+      </Link>
+      <Link to='/app-prototyping'>
+        <button className="mt-5 text-xs sm:text-sm transform rounded bg-yellow-500 border border-slate-200 px-12 py-2 font-medium text-black transition-colors hover:bg-slate-50">
+          Control Center for Business
+        </button>
+      </Link>
+      <Link to='/app-testing-and-quality-assurance'>
+        <button className="mt-5 text-xs sm:text-sm transform rounded bg-yellow-500 border border-slate-200 px-12 py-2 font-medium text-black transition-colors hover:bg-slate-50">
+          f
+        </button>
+      </Link>
+      <Link to='/app-maintenance-and-support'>
+        <button className="mt-5 text-xs sm:text-sm transform rounded bg-yellow-500 border border-slate-200 px-12 py-2 font-medium text-black transition-colors hover:bg-slate-50">
+          Control Center for Business
+        </button>
+      </Link>
+      <Link to='/app-security'>
+        <button className="mt-5 text-xs sm:text-sm transform rounded bg-yellow-500 border border-slate-200 px-12 py-2 font-medium text-black transition-colors hover:bg-slate-50">
+          Control Center for Business
+        </button>
+      </Link>
+      <Link to='/app-monetization-strategy'>
+        <button className="mt-5 text-xs sm:text-sm transform rounded bg-yellow-500 border border-slate-200 px-12 py-2 font-medium text-black transition-colors hover:bg-slate-50">
+          Control Center for Business
+        </button>
+      </Link>
+      <Link to='/app-store-optimization'>
+        <button className="mt-5 text-xs sm:text-sm transform rounded bg-yellow-500 border border-slate-200 px-12 py-2 font-medium text-black transition-colors hover:bg-slate-50">
+          Control Center for Business
+        </button>
+      </Link>
+      <Link to='/ecommerce-app-development'>
+        <button className="mt-5 text-xs sm:text-sm transform rounded bg-yellow-500 border border-slate-200 px-12 py-2 font-medium text-black transition-colors hover:bg-slate-50">
+          Control Center for Business
+        </button>
+      </Link>
+      </div>
+
+</div>
+
 </main>
 
   )

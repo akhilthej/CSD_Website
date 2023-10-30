@@ -6,7 +6,7 @@ import Notification from "./components/Tools/Notifications";
 
 import GoogleSignIn from './components/config/GoogleSignIn'
 
-import Player from "./components/YT/Player";
+
 import {
 /*Web Development */
 WebDevelopment,BusinessWebsite,EcommerceWebsite,WebRevap,CRMERP,
@@ -35,7 +35,7 @@ WebDevelopment,BusinessWebsite,EcommerceWebsite,WebRevap,CRMERP,
 
       /*MobileApp*/
       MobileAppDevelopment,
-      MobileAppDesign, iOSAppDevelopment, AndroidAppDevelopment, CrossPlatformAppDevelopment, AppPrototyping,
+      MobileAppDesign, IOSAppDevelopment, AndroidAppDevelopment, CrossPlatformAppDevelopment, AppPrototyping,
        AppTestingandQualityAssurance, AppMaintenanceandSupport, AppSecurity, AppMonetizationStrategy, AppStoreOptimization, 
        EcommerceAppDevelopment
 } from './routes/Routes';
@@ -59,7 +59,7 @@ const routes = [
 
   { path: '/services', element: <Services /> },
   { path: '/login', element: <GoogleSignIn /> },
-  { path: '/player/:videoId', element: <Player /> },
+
         /*---------WebDevelopment---------*/
   { path: '/best-web-developement-company', element: <WebDevelopment /> },
   { path: '/web-developement-company-in-vizag', element: <WebDevelopment /> },
@@ -85,7 +85,7 @@ const routes = [
   { path: '/best-mobile-app-development-in-vizag', element: <MobileAppDevelopment /> },
 
   { path: '/mobile-app-design', element: <MobileAppDesign /> },
-  { path: '/iosappdevelopment', element: <iOSAppDevelopment /> },
+  { path: '/ios-application-development', element: <IOSAppDevelopment /> },
   { path: '/android-app-development', element: <AndroidAppDevelopment /> },
   { path: '/cross-platform-app-development', element: <CrossPlatformAppDevelopment /> },
   { path: '/app-prototyping', element: <AppPrototyping /> },
@@ -95,7 +95,7 @@ const routes = [
   { path: '/app-monetization-strategy', element: <AppMonetizationStrategy /> },
   { path: '/app-store-optimization', element: <AppStoreOptimization /> },
   { path: '/ecommerce-app-development', element: <EcommerceAppDevelopment /> },
-        /*---------WebDevelopment End---------*/
+        /*---------MobileAppDevelopment End---------*/
 
         /*---------GraphicDesigning---------*/
   { path: '/best-graphic-designing-company', element: <GraphicDesigning /> },
@@ -104,6 +104,7 @@ const routes = [
   { path: '/best-poster-designing-company', element: <GraphicDesigning /> },
 
   { path: '/logo-design', element: <LogoDesign /> },
+  { path: '/logo-design-company-in-vizag', element: <LogoDesign /> },
   { path: '/brand-identity-design', element: <BrandIdentityDesign /> },
   { path: '/print-design', element: <PrintDesign /> },
   { path: '/web-design', element: <WebDesign /> },
@@ -192,8 +193,7 @@ export function App() {
   const location = useLocation();
   window.scrollTo(0, 0);
 
-   // Check if the current route is '/player'
- const isPlayerRoute = location.pathname.startsWith('/player');
+
   return (
     <>
       <Navbar />

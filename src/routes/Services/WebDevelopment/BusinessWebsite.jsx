@@ -8,7 +8,6 @@ import {
   HiringModel,businesswebsite,ecommercewebsite,webrevamp,crm_ermpannel,
 } from "../../../assets/data/Imagedata";
 
-import Telugu from '../../../components/YT/Telugu'
 
 const BusinessWebsite = () => {
   return (
@@ -80,7 +79,9 @@ const BusinessWebsite = () => {
           <p className="text-gray-200 text-sm">
           Catalyzing Business Success: Our business website solutions are designed to drive growth, enhance visibility, and boost profitability in the digital landscape.
           </p>
-          <Link to='/best-website-for-small-business'><button className="mt-5 text-xs sm:text-sm transform rounded bg-yellow-500 border border-slate-200 px-12 py-2 font-medium text-black transition-colors hover:bg-slate-50 "> Get Quotation</button></Link>
+          <Link to='/best-website-for-small-business'>
+          <button className="mt-5 text-xs sm:text-sm transform rounded bg-yellow-500 border border-slate-200 px-12 py-2 font-medium text-black transition-colors hover:bg-slate-50 "> Get Quotation</button>
+          </Link>
         </div>
       </div>
 
@@ -175,8 +176,6 @@ const BusinessWebsite = () => {
 
 
 
-<Telugu />
-   
    
    </div>
   )

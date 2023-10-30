@@ -30,7 +30,7 @@ import {DigitalMarketing,SearchEngineOptimization,ContentMarketing,SocialMediaMa
 
 /*Mobile App Development */
 import {MobileAppDevelopment,
-    MobileAppDesign, iOSAppDevelopment, AndroidAppDevelopment, CrossPlatformAppDevelopment, AppPrototyping,
+    MobileAppDesign, IOSAppDevelopment, AndroidAppDevelopment, CrossPlatformAppDevelopment, AppPrototyping,
      AppTestingandQualityAssurance, AppMaintenanceandSupport, AppSecurity, AppMonetizationStrategy, AppStoreOptimization, 
      EcommerceAppDevelopment} from './Services/MobileAppDevelopment/routes_mobileapp';
 
@@ -96,7 +96,7 @@ DigitalMarketing,SearchEngineOptimization,ContentMarketing,SocialMediaMarketing,
 
       /*MobileApp*/
       MobileAppDevelopment,
-      MobileAppDesign, iOSAppDevelopment, AndroidAppDevelopment, CrossPlatformAppDevelopment, AppPrototyping,
+      MobileAppDesign, IOSAppDevelopment, AndroidAppDevelopment, CrossPlatformAppDevelopment, AppPrototyping,
        AppTestingandQualityAssurance, AppMaintenanceandSupport, AppSecurity, AppMonetizationStrategy, AppStoreOptimization, 
        EcommerceAppDevelopment
 };

@@ -1,7 +1,7 @@
 import MobileAppDevelopment from './MobileAppDevelopment';
 
 import MobileAppDesign from './1_MobileAppDesign';
-import iOSAppDevelopment from './2_iOSAppDevelopment';
+import IOSAppDevelopment from './2_IOSAppDevelopment';
 import AndroidAppDevelopment from './3_AndroidAppDevelopment';
 import CrossPlatformAppDevelopment from './4_CrossPlatformAppDevelopment';
 import AppPrototyping from './5_AppPrototyping';
@@ -13,6 +13,6 @@ import AppStoreOptimization from './10_AppStoreOptimization';
 import EcommerceAppDevelopment from './11_EcommerceAppDevelopment';
 
 export{MobileAppDevelopment,
-MobileAppDesign, iOSAppDevelopment, AndroidAppDevelopment, CrossPlatformAppDevelopment, AppPrototyping,
+MobileAppDesign, IOSAppDevelopment, AndroidAppDevelopment, CrossPlatformAppDevelopment, AppPrototyping,
  AppTestingandQualityAssurance, AppMaintenanceandSupport, AppSecurity, AppMonetizationStrategy, AppStoreOptimization, 
  EcommerceAppDevelopment }
