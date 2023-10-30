@@ -8,8 +8,37 @@ import {
     HiringModel,
   } from "../../../assets/data/Imagedata";
 import LogoPortfolioSlider from '../../../components/Sliders/LogoPortfolioSlider'
-import HomeVideo from '../../../assets/Videos/homepage1.mp4'
+
+
+
 const LogoDesign = () => {
+
+  const sectionsData = {
+    section1: {
+      /* Title Card */
+      title: 'Logo Design',
+      subtitle: 'Create a Unique Identity for Your Brand',
+    },}
+
+  const faqData = [
+    {
+      question: 'What services do you offer?',
+      answer:
+        'We offer a wide range of services, including web development, mobile app development, custom software development, UX/UI design, and digital strategy consulting.',
+    },
+    {
+      question: 'What platforms do you develop apps for?',
+      answer:
+        'We develop apps for iOS, Android, and cross-platform solutions like React Native and Flutter.',
+    },
+    {
+      question: 'Do you offer both front-end and back-end development?',
+      answer:
+        'Yes, we provide both front-end and back-end development services to create fully functional web and mobile applications.',
+    },
+
+  ];
+
   return (
     <main>
     {/* Title Card */}
@@ -28,12 +57,11 @@ const LogoDesign = () => {
               {" "}
               {/* Align titles to the right on mobile, left on larger screens */}
               <h3 className="cursor-default  text-2xl pb-5 md:text-6xl fade-in-down font-extrabold text-center text-white tracking-tight">
-                Logo Designing
+                {sectionsData.section1.title}
               
               </h3>
               <p className="cursor-default text-white sm:text-sm text-xs text-center sm:ml-0">
-                You can contact us through mail or you can get in touch at our
-                digital office.
+                {sectionsData.section1.subtitle}
               </p>
               <div className="mt-8 flex flex-wrap justify-center gap-4">
               <a href="mailto:admin@cyberspacedigital.in">
@@ -248,22 +276,7 @@ const LogoDesign = () => {
   </section>
 
 
- 
-{/* Video */}
-        <div className="flex justify-center items-center">
-          <video
-            className="rounded-lg"
-            poster=""
-            loop
-            width="80%"
-            height="auto"
-            autoPlay
-            muted
-            playsInline
-          >
-            <source src={HomeVideo} type="video/mp4" />
-          </video>
-        </div>
+
 
 {/* Portfolio */}
 <LogoPortfolioSlider />
@@ -979,19 +992,17 @@ const LogoDesign = () => {
    </section>
 
 {/* FAQs */}
-   <div className="flex">
-        <div className="max-w-screen-xl mx-auto px-5 bg-white min-h-sceen">
-          <div className="flex flex-col items-center">
-            <h2 className="font-bold text-5xl mt-5 tracking-tight">FAQ</h2>
-            <p className="text-neutral-500 text-xl mt-3">
-              Web Development & App Development
-            </p>
-          </div>
-          <div className="grid divide-y divide-neutral-200 max-w-xl mx-auto mt-8">
-            <div className="py-5">
+<div className="py-10 bg-gray-100">
+      <div className="container mx-auto px-4">
+        <h2 className="text-3xl font-semibold text-center text-gray-800 mb-5">
+          Frequently Asked Questions
+        </h2>
+        <div className="grid gap-4">
+          {faqData.map((item, index) => (
+            <div className="bg-white rounded-lg p-4 shadow-md" key={index}>
               <details className="group">
-                <summary className="flex justify-between items-center font-medium cursor-pointer list-none">
-                  <span> What services do you offer?</span>
+                <summary className="flex justify-between items-center font-medium cursor-pointer">
+                  <span>{item.question}</span>
                   <span className="transition group-open:rotate-180">
                     <svg
                       fill="none"
@@ -1008,280 +1019,16 @@ const LogoDesign = () => {
                     </svg>
                   </span>
                 </summary>
-                <p className="text-neutral-600 mt-3 group-open:animate-fadeIn">
-                  We offer a wide range of services, including web development,
-                  mobile app development, custom software development, UX/UI
-                  design, and digital strategy consulting.
+                <p className="text-gray-600 mt-3 group-open:animate-fadeIn">
+                  {item.answer}
                 </p>
               </details>
             </div>
-            <div className="py-5">
-              <details className="group">
-                <summary className="flex justify-between items-center font-medium cursor-pointer list-none">
-                  <span> What platforms do you develop apps for?</span>
-                  <span className="transition group-open:rotate-180">
-                    <svg
-                      fill="none"
-                      height={24}
-                      shapeRendering="geometricPrecision"
-                      stroke="currentColor"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="1.5"
-                      viewBox="0 0 24 24"
-                      width={24}
-                    >
-                      <path d="M6 9l6 6 6-6" />
-                    </svg>
-                  </span>
-                </summary>
-                <p className="text-neutral-600 mt-3 group-open:animate-fadeIn">
-                  We develop apps for iOS, Android, and cross-platform solutions
-                  like React Native and Flutter.
-                </p>
-              </details>
-            </div>
-            <div className="py-5">
-              <details className="group">
-                <summary className="flex justify-between items-center font-medium cursor-pointer list-none">
-                  <span>
-                    {" "}
-                    Do you offer both front-end and back-end development?
-                  </span>
-                  <span className="transition group-open:rotate-180">
-                    <svg
-                      fill="none"
-                      height={24}
-                      shapeRendering="geometricPrecision"
-                      stroke="currentColor"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="1.5"
-                      viewBox="0 0 24 24"
-                      width={24}
-                    >
-                      <path d="M6 9l6 6 6-6" />
-                    </svg>
-                  </span>
-                </summary>
-                <p className="text-neutral-600 mt-3 group-open:animate-fadeIn">
-                  Yes, we provide both front-end and back-end development
-                  services to create fully functional web and mobile
-                  applications.
-                </p>
-              </details>
-            </div>
-            <div className="py-5">
-              <details className="group">
-                <summary className="flex justify-between items-center font-medium cursor-pointer list-none">
-                  <span>
-                    {" "}
-                    How much does it cost to develop a website or app?
-                  </span>
-                  <span className="transition group-open:rotate-180">
-                    <svg
-                      fill="none"
-                      height={24}
-                      shapeRendering="geometricPrecision"
-                      stroke="currentColor"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="1.5"
-                      viewBox="0 0 24 24"
-                      width={24}
-                    >
-                      <path d="M6 9l6 6 6-6" />
-                    </svg>
-                  </span>
-                </summary>
-                <p className="text-neutral-600 mt-3 group-open:animate-fadeIn">
-                  The cost depends on the project's complexity, features, and
-                  technology requirements. We offer free consultations and
-                  provide customized quotes based on your specific needs.
-                </p>
-              </details>
-            </div>
-            <div className="py-5">
-              <details className="group">
-                <summary className="flex justify-between items-center font-medium cursor-pointer list-none">
-                  <span>
-                    {" "}
-                    What is the typical timeline for a development project?
-                  </span>
-                  <span className="transition group-open:rotate-180">
-                    <svg
-                      fill="none"
-                      height={24}
-                      shapeRendering="geometricPrecision"
-                      stroke="currentColor"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="1.5"
-                      viewBox="0 0 24 24"
-                      width={24}
-                    >
-                      <path d="M6 9l6 6 6-6" />
-                    </svg>
-                  </span>
-                </summary>
-                <p className="text-neutral-600 mt-3 group-open:animate-fadeIn">
-                  Project timelines vary based on complexity, but we will
-                  provide a project roadmap with milestones and estimated
-                  delivery dates during the planning phase.
-                </p>
-              </details>
-            </div>
-            <div className="py-5">
-              <details className="group">
-                <summary className="flex justify-between items-center font-medium cursor-pointer list-none">
-                  <span>
-                    {" "}
-                    Can you maintain and update our website or app after it's
-                    developed?
-                  </span>
-                  <span className="transition group-open:rotate-180">
-                    <svg
-                      fill="none"
-                      height={24}
-                      shapeRendering="geometricPrecision"
-                      stroke="currentColor"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="1.5"
-                      viewBox="0 0 24 24"
-                      width={24}
-                    >
-                      <path d="M6 9l6 6 6-6" />
-                    </svg>
-                  </span>
-                </summary>
-                <p className="text-neutral-600 mt-3 group-open:animate-fadeIn">
-                  Yes, we offer ongoing maintenance and support services to
-                  ensure your website or app remains up to date and functions
-                  smoothly.
-                </p>
-              </details>
-            </div>
-            <div className="py-5">
-              <details className="group">
-                <summary className="flex justify-between items-center font-medium cursor-pointer list-none">
-                  <span> Do you follow Agile development methodologies?</span>
-                  <span className="transition group-open:rotate-180">
-                    <svg
-                      fill="none"
-                      height={24}
-                      shapeRendering="geometricPrecision"
-                      stroke="currentColor"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="1.5"
-                      viewBox="0 0 24 24"
-                      width={24}
-                    >
-                      <path d="M6 9l6 6 6-6" />
-                    </svg>
-                  </span>
-                </summary>
-                <p className="text-neutral-600 mt-3 group-open:animate-fadeIn">
-                  Yes, we commonly use Agile methodologies to ensure
-                  flexibility, collaboration, and frequent updates during the
-                  development process.
-                </p>
-              </details>
-            </div>
-            <div className="py-5">
-              <details className="group">
-                <summary className="flex justify-between items-center font-medium cursor-pointer list-none">
-                  <span> Can you help with hosting and server setup?</span>
-                  <span className="transition group-open:rotate-180">
-                    <svg
-                      fill="none"
-                      height={24}
-                      shapeRendering="geometricPrecision"
-                      stroke="currentColor"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="1.5"
-                      viewBox="0 0 24 24"
-                      width={24}
-                    >
-                      <path d="M6 9l6 6 6-6" />
-                    </svg>
-                  </span>
-                </summary>
-                <p className="text-neutral-600 mt-3 group-open:animate-fadeIn">
-                  Yes, we offer assistance with hosting, server setup, and
-                  deployment to ensure your web application is accessible to
-                  users.
-                </p>
-              </details>
-            </div>
-            <div className="py-5">
-              <details className="group">
-                <summary className="flex justify-between items-center font-medium cursor-pointer list-none">
-                  <span>
-                    {" "}
-                    What steps do you take to ensure the security of web and
-                    mobile applications?
-                  </span>
-                  <span className="transition group-open:rotate-180">
-                    <svg
-                      fill="none"
-                      height={24}
-                      shapeRendering="geometricPrecision"
-                      stroke="currentColor"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="1.5"
-                      viewBox="0 0 24 24"
-                      width={24}
-                    >
-                      <path d="M6 9l6 6 6-6" />
-                    </svg>
-                  </span>
-                </summary>
-                <p className="text-neutral-600 mt-3 group-open:animate-fadeIn">
-                  We follow industry best practices, conduct security audits,
-                  and implement encryption, authentication, and authorization
-                  measures to enhance the security of your application.
-                </p>
-              </details>
-            </div>
-            <div className="py-5">
-              <details className="group">
-                <summary className="flex justify-between items-center font-medium cursor-pointer list-none">
-                  <span>
-                    {" "}
-                    Can you assist with app store submissions and web
-                    deployment?
-                  </span>
-                  <span className="transition group-open:rotate-180">
-                    <svg
-                      fill="none"
-                      height={24}
-                      shapeRendering="geometricPrecision"
-                      stroke="currentColor"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="1.5"
-                      viewBox="0 0 24 24"
-                      width={24}
-                    >
-                      <path d="M6 9l6 6 6-6" />
-                    </svg>
-                  </span>
-                </summary>
-                <p className="text-neutral-600 mt-3 group-open:animate-fadeIn">
-                  Yes, we can help you with the submission process for app
-                  stores (Apple App Store, Google Play Store) and deploy
-                  websites to hosting servers.
-                </p>
-              </details>
-            </div>
-            {/* Add more FAQ questions here using the same structure */}
-          </div>
+          ))}
         </div>
       </div>
+    </div>
+
 
 
 {/* Contact Us for Your Logo Needs */}
