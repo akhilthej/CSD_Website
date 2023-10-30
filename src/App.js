@@ -197,7 +197,6 @@ export function App() {
   return (
     <>
       <Navbar />
-      <NavbarMobile />
       <Notification />
       <Routes location={location} key={location.pathname}>
         {routes.map((route, index) => (
