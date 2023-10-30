@@ -1,7 +1,7 @@
 import MobileAppDevelopment from './MobileAppDevelopment';
 
 import MobileAppDesign from './1_MobileAppDesign';
-import IOSAppDevelopment from './2_IOSAppDevelopment';
+import IOSAppDevelopment from './2_iOSAppDevelopment';
 import AndroidAppDevelopment from './3_AndroidAppDevelopment';
 import CrossPlatformAppDevelopment from './4_CrossPlatformAppDevelopment';
 import AppPrototyping from './5_AppPrototyping';
