@@ -500,18 +500,30 @@ const mobileappLinks = [
         </div>
 
         <div className="w-1/4 p-4">
-          {/* Place your image and additional content here */}
-          <img
-            className="w-auto h-[10rem]"
-            src="https://drive.google.com/uc?id=17CKOf3456AJ6ZjKhbaLuKGziUWrTUrAG"
-            alt=""
-          />
-          <Link to="/services">
-            <h2 className="text-blue-600 hover:text-blue-900 cursor-pointer pt-1 text-xs">
-              Services ➤
-            </h2>
-          </Link>
-          <p className="text-xs text-gray-700">Know all the services we provide.</p>
+          {multimediaLinks.slice(15, 20).map((link) => (
+            <Menu.Item key={link.path}>
+              {({ active }) => (
+                <Link to={link.path}>
+                  <a
+                    className={classNames(
+                      active ? "bg-yellow-500 text-white" : "text-black",
+                      "block px-4 py-2 text-sm"
+                    )}
+                  >
+                    <div className="Column1 flex items-center">
+                      <FontAwesomeIcon className="p-2 fa-2xl" icon={link.icon} />
+                      <div>
+                        {link.title}
+                        <p className="text-xs text-gray-700">
+                          {link.description}
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+                </Link>
+              )}
+            </Menu.Item>
+          ))}
         </div>
       </div>
     </Menu.Items>
