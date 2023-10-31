@@ -28,7 +28,7 @@ const DigitalMarketing = () => {
   return (
     <main>
      <Helmet>
-        <title>Best Web Development Company in India | Web Developers near me | Web Developers Around Me</title>
+        <title>Digital Marketing Company in India | Digital Marketing near me | Digital Marketing Around Me</title>
         <meta
           name="Description"
           content="Best website development company around you, at best prices."

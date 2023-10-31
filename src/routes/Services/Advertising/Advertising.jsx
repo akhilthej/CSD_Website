@@ -96,7 +96,7 @@ const Advertising = () => {
 
 {/*Services */}
 <div className="flex flex-wrap flex-row -mx-4 text-center justify-center">
-  {GlobalData.DigitalMarketingServices.map((item, index) => (
+  {GlobalData.AdvertisingServices.map((item, index) => (
     <div
       className="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/6 lg:px-1 "
       data-wow-delay={`.${index}s`}
