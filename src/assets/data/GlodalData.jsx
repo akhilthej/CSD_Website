@@ -5,7 +5,6 @@ import ContentMarketing from '../Services_icons/DigitalMarketingIcons/contentmar
 import SocialMediaMarketing from '../Services_icons/DigitalMarketingIcons/socialmediamarketing.webp'
 import EmailMarketing from '../Services_icons/DigitalMarketingIcons/emailmarketing.webp'
 import PayPerClickAdvertising from '../Services_icons/DigitalMarketingIcons/payperclick.webp'
-
 import AnalyticsandDataAnalysis from '../Services_icons/DigitalMarketingIcons/analysisanddata.webp'
 import ConversionRateOptimization from '../Services_icons/DigitalMarketingIcons/conversionrateoptimization.webp'
 import MobileMarketing from '../Services_icons/DigitalMarketingIcons/mobilemarketing.webp'
@@ -15,6 +14,11 @@ import EcommerceMarketing from '../Services_icons/DigitalMarketingIcons/Ecommerc
 import MarketingAutomation from '../Services_icons/DigitalMarketingIcons/MarketingAutomation.webp'
 import RemarketingandRetargeting from '../Services_icons/DigitalMarketingIcons/RemarketingandRetargeting.webp'
 import InfluencerMarketing from '../Services_icons/DigitalMarketingIcons/influencer.webp'
+
+import BusinessWebsites from '../Services_icons/WebDevelopment/businesswebsite.webp'
+import Ecommerce from '../Services_icons/WebDevelopment/ecommerce.webp'
+import WebRecamp from '../Services_icons/WebDevelopment/WebRevamp.webp'
+import CRMERM from '../Services_icons/WebDevelopment/crmermpannel.webp'
 
 const GlobalData = {
   company: {
@@ -26,7 +30,7 @@ const GlobalData = {
 
   WebDevelopmentServices: [
     {
-      image: SearchEngineOptimization, 
+      image: BusinessWebsites, 
       title: 'Business Websites',
       subtitle: 'Catalyzing Business Success: Our business website solutions are designed to drive growth, enhance visibility, and boost profitability in the digital landscape.',
       slug: '/build-business-website',
@@ -34,21 +38,21 @@ const GlobalData = {
     },
     
     {
-      image: ContentMarketing, 
+      image: Ecommerce, 
       title: 'E-commerce',
       subtitle: ' Crafting E-Commerce Excellence: Elevate your online retail with our bespoke e-commerce solutions. Boost sales, engage customers, and thrive online.',
       slug: '/build-ecommerce-website',
       buttonText: 'Get Quotation',
     },
     {
-      image: SocialMediaMarketing, 
+      image: WebRecamp, 
       title: 'Web Revamp',
       subtitle: 'Revamp Your Online Presence: Transform and modernize your existing website with our web revamp services. Stay ahead and impress your audience.',
       slug: '/customize-your-website',
       buttonText: 'Get Quotation',
     },
     {
-      image: EmailMarketing, 
+      image: CRMERM, 
       title: 'CRM/ERP Panels',
       subtitle: 'Efficient CRM/ERM Solutions: Enhance business operations with our CRM/ERM panels. Streamline processes, manage data, and boost productivity effectively.',
       slug: '/control-center-for-business',
