@@ -13,111 +13,15 @@ import {
 
 
   {/*Change here*/}
-  
 
   const Digitalmarketingtitle = {
- 
     section1: {
       title: 'Digital Marketing & Social Media Marketing',
       subtitle: '"Cyber Space Digital stands as a distinguished leader in the realm"',
     },
-
   }
 
-  const digitalmarketingservices = [
-    {
-      image: FixedPrice, // Replace with the actual image source
-      title: 'Search Engine Optimization',
-      slug: '/search-engine-optimization',
-      buttonText: 'Get Quotation',
-    },
-    
-    {
-      image: FixedPrice, // Replace with the actual image source
-      title: 'Content Marketing',
-      slug: '/best-content-marketing-service',
-      buttonText: 'Get Quotation',
-    },
-    {
-      image: FixedPrice, // Replace with the actual image source
-      title: 'Social Media Marketing',
-      slug: '/social-media-marketing-services',
-      buttonText: 'Get Quotation',
-    },
-    {
-      image: FixedPrice, // Replace with the actual image source
-      title: 'Email Marketing',
-      slug: '/email-marketing-services',
-      buttonText: 'Get Quotation',
-    },
-    {
-      image: FixedPrice, // Replace with the actual image source
-      title: 'Pay-Per Click Advertising',
-      slug: '/pay-per-click-advertising-services',
-      buttonText: 'Get Quotation',
-    },
-    {
-      image: FixedPrice, // Replace with the actual image source
-      title: 'Affiliate Marketing',
-      slug: '/affiliate-marketing-services',
-      buttonText: 'Get Quotation',
-    },
-    {
-      image: FixedPrice, // Replace with the actual image source
-      title: 'Analytics and Data Analysis',
-      slug: '/best-analytics-and-data-analysis-services',
-      buttonText: 'Get Quotation',
-    },
-    {
-      image: FixedPrice, // Replace with the actual image source
-      title: 'Conversion Rate Optimization',
-      slug: '/best-conversion-rate-optimization',
-      buttonText: 'Get Quotation',
-    },
-    {
-      image: FixedPrice, // Replace with the actual image source
-      title: 'Mobile Marketing',
-      slug: '/best-mobile-marketing-services',
-      buttonText: 'Get Quotation',
-    },
-    {
-      image: FixedPrice, // Replace with the actual image source
-      title: 'Video Marketing',
-      slug: '/best-video-marketing-services',
-      buttonText: 'Get Quotation',
-    },
-    {
-      image: FixedPrice, // Replace with the actual image source
-      title: 'Local SEO and Marketing',
-      slug: '/best-local-seo-and-marketing-services',
-      buttonText: 'Get Quotation',
-    },
-    {
-      image: FixedPrice, // Replace with the actual image source
-      title: 'Ecommerce Marketing',
-      slug: '/best-ecommerce-marketing-services',
-      buttonText: 'Get Quotation',
-    },
-    {
-      image: FixedPrice, // Replace with the actual image source
-      title: 'Marketing Automation',
-      slug: '/best-marketing-automation-services',
-      buttonText: 'Get Quotation',
-    },
-    {
-      image: FixedPrice, // Replace with the actual image source
-      title: 'Remarketing and Retargeting',
-      slug: '/best-remarketing-and-retargeting-services',
-      buttonText: 'Get Quotation',
-    },
-    {
-      image: FixedPrice, // Replace with the actual image source
-      title: 'Influencer Marketing',
-      slug: '/best-influencer-marketing-services',
-      buttonText: 'Get Quotation',
-    },
-  ];
-  
+
 
 
 const DigitalMarketing = () => {
@@ -192,7 +96,7 @@ const DigitalMarketing = () => {
 
 {/*Services */}
 <div className="flex flex-wrap flex-row -mx-4 text-center justify-center">
-  {digitalmarketingservices.map((item, index) => (
+  {GlobalData.DigitalMarketingServices.map((item, index) => (
     <div
       className="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/6 lg:px-6 "
       data-wow-delay={`.${index}s`}
