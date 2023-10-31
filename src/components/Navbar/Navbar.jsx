@@ -79,20 +79,20 @@ const Navbar = () => {
   ];
 
   const brandingLinks = [
-    { path: '/brand-identity-design-exclusive', title: 'Brand Identity Design Exclusive', description: 'Exclusive brand identity design services.', icon: faGlobe },
-  { path: '/brand-logo-design', title: 'Brand Logo Design', description: 'Design a unique logo for your brand.', icon: faGlobe },
-  { path: '/brand-guidelines', title: 'Brand Guidelines', description: 'Create brand guidelines for consistency.', icon: faFileSignature },
-  { path: '/brand-positioning', title: 'Brand Positioning', description: 'Strategically position your brand.', icon: faMapMarker },
-  { path: '/brand-storytelling', title: 'Brand Storytelling', description: 'Craft compelling brand stories.', icon: faBookOpen },
-  { path: '/brand-naming', title: 'Brand Naming', description: 'Find the perfect name for your brand.', icon: faSignature },
-  { path: '/visual-identity-design', title: 'Visual Identity Design', description: 'Design a strong visual identity.', icon: faPalette },
-  { path: '/brand-messaging', title: 'Brand Messaging', description: 'Create effective brand messaging.', icon: faCommentAlt },
-  { path: '/brand-experience-design', title: 'Brand Experience Design', description: 'Enhance the brand experience.', icon: faHandHoldingHeart },
-  { path: '/brand-awareness-campaigns', title: 'Brand Awareness Campaigns', description: 'Run brand awareness campaigns.', icon: faBullhorn },
-  { path: '/rebranding-services', title: 'Rebranding Services', description: 'Rebrand your business effectively.', icon: faSyncAlt },
-  { path: '/brand-research-and-analysis', title: 'Brand Research and Analysis', description: 'Conduct brand research and analysis.', icon: faChartPie },
-  { path: '/brand-tracking-and-performance-evaluation', title: 'Brand Tracking and Performance Evaluation', description: 'Track and evaluate brand performance.', icon: faChartLine },
-];
+   { path: '/brand-identity-design-exclusive', title: 'Brand Identity Design Exclusive', description: 'Exclusive brand identity design services.', icon: faGlobe },
+   { path: '/brand-logo-design', title: 'Brand Logo Design', description: 'Design a unique logo for your brand.', icon: faGlobe },
+   { path: '/brand-guidelines', title: 'Brand Guidelines', description: 'Create brand guidelines for consistency.', icon: faFileSignature },
+   { path: '/brand-positioning', title: 'Brand Positioning', description: 'Strategically position your brand.', icon: faMapMarker },
+   { path: '/brand-storytelling', title: 'Brand Storytelling', description: 'Craft compelling brand stories.', icon: faBookOpen },
+   { path: '/brand-naming', title: 'Brand Naming', description: 'Find the perfect name for your brand.', icon: faSignature },
+   { path: '/visual-identity-design', title: 'Visual Identity Design', description: 'Design a strong visual identity.', icon: faPalette },
+   { path: '/brand-messaging', title: 'Brand Messaging', description: 'Create effective brand messaging.', icon: faCommentAlt },
+   { path: '/brand-experience-design', title: 'Brand Experience Design', description: 'Enhance the brand experience.', icon: faHandHoldingHeart },
+   { path: '/brand-awareness-campaigns', title: 'Brand Awareness Campaigns', description: 'Run brand awareness campaigns.', icon: faBullhorn },
+   { path: '/rebranding-services', title: 'Rebranding Services', description: 'Rebrand your business effectively.', icon: faSyncAlt },
+   { path: '/brand-research-and-analysis', title: 'Brand Research and Analysis', description: 'Conduct brand research and analysis.', icon: faChartPie },
+   { path: '/brand-tracking-and-performance-evaluation', title: 'Brand Tracking and Performance Evaluation', description: 'Track and evaluate brand performance.', icon: faChartLine },
+  ];
 
 const advertisingLinks = [
   { path: '/display-advertising', title: 'Display Advertising', description: 'Effective display advertising solutions.', icon: faDesktop },
