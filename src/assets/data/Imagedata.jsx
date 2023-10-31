@@ -50,12 +50,14 @@ import crm_ermpannel from '../../assets/Icons/crm_ermpannel.svg'
 
 
 
+
+
 export {
 
   /*Home Page */
   HomeVideo,
 
-  
+
   /*Icons*/
   Advertising,Branding,DigitalMarketing,GraphicDesign,MobileAppDevelopment,WebDevelopment,SoftwareDeveloper,
   FixedPrice,OntimeDelivery,TimeManage,HiringModel,MoreFeatures,

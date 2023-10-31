@@ -106,18 +106,18 @@ const DigitalMarketing = () => {
         <div className="inline-block text-gray-900 mb-4">
           <img
             src={item.image}
-            className="w-40 ml-auto"
+            className="w-20 ml-auto"
             alt="illustration"
             loading="lazy"
-            width={900}
-            height={600}
+            width={50}
+            height={50}
           />
         </div>
         <h3 className="text-lg leading-normal mb-2 font-semibold text-black">
           {item.title}
         </h3>
         <Link to={item.slug}>
-          <button className="mt-5 text-xs sm:text-sm transform rounded bg-yellow-500 border border-slate-200 px-12 py-2 font-medium text-black transition-colors hover:bg-slate-50">
+        <button className="mt-5 text-xs sm:text-sm transform rounded bg-yellow-500 border border-slate-200 px-12 py-2 font-medium text-black transition-colors hover:bg-slate-50">
             {item.buttonText}
           </button>
         </Link>
