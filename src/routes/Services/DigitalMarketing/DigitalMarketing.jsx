@@ -134,19 +134,17 @@ const DigitalMarketing = () => {
 
 
 
-<section className="bg-gray-100 py-12 shadow-inner ">
+<section className="bg-yellow-500 py-12 shadow-inner ">
       <div className="container mx-auto p-4">
-        <h2 className="font-extrabold text-transparent text-4xl  py-2 md:text-5xl lg:text-8xl bg-clip-text bg-gradient-to-r text-center from-yellow-400 to-orange-600 mt-3 text-[2.5rem] md:text-[3rem] lg:text-[3.5rem] leading-[3.5rem] tracking-tight ">{GlobalData.company.companyName}</h2>
+        <h2 className="font-extrabold text-white text-4xl  py-2 md:text-5xl lg:text-8xl bg-clip-text bg-gradient-to-r text-center  mt-3 text-[2.5rem] md:text-[3rem] lg:text-[3.5rem] leading-[3.5rem] tracking-tight ">{GlobalData.company.companyName}</h2>
         <div className="text-center text-black">
         <span className='font-medium text-sm' >Get is touch</span>
           <p className="text-lg pt-2 space-x-2 ">
-          
-
-          <a href="tel:+918143407758" class=" bg-yellow-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded">Call Now</a>
-          <a className="bg-yellow-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded">
+          <a href="tel:+918143407758" class=" bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded">Call Now</a>
+          <a href="mailto:admin@cyberspacedigital.in" className="bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded">
                     Email
                   </a>
-                  <a className="bg-yellow-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded">
+                  <a href="https://api.whatsapp.com/send?phone=918143407758&text=Welcome%20to%20Cyberspacedigital" className="bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded">
                     WhatsApp
                   </a>
           </p>
