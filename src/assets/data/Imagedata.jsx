@@ -73,5 +73,5 @@ export {
 
     /*Mock-up Images */
     LabelAnuneniwhite,LabelAnunenipc,LaytonSkinWhite,LaytonSkinpc,Ilahewhite,Ilahepc,Arkwhite,Arkwhitepc,
-  }    
+  }    ;
  
