@@ -26,100 +26,114 @@ const GlobalData = {
   
   DigitalMarketingServices: [
     {
-      image: SearchEngineOptimization, // Replace with the actual image source
+      image: SearchEngineOptimization, 
       title: 'Search Engine Optimization',
+      subtitle: 'Optimize your website for search engines.',
       slug: '/search-engine-optimization',
       buttonText: 'Get Quotation',
     },
     
     {
-      image: ContentMarketing, // Replace with the actual image source
+      image: ContentMarketing, 
       title: 'Content Marketing',
+      subtitle: 'Create and distribute valuable content.',
       slug: '/content-marketing',
       buttonText: 'Get Quotation',
     },
     {
-      image: SocialMediaMarketing, // Replace with the actual image source
+      image: SocialMediaMarketing, 
       title: 'Social Media Marketing',
+      subtitle: 'Promote your brand on social platforms.',
       slug: '/social-media-marketing',
       buttonText: 'Get Quotation',
     },
     {
-      image: EmailMarketing, // Replace with the actual image source
+      image: EmailMarketing, 
       title: 'Email Marketing',
+      subtitle: 'Engage your audience with email campaigns.',
       slug: '/email-marketing',
       buttonText: 'Get Quotation',
     },
     {
-      image: PayPerClickAdvertising, // Replace with the actual image source
+      image: PayPerClickAdvertising, 
       title: 'Pay-Per Click Advertising',
+      subtitle: 'Drive traffic with targeted ads.',
       slug: '/pay-per-click-advertising',
       buttonText: 'Get Quotation',
     },
     {
-      image: affiliatemarketing, // Replace with the actual image source
+      image: affiliatemarketing, 
       title: 'Affiliate Marketing',
+      subtitle: 'Boost sales through affiliate programs.',
       slug: '/affiliate-marketing',
       buttonText: 'Get Quotation',
     },
     {
-      image: AnalyticsandDataAnalysis, // Replace with the actual image source
+      image: AnalyticsandDataAnalysis, 
       title: 'Analytics and Data Analysis',
+      subtitle: 'Gain insights from data for better strategies.',
       slug: '/analytics-and-data-analysis',
       buttonText: 'Get Quotation',
     },
     {
-      image: ConversionRateOptimization, // Replace with the actual image source
+      image: ConversionRateOptimization, 
       title: 'Conversion Rate Optimization',
+      subtitle: 'Improve website conversion rates.',
       slug: '/conversion-rate-optimization',
       buttonText: 'Get Quotation',
     },
     {
-      image: MobileMarketing, // Replace with the actual image source
+      image: MobileMarketing, 
       title: 'Mobile Marketing',
+      subtitle: 'Target users on mobile devices.',
       slug: '/mobile-marketing',
       buttonText: 'Get Quotation',
     },
     {
-      image: VideoMarketing, // Replace with the actual image source
+      image: VideoMarketing, 
       title: 'Video Marketing',
+      subtitle: 'Use videos for effective marketing.',
       slug: '/video-marketing',
       buttonText: 'Get Quotation',
     },
     {
-      image: LocalSEOandMarketing, // Replace with the actual image source
+      image: LocalSEOandMarketing, 
       title: 'Local SEO and Marketing',
+      subtitle: 'Enhance local online visibility.',
       slug: '/local-seo-and-marketing',
       buttonText: 'Get Quotation',
     },
     {
-      image: EcommerceMarketing, // Replace with the actual image source
+      image: EcommerceMarketing, 
       title: 'Ecommerce Marketing',
+      subtitle: 'Promote products in online stores.',
       slug: '/ecommerce-marketing',
       buttonText: 'Get Quotation',
     },
     {
-      image: MarketingAutomation, // Replace with the actual image source
+      image: MarketingAutomation, 
       title: 'Marketing Automation',
+      subtitle: 'Automate marketing tasks for efficiency.',
       slug: '/marketing-automation',
       buttonText: 'Get Quotation',
     },
     {
-      image: RemarketingandRetargeting, // Replace with the actual image source
+      image: RemarketingandRetargeting, 
       title: 'Remarketing and Retargeting',
+      subtitle: 'Re-engage potential customers.',
       slug: '/remarketing-retargeting',
       buttonText: 'Get Quotation',
     },
     {
-      image: InfluencerMarketing, // Replace with the actual image source
+      image: InfluencerMarketing, 
       title: 'Influencer Marketing',
+      subtitle: 'Collaborate with influencers for promotion.',
       slug: '/influencer-marketing',
       buttonText: 'Get Quotation',
-    },],
-  
-
-
+    },
+  ],
 };
+
 
 export { GlobalData ,affiliatemarketing,SearchEngineOptimization,
 ContentMarketing,

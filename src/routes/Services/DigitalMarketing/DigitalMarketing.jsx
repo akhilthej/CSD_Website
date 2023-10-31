@@ -83,13 +83,13 @@ const DigitalMarketing = () => {
     <div className="text-center mx-auto mb-12 lg:px-20">
 
     <p className="text-xl font-medium text-black">
-        Websites as your Business Need
+        Get global presents.
       </p>
       <h2 className="pb-2 font-extrabold text-transparent text-2xl md:text-5xl lg:text-6xl bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-600 ">
-        Build Your Web Office Online.
+        Reach Every Customer
       </h2>
       <p className="text-sm font-medium text-black">
-      "Every business requires a unique website to effectively reach its customers or clients. At Cyber Space Digital, we're here to help you discover the best choices tailored to your needs."
+      "In today's digital-driven world, businesses rely on digital marketing to expand their reach, engage with customers, and achieve success. It offers cost-effective strategies, real-time insights, and the ability to adapt to the ever-changing online landscape, making it an indispensable tool for modern businesses."
       </p></div></div>
     </section>
 
@@ -98,11 +98,11 @@ const DigitalMarketing = () => {
 <div className="flex flex-wrap flex-row -mx-4 text-center justify-center">
   {GlobalData.DigitalMarketingServices.map((item, index) => (
     <div
-      className="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/6 lg:px-6 "
+      className="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/6 lg:px-1 "
       data-wow-delay={`.${index}s`}
       key={index}
     >
-      <div className="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
+      <div className="py-8 px-5 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
         <div className="inline-block text-gray-900 mb-4">
           <img
             src={item.image}
@@ -116,6 +116,9 @@ const DigitalMarketing = () => {
         <h3 className="text-lg leading-normal mb-2 font-semibold text-black">
           {item.title}
         </h3>
+        <p className="text-gray-500 text-sm">
+        {item.subtitle}
+         </p>
         <Link to={item.slug}>
         <button className="mt-5 text-xs sm:text-sm transform rounded bg-yellow-500 border border-slate-200 px-12 py-2 font-medium text-black transition-colors hover:bg-slate-50">
             {item.buttonText}
@@ -131,26 +134,35 @@ const DigitalMarketing = () => {
 
 
 
-<section className="bg-gray-100 py-12">
+<section className="bg-gray-100 py-12 shadow-inner ">
       <div className="container mx-auto p-4">
         <h2 className="font-extrabold text-transparent text-4xl  py-2 md:text-5xl lg:text-8xl bg-clip-text bg-gradient-to-r text-center from-yellow-400 to-orange-600 mt-3 text-[2.5rem] md:text-[3rem] lg:text-[3.5rem] leading-[3.5rem] tracking-tight ">{GlobalData.company.companyName}</h2>
-        <div className="text-center text-gray-600">
-          <p className="text-lg mb-4">
-            <span className="text-xl font-semibold">Phone:</span> {GlobalData.company.companyPhone}<br />
-            <span className="text-xl font-semibold">Email:</span> {GlobalData.company.companyEmail}<br />
-            <span className="text-xl font-semibold">Address:</span> {GlobalData.company.companyAddress}
+        <div className="text-center text-black">
+        <span className='font-medium text-sm' >Get is touch</span>
+          <p className="text-lg pt-2 space-x-2 ">
+          
+
+          <a href="tel:+918143407758" class=" bg-yellow-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded">Call Now</a>
+          <a className="bg-yellow-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded">
+                    Email
+                  </a>
+                  <a className="bg-yellow-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded">
+                    WhatsApp
+                  </a>
           </p>
         </div>
       </div>
     </section>
 
+
+
 {/*Features */}
-     <section id="services" className="cursor-default section relative ">
+     <section className="cursor-default mt-10 section relative ">
   <div className="xl:max-w-8xl mx-auto px-4">
  {/* Heading for "Features" section */}
 
     <section className="text-center mx-auto mb-12 lg:px-20">
-      <h2 className="pb-2 font-extrabold text-transparent text-2xl md:text-5xl lg:text-6xl bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-600 ">
+      <h2 className="font-extrabold text-transparent text-2xl md:text-5xl lg:text-6xl bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-600 ">
       Additional Features With Each Plan
       </h2>
       <p className="text-sm font-medium text-black">
@@ -167,7 +179,7 @@ const DigitalMarketing = () => {
           animationDuration: "1s",
           animationName: "fadeInUp"
         }}>
-        <div className="py-8 px-12   transform transition duration-300 ease-in-out hover:-translate-y-2">
+        <div className="px-12   transform transition duration-300 ease-in-out hover:-translate-y-2">
           <div className="inline-block text-gray-900 ">
             <img
               src={FixedPrice}
@@ -197,7 +209,7 @@ const DigitalMarketing = () => {
           animationDelay: "0.1s",
           animationName: "fadeInUp"
         }}>
-        <div className="py-8 px-12   transform transition duration-300 ease-in-out hover:-translate-y-2">
+        <div className="px-12   transform transition duration-300 ease-in-out hover:-translate-y-2">
           <div className="inline-block text-gray-900">
             <img
               src={TimeManage}
@@ -227,7 +239,7 @@ const DigitalMarketing = () => {
           animationDelay: "0.3s",
           animationName: "fadeInUp"
         }}>
-        <div className="py-8 px-12   transform transition duration-300 ease-in-out hover:-translate-y-2">
+        <div className="px-12   transform transition duration-300 ease-in-out hover:-translate-y-2">
           <div className="inline-block text-gray-900 ">
             <img
               src={OntimeDelivery}
@@ -258,7 +270,7 @@ const DigitalMarketing = () => {
           animationDelay: "0.3s",
           animationName: "fadeInUp"
         }}>
-        <div className="py-8 px-12   transform transition duration-300 ease-in-out hover:-translate-y-2">
+        <div className="px-12   transform transition duration-300 ease-in-out hover:-translate-y-2">
           <div className="inline-block text-gray-900 ">
             <img
               src={HiringModel}
