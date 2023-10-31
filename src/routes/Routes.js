@@ -36,10 +36,10 @@ import {MobileAppDevelopment,
 
 
 /*Graphic Design */
-import {GraphicDesigning,LogoDesign,BrandIdentityDesign,PrintDesign,WebDesign,UserInterfaceDesign,UserExperienceDesign,PackagingDesign,
+import {MultiMedia,LogoDesign,BrandIdentityDesign,PrintDesign,WebDesign,UserInterfaceDesign,UserExperienceDesign,PackagingDesign,
     PosterandFlyerDesign,BrochureDesign,BannerDesign,IllustrationServices,InfographicDesign,SocialMediaGraphics,eBookandPrintBookCoverDesign,
     TshirtandMerchandiseDesign,SignageandBillboardDesign,BusinessCardandStationeryDesign,RenderingandVisualization,
-    MotionGraphicsandAnimation,PhotoEditingandRetouching,} from './Services/GraphicDesigning/routes_graphic';
+    MotionGraphicsandAnimation,PhotoEditingandRetouching,} from './Services/MultiMedia/routes_MultiMedia';
 
 /*Brand Services*/
 import {BrandServices,
@@ -78,7 +78,7 @@ DigitalMarketing,SearchEngineOptimization,ContentMarketing,SocialMediaMarketing,
     MobileMarketing,VideoMarketing,LocalSEOandMarketing,EcommerceMarketing,MarketingAutomation,RemarketingRetargeting,InfluencerMarketing,
 
     /*Graphic Designing */
-    GraphicDesigning,LogoDesign,BrandIdentityDesign,PrintDesign,WebDesign,UserInterfaceDesign,UserExperienceDesign,PackagingDesign,
+    MultiMedia,LogoDesign,BrandIdentityDesign,PrintDesign,WebDesign,UserInterfaceDesign,UserExperienceDesign,PackagingDesign,
     PosterandFlyerDesign,BrochureDesign,BannerDesign,IllustrationServices,InfographicDesign,SocialMediaGraphics,eBookandPrintBookCoverDesign,
     TshirtandMerchandiseDesign,SignageandBillboardDesign,BusinessCardandStationeryDesign,RenderingandVisualization,
     MotionGraphicsandAnimation,PhotoEditingandRetouching,

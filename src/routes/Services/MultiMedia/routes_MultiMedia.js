@@ -1,4 +1,4 @@
-import GraphicDesigning from './GraphicDesigning';
+import MultiMedia from './MultiMedia';
 
 
 import LogoDesign from './1_LogoDesign';
@@ -22,7 +22,7 @@ import RenderingandVisualization from './18_3DRenderingandVisualization.jsx.jsx'
 import MotionGraphicsandAnimation from './19_MotionGraphicsandAnimation.jsx.jsx';
 import PhotoEditingandRetouching from './20_PhotoEditingandRetouching';
 
-export {GraphicDesigning,
+export {MultiMedia,
     LogoDesign,
     BrandIdentityDesign,
     PrintDesign,

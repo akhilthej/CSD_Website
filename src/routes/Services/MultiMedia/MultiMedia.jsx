@@ -14,9 +14,9 @@ import {
 
   {/*Change here*/}
 
-  const AdvertisingServices = {
+  const MultiMediaServices = {
     section1: {
-      title: 'Advertising Company',
+      title: 'Graphic Designing',
       subtitle: '"Cyber Space Digital stands as a distinguished leader in the realm"',
     },
   }
@@ -24,21 +24,21 @@ import {
 
 
 
-const Advertising = () => {
+const MultiMedia = () => {
   return (
     <main>
-       <Helmet>
-        <title>Advertising Company Company in India | Advertising Company near me | Advertising Company Around Me</title>
+    <Helmet>
+        <title>Graphic Designing Company in India | Graphic Designers near me | Graphic Designers Around Me</title>
         <meta
           name="Description"
           content="Best website development company around you, at best prices."
         />
-        <link rel="canonical" href="" />
+        <link rel="canonical" href="https://cyberspacedigital.in/web-developement-company" />
       </Helmet>
 
 
  {/* Title Card */}
- <section className="py-10 sm:py-40" style={{ backgroundImage: 'url("https://drive.google.com/uc?id=1mboisCG0oJ4En5-iOFqt3ma0WLTb7Y6d")', backgroundSize: 'cover', backgroundPosition: 'center' }}>
+ <section className="py-10 sm:py-40" style={{ backgroundImage: 'url("https://drive.google.com/uc?id=14rC7T12fy5Kr7LKS0_f1PNGazeqGdu8Y")', backgroundSize: 'cover', backgroundPosition: 'center' }}>
   <div className="flex flex-col items-center md:flex-row justify-center">
     <div className="md:w-1/2 md:pr-10">
      
@@ -46,10 +46,10 @@ const Advertising = () => {
     <div className="md:w-1/2 px-5">
       <div className="text-right md:text-left"> {/* Align titles to the right on mobile, left on larger screens */}
         <h1 className="text-2xl pb-5 md:text-6xl fade-in-down font-extrabold text-center text-white tracking-tight">
-        {AdvertisingServices.section1.title}
+        {MultiMediaServices.section1.title}
         </h1>
         <p className="text-white sm:text-sm text-xs text-center sm:ml-0">
-        {AdvertisingServices.section1.subtitle}
+        {MultiMediaServices.section1.subtitle}
         </p>
 
         <div className="mt-8 flex flex-wrap justify-center gap-4">
@@ -96,7 +96,7 @@ const Advertising = () => {
 
 {/*Services */}
 <div className="flex flex-wrap flex-row -mx-4 text-center justify-center">
-  {GlobalData.DigitalMarketingServices.map((item, index) => (
+  {GlobalData.MultiMediaServices.map((item, index) => (
     <div
       className="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/6 lg:px-1 "
       data-wow-delay={`.${index}s`}
@@ -151,7 +151,6 @@ const Advertising = () => {
         </div>
       </div>
     </section>
-
 
 {/*Line of Engagement */}
 <section
@@ -335,4 +334,4 @@ const Advertising = () => {
   )
 }
 
-export default Advertising
+export default MultiMedia

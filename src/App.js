@@ -17,7 +17,7 @@ WebDevelopment,BusinessWebsite,EcommerceWebsite,WebRevap,CRMERP,
     MobileMarketing,VideoMarketing,LocalSEOandMarketing,EcommerceMarketing,MarketingAutomation,RemarketingRetargeting,InfluencerMarketing,
 
     /*Graphic Designing */
-    GraphicDesigning,LogoDesign,BrandIdentityDesign,PrintDesign,WebDesign,UserInterfaceDesign,UserExperienceDesign,PackagingDesign,
+    MultiMedia,LogoDesign,BrandIdentityDesign,PrintDesign,WebDesign,UserInterfaceDesign,UserExperienceDesign,PackagingDesign,
     PosterandFlyerDesign,BrochureDesign,BannerDesign,IllustrationServices,InfographicDesign,SocialMediaGraphics,eBookandPrintBookCoverDesign,
     TshirtandMerchandiseDesign,SignageandBillboardDesign,BusinessCardandStationeryDesign,RenderingandVisualization,
     MotionGraphicsandAnimation,PhotoEditingandRetouching,
@@ -98,10 +98,10 @@ const routes = [
         /*---------MobileAppDevelopment End---------*/
 
         /*---------Multimedia---------*/
-  { path: '/best-graphic-designing-company', element: <GraphicDesigning /> },
-  { path: '/graphic-designing-company-in-vizag', element: <GraphicDesigning /> },
-  { path: '/best-graphic-designing-in-vizag', element: <GraphicDesigning /> },
-  { path: '/best-poster-designing-company', element: <GraphicDesigning /> },
+  { path: '/best-graphic-designing-company', element: <MultiMedia /> },
+  { path: '/graphic-designing-company-in-vizag', element: <MultiMedia /> },
+  { path: '/best-graphic-designing-in-vizag', element: <MultiMedia /> },
+  { path: '/best-poster-designing-company', element: <MultiMedia /> },
 
   { path: '/logo-design', element: <LogoDesign /> },
   { path: '/logo-design-company-in-vizag', element: <LogoDesign /> },
@@ -124,7 +124,7 @@ const routes = [
   { path: '/rendering-and-visualization', element: <RenderingandVisualization /> },
   { path: '/motion-graphics-and-animation', element: <MotionGraphicsandAnimation /> },
   { path: '/photo-editing-and-retouching', element: <PhotoEditingandRetouching /> },
-        /*---------GraphicDesigning End---------*/
+        /*---------Multimedia End---------*/
 
         /*---------DigitalMarketing---------*/
   { path: '/best-digital-marketing-company', element: <DigitalMarketing /> },
