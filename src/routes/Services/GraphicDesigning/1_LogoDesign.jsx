@@ -13,12 +13,26 @@ import LogoPortfolioSlider from '../../../components/Sliders/LogoPortfolioSlider
 
 const LogoDesign = () => {
 
-  const sectionsData = {
+  const Generalinfo= {
+    companyname: 'Cyber Space Digital',
+    companyphone: '+91-81434-07758',
+    companyemail: 'admin@cyberspacedigital.in',
+    companyaddress: 'Visakhapatnam',
+
+    };
+
+  const LogoDesign = {
+ 
     section1: {
-      /* Title Card */
+      title: 'Logo Design',
+      subtitle: 'Create a Unique Identity for Your Brand',
+    },
+
+    section2: {
       title: 'Logo Design',
       subtitle: 'Create a Unique Identity for Your Brand',
     },}
+
 
   const faqData = [
     {
@@ -39,6 +53,15 @@ const LogoDesign = () => {
 
   ];
 
+
+
+
+
+
+
+
+
+
   return (
     <main>
     {/* Title Card */}
@@ -57,11 +80,11 @@ const LogoDesign = () => {
               {" "}
               {/* Align titles to the right on mobile, left on larger screens */}
               <h3 className="cursor-default  text-2xl pb-5 md:text-6xl fade-in-down font-extrabold text-center text-white tracking-tight">
-                {sectionsData.section1.title}
+                {LogoDesign.section1.title}
               
               </h3>
               <p className="cursor-default text-white sm:text-sm text-xs text-center sm:ml-0">
-                {sectionsData.section1.subtitle}
+                {LogoDesign.section1.subtitle}
               </p>
               <div className="mt-8 flex flex-wrap justify-center gap-4">
               <a href="mailto:admin@cyberspacedigital.in">
@@ -81,7 +104,7 @@ const LogoDesign = () => {
         </div>
       </section>
 
- {/* Subtitle section */}
+ {/* Subtitle section2 */}
   <section className="text-center mx-auto my-8">
           <h2 className="cursor-default pb-2 font-extrabold text-transparent text-2xl md:text-5xl lg:text-6xl bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-600 mt-3  tracking-tight ">
           Create the perfect logo for your business
