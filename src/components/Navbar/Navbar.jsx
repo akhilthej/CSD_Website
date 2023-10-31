@@ -1044,7 +1044,7 @@ const mobileappLinks = [
               </Menu>
             </li>
 
-            {/*mobile  menu */}
+{/*mobile  menu */}
             <li className="p-4 lg:hidden">
               <Menu as="div" className="relative inline-block text-left ">
                 <div>
