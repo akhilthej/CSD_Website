@@ -1,7 +1,6 @@
 import React from "react";
 import { Routes, Route, useLocation } from 'react-router-dom';
 import { Navbar, Footer, PrivacyPolicy, TermsnConditions, Disclaimer, ShippingandDelivery, ReturnPolicy, Error404, Home, Aboutus, Contactus, Services, Blogs, Clients, Reviews } from './routes/Routes';
-import NavbarMobile from './components/Navbar/NavbarMobile';
 import Notification from "./components/Tools/Notifications";
 
 import GoogleSignIn from './components/config/GoogleSignIn'
