@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.8e09088f.css",
-    "main.js": "/static/js/main.e84cd480.js",
+    "main.css": "/static/css/main.586c2732.css",
+    "main.js": "/static/js/main.1d9b4723.js",
     "static/media/homepage1.mp4": "/static/media/homepage1.3057c3e6533fc183f0f9.mp4",
     "static/media/LAN-001-white.png": "/static/media/LAN-001-white.4cd2dfdc96667fc57a19.png",
     "static/media/ARK-001-white.png": "/static/media/ARK-001-white.7552533bfc49040f3d2c.png",
@@ -14,13 +14,26 @@
     "static/media/HeroCoverBG.png": "/static/media/HeroCoverBG.d4a05e8db52361610406.png",
     "static/media/Subscribe.png": "/static/media/Subscribe.68f61a5d75abbc0d1333.png",
     "static/media/graphicsdesign.png": "/static/media/graphicsdesign.ac5cc1edae28e3741537.png",
+    "static/media/RemarketingandRetargeting.webp": "/static/media/RemarketingandRetargeting.bc6a7e1c6c04f4d484dd.webp",
+    "static/media/LocalSEOandMarketing.webp": "/static/media/LocalSEOandMarketing.91014b317b660a433687.webp",
     "static/media/Goodfirms_Logo.jpg": "/static/media/Goodfirms_Logo.67b2588943bf65154759.jpg",
+    "static/media/payperclick.webp": "/static/media/payperclick.754743ec196d226abd19.webp",
     "static/media/WebDevelopment.svg": "/static/media/WebDevelopment.7498a8f8a7c9ac93da93b85c614ad058.svg",
+    "static/media/socialmediamarketing.webp": "/static/media/socialmediamarketing.8f6aeabbfbd5a60de747.webp",
+    "static/media/affiliatemarketing.webp": "/static/media/affiliatemarketing.45a43bea73c866517e12.webp",
     "static/media/DigitalMarketing.svg": "/static/media/DigitalMarketing.e2cb248f9817e96e00ba82f270a8b150.svg",
     "static/media/HiringModel.svg": "/static/media/HiringModel.f6e30699722dba6df714c513872f7257.svg",
+    "static/media/contentmarketing.webp": "/static/media/contentmarketing.fea2abbae3693d0ce387.webp",
     "static/media/GraphicDesign.svg": "/static/media/GraphicDesign.1b4fc031ef09c90bcde1e15911784dc8.svg",
+    "static/media/mobilemarketing.webp": "/static/media/mobilemarketing.173d373a2fa62d1500e8.webp",
+    "static/media/influencer.webp": "/static/media/influencer.58b77d3a1e8d0331f754.webp",
+    "static/media/analysisanddata.webp": "/static/media/analysisanddata.bf279801dc99e74c875f.webp",
+    "static/media/conversionrateoptimization.webp": "/static/media/conversionrateoptimization.4886cf2f743707a3dc37.webp",
+    "static/media/MarketingAutomation.webp": "/static/media/MarketingAutomation.b1c968d791f2e300187f.webp",
     "static/media/GoogleloginIcon.png": "/static/media/GoogleloginIcon.b11509810d79c09cb33a.png",
+    "static/media/emailmarketing.webp": "/static/media/emailmarketing.6a6253d884d6625009f6.webp",
     "static/media/FixedPrice.svg": "/static/media/FixedPrice.28f3732c125aec9aa6e960d037be5a30.svg",
+    "static/media/searchengineoptimization.webp": "/static/media/searchengineoptimization.be31235f9be9f45ae6d6.webp",
     "static/media/TimeManage.svg": "/static/media/TimeManage.3e99c658b279ce1fbc7c12000fcc9d6a.svg",
     "static/media/MoreFeatures.svg": "/static/media/MoreFeatures.dda48b4c4703262df1c5e1e26cdd16cb.svg",
     "static/media/businesswebsite.svg": "/static/media/businesswebsite.2e88359ab3cbde251668b80cb1cfbb0d.svg",
@@ -31,8 +44,10 @@
     "static/media/Advertising.svg": "/static/media/Advertising.42233020f646b0d8b44ca8d7fa92ac57.svg",
     "static/media/ecommercewebsite.svg": "/static/media/ecommercewebsite.b0a1117b91f58cdbefffbd17939f9a32.svg",
     "static/media/SoftwareDeveloper.svg": "/static/media/SoftwareDeveloper.7aa91a6ff18b5a02526967bdfd98443e.svg",
+    "static/media/EcommerceMarketing.webp": "/static/media/EcommerceMarketing.63b63997b325792de0b7.webp",
     "static/media/crm_ermpannel.svg": "/static/media/crm_ermpannel.c9a188ec3cdbbeefcd7f3432bffece32.svg",
     "static/media/CSDLogo.svg": "/static/media/CSDLogo.041d66dee62439cf6ddd948fb2b3b8b0.svg",
+    "static/media/videomarketing.webp": "/static/media/videomarketing.16b5b34b446799534846.webp",
     "static/media/OntimeDelivery.svg": "/static/media/OntimeDelivery.2d9b87e51310b6c48d381d9335011a5a.svg",
     "static/media/csdv2Logofooter.svg": "/static/media/csdv2Logofooter.fd1b0a495973bc9e3a9d8b4c42fed61b.svg",
     "static/media/csdv2Logonavbar.svg": "/static/media/csdv2Logonavbar.3fa8f66adfcfef202819dc65c9504133.svg",
@@ -42,11 +57,11 @@
     "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
-    "main.8e09088f.css.map": "/static/css/main.8e09088f.css.map",
-    "main.e84cd480.js.map": "/static/js/main.e84cd480.js.map"
+    "main.586c2732.css.map": "/static/css/main.586c2732.css.map",
+    "main.1d9b4723.js.map": "/static/js/main.1d9b4723.js.map"
   },
   "entrypoints": [
-    "static/css/main.8e09088f.css",
-    "static/js/main.e84cd480.js"
+    "static/css/main.586c2732.css",
+    "static/js/main.1d9b4723.js"
   ]
 }
