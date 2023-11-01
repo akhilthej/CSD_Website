@@ -1090,92 +1090,140 @@ const mobileappLinks = [
               leaveFrom="transform opacity-100 scale-100"
               leaveTo="transform opacity-0 scale-95"
             >
-              <Menu.Items className="origin-top-right text-center fixed right-0  w-screen rounded-md shadow-lg bg-gray-400 divide-y divide-gray-400 focus:outline-none z-50">
-                <Menu.Item>
-                  {({ active }) => (
-                    <Link to="/digital-marketing">
-                      <a
-                        className={classNames(
-                          active ? "bg-yellow-500 text-white" : "text-black",
-                          "block py-2 text-sm"
-                        )}
-                      >
-                        Digital Marketing
-                      </a>
-                    </Link>
-                  )}
-                </Menu.Item>
-                <Menu.Item>
-                  {({ active }) => (
-                    <Link to="/advertisements">
-                      <a
-                        className={classNames(
-                          active ? "bg-yellow-500 text-white" : "text-black",
-                          "block px-4 py-2 text-sm"
-                        )}
-                      >
-                        Web Development
-                      </a>
-                    </Link>
-                  )}
-                </Menu.Item>
-                <Menu.Item>
-                  {({ active }) => (
-                    <Link to="/advertisements">
-                      <a
-                        className={classNames(
-                          active ? "bg-yellow-500 text-white" : "text-black",
-                          "block px-4 py-2 text-sm"
-                        )}
-                      >
-                        MultiMedia
-                      </a>
-                    </Link>
-                  )}
-                </Menu.Item>
-                <Menu.Item>
-                  {({ active }) => (
-                    <Link to="/advertisements">
-                      <a
-                        className={classNames(
-                          active ? "bg-yellow-500 text-white" : "text-black",
-                          "block px-4 py-2 text-sm"
-                        )}
-                      >
-                        Branding
-                      </a>
-                    </Link>
-                  )}
-                </Menu.Item>
-                <Menu.Item>
-                  {({ active }) => (
-                    <Link to="/advertisements">
-                      <a
-                        className={classNames(
-                          active ? "bg-yellow-500 text-white" : "text-black",
-                          "block px-4 py-2 text-sm"
-                        )}
-                      >
-                        Advertisements
-                      </a>
-                    </Link>
-                  )}
-                </Menu.Item>
-                <Menu.Item>
-                  {({ active }) => (
-                    <Link to="/advertisements">
-                      <a
-                        className={classNames(
-                          active ? "bg-yellow-500 text-white" : "text-black",
-                          "block px-4 py-2 text-sm"
-                        )}
-                      >
-                        MobileApp Development
-                      </a>
-                    </Link>
-                  )}
-                </Menu.Item>
-              </Menu.Items>
+            
+            <Menu.Items className="origin-top-right text-center fixed right-0 w-screen sm:w-56 sm:h-auto sm:rounded-md shadow-lg bg-gray-400 ring-black ring-opacity-5 divide-y divide-gray-400 focus:outline-none z-50">
+  <div className="flex flex-wrap">
+    {/* Left Column */}
+    <div className="w-1/2">
+      <Menu.Item>
+        {({ active }) => (
+          <Link to="/best-digital-marketing-company">
+            <a
+              className={classNames(
+                active ? " text-white" : "text-white font-bold",
+                "block py-10 text-sm " 
+              )} style={{
+          backgroundImage:
+            'url("https://drive.google.com/uc?id=1rwFsa4DIUEC04TDMp_8iQMxgSTGyEn9m")',
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}>
+              Digital Marketing
+            </a>
+          </Link>
+        )}
+      </Menu.Item>
+      <Menu.Item>
+        {({ active }) => (
+          <Link to="/best-web-developement-company">
+          <a
+              className={classNames(
+                active ? " text-white" : "text-white font-bold",
+                "block py-10 text-sm " 
+              )} style={{
+          backgroundImage:
+            'url("https://drive.google.com/uc?id=1YOJ-Sjp3oiidK-JivRLm10UzunYuryOg")',
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}>
+              Web Development
+            </a>
+          </Link>
+        )}
+      </Menu.Item>
+      <Menu.Item>
+        {({ active }) => (
+          <Link to="/best-graphic-designing-company">
+          <a
+              className={classNames(
+                active ? " text-white" : "text-white font-bold",
+                "block py-10 text-sm " 
+              )} style={{
+          backgroundImage:
+            'url("https://drive.google.com/uc?id=14rC7T12fy5Kr7LKS0_f1PNGazeqGdu8Y")',
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}>
+              MultiMedia
+            </a>
+          </Link>
+        )}
+      </Menu.Item>
+    </div>
+    
+    {/* Right Column */}
+    <div className="w-1/2">
+      <Menu.Item>
+        {({ active }) => (
+          <Link to="/best-brand-services-company">
+          <a
+              className={classNames(
+                active ? " text-white" : "text-white font-bold",
+                "block py-10 text-sm " 
+              )} style={{
+          backgroundImage:
+            'url("https://drive.google.com/uc?id=1QK8qr84IZRLXiFvrWz7kVrqHpjq_7Ms9")',
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}>
+              Branding
+            </a>
+          </Link>
+        )}
+      </Menu.Item>
+      <Menu.Item>
+        {({ active }) => (
+          <Link to="/best-advertising-company">
+          <a
+              className={classNames(
+                active ? " text-white" : "text-white font-bold",
+                "block py-10 text-sm " 
+              )} style={{
+          backgroundImage:
+            'url("https://drive.google.com/uc?id=1mboisCG0oJ4En5-iOFqt3ma0WLTb7Y6d")',
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}>
+              Advertisements
+            </a>
+          </Link>
+        )}
+      </Menu.Item>
+      <Menu.Item>
+        {({ active }) => (
+          <Link to="/best-mobile-app-development-company">
+          <a
+              className={classNames(
+                active ? " text-white" : "text-white font-bold",
+                "block py-10 text-sm " 
+              )} style={{
+          backgroundImage:
+            'url("https://drive.google.com/uc?id=1E3eQlScwaZ2DGrZPqN5Ve7qaixUaCKRc")',
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}>
+              Mobile App
+            </a>
+          </Link>
+        )}
+      </Menu.Item>
+    </div>
+  </div>
+  <Menu.Item>
+        {({ active }) => (
+          <Link to="/services">
+          <a
+              className={classNames(
+                active ? "  text-blue-700 bg-gray-500 " : "text-blue-700 bg-gray-300",
+                "block py-2 text-xs " 
+              )} >
+              VIEW ALL SERVICES ➤
+            </a>
+          </Link>
+        )}
+      </Menu.Item>
+</Menu.Items>
+
             </Transition>
           </Menu>
           
