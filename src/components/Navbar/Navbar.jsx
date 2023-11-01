@@ -28,12 +28,22 @@ function classNames(...classes) {
 
 const Navbar = () => {
 
+  const NavImages = {
+    
+      link1: 'https://drive.google.com/uc?id=17CKOf3456AJ6ZjKhbaLuKGziUWrTUrAG',
+      link2: 'https://drive.google.com/uc?id=17CKOf3456AJ6ZjKhbaLuKGziUWrTUrAG',
+      link3: 'https://drive.google.com/uc?id=17CKOf3456AJ6ZjKhbaLuKGziUWrTUrAG',
+      link4: 'https://drive.google.com/uc?id=17CKOf3456AJ6ZjKhbaLuKGziUWrTUrAG',
+      link5: 'https://drive.google.com/uc?id=17CKOf3456AJ6ZjKhbaLuKGziUWrTUrAG',
+
+  }
+
   const webDevelopmentLinks = [
     { path: '/build-business-website', title: 'Business Websites', description: 'Our business website solutions are designed to drive growth, enhance visibility, and boost profitability in the digital landscape.', icon: faBuilding },
     { path: '/build-ecommerce-website', title: 'E-commerce', description: 'Elevate your online retail with our bespoke e-commerce solutions. Boost sales, engage customers, and thrive online.', icon: faCartShopping },
     { path: '/customize-your-website', title: 'Web Revamp', description: 'Transform and modernize your existing website with our web revamp services. Stay ahead and impress your audience.', icon: faGlobe },
     { path: '/control-center-for-business', title: 'CRM/ERP Panels', description: 'Enhance business operations with our CRM/ERM panels. Streamline processes, manage data, and boost productivity effectively.', icon: faColumns },
-    // Add more links here with their respective paths, titles, descriptions, and icons
+    
   ];
   
 
@@ -227,11 +237,8 @@ const mobileappLinks = [
 
         <div className="w-1/3 p-4">
           {/* Place your image and additional content here */}
-          <img
-            className="w-auto h-[10rem]"
-            src="https://drive.google.com/uc?id=17CKOf3456AJ6ZjKhbaLuKGziUWrTUrAG"
-            alt=""
-          />
+          <img className="w-[30rem] h-[10rem] object-cover"
+            src={NavImages.link1} alt="" />
           <Link to="/services">
             <h2 className="text-blue-600 hover:text-blue-900 cursor-pointer pt-1 text-xs">
               Services ➤
@@ -365,9 +372,8 @@ const mobileappLinks = [
         
         <div className="Column w-1/4 p-4">
           {/* Place your image and additional content here */}
-          <img
-            className="w-auto h-[10rem]"
-            src="https://drive.google.com/uc?id=17CKOf3456AJ6ZjKhbaLuKGziUWrTUrAG"
+          <img  className="w-[30rem] h-[15rem] object-cover"
+            src={NavImages.link2}
             alt=""
           />
           <Link to="/services">
@@ -649,9 +655,8 @@ const mobileappLinks = [
         
         <div className="Column w-1/4 p-4">
           {/* Place your image and additional content here */}
-          <img
-            className="w-auto h-[10rem]"
-            src="https://drive.google.com/uc?id=17CKOf3456AJ6ZjKhbaLuKGziUWrTUrAG"
+          <img className="w-[30rem] h-[15rem] object-cover"
+            src={NavImages.link3}
             alt=""
           />
           <Link to="/services">
@@ -785,9 +790,8 @@ const mobileappLinks = [
 
         <div className="w-1/4 p-4">
           {/* Place your image and additional content here */}
-          <img
-            className="w-auto h-[10rem]"
-            src="https://drive.google.com/uc?id=17CKOf3456AJ6ZjKhbaLuKGziUWrTUrAG"
+          <img className="w-[30rem] h-[15rem] object-cover"
+            src={NavImages.link4}
             alt=""
           />
           <Link to="/services">
@@ -921,9 +925,8 @@ const mobileappLinks = [
 
         <div className="w-1/4 p-4">
           {/* Place your image and additional content here */}
-          <img
-            className="w-auto h-[10rem]"
-            src="https://drive.google.com/uc?id=17CKOf3456AJ6ZjKhbaLuKGziUWrTUrAG"
+          <img className="w-[30rem] h-[15rem] object-cover"
+            src={NavImages.link5}
             alt=""
           />
           <Link to="/services">
