@@ -1048,130 +1048,134 @@ const mobileappLinks = [
             </li>
 
 {/*mobile  menu */}
-            <li className="p-4 lg:hidden">
-              <Menu as="div" className="relative inline-block text-left ">
-                <div>
-                  <Menu.Button className=" text-3xl">☰</Menu.Button>
-                </div>
+<li className="p-4 lg:hidden">
+  <Menu as="div" className="relative inline-block text-left">
+    <div>
+      <Menu.Button className="text-3xl">☰</Menu.Button>
+    </div>
 
-                <Transition
-                  as={Fragment}
-                  enter="transition ease-out duration-100"
-                  enterFrom="transform opacity-0 scale-95"
-                  enterTo="transform opacity-100 scale-100"
-                  leave="transition ease-in duration-75"
-                  leaveFrom="transform opacity-100 scale-100"
-                  leaveTo="transform opacity-0 scale-95"
+    <Transition
+      as={Fragment}
+      enter="transition ease-out duration-100"
+      enterFrom="transform opacity-0 scale-95"
+      enterTo="transform opacity-100 scale-100"
+      leave="transition ease-in duration-75"
+      leaveFrom="transform opacity-100 scale-100"
+      leaveTo="transform opacity-0 scale-95"
+    >
+      <Menu.Items className="text-center origin-top-right fixed sm:absolute right-0 mt-4 w-screen sm:w-56 h-screen sm:h-auto sm:rounded-md shadow-lg bg-gray-300 ring-black ring-opacity-5 divide-y divide-gray-400 z-50">
+        <div className="py-1">
+        <Menu as="div" className="relative inline-block text-left">
+            <div>
+              <Menu.Button className="text-black hover:bg-yellow-500 px-4 py-2 text-sm w-full text-left">
+                Services
+              </Menu.Button>
+            </div>
+            <Transition
+              as={Fragment}
+              enter="transition ease-out duration-100"
+              enterFrom="transform opacity-0 scale-95"
+              enterTo="transform opacity-100 scale-100"
+              leave="transition ease-in duration-75"
+              leaveFrom="transform opacity-100 scale-100"
+              leaveTo="transform opacity-0 scale-95"
+            >
+              <Menu.Items className=" rounded-md origin-top-right absolute right-0 mt-0 w-48 py-2 sm:w-56 sm:rounded-md shadow-lg bg-gray-300 divide-y divide-gray-400 focus:outline-none z-50">
+                <Menu.Item>
+                  {({ active }) => (
+                    <Link to="/digital-marketing">
+                      <a
+                        className={classNames(
+                          active ? "bg-yellow-500 text-white" : "text-black",
+                          "block px-4 py-2 text-sm"
+                        )}
+                      >
+                        Digital Marketing
+                      </a>
+                    </Link>
+                  )}
+                </Menu.Item>
+                <Menu.Item>
+                  {({ active }) => (
+                    <Link to="/advertisements">
+                      <a
+                        className={classNames(
+                          active ? "bg-yellow-500 text-white" : "text-black",
+                          "block px-4 py-2 text-sm"
+                        )}
+                      >
+                        Advertisements
+                      </a>
+                    </Link>
+                  )}
+                </Menu.Item>
+              </Menu.Items>
+            </Transition>
+          </Menu>
+          
+          <Menu.Item>
+            {({ active }) => (
+              <Link to="/blogs">
+                <a
+                  className={classNames(
+                    active ? "bg-yellow-500 text-white" : "text-black",
+                    "block px-4 py-2 text-sm"
+                  )}
                 >
-                  <Menu.Items className="text-center origin-top-right fixed sm:absolute right-0 mt-4 w-screen sm:w-56 h-screen sm:h-auto  sm:rounded-md  shadow-lg bg-gray-300  ring-black ring-opacity-5 divide-y divide-gray-400 z-50">
-                    <div className="py-1  ">
-                      <Menu.Item>
-                        {({ active }) => (
-                          <Link to="/services">
-                            <a
-                              className={classNames(
-                                active
-                                  ? "bg-yellow-500 text-white"
-                                  : "text-black",
-                                "block px-4 py-2 text-sm"
-                              )}
-                            >
-                              Services
-                            </a>
-                          </Link>
-                        )}
-                      </Menu.Item>
+                  Blogs
+                </a>
+              </Link>
+            )}
+          </Menu.Item>
+          <Menu.Item>
+            {({ active }) => (
+              <Link to="/reviews">
+                <a
+                  className={classNames(
+                    active ? "bg-yellow-500 text-white" : "text-black",
+                    "block px-4 py-2 text-sm"
+                  )}
+                >
+                  Reviews
+                </a>
+              </Link>
+            )}
+          </Menu.Item>
+          <Menu.Item>
+            {({ active }) => (
+              <Link to="/aboutus">
+                <a
+                  className={classNames(
+                    active ? "bg-yellow-500 text-white" : "text-black",
+                    "block px-4 py-2 text-sm"
+                  )}
+                >
+                  About us
+                </a>
+              </Link>
+            )}
+          </Menu.Item>
+          <Menu.Item>
+            {({ active }) => (
+              <Link to="/contactus">
+                <a
+                  className={classNames(
+                    active ? "bg-yellow-500 text-white" : "text-black",
+                    "block px-4 py-2 text-sm"
+                  )}
+                >
+                  Contact us
+                </a>
+              </Link>
+            )}
+          </Menu.Item>
+          
+        </div>
+      </Menu.Items>
+    </Transition>
+  </Menu>
+</li>
 
-                      <Menu.Item>
-                        {({ active }) => (
-                          <Link to="/clients">
-                            <a
-                              className={classNames(
-                                active
-                                  ? "bg-yellow-500 text-white"
-                                  : "text-black",
-                                "block px-4 py-2 text-sm"
-                              )}
-                            >
-                              Clients
-                            </a>
-                          </Link>
-                        )}
-                      </Menu.Item>
-                    </div>
-
-                    <Menu.Item>
-                      {({ active }) => (
-                        <Link to="/blogs">
-                          <a
-                            className={classNames(
-                              active
-                                ? "bg-yellow-500 text-white"
-                                : "text-black",
-                              "block px-4 py-2 text-sm"
-                            )}
-                          >
-                            Blogs
-                          </a>
-                        </Link>
-                      )}
-                    </Menu.Item>
-                    <Menu.Item>
-                      {({ active }) => (
-                        <Link to="/reviews">
-                          <a
-                            className={classNames(
-                              active
-                                ? "bg-yellow-500 text-white"
-                                : "text-black",
-                              "block px-4 py-2 text-sm"
-                            )}
-                          >
-                            Reviews
-                          </a>
-                        </Link>
-                      )}
-                    </Menu.Item>
-
-                    <div className="py-1  ">
-                      <Menu.Item>
-                        {({ active }) => (
-                          <Link to="/aboutus">
-                            <a
-                              className={classNames(
-                                active
-                                  ? "bg-yellow-500 text-white"
-                                  : "text-black",
-                                "block px-4 py-2 text-sm"
-                              )}
-                            >
-                              About us
-                            </a>
-                          </Link>
-                        )}
-                      </Menu.Item>
-
-                      <Menu.Item>
-                        {({ active }) => (
-                          <Link to="/contactus">
-                            <a
-                              className={classNames(
-                                active
-                                  ? "bg-yellow-500 text-white"
-                                  : "text-black",
-                                "block px-4 py-2 text-sm"
-                              )}
-                            >
-                              Contact us
-                            </a>
-                          </Link>
-                        )}
-                      </Menu.Item>
-                    </div>
-                  </Menu.Items>
-                </Transition>
-              </Menu>
-            </li>
           </ul>
         </div>
       </div>
