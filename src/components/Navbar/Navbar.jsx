@@ -18,7 +18,13 @@ faWrench,
 faShieldAlt,
 faDollarSign,
 faShoppingBag,
+
 } from "@fortawesome/free-solid-svg-icons";
+import {
+  faFacebook,
+  faInstagram,
+  faLinkedin,
+} from "@fortawesome/free-brands-svg-icons";
 
 import NavbarLogo from "./csdv2Logonavbar.svg";
 
@@ -1068,7 +1074,7 @@ const mobileappLinks = [
       leaveTo="transform opacity-0 scale-95"
     >
       <Menu.Items className="text-center origin-top-right fixed sm:absolute right-0 mt-4 w-screen sm:w-56 h-screen sm:h-auto sm:rounded-md shadow-lg bg-gray-300 ring-black ring-opacity-5 divide-y divide-gray-400 z-50">
-        <div className="py-1">
+        <div>
         <Menu as="div" className="relative inline-block text-left">
             <div>
               <Menu.Button className="text-black text-center hover:bg-yellow-500 px-20 py-2 text-sm w-screen ">
@@ -1243,13 +1249,32 @@ const mobileappLinks = [
               </Link>
             )}
           </Menu.Item>
-          
+    
+    <div className="social-media-icons space-x-2  text-center object-center">
+    <div>
+    <span className="text-xs text-center ">SOCIAL</span>
+    </div>
+    <a href="https://www.facebook.com/your-facebook-page">
+    <FontAwesomeIcon icon={faFacebook} />
+    </a>
+    <a href="https://www.instagram.com/your-instagram-profile">
+    <FontAwesomeIcon icon={faInstagram} />
+    </a>
+    <a href="https://wwwlinkedin.com/in/your-linkedin-profile">
+    <FontAwesomeIcon icon={faLinkedin} />
+     </a>
+     <div className=" bottom-0 text-center w-full p-4 text-xs text-gray-500">
+      Copyright &copy; 2023 CyberSpaceDigital
+    </div>
+    </div>
+        
         </div>
       </Menu.Items>
+      
     </Transition>
   </Menu>
 </li>
-
+ 
           </ul>
         </div>
       </div>
