@@ -1092,8 +1092,8 @@ const mobileappLinks = [
             >
             
             <Menu.Items className="origin-top-right text-center fixed right-0 w-screen sm:w-56 sm:h-auto sm:rounded-md shadow-lg bg-gray-400 ring-black ring-opacity-5 divide-y divide-gray-400 focus:outline-none z-50">
-  <div className="flex flex-wrap">
-    {/* Left Column */}
+       <div className="flex flex-wrap">
+     {/* Left Column */}
     <div className="w-1/2">
       <Menu.Item>
         {({ active }) => (
