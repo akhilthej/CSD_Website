@@ -1,4 +1,4 @@
-import React, { Fragment, useState } from "react";
+import { Fragment, useState,useEffect  } from "react";
 import { Link } from "react-router-dom";
 import { Menu, Transition } from "@headlessui/react";
 
@@ -34,8 +34,14 @@ function classNames(...classes) {
 }
 
 const Navbar = () => {
-  const [menuOpen, setMenuOpen] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  useEffect(() => {
+    if (isMenuOpen) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = 'visible';
+    }
+  }, [isMenuOpen]);
 
   const NavImages = {
     
@@ -141,7 +147,7 @@ const mobileappLinks = [
 ];
 
 
-  return (
+return (
     <section class="sticky top-0 z-50 bg-white/90 drop-shadow-lg  ">
       <div className=" sm:px-2 w-full h-17 flex justify-between items-center text-black ">
         <Link to="/">
@@ -259,8 +265,6 @@ const mobileappLinks = [
     </Menu.Items>
   </Transition>
 </Menu>
-
-
 
 {/* Digital Marketing */}
 <Menu as="div" className="relative inline-block text-left">
@@ -397,7 +401,6 @@ const mobileappLinks = [
     </Menu.Items>
   </Transition>
 </Menu>
-
 
 {/*Multimedia */}
 <Menu as="div" className="relative inline-block text-left">
@@ -680,7 +683,6 @@ const mobileappLinks = [
     </Menu.Items>
   </Transition>
 </Menu>
-
             
 {/*Advertising */}
 <Menu as="div" className="relative inline-block text-left">
@@ -815,8 +817,6 @@ const mobileappLinks = [
   </Transition>
 </Menu>
 
-
-
 {/*Mobileapp */}
 <Menu as="div" className="relative inline-block text-left">
   <div>
@@ -950,6 +950,7 @@ const mobileappLinks = [
   </Transition>
 </Menu>
 
+{/*handburger menu */}
             <li className="p-4 hidden lg:block">
               <Menu as="div" className="relative inline-block text-left ">
                 <div>
@@ -1056,8 +1057,10 @@ const mobileappLinks = [
               </Menu>
             </li>
 
+
+
 {/*mobile  menu */}
-<li className="p-4 lg:hidden">
+<li className="p-4 md:hidden">
       <Menu as="div" className="relative inline-block text-left">
         <div>
           <Menu.Button className="text-3xl" onClick={() => setIsMenuOpen(!isMenuOpen)} >
@@ -1077,9 +1080,9 @@ const mobileappLinks = [
         >
       <Menu.Items className="text-center origin-top-right fixed sm:absolute right-0 mt-4 w-screen sm:w-56 h-screen sm:h-auto sm:rounded-md shadow-lg bg-gray-300 ring-black ring-opacity-5 divide-y divide-gray-400 z-50">
         <div>
-        <Menu as="div" className="relative inline-block text-left">
+        <Menu as="div" className="relative inline-block ">
             <div>
-              <Menu.Button className="text-black text-center hover:bg-yellow-500 px-20 py-2 text-sm w-screen ">
+              <Menu.Button className="text-black text-center hover:bg-yellow-500 px-20 py-2 text-sm md:w-screen  ">
                 Services
               </Menu.Button>
             </div>
