@@ -51,8 +51,7 @@ const ServicesTab = () => {
                           Web Development
                         </h5>
                         <p className="text-sm text-black">
-                          Web development is the work involved in developing a
-                          website for the Internet.
+                          Web development for the Internet.
                         </p>
                       </div>
                       <a className="flex justify-between items-center group-hover:text-white">
@@ -81,8 +80,7 @@ const ServicesTab = () => {
                           Mobile App Development
                         </h5>
                         <p className="text-sm text-black">
-                          The process of creating software applications that run
-                          on a mobile device.
+                          Software applications for mobile devices.
                         </p>
                       </div>
                       <a className="flex justify-between items-center group-hover:text-white">
@@ -111,10 +109,7 @@ const ServicesTab = () => {
                           Digital Marketing
                         </h5>
                         <p className="text-sm text-black">
-                          Marketing has always been about connecting with your
-                          audience in the right place and at the right time.
-                          Today, that means you need to meet them where they are
-                          already spending time: on the internet.
+                          Connect with your audience effectively on the internet.
                         </p>
                       </div>
                       <a className="flex justify-between items-center group-hover:text-white">
@@ -126,110 +121,100 @@ const ServicesTab = () => {
                     </div>
                   </div>
                 </Link>
-                 {/* Graphic Design */}
-              <Link to="/best-graphic-designing-company">
-                <div className="relative group transition hover:z-[1] hover:shadow-2xl lg:hidden xl:block">
-                  <div className="relative p-8 space-y-8 border-dashed rounded-lg transition duration-300 group-hover:bg-yellow-500 group-hover:border group-hover:scale-90">
-                    <img
-                      src={GraphicDesign}
-                      className="w-2/3 ml-auto"
-                      alt="GraphicDesign"
-                      loading="lazy"
-                      width={900}
-                      height={600}
-                    />
-                    <div className="space-y-2">
-                      <h5 className="text-xl text-black font-medium transition group-hover:text-white">
-                        Multi Media
-                      </h5>
-                      <p className="text-sm text-black">
-                        The art of conveying messages and ideas through creative
-                        visuals and layouts, combining aesthetics with effective
-                        communication.
-                      </p>
+                {/* Graphic Design */}
+                <Link to="/best-graphic-designing-company">
+                  <div className="relative group transition hover:z-[1] hover:shadow-2xl lg:hidden xl:block">
+                    <div className="relative p-8 space-y-8 border-dashed rounded-lg transition duration-300 group-hover:bg-yellow-500 group-hover:border group-hover:scale-90">
+                      <img
+                        src={GraphicDesign}
+                        className="w-2/3 ml-auto"
+                        alt="GraphicDesign"
+                        loading="lazy"
+                        width={900}
+                        height={600}
+                      />
+                      <div className="space-y-2">
+                        <h5 className="text-xl text-black font-medium transition group-hover:text-white">
+                          Graphic Design
+                        </h5>
+                        <p className="text-sm text-black">
+                          Convey messages through creative visuals and layouts.
+                        </p>
+                      </div>
+                      <a className="flex justify-between items-center group-hover:text-white">
+                        <span className="text-sm bg-yellow-400 py-2 px-2 rounded">Read more</span>
+                        <span className="-translate-x-4 opacity-0 text-2xl transition duration-300 group-hover:opacity-100 group-hover:translate-x-0">
+                          →
+                        </span>
+                      </a>
                     </div>
-                    <a className="flex justify-between items-center group-hover:text-white">
-                      <span className="text-sm bg-yellow-400 py-2 px-2 rounded">Read more</span>
-                      <span className="-translate-x-4 opacity-0 text-2xl transition duration-300 group-hover:opacity-100 group-hover:translate-x-0">
-                        →
-                      </span>
-                    </a>
                   </div>
-                </div>
-              </Link>
+                </Link>
 
-              {/* Brand Services */}
-              <Link to="/best-brand-services-company">
-                <div className="relative group transition hover:z-[1] hover:shadow-2xl lg:hidden xl:block">
-                  <div className="relative p-8 space-y-8 border-dashed rounded-lg transition duration-300 group-hover:bg-yellow-500 group-hover:border group-hover:scale-90">
-                    <img
-                      src={Branding}
-                      className="w-2/3 ml-auto"
-                      alt="Branding"
-                      loading="lazy"
-                      width={900}
-                      height={600}
-                    />
-                    <div className="space-y-2">
-                      <h5 className="text-xl text-black font-medium transition group-hover:text-white">
-                        Brand Services
-                      </h5>
-                      <p className="text-sm text-black">
-                        There are many potential methods that business
-                        professionals can use to develop successful branding
-                        strategies. Endorsed branding can allow companies to
-                        unify their branding efforts to meet their goals.
-                      </p>
+                {/* Brand Services */}
+                <Link to="/best-brand-services-company">
+                  <div className="relative group transition hover:z-[1] hover:shadow-2xl lg:hidden xl:block">
+                    <div className="relative p-8 space-y-8 border-dashed rounded-lg transition duration-300 group-hover:bg-yellow-500 group-hover:border group-hover:scale-90">
+                      <img
+                        src={Branding}
+                        className="w-2/3 ml-auto"
+                        alt="Branding"
+                        loading="lazy"
+                        width={900}
+                        height={600}
+                      />
+                      <div className="space-y-2">
+                        <h5 className="text-xl text-black font-medium transition group-hover:text-white">
+                          Brand Services
+                        </h5>
+                        <p className="text-sm text-black">
+                          Unlock branding success with various strategies. Endorsed branding unifies efforts to meet goals.
+                        </p>
+                      </div>
+                      <a className="flex justify-between items-center group-hover:text-white">
+                        <span className="text-sm bg-yellow-400 py-2 px-2 rounded">Read more</span>
+                        <span className="-translate-x-4 opacity-0 text-2xl transition duration-300 group-hover:opacity-100 group-hover:translate-x-0">
+                          →
+                        </span>
+                      </a>
                     </div>
-                    <a className="flex justify-between items-center group-hover:text-white">
-                      <span className="text-sm bg-yellow-400 py-2 px-2 rounded">Read more</span>
-                      <span className="-translate-x-4 opacity-0 text-2xl transition duration-300 group-hover:opacity-100 group-hover:translate-x-0">
-                        →
-                      </span>
-                    </a>
                   </div>
-                </div>
-              </Link>
-               {/* Advertising */}
-               <Link to="/best-advertising-company">
-                <div className="relative group transition hover:z-[1] hover:shadow-2xl lg:hidden xl:block">
-                  <div className="relative p-8 space-y-8 border-dashed rounded-lg transition duration-300 group-hover:bg-yellow-500 group-hover:border group-hover:scale-90">
-                    <img
-                      src={Advertising}
-                      className="w-2/3 ml-auto"
-                      alt="Advertising"
-                      loading="lazy"
-                      width={900}
-                      height={600}
-                    />
-                    <div className="space-y-2">
-                      <h5 className="text-xl text-black font-medium transition group-hover:text-white">
-                        Advertising
-                      </h5>
-                      <p className="text-sm text-black">
-                        Advertising ATL (Above the Line) refers to mass media
-                        advertising methods like TV, radio, and print, targeting
-                        a broad audience. BTL (Below the Line) involves more
-                        targeted, direct, and personalized marketing strategies,
-                        often using digital and experiential methods.
-                      </p>
+                </Link>
+                {/* Advertising */}
+                <Link to="/best-advertising-company">
+                  <div className="relative group transition hover:z-[1] hover:shadow-2xl lg:hidden xl:block">
+                    <div className="relative p-8 space-y-8 border-dashed rounded-lg transition duration-300 group-hover:bg-yellow-500 group-hover:border group-hover:scale-90">
+                      <img
+                        src={Advertising}
+                        className="w-2/3 ml-auto"
+                        alt="Advertising"
+                        loading="lazy"
+                        width={900}
+                        height={600}
+                      />
+                      <div className="space-y-2">
+                        <h5 className="text-xl text-black font-medium transition group-hover:text-white">
+                          Advertising
+                        </h5>
+                        <p className="text-sm text-black">
+                          ATL Advertising: Mass media outreach via TV, radio, and print for broad audiences.
+                          BTL Advertising: Personalized, direct, and digital strategies for precise targeting.
+                        </p>
+                      </div>
+                      <a href="/best-advertising-company" className="flex justify-between items-center group-hover:text-white">
+                        <span className="text-sm bg-yellow-400 py-2 px-2 rounded">Read more</span>
+                        <span className="-translate-x-4 opacity-0 text-2xl transition duration-300 group-hover:opacity-100 group-hover:translate-x-0">
+                          →
+                        </span>
+                      </a>
                     </div>
-                    <a href="/best-advertising-company" className="flex justify-between items-center group-hover:text-white">
-                      <span className="text-sm bg-yellow-400 py-2 px-2 rounded">Read more</span>
-                      <span className="-translate-x-4 opacity-0 text-2xl transition duration-300 group-hover:opacity-100 group-hover:translate-x-0">
-                        →
-                      </span>
-                    </a>
                   </div>
-                </div>
-              </Link>
+                </Link>
               </div>
             </div>
           </div>
         </div>
       </section>
-
-     
     </div>
   );
 }
