@@ -34,7 +34,7 @@ const ServicesTab = () => {
                 backgroundSize: "cover",
               }}
             >
-              <div className="mt-16 grid bg-white/80 border divide-x divide-y rounded-xl overflow-hidden sm:grid-cols-3 lg:grid-cols-6 xl:grid-cols-6">
+              <div className="mt-16 mb-10 grid bg-white/80 border divide-x divide-y rounded-xl overflow-hidden grid-cols-2 lg:grid-cols-6 xl:grid-cols-6">
                 <Link to="/best-web-developement-company">
                   <div className="relative group transition hover:z-[1] hover:shadow-2xl lg:hidden xl:block">
                     <div className="relative p-8 space-y-8 border-dashed rounded-lg transition duration-300 group-hover:bg-yellow-500 group-hover:border group-hover:scale-90">
@@ -52,12 +52,11 @@ const ServicesTab = () => {
                         </h5>
                         <p className="text-sm text-black">
                           Web development is the work involved in developing a
-                          website for the Internet (World Wide Web) or an
-                          intranet (a private network).
+                          website for the Internet.
                         </p>
                       </div>
                       <a className="flex justify-between items-center group-hover:text-white">
-                        <span className="text-sm">Read more</span>
+                        <span className="text-sm bg-yellow-400 py-2 px-2 rounded">Read more</span>
                         <span className="-translate-x-4 opacity-0 text-2xl transition duration-300 group-hover:opacity-100 group-hover:translate-x-0">
                           →
                         </span>
@@ -87,7 +86,7 @@ const ServicesTab = () => {
                         </p>
                       </div>
                       <a className="flex justify-between items-center group-hover:text-white">
-                        <span className="text-sm">Read more</span>
+                        <span className="text-sm bg-yellow-400 py-2 px-2 rounded">Read more</span>
                         <span className="-translate-x-4 opacity-0 text-2xl transition duration-300 group-hover:opacity-100 group-hover:translate-x-0">
                           →
                         </span>
@@ -119,7 +118,7 @@ const ServicesTab = () => {
                         </p>
                       </div>
                       <a className="flex justify-between items-center group-hover:text-white">
-                        <span className="text-sm">Read more</span>
+                        <span className="text-sm bg-yellow-400 py-2 px-2 rounded">Read more</span>
                         <span className="-translate-x-4 opacity-0 text-2xl transition duration-300 group-hover:opacity-100 group-hover:translate-x-0">
                           →
                         </span>
@@ -141,7 +140,7 @@ const ServicesTab = () => {
                     />
                     <div className="space-y-2">
                       <h5 className="text-xl text-black font-medium transition group-hover:text-white">
-                        Graphic Design
+                        Multi Media
                       </h5>
                       <p className="text-sm text-black">
                         The art of conveying messages and ideas through creative
@@ -150,7 +149,7 @@ const ServicesTab = () => {
                       </p>
                     </div>
                     <a className="flex justify-between items-center group-hover:text-white">
-                      <span className="text-sm">Read more</span>
+                      <span className="text-sm bg-yellow-400 py-2 px-2 rounded">Read more</span>
                       <span className="-translate-x-4 opacity-0 text-2xl transition duration-300 group-hover:opacity-100 group-hover:translate-x-0">
                         →
                       </span>
@@ -183,7 +182,7 @@ const ServicesTab = () => {
                       </p>
                     </div>
                     <a className="flex justify-between items-center group-hover:text-white">
-                      <span className="text-sm">Read more</span>
+                      <span className="text-sm bg-yellow-400 py-2 px-2 rounded">Read more</span>
                       <span className="-translate-x-4 opacity-0 text-2xl transition duration-300 group-hover:opacity-100 group-hover:translate-x-0">
                         →
                       </span>
@@ -216,7 +215,7 @@ const ServicesTab = () => {
                       </p>
                     </div>
                     <a href="/best-advertising-company" className="flex justify-between items-center group-hover:text-white">
-                      <span className="text-sm">Read more</span>
+                      <span className="text-sm bg-yellow-400 py-2 px-2 rounded">Read more</span>
                       <span className="-translate-x-4 opacity-0 text-2xl transition duration-300 group-hover:opacity-100 group-hover:translate-x-0">
                         →
                       </span>
