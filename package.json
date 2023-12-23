@@ -10,6 +10,7 @@
     "@fortawesome/free-solid-svg-icons": "^6.4.2",
     "@fortawesome/react-fontawesome": "^0.2.0",
     "@headlessui/react": "^1.7.7",
+    "axios": "^1.6.2",
     "firebase": "^10.5.2",
     "npm-check": "^6.0.1",
     "react": "^18.2.0",

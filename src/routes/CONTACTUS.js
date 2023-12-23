@@ -1,22 +1,54 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React, { useState } from "react";
 import { Helmet } from "react-helmet-async";
 
-import { useForm, ValidationError } from "@formspree/react";
+const ContactForm = () => {
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    message: '',
+  });
 
-const CONTACTUS = () => {
-  const [state, handleSubmit] = useForm("myyagqep");
-  if (state.succeeded) {
-    return (
-      <p className="text-center py-10 text-black">
-        Thanks for Submitting, We will get back to you!
-      </p>
-    );
-  }
+  const handleChange = (e) => {
+    setFormData({ ...formData, [e.target.name]: e.target.value });
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    // Replace 'YOUR_DISCORD_WEBHOOK_URL' with the actual URL of your Discord webhook
+    const discordWebhookUrl = 'https://discord.com/api/webhooks/1188142399332032512/t_u3FNseO4CzVYp-yn7eUWNdF8wweauOpcjlqeA3xkh6XWQrVGTulVlkTXcQnYQLr1GE';
+
+    // Prepare the message to be sent to Discord
+    const message = {
+      content: `Contact Form Submission\n\nName: ${formData.name}\nEmail: ${formData.email}\nMessage: ${formData.message}`,
+    };
+
+    try {
+      // Send a POST request to the Discord webhook
+      const response = await fetch(discordWebhookUrl, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(message),
+      });
+
+      // Check if the request was successful
+      if (response.ok) {
+        alert('Form submitted successfully!');
+        setFormData({ name: '', email: '', message: '' });
+      } else {
+        alert('Error submitting the form. Please try again later.');
+      }
+    } catch (error) {
+      console.error('Error:', error);
+      alert('An unexpected error occurred. Please try again later.');
+    }
+  };
 
   return (
     <div>
-      <Helmet>
+        <Helmet>
         <title>Contact us</title>
         <meta
           name="description"
@@ -25,8 +57,8 @@ const CONTACTUS = () => {
         <link rel="canonical" href="/contactus" />
       </Helmet>
 
-      {/* Title Card */}
-      <section
+     {/* Title Card */}
+     <section
         className="py-10 sm:py-40"
         style={{
           backgroundImage:
@@ -68,8 +100,11 @@ const CONTACTUS = () => {
         </div>
       </section>
 
-      {/*contact form*/}
-      <section className="bg-gray-200 pt-20">
+
+
+
+    {/*contact form*/}
+    <section className="bg-gray-200 pt-20">
         <div class="relative flex items-top justify-center  sm:items-center sm:pt-0">
           <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
             <div class=" overflow-hidden">
@@ -156,81 +191,66 @@ const CONTACTUS = () => {
                   </div>
                 </div>
 
+
+
                 <form onSubmit={handleSubmit} className="space-y-8 mx-5 my-5">
                   <div>
-                    <label
-                      htmlFor="Name"
-                      className="text-black block mb-2 text-sm font-medium "
-                    >
-                      Name
-                    </label>
-                    <input
-                      id="name"
-                      type="text"
-                      name="name"
-                      className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5   "
+                  <label htmlFor="Name"
+                      className="text-black block mb-2 text-sm font-medium "> Name:
+        <input
+          type="text"
+          name="name"
+          className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5   "
                       placeholder="Sam"
-                    />
+          value={formData.name}
+          onChange={handleChange}
+          required
+        />
+      </label>
 
-                    <label
-                      htmlFor="email"
-                      className="text-black block mb-2 text-sm font-medium pt-2"
-                    >
-                      Your email
-                    </label>
-                    <input
-                      id="email"
-                      type="email"
-                      name="email"
-                      className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5   "
+                   
+      <label htmlFor="email" className="text-black block mb-2 text-sm font-medium pt-2">
+        Email:
+        <input
+          type="email"
+          name="email"
+          className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5   "
                       placeholder="sam@mail.com"
-                    />
-                  </div>
-                  <ValidationError
-                    prefix="Email"
-                    field="email"
-                    errors={state.errors}
-                  />
+          value={formData.email}
+          onChange={handleChange}
+          required
+        />
+      </label>            
 
-                  <div>
-                    <label
-                      htmlFor="subject"
-                      className="text-black block mb-2 text-sm font-medium "
-                    >
-                      Subject
-                    </label>
-                    <input
-                      id="subject"
-                      type="text"
-                      name="subject"
-                      className="block p-3 w-full text-sm  bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500  "
-                      placeholder="Let us know how we can help you"
-                    />
+                   
+                   
                   </div>
+                 
+
+                 
 
                   <div className="sm:col-span-2">
-                    <label
+                  <label
                       htmlFor="message"
                       className="block mb-2 text-sm font-medium "
                     >
                       {" "}
-                    </label>
-                    <textarea
-                      id="message"
-                      rows={6}
-                      name="message"
-                      className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 "
+        <textarea
+          name="message"
+          className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 "
                       placeholder="Leave a comment..."
-                    />
+          value={formData.message}
+          onChange={handleChange}
+          required
+        ></textarea>
+      </label>
+      
+                   
+                   
                   </div>
-                  <ValidationError
-                    prefix="Message"
-                    field="message"
-                    errors={state.errors}
-                  />
+                  
                   <button
                     type="submit"
-                    disabled={state.submitting}
                     className="text-white bg-black block w-full rounded-3xl border  border-black px-12 py-3 text-sm font-medium   hover:text-black hover:bg-white  sm:w-auto"
                   >
                     Send Message
@@ -244,6 +264,8 @@ const CONTACTUS = () => {
           </div>
         </div>
       </section>
+
+
 
       {/*FAQ*/}
       <div className="flex">
@@ -781,4 +803,9 @@ const CONTACTUS = () => {
   );
 };
 
-export default CONTACTUS;
+
+
+
+
+
+export default ContactForm;
