@@ -7,8 +7,10 @@ import {googlereview,goodfirms} from '../../assets/data/Imagedata.jsx';
 import footer_csd from './csdv2Logofooter.svg';
 import WhatsApp from './WhatsApp.webp';
 
+
 const Footer = () => {
   
+  const currentYear = new Date().getFullYear();
   return (
     
     <main className='bg-black'>
@@ -257,7 +259,7 @@ const Footer = () => {
 
 
     <div class="h-px my-8 border-0 bg-gray-700"/>
-   <p id="copyright" class="cursor-default text-center text-xs text-white">© 2020-<span id="currentYear">2024</span> cyberspacedigital.in - Web Development & Designer Community ( #CSD )</p>
+   <p id="copyright" class="cursor-default text-center text-xs text-white">© 2020-<span> {currentYear} </span> <br/>www.cyberspacedigital.in<br/>Web Development & Designer Community ( #CSD )</p>
  </div>
 </footer>
 <section/>

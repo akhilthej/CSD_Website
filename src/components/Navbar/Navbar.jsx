@@ -82,6 +82,8 @@ const Navbar = () => {
     }
   }, [isMenuOpen]);
 
+  const currentYear = new Date().getFullYear();
+  
   const NavImages = {
     link1: "https://drive.google.com/uc?id=17CKOf3456AJ6ZjKhbaLuKGziUWrTUrAG",
     link2: "https://drive.google.com/uc?id=17CKOf3456AJ6ZjKhbaLuKGziUWrTUrAG",
@@ -1777,7 +1779,7 @@ const Navbar = () => {
                                   ? "bg-yellow-500 text-white"
                                   : "text-black",
                                 "block px-4 py-2 text-sm"
-                              )}
+                              )} onClick={() => setIsMenuOpen(false)}
                             >
                               Blogs
                             </a>
@@ -1793,7 +1795,7 @@ const Navbar = () => {
                                   ? "bg-yellow-500 text-white"
                                   : "text-black",
                                 "block px-4 py-2 text-sm"
-                              )}
+                              )} onClick={() => setIsMenuOpen(false)}
                             >
                               Reviews
                             </a>
@@ -1809,7 +1811,7 @@ const Navbar = () => {
                                   ? "bg-yellow-500 text-white"
                                   : "text-black",
                                 "block px-4 py-2 text-sm"
-                              )}
+                              )} onClick={() => setIsMenuOpen(false)}
                             >
                               Our Clients
                             </a>
@@ -1825,7 +1827,7 @@ const Navbar = () => {
                                   ? "bg-yellow-500 text-white"
                                   : "text-black",
                                 "block px-4 py-2 text-sm"
-                              )}
+                              )} onClick={() => setIsMenuOpen(false)}
                             >
                               About us
                             </a>
@@ -1841,7 +1843,7 @@ const Navbar = () => {
                                   ? "bg-yellow-500 text-white"
                                   : "text-black",
                                 "block px-4 py-2 text-sm"
-                              )}
+                              )} onClick={() => setIsMenuOpen(false)}
                             >
                               Contact us
                             </a>
@@ -1863,7 +1865,7 @@ const Navbar = () => {
                           <FontAwesomeIcon icon={faLinkedin} />
                         </a>
                         <div className=" bottom-0 text-center w-full p-4 text-xs text-gray-500">
-                          Copyright &copy; 2023 CyberSpaceDigital
+                          Copyright &copy; 2020 - {currentYear} CyberSpaceDigital
                         </div>
                       </div>
                     </div>
