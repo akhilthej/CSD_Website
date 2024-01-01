@@ -208,7 +208,7 @@ const Footer = () => {
               {" "}
               Privacy Policy{" "}
             </Link>
-            <Link to='/terms&conditions'><a >
+            <Link to='/termsconditions'><a >
               {" "}
               Terms &amp; Conditions{" "}
             </a></Link>
@@ -223,7 +223,7 @@ const Footer = () => {
               Disclaimer{" "}
             </a></Link>
 
-            <Link to='/shipping&delivery'><a  href="">
+            <Link to='/shippingdelivery'><a  href="">
               {" "}
               Shipping & Delivery{" "}
             </a></Link>
@@ -257,7 +257,7 @@ const Footer = () => {
 
 
     <div class="h-px my-8 border-0 bg-gray-700"/>
-   <p id="copyright" class="cursor-default text-center text-xs text-white">© 2020-<span id="currentYear">2023</span> cyberspacedigital.in - Web Development & Designer Community ( #CSD )</p>
+   <p id="copyright" class="cursor-default text-center text-xs text-white">© 2020-<span id="currentYear">2024</span> cyberspacedigital.in - Web Development & Designer Community ( #CSD )</p>
  </div>
 </footer>
 <section/>
