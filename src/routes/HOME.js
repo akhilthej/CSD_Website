@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import Brand_slider from "../components/Brand_slider";
+import Brandslider from "../components/Brand_slider";
 import ServicesTab from "../components/ServicesTab";
 
 import { HomeVideo } from "../assets/data/Imagedata";
@@ -21,6 +21,7 @@ import {
   statergyicon,
   businessreporticon,
 } from "../assets/data/Imagedata";
+import { GlobalData } from "../assets/data/GlodalData";
 
 const Home = () => {
   return (
@@ -59,7 +60,7 @@ const Home = () => {
           </div>
         </section>
 
-        {/* Video 
+        {/* Video */}
         <div className="flex justify-center items-center">
           <video
             className="rounded-lg"
@@ -73,7 +74,7 @@ const Home = () => {
           >
             <source src={HomeVideo} type="video/mp4" />
           </video>
-        </div>*/}
+        </div>
 
         {/* Tagline */}
         <section className="flex items-center my-10 justify-center  bg-white ">
@@ -89,7 +90,7 @@ const Home = () => {
             </div>
             <div className="mt-6 flex items-center justify-center gap-4 flex-wrap"></div>
             <div className="mt-6 flex items-center justify-center gap-4 flex-wrap">
-              <a href="https://api.whatsapp.com/send?phone=918143407758&text=Welcome%20to%20Cyberspacedigital">
+              <a href={GlobalData.company.companyWhatsapp}>
                 <button className="text-xs sm:text-sm transform rounded bg-yellow-500 border border-slate-200 px-12 py-2 font-medium text-black transition-colors hover:bg-slate-50">
                   Contact Now
                 </button>
@@ -99,7 +100,7 @@ const Home = () => {
         </section>
 
         {/* Clients */}
-        <Brand_slider />
+        <Brandslider />
 
         {/* Services */}
         <ServicesTab />
@@ -354,8 +355,7 @@ const Home = () => {
         {/*Line of Engagement */}
         <section
           id="services"
-          className="cursor-default section relative pt-10 pb-8 md:pt-16 md:pb-10"
-        >
+          className="cursor-default section relative pt-10 pb-8 md:pt-16 md:pb-10">
           <div className="xl:max-w-8xl mx-auto px-4">
             {/* Heading for "Line of Engagement" section */}
 

@@ -1,6 +1,6 @@
 import React from "react";
 import { Routes, Route, useLocation } from 'react-router-dom';
-import { Navbar, Footer, PrivacyPolicy, TermsnConditions, Disclaimer, ShippingandDelivery, ReturnPolicy, Error404, Home, Aboutus, Contactus, Services, Blogs, Clients, Reviews } from './routes/Routes';
+import { Navbar, Footer, PrivacyPolicy, TermsnConditions, Disclaimer, ShippingandDelivery, ReturnPolicy, Error404, Home, Aboutus, Contactus, Services, Blogs, Clients} from './routes/Routes';
 import Notification from "./components/Tools/Notifications";
 
 import GoogleSignIn from './components/config/GoogleSignIn'
@@ -47,7 +47,6 @@ const routes = [
   { path: '/*', element: <Error404 /> },
   { path: '/blogs', element: <Blogs /> },
   { path: '/clients', element: <Clients /> },
-  { path: '/reviews', element: <Reviews /> },
   { path: '/aboutus', element: <Aboutus /> },
   { path: '/contactus', element: <Contactus /> },
   { path: '/privacypolicy', element: <PrivacyPolicy /> },
