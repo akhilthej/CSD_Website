@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Helmet } from "react-helmet-async";
+import WebsiteQuotation from '../components/Forms/WebsiteQuotation'
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
@@ -265,6 +266,7 @@ const ContactForm = () => {
         </div>
       </section>
 
+<WebsiteQuotation />
 
 
       {/*FAQ*/}
