@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.3decfb52.css",
-    "main.js": "/static/js/main.c62f50b4.js",
+    "main.js": "/static/js/main.98b8b1a5.js",
     "static/media/homepage1.mp4": "/static/media/homepage1.3057c3e6533fc183f0f9.mp4",
     "static/media/LAN-001-white.png": "/static/media/LAN-001-white.4cd2dfdc96667fc57a19.png",
     "static/media/ARK-001-white.png": "/static/media/ARK-001-white.7552533bfc49040f3d2c.png",
@@ -11,9 +11,14 @@
     "static/media/LAC-002.png": "/static/media/LAC-002.95d8b66361c91a1d4c24.png",
     "static/media/ARK-002.png": "/static/media/ARK-002.0907260de9996bb721f2.png",
     "static/media/ILA-002.png": "/static/media/ILA-002.dc2e513de4db7ae2ddb1.png",
+    "static/media/AdvertisingCoverHomeImage.webp": "/static/media/AdvertisingCoverHomeImage.cd06540afaa99afea2d7.webp",
     "static/media/HeroCoverBG.png": "/static/media/HeroCoverBG.d4a05e8db52361610406.png",
+    "static/media/GraphicDesigningCoverHomeImage.webp": "/static/media/GraphicDesigningCoverHomeImage.ec3e7e14a8cbfeb070de.webp",
+    "static/media/BrandingCoverHomeImage.webp": "/static/media/BrandingCoverHomeImage.7970592b5f9832414d5d.webp",
     "static/media/Subscribe.png": "/static/media/Subscribe.68f61a5d75abbc0d1333.png",
+    "static/media/DigiatalMarketingCoverHomeImage.webp": "/static/media/DigiatalMarketingCoverHomeImage.5bf82b550db91081435f.webp",
     "static/media/graphicsdesign.png": "/static/media/graphicsdesign.ac5cc1edae28e3741537.png",
+    "static/media/WebDevelopmentCoverHomeImage.webp": "/static/media/WebDevelopmentCoverHomeImage.fedded6ba4610c9b69a1.webp",
     "static/media/RemarketingandRetargeting.webp": "/static/media/RemarketingandRetargeting.bc6a7e1c6c04f4d484dd.webp",
     "static/media/Business Card.webp": "/static/media/Business Card.2137db28b63c2943bc6d.webp",
     "static/media/Mobile App.webp": "/static/media/Mobile App.eea674ec351ec4f5695a.webp",
@@ -116,10 +121,10 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "main.3decfb52.css.map": "/static/css/main.3decfb52.css.map",
-    "main.c62f50b4.js.map": "/static/js/main.c62f50b4.js.map"
+    "main.98b8b1a5.js.map": "/static/js/main.98b8b1a5.js.map"
   },
   "entrypoints": [
     "static/css/main.3decfb52.css",
-    "static/js/main.c62f50b4.js"
+    "static/js/main.98b8b1a5.js"
   ]
 }
