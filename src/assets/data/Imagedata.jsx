@@ -1,8 +1,12 @@
-/*Home Page */
+/*Videos */
 import HomeVideo from '../../assets/Videos/homepage1.mp4';
 
-
-
+/*Cover Images */
+import AdvertisingCoverHomeImage from '../../assets/CoverImages/AdvertisingCoverHomeImage.webp'
+import BrandingCoverHomeImage from '../../assets/CoverImages/BrandingCoverHomeImage.webp'
+import DigiatalMarketingCoverHomeImage from '../../assets/CoverImages/DigiatalMarketingCoverHomeImage.webp'
+import GraphicDesigningCoverHomeImage from '../../assets/CoverImages/GraphicDesigningCoverHomeImage.webp'
+import WebDevelopmentCoverHomeImage from '../../assets/CoverImages/WebDevelopmentCoverHomeImage.webp'
 
 import HeroCoverBG from '../../assets/Common/Home/HeroCoverBG.png'
 
@@ -57,6 +61,8 @@ export {
   /*Home Page */
   HomeVideo,
 
+  /*Cover Images */
+  AdvertisingCoverHomeImage,BrandingCoverHomeImage,DigiatalMarketingCoverHomeImage,GraphicDesigningCoverHomeImage,WebDevelopmentCoverHomeImage,
 
   /*Icons*/
   Advertising,Branding,DigitalMarketing,GraphicDesign,MobileAppDevelopment,WebDevelopment,SoftwareDeveloper,

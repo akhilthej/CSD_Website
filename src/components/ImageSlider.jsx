@@ -1,43 +1,39 @@
 import React, { useState, useEffect } from "react";
+import {  AdvertisingCoverHomeImage,BrandingCoverHomeImage,DigiatalMarketingCoverHomeImage,GraphicDesigningCoverHomeImage,WebDevelopmentCoverHomeImage} from '../assets/data/Imagedata'
 
 const ImageSlider = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const images = [
     {
-      url:
-        'https://drive.google.com/uc?id=1dLGvW3ntk2ey8sgizhgVgamm5krs5wTR',
+      url:WebDevelopmentCoverHomeImage,
       title: 'Web Development',
       description: 'Create stunning websites, engage, grow online.',
       button1: { text: 'Get Quotation', link: '/best-web-developement-company' },
       button2: { text: 'Contact us', link: 'https://api.whatsapp.com/send?phone=918143407758&text=Hi,%20need%20Detials%20Regarding%20WebDevelopment' },
     },
     {
-      url:
-        'https://drive.google.com/uc?id=11Q8mC0-QPAbxfEeKNU55cry3SgXwAgez',
+      url:DigiatalMarketingCoverHomeImage,
       title: 'Digital Marketing',
       description: 'Boost brands, reach audiences, measure results.',
       button1: { text: 'Learn More', link: '/best-digital-marketing-company' },
       button2: { text: 'Contact Us', link: 'https://api.whatsapp.com/send?phone=918143407758&text=Hi,%20need%20Detials%20Regarding%20DigitalMarketing' },
     },
     {
-      url:
-        'https://drive.google.com/uc?id=11fb_KYdIeRtpYuu-1zXROl63HtcZjP96',
+      url:GraphicDesigningCoverHomeImage,
       title: 'Graphic Designing',
       description: 'Design visuals, convey messages, inspire creativity.',
       button1: { text: 'Explore', link: '/best-graphic-designing-company' },
       button2: { text: 'Contact Us', link: 'https://api.whatsapp.com/send?phone=918143407758&text=Hi,%20need%20Detials%20Regarding%20GraphicDesigning' },
     },
     {
-      url:
-        'https://drive.google.com/uc?id=1Dxm5_ZCSjFzJsOc3v-pb7PCPjP34KSgp',
+      url:BrandingCoverHomeImage,
       title: 'Branding',
       description: 'Craft identities, build trust, leave impressions.',
       button1: { text: 'Learn More', link: '/best-brand-services-company' },
       button2: { text: 'Contact us', link: 'https://api.whatsapp.com/send?phone=918143407758&text=Hi,%20need%20Detials%20Regarding%20Branding' },
     },
     {
-      url:
-        'https://drive.google.com/uc?id=1LM6xO9CIRwz0l3jfi-rduTt4K9zFTAPH',
+      url: AdvertisingCoverHomeImage,
       title: 'Advertising',
       description: 'Promote products, captivate audiences, drive sales.',
       button1: { text: 'Learn More', link: '/best-advertising-company' },
