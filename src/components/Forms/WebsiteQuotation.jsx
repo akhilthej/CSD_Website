@@ -1,6 +1,8 @@
-import React, { useState } from "react";
+// WebsiteQuotationForm.js
+import React, { useState, useRef, useEffect } from "react";
+import './popup.css'; // Import your Tailwind CSS file
 
-const WebsiteQuotationForm = () => {
+const WebsiteQuotationForm = ({ onClose }) => {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -10,6 +12,7 @@ const WebsiteQuotationForm = () => {
   });
 
   const [submissionStatus, setSubmissionStatus] = useState(null);
+  const formRef = useRef();
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -45,32 +48,59 @@ const WebsiteQuotationForm = () => {
     }
   };
 
-  return (
-    <div className="mx-auto">
-      <section className="bg-gray-200 py-12">
-        <div className="max-w-4xl mx-auto sm:px-6 lg:px-8">
-          <form onSubmit={handleSubmit} className="bg-white rounded-lg shadow-md p-8 space-y-6">
-            {submissionStatus === 'success' && (
-              <div className="text-green-600 font-medium">Form submitted successfully!</div>
-            )}
-            {submissionStatus === 'error' && (
-              <div className="text-red-600 font-medium">Error submitting the form. Please try again later.</div>
-            )}
+  const handleClose = () => {
+    setSubmissionStatus(null);
+    setFormData({
+      name: '',
+      email: '',
+      phoneNumber: '',
+      message: '',
+      selectedOption: '',
+    });
+    onClose();
+  };
 
-            <div>
-              <label htmlFor="Name" className="block text-sm font-medium text-gray-700">
-                Name:
-                <input
-                  type="text"
-                  name="name"
-                  className="mt-1 p-2.5 w-full rounded-md border border-gray-300"
-                  placeholder="Sam"
-                  value={formData.name}
-                  onChange={handleChange}
-                  required
-                />
-              </label>
-            </div>
+  const handleOutsideClick = (e) => {
+    if (formRef.current && !formRef.current.contains(e.target)) {
+      handleClose();
+    }
+  };
+
+  useEffect(() => {
+    document.addEventListener("mousedown", handleOutsideClick);
+    return () => {
+      document.removeEventListener("mousedown", handleOutsideClick);
+    };
+  }, []);
+
+  return (
+    <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-75" onClick={handleOutsideClick}>
+      <div ref={formRef} className="bg-white rounded-lg shadow-xl p-8 space-y-6" onClick={(e) => e.stopPropagation()}>
+        <button onClick={handleClose} className="absolute top-2 right-2 text-gray-600 hover:text-black">
+          Close
+        </button>
+
+        {submissionStatus === 'success' && (
+          <div className="text-green-600 font-medium">Form submitted successfully!</div>
+        )}
+        {submissionStatus === 'error' && (
+          <div className="text-red-600 font-medium">Error submitting the form. Please try again later.</div>
+        )}
+
+        <div>
+          <label htmlFor="Name" className="block text-sm font-medium text-gray-700">
+            Name:
+            <input
+              type="text"
+              name="name"
+              className="mt-1 p-2.5 w-full rounded-md border border-gray-300"
+              placeholder="Sam"
+              value={formData.name}
+              onChange={handleChange}
+              required
+            />
+          </label>
+        </div>
 
             <div>
               <label htmlFor="email" className="block text-sm font-medium text-gray-700">
@@ -134,30 +164,29 @@ const WebsiteQuotationForm = () => {
 
            
             <div>
-              <label htmlFor="message" className="block text-sm font-medium text-gray-700">
-                Message:
-                <textarea
-                  name="message"
-                  className="mt-1 p-2.5 w-full rounded-md border border-gray-300"
-                  placeholder="Leave a comment..."
-                  value={formData.message}
-                  onChange={handleChange}
-                  required
-                ></textarea>
-              </label>
-            </div>
-
-            <div>
-              <button
-                type="submit"
-                className=" inline-block bg-black text-white rounded-full px-6 py-3 font-medium hover:bg-white hover:text-black hover:border hover:border-black transition duration-300"
-              >
-                Send Message
-              </button>
-            </div>
-          </form>
+          <label htmlFor="message" className="block text-sm font-medium text-gray-700">
+            Message:
+            <textarea
+              name="message"
+              className="mt-1 p-2.5 w-full rounded-md border border-gray-300"
+              placeholder="Leave a comment..."
+              value={formData.message}
+              onChange={handleChange}
+              required
+            ></textarea>
+          </label>
         </div>
-      </section>
+
+        <div>
+          <button
+            type="submit"
+            onClick={handleSubmit}
+            className="inline-block bg-black text-white rounded-full px-6 py-3 font-medium hover:bg-white hover:text-black hover:border hover:border-black transition duration-300"
+          >
+            Send Message
+          </button>
+        </div>
+      </div>
     </div>
   );
 };

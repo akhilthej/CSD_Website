@@ -1,15 +1,24 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React, { useState } from "react";
+import { Link } from 'react-router-dom';
+import WebsiteQuotation from '../../../components/Forms/WebsiteQuotation';
 
 import {
-  FixedPrice,
-  OntimeDelivery,
-  TimeManage,
-  HiringModel,businesswebsite,ecommercewebsite,webrevamp,crm_ermpannel,
+  ecommercewebsite,webrevamp,crm_ermpannel,
 } from "../../../assets/data/Imagedata";
 
 
 const BusinessWebsite = () => {
+  {/*Popup Logic*/}
+  const [isPopupOpen, setPopupOpen] = useState(false);
+
+  const handleQuotationClick = () => {
+    setPopupOpen(true);
+  };
+
+  const handlePopupClose = () => {
+    setPopupOpen(false);
+  }; {/*Popup Logic End*/}
+
   return (
     <div>
     {/* Title Card */}
@@ -45,7 +54,17 @@ const BusinessWebsite = () => {
      </div>
    </section>
    
-
+   {/*PopupButton */}
+   <div className="flex justify-center items-center py-5">
+   <button  className="flex justify-center items-center py-5" onClick={handleQuotationClick}>
+        <section className="text-black text-center bg-yellow-500 block w-full rounded-3xl border hover:border-black px-12 py-3 text-sm font-medium hover:text-black hover:bg-white sm:w-auto">
+          Website Quotation <p className="text-xs text-black">Get your Website Quotation now! </p>
+        </section>
+        </button>
+          {isPopupOpen && (
+            <WebsiteQuotation onClose={handlePopupClose} />
+          )}
+    </div>
 
 
      {/*Line of Engagement */}
@@ -87,10 +106,8 @@ const BusinessWebsite = () => {
 
 
       {/* "E-commerce Website" section */}
-      <div className="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/4 lg:px-6 "
-        
-        
-        >
+      <div className="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/4 lg:px-6 " >
+
         <div className="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
           <div className="inline-block text-gray-900 mb-4">
             <img
