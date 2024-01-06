@@ -2,7 +2,7 @@ import React from 'react'
 
 const Multimedia = () => {
   return (
-    <div>Multimedia</div>
+    <div>/ebook-and-print-book-cover-design</div>
   )
 }
 

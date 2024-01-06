@@ -14,7 +14,7 @@ import BannerDesign from './10_BannerDesign';
 import IllustrationServices from './11_IllustrationServices';
 import InfographicDesign from './12_InfographicDesign';
 import SocialMediaGraphics from './13_SocialMediaGraphics';
-import eBookandPrintBookCoverDesign from './14_eBookandPrintBookCoverDesign';
+import EBookandPrintBook from './14_EBookandPrintBook.jsx';
 import TshirtandMerchandiseDesign from './15_TshirtandMerchandiseDesign';
 import SignageandBillboardDesign from './16_SignageandBillboardDesign';
 import BusinessCardandStationeryDesign from './17_BusinessCardandStationeryDesign';
@@ -36,7 +36,7 @@ export {MultiMedia,
     IllustrationServices,
     InfographicDesign,
     SocialMediaGraphics,
-    eBookandPrintBookCoverDesign,
+    EBookandPrintBook,
     TshirtandMerchandiseDesign,
     SignageandBillboardDesign,
     BusinessCardandStationeryDesign,

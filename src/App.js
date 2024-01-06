@@ -17,7 +17,7 @@ WebDevelopment,BusinessWebsite,EcommerceWebsite,WebRevap,CRMERP,
 
     /*MultiMedia */
     MultiMedia,LogoDesign,BrandIdentityDesign,PrintDesign,WebDesign,UserInterfaceDesign,UserExperienceDesign,PackagingDesign,
-    PosterandFlyerDesign,BrochureDesign,BannerDesign,IllustrationServices,InfographicDesign,SocialMediaGraphics,eBookandPrintBookCoverDesign,
+    PosterandFlyerDesign,BrochureDesign,BannerDesign,IllustrationServices,InfographicDesign,SocialMediaGraphics,EBookandPrintBook,
     TshirtandMerchandiseDesign,SignageandBillboardDesign,BusinessCardandStationeryDesign,RenderingandVisualization,
     MotionGraphicsandAnimation,PhotoEditingandRetouching,
     
@@ -115,7 +115,7 @@ const routes = [
   { path: '/illustration-services', element: <IllustrationServices /> },
   { path: '/infographic-design', element: <InfographicDesign /> },
   { path: '/social-media-graphics', element: <SocialMediaGraphics /> },
-  { path: '/ebook-and-print-book-cover-design', element: <eBookandPrintBookCoverDesign /> },
+  { path: '/ebook-and-print-book-cover-design', element: <EBookandPrintBook /> },
   { path: '/t-shirt-and-merchandise-design', element: <TshirtandMerchandiseDesign /> },
   { path: '/signage-and-billboard-design', element: <SignageandBillboardDesign /> },
   { path: '/business-card-and-stationery-design', element: <BusinessCardandStationeryDesign /> },

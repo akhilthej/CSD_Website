@@ -36,7 +36,7 @@ import {MobileAppDevelopment,
 
 /*Graphic Design */
 import {MultiMedia,LogoDesign,BrandIdentityDesign,PrintDesign,WebDesign,UserInterfaceDesign,UserExperienceDesign,PackagingDesign,
-    PosterandFlyerDesign,BrochureDesign,BannerDesign,IllustrationServices,InfographicDesign,SocialMediaGraphics,eBookandPrintBookCoverDesign,
+    PosterandFlyerDesign,BrochureDesign,BannerDesign,IllustrationServices,InfographicDesign,SocialMediaGraphics,EBookandPrintBook,
     TshirtandMerchandiseDesign,SignageandBillboardDesign,BusinessCardandStationeryDesign,RenderingandVisualization,
     MotionGraphicsandAnimation,PhotoEditingandRetouching,} from './Services/MultiMedia/routes_MultiMedia';
 
@@ -78,7 +78,7 @@ DigitalMarketing,SearchEngineOptimization,ContentMarketing,SocialMediaMarketing,
 
     /*Graphic Designing */
     MultiMedia,LogoDesign,BrandIdentityDesign,PrintDesign,WebDesign,UserInterfaceDesign,UserExperienceDesign,PackagingDesign,
-    PosterandFlyerDesign,BrochureDesign,BannerDesign,IllustrationServices,InfographicDesign,SocialMediaGraphics,eBookandPrintBookCoverDesign,
+    PosterandFlyerDesign,BrochureDesign,BannerDesign,IllustrationServices,InfographicDesign,SocialMediaGraphics,EBookandPrintBook,
     TshirtandMerchandiseDesign,SignageandBillboardDesign,BusinessCardandStationeryDesign,RenderingandVisualization,
     MotionGraphicsandAnimation,PhotoEditingandRetouching,
     
