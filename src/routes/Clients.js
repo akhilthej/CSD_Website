@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
-import Brand_slider from "../components/Brand_slider";
+import Brand_slider from "../components/Sliders/Brand_slider";
 
 import {
   LabelAnuneniwhite,

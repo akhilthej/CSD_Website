@@ -1,0 +1,16 @@
+[
+    {
+      "id": 1,
+      "title": "Introduction to ReactJS",
+      "content": "ReactJS is a JavaScript library for building user interfaces...",
+      "date": "2024-01-06"
+    },
+    {
+      "id": 2,
+      "title": "State and Props in React",
+      "content": "In React, state and props are crucial concepts that...",
+      "date": "2024-01-07"
+    },
+    // Add more blog entries as needed
+  ]
+  

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import {  AdvertisingCoverHomeImage,BrandingCoverHomeImage,DigiatalMarketingCoverHomeImage,GraphicDesigningCoverHomeImage,WebDevelopmentCoverHomeImage} from '../assets/data/Imagedata'
+import {  AdvertisingCoverHomeImage,BrandingCoverHomeImage,DigiatalMarketingCoverHomeImage,GraphicDesigningCoverHomeImage,WebDevelopmentCoverHomeImage} from '../../assets/data/Imagedata'
 
 const ImageSlider = () => {
   const [currentIndex, setCurrentIndex] = useState(0);

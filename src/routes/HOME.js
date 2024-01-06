@@ -1,11 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import Brandslider from "../components/Brand_slider";
+import Brandslider from "../components/Sliders/Brand_slider";
 import ServicesTab from "../components/ServicesTab";
 
 import { HomeVideo } from "../assets/data/Imagedata";
-import ImageSlider from "../components/ImageSlider";
+import ImageSlider from "../components/Sliders/ImageSlider";
 
 import {
   FixedPrice,
