@@ -3,7 +3,7 @@ import { Routes, Route, useLocation } from 'react-router-dom';
 import { Navbar, Footer, PrivacyPolicy, TermsnConditions, Disclaimer, ShippingandDelivery, ReturnPolicy, Error404, Home, Aboutus, Contactus, Services, Blogs, Clients} from './routes/Routes';
 import Notification from "./components/Tools/Notifications";
 
-import GoogleSignIn from './components/config/GoogleSignIn'
+
 
 
 import {
@@ -56,7 +56,6 @@ const routes = [
   { path: '/disclaimer', element: <Disclaimer /> },
 
   { path: '/services', element: <Services /> },
-  { path: '/login', element: <GoogleSignIn /> },
 
         /*---------WebDevelopment---------*/
   { path: '/best-web-developement-company', element: <WebDevelopment /> },
