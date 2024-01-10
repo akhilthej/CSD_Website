@@ -39,7 +39,7 @@ const Blogs = () => {
           <div key={blog.id} className="bg-white p-4 rounded-md shadow-md">
           <Link
               to={`/blog/${blog.id}`}
-              className="text-black hover:text-orange-500  mt-2 inline-block"
+              className="text-yellow-500 hover:text-orange-500  mt-2 inline-block"
             >
             <img src={blog.coverImage} alt={blog.title} className="mb-4 rounded-md" />
             <h2 className="text-xl font-semibold mb-2">{blog.title}</h2>
