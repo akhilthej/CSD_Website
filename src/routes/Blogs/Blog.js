@@ -34,12 +34,12 @@ const Blogs = () => {
 
         <div className="container mx-auto mt-8">
       <h1 className="text-3xl font-semibold mb-4">All Blogs</h1>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 py-5">
         {blogs.map((blog) => (
           <div key={blog.id} className="bg-white p-4 rounded-md shadow-md">
           <Link
               to={`/blog/${blog.id}`}
-              className="text-blue-500 hover:underline mt-2 inline-block"
+              className="text-black hover:text-orange-500  mt-2 inline-block"
             >
             <img src={blog.coverImage} alt={blog.title} className="mb-4 rounded-md" />
             <h2 className="text-xl font-semibold mb-2">{blog.title}</h2>
