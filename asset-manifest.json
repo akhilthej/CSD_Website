@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.c219473e.css",
-    "main.js": "/static/js/main.01bd45fb.js",
+    "main.css": "/static/css/main.187c0c09.css",
+    "main.js": "/static/js/main.80f670fc.js",
     "static/media/homepage1.mp4": "/static/media/homepage1.3057c3e6533fc183f0f9.mp4",
     "static/media/LAN-001-white.png": "/static/media/LAN-001-white.4cd2dfdc96667fc57a19.png",
     "static/media/ARK-001-white.png": "/static/media/ARK-001-white.7552533bfc49040f3d2c.png",
@@ -16,6 +16,7 @@
     "static/media/GraphicDesigningCoverHomeImage.webp": "/static/media/GraphicDesigningCoverHomeImage.ec3e7e14a8cbfeb070de.webp",
     "static/media/BrandingCoverHomeImage.webp": "/static/media/BrandingCoverHomeImage.7970592b5f9832414d5d.webp",
     "static/media/Subscribe.png": "/static/media/Subscribe.68f61a5d75abbc0d1333.png",
+    "static/media/BlogCover.webp": "/static/media/BlogCover.373a57ef613fb5bebd9c.webp",
     "static/media/DigiatalMarketingCoverHomeImage.webp": "/static/media/DigiatalMarketingCoverHomeImage.5bf82b550db91081435f.webp",
     "static/media/graphicsdesign.png": "/static/media/graphicsdesign.ac5cc1edae28e3741537.png",
     "static/media/WebDevelopmentCoverHomeImage.webp": "/static/media/WebDevelopmentCoverHomeImage.fedded6ba4610c9b69a1.webp",
@@ -119,11 +120,11 @@
     "static/media/User Experience Design.webp": "/static/media/User Experience Design.fda7b364511c5ead9577.webp",
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
-    "main.c219473e.css.map": "/static/css/main.c219473e.css.map",
-    "main.01bd45fb.js.map": "/static/js/main.01bd45fb.js.map"
+    "main.187c0c09.css.map": "/static/css/main.187c0c09.css.map",
+    "main.80f670fc.js.map": "/static/js/main.80f670fc.js.map"
   },
   "entrypoints": [
-    "static/css/main.c219473e.css",
-    "static/js/main.01bd45fb.js"
+    "static/css/main.187c0c09.css",
+    "static/js/main.80f670fc.js"
   ]
 }
