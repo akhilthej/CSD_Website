@@ -1,6 +1,6 @@
 import React from "react";
 import { Routes, Route, useLocation } from 'react-router-dom';
-import { Navbar, Footer, PrivacyPolicy, TermsnConditions, Disclaimer, ShippingandDelivery, ReturnPolicy, Error404, Home, Aboutus, Contactus, Services, Blogs, Clients} from './routes/Routes';
+import { Navbar, Footer, PrivacyPolicy, TermsnConditions, Disclaimer, ShippingandDelivery, ReturnPolicy, Error404, Home, Aboutus, Contactus, Services, Blog,BlogFullPost, Clients} from './routes/Routes';
 import Notification from "./components/Tools/Notifications";
 
 
@@ -45,7 +45,9 @@ WebDevelopment,BusinessWebsite,EcommerceWebsite,WebRevap,CRMERP,
 const routes = [
   { path: '/', element: <Home /> },
   { path: '/*', element: <Error404 /> },
-  { path: '/blogs', element: <Blogs /> },
+  { path: '/blog', element: <Blog /> },
+  { path: "/blog/:id", element: <BlogFullPost /> },
+
   { path: '/clients', element: <Clients /> },
   { path: '/aboutus', element: <Aboutus /> },
   { path: '/contactus', element: <Contactus /> },

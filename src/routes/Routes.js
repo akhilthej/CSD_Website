@@ -9,7 +9,8 @@ import Disclaimer from '../components/Documents/Disclaimer';
 
 import Error404 from '../components/Tools/Error404';
 import Home from './HOME';
-import Blogs from './BLOGS';
+import Blog from './Blogs/Blog';
+import BlogFullPost from './Blogs/BlogFullPost';
 import Clients from './Clients';
 import Aboutus from './Aboutus';
 import Contactus from './Contactus';
@@ -62,7 +63,7 @@ Navbar,Footer,
 PrivacyPolicy,TermsnConditions,Disclaimer,ShippingandDelivery,
 Error404,Home,
 
-Blogs,Clients,Aboutus,Contactus,
+Blog,BlogFullPost,Clients,Aboutus,Contactus,
 ReturnPolicy,
 
 /*Services */

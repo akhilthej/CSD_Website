@@ -1474,7 +1474,7 @@ const Navbar = () => {
                   <Menu.Items className="origin-top-right absolute right-0 mt-4 w-48 h-auto  sm:rounded-md  shadow-lg bg-gray-300  ring-black ring-opacity-5 divide-y divide-gray-400 z-50">
                     <Menu.Item>
                       {({ active }) => (
-                        <Link to="/blogs">
+                        <Link to="/blog">
                           <a
                             className={classNames(
                               active
@@ -1757,7 +1757,7 @@ const Navbar = () => {
 
                       <Menu.Item>
                         {({ active }) => (
-                          <Link to="/blogs">
+                          <Link to="/blog">
                             <a
                               className={classNames(
                                 active

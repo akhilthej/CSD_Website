@@ -1,5 +1,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
+import blogs from './BlogsData';
+import { Link } from 'react-router-dom';
 
 const Blogs = () => {
   return (
@@ -29,25 +31,33 @@ const Blogs = () => {
           </div>
         </section>
 
-        {/* Include the EmbeddedWebsite component */}
-        <EmbeddedWebsite />
+
+        <div className="container mx-auto mt-8">
+      <h1 className="text-3xl font-semibold mb-4">All Blogs</h1>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        {blogs.map((blog) => (
+          <div key={blog.id} className="bg-white p-4 rounded-md shadow-md">
+          <Link
+              to={`/blog/${blog.id}`}
+              className="text-blue-500 hover:underline mt-2 inline-block"
+            >
+            <img src={blog.coverImage} alt={blog.title} className="mb-4 rounded-md" />
+            <h2 className="text-xl font-semibold mb-2">{blog.title}</h2>
+            <p className="text-gray-600">{blog.excerpt}</p>
+            
+              Read More
+            </Link>
+          </div>
+        ))}
+      </div>
+    </div>
+
       </main>
     </div>
   );
 };
 
-const EmbeddedWebsite = () => {
-  return (
-    <div className="w-screen h-screen">
-      <iframe
-        title="Embedded Website"
-        className="w-full h-full"
-        src="https://cyberspacedigital.blogspot.com/"
-        frameBorder="0"
-        allowFullScreen
-      ></iframe>
-    </div>
-  );
-};
+
+
 
 export default Blogs;
