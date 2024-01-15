@@ -19,6 +19,9 @@ import {
 } from "../../assets/data/Imagedata";
 
 import ServicesTab from '../../components/ServicesTab';
+import ServicesCover from '../../assets/CoverImages/ServicesCoverImage.png'
+import HomeCommunityCover from '../../assets/Home/HomeCommunityCover.webp'
+import HomeResourceCover from '../../assets/Home/HomeResourceCover.webp'
 
 const SERVICES = () => {
   return (
@@ -35,7 +38,7 @@ const SERVICES = () => {
 
 
  {/* Title Card */}
- <section className="py-10 sm:py-40" style={{ backgroundImage: 'url("https://drive.google.com/uc?id=11GAD-il3FI4qTTGp9dFdDZx1ogX1NQ6B")', backgroundSize: 'cover', backgroundPosition: 'center' }}>
+ <section className="py-10 sm:py-40" style={{ backgroundImage:`url("${ServicesCover}")`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
   <div className="flex flex-col items-center md:flex-row justify-center">
     <div className="md:w-1/2 md:pr-10">
      
@@ -75,8 +78,7 @@ const SERVICES = () => {
 {/* WE BUILD */}
 <section
           style={{
-            backgroundImage:
-              'url("https://drive.google.com/uc?id=1YbaOxUrnvo_bq067RffGDgedztOaEMia")',
+            backgroundImage:`url("${HomeCommunityCover}")`,
             backgroundSize: "cover",
             backgroundPosition: "top",
           }}
@@ -196,8 +198,7 @@ const SERVICES = () => {
         {/*Explore */}
         <section
           style={{
-            backgroundImage:
-              'url("https://drive.google.com/uc?id=17CKOf3456AJ6ZjKhbaLuKGziUWrTUrAG")',
+            backgroundImage:`url("${HomeResourceCover}")`,
             backgroundSize: "cover",
             backgroundPosition: "center",
           }}
@@ -313,7 +314,7 @@ const SERVICES = () => {
                 <div className="hidden lg:flex lg:items-center lg:w-1/2 lg:justify-center">
                   <img
                     className="w-[28rem] h-[28rem] object-cover xl:w-[34rem] xl:h-[34rem] "
-                    src="https://drive.google.com/uc?id=17CKOf3456AJ6ZjKhbaLuKGziUWrTUrAG"
+                    src={HomeResourceCover}
                     alt=""
                   />
                 </div>

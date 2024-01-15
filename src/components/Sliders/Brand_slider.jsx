@@ -2,6 +2,16 @@ import React from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import DFC from '../../assets/Clients/DFC.png'
+import AlohaTechLogo from '../../assets/Clients/AlohaTechLogo.png'
+import Archivitus from '../../assets/Clients/Archivitus.png'
+import iliha from '../../assets/Clients/iliha.png'
+import labelanuneni from '../../assets/Clients/labelanuneni.png'
+import latonskincare from '../../assets/Clients/latonskincare.png'
+import leormedia from '../../assets/Clients/leormedia.pmg.png'
+import ragingtuskers from '../../assets/Clients/ragingtuskers.png'
+import serpsit from '../../assets/Clients/serpsit.png'
+import Prasidda from '../../assets/Clients/Prasidda_logo.png'
 
 const BrandCarousel = () => {
   const settings = {
@@ -16,16 +26,16 @@ const BrandCarousel = () => {
   };
 
   const brandImages = [
-    'https://drive.google.com/uc?id=1RZMqCqOvneXMi4ZBinx5RaCzmWuzISHo',
-    'https://drive.google.com/uc?id=1iyWLya_rxwZCn2bxJOiGNSpbh6ka7X5V',
-    'https://drive.google.com/uc?id=1KBkqDRYwja9aGwN5i7bi9QBdI9ke4-z3',
-    'https://drive.google.com/uc?id=1_9GutGyMCoGKykaJhq5_sc-WAtIi85n5',
-    'https://drive.google.com/uc?id=1azO65To3POLRWMgAh7MGoX6k6ZvNd-Lg',
-    'https://drive.google.com/uc?id=1VpKn4L8DYkh6gdz_7uGvXYT-UQCoBkJw',
-    'https://drive.google.com/uc?id=1V654L6nrx8-ARIS4FDfeIuHBNhR2rqyg',
-    'https://drive.google.com/uc?id=1Nkn6m0KqOJvHaCKYEJPX6xpKiipy_kMH',
-    'https://drive.google.com/uc?id=15obqrvDYs_uHE8EN4zMZi16G1g2K1oms',
-    'https://drive.google.com/uc?id=1aOO_Ag4yFA2jmylZTeuOODuEae8QCQum',
+    DFC,
+    AlohaTechLogo,
+    labelanuneni,
+    iliha,
+    latonskincare,
+    Prasidda,
+    ragingtuskers,
+    leormedia,
+    serpsit,
+    Archivitus,
     
     // Add more image URLs here
   ];

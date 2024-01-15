@@ -6,7 +6,7 @@ import { GlobalData} from '../../assets/data/GlodalData';
 
 const BlogFullPost = () => {
   const { id } = useParams();
-  const blog = blogs.find((blog) => blog.id === parseInt(id));
+  const blog = blogs.find((blog) => blog.id.toLowerCase() === id.toLowerCase());
 
   if (!blog) {
     return <p>Blog not found</p>;

@@ -1,5 +1,13 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
+import aboutcover from '../assets/Aboutus/about.webp'
+import CEO from '../assets/Aboutus/Founder.webp'
+import CTO from '../assets/Aboutus/CTO.webp'
+import COO from '../assets/Aboutus/COO.webp'
+import Chaitanya from '../assets/Aboutus/chaitanya.webp'
+import SaiKiran from '../assets/Aboutus/saikiran.webp'
+import Srikar from '../assets/Aboutus/srikar.webp'
+import Varun from '../assets/Aboutus/varun.webp'
 
 const Aboutus = () => {
   return (
@@ -34,7 +42,7 @@ const Aboutus = () => {
                     
                 </div>
                 <div className="w-full lg:w-8/12 lg:h-3/5">
-                    <img className="w-full h-full rounded-2xl shadow-2xl" src= "https://drive.google.com/uc?id=1SW0pCjIgBzYPnmVrq7lpHTh8SpSyYoWV" alt="A group of People" />
+                    <img className="w-full h-full rounded-2xl shadow-2xl" src= {aboutcover} alt="A group of People" />
                     <p className="font-normal text-base leading-6 mt-10 text-black ">We have had many successes and also faced many challenges, 
                     but we have learned from our mistakes and have grown as a team. Now, we are a team of experts who have worked with a variety of industries and have developed a deep 
                     understanding of what works best for each of them.<br/>We are proud of our achievements and are excited about the future. We are committed to continuously learning and 
@@ -74,7 +82,7 @@ const Aboutus = () => {
       <div className="space-y-4 text-center">
         <img
           className=" w-64 h-64 mx-auto object-cover rounded-xl md:w-40 md:h-40 lg:w-64 lg:h-64"
-          src="https://drive.google.com/uc?id=1bwO3a9nrCA4R64Y582Os7GCI7GPpu5Qt"
+          src={COO}
           loading="lazy"
           width={640}
           height={805}
@@ -87,7 +95,7 @@ const Aboutus = () => {
       <div className="space-y-4 text-center">
         <img
           className=" w-64 h-64 mx-auto object-cover rounded-xl md:w-48 md:h-64 lg:w-64 lg:h-80"
-          src="https://drive.google.com/uc?id=1MOs5X4WY0fcWTD72c0ukrUzaEzHcLpQ4"
+          src={CEO}
           loading="lazy"
           width={1000}
           height={667}
@@ -101,7 +109,7 @@ const Aboutus = () => {
       <div className="space-y-4 text-center">
         <img
           className="w-64 h-64 mx-auto object-cover rounded-xl md:w-40 md:h-40 lg:w-64 lg:h-64"
-          src="https://drive.google.com/uc?id=1envmd78e65ibA34_5MPUWgurexFn7IGu"
+          src={CTO}
           loading="lazy"
           width={1000}
           height={667}
@@ -132,7 +140,7 @@ const Aboutus = () => {
       <div className="flex flex-col items-center p-8 transition-colors duration-200 transform cursor-pointer group hover:bg-yellow-600 rounded-xl">
         <img
           className="object-cover w-32 h-40 rounded-full ring-4 ring-gray-300"
-          src="https://drive.google.com/uc?id=1BGwKANvkHsETmSysa49o23urActBB12a"
+          src={Chaitanya}
         />
         <h2 className="mt-4 text-2xl font-semibold  capitalize text-black group-hover:text-black">
           Chaitanya Teja
@@ -189,7 +197,7 @@ const Aboutus = () => {
       <div className="flex flex-col items-center p-8 transition-colors duration-200 transform cursor-pointer group hover:bg-yellow-600 rounded-xl">
         <img
           className="object-cover w-32 h-40 rounded-full ring-4 ring-gray-300"
-          src="https://drive.google.com/uc?id=1ANDL7Gfan4ejG2sMHqZVjanODSk8yvlB"
+          src={Srikar}
         />
         <h2 className="mt-4 text-2xl font-semibold capitalize text-black group-hover:text-black">
           Srikar
@@ -247,7 +255,7 @@ const Aboutus = () => {
       <div className="flex flex-col items-center p-8 transition-colors duration-200 transform cursor-pointer group hover:bg-yellow-600 rounded-xl">
         <img
           className="object-cover w-32 h-40 rounded-full ring-4 ring-gray-300"
-          src="https://drive.google.com/uc?id=1TVZBZvfxP5yIPcWGZVkkuNFg_XVQc5UY"
+          src={Varun}
         />
         <h2 className="mt-4 text-2xl font-semibold  capitalize text-black group-hover:text-black">
           Tej Varun
@@ -304,7 +312,7 @@ const Aboutus = () => {
       <div className="flex flex-col items-center p-8 transition-colors duration-200 transform cursor-pointer group hover:bg-yellow-600 rounded-xl">
         <img
           className="object-cover w-32 h-40 rounded-full ring-4 ring-gray-300"
-          src="https://drive.google.com/uc?id=1jLmasDLG1HHlT4MoK4_IBQyoDvaC8_oV"
+          src={SaiKiran}
         />
         <h2 className="mt-4 text-2xl font-semibold  capitalize text-black group-hover:text-black">
           Sai Kiran

@@ -7,6 +7,9 @@ import ServicesTab from "../components/ServicesTab";
 import { HomeVideo } from "../assets/data/Imagedata";
 import ImageSlider from "../components/Sliders/ImageSlider";
 
+import HomeCommunityCover from '../assets/Home/HomeCommunityCover.webp'
+import HomeResourceCover from '../assets/Home/HomeResourceCover.webp'
+
 import {
   FixedPrice,
   OntimeDelivery,
@@ -109,7 +112,7 @@ const Home = () => {
         <section
           style={{
             backgroundImage:
-              'url("https://drive.google.com/uc?id=1YbaOxUrnvo_bq067RffGDgedztOaEMia")',
+            `url("${HomeCommunityCover}")`,
             backgroundSize: "cover",
             backgroundPosition: "top",
           }}
@@ -227,7 +230,7 @@ const Home = () => {
         <section
           style={{
             backgroundImage:
-              'url("https://drive.google.com/uc?id=17CKOf3456AJ6ZjKhbaLuKGziUWrTUrAG")',
+            `url("${HomeResourceCover}")`,
             backgroundSize: "cover",
             backgroundPosition: "center",
           }}
@@ -343,7 +346,7 @@ const Home = () => {
                 <div className="hidden lg:flex lg:items-center lg:w-1/2 lg:justify-center">
                   <img
                     className="w-[28rem] h-[28rem] object-cover xl:w-[34rem] xl:h-[34rem] "
-                    src="https://drive.google.com/uc?id=17CKOf3456AJ6ZjKhbaLuKGziUWrTUrAG"
+                    src={HomeResourceCover}
                     alt=""
                   />
                 </div>

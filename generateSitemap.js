@@ -6,7 +6,6 @@ const websiteURL = 'https://cyberspacedigital.in';
 
 const urls = [
     '/',
-    '/blogs',
     '/clients',
     '/reviews',
     '/aboutus',
@@ -116,7 +115,10 @@ const urls = [
     '/radio-advertising',
     '/tv-advertising',
     '/ingame-advertising',
-    '/theater-advertising'
+    '/theater-advertising',
+
+   ' /blog',
+   ' /blog/unleashingthepower-of-web-development-for-business-growth',
 ];
 
 const root = xmlbuilder.create('urlset', { version: '1.0', encoding: 'UTF-8' });

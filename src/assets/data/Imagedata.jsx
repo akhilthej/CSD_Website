@@ -7,6 +7,7 @@ import BrandingCoverHomeImage from '../../assets/CoverImages/BrandingCoverHomeIm
 import DigiatalMarketingCoverHomeImage from '../../assets/CoverImages/DigiatalMarketingCoverHomeImage.webp'
 import GraphicDesigningCoverHomeImage from '../../assets/CoverImages/GraphicDesigningCoverHomeImage.webp'
 import WebDevelopmentCoverHomeImage from '../../assets/CoverImages/WebDevelopmentCoverHomeImage.webp'
+import BlogCoverimage from '../../assets/CoverImages/BlogCover.webp'
 
 import HeroCoverBG from '../../assets/Common/Home/HeroCoverBG.png'
 
@@ -62,7 +63,7 @@ export {
   HomeVideo,
 
   /*Cover Images */
-  AdvertisingCoverHomeImage,BrandingCoverHomeImage,DigiatalMarketingCoverHomeImage,GraphicDesigningCoverHomeImage,WebDevelopmentCoverHomeImage,
+  AdvertisingCoverHomeImage,BrandingCoverHomeImage,DigiatalMarketingCoverHomeImage,GraphicDesigningCoverHomeImage,WebDevelopmentCoverHomeImage,BlogCoverimage,
 
   /*Icons*/
   Advertising,Branding,DigitalMarketing,GraphicDesign,MobileAppDevelopment,WebDevelopment,SoftwareDeveloper,
