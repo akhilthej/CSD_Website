@@ -1548,20 +1548,14 @@ const Navbar = () => {
             </li>
 
             {/*mobile  menu */}
-            <li className="p-4 lg:hidden">
-              <Menu as="div" className="relative inline-block text-left">
+            <li className="p-4  lg:hidden z-50">
+              <Menu as="div" className="relative inline-block text-left ">
                 <div>
-                  <Menu.Button
-                    className="text-3xl"
-                    onClick={() => setIsMenuOpen(!isMenuOpen)}
-                  >
-                    {isMenuOpen ? "x" : "☰"}
-                  </Menu.Button>
+                  <Menu.Button className=" text-3xl">☰</Menu.Button>
                 </div>
 
                 <Transition
                   as={Fragment}
-                  show={isMenuOpen}
                   enter="transition ease-out duration-100"
                   enterFrom="transform opacity-0 scale-95"
                   enterTo="transform opacity-100 scale-100"
@@ -1569,276 +1563,94 @@ const Navbar = () => {
                   leaveFrom="transform opacity-100 scale-100"
                   leaveTo="transform opacity-0 scale-95"
                 >
-                  <Menu.Items className="text-center origin-top-right fixed sm:absolute right-0 mt-4 w-screen sm:w-56 h-screen sm:h-auto sm:rounded-md shadow-lg bg-gray-300 ring-black ring-opacity-5 divide-y divide-gray-400 z-50">
-                    <div>
-                      <Menu as="div" className="relative inline-block ">
-                        <div>
-                          <Menu.Button className="text-black text-center hover:bg-yellow-500 px-20 py-2 text-sm lg:w-screen  ">
+                  <Menu.Items className="origin-top-right absolute right-0 mt-4 w-48 h-auto  sm:rounded-md  shadow-lg bg-gray-300  ring-black ring-opacity-5 divide-y divide-gray-400 z-50">
+                  <Menu.Item>
+                      {({ active }) => (
+                        <Link to="/services">
+                          <a
+                            className={classNames(
+                              active
+                                ? "bg-yellow-500 text-white"
+                                : "text-black",
+                              "block px-4 py-2 text-sm"
+                            )}
+                          >
                             Services
-                          </Menu.Button>
-                        </div>
-                        <Transition
-                          as={Fragment}
-                          enter="transition ease-out duration-100"
-                          enterFrom="transform opacity-0 scale-95"
-                          enterTo="transform opacity-100 scale-100"
-                          leave="transition ease-in duration-75"
-                          leaveFrom="transform opacity-100 scale-100"
-                          leaveTo="transform opacity-0 scale-95"
-                        >
-                          <Menu.Items className="origin-top-right text-center fixed right-0 w-screen sm:w-56 sm:h-auto sm:rounded-md shadow-lg bg-gray-400 ring-black ring-opacity-5 divide-y divide-gray-400 focus:outline-none z-50">
-                            <div className="flex flex-wrap">
-                              {/* Left Column */}
-                              <div className="w-1/2">
-                                <Menu.Item>
-                                  {({ active }) => (
-                                    <Link to="/best-digital-marketing-company">
-                                      <a
-                                        className={classNames(
-                                          active
-                                            ? "text-white"
-                                            : "text-white font-bold",
-                                          "block py-10 text-sm"
-                                        )}
-                                        style={{
-                                          backgroundImage:
-                                            'url("https://drive.google.com/uc?id=1rwFsa4DIUEC04TDMp_8iQMxgSTGyEn9m")',
-                                          backgroundSize: "cover",
-                                          backgroundPosition: "center",
-                                        }}
-                                        onClick={() => setIsMenuOpen(false)}
-                                      >
-                                        Digital Marketing
-                                      </a>
-                                    </Link>
-                                  )}
-                                </Menu.Item>
-                                <Menu.Item>
-                                  {({ active }) => (
-                                    <Link to="/best-web-developement-company">
-                                      <a
-                                        className={classNames(
-                                          active
-                                            ? " text-white"
-                                            : "text-white font-bold",
-                                          "block py-10 text-sm "
-                                        )}
-                                        style={{
-                                          backgroundImage:
-                                            'url("https://drive.google.com/uc?id=1YOJ-Sjp3oiidK-JivRLm10UzunYuryOg")',
-                                          backgroundSize: "cover",
-                                          backgroundPosition: "center",
-                                        }}
-                                        onClick={() => setIsMenuOpen(false)}
-                                      >
-                                        Web Development
-                                      </a>
-                                    </Link>
-                                  )}
-                                </Menu.Item>
-                                <Menu.Item>
-                                  {({ active }) => (
-                                    <Link to="/best-graphic-designing-company">
-                                      <a
-                                        className={classNames(
-                                          active
-                                            ? " text-white"
-                                            : "text-white font-bold",
-                                          "block py-10 text-sm "
-                                        )}
-                                        style={{
-                                          backgroundImage:
-                                            'url("https://drive.google.com/uc?id=14rC7T12fy5Kr7LKS0_f1PNGazeqGdu8Y")',
-                                          backgroundSize: "cover",
-                                          backgroundPosition: "center",
-                                        }}
-                                        onClick={() => setIsMenuOpen(false)}
-                                      >
-                                        MultiMedia
-                                      </a>
-                                    </Link>
-                                  )}
-                                </Menu.Item>
-                              </div>
+                          </a>
+                        </Link>
+                      )}
+                    </Menu.Item>
+                    
+                    <Menu.Item>
+                      {({ active }) => (
+                        <Link to="/blog">
+                          <a
+                            className={classNames(
+                              active
+                                ? "bg-yellow-500 text-white"
+                                : "text-black",
+                              "block px-4 py-2 text-sm"
+                            )}
+                          >
+                            Blogs
+                          </a>
+                        </Link>
+                      )}
+                    </Menu.Item>
 
-                              {/* Right Column */}
-                              <div className="w-1/2">
-                                <Menu.Item>
-                                  {({ active }) => (
-                                    <Link to="/best-brand-services-company">
-                                      <a
-                                        className={classNames(
-                                          active
-                                            ? " text-white"
-                                            : "text-white font-bold",
-                                          "block py-10 text-sm "
-                                        )}
-                                        style={{
-                                          backgroundImage:
-                                            'url("https://drive.google.com/uc?id=1QK8qr84IZRLXiFvrWz7kVrqHpjq_7Ms9")',
-                                          backgroundSize: "cover",
-                                          backgroundPosition: "center",
-                                        }}
-                                        onClick={() => setIsMenuOpen(false)}
-                                      >
-                                        Branding
-                                      </a>
-                                    </Link>
-                                  )}
-                                </Menu.Item>
-                                <Menu.Item>
-                                  {({ active }) => (
-                                    <Link to="/best-advertising-company">
-                                      <a
-                                        className={classNames(
-                                          active
-                                            ? " text-white"
-                                            : "text-white font-bold",
-                                          "block py-10 text-sm "
-                                        )}
-                                        style={{
-                                          backgroundImage:
-                                            'url("https://drive.google.com/uc?id=1mboisCG0oJ4En5-iOFqt3ma0WLTb7Y6d")',
-                                          backgroundSize: "cover",
-                                          backgroundPosition: "center",
-                                        }}
-                                        onClick={() => setIsMenuOpen(false)}
-                                      >
-                                        Advertisements
-                                      </a>
-                                    </Link>
-                                  )}
-                                </Menu.Item>
-                                <Menu.Item>
-                                  {({ active }) => (
-                                    <Link to="/best-mobile-app-development-company">
-                                      <a
-                                        className={classNames(
-                                          active
-                                            ? " text-white"
-                                            : "text-white font-bold",
-                                          "block py-10 text-sm "
-                                        )}
-                                        style={{
-                                          backgroundImage:
-                                            'url("https://drive.google.com/uc?id=1E3eQlScwaZ2DGrZPqN5Ve7qaixUaCKRc")',
-                                          backgroundSize: "cover",
-                                          backgroundPosition: "center",
-                                        }}
-                                        onClick={() => setIsMenuOpen(false)}
-                                      >
-                                        Mobile App
-                                      </a>
-                                    </Link>
-                                  )}
-                                </Menu.Item>
-                              </div>
-                            </div>
-                            <Menu.Item>
-                              {({ active }) => (
-                                <Link to="/services">
-                                  <a
-                                    className={classNames(
-                                      active
-                                        ? "  text-blue-700 bg-gray-500 "
-                                        : "text-blue-700 bg-gray-300",
-                                      "block py-2 text-xs "
-                                    )}
-                                    onClick={() => setIsMenuOpen(false)}
-                                  >
-                                    VIEW ALL SERVICES ➤
-                                  </a>
-                                </Link>
-                              )}
-                            </Menu.Item>
-                          </Menu.Items>
-                        </Transition>
-                      </Menu>
+                    
 
-                      <Menu.Item>
-                        {({ active }) => (
-                          <Link to="/blog">
-                            <a
-                              className={classNames(
-                                active
-                                  ? "bg-yellow-500 text-white"
-                                  : "text-black",
-                                "block px-4 py-2 text-sm"
-                              )} onClick={() => setIsMenuOpen(false)}
-                            >
-                              Blogs
-                            </a>
-                          </Link>
-                        )}
-                      </Menu.Item>
-                     
-                      <Menu.Item>
-                        {({ active }) => (
-                          <Link to="/contactus">
-                            <a
-                              className={classNames(
-                                active
-                                  ? "bg-yellow-500 text-white"
-                                  : "text-black",
-                                "block px-4 py-2 text-sm"
-                              )} onClick={() => setIsMenuOpen(false)}
-                            >
-                              Our Clients
-                            </a>
-                          </Link>
-                        )}
-                      </Menu.Item>
-                      <Menu.Item>
-                        {({ active }) => (
-                          <Link to="/aboutus">
-                            <a
-                              className={classNames(
-                                active
-                                  ? "bg-yellow-500 text-white"
-                                  : "text-black",
-                                "block px-4 py-2 text-sm"
-                              )} onClick={() => setIsMenuOpen(false)}
-                            >
-                              About us
-                            </a>
-                          </Link>
-                        )}
-                      </Menu.Item>
-                      <Menu.Item>
-                        {({ active }) => (
-                          <Link to="/contactus">
-                            <a
-                              className={classNames(
-                                active
-                                  ? "bg-yellow-500 text-white"
-                                  : "text-black",
-                                "block px-4 py-2 text-sm"
-                              )} onClick={() => setIsMenuOpen(false)}
-                            >
-                              Contact us
-                            </a>
-                          </Link>
-                        )}
-                      </Menu.Item>
+                    <Menu.Item>
+                      {({ active }) => (
+                        <Link to="/clients">
+                          <a
+                            className={classNames(
+                              active
+                                ? "bg-yellow-500 text-white"
+                                : "text-black",
+                              "block px-4 py-2 text-sm"
+                            )}
+                          >
+                            Clients
+                          </a>
+                        </Link>
+                      )}
+                    </Menu.Item>
 
-                      <div className="social-media-icons space-x-2  text-center object-center">
-                        <div>
-                          <span className="text-xs text-center ">SOCIAL</span>
-                        </div>
-                        <a href="https://www.facebook.com/your-facebook-page">
-                          <FontAwesomeIcon icon={faFacebook} />
-                        </a>
-                        <a href="https://www.instagram.com/your-instagram-profile">
-                          <FontAwesomeIcon icon={faInstagram} />
-                        </a>
-                        <a href="https://wwwlinkedin.com/in/your-linkedin-profile">
-                          <FontAwesomeIcon icon={faLinkedin} />
-                        </a>
-                        <div className=" bottom-0 text-center w-full p-4 text-xs text-gray-500">
-                          Copyright &copy; 2020 - {currentYear} CyberSpaceDigital
-                        </div>
-                      </div>
-                    </div>
+                    <div />
+                    <Menu.Item>
+                      {({ active }) => (
+                        <Link to="/aboutus">
+                          <a
+                            className={classNames(
+                              active
+                                ? "bg-yellow-500 text-white"
+                                : "text-black",
+                              "block px-4 py-2 text-sm"
+                            )}
+                          >
+                            About us
+                          </a>
+                        </Link>
+                      )}
+                    </Menu.Item>
+
+                    <Menu.Item>
+                      {({ active }) => (
+                        <Link to="/contactus">
+                          <a
+                            className={classNames(
+                              active
+                                ? "bg-yellow-500 text-white"
+                                : "text-black",
+                              "block px-4 py-2 text-sm"
+                            )}
+                          >
+                            Contact
+                          </a>
+                        </Link>
+                      )}
+                    </Menu.Item>
                   </Menu.Items>
                 </Transition>
               </Menu>
