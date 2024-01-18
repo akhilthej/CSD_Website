@@ -1,5 +1,5 @@
 /*Videos */
-import HomeVideo from '../../assets/Videos/homepage1.mp4';
+import HomeVideo from '../../assets/Videos/homepage1.webm';
 
 /*Cover Images */
 import AdvertisingCoverHomeImage from '../../assets/CoverImages/AdvertisingCoverHomeImage.webp'

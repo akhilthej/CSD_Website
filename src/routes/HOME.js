@@ -72,10 +72,9 @@ const Home = () => {
             width="80%"
             height="auto"
             autoPlay
-            muted
             playsInline
           >
-            <source src={HomeVideo} type="video/mp4" />
+            <source src={HomeVideo} type="video/webm" />
           </video>
         </div>
 
