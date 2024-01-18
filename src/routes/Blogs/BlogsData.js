@@ -25,7 +25,7 @@ const BlogsData = [
       **Conclusion:**
       In conclusion, the role of web development in the success of businesses cannot be overstated. A professionally designed and developed website serves as a powerful marketing tool, enabling businesses to reach a global audience. As businesses in Visakhapatnam and Vizag seek to establish a strong online presence, choosing a reliable web development company like Cyber Space Digital becomes crucial. Visit [www.cyberspacedigital.in](https://www.cyberspacedigital.in) today to explore how Cyber Space Digital can elevate your business's online presence through innovative web design and development solutions.
     `,
-    coverImage: 'https://drive.google.com/uc?id=1NbUC1xoO1p4-aKsFdj60zqmks_0hMYEg'
+    coverImage: 'https://www.creativeitinstitute.com/images/course/course_1663052056.jpg'
   },
   {
     id: 'Strategic Social Media Marketing: Elevating Your Business in the Digital Landscape',
@@ -59,7 +59,7 @@ const BlogsData = [
   
       As businesses navigate the competitive digital landscape, the role of social media marketing and digital marketing cannot be overstated. Embrace a strategic approach with Cyber Space Digital, your partner in achieving digital dominance. Explore [www.cyberspacedigital.in](https://www.cyberspacedigital.in) to discover how their expertise can elevate your business through innovative social media and digital marketing solutions.
     `,
-    coverImage: 'https://drive.google.com/uc?id=106QONwC8XY8k7-uXOePCAaaAlNUJx6gd'
+    coverImage: 'https://hotdogmarketing.net/wp-content/uploads/2021/11/110321-HDM-Social-Media-Marketing-02-1024x576.png'
   }
   
 

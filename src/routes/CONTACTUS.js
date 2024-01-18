@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Helmet } from "react-helmet-async";
+import Contactcover from '../assets/CoverImages/Contact_us.png'
 import WebsiteQuotation from '../components/Forms/WebsiteQuotation'
 
 const ContactForm = () => {
@@ -73,8 +74,7 @@ const ContactForm = () => {
      <section
         className="py-10 sm:py-40"
         style={{
-          backgroundImage:
-            'url("https://drive.google.com/uc?id=1-RKGIgPQ6gfNDnoW1jr6R_TzB9P_12ge")',
+          backgroundImage:`url("${Contactcover}")`,
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}

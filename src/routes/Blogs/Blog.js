@@ -3,7 +3,7 @@ import { Helmet } from 'react-helmet-async';
 import blogs from './BlogsData';
 import { Link } from 'react-router-dom';
 
-import { BlogCoverimage } from '../../assets/data/Imagedata';
+import BlogCoverimage from '../../assets/CoverImages/BlogCover.webp';
 
 const Blogs = () => {
   return (
