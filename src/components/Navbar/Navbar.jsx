@@ -2,6 +2,8 @@ import { Fragment, useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Menu, Transition } from "@headlessui/react";
 
+import NavImages from '../../assets/Home/HomeResourceCover.webp'
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faBuilding,
@@ -60,11 +62,7 @@ import {
   faDollarSign,
   faShoppingBag,
 } from "@fortawesome/free-solid-svg-icons";
-import {
-  faFacebook,
-  faInstagram,
-  faLinkedin,
-} from "@fortawesome/free-brands-svg-icons";
+
 
 import NavbarLogo from "./csdv2Logonavbar.svg";
 
@@ -85,11 +83,11 @@ const Navbar = () => {
   const currentYear = new Date().getFullYear();
   
   const NavImages = {
-    link1: "https://drive.google.com/uc?id=17CKOf3456AJ6ZjKhbaLuKGziUWrTUrAG",
-    link2: "https://drive.google.com/uc?id=17CKOf3456AJ6ZjKhbaLuKGziUWrTUrAG",
-    link3: "https://drive.google.com/uc?id=17CKOf3456AJ6ZjKhbaLuKGziUWrTUrAG",
-    link4: "https://drive.google.com/uc?id=17CKOf3456AJ6ZjKhbaLuKGziUWrTUrAG",
-    link5: "https://drive.google.com/uc?id=17CKOf3456AJ6ZjKhbaLuKGziUWrTUrAG",
+    link1: 'https://cyberspacedigital.in/static/media/HomeResourceCover.9f085fb821100f9608e6.webp',
+    link2: "https://cyberspacedigital.in/static/media/HomeResourceCover.9f085fb821100f9608e6.webp",
+    link3: "https://cyberspacedigital.in/static/media/HomeResourceCover.9f085fb821100f9608e6.webp",
+    link4: "https://cyberspacedigital.in/static/media/HomeResourceCover.9f085fb821100f9608e6.webp",
+    link5: "https://cyberspacedigital.in/static/media/HomeResourceCover.9f085fb821100f9608e6.webp",
   };
 
   const webDevelopmentLinks = [

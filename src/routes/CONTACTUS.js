@@ -100,6 +100,11 @@ const ContactForm = () => {
                     Email
                   </a>
                 </a>
+                <a href="tel:+91-814-340-7758">
+                  <a className="transform rounded-md bg-white px-5 py-3 font-medium text-black transition-colors hover:bg-black hover:text-white">
+                    Phone
+                  </a>
+                </a>
               
                 <a href="https://api.whatsapp.com/send?phone=918143407758&text=Welcome%20to%20Cyberspacedigital">
                   <a className="transform rounded-md bg-white px-5 py-3 font-medium text-black transition-colors hover:bg-black hover:text-white">
