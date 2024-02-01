@@ -38,7 +38,7 @@ const MultiMedia = () => {
 
 
  {/* Title Card */}
- <section className="py-10 sm:py-40" style={{ backgroundImage: 'url("https://drive.google.com/uc?id=14rC7T12fy5Kr7LKS0_f1PNGazeqGdu8Y")', backgroundSize: 'cover', backgroundPosition: 'center' }}>
+ <section className="py-10 sm:py-40" style={{ backgroundImage: 'url("https://raw.githubusercontent.com/akhilthej/CSD_Website/c95062aaf0108bfcb5f6d078e5b59238a6ec1605/src/assets/CoverImages/GraphicDesigningCoverImage.png")', backgroundSize: 'cover', backgroundPosition: 'center' }}>
   <div className="flex flex-col items-center md:flex-row justify-center">
     <div className="md:w-1/2 md:pr-10">
      

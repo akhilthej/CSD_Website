@@ -31,7 +31,7 @@ const Clients = () => {
         className="py-28 sm:py-40"
         style={{
           backgroundImage:
-            'url("https://drive.google.com/uc?id=1YOJ-Sjp3oiidK-JivRLm10UzunYuryOg")',
+            'url("https://raw.githubusercontent.com/akhilthej/CSD_Website/c95062aaf0108bfcb5f6d078e5b59238a6ec1605/src/assets/CoverImages/ServicesCoverImage.png")',
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}

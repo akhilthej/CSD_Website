@@ -295,8 +295,16 @@ const ContactForm = () => {
           {isPopupOpen && (
             <WebsiteQuotation onClose={handlePopupClose} />
           )}
+
+
+          
     </div>
 
+    <a href="https://rzp.io/i/Zbfb62Uk">
+                  <a className="transform rounded-md bg-white px-5 py-3 font-medium text-black transition-colors hover:bg-black hover:text-white">
+                    Subscribe
+                  </a></a>
+ 
 
       {/*FAQ*/}
       <div className="flex">

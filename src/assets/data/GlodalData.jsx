@@ -15,6 +15,7 @@ import MarketingAutomation from '../Services_icons/DigitalMarketingIcons/Marketi
 import RemarketingandRetargeting from '../Services_icons/DigitalMarketingIcons/RemarketingandRetargeting.webp'
 import InfluencerMarketing from '../Services_icons/DigitalMarketingIcons/influencer.webp'
 
+import WebDevelopmentServicescover from '../CoverImages/WebDevelopmentCoverHomeImage.webp'
 import BusinessWebsites from '../Services_icons/WebDevelopment/businesswebsite.webp'
 import Ecommerce from '../Services_icons/WebDevelopment/ecommerce.webp'
 import WebRecamp from '../Services_icons/WebDevelopment/WebRevamp.webp'
