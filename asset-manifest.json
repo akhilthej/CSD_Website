@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.2e45ad21.css",
-    "main.js": "/static/js/main.aa890276.js",
+    "main.js": "/static/js/main.5cd3584a.js",
     "static/media/homepage1.webm": "/static/media/homepage1.87aef36ca97ae058373c.webm",
     "static/media/LAN-001-white.png": "/static/media/LAN-001-white.4cd2dfdc96667fc57a19.png",
     "static/media/ARK-001-white.png": "/static/media/ARK-001-white.7552533bfc49040f3d2c.png",
     "static/media/ILA-001-white.png": "/static/media/ILA-001-white.f564de403c6562c37412.png",
     "static/media/LAC-001-white.png": "/static/media/LAC-001-white.7fb1c8bcbc341190ece4.png",
     "static/media/ServicesCoverImage.png": "/static/media/ServicesCoverImage.89008e44538e173bfd46.png",
+    "static/media/COO.webp": "/static/media/COO.1545b4ea1fdee0539f9b.webp",
     "static/media/Contact_us.png": "/static/media/Contact_us.6990aabf42791a1bf917.png",
     "static/media/LAN-002.png": "/static/media/LAN-002.2866f1de5e70551c3b7a.png",
     "static/media/LAC-002.png": "/static/media/LAC-002.95d8b66361c91a1d4c24.png",
@@ -60,7 +61,6 @@
     "static/media/App Security.webp": "/static/media/App Security.75ce135c029a0559a57c.webp",
     "static/media/TShirt and Merchandise Design.webp": "/static/media/TShirt and Merchandise Design.c1c258b1e749a9e05d79.webp",
     "static/media/srikar.webp": "/static/media/srikar.e2f23b8e1173b1a90422.webp",
-    "static/media/COO.webp": "/static/media/COO.d897347dbfc06c419cc5.webp",
     "static/media/affiliatemarketing.webp": "/static/media/affiliatemarketing.45a43bea73c866517e12.webp",
     "static/media/Rebranding Services.webp": "/static/media/Rebranding Services.12e527c9db1b68aaeb00.webp",
     "static/media/Brand Awareness Campaigns.webp": "/static/media/Brand Awareness Campaigns.685700c420c4bff06d50.webp",
@@ -143,10 +143,10 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "main.2e45ad21.css.map": "/static/css/main.2e45ad21.css.map",
-    "main.aa890276.js.map": "/static/js/main.aa890276.js.map"
+    "main.5cd3584a.js.map": "/static/js/main.5cd3584a.js.map"
   },
   "entrypoints": [
     "static/css/main.2e45ad21.css",
-    "static/js/main.aa890276.js"
+    "static/js/main.5cd3584a.js"
   ]
 }
