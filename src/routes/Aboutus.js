@@ -88,7 +88,7 @@ const Aboutus = () => {
           height={805}
         />
         <div>
-          <h4 className="text-2xl text-black">Pavan Kumar</h4>
+          <h4 className="text-2xl text-black">Jayaraj Gedela</h4>
           <span className="block text-sm text-gray-900">Chief Operations Officer</span>
         </div>
       </div>
