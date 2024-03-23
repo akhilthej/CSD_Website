@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { Link } from 'react-router-dom';
-import WebsiteQuotation from '../../../components/Forms/WebsiteQuotation';
 
 import {
   ecommercewebsite,webrevamp,crm_ermpannel,
@@ -8,16 +7,6 @@ import {
 
 
 const BusinessWebsite = () => {
-  {/*Popup Logic*/}
-  const [isPopupOpen, setPopupOpen] = useState(false);
-
-  const handleQuotationClick = () => {
-    setPopupOpen(true);
-  };
-
-  const handlePopupClose = () => {
-    setPopupOpen(false);
-  }; {/*Popup Logic End*/}
 
   return (
     <div>
@@ -54,17 +43,7 @@ const BusinessWebsite = () => {
      </div>
    </section>
    
-   {/*PopupButton */}
-   <div className="flex justify-center items-center py-5">
-   <button  className="flex justify-center items-center py-5" onClick={handleQuotationClick}>
-        <section className="text-black text-center bg-yellow-500 block w-full rounded-3xl border hover:border-black px-12 py-3 text-sm font-medium hover:text-black hover:bg-white sm:w-auto">
-          Website Quotation <p className="text-xs text-black">Get your Website Quotation now! </p>
-        </section>
-        </button>
-          {isPopupOpen && (
-            <WebsiteQuotation onClose={handlePopupClose} />
-          )}
-    </div>
+   
 
 
      {/*Line of Engagement */}

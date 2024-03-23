@@ -1,19 +1,8 @@
 import React, { useState } from "react";
 import { Helmet } from "react-helmet-async";
 import Contactcover from '../assets/CoverImages/Contact_us.png'
-import WebsiteQuotation from '../components/Forms/WebsiteQuotation'
 
 const ContactForm = () => {
-  {/*Popup Logic*/}
-  const [isPopupOpen, setPopupOpen] = useState(false);
-
-  const handleQuotationClick = () => {
-    setPopupOpen(true);
-  };
-
-  const handlePopupClose = () => {
-    setPopupOpen(false);
-  };
 
   const [formData, setFormData] = useState({
     name: '',
@@ -285,20 +274,6 @@ const ContactForm = () => {
 
 
 
- {/*PopupButton */}
- <div className="flex justify-center items-center py-5">
-   <button  className="flex justify-center items-center py-5" onClick={handleQuotationClick}>
-        <section className="text-white text-center bg-black block w-full rounded-3xl border border-black px-12 py-3 text-sm font-medium hover:text-black hover:bg-white sm:w-auto">
-          Website Quotation <p className="text-xs text-gray-400">Get your Website Quotation now! </p>
-        </section>
-        </button>
-          {isPopupOpen && (
-            <WebsiteQuotation onClose={handlePopupClose} />
-          )}
-
-
-          
-    </div>
  
 
       {/*FAQ*/}
