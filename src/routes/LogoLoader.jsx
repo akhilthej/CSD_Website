@@ -40,7 +40,6 @@ const LogoLoader = () => {
 
   return (
     <div style={logoLoaderStyle} className={`logo-loader ${isLoading ? 'show' : 'hide'}`}>
-      {/* Replace 'your-logo.png' with the path to your logo */}
       <img src={applogo} alt="Loading" style={logoStyle} className="logo" />
     </div>
   );
