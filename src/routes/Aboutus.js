@@ -13,7 +13,7 @@ const Aboutus = () => {
   return (
     <div className='Aboutus'>
       <Helmet>
-            <title>Cyber Space Digital - About Us</title>
+            <title>About Us - Cyber Space Digital</title>
             <meta name="description" content='Know more about our Company and our team Cyber Space Digital.'/>
             <link rel="canonical" href="/aboutus" />
       </Helmet>

@@ -11,7 +11,6 @@ import Error404 from '../components/Tools/Error404';
 import Home from './HOME';
 import Blog from './Blogs/Blog';
 import BlogFullPost from './Blogs/BlogFullPost';
-import Clients from './Clients';
 import Aboutus from './Aboutus';
 import Contactus from './Contactus';
 
@@ -63,7 +62,7 @@ Navbar,Footer,
 PrivacyPolicy,TermsnConditions,Disclaimer,ShippingandDelivery,
 Error404,Home,
 
-Blog,BlogFullPost,Clients,Aboutus,Contactus,
+Blog,BlogFullPost,Aboutus,Contactus,
 ReturnPolicy,
 
 /*Services */

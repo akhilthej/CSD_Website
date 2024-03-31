@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { Helmet } from 'react-helmet-async';
 
 import Brandslider from "../components/Sliders/Brand_slider";
 import ServicesTab from "../components/ServicesTab";
@@ -29,6 +30,12 @@ import { GlobalData } from "../assets/data/GlodalData";
 const Home = () => {
   return (
     <>
+      <Helmet>
+            <title>Best Web Development &amp; Digital marketing Company</title>
+            <meta name="description" content='We are a prominent web design and development, digital marketing, Graphic designing , Advertising and branding company based in India. We have a strong track record of working with well-known brands to create high-performance, user-friendly, and secure web and mobile applications. Our expertise can transform your innovative ideas into a driving force for your business success.'/>
+            <link rel="canonical" href="/" />
+      </Helmet>
+
       <main className=" overflow-hidden">
         <ImageSlider />
 
