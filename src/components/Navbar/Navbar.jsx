@@ -5,7 +5,7 @@ import CsdLogo from './csdv2Logo.svg';
 const Navbar = () => {
   return (
     <nav>
-      <div className="w-full fixed top-0 z-50 px-10">
+      <div className="w-full fixed bottom-0 z-50 px-10">
         <div className="w-full flex flex-row items-center justify-between m-auto px-[10px]">
           {/* Left Column - Centered Logo */}
           <Link to="/" className="h-auto w-auto py-4 flex flex-row items-center">
