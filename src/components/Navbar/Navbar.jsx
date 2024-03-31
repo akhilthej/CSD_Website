@@ -38,15 +38,15 @@ const Navbar = () => {
                 <div className="flex flex-row space-x-3">
                   {/* Item #1 */}
                   <div className="flex group">
-                    <Link to="/services" className="p-2 text-white hover:text-yellow-500 flex flex-col items-center">
+                    <Link to="/contactus" className="p-2 text-white hover:text-yellow-500 flex flex-col items-center">
                       {/* Icon */}
                       <i
-                        className="mdi mdi-layers-outline mdi-24px mx-1 text-white group-hover:text-yellow-500
+                        className="mdi mdi-account-circle-outline mdi-24px mx-1 text-white group-hover:text-yellow-500
                   transition-color duration-200"
                       />
                       {/* Text */}
                       <span className="text-xs mb-2 transition-all duration-200">
-                        Services
+                        Contact
                       </span>
                       {/* Focus Dot */}
                       <span
@@ -55,6 +55,7 @@ const Navbar = () => {
                       />
                     </Link>
                   </div>
+                  
 
                   {/* Item #2 */}
                   <div className="flex group">
@@ -117,16 +118,17 @@ const Navbar = () => {
                   </div>
 
                   {/* Item #5 */}
+                 
                   <div className="flex group">
-                    <Link to="/contactus" className="p-2 text-white hover:text-yellow-500 flex flex-col items-center">
+                    <Link to="/services" className="p-2 text-white hover:text-yellow-500 flex flex-col items-center">
                       {/* Icon */}
                       <i
-                        className="mdi mdi-account-circle-outline mdi-24px mx-1 text-white group-hover:text-yellow-500
+                        className="mdi mdi-layers-outline mdi-24px mx-1 text-white group-hover:text-yellow-500
                   transition-color duration-200"
                       />
                       {/* Text */}
                       <span className="text-xs mb-2 transition-all duration-200">
-                        Contact
+                        Services
                       </span>
                       {/* Focus Dot */}
                       <span

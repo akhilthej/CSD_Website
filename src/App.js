@@ -59,9 +59,9 @@ const routes = [
   { path: '/services', element: <Services /> },
 
         /*---------WebDevelopment---------*/
-  { path: '/best-web-developement-company', element: <WebDevelopment /> },
-  { path: '/web-developement-company-in-vizag', element: <WebDevelopment /> },
-  { path: '/best-web-developement-company-in-vizag', element: <WebDevelopment /> },
+  { path: '/services/best-web-developement-company', element: <WebDevelopment /> },
+  { path: '/services/web-developement-company-in-vizag', element: <WebDevelopment /> },
+  { path: '/services/best-web-developement-company-in-vizag', element: <WebDevelopment /> },
 
   { path: '/build-business-website', element: <BusinessWebsite /> },
   { path: '/best-website-for-business', element: <BusinessWebsite /> },
@@ -78,9 +78,9 @@ const routes = [
         /*---------WebDevelopment End---------*/
 
         /*---------MobileAppDevelopment---------*/
-  { path: '/best-mobile-app-development-company', element: <MobileAppDevelopment /> },
-  { path: '/mobile-app-development-in-vizag', element: <MobileAppDevelopment /> },
-  { path: '/best-mobile-app-development-in-vizag', element: <MobileAppDevelopment /> },
+  { path: '/services/best-mobile-app-development-company', element: <MobileAppDevelopment /> },
+  { path: '/services/mobile-app-development-in-vizag', element: <MobileAppDevelopment /> },
+  { path: '/services/best-mobile-app-development-in-vizag', element: <MobileAppDevelopment /> },
 
   { path: '/mobile-app-design', element: <MobileAppDesign /> },
   { path: '/ios-application-development', element: <IOSAppDevelopment /> },
@@ -96,10 +96,10 @@ const routes = [
         /*---------MobileAppDevelopment End---------*/
 
         /*---------Multimedia---------*/
-  { path: '/best-graphic-designing-company', element: <MultiMedia /> },
-  { path: '/graphic-designing-company-in-vizag', element: <MultiMedia /> },
-  { path: '/best-graphic-designing-in-vizag', element: <MultiMedia /> },
-  { path: '/best-poster-designing-company', element: <MultiMedia /> },
+  { path: '/services/best-graphic-designing-company', element: <MultiMedia /> },
+  { path: '/services/graphic-designing-company-in-vizag', element: <MultiMedia /> },
+  { path: '/services/best-graphic-designing-in-vizag', element: <MultiMedia /> },
+  { path: '/services/best-poster-designing-company', element: <MultiMedia /> },
 
   { path: '/logo-design', element: <LogoDesign /> },
   { path: '/logo-design-company-in-vizag', element: <LogoDesign /> },
@@ -125,10 +125,10 @@ const routes = [
         /*---------Multimedia End---------*/
 
         /*---------DigitalMarketing---------*/
-  { path: '/best-digital-marketing-company', element: <DigitalMarketing /> },
-  { path: '/digital-marketing-company-in-vizag', element: <DigitalMarketing /> },
-  { path: '/best-digital-marketing-company-in-vizag', element: <DigitalMarketing /> },
-  { path: '/social-media-marketing-company', element: <DigitalMarketing /> },
+  { path: '/services/best-digital-marketing-company', element: <DigitalMarketing /> },
+  { path: '/services/digital-marketing-company-in-vizag', element: <DigitalMarketing /> },
+  { path: '/services/best-digital-marketing-company-in-vizag', element: <DigitalMarketing /> },
+  { path: '/services/social-media-marketing-company', element: <DigitalMarketing /> },
 
   { path: '/search-engine-optimization', element: <SearchEngineOptimization /> },
   { path: '/content-marketing', element: <ContentMarketing /> },
@@ -148,9 +148,9 @@ const routes = [
         /*---------DigitalMarketing End---------*/
 
         /*---------BrandServices---------*/
-  { path: '/best-brand-services-company', element: <BrandServices /> },
-  { path: '/brand-services-company-in-vizag', element: <BrandServices /> },
-  { path: '/best-brand-services-company-in-vizag', element: <BrandServices /> },
+  { path: '/services/best-brand-services-company', element: <BrandServices /> },
+  { path: '/services/brand-services-company-in-vizag', element: <BrandServices /> },
+  { path: '/services/best-brand-services-company-in-vizag', element: <BrandServices /> },
 
   { path: '/brand-identity-design-exclusive', element: <BrandIdentityDesignExclusive /> },
   { path: '/brand-logo-design', element: <BrandLogoDesign /> },
@@ -168,9 +168,9 @@ const routes = [
         /*---------BrandServices End---------*/
 
         /*---------Advertising---------*/
-  { path: '/best-advertising-company', element: <Advertising /> },
-  { path: '/advertising-company-in-vizag', element: <Advertising /> },
-  { path: '/best-advertising-company-in-vizag', element: <Advertising /> },
+  { path: '/services/best-advertising-company', element: <Advertising /> },
+  { path: '/services/advertising-company-in-vizag', element: <Advertising /> },
+  { path: '/services/best-advertising-company-in-vizag', element: <Advertising /> },
 
   { path: '/display-advertising', element: <DisplayAdvertising /> },
   { path: '/video-advertising', element: <VideoAdvertising /> },
