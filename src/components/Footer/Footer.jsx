@@ -268,7 +268,7 @@ const Footer = () => {
   
 
     {/* Whatapp us */}
-  <div className=" fade-in-left flex items-end justify-start fixed bottom-0 left-0 ml-2 mb-1 z-10">
+  <div className=" fade-in-left flex items-end justify-start fixed bottom-0 left-0 ml-2 mb-24 md:mb-1 z-10">
     <div>
      
      <a title="Whatsapp"

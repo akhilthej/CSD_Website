@@ -32,13 +32,13 @@ const Navbar = () => {
         {/* Container */}
         <div className="flex items-center fixed bottom-0 z-10 w-full justify-center">
           <div className="flex flex-col">
-            <div className=" px-7 py-5 mx-auto rounded-2xl ">
+            <div className=" py-1 mx-auto rounded-2xl ">
               {/* Navigation Bar */}
-              <div className="px-5 pt-3 bg-black/50 backdrop-blur-xl shadow-lg rounded-2xl">
+              <div className="px-3 pt-2 bg-black/50 backdrop-blur-xl shadow-lg rounded-2xl">
                 <div className="flex flex-row space-x-3">
                   {/* Item #1 */}
                   <div className="flex group">
-                    <Link to="/services" className="p-3 text-white hover:text-yellow-500 flex flex-col items-center">
+                    <Link to="/services" className="p-2 text-white hover:text-yellow-500 flex flex-col items-center">
                       {/* Icon */}
                       <i
                         className="mdi mdi-layers-outline mdi-24px mx-1 text-white group-hover:text-yellow-500
@@ -58,7 +58,7 @@ const Navbar = () => {
 
                   {/* Item #2 */}
                   <div className="flex group">
-                    <Link to="/blog" className="p-3 text-white hover:text-yellow-500 flex flex-col items-center">
+                    <Link to="/blog" className="p-2 text-white hover:text-yellow-500 flex flex-col items-center">
                       {/* Icon */}
                       <i
                         className="mdi mdi-compass-outline mdi-24px mx-1 text-white group-hover:text-yellow-500
@@ -78,7 +78,7 @@ const Navbar = () => {
 
                   {/* Item #3 Active */}
                   <div className="flex group">
-                    <Link to="/" className="p-3 text-white hover:text-yellow-500 flex flex-col items-center">
+                    <Link to="/" className="p-2 text-white hover:text-yellow-500 flex flex-col items-center">
                       {/* Icon */}
                       <i
                         className="mdi mdi-home-outline mdi-24px mx-1 text-white group-hover:text-yellow-500
@@ -98,7 +98,7 @@ const Navbar = () => {
 
                   {/* Item #4 */}
                   <div className="flex group">
-                    <Link to="/aboutus" className="p-3 text-white hover:text-yellow-500 flex flex-col items-center">
+                    <Link to="/aboutus" className="p-2 text-white hover:text-yellow-500 flex flex-col items-center">
                       {/* Icon */}
                       <i
                         className="mdi mdi-basket-plus-outline mdi-24px mx-1 text-white group-hover:text-yellow-500
@@ -118,7 +118,7 @@ const Navbar = () => {
 
                   {/* Item #5 */}
                   <div className="flex group">
-                    <Link to="/contactus" className="p-3 text-white hover:text-yellow-500 flex flex-col items-center">
+                    <Link to="/contactus" className="p-2 text-white hover:text-yellow-500 flex flex-col items-center">
                       {/* Icon */}
                       <i
                         className="mdi mdi-account-circle-outline mdi-24px mx-1 text-white group-hover:text-yellow-500
