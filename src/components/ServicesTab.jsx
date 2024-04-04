@@ -35,7 +35,7 @@ const ServicesTab = () => {
               }}
             >
               <div className="mt-16 mb-10 grid bg-white/80 border divide-x divide-y rounded-xl overflow-hidden grid-cols-2 lg:grid-cols-6 xl:grid-cols-6">
-                <Link to="/best-web-developement-company">
+                <Link to="/services/best-web-developement-company">
                   <div className="relative group transition hover:z-[1] hover:shadow-2xl lg:hidden xl:block">
                     <div className="relative p-8 space-y-8 border-dashed rounded-lg transition duration-300 group-hover:bg-yellow-500 group-hover:border group-hover:scale-90">
                       <img
@@ -64,7 +64,7 @@ const ServicesTab = () => {
                   </div>
                 </Link>
 
-                <Link to="/best-mobile-app-development-company">
+                <Link to="/services/best-mobile-app-development-company">
                   <div className="relative group transition hover:z-[1] hover:shadow-2xl lg:hidden xl:block">
                     <div className="relative p-8 space-y-8 border-dashed rounded-lg transition duration-300 group-hover:bg-yellow-500 group-hover:border group-hover:scale-90">
                       <img
@@ -93,7 +93,7 @@ const ServicesTab = () => {
                   </div>
                 </Link>
 
-                <Link to="/best-digital-marketing-company">
+                <Link to="/services/best-digital-marketing-company">
                   <div className="relative group transition hover:z-[1] hover:shadow-2xl lg:hidden xl:block">
                     <div className="relative p-8 space-y-8 border-dashed rounded-lg transition duration-300 group-hover:bg-yellow-500 group-hover:border group-hover:scale-90">
                       <img
@@ -122,7 +122,7 @@ const ServicesTab = () => {
                   </div>
                 </Link>
                 {/* Graphic Design */}
-                <Link to="/best-graphic-designing-company">
+                <Link to="/services/best-graphic-designing-company">
                   <div className="relative group transition hover:z-[1] hover:shadow-2xl lg:hidden xl:block">
                     <div className="relative p-8 space-y-8 border-dashed rounded-lg transition duration-300 group-hover:bg-yellow-500 group-hover:border group-hover:scale-90">
                       <img
@@ -152,7 +152,7 @@ const ServicesTab = () => {
                 </Link>
 
                 {/* Brand Services */}
-                <Link to="/best-brand-services-company">
+                <Link to="/services/best-brand-services-company">
                   <div className="relative group transition hover:z-[1] hover:shadow-2xl lg:hidden xl:block">
                     <div className="relative p-8 space-y-8 border-dashed rounded-lg transition duration-300 group-hover:bg-yellow-500 group-hover:border group-hover:scale-90">
                       <img
@@ -181,7 +181,7 @@ const ServicesTab = () => {
                   </div>
                 </Link>
                 {/* Advertising */}
-                <Link to="/best-advertising-company">
+                <Link to="/services/best-advertising-company">
                   <div className="relative group transition hover:z-[1] hover:shadow-2xl lg:hidden xl:block">
                     <div className="relative p-8 space-y-8 border-dashed rounded-lg transition duration-300 group-hover:bg-yellow-500 group-hover:border group-hover:scale-90">
                       <img
