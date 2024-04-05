@@ -5,18 +5,18 @@ import axios from 'axios';
 function FullBlog() {
   const [post, setPost] = useState({});
   const [error, setError] = useState(null);
-  const { id } = useParams();
+  const { slug } = useParams();
 
   useEffect(() => {
-    axios.get(`https://admin.cyberspacedigital.in/api/fetchPosts.php?id=${id}`)
+    axios.get(`https://admin.cyberspacedigital.in/api/fetchPosts.php?slug=${slug}`)
       .then(response => {
-        setPost(response.data.find(post => post.id === id)); // Find the post with matching id
+        setPost(response.data.find(post => post.slug === slug));
       })
       .catch(error => {
         console.error('Error fetching post:', error);
         setError(error);
       });
-  }, [id]);
+  }, [slug]);
 
   if (error) {
     return <div>Error: {error.message}</div>;

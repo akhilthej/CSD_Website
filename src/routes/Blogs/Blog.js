@@ -53,8 +53,8 @@ function BlogPage() {
       <div>
         <h1>Blog Posts</h1>
         {posts.map(post => (
-          <div key={post.id} className="card">
-            <h2><Link to={`/blog/${post.id}`}>{post.title}</Link></h2>
+          <div key={post.slug} className="card">
+            <h2><Link to={`/blog/${post.slug}`}>{post.title}</Link></h2>
             <p>{post.content}</p>
           </div>
         ))}

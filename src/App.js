@@ -46,7 +46,7 @@ const routes = [
   { path: '/', element: <Home /> },
   { path: '/*', element: <Error404 /> },
   { path: '/blog', element: <Blog /> },
-  { path: "/blog/:id", element: <BlogFullPost /> },
+  { path: "/blog/:slug", element: <BlogFullPost /> },
 
   { path: '/aboutus', element: <Aboutus /> },
   { path: '/contactus', element: <Contactus /> },
