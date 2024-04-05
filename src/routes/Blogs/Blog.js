@@ -49,16 +49,40 @@ function BlogPage() {
           </div>
         </div>
       </section>
+      {/* Title Card end */}
 
-      <div>
-        <h1>Blog Posts</h1>
-        {posts.map(post => (
-          <div key={post.slug} className="card">
-            <h2><Link to={`/blog/${post.slug}`}>{post.title}</Link></h2>
-            <p>{post.content}</p>
+      <section className="text-gray-600 body-font m-5">
+  <h1 className="text-3xl mb-8">Blog Posts</h1>
+  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+    {posts.map(post => (
+      <div key={post.slug} className="card">
+        <div className="h-full rounded-xl shadow-cla-blue bg-gradient-to-r from-indigo-50 to-blue-50 overflow-hidden">
+          <img
+            className="lg:h-48 md:h-36 w-full object-cover object-center scale-110 transition-all duration-400 hover:scale-100"
+            src={`https://admin.cyberspacedigital.in/${post.feature_image}`} alt={post.title} />
+          <div className="p-6">
+           
+            <h2 className="title-font text-lg font-medium text-gray-600 mb-3">
+              <Link to={`/blog/${post.slug}`}>{post.title}</Link>
+            </h2>
+            <p className="leading-relaxed mb-3">
+              {post.content}
+            </p>
+            <div className="flex items-center flex-wrap ">
+              <Link to={`/blog/${post.slug}`}>
+                <button className="bg-gradient-to-r from-cyan-400 to-blue-400 hover:scale-105 drop-shadow-md  shadow-cla-blue px-4 py-1 rounded-lg">
+                  Learn more
+                </button>
+              </Link>
+            </div>
           </div>
-        ))}
+        </div>
       </div>
+    ))}
+  </div>
+</section>
+
+
     </main>
   );
 }

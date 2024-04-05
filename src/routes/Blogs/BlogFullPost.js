@@ -23,10 +23,64 @@ function FullBlog() {
   }
 
   return (
-    <div>
-      <h1>{post.title}</h1>
-      <p>{post.content}</p>
+
+
+
+
+
+
+      
+      <div className="max-w-screen-xl mx-auto">
+  <main className="mt-10">
+    <div
+      className="mb-4 md:mb-0 w-full max-w-screen-md mx-auto relative"
+      style={{ height: "24em" }}
+    >
+      <div
+        className="absolute left-0 bottom-0 w-full h-full z-10"
+        style={{
+          backgroundImage: "linear-gradient(180deg,transparent,rgba(0,0,0,.3))"
+        }}
+      />
+      <img
+       src={`https://admin.cyberspacedigital.in/${post.feature_image}`}
+          alt={post.title}
+        className="absolute left-0 top-0 w-full h-full z-0 object-cover"
+      />
+      <div className="p-4 absolute bottom-0 left-0 z-20">
+       
+        <h2 className="text-4xl font-semibold text-black leading-tight">
+        {post.title}
+        </h2>
+        <div className="flex mt-3">
+          <img
+            src="https://cyberspacedigital.in/logo192.png"
+            className="h-10 w-10 rounded-full mr-2 object-cover"
+          />
+          <div>
+            <p className="font-semibold text-gray-200 text-sm">
+              {" "}
+              Cyber Space Digital{" "}
+            </p>
+            <p className="font-semibold text-gray-400 text-xs">{post.date} </p>
+          </div>
+        </div>
+      </div>
     </div>
+    <div className="px-4 lg:px-0 mt-12 text-gray-700 max-w-screen-md mx-auto text-lg leading-relaxed">
+      <p className="pb-6">
+      {post.content}
+      </p>
+    </div>
+  </main>
+</div>
+
+
+
+
+
+
+
   );
 }
 
