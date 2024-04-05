@@ -22,12 +22,6 @@ function FullBlog() {
     return <div>Error: {error.message}</div>;
   }
 
-  const renderContent = () => {
-    const htmlContent = post.content;
-    const modifiedHtmlContent = htmlContent.replace(/<h3>(.*?)<\/h3>/g, '<b>$1</b>');
-    return { __html: modifiedHtmlContent };
-  };
-
   return (
     <div className="max-w-screen-xl mx-auto">
       <main className="mt-10">
@@ -45,8 +39,11 @@ function FullBlog() {
             </div>
           </div>
         </div>
+        
+        <div className='max-w-screen-md mx-auto m-5'>
+        <h1 className="text-4xl font-semibold text-black leading-tight text-center">{post.title}</h1>
 
-        <div className="px-4 lg:px-0 mt-12 text-gray-700 max-w-screen-md mx-auto text-lg leading-relaxed" dangerouslySetInnerHTML={renderContent()}></div>
+        <div className="px-4 lg:px-0 mt-12 text-gray-700  text-lg leading-relaxed" dangerouslySetInnerHTML={{ __html: post.content }}></div> </div>
       </main>
     </div>
   );
