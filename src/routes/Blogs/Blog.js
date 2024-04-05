@@ -59,7 +59,6 @@ function BlogPage() {
       {/* Title Card end */}
 
       <section className="text-gray-600 body-font m-5">
-        <h1 className="text-3xl mb-8">Blog Posts</h1>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {posts.map(post => (
             <div key={post.slug} className="card">
