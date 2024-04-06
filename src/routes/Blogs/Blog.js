@@ -24,9 +24,10 @@ function BlogPage() {
       return <div>Error: {error.message}</div>;
   }
 
-  // Function to limit the content to 20 words
+  // Function to limit the content to 20 words and remove HTML tags
   const limitContent = (content) => {
-    const words = content.split(' ');
+    const strippedContent = content.replace(/<[^>]*>/g, ''); // Remove HTML tags
+    const words = strippedContent.split(' ');
     const limitedContent = words.slice(0, 20).join(' ');
     return limitedContent;
   };
@@ -61,6 +62,7 @@ function BlogPage() {
       <section className="text-gray-600 body-font m-5">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {posts.map(post => (
+            <Link to={`/blog/${post.slug}`}>
             <div key={post.slug} className="card">
               <div className="h-full rounded-xl shadow-cla-blue bg-gradient-to-r from-indigo-50 to-blue-50 overflow-hidden">
                 <img
@@ -68,21 +70,20 @@ function BlogPage() {
                   src={`https://admin.cyberspacedigital.in/${post.feature_image}`} alt={post.title} />
                 <div className="p-6">
                   <h2 className="title-font text-lg font-medium text-gray-600 mb-3">
-                    <Link to={`/blog/${post.slug}`}>{post.title}</Link>
+                    {post.title}
                   </h2>
                   <p className="leading-relaxed mb-3">
                     {limitContent(post.content)} {/* Limiting content to 20 words */}
                   </p>
                   <div className="flex items-center flex-wrap ">
-                    <Link to={`/blog/${post.slug}`}>
-                      <button className="bg-gradient-to-r from-cyan-400 to-blue-400 hover:scale-105 drop-shadow-md  shadow-cla-blue px-4 py-1 rounded-lg">
+                    
+                      <button class="text-xs sm:text-sm transform rounded border border-slate-200 px-12 py-2 font-medium bg-yellow-500 text-black transition-colors hover:bg-orange-600 hover:text-white">
                         Learn more
                       </button>
-                    </Link>
                   </div>
                 </div>
               </div>
-            </div>
+            </div></Link>
           ))}
         </div>
       </section>
