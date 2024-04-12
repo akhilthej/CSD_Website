@@ -11,7 +11,6 @@ ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter basename="/">
       <HelmetProvider> {/*For indexing seo <forceRefresh={true}>*/}
-      <LogoLoader />
       <App />
       </HelmetProvider>
     </BrowserRouter>
