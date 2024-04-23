@@ -1,6 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
-import { GlobalData } from "../../../assets/data/GlodalData";
+import React from "react";
+import { Link } from "react-router-dom";
 
 import {
   FixedPrice,
@@ -8,7 +7,25 @@ import {
   TimeManage,
   HiringModel,
 } from "../../../assets/data/Imagedata";
+import LogoPortfolioSlider from "../../../components/Sliders/LogoPortfolioSlider";
+import { GlobalData } from "../../../assets/data/GlodalData";
 
+const LogoDesignTitles = {
+  section1: {
+    title: "Logo Design",
+    subtitle: "Create a Unique Identity for Your Brand",
+  },
+  section2: {
+    title: "Create the perfect logo for your business",
+    subtitle:
+      "We have create more than 190+ Business Logos, 220 Commercial Logos and 100+ startup Company Logos.",
+  },
+  section3: {
+    title: "Why a Great Logo Matters?",
+    peragraph:
+      "A great logo is your brands first impression leaving a lasting impact and enhancing recognition. It conveys professionalism, setting you apart from the competition. Your logo embodies your brands identity, fostering deep connections with your audience. It ensures memorability, making your brand stand out, and serves as a trust-building, loyalty-inducing symbol. In summary, a great logo is the cornerstone of your brands success speaking volumes with just a glance.",
+  },
+};
 
 const SpecialServices = {
   service1: {
@@ -52,7 +69,6 @@ const pricingData = [
   },
 ];
 
-
 const LogofaqData = [
   {
     question: "What services do you offer?",
@@ -72,95 +88,75 @@ const LogofaqData = [
 ];
 
 
-
-
-function App() {
-  const [pagesData, setPagesData] = useState([]);
-  const titleToFetch = 'Logo Design'; // Specify the title you want to fetch data for
-
-  useEffect(() => {
-    fetch('https://admin.cyberspacedigital.in/api/fetchPages.php')
-      .then(response => response.json())
-      .then(data => {
-        const filteredData = data.filter(page => page.title === titleToFetch);
-        setPagesData(filteredData);
-      })
-      .catch(error => console.error('Error fetching data:', error));
-  }, [titleToFetch]);
-
+const LogoDesign = () => {
   return (
-    <main> 
-    {pagesData.map(page => (
-      <div key={page.id}>
-
-
+    <main>
+      {/* Title Card */}
       <section
-  className="py-10 sm:py-40"
-  style={{
-    backgroundImage: `url('https://admin.cyberspacedigital.in/${page.feature_image}')`,
-    alt: "Feature",
-    backgroundSize: "cover",
-    backgroundPosition: "center",
-  }} >
-     
-          {/* Title Card */}
-          <div className="flex flex-col items-center md:flex-row justify-center">
-            <div className="md:w-1/2 md:pr-10"></div>
-            <div className="md:w-1/2 px-5">
-              <div className="text-right md:text-left">
-                {/* Align titles to the right on mobile, left on larger screens */}
-                <h3 className="cursor-default text-2xl pb-5 md:text-6xl fade-in-down font-extrabold text-center text-white tracking-tight">
-                  {page.title}
-                </h3>
-                <p className="cursor-default text-white sm:text-sm text-xs text-center sm:ml-0">
-                  {page.subtitle}
-                </p>
-                <div className="mt-8 flex flex-wrap justify-center gap-4">
-                  <a href={`mailto:${GlobalData.company.companyEmail}`}>
-                    <a className="transform rounded-md bg-white px-5 py-3 font-medium text-black transition-colors hover:bg-black hover:text-white">
-                      Email
-                    </a>
+        className="py-10 sm:py-40"
+        style={{
+          backgroundImage:
+            'url("https://drive.google.com/uc?id=1-RKGIgPQ6gfNDnoW1jr6R_TzB9P_12ge")',
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
+      >
+        <div className="flex flex-col items-center md:flex-row justify-center">
+          <div className="md:w-1/2 md:pr-10"></div>
+          <div className="md:w-1/2 px-5">
+            <div className="text-right md:text-left">
+              {" "}
+              {/* Align titles to the right on mobile, left on larger screens */}
+              <h3 className="cursor-default  text-2xl pb-5 md:text-6xl fade-in-down font-extrabold text-center text-white tracking-tight">
+                {LogoDesignTitles.section1.title}
+              </h3>
+              <p className="cursor-default text-white sm:text-sm text-xs text-center sm:ml-0">
+                {LogoDesignTitles.section1.subtitle}
+              </p>
+              <div className="mt-8 flex flex-wrap justify-center gap-4">
+                <a href={`mailto:${GlobalData.company.companyEmail}`}>
+                  <a className="transform rounded-md bg-white px-5 py-3 font-medium text-black transition-colors hover:bg-black hover:text-white">
+                    Email
                   </a>
-                  <a href={GlobalData.company.companyWhatsapp}>
-                    <a className="transform rounded-md bg-white px-5 py-3 font-medium text-black transition-colors hover:bg-black hover:text-white">
-                      WhatsApp
-                    </a>
+                </a>
+
+                <a href={GlobalData.company.companyWhatsapp}>
+                  <a className="transform rounded-md bg-white px-5 py-3 font-medium text-black transition-colors hover:bg-black hover:text-white">
+                    WhatsApp
                   </a>
-                </div>
+                </a>
               </div>
             </div>
-          </div> 
-        </section>
+          </div>
+        </div>
+      </section>
 
-
-  {/* Subtitle section2 */}
-  <section className="text-center mx-auto my-8">
+      {/* Subtitle section2 */}
+      <section className="text-center mx-auto my-8">
         <h2 className="cursor-default pb-2 font-extrabold text-transparent text-2xl md:text-5xl lg:text-6xl bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-600 mt-3  tracking-tight ">
-          {page.title2}
+          {LogoDesignTitles.section2.title}
         </h2>
         <p className="cursor-default text-sm font-medium text-black mt-5 mb-10">
-          {page.subtitle2}
+          {LogoDesignTitles.section2.subtitle}
         </p>
 
         <div className="flex items-center justify-center gap-4 flex-wrap"></div>
       </section>
-
-
-
-
 
       {/* Why us for this */}
       <section className="bg-gray-200 ">
         <div className="grid max-w-screen-xl px-16 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
           <div className="mr-auto sm:mr-10 place-self-center lg:col-span-7">
             <h1 className="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl ">
-              {page.article_title}
+              {LogoDesignTitles.section3.title}
             </h1>
             <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl ">
-              {page.article_content}
+              {LogoDesignTitles.section3.peragraph}
             </p>
-            <a href="#"
-              className="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-black  "  >
+            <a
+              href="#"
+              className="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-black  "
+            >
               Get started
               <svg
                 className="w-5 h-5 ml-2 -mr-1"
@@ -177,13 +173,14 @@ function App() {
             </a>
           </div>
           <div className=" lg:mt-0 lg:col-span-5 lg:flex rounded-lg">
-            <img src={`https://admin.cyberspacedigital.in/${page.article_image}`} alt={page.title} 
+            <img
+              src="https://lp-cms-production.imgix.net/2019-06/554369495_full.jpg"
+              alt="mockup"
               className="rounded-lg"
             />
           </div>
         </div>
       </section>
-
 
       {/* Process  */}
       <section id="services" className="pt-5 cursor-default section relative ">
@@ -321,6 +318,8 @@ function App() {
         </div>
       </section>
 
+      {/* Portfolio */}
+      <LogoPortfolioSlider />
 
       {/* Logo Design Pricing */}
       <section>
@@ -387,11 +386,8 @@ function App() {
         </div>
       </section>
 
-
-
-
-  {/* FAQs */}
-  <div className="py-10 bg-gray-100">
+      {/* FAQs */}
+      <div className="py-10 bg-gray-100">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-semibold text-center text-gray-800 mb-5">
             Frequently Asked Questions
@@ -428,10 +424,8 @@ function App() {
         </div>
       </div>
 
-
-
-   {/* Contact Us for Your Logo Needs */}
-   <section className="text-center mx-auto my-8">
+      {/* Contact Us for Your Logo Needs */}
+      <section className="text-center mx-auto my-8">
         <h2 className="cursor-default pb-2 font-extrabold text-transparent text-2xl md:text-5xl lg:text-6xl bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-600 mt-3  tracking-tight ">
           Contact Us
         </h2>
@@ -454,11 +448,56 @@ function App() {
         </div>
       </section>
 
+      {/* Blog: Logo Design Tips and Trends */}
+      <section className="bg-gray-200 ">
+        <div className="grid max-w-screen-xl px-16 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
+          <div className="mr-auto sm:mr-10 place-self-center lg:col-span-7">
+            <h1 className="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl ">
+              Blog
+            </h1>
+            <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl ">
+              A great logo is your brand's first impression, leaving a lasting
+              impact and enhancing recognition. It conveys professionalism,
+              setting you apart from the competition. Your logo embodies your
+              brand's identity, fostering deep connections with your audience.
+              It ensures memorability, making your brand stand out, and serves
+              as a trust-building, loyalty-inducing symbol. In summary, a great
+              logo is the cornerstone of your brand's success, speaking volumes
+              with just a glance.
+            </p>
+            <a
+              href="#"
+              className="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-black  "
+            >
+              know more
+              <svg
+                className="w-5 h-5 ml-2 -mr-1"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fillRule="evenodd"
+                  d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                  clipRule="evenodd"
+                />
+              </svg>
+            </a>
+          </div>
+          <div className=" lg:mt-0 lg:col-span-5 lg:flex rounded-lg">
+            <img
+              src="https://lp-cms-production.imgix.net/2019-06/554369495_full.jpg"
+              alt="mockup"
+              className="rounded-lg"
+            />
+          </div>
+        </div>
+      </section>
 
-  {/* Request a Custom Design */}
-  <section className="text-center mx-auto my-8">
+      {/* Request a Custom Design */}
+      <section className="text-center mx-auto my-8">
         <h2 className="cursor-default pb-2 font-extrabold text-transparent text-2xl md:text-5xl lg:text-6xl bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-600 mt-3  tracking-tight ">
-          Request a Custom {page.title}
+          Request a Custom {LogoDesignTitles.section1.title}
         </h2>
         <p className="cursor-default text-sm font-medium text-black mt-5 mb-10">
           Explore our comprehensive documentation for more information on our
@@ -480,13 +519,8 @@ function App() {
           </a>
         </div>
       </section>
-
-
-        </div>
-      ))}
-     
     </main>
   );
-}
+};
 
-export default App;
+export default LogoDesign;
