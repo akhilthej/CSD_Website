@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c54f0255.css",
-    "main.js": "/static/js/main.1e9fe02f.js",
+    "main.js": "/static/js/main.b03cb3c1.js",
     "static/media/homepage1.webm": "/static/media/homepage1.87aef36ca97ae058373c.webm",
     "static/media/LAN-001-white.png": "/static/media/LAN-001-white.4cd2dfdc96667fc57a19.png",
     "static/media/ARK-001-white.png": "/static/media/ARK-001-white.7552533bfc49040f3d2c.png",
@@ -30,6 +30,7 @@
     "static/media/HomeResourceCover.webp": "/static/media/HomeResourceCover.9f085fb821100f9608e6.webp",
     "static/media/Subscribe.png": "/static/media/Subscribe.68f61a5d75abbc0d1333.png",
     "static/media/BlogCover.webp": "/static/media/BlogCover.373a57ef613fb5bebd9c.webp",
+    "static/media/CTO.webp": "/static/media/CTO.46bbe4bbab9a938c6dbe.webp",
     "static/media/DigiatalMarketingCoverHomeImage.webp": "/static/media/DigiatalMarketingCoverHomeImage.5bf82b550db91081435f.webp",
     "static/media/about.webp": "/static/media/about.bf041766841e5bbd5278.webp",
     "static/media/graphicsdesign.png": "/static/media/graphicsdesign.ac5cc1edae28e3741537.png",
@@ -109,7 +110,6 @@
     "static/media/Packaging Design.webp": "/static/media/Packaging Design.b3d34e2864406ddad085.webp",
     "static/media/WhatsApp.webp": "/static/media/WhatsApp.f3b54735f5be9f9103e0.webp",
     "static/media/ecommerce.webp": "/static/media/ecommerce.cc5626c020f85dcf072e.webp",
-    "static/media/CTO.webp": "/static/media/CTO.c79dbb2348ad4be196d5.webp",
     "static/media/eBook and Print Book Cover Design.webp": "/static/media/eBook and Print Book Cover Design.0ab6d75409c8b10d2823.webp",
     "static/media/Rendering and Visualization.webp": "/static/media/Rendering and Visualization.c57ca973ae2eb4a3bd16.webp",
     "static/media/User Interface Design.webp": "/static/media/User Interface Design.aafc36d66e398474a8e2.webp",
@@ -143,10 +143,10 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "main.c54f0255.css.map": "/static/css/main.c54f0255.css.map",
-    "main.1e9fe02f.js.map": "/static/js/main.1e9fe02f.js.map"
+    "main.b03cb3c1.js.map": "/static/js/main.b03cb3c1.js.map"
   },
   "entrypoints": [
     "static/css/main.c54f0255.css",
-    "static/js/main.1e9fe02f.js"
+    "static/js/main.b03cb3c1.js"
   ]
 }
