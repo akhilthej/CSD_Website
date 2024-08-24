@@ -12,7 +12,7 @@ import Home from './HOME';
 import Blog from './Blogs/Blog';
 import BlogFullPost from './Blogs/BlogFullPost';
 import Aboutus from './Aboutus';
-import Contactus from './Contactus';
+import Contactus from './CONTACTUS';
 
 
 import Services from './Services/SERVICES';
