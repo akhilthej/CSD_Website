@@ -1,6 +1,7 @@
 import React from "react";
 import { Routes, Route, useLocation } from 'react-router-dom';
-import { Navbar, Footer, PrivacyPolicy, TermsnConditions, Disclaimer, ShippingandDelivery, ReturnPolicy, Error404, Home, Aboutus, Contactus, Services, Blog,BlogFullPost} from './routes/Routes';
+import { Navbar, Footer, PrivacyPolicy, TermsnConditions, Disclaimer, ShippingandDelivery, ReturnPolicy, Error404, Home, Aboutus, Contactus, Services, Careers,
+      Blog,BlogFullPost} from './routes/Routes';
 import Notification from "./components/Tools/Notifications";
 
 
@@ -49,6 +50,7 @@ const routes = [
   { path: "/blog/:slug", element: <BlogFullPost /> },
 
   { path: '/aboutus', element: <Aboutus /> },
+  { path: '/careers', element: <Careers /> },
   { path: '/contactus', element: <Contactus /> },
   { path: '/privacypolicy', element: <PrivacyPolicy /> },
   { path: '/termsconditions', element: <TermsnConditions /> },

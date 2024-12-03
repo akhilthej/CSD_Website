@@ -12,8 +12,8 @@ import Home from './HOME';
 import Blog from './Blogs/Blog';
 import BlogFullPost from './Blogs/BlogFullPost';
 import Aboutus from './Aboutus';
+import Careers from './Careers/careers'
 import Contactus from './CONTACTUS';
-
 
 import Services from './Services/SERVICES';
 
@@ -62,7 +62,7 @@ Navbar,Footer,
 PrivacyPolicy,TermsnConditions,Disclaimer,ShippingandDelivery,
 Error404,Home,
 
-Blog,BlogFullPost,Aboutus,Contactus,
+Blog,BlogFullPost,Aboutus,Contactus,Careers,
 ReturnPolicy,
 
 /*Services */

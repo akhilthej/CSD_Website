@@ -169,6 +169,10 @@ const Footer = () => {
               {" "}
               Clients{" "}
             </a>
+            <a href="/careers">
+              {" "}
+              Career{" "}
+            </a>
           </nav>
         </div>
         <div>
