@@ -17,6 +17,8 @@ import Contactus from './CONTACTUS';
 
 import Services from './Services/SERVICES';
 
+import Calculator from "./Calculators/calculators"
+
 /*Web Development */
 import {WebDevelopment,BusinessWebsite,EcommerceWebsite,WebRevap,CRMERP} from './Services/WebDevelopment/routes_web'
 
@@ -61,6 +63,7 @@ export {
 Navbar,Footer,
 PrivacyPolicy,TermsnConditions,Disclaimer,ShippingandDelivery,
 Error404,Home,
+Calculator,
 
 Blog,BlogFullPost,Aboutus,Contactus,Careers,
 ReturnPolicy,

@@ -37,7 +37,9 @@ WebDevelopment,BusinessWebsite,EcommerceWebsite,WebRevap,CRMERP,
       MobileAppDevelopment,
       MobileAppDesign, IOSAppDevelopment, AndroidAppDevelopment, CrossPlatformAppDevelopment, AppPrototyping,
        AppTestingandQualityAssurance, AppMaintenanceandSupport, AppSecurity, AppMonetizationStrategy, AppStoreOptimization, 
-       EcommerceAppDevelopment
+       EcommerceAppDevelopment,
+
+       Calculator,
 } from './routes/Routes';
 
 
@@ -59,6 +61,7 @@ const routes = [
   { path: '/disclaimer', element: <Disclaimer /> },
 
   { path: '/services', element: <Services /> },
+  { path: '/calculator', element: <Calculator /> },
 
         /*---------WebDevelopment---------*/
   { path: '/services/best-web-developement-company', element: <WebDevelopment /> },
