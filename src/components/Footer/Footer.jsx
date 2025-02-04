@@ -280,7 +280,7 @@ const Footer = () => {
         target="_blank"
         className=" block w-12 rounded-full transition-all  transform hover:scale-110 hover:rotate-12"> 
         <img
-  className="object-cover object-center sm:w-12 h-12"
+  className="object-cover object-center h-8"
   src={WhatsApp}
   alt="WhatsApp icon"
 />
