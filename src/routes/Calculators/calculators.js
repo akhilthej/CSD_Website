@@ -1,12 +1,11 @@
 import { useState } from "react";
-import { FaInstagram, FaFacebook, FaEnvelope, FaWhatsapp, FaSearch, FaLaptop, FaWrench, FaChartLine } from "react-icons/fa";
+import { FaInstagram, FaFacebook, FaEnvelope, FaWhatsapp, FaSearch, FaLaptop } from "react-icons/fa";
 
 const DigitalMarketingCalculator = () => {
   const [posters, setPosters] = useState(0);
   const [reels, setReels] = useState(0);
   const [content, setContent] = useState("none");
-  const [smm, setSmm] = useState(0);
-  const [adsbudget, setAdsbudget] = useState(0);
+  const [smm, setSmm] = useState("no");
   const [dailyBudget, setDailyBudget] = useState(0);
   const [days, setDays] = useState(0);
   const [seo, setSeo] = useState("none");
@@ -19,7 +18,12 @@ const DigitalMarketingCalculator = () => {
 
   const posterPrice = 450;
   const reelPrice = 3000;
-  const adsbudgetPrice = 1;
+  const smmPrice = 10000;
+  const emailPrice = 500;
+  const whatsappPrice = 800;
+  const influencerPrice = 5000;
+  const analyticsPrice = 3000;
+  const maintenancePrice = 5000;
 
   const contentPrices = {
     none: 0,
@@ -41,20 +45,13 @@ const DigitalMarketingCalculator = () => {
     blogwebiste: 15000,
   };
 
-  const maintenancePrice = 5000;
-  const smmPrice = 10000;
-  const emailPrice = 500;
-  const whatsappPrice = 800;
-  const influencerPrice = 5000;
-  const analyticsPrice = 3000;
-
   const totalAmount =
     posters * posterPrice +
     reels * reelPrice +
     contentPrices[content] +
-    seoPrices[seo] +
-    (smm ? smmPrice : 0) +
+    (smm === "yes" ? smmPrice : 0) +
     dailyBudget * days +
+    seoPrices[seo] +
     emailMarketing * emailPrice +
     whatsappMarketing * whatsappPrice +
     websitePrices[websiteType] +
@@ -63,7 +60,7 @@ const DigitalMarketingCalculator = () => {
     (analytics ? analyticsPrice : 0);
 
   return (
-    <div className=" mx-auto p-6 bg-gray-900 text-white shadow-lg rounded-lg pt-24">
+    <div className="mx-auto p-6 bg-gray-900 text-white shadow-lg rounded-lg pt-24">
       <h2 className="text-2xl font-bold text-center mb-6">
         Digital Marketing Calculator
       </h2>
@@ -74,7 +71,7 @@ const DigitalMarketingCalculator = () => {
       </h3>
       <div className="mb-6">
         <label className="block text-lg font-medium mb-2">
-          Posters 
+          Posters
         </label>
         <input
           type="number"
@@ -82,7 +79,8 @@ const DigitalMarketingCalculator = () => {
           value={posters}
           onChange={(e) => setPosters(Number(e.target.value))}
           className="w-full p-2 border border-gray-700 rounded-md bg-gray-800 text-white"
-        /><span className="text-[10px]">per poster (₹450 each)</span>
+        />
+        <span className="text-[10px]">Per poster (₹450 each)</span>
       </div>
       <div className="mb-6">
         <label className="block text-lg font-medium mb-2">
@@ -94,7 +92,24 @@ const DigitalMarketingCalculator = () => {
           value={reels}
           onChange={(e) => setReels(Number(e.target.value))}
           className="w-full p-2 border border-gray-700 rounded-md bg-gray-800 text-white"
-        /><span className="text-[10px]">per reel (₹3000 each)</span>
+        />
+        <span className="text-[10px]">Per reel (₹3000 each)</span>
+      </div>
+
+      {/* SMM */}
+      <div className="mb-6">
+        <label className="block text-lg font-medium mb-2">
+          Social Media Manager
+        </label>
+        <select
+          value={smm}
+          onChange={(e) => setSmm(e.target.value)}
+          className="w-full p-2 border border-gray-700 rounded-md bg-gray-800 text-white"
+        >
+          <option value="no">No</option>
+          <option value="yes">Yes - ₹10,000</option>
+        </select>
+        <span className="text-[10px]">It depends on the plan you choose.</span>
       </div>
 
       {/* Content Writing */}
@@ -111,7 +126,8 @@ const DigitalMarketingCalculator = () => {
           <option value="basic">Basic - ₹10,000</option>
           <option value="advance">Advance - ₹20,000</option>
           <option value="expert">Expert - ₹30,000</option>
-        </select><span className="text-[10px]">it depends on the plan you choose.</span>
+        </select>
+        <span className="text-[10px]">It depends on the plan you choose.</span>
       </div>
 
       {/* Ads Budget */}
@@ -135,7 +151,8 @@ const DigitalMarketingCalculator = () => {
           value={days}
           onChange={(e) => setDays(Number(e.target.value))}
           className="w-full p-2 border border-gray-700 rounded-md bg-gray-800 text-white"
-        /><span className="text-[10px]">the following amount completely goes to ads.</span>
+        />
+        <span className="text-[10px]">The following amount completely goes to ads.</span>
       </div>
 
       {/* SEO */}
@@ -152,7 +169,8 @@ const DigitalMarketingCalculator = () => {
           <option value="onpage">On-Page SEO - ₹15,000</option>
           <option value="offpage">Off-Page SEO - ₹20,000</option>
           <option value="local">Local SEO - ₹10,000</option>
-        </select><span className="text-[10px]">The following cost is per month.</span>
+        </select>
+        <span className="text-[10px]">The following cost is per month.</span>
       </div>
 
       {/* Email & WhatsApp Marketing */}
@@ -166,7 +184,8 @@ const DigitalMarketingCalculator = () => {
           value={emailMarketing}
           onChange={(e) => setEmailMarketing(Number(e.target.value))}
           className="w-full p-2 border border-gray-700 rounded-md bg-gray-800 text-white"
-        /><span className="text-[10px]">rates are decided by the supplier.</span>
+        />
+        <span className="text-[10px]">Rates are decided by the supplier.</span>
       </div>
       <div className="mb-6">
         <label className="block text-lg font-medium mb-2 flex items-center">
@@ -178,7 +197,8 @@ const DigitalMarketingCalculator = () => {
           value={whatsappMarketing}
           onChange={(e) => setWhatsappMarketing(Number(e.target.value))}
           className="w-full p-2 border border-gray-700 rounded-md bg-gray-800 text-white"
-        /><span className="text-[10px]">rates are decided by the supplier.</span>
+        />
+        <span className="text-[10px]">Rates are decided by the supplier.</span>
       </div>
 
       {/* Website Development & Maintenance */}
