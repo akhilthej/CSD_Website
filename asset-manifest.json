@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.ed80c7af.css",
-    "main.js": "/static/js/main.22043fd9.js",
+    "main.css": "/static/css/main.6950690c.css",
+    "main.js": "/static/js/main.1d6f428c.js",
     "static/media/homepage1.webm": "/static/media/homepage1.87aef36ca97ae058373c.webm",
     "static/media/LAN-001-white.png": "/static/media/LAN-001-white.4cd2dfdc96667fc57a19.png",
     "static/media/ARK-001-white.png": "/static/media/ARK-001-white.7552533bfc49040f3d2c.png",
@@ -142,11 +142,11 @@
     "static/media/User Experience Design.webp": "/static/media/User Experience Design.fda7b364511c5ead9577.webp",
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
-    "main.ed80c7af.css.map": "/static/css/main.ed80c7af.css.map",
-    "main.22043fd9.js.map": "/static/js/main.22043fd9.js.map"
+    "main.6950690c.css.map": "/static/css/main.6950690c.css.map",
+    "main.1d6f428c.js.map": "/static/js/main.1d6f428c.js.map"
   },
   "entrypoints": [
-    "static/css/main.ed80c7af.css",
-    "static/js/main.22043fd9.js"
+    "static/css/main.6950690c.css",
+    "static/js/main.1d6f428c.js"
   ]
 }
