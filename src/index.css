@@ -14,6 +14,13 @@ body {
 }
 
 
+.hidden-contact {
+  position: absolute;
+  left: -9999px;
+  visibility: hidden;
+}
+
+
 .glass{
   margin-left: 50px;
   margin-right: 50px;
