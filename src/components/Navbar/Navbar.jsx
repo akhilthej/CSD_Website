@@ -554,17 +554,16 @@ const Navbar = () => {
 
   return (
     <section class="sticky top-0 z-50 bg-white/90 drop-shadow-lg  ">
-      
-        <div className="flex px-2 gap-2 justify-between">
-          <div className="flex items-center text-[12px]">
-            <FontAwesomeIcon icon={faEnvelope} className="mr-1" />
-            mail@cyberspacedigital.in
-          </div>
-          <div className="flex items-center text-[12px]">
-            <FontAwesomeIcon icon={faPhone} className="mr-1" />
-             +91-8143407758
-          </div>
+      <div className="flex px-2 gap-2 justify-between bg-black text-white">
+        <div className="flex items-center text-[12px] ">
+          <FontAwesomeIcon icon={faEnvelope} className="mr-1" />
+          mail@cyberspacedigital.in
         </div>
+        <div className="flex items-center text-[12px]">
+          <FontAwesomeIcon icon={faPhone} className="mr-1" />
+          +91-8143407758
+        </div>
+      </div>
 
       <div className=" sm:px-2 w-full h-17 flex justify-between items-center text-black ">
         <Link to="/">
@@ -582,7 +581,7 @@ const Navbar = () => {
             <Menu as="div" className="relative inline-block text-left">
               <div>
                 <Menu.Button className="lg:inline-flex font-semibold antialiased hidden justify-center w-full rounded-md px-4 py-2 text-sm text-black hover:bg-yellow-500 focus:outline-none">
-                  <Link to="/best-web-developement-company">
+                  <Link to="/services/best-web-developement-company">
                     Web Development
                   </Link>
                   <svg
@@ -701,7 +700,7 @@ const Navbar = () => {
             <Menu as="div" className="relative inline-block text-left">
               <div>
                 <Menu.Button className="lg:inline-flex font-semibold antialiased hidden justify-center w-full rounded-md px-4 py-2 text-sm text-black hover:bg-yellow-500 focus:outline-none">
-                  <Link to="/best-digital-marketing-company">
+                  <Link to="/services/best-digital-marketing-company">
                     Digital Marketing
                   </Link>
                   <svg
@@ -855,7 +854,9 @@ const Navbar = () => {
             <Menu as="div" className="relative inline-block text-left">
               <div>
                 <Menu.Button className="lg:inline-flex font-semibold antialiased hidden justify-center w-full rounded-md px-4 py-2 text-sm text-black hover:bg-yellow-500 focus:outline-none">
-                  <Link to="/best-graphic-designing-company">Multimedia</Link>
+                  <Link to="/services/best-graphic-designing-company">
+                    Multimedia
+                  </Link>
                   <svg
                     xmlns="https://www.w3.org/2000/svg"
                     fill="none"
@@ -1019,7 +1020,9 @@ const Navbar = () => {
             <Menu as="div" className="relative inline-block text-left">
               <div>
                 <Menu.Button className="lg:inline-flex font-semibold antialiased hidden justify-center w-full rounded-md px-4 py-2 text-sm text-black hover:bg-yellow-500 focus:outline-none">
-                  <Link to="/best-brand-services-company">Branding</Link>
+                  <Link to="/services/best-brand-services-company">
+                    Branding
+                  </Link>
                   <svg
                     xmlns="https://www.w3.org/2000/svg"
                     fill="none"
@@ -1171,7 +1174,9 @@ const Navbar = () => {
             <Menu as="div" className="relative inline-block text-left">
               <div>
                 <Menu.Button className="lg:inline-flex font-semibold antialiased hidden justify-center w-full rounded-md px-4 py-2 text-sm text-black hover:bg-yellow-500 focus:outline-none">
-                  <Link to="/best-advertising-company">Advertising</Link>
+                  <Link to="/services/best-advertising-company">
+                    Advertising
+                  </Link>
                   <svg
                     xmlns="https://www.w3.org/2000/svg"
                     fill="none"
@@ -1320,7 +1325,7 @@ const Navbar = () => {
             <Menu as="div" className="relative inline-block text-left">
               <div>
                 <Menu.Button className="lg:inline-flex font-semibold antialiased hidden justify-center w-full rounded-md px-4 py-2 text-sm text-black hover:bg-yellow-500 focus:outline-none">
-                  <Link to="/best-mobile-app-development-company">
+                  <Link to="/services/best-mobile-app-development-company">
                     Mobileapp
                   </Link>
                   <svg
@@ -1501,23 +1506,6 @@ const Navbar = () => {
                       )}
                     </Menu.Item>
 
-                    <Menu.Item>
-                      {({ active }) => (
-                        <Link to="/clients">
-                          <a
-                            className={classNames(
-                              active
-                                ? "bg-yellow-500 text-white"
-                                : "text-black",
-                              "block px-4 py-2 text-sm"
-                            )}
-                          >
-                            Clients
-                          </a>
-                        </Link>
-                      )}
-                    </Menu.Item>
-
                     <div />
                     <Menu.Item>
                       {({ active }) => (
@@ -1603,23 +1591,6 @@ const Navbar = () => {
                             )}
                           >
                             Blogs
-                          </a>
-                        </Link>
-                      )}
-                    </Menu.Item>
-
-                    <Menu.Item>
-                      {({ active }) => (
-                        <Link to="/clients">
-                          <a
-                            className={classNames(
-                              active
-                                ? "bg-yellow-500 text-white"
-                                : "text-black",
-                              "block px-4 py-2 text-sm"
-                            )}
-                          >
-                            Clients
                           </a>
                         </Link>
                       )}

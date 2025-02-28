@@ -66,7 +66,6 @@ const routes = [
         /*---------WebDevelopment---------*/
   { path: '/services/best-web-developement-company', element: <WebDevelopment /> },
   { path: '/services/web-developement-company-in-vizag', element: <WebDevelopment /> },
-  { path: '/services/best-web-developement-company-in-vizag', element: <WebDevelopment /> },
 
   { path: '/build-business-website', element: <BusinessWebsite /> },
   { path: '/best-website-for-business', element: <BusinessWebsite /> },

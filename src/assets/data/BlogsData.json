@@ -3,14 +3,14 @@
       "slug": "understanding-react-hooks",
       "title": "Understanding React Hooks",
       "content": "<p>React Hooks are functions that let you use state and other React features without writing a class. They were introduced in React 16.8 and have since become a fundamental part of React development.</p><h3>Why Use Hooks?</h3><p>Hooks allow you to manage state and side effects in functional components, making your code cleaner and more readable.</p>",
-      "feature_image": "path/to/your/image1.jpg",
+      "feature_image": "https://www.uxpin.com/studio/wp-content/uploads/2024/07/React-Hooks.webp",
       "date": "2023-10-01"
     },
     {
       "slug": "exploring-javascript-promises",
       "title": "Exploring JavaScript Promises",
       "content": "<p>JavaScript Promises are a powerful way to handle asynchronous operations. They represent a value that may be available now, or in the future, or never.</p><h3>How Promises Work</h3><p>A Promise can be in one of three states: pending, fulfilled, or rejected. This allows for better error handling and cleaner code.</p>",
-      "feature_image": "path/to/your/image2.jpg",
+      "feature_image": "https://media.licdn.com/dms/image/v2/D4D12AQH562R7xTdpeQ/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1724675352784?e=2147483647&v=beta&t=4-eyJbkv_6TqeA44a7UKroEbvTzm8HjdaC5e3miPBe0",
       "date": "2023-10-15"
     }
   ]

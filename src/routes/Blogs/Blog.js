@@ -69,7 +69,7 @@ function BlogPage() {
                 <div className="h-full rounded-xl shadow-cla-blue bg-gradient-to-r from-indigo-50 to-blue-50 overflow-hidden">
                   <img
                     className="lg:h-48 md:h-36 w-full object-cover object-center scale-110 transition-all duration-400 hover:scale-100"
-                    src={`https://admin.cyberspacedigital.in/${post.feature_image}`} alt={post.title} />
+                    src={post.feature_image} alt={post.title} />
                   <div className="p-6">
                     <h2 className="title-font text-lg font-medium text-gray-600 mb-3">
                       {post.title}

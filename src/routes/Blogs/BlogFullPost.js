@@ -37,7 +37,7 @@ function FullBlog() {
       <main className="mt-10">
         <div className="mb-4 md:mb-0 w-full max-w-screen-md mx-auto relative" style={{ height: "24em" }}>
           <div className="absolute left-0 bottom-0 w-full h-full z-10" style={{ backgroundImage: "linear-gradient(180deg,transparent,rgba(0,0,0,.3))" }} />
-          <img src={`https://admin.cyberspacedigital.in/${post.feature_image}`} alt={post.title} className="absolute left-0 top-0 w-full h-full z-0 object-cover" />
+          <img src={post.feature_image} alt={post.title} className="absolute left-0 top-0 w-full h-full z-0 object-cover" />
           <div className="p-4 absolute bottom-0 left-0 z-20">
             <div className="flex mt-3">
               <img src="https://cyberspacedigital.in/logo192.png" className="h-10 w-10 rounded-full mr-2 object-cover" />
