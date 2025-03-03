@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.cbc34bde.css",
-    "main.js": "/static/js/main.be45100d.js",
+    "main.css": "/static/css/main.2ee7c6ae.css",
+    "main.js": "/static/js/main.e01a410a.js",
     "static/media/homepage1.webm": "/static/media/homepage1.87aef36ca97ae058373c.webm",
     "static/media/graphicdesignicon.svg": "/static/media/graphicdesignicon.abb07b3de8194fd8499260f8d8c6770f.svg",
     "static/media/advertisingicon.svg": "/static/media/advertisingicon.e6471d11824a9f9414138221b771d23f.svg",
@@ -13,6 +13,7 @@
     "static/media/ServicesCoverImage.png": "/static/media/ServicesCoverImage.89008e44538e173bfd46.png",
     "static/media/ragingtuskers.png": "/static/media/ragingtuskers.b37bddb7023ae300b982.png",
     "static/media/COO.webp": "/static/media/COO.1545b4ea1fdee0539f9b.webp",
+    "static/media/StudioSpace.png": "/static/media/StudioSpace.d8b93f94745c061b304c.png",
     "static/media/brandingicon.svg": "/static/media/brandingicon.ff32d5a495056c552de4e0e40875cbbb.svg",
     "static/media/Contact_us.png": "/static/media/Contact_us.6990aabf42791a1bf917.png",
     "static/media/webdevelopmenticon.svg": "/static/media/webdevelopmenticon.9530b03fb28732af7def6bfd5c25cab4.svg",
@@ -22,11 +23,13 @@
     "static/media/ILA-002.png": "/static/media/ILA-002.dc2e513de4db7ae2ddb1.png",
     "static/media/latonskincare.png": "/static/media/latonskincare.15c94c8234f9ec607df6.png",
     "static/media/leormedia.pmg.png": "/static/media/leormedia.pmg.672319bd7d145f436f72.png",
+    "static/media/ANR Travels.png": "/static/media/ANR Travels.d97762a6a6b9859958bd.png",
     "static/media/digitalmarketingicon.svg": "/static/media/digitalmarketingicon.855107affa8a55c410002f834b572b10.svg",
     "static/media/Prasidda_logo.png": "/static/media/Prasidda_logo.590515e0108183b8efb0.png",
     "static/media/HomeCommunityCover.webp": "/static/media/HomeCommunityCover.a13d084936f791650e3f.webp",
     "static/media/AdvertisingCoverHomeImage.webp": "/static/media/AdvertisingCoverHomeImage.cd06540afaa99afea2d7.webp",
     "static/media/labelanuneni.png": "/static/media/labelanuneni.46713d4a3b680b25e05d.png",
+    "static/media/SR Portfolios.png": "/static/media/SR Portfolios.89330142b3f89c9f3688.png",
     "static/media/HeroCoverBG.png": "/static/media/HeroCoverBG.d4a05e8db52361610406.png",
     "static/media/Archivitus.png": "/static/media/Archivitus.c629472999e8ce6f2bb0.png",
     "static/media/iliha.png": "/static/media/iliha.6d43be6339d1de6b59c1.png",
@@ -114,7 +117,6 @@
     "static/media/Photo Editing.webp": "/static/media/Photo Editing.8e09ba378764dce9db7f.webp",
     "static/media/googlereview.png": "/static/media/googlereview.85d0946b65c74505d37a.png",
     "static/media/Packaging Design.webp": "/static/media/Packaging Design.b3d34e2864406ddad085.webp",
-    "static/media/WhatsApp.webp": "/static/media/WhatsApp.f3b54735f5be9f9103e0.webp",
     "static/media/ecommerce.webp": "/static/media/ecommerce.cc5626c020f85dcf072e.webp",
     "static/media/eBook and Print Book Cover Design.webp": "/static/media/eBook and Print Book Cover Design.0ab6d75409c8b10d2823.webp",
     "static/media/Rendering and Visualization.webp": "/static/media/Rendering and Visualization.c57ca973ae2eb4a3bd16.webp",
@@ -148,11 +150,11 @@
     "static/media/User Experience Design.webp": "/static/media/User Experience Design.fda7b364511c5ead9577.webp",
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
-    "main.cbc34bde.css.map": "/static/css/main.cbc34bde.css.map",
-    "main.be45100d.js.map": "/static/js/main.be45100d.js.map"
+    "main.2ee7c6ae.css.map": "/static/css/main.2ee7c6ae.css.map",
+    "main.e01a410a.js.map": "/static/js/main.e01a410a.js.map"
   },
   "entrypoints": [
-    "static/css/main.cbc34bde.css",
-    "static/js/main.be45100d.js"
+    "static/css/main.2ee7c6ae.css",
+    "static/js/main.e01a410a.js"
   ]
 }
