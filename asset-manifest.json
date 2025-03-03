@@ -1,22 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.8adb8813.css",
-    "main.js": "/static/js/main.667f69fd.js",
+    "main.css": "/static/css/main.f8e655bc.css",
+    "main.js": "/static/js/main.74b17ca8.js",
     "static/media/homepage1.webm": "/static/media/homepage1.87aef36ca97ae058373c.webm",
+    "static/media/graphicdesignicon.svg": "/static/media/graphicdesignicon.abb07b3de8194fd8499260f8d8c6770f.svg",
+    "static/media/advertisingicon.svg": "/static/media/advertisingicon.e6471d11824a9f9414138221b771d23f.svg",
     "static/media/LAN-001-white.png": "/static/media/LAN-001-white.4cd2dfdc96667fc57a19.png",
+    "static/media/mobileappicon.svg": "/static/media/mobileappicon.cc9d0420d1a39c6edbe5b2f9d6794f64.svg",
     "static/media/ARK-001-white.png": "/static/media/ARK-001-white.7552533bfc49040f3d2c.png",
     "static/media/ILA-001-white.png": "/static/media/ILA-001-white.f564de403c6562c37412.png",
     "static/media/LAC-001-white.png": "/static/media/LAC-001-white.7fb1c8bcbc341190ece4.png",
     "static/media/ServicesCoverImage.png": "/static/media/ServicesCoverImage.89008e44538e173bfd46.png",
     "static/media/ragingtuskers.png": "/static/media/ragingtuskers.b37bddb7023ae300b982.png",
     "static/media/COO.webp": "/static/media/COO.1545b4ea1fdee0539f9b.webp",
+    "static/media/brandingicon.svg": "/static/media/brandingicon.ff32d5a495056c552de4e0e40875cbbb.svg",
     "static/media/Contact_us.png": "/static/media/Contact_us.6990aabf42791a1bf917.png",
+    "static/media/webdevelopmenticon.svg": "/static/media/webdevelopmenticon.9530b03fb28732af7def6bfd5c25cab4.svg",
     "static/media/LAN-002.png": "/static/media/LAN-002.2866f1de5e70551c3b7a.png",
     "static/media/LAC-002.png": "/static/media/LAC-002.95d8b66361c91a1d4c24.png",
     "static/media/ARK-002.png": "/static/media/ARK-002.0907260de9996bb721f2.png",
     "static/media/ILA-002.png": "/static/media/ILA-002.dc2e513de4db7ae2ddb1.png",
     "static/media/latonskincare.png": "/static/media/latonskincare.15c94c8234f9ec607df6.png",
     "static/media/leormedia.pmg.png": "/static/media/leormedia.pmg.672319bd7d145f436f72.png",
+    "static/media/digitalmarketingicon.svg": "/static/media/digitalmarketingicon.855107affa8a55c410002f834b572b10.svg",
     "static/media/Prasidda_logo.png": "/static/media/Prasidda_logo.590515e0108183b8efb0.png",
     "static/media/HomeCommunityCover.webp": "/static/media/HomeCommunityCover.a13d084936f791650e3f.webp",
     "static/media/AdvertisingCoverHomeImage.webp": "/static/media/AdvertisingCoverHomeImage.cd06540afaa99afea2d7.webp",
@@ -142,11 +148,11 @@
     "static/media/User Experience Design.webp": "/static/media/User Experience Design.fda7b364511c5ead9577.webp",
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
-    "main.8adb8813.css.map": "/static/css/main.8adb8813.css.map",
-    "main.667f69fd.js.map": "/static/js/main.667f69fd.js.map"
+    "main.f8e655bc.css.map": "/static/css/main.f8e655bc.css.map",
+    "main.74b17ca8.js.map": "/static/js/main.74b17ca8.js.map"
   },
   "entrypoints": [
-    "static/css/main.8adb8813.css",
-    "static/js/main.667f69fd.js"
+    "static/css/main.f8e655bc.css",
+    "static/js/main.74b17ca8.js"
   ]
 }
