@@ -129,10 +129,7 @@ const routes = [
         /*---------Multimedia End---------*/
 
         /*---------DigitalMarketing---------*/
-  { path: '/services/best-digital-marketing-company', element: <DigitalMarketing /> },
-  { path: '/services/digital-marketing-company-in-vizag', element: <DigitalMarketing /> },
   { path: '/services/best-digital-marketing-company-in-vizag', element: <DigitalMarketing /> },
-  { path: '/services/social-media-marketing-company', element: <DigitalMarketing /> },
 
   { path: '/search-engine-optimization', element: <SearchEngineOptimization /> },
   { path: '/content-marketing', element: <ContentMarketing /> },

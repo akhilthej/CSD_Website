@@ -1,6 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
-import { GlobalData } from "../../../assets/data/GlodalData";
+import React from "react";
+import { Link } from "react-router-dom";
 
 import {
   FixedPrice,
@@ -8,7 +7,24 @@ import {
   TimeManage,
   HiringModel,
 } from "../../../assets/data/Imagedata";
+import { GlobalData } from "../../../assets/data/GlodalData";
 
+const LogoDesignTitles = {
+  section1: {
+    title: "Logo Design",
+    subtitle: "Create a Unique Identity for Your Brand",
+  },
+  section2: {
+    title: "Create the perfect logo for your business",
+    subtitle:
+      "We have create more than 190+ Business Logos, 220 Commercial Logos and 100+ startup Company Logos.",
+  },
+  section3: {
+    title: "Why a Great Logo Matters?",
+    peragraph:
+      "A great logo is your brands first impression leaving a lasting impact and enhancing recognition. It conveys professionalism, setting you apart from the competition. Your logo embodies your brands identity, fostering deep connections with your audience. It ensures memorability, making your brand stand out, and serves as a trust-building, loyalty-inducing symbol. In summary, a great logo is the cornerstone of your brands success speaking volumes with just a glance.",
+  },
+};
 
 const SpecialServices = {
   service1: {
@@ -33,7 +49,24 @@ const SpecialServices = {
   },
 };
 
-
+const pricingData = [
+  {
+    title: "Basic",
+    price: "2,000INR - 3,000INR",
+    features: ["3 days classes", "2 hours session"],
+  },
+  {
+    title: "Premium",
+    price: "10,000INR - 15,000INR",
+    features: ["15 days"],
+    popular: true,
+  },
+  {
+    title: "Economic",
+    price: "4,000INR - 8,000INR",
+    features: ["7 days"],
+  },
+];
 
 const LogofaqData = [
   {
@@ -54,95 +87,75 @@ const LogofaqData = [
 ];
 
 
-
-
-function App() {
-  const [pagesData, setPagesData] = useState([]);
-  const titleToFetch = 'Logo Design'; // Specify the title you want to fetch data for
-
-  useEffect(() => {
-    fetch('https://admin.cyberspacedigital.in/api/fetchPages.php')
-      .then(response => response.json())
-      .then(data => {
-        const filteredData = data.filter(page => page.title === titleToFetch);
-        setPagesData(filteredData);
-      })
-      .catch(error => console.error('Error fetching data:', error));
-  }, [titleToFetch]);
-
+const LogoDesign = () => {
   return (
-    <main> 
-    {pagesData.map(page => (
-      <div key={page.id}>
-
-
+    <main>
+      {/* Title Card */}
       <section
-  className="py-10 sm:py-40"
-  style={{
-    backgroundImage: `url('https://admin.cyberspacedigital.in/${page.feature_image}')`,
-    alt: "Feature",
-    backgroundSize: "cover",
-    backgroundPosition: "center",
-  }} >
-     
-          {/* Title Card */}
-          <div className="flex flex-col items-center md:flex-row justify-center">
-            <div className="md:w-1/2 md:pr-10"></div>
-            <div className="md:w-1/2 px-5">
-              <div className="text-right md:text-left">
-                {/* Align titles to the right on mobile, left on larger screens */}
-                <h3 className="cursor-default text-2xl pb-5 md:text-6xl fade-in-down font-extrabold text-center text-white tracking-tight">
-                  {page.title}
-                </h3>
-                <p className="cursor-default text-white sm:text-sm text-xs text-center sm:ml-0">
-                  {page.subtitle}
-                </p>
-                <div className="mt-8 flex flex-wrap justify-center gap-4">
-                  <a href={`mailto:${GlobalData.company.companyEmail}`}>
-                    <a className="transform rounded-md bg-white px-5 py-3 font-medium text-black transition-colors hover:bg-black hover:text-white">
-                      Email
-                    </a>
+        className="py-10 sm:py-40"
+        style={{
+          backgroundImage:
+            'url("https://drive.google.com/uc?id=1-RKGIgPQ6gfNDnoW1jr6R_TzB9P_12ge")',
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
+      >
+        <div className="flex flex-col items-center md:flex-row justify-center">
+          <div className="md:w-1/2 md:pr-10"></div>
+          <div className="md:w-1/2 px-5">
+            <div className="text-right md:text-left">
+              {" "}
+              {/* Align titles to the right on mobile, left on larger screens */}
+              <h3 className="cursor-default  text-2xl pb-5 md:text-6xl fade-in-down font-extrabold text-center text-white tracking-tight">
+                {LogoDesignTitles.section1.title}
+              </h3>
+              <p className="cursor-default text-white sm:text-sm text-xs text-center sm:ml-0">
+                {LogoDesignTitles.section1.subtitle}
+              </p>
+              <div className="mt-8 flex flex-wrap justify-center gap-4">
+                <a href={`mailto:${GlobalData.company.companyEmail}`}>
+                  <a className="transform rounded-md bg-white px-5 py-3 font-medium text-black transition-colors hover:bg-black hover:text-white">
+                    Email
                   </a>
-                  <a href={GlobalData.company.companyWhatsapp}>
-                    <a className="transform rounded-md bg-white px-5 py-3 font-medium text-black transition-colors hover:bg-black hover:text-white">
-                      WhatsApp
-                    </a>
+                </a>
+
+                <a href={GlobalData.company.companyWhatsapp}>
+                  <a className="transform rounded-md bg-white px-5 py-3 font-medium text-black transition-colors hover:bg-black hover:text-white">
+                    WhatsApp
                   </a>
-                </div>
+                </a>
               </div>
             </div>
-          </div> 
-        </section>
+          </div>
+        </div>
+      </section>
 
-
-  {/* Subtitle section2 */}
-  <section className="text-center mx-auto my-8">
+      {/* Subtitle section2 */}
+      <section className="text-center mx-auto my-8">
         <h2 className="cursor-default pb-2 font-extrabold text-transparent text-2xl md:text-5xl lg:text-6xl bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-600 mt-3  tracking-tight ">
-          {page.title2}
+          {LogoDesignTitles.section2.title}
         </h2>
         <p className="cursor-default text-sm font-medium text-black mt-5 mb-10">
-          {page.subtitle2}
+          {LogoDesignTitles.section2.subtitle}
         </p>
 
         <div className="flex items-center justify-center gap-4 flex-wrap"></div>
       </section>
-
-
-
-
 
       {/* Why us for this */}
       <section className="bg-gray-200 ">
         <div className="grid max-w-screen-xl px-16 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
           <div className="mr-auto sm:mr-10 place-self-center lg:col-span-7">
             <h1 className="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl ">
-              {page.article_title}
+              {LogoDesignTitles.section3.title}
             </h1>
             <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl ">
-              {page.article_content}
+              {LogoDesignTitles.section3.peragraph}
             </p>
-            <a href="#"
-              className="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-black  "  >
+            <a
+              href="#"
+              className="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-black  "
+            >
               Get started
               <svg
                 className="w-5 h-5 ml-2 -mr-1"
@@ -159,13 +172,14 @@ function App() {
             </a>
           </div>
           <div className=" lg:mt-0 lg:col-span-5 lg:flex rounded-lg">
-            <img src={`https://admin.cyberspacedigital.in/${page.article_image}`} alt={page.title} 
+            <img
+              src="https://lp-cms-production.imgix.net/2019-06/554369495_full.jpg"
+              alt="mockup"
               className="rounded-lg"
             />
           </div>
         </div>
       </section>
-
 
       {/* Process  */}
       <section id="services" className="pt-5 cursor-default section relative ">
@@ -316,21 +330,44 @@ function App() {
           <div className="h-1 mx-auto bg-indigo-200 w-24 opacity-75 mt-4 rounded" />
           <div className="max-w-full md:max-w-6xl mx-auto my-3 md:px-8">
             <div className="flex flex-wrap justify-center -mx-4">
-               
-                <div className="w-full sm:w-1/2 lg:w-1/3 px-4 mb-8" >
+              {pricingData.map((plan, index) => (
+                <div className="w-full sm:w-1/2 lg:w-1/3 px-4 mb-8" key={index}>
                   <div className="bg-white text-black rounded-lg  shadow-lg overflow-hidden">
                     <div className="block text-left text-sm sm:text-md max-w-sm mx-auto mt-2 text-black px-8 lg:px-6">
                       <h1 className="text-lg font-medium uppercase p-3 pb-0 text-center tracking-wide">
-                       BASIC
+                        {plan.title}
                       </h1>
                       <h2 className="text-sm text-gray-500 text-center pb-6">
-                      {page.price_category1}
+                        {plan.price}
                       </h2>
-                      {page.price_category1details}
+                      Stripe offers everything needed to run an online business
+                      at scale. Get in touch for details.
                     </div>
                     <div className="flex flex-wrap mt-3 px-6">
                       <ul>
-                       
+                        {plan.features.map((feature, featureIndex) => (
+                          <li className="flex items-center" key={featureIndex}>
+                            <div className="rounded-full p-2 fill-current text-green-700">
+                              <svg
+                                className="w-6 h-6 align-middle"
+                                width={24}
+                                height={24}
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                strokeWidth={2}
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                              >
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+                                <polyline points="22 4 12 14.01 9 11.01" />
+                              </svg>
+                            </div>
+                            <span className="text-gray-700 text-lg ml-3">
+                              {feature}
+                            </span>
+                          </li>
+                        ))}
                       </ul>
                     </div>
                     <div className=" flex items-center p-8 uppercase">
@@ -340,66 +377,14 @@ function App() {
                     </div>
                   </div>
                 </div>
-
-                <div className="w-full sm:w-1/2 lg:w-1/3 px-4 mb-8" >
-                  <div className="bg-white text-black rounded-lg  shadow-lg overflow-hidden">
-                    <div className="block text-left text-sm sm:text-md max-w-sm mx-auto mt-2 text-black px-8 lg:px-6">
-                      <h1 className="text-lg font-medium uppercase p-3 pb-0 text-center tracking-wide">
-                      PREMIUM
-                      </h1>
-                      <h2 className="text-sm text-gray-500 text-center pb-6">
-                      {page.price_category2}
-                      </h2>
-                      {page.price_category2details}
-                    </div>
-                    <div className="flex flex-wrap mt-3 px-6">
-                      <ul>
-                       
-                      </ul>
-                    </div>
-                    <div className=" flex items-center p-8 uppercase">
-                      <button className="mt-3 text-lg font-semibold bg-black w-full text-white rounded-lg px-6 py-3 block shadow-xl hover:bg-gray-700">
-                        Select
-                      </button>
-                    </div>
-                  </div>
-                </div>
-
-
-                <div className="w-full sm:w-1/2 lg:w-1/3 px-4 mb-8" >
-                  <div className="bg-white text-black rounded-lg  shadow-lg overflow-hidden">
-                    <div className="block text-left text-sm sm:text-md max-w-sm mx-auto mt-2 text-black px-8 lg:px-6">
-                      <h1 className="text-lg font-medium uppercase p-3 pb-0 text-center tracking-wide">
-                      ECONOMIC
-                      </h1>
-                      <h2 className="text-sm text-gray-500 text-center pb-6">
-                      {page.price_category3}
-                      </h2>
-                      {page.price_category3details}
-                    </div>
-                    <div className="flex flex-wrap mt-3 px-6">
-                      <ul>
-                       
-                      </ul>
-                    </div>
-                    <div className=" flex items-center p-8 uppercase">
-                      <button className="mt-3 text-lg font-semibold bg-black w-full text-white rounded-lg px-6 py-3 block shadow-xl hover:bg-gray-700">
-                        Select
-                      </button>
-                    </div>
-                  </div>
-                </div>
-
+              ))}
             </div>
           </div>
         </div>
       </section>
 
-
-
-
-  {/* FAQs */}
-  <div className="py-10 bg-gray-100">
+      {/* FAQs */}
+      <div className="py-10 bg-gray-100">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-semibold text-center text-gray-800 mb-5">
             Frequently Asked Questions
@@ -436,10 +421,8 @@ function App() {
         </div>
       </div>
 
-
-
-   {/* Contact Us for Your Logo Needs */}
-   <section className="text-center mx-auto my-8">
+      {/* Contact Us for Your Logo Needs */}
+      <section className="text-center mx-auto my-8">
         <h2 className="cursor-default pb-2 font-extrabold text-transparent text-2xl md:text-5xl lg:text-6xl bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-600 mt-3  tracking-tight ">
           Contact Us
         </h2>
@@ -462,11 +445,56 @@ function App() {
         </div>
       </section>
 
+      {/* Blog: Logo Design Tips and Trends */}
+      <section className="bg-gray-200 ">
+        <div className="grid max-w-screen-xl px-16 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
+          <div className="mr-auto sm:mr-10 place-self-center lg:col-span-7">
+            <h1 className="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl ">
+              Blog
+            </h1>
+            <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl ">
+              A great logo is your brand's first impression, leaving a lasting
+              impact and enhancing recognition. It conveys professionalism,
+              setting you apart from the competition. Your logo embodies your
+              brand's identity, fostering deep connections with your audience.
+              It ensures memorability, making your brand stand out, and serves
+              as a trust-building, loyalty-inducing symbol. In summary, a great
+              logo is the cornerstone of your brand's success, speaking volumes
+              with just a glance.
+            </p>
+            <a
+              href="#"
+              className="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center text-black  "
+            >
+              know more
+              <svg
+                className="w-5 h-5 ml-2 -mr-1"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fillRule="evenodd"
+                  d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                  clipRule="evenodd"
+                />
+              </svg>
+            </a>
+          </div>
+          <div className=" lg:mt-0 lg:col-span-5 lg:flex rounded-lg">
+            <img
+              src="https://lp-cms-production.imgix.net/2019-06/554369495_full.jpg"
+              alt="mockup"
+              className="rounded-lg"
+            />
+          </div>
+        </div>
+      </section>
 
-  {/* Request a Custom Design */}
-  <section className="text-center mx-auto my-8">
+      {/* Request a Custom Design */}
+      <section className="text-center mx-auto my-8">
         <h2 className="cursor-default pb-2 font-extrabold text-transparent text-2xl md:text-5xl lg:text-6xl bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-600 mt-3  tracking-tight ">
-          Request a Custom {page.title}
+          Request a Custom {LogoDesignTitles.section1.title}
         </h2>
         <p className="cursor-default text-sm font-medium text-black mt-5 mb-10">
           Explore our comprehensive documentation for more information on our
@@ -488,13 +516,8 @@ function App() {
           </a>
         </div>
       </section>
-
-
-        </div>
-      ))}
-     
     </main>
   );
-}
+};
 
-export default App;
+export default LogoDesign;

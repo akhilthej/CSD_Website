@@ -8,7 +8,7 @@ import ShippingandDelivery from '../components/Documents/ShippingandDelivery';
 import Disclaimer from '../components/Documents/Disclaimer';
 
 import Error404 from '../components/Tools/Error404';
-import Home from './HOME';
+import Home from './Home';
 import Blog from './Blogs/Blog';
 import BlogFullPost from './Blogs/BlogFullPost';
 import Aboutus from './Aboutus';

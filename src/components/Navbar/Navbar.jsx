@@ -700,7 +700,7 @@ const Navbar = () => {
             <Menu as="div" className="relative inline-block text-left">
               <div>
                 <Menu.Button className="lg:inline-flex font-semibold antialiased hidden justify-center w-full rounded-md px-4 py-2 text-sm text-black hover:bg-yellow-500 focus:outline-none">
-                  <Link to="/services/best-digital-marketing-company">
+                  <Link to="/services/best-digital-marketing-company-in-vizag">
                     Digital Marketing
                   </Link>
                   <svg

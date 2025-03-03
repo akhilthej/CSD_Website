@@ -1,6 +1,4 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-
+import React, { useState } from "react";
 import {
   HeroCoverBG,
   Advertising,
@@ -11,212 +9,97 @@ import {
   WebDevelopment,
 } from "../assets/data/Imagedata";
 
+import {
+  DigitalmarketingIcon,
+  Advertisingicon,
+  Graphicdesignicon,
+  Webdevelopmenticon,
+  Mobileappicon,
+  Brandingicon,
+} from "../assets2/icon_data";
+
+const icons = {
+  "Digital Marketing": DigitalmarketingIcon,
+  "Web Development": Webdevelopmenticon,
+  "Mobile App Development": Mobileappicon,
+  Branding: Brandingicon,
+  "Graphic Design": Graphicdesignicon,
+  Advertising: Advertisingicon,
+};
+
 const ServicesTab = () => {
+  const [selected, setSelected] = useState("Digital Marketing");
+
+  const handleButtonClick = (category) => {
+    setSelected(category);
+  };
+
+  const images = {
+    "Digital Marketing": DigitalMarketing,
+    "Web Development": WebDevelopment,
+    "Mobile App Development": MobileAppDevelopment,
+    Branding: Branding,
+    "Graphic Design": GraphicDesign,
+    Advertising: Advertising,
+  };
+
+  const descriptions = {
+    "Digital Marketing":
+      "Digital marketing involves promoting products or services through digital channels.",
+    "Web Development":
+      "Web development is the work involved in developing a website for the Internet.",
+    "Mobile App Development":
+      "Mobile app development is the process of creating software applications for mobile devices.",
+    Branding:
+      "Branding is the process of creating a unique name and image for a product in the consumer's mind.",
+    "Graphic Design":
+      "Graphic design is the art of visual communication that combines images and text.",
+    Advertising:
+      "Advertising is the activity of producing advertisements for commercial products or services.",
+  };
+
   return (
-    <div>
-      <section>
-        <div className="overflow-hidden">
-          <div className="container m-auto px-6 space-y-8 text-black md:px-12">
-            <div>
-              <p className="text-xl sm:text-4xl font-bold text-black pt-10">
-                Main Features
-              </p>
-              <h2 className="font-extrabold text-transparent text-3xl md:text-6xl lg:text-6xl bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-600 tracking-tight ">
-                Services, We Provide
-              </h2>
-            </div>
+    <div className="flex flex-col md:flex-row min-h-screen w-full">
+      <div
+        className="flex-1 flex justify-center items-center relative min-h-[50vh] bg-cover bg-center"
+        style={{ backgroundImage: `url(${HeroCoverBG})` }}
+      >
+        <img
+          src={images[selected]}
+          alt={selected}
+          className="w-72 object-contain z-10"
+        />
+      </div>
 
-            <div
-              style={{
-                backgroundPosition: "center",
-                backgroundImage: `url(${HeroCoverBG})`,
-                backgroundRepeat: "no-repeat",
-                backgroundSize: "cover",
-              }}
+      <div className="flex-1 flex flex-col justify-center items-center text-center p-6 md:p-12">
+        <h1 className="text-xl md:text-3xl font-bold mb-3">{selected}</h1>
+        <p className="text-sm md:text-lg max-w-md">{descriptions[selected]}</p>
+      </div>
+
+      <div className="flex-1 flex flex-col justify-center items-center p-4 md:p-8">
+        <div className="grid grid-cols-3 md:grid-cols-3 gap-2 w-full max-w-xs md:max-w-md">
+          {Object.keys(images).map((category) => (
+            <button
+              key={category}
+              onClick={() => handleButtonClick(category)}
+              className={`flex flex-col items-center p-2 rounded-lg transition-all duration-300 ${
+                selected === category ? "bg-gray-200 shadow-md" : "bg-white"
+              } hover:bg-gray-100`}
             >
-              <div className="mt-16 mb-10 grid bg-white/80 border divide-x divide-y rounded-xl overflow-hidden grid-cols-2 lg:grid-cols-6 xl:grid-cols-6">
-                <Link to="/services/best-web-developement-company">
-                  <div className="relative group transition hover:z-[1] hover:shadow-2xl lg:hidden xl:block">
-                    <div className="relative p-8 space-y-8 border-dashed rounded-lg transition duration-300 group-hover:bg-yellow-500 group-hover:border group-hover:scale-90">
-                      <img
-                        src={WebDevelopment}
-                        className="w-2/3 ml-auto"
-                        alt="WebDevelopment"
-                        loading="lazy"
-                        width={900}
-                        height={600}
-                      />
-                      <div className="space-y-2">
-                        <h5 className="text-lg text-black font-medium transition group-hover:text-white">
-                          Web Development
-                        </h5>
-                        <p className="text-sm text-black">
-                          Web development for the Internet.
-                        </p>
-                      </div>
-                      <a className="flex justify-between items-center group-hover:text-white">
-                        <span className="text-sm bg-yellow-400 py-2 px-2 rounded">Read more</span>
-                        <span className="-translate-x-4 opacity-0 text-2xl transition duration-300 group-hover:opacity-100 group-hover:translate-x-0">
-                          →
-                        </span>
-                      </a>
-                    </div>
-                  </div>
-                </Link>
-
-                <Link to="/services/best-mobile-app-development-company">
-                  <div className="relative group transition hover:z-[1] hover:shadow-2xl lg:hidden xl:block">
-                    <div className="relative p-8 space-y-8 border-dashed rounded-lg transition duration-300 group-hover:bg-yellow-500 group-hover:border group-hover:scale-90">
-                      <img
-                        src={MobileAppDevelopment}
-                        className="w-2/3 ml-auto"
-                        alt="MobileAppDevelopment"
-                        loading="lazy"
-                        width={900}
-                        height={600}
-                      />
-                      <div className="space-y-2">
-                        <h5 className="text-lg text-black font-medium transition group-hover:text-white">
-                          Mobile App Development
-                        </h5>
-                        <p className="text-sm text-black">
-                          Software applications for mobile devices.
-                        </p>
-                      </div>
-                      <a className="flex justify-between items-center group-hover:text-white">
-                        <span className="text-sm bg-yellow-400 py-2 px-2 rounded">Read more</span>
-                        <span className="-translate-x-4 opacity-0 text-2xl transition duration-300 group-hover:opacity-100 group-hover:translate-x-0">
-                          →
-                        </span>
-                      </a>
-                    </div>
-                  </div>
-                </Link>
-
-                <Link to="/services/best-digital-marketing-company">
-                  <div className="relative group transition hover:z-[1] hover:shadow-2xl lg:hidden xl:block">
-                    <div className="relative p-8 space-y-8 border-dashed rounded-lg transition duration-300 group-hover:bg-yellow-500 group-hover:border group-hover:scale-90">
-                      <img
-                        src={DigitalMarketing}
-                        className="w-2/3 ml-auto"
-                        alt="DigitalMarketing"
-                        loading="lazy"
-                        width={900}
-                        height={600}
-                      />
-                      <div className="space-y-2">
-                        <h5 className="text-base text-black font-medium transition group-hover:text-white">
-                          Digital Marketing
-                        </h5>
-                        <p className="text-sm text-black">
-                          Connect with your audience effectively on the internet.
-                        </p>
-                      </div>
-                      <a className="flex justify-between items-center group-hover:text-white">
-                        <span className="text-sm bg-yellow-400 py-2 px-2 rounded">Read more</span>
-                        <span className="-translate-x-4 opacity-0 text-2xl transition duration-300 group-hover:opacity-100 group-hover:translate-x-0">
-                          →
-                        </span>
-                      </a>
-                    </div>
-                  </div>
-                </Link>
-                {/* Graphic Design */}
-                <Link to="/services/best-graphic-designing-company">
-                  <div className="relative group transition hover:z-[1] hover:shadow-2xl lg:hidden xl:block">
-                    <div className="relative p-8 space-y-8 border-dashed rounded-lg transition duration-300 group-hover:bg-yellow-500 group-hover:border group-hover:scale-90">
-                      <img
-                        src={GraphicDesign}
-                        className="w-2/3 ml-auto"
-                        alt="GraphicDesign"
-                        loading="lazy"
-                        width={900}
-                        height={600}
-                      />
-                      <div className="space-y-2">
-                        <h5 className="text-xl text-black font-medium transition group-hover:text-white">
-                          Graphic Design
-                        </h5>
-                        <p className="text-sm text-black">
-                          Convey messages through creative visuals and layouts.
-                        </p>
-                      </div>
-                      <a className="flex justify-between items-center group-hover:text-white">
-                        <span className="text-sm bg-yellow-400 py-2 px-2 rounded">Read more</span>
-                        <span className="-translate-x-4 opacity-0 text-2xl transition duration-300 group-hover:opacity-100 group-hover:translate-x-0">
-                          →
-                        </span>
-                      </a>
-                    </div>
-                  </div>
-                </Link>
-
-                {/* Brand Services */}
-                <Link to="/services/best-brand-services-company">
-                  <div className="relative group transition hover:z-[1] hover:shadow-2xl lg:hidden xl:block">
-                    <div className="relative p-8 space-y-8 border-dashed rounded-lg transition duration-300 group-hover:bg-yellow-500 group-hover:border group-hover:scale-90">
-                      <img
-                        src={Branding}
-                        className="w-2/3 ml-auto"
-                        alt="Branding"
-                        loading="lazy"
-                        width={900}
-                        height={600}
-                      />
-                      <div className="space-y-2">
-                        <h5 className="text-xl text-black font-medium transition group-hover:text-white">
-                          Brand Services
-                        </h5>
-                        <p className="text-sm text-black">
-                          Unlock branding success with various strategies. Endorsed branding unifies efforts to meet goals.
-                        </p>
-                      </div>
-                      <a className="flex justify-between items-center group-hover:text-white">
-                        <span className="text-sm bg-yellow-400 py-2 px-2 rounded">Read more</span>
-                        <span className="-translate-x-4 opacity-0 text-2xl transition duration-300 group-hover:opacity-100 group-hover:translate-x-0">
-                          →
-                        </span>
-                      </a>
-                    </div>
-                  </div>
-                </Link>
-                {/* Advertising */}
-                <Link to="/services/best-advertising-company">
-                  <div className="relative group transition hover:z-[1] hover:shadow-2xl lg:hidden xl:block">
-                    <div className="relative p-8 space-y-8 border-dashed rounded-lg transition duration-300 group-hover:bg-yellow-500 group-hover:border group-hover:scale-90">
-                      <img
-                        src={Advertising}
-                        className="w-2/3 ml-auto"
-                        alt="Advertising"
-                        loading="lazy"
-                        width={900}
-                        height={600}
-                      />
-                      <div className="space-y-2">
-                        <h5 className="text-xl text-black font-medium transition group-hover:text-white">
-                          Advertising
-                        </h5>
-                        <p className="text-sm text-black">
-                          ATL Advertising: Mass media outreach via TV, radio, and print for broad audiences.
-                          BTL Advertising: Personalized, direct, and digital strategies for precise targeting.
-                        </p>
-                      </div>
-                      <a href="/best-advertising-company" className="flex justify-between items-center group-hover:text-white">
-                        <span className="text-sm bg-yellow-400 py-2 px-2 rounded">Read more</span>
-                        <span className="-translate-x-4 opacity-0 text-2xl transition duration-300 group-hover:opacity-100 group-hover:translate-x-0">
-                          →
-                        </span>
-                      </a>
-                    </div>
-                  </div>
-                </Link>
-              </div>
-            </div>
-          </div>
+              <img
+                src={icons[category]}
+                alt={category}
+                className="w-12 md:w-16 h-auto mb-2"
+              />
+              <span className="text-xs md:text-sm font-medium text-center">
+                {category}
+              </span>
+            </button>
+          ))}
         </div>
-      </section>
+      </div>
     </div>
   );
-}
+};
 
 export default ServicesTab;

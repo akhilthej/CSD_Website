@@ -7,7 +7,6 @@ import {
   TimeManage,
   HiringModel,
 } from "../../../assets/data/Imagedata";
-import LogoPortfolioSlider from "../../../components/Sliders/LogoPortfolioSlider";
 import { GlobalData } from "../../../assets/data/GlodalData";
 
 const LogoDesignTitles = {
@@ -318,8 +317,6 @@ const LogoDesign = () => {
         </div>
       </section>
 
-      {/* Portfolio */}
-      <LogoPortfolioSlider />
 
       {/* Logo Design Pricing */}
       <section>

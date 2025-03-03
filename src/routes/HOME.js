@@ -1,6 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import { Helmet } from 'react-helmet-async';
+import { Helmet } from "react-helmet-async";
 
 import Brandslider from "../components/Sliders/Brand_slider";
 import ServicesTab from "../components/ServicesTab";
@@ -8,8 +7,8 @@ import ServicesTab from "../components/ServicesTab";
 import { HomeVideo } from "../assets/data/Imagedata";
 import ImageSlider from "../components/Sliders/ImageSlider";
 
-import HomeCommunityCover from '../assets/Home/HomeCommunityCover.webp'
-import HomeResourceCover from '../assets/Home/HomeResourceCover.webp'
+import HomeCommunityCover from "../assets/Home/HomeCommunityCover.webp";
+import HomeResourceCover from "../assets/Home/HomeResourceCover.webp";
 
 import {
   FixedPrice,
@@ -31,9 +30,26 @@ const Home = () => {
   return (
     <>
       <Helmet>
-            <title>Best Web Development &amp; Digital marketing Company</title>
-            <meta name="description" content='We are a prominent web design and development, digital marketing, Graphic designing , Advertising and branding company based in India. We have a strong track record of working with well-known brands to create high-performance, user-friendly, and secure web and mobile applications. Our expertise can transform your innovative ideas into a driving force for your business success.'/>
-            <link rel="canonical" href="/" />
+        <title>Cyber Space Digital - Top Digital Marketing & Web Development Company</title>
+        <meta name="description" content="Cyber Space Digital offers expert digital marketing, web development, and mobile app development services in Visakhapatnam." />
+        <meta name="keywords" content="digital marketing, web development, mobile app development, Visakhapatnam, graphic design, branding" />
+        <meta name="author" content="Cyber Space Digital" />
+        <link rel="canonical" href="https://cyberspacedigital.in/" />
+        
+        {/* Open Graph tags */}
+        <meta property="og:title" content="Cyber Space Digital - Leading Digital Marketing & Web Development Company" />
+        <meta property="og:description" content="Get expert services in digital marketing, web development, and branding." />
+        <meta property="og:image" content="../assets/Home/HomeResourceCover.webp" />
+        <meta property="og:url" content="https://cyberspacedigital.in/" />
+        <meta property="og:type" content="website" />
+        
+        {/* Twitter card tags */}
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:title" content="Cyber Space Digital - Leading Digital Marketing & Web Development Company" />
+        <meta name="twitter:description" content="Expert services in digital marketing, web development, and branding." />
+        <meta name="twitter:image" content="../assets/Home/HomeResourceCover.webp" />
+        <meta name="twitter:site" content="@cyberspacedigital" />
+        <meta name="twitter:creator" content="@cyberspacedigital" />
       </Helmet>
 
       <main className=" overflow-hidden">
@@ -117,8 +133,7 @@ const Home = () => {
         {/* WE BUILD */}
         <section
           style={{
-            backgroundImage:
-            `url("${HomeCommunityCover}")`,
+            backgroundImage: `url("${HomeCommunityCover}")`,
             backgroundSize: "cover",
             backgroundPosition: "top",
           }}
@@ -155,9 +170,14 @@ const Home = () => {
             </div>
             <div className="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
               <div>
-              <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12">
-  <img src={documentationicon} alt="documentationicon" width="50" height="50" />
-</div>
+                <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12">
+                  <img
+                    src={documentationicon}
+                    alt="Icon representing documentation services"
+                    width="50"
+                    height="50"
+                  />
+                </div>
                 <h3 className="text-black mb-2 text-xl font-bold ">
                   Documentation
                 </h3>
@@ -168,9 +188,14 @@ const Home = () => {
                 </p>
               </div>
               <div>
-              <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12">
-              <img src={analysisicon} alt="analysisicon" width="50" height="50" />
-              </div>
+                <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12">
+                  <img
+                    src={analysisicon}
+                    alt="analysisicon"
+                    width="50"
+                    height="50"
+                  />
+                </div>
                 <h3 className="text-black mb-2 text-xl font-bold ">Analyze</h3>
                 <p className="text-black ">
                   When executing a project,we analyze it periodically. Failing
@@ -180,9 +205,14 @@ const Home = () => {
                 </p>
               </div>
               <div>
-              <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12">
-  <img src={socialicon} alt="socialicon" width="50" height="50" />
-</div>
+                <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12">
+                  <img
+                    src={socialicon}
+                    alt="socialicon"
+                    width="50"
+                    height="50"
+                  />
+                </div>
                 <h3 className="text-black mb-2 text-xl font-bold ">
                   Social Media Presents
                 </h3>
@@ -194,9 +224,14 @@ const Home = () => {
                 </p>
               </div>
               <div>
-              <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12">
-  <img src={financeicon} alt="financeicon" width="50" height="50" />
-</div>
+                <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12">
+                  <img
+                    src={financeicon}
+                    alt="financeicon"
+                    width="50"
+                    height="50"
+                  />
+                </div>
 
                 <h3 className="text-black mb-2 text-xl font-bold ">Finance</h3>
                 <p className="text-black ">
@@ -206,9 +241,14 @@ const Home = () => {
                 </p>
               </div>
               <div>
-              <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12">
-  <img src={statergyicon} alt="statergyicon" width="50" height="50" />
-</div>
+                <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12">
+                  <img
+                    src={statergyicon}
+                    alt="statergyicon"
+                    width="50"
+                    height="50"
+                  />
+                </div>
                 <h3 className="text-black mb-2 text-xl font-bold ">Strategy</h3>
                 <p className="text-black ">
                   Craft beautiful, delightful experiences for both marketing and
@@ -216,9 +256,14 @@ const Home = () => {
                 </p>
               </div>
               <div>
-              <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12">
-  <img src={businessreporticon} alt="businessreporticon" width="50" height="50" />
-</div>
+                <div className="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12">
+                  <img
+                    src={businessreporticon}
+                    alt="businessreporticon"
+                    width="50"
+                    height="50"
+                  />
+                </div>
                 <h3 className="text-black mb-2 text-xl font-bold ">
                   Business Report
                 </h3>
@@ -235,8 +280,7 @@ const Home = () => {
         {/*Explore */}
         <section
           style={{
-            backgroundImage:
-            `url("${HomeResourceCover}")`,
+            backgroundImage: `url("${HomeResourceCover}")`,
             backgroundSize: "cover",
             backgroundPosition: "center",
           }}
@@ -364,7 +408,8 @@ const Home = () => {
         {/*Line of Engagement */}
         <section
           id="services"
-          className="cursor-default section relative pt-10 pb-8 md:pt-16 md:pb-10">
+          className="cursor-default section relative pt-10 pb-8 md:pt-16 md:pb-10"
+        >
           <div className="xl:max-w-8xl mx-auto px-4">
             {/* Heading for "Line of Engagement" section */}
 
@@ -524,16 +569,16 @@ const Home = () => {
           </p>
 
           <div className="flex items-center justify-center gap-4 flex-wrap">
-            <Link to="/contactus">
+            <a href="/contactus">
               <button className="text-xs sm:text-sm transform rounded bg-yellow-500 border border-slate-200 px-20 py-2 font-medium text-black transition-colors hover:bg-slate-50 ">
                 FAQ
               </button>
-            </Link>
-            <Link to="/contactus">
+            </a>
+            <a href="/contactus">
               <button className="text-xs sm:text-sm transform rounded border border-slate-200 px-14 py-2 font-medium text-black transition-colors hover:bg-slate-50 hover:text-black">
                 Contact us
               </button>
-            </Link>
+            </a>
           </div>
         </section>
       </main>
