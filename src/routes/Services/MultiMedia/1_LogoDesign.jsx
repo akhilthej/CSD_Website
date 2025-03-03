@@ -1,103 +1,52 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
-
+import Pages from "./MultiMedia.json";
+import { GlobalData } from "../../../assets/data/GlodalData";
 import {
   FixedPrice,
   OntimeDelivery,
   TimeManage,
   HiringModel,
 } from "../../../assets/data/Imagedata";
-import { GlobalData } from "../../../assets/data/GlodalData";
-
-const LogoDesignTitles = {
-  section1: {
-    title: "Logo Design",
-    subtitle: "Create a Unique Identity for Your Brand",
-  },
-  section2: {
-    title: "Create the perfect logo for your business",
-    subtitle:
-      "We have create more than 190+ Business Logos, 220 Commercial Logos and 100+ startup Company Logos.",
-  },
-  section3: {
-    title: "Why a Great Logo Matters?",
-    peragraph:
-      "A great logo is your brands first impression leaving a lasting impact and enhancing recognition. It conveys professionalism, setting you apart from the competition. Your logo embodies your brands identity, fostering deep connections with your audience. It ensures memorability, making your brand stand out, and serves as a trust-building, loyalty-inducing symbol. In summary, a great logo is the cornerstone of your brands success speaking volumes with just a glance.",
-  },
-};
-
-const SpecialServices = {
-  service1: {
-    title: "Amazing Logo",
-    subtitle:
-      "Under this model, the web development company and the client agree on a fixed price for the entire project scope.",
-  },
-  service2: {
-    title: "Website Safety",
-    subtitle:
-      "The client pays based on the time and resources spent on the project.",
-  },
-  service3: {
-    title: "Fully Mobile Responsive and Quick",
-    subtitle:
-      "The web development company commits to delivering projects on or before agreed-upon deadlines.",
-  },
-  service4: {
-    title: "Intelligent Designer",
-    subtitle:
-      "if your project requires additional manpower and extra resources, were ready to scale up and bring in the necessary talent to meet your needs.",
-  },
-};
-
-const pricingData = [
-  {
-    title: "Basic",
-    price: "2,000INR - 3,000INR",
-    features: ["3 days classes", "2 hours session"],
-  },
-  {
-    title: "Premium",
-    price: "10,000INR - 15,000INR",
-    features: ["15 days"],
-    popular: true,
-  },
-  {
-    title: "Economic",
-    price: "4,000INR - 8,000INR",
-    features: ["7 days"],
-  },
-];
-
-const LogofaqData = [
-  {
-    question: "What services do you offer?",
-    answer:
-      "We offer a wide range of services, including web development, mobile app development, custom software development, UX/UI design, and digital strategy consulting.",
-  },
-  {
-    question: "What platforms do you develop apps for?",
-    answer:
-      "We develop apps for iOS, Android, and cross-platform solutions like React Native and Flutter.",
-  },
-  {
-    question: "Do you offer both front-end and back-end development?",
-    answer:
-      "Yes, we provide both front-end and back-end development services to create fully functional web and mobile applications.",
-  },
-];
-
+import { DISCORD_WEBHOOKS } from "../../../hooks/Apis";
 
 const LogoDesign = () => {
+  const { LogoDesign } = Pages;
+  const [showPopup, setShowPopup] = useState(false);
+  const [selectedPlan, setSelectedPlan] = useState(null);
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+
+  // Handle submit
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    // Replace 'YOUR_DISCORD_WEBHOOK_URL' with the actual URL of your Discord webhook
+    const discordWebhookUrl = DISCORD_WEBHOOKS;
+    const message = {
+      content: `New lead: ${name} - ${email} - ${selectedPlan.title} - ${selectedPlan.price}`,
+    };
+    fetch(discordWebhookUrl, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(message),
+    })
+      .then((response) => response.json())
+      .then((data) => console.log(data))
+      .catch((error) => console.error(error));
+    setShowPopup(false);
+  };
+
   return (
     <main>
       {/* Title Card */}
       <section
         className="py-10 sm:py-40"
         style={{
-          backgroundImage:
-            'url("https://drive.google.com/uc?id=1-RKGIgPQ6gfNDnoW1jr6R_TzB9P_12ge")',
-          backgroundSize: "cover",
-          backgroundPosition: "center",
+          backgroundImage: `url(${LogoDesign.section1.backgroundImage.url})`,
+          backgroundSize: LogoDesign.section1.backgroundImage.size,
+          backgroundPosition: LogoDesign.section1.backgroundImage.position,
         }}
       >
         <div className="flex flex-col items-center md:flex-row justify-center">
@@ -107,10 +56,10 @@ const LogoDesign = () => {
               {" "}
               {/* Align titles to the right on mobile, left on larger screens */}
               <h3 className="cursor-default  text-2xl pb-5 md:text-6xl fade-in-down font-extrabold text-center text-white tracking-tight">
-                {LogoDesignTitles.section1.title}
+                {LogoDesign.section1.title}
               </h3>
               <p className="cursor-default text-white sm:text-sm text-xs text-center sm:ml-0">
-                {LogoDesignTitles.section1.subtitle}
+                {LogoDesign.section1.subtitle}
               </p>
               <div className="mt-8 flex flex-wrap justify-center gap-4">
                 <a href={`mailto:${GlobalData.company.companyEmail}`}>
@@ -133,10 +82,10 @@ const LogoDesign = () => {
       {/* Subtitle section2 */}
       <section className="text-center mx-auto my-8">
         <h2 className="cursor-default pb-2 font-extrabold text-transparent text-2xl md:text-5xl lg:text-6xl bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-600 mt-3  tracking-tight ">
-          {LogoDesignTitles.section2.title}
+          {LogoDesign.section2.title}
         </h2>
         <p className="cursor-default text-sm font-medium text-black mt-5 mb-10">
-          {LogoDesignTitles.section2.subtitle}
+          {LogoDesign.section2.subtitle}
         </p>
 
         <div className="flex items-center justify-center gap-4 flex-wrap"></div>
@@ -147,10 +96,10 @@ const LogoDesign = () => {
         <div className="grid max-w-screen-xl px-16 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
           <div className="mr-auto sm:mr-10 place-self-center lg:col-span-7">
             <h1 className="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl ">
-              {LogoDesignTitles.section3.title}
+              {LogoDesign.section3.title}
             </h1>
             <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl ">
-              {LogoDesignTitles.section3.peragraph}
+              {LogoDesign.section3.peragraph}
             </p>
             <a
               href="#"
@@ -173,150 +122,13 @@ const LogoDesign = () => {
           </div>
           <div className=" lg:mt-0 lg:col-span-5 lg:flex rounded-lg">
             <img
-              src="https://lp-cms-production.imgix.net/2019-06/554369495_full.jpg"
-              alt="mockup"
+              src={LogoDesign.section3.image.url}
+              alt={LogoDesign.section3.image.alt}
               className="rounded-lg"
             />
           </div>
         </div>
       </section>
-
-      {/* Process  */}
-      <section id="services" className="pt-5 cursor-default section relative ">
-        <div className="xl:max-w-8xl mx-auto px-4">
-          <section className="text-center mx-auto mb-12 lg:px-20">
-            <h2 className="pb-2 font-extrabold text-transparent text-2xl md:text-5xl lg:text-6xl bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-600 ">
-              Our Process
-            </h2>
-            <p className="text-sm font-medium text-black">
-              "We also add additional features while creating websites."
-            </p>
-          </section>
-
-          {/* "Fixed Price Model" section */}
-          <div className="flex flex-wrap flex-row -mx-4 text-center">
-            <div
-              className="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/4 lg:px-6 wow fadeInUp"
-              data-wow-duration="1s"
-              style={{
-                visibility: "visible",
-                animationDuration: "1s",
-                animationName: "fadeInUp",
-              }}
-            >
-              <div className="py-8 px-12   transform transition duration-300 ease-in-out hover:-translate-y-2">
-                <div className="inline-block text-gray-900 ">
-                  <img
-                    src={FixedPrice}
-                    className="w-40 ml-auto"
-                    alt="illustration"
-                    loading="lazy"
-                    width={900}
-                    height={600}
-                  />
-                </div>
-                <h3 className="text-lg leading-normal  font-semibold text-black">
-                  {SpecialServices.service1.title}
-                </h3>
-                <p className="text-gray-500 text-sm">
-                  {SpecialServices.service1.subtitle}
-                </p>
-              </div>
-            </div>
-            <div
-              className="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/4 lg:px-6 wow fadeInUp"
-              data-wow-duration="1s"
-              data-wow-delay=".1s"
-              style={{
-                visibility: "visible",
-                animationDuration: "1s",
-                animationDelay: "0.1s",
-                animationName: "fadeInUp",
-              }}
-            >
-              <div className="py-8 px-12   transform transition duration-300 ease-in-out hover:-translate-y-2">
-                <div className="inline-block text-gray-900">
-                  <img
-                    src={TimeManage}
-                    className="w-40 ml-auto"
-                    alt="illustration"
-                    loading="lazy"
-                    width={900}
-                    height={600}
-                  />
-                </div>
-                <h3 className="text-lg leading-normal font-semibold text-black">
-                  {SpecialServices.service2.title}
-                </h3>
-                <p className="text-gray-500 text-sm">
-                  {SpecialServices.service2.subtitle}
-                </p>
-              </div>
-            </div>
-            <div
-              className="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/4 lg:px-6 wow fadeInUp"
-              data-wow-duration="1s"
-              data-wow-delay=".3s"
-              style={{
-                visibility: "visible",
-                animationDuration: "1s",
-                animationDelay: "0.3s",
-                animationName: "fadeInUp",
-              }}
-            >
-              <div className="py-8 px-12   transform transition duration-300 ease-in-out hover:-translate-y-2">
-                <div className="inline-block text-gray-900 ">
-                  <img
-                    src={OntimeDelivery}
-                    className="w-40 ml-auto"
-                    alt="illustration"
-                    loading="lazy"
-                    width={900}
-                    height={600}
-                  />
-                </div>
-                <h3 className="text-lg leading-normal  font-semibold text-black">
-                  {SpecialServices.service3.title}
-                </h3>
-                <p className="text-gray-500 text-sm">
-                  {SpecialServices.service3.subtitle}
-                </p>
-              </div>
-            </div>
-            <div
-              className="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/4 lg:px-6 wow fadeInUp"
-              data-wow-duration="1s"
-              data-wow-delay=".3s"
-              style={{
-                visibility: "visible",
-                animationDuration: "1s",
-                animationDelay: "0.3s",
-                animationName: "fadeInUp",
-              }}
-            >
-              <div className="py-8 px-12   transform transition duration-300 ease-in-out hover:-translate-y-2">
-                <div className="inline-block text-gray-900 ">
-                  <img
-                    src={HiringModel}
-                    className="w-40 ml-auto"
-                    alt="illustration"
-                    loading="lazy"
-                    width={900}
-                    height={600}
-                  />
-                </div>
-                <h3 className="text-lg leading-normal font-semibold text-black">
-                  {SpecialServices.service4.title}
-                </h3>
-                <p className="text-gray-500 text-sm">
-                  {SpecialServices.service4.subtitle}
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
 
       {/* Logo Design Pricing */}
       <section>
@@ -330,7 +142,7 @@ const LogoDesign = () => {
           <div className="h-1 mx-auto bg-indigo-200 w-24 opacity-75 mt-4 rounded" />
           <div className="max-w-full md:max-w-6xl mx-auto my-3 md:px-8">
             <div className="flex flex-wrap justify-center -mx-4">
-              {pricingData.map((plan, index) => (
+              {LogoDesign.pricingData.map((plan, index) => (
                 <div className="w-full sm:w-1/2 lg:w-1/3 px-4 mb-8" key={index}>
                   <div className="bg-white text-black rounded-lg  shadow-lg overflow-hidden">
                     <div className="block text-left text-sm sm:text-md max-w-sm mx-auto mt-2 text-black px-8 lg:px-6">
@@ -371,7 +183,14 @@ const LogoDesign = () => {
                       </ul>
                     </div>
                     <div className=" flex items-center p-8 uppercase">
-                      <button className="mt-3 text-lg font-semibold bg-black w-full text-white rounded-lg px-6 py-3 block shadow-xl hover:bg-gray-700">
+                      <button
+                        className="mt-3 text-lg font-semibold bg-black w-full text-white rounded-lg px-6 py-3 block shadow-xl hover:bg-gray-700"
+                        onClick={() => {
+                          // Show popup
+                          setShowPopup(true);
+                          setSelectedPlan(plan);
+                        }}
+                      >
                         Select
                       </button>
                     </div>
@@ -383,6 +202,45 @@ const LogoDesign = () => {
         </div>
       </section>
 
+      {showPopup && (
+        <div className="fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 flex items-center justify-center">
+          <div className="bg-white rounded-lg p-4 shadow-md">
+            <h2 className="text-lg font-medium text-center">
+              {selectedPlan.title} - {selectedPlan.price}
+            </h2>
+            <form onSubmit={handleSubmit}>
+              <div className="mt-4">
+                <label className="block text-sm font-medium text-gray-700">
+                  Name
+                </label>
+                <input
+                  type="text"
+                  className="block w-full p-2 mt-1 text-sm text-gray-700 border border-gray-300 rounded-md"
+                  value={name}
+                  onChange={(e) => setName(e.target.value)}
+                />
+              </div>
+              <div className="mt-4">
+                <label className="block text-sm font-medium text-gray-700">
+                  Email
+                </label>
+                <input
+                  type="email"
+                  className="block w-full p-2 mt-1 text-sm text-gray-700 border border-gray-300 rounded-md"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                />
+              </div>
+              <button
+                type="submit"
+                className="mt-4 text-lg font-semibold bg-black w-full text-white rounded-lg px-6 py-3 block shadow-xl hover:bg-gray-700"
+              >
+                Submit
+              </button>
+            </form>
+          </div>
+        </div>
+      )}
       {/* FAQs */}
       <div className="py-10 bg-gray-100">
         <div className="container mx-auto px-4">
@@ -390,7 +248,7 @@ const LogoDesign = () => {
             Frequently Asked Questions
           </h2>
           <div className="grid gap-4">
-            {LogofaqData.map((item, index) => (
+            {LogoDesign.LogofaqData.map((item, index) => (
               <div className="bg-white rounded-lg p-4 shadow-md" key={index}>
                 <details className="group">
                   <summary className="flex justify-between items-center font-medium cursor-pointer">
@@ -494,7 +352,7 @@ const LogoDesign = () => {
       {/* Request a Custom Design */}
       <section className="text-center mx-auto my-8">
         <h2 className="cursor-default pb-2 font-extrabold text-transparent text-2xl md:text-5xl lg:text-6xl bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-600 mt-3  tracking-tight ">
-          Request a Custom {LogoDesignTitles.section1.title}
+          Request a Custom {LogoDesign.section1.title}
         </h2>
         <p className="cursor-default text-sm font-medium text-black mt-5 mb-10">
           Explore our comprehensive documentation for more information on our

@@ -1,0 +1,58 @@
+{
+    "LogoDesign": {
+      "section1": {
+        "title": "Logo Design",
+        "subtitle": "Create a Unique Identity for Your Brand",
+        "backgroundImage": {
+          "url": "https://img.freepik.com/free-photo/inspiration-ideas-design-creative-thinking-word_53876-92924.jpg?t=st=1741035072~exp=1741038672~hmac=b8ac415a7eea6017163f35acc5945eb214660bee6513090cd0528ba7d0e4971b&w=1380",
+          "size": "cover",
+          "position": "center"
+        }
+      },
+      "section2": {
+        "title": "Create the perfect logo for your business",
+        "subtitle": "We have create more than 190+ Business Logos, 220 Commercial Logos and 100+ startup Company Logos."
+      },
+     "section3": {
+      "title": "Why a Great Logo Matters?",
+      "peragraph": "A great logo is your brands first impression leaving a lasting impact and enhancing recognition. It conveys professionalism, setting you apart from the competition. Your logo embodies your brands identity, fostering deep connections with your audience. It ensures memorability, making your brand stand out, and serves as a trust-building, loyalty-inducing symbol. In summary, a great logo is the cornerstone of your brands success speaking volumes with just a glance.",
+      "image": {
+        "url": "https://lp-cms-production.imgix.net/2019-06/554369495_full.jpg",
+        "alt": "mockup"
+      }
+     },
+   
+      "pricingData": [
+        {
+          "title": "Basic",
+          "price": "2,000INR - 3,000INR",
+          "features": ["3 days classes", "2 hours session"]
+        },
+        {
+          "title": "Premium",
+          "price": "10,000INR - 15,000INR",
+          "features": ["15 days"],
+          "popular": true
+        },
+        {
+          "title": "Economic",
+          "price": "4,000INR - 8,000INR",
+          "features": ["7 days"]
+        }
+      ],
+      "LogofaqData": [
+        {
+          "question": "What services do you offer?",
+          "answer": "We offer a wide range of services, including web development, mobile app development, custom software development, UX/UI design, and digital strategy consulting."
+        },
+        {
+          "question": "What platforms do you develop apps for?",
+          "answer": "We develop apps for iOS, Android, and cross-platform solutions like React Native and Flutter."
+        },
+        {
+          "question": "Do you offer both front-end and back-end development?",
+          "answer": "Yes, we provide both front-end and back-end development services to create fully functional web and mobile applications."
+        }
+      ]
+    }
+  }

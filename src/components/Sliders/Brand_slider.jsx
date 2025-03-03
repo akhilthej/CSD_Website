@@ -2,16 +2,18 @@ import React from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import DFC from '../../assets/Clients/DFC.png'
-import AlohaTechLogo from '../../assets/Clients/AlohaTechLogo.png'
-import Archivitus from '../../assets/Clients/Archivitus.png'
-import iliha from '../../assets/Clients/iliha.png'
-import labelanuneni from '../../assets/Clients/labelanuneni.png'
-import latonskincare from '../../assets/Clients/latonskincare.png'
-import leormedia from '../../assets/Clients/leormedia.pmg.png'
-import ragingtuskers from '../../assets/Clients/ragingtuskers.png'
-import serpsit from '../../assets/Clients/serpsit.png'
-import Prasidda from '../../assets/Clients/Prasidda_logo.png'
+
+// Function to load all images from a specific directory
+const importAll = (r) => {
+  let images = {};
+  r.keys().forEach((item) => {
+    images[item.replace('./', '')] = r(item);
+  });
+  return images;
+};
+
+// Import all images from the Clients directory, including webp
+const images = importAll(require.context('../../assets2/Clients', false, /\.(png|jpe?g|svg|webp)$/));
 
 const BrandCarousel = () => {
   const settings = {
@@ -25,20 +27,8 @@ const BrandCarousel = () => {
     slidesToShow: window.innerWidth < 768 ? 3 : 6,
   };
 
-  const brandImages = [
-    DFC,
-    AlohaTechLogo,
-    labelanuneni,
-    iliha,
-    latonskincare,
-    Prasidda,
-    ragingtuskers,
-    leormedia,
-    serpsit,
-    Archivitus,
-    
-    // Add more image URLs here
-  ];
+  // Get the image URLs from the imported images
+  const brandImages = Object.values(images);
 
   return (
     <div className="py-10 bg-gray-100">

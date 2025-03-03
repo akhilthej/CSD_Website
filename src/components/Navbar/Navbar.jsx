@@ -2,6 +2,7 @@ import { Fragment, useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Menu, Transition } from "@headlessui/react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {DigitalmarketingIcon,Advertisingicon,Graphicdesignicon,Webdevelopmenticon,Mobileappicon,Brandingicon} from '../../assets2/icon_data'
 import {
   faBuilding,
   faSearch,
@@ -80,16 +81,11 @@ const Navbar = () => {
   const currentYear = new Date().getFullYear();
 
   const NavImages = {
-    link1:
-      "https://cyberspacedigital.in/static/media/HomeResourceCover.9f085fb821100f9608e6.webp",
-    link2:
-      "https://cyberspacedigital.in/static/media/HomeResourceCover.9f085fb821100f9608e6.webp",
-    link3:
-      "https://cyberspacedigital.in/static/media/HomeResourceCover.9f085fb821100f9608e6.webp",
-    link4:
-      "https://cyberspacedigital.in/static/media/HomeResourceCover.9f085fb821100f9608e6.webp",
-    link5:
-      "https://cyberspacedigital.in/static/media/HomeResourceCover.9f085fb821100f9608e6.webp",
+    link1:Webdevelopmenticon,
+    link2:DigitalmarketingIcon,
+    link3:Brandingicon,
+    link4:Advertisingicon,
+    link5: Mobileappicon,
   };
 
   const webDevelopmentLinks = [

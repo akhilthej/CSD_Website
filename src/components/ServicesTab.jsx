@@ -61,8 +61,7 @@ const ServicesTab = () => {
   return (
     <div className="flex flex-col md:flex-row min-h-screen w-full">
       <div
-        className="flex-1 flex justify-center items-center relative min-h-[50vh] bg-cover bg-center"
-        style={{ backgroundImage: `url(${HeroCoverBG})` }}
+        className="flex-1 flex justify-center items-center relative min-h-[50vh]"
       >
         <img
           src={images[selected]}
@@ -71,10 +70,19 @@ const ServicesTab = () => {
         />
       </div>
 
-      <div className="flex-1 flex flex-col justify-center items-center text-center p-6 md:p-12">
-        <h1 className="text-xl md:text-3xl font-bold mb-3">{selected}</h1>
-        <p className="text-sm md:text-lg max-w-md">{descriptions[selected]}</p>
-      </div>
+      <div className="relative flex-1 flex flex-col justify-center items-center text-center p-6 md:p-12">
+  <div
+    className="absolute inset-0 bg-cover bg-center"
+    style={{
+      backgroundImage: `url(${HeroCoverBG})`,
+      opacity: 0.3,
+      zIndex: -1, // Ensure the background is behind the content
+    }}
+  ></div>
+  
+  <h1 className="text-xl md:text-3xl font-bold mb-3 relative z-10">{selected}</h1>
+  <p className="text-sm md:text-lg max-w-md relative z-10">{descriptions[selected]}</p>
+</div>
 
       <div className="flex-1 flex flex-col justify-center items-center p-4 md:p-8">
         <div className="grid grid-cols-3 md:grid-cols-3 gap-2 w-full max-w-xs md:max-w-md">

@@ -1,0 +1,57 @@
+{
+  "CRMERPPanels": {
+    "section1": {
+      "title": "Comprehensive CRM and ERP Solutions",
+      "subtitle": "Streamline Your Business Operations with Our Integrated Systems",
+      "backgroundImage": {
+        "url": "https://img.freepik.com/free-photo/customer-relationship-management-concept_23-2150038399.jpg?t=st=1741036108~exp=1741039708~hmac=44b01629824344a74ad8facbaa30028470c8c010d50c709bf52f64d5db41249f&w=2000",
+        "size": "cover",
+        "position": "center"
+      }
+    },
+    "section2": {
+      "title": "Create the Perfect CRM and ERP System for Your Business",
+      "subtitle": "We have successfully implemented over 200+ CRM systems and 150+ ERP solutions for various industries."
+    },
+    "section3": {
+      "title": "The Importance of a Great CRM and ERP System",
+      "paragraph": "A robust CRM and ERP system is essential for managing customer relationships and streamlining business processes. It enhances efficiency, improves data accuracy, and fosters collaboration across departments. By integrating these systems, businesses can gain valuable insights, improve customer satisfaction, and drive growth. In summary, a great CRM and ERP system is vital for your business's success, enabling you to make informed decisions and stay ahead of the competition.",
+      "image": {
+        "url": "https://lp-cms-production.imgix.net/2019-06/554369495_full.jpg",
+        "alt": "mockup"
+      }
+    },
+    "pricingData": [
+      {
+        "title": "Basic Package",
+        "price": "5,000INR - 10,000INR",
+        "features": ["1 month of support", "Basic CRM setup"]
+      },
+      {
+        "title": "Premium Package",
+        "price": "20,000INR - 30,000INR",
+        "features": ["3 months of support", "Advanced CRM and ERP integration"],
+        "popular": true
+      },
+      {
+        "title": "Economic Package",
+        "price": "10,000INR - 15,000INR",
+        "features": ["2 months of support", "Standard CRM features"]
+      }
+    ],
+    "LogofaqData": [
+      {
+        "question": "What services do you offer?",
+        "answer": "We offer a comprehensive range of services, including CRM and ERP implementation, customization, training, and ongoing support."
+      },
+      {
+        "question": "What industries do you serve?",
+        "answer": "We serve various industries, including retail, healthcare, finance, and manufacturing, providing tailored solutions to meet specific needs."
+      },
+      {
+        "question": "Do you provide training for your systems?",
+        "answer": "Yes, we offer training sessions for your team to ensure they are proficient in using the CRM and ERP systems effectively."
+      }
+    ]
+  }
+}
