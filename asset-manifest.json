@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.2ee7c6ae.css",
-    "main.js": "/static/js/main.b9396307.js",
+    "main.js": "/static/js/main.3e936020.js",
     "static/media/homepage1.webm": "/static/media/homepage1.87aef36ca97ae058373c.webm",
     "static/media/graphicdesignicon.svg": "/static/media/graphicdesignicon.abb07b3de8194fd8499260f8d8c6770f.svg",
     "static/media/advertisingicon.svg": "/static/media/advertisingicon.e6471d11824a9f9414138221b771d23f.svg",
@@ -29,6 +29,7 @@
     "static/media/HomeCommunityCover.webp": "/static/media/HomeCommunityCover.a13d084936f791650e3f.webp",
     "static/media/AdvertisingCoverHomeImage.webp": "/static/media/AdvertisingCoverHomeImage.cd06540afaa99afea2d7.webp",
     "static/media/labelanuneni.png": "/static/media/labelanuneni.46713d4a3b680b25e05d.png",
+    "static/media/DigitalMarketingImage.svg": "/static/media/DigitalMarketingImage.1404d3b39277f73bcf8fa8ace520653c.svg",
     "static/media/SR Portfolios.png": "/static/media/SR Portfolios.89330142b3f89c9f3688.png",
     "static/media/HeroCoverBG.png": "/static/media/HeroCoverBG.d4a05e8db52361610406.png",
     "static/media/Archivitus.png": "/static/media/Archivitus.c629472999e8ce6f2bb0.png",
@@ -151,10 +152,10 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "main.2ee7c6ae.css.map": "/static/css/main.2ee7c6ae.css.map",
-    "main.b9396307.js.map": "/static/js/main.b9396307.js.map"
+    "main.3e936020.js.map": "/static/js/main.3e936020.js.map"
   },
   "entrypoints": [
     "static/css/main.2ee7c6ae.css",
-    "static/js/main.b9396307.js"
+    "static/js/main.3e936020.js"
   ]
 }
