@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.20e23cd0.css",
-    "main.js": "/static/js/main.748ea035.js",
+    "main.css": "/static/css/main.fad5525b.css",
+    "main.js": "/static/js/main.3916dad3.js",
     "static/media/homepage1.webm": "/static/media/homepage1.87aef36ca97ae058373c.webm",
     "static/media/graphicdesignicon.svg": "/static/media/graphicdesignicon.abb07b3de8194fd8499260f8d8c6770f.svg",
+    "static/media/BrandingImage.svg": "/static/media/BrandingImage.83e5242fbcd75b2402bd1d738a1eef30.svg",
     "static/media/advertisingicon.svg": "/static/media/advertisingicon.e6471d11824a9f9414138221b771d23f.svg",
     "static/media/LAN-001-white.png": "/static/media/LAN-001-white.4cd2dfdc96667fc57a19.png",
     "static/media/mobileappicon.svg": "/static/media/mobileappicon.cc9d0420d1a39c6edbe5b2f9d6794f64.svg",
@@ -29,8 +30,10 @@
     "static/media/HomeCommunityCover.webp": "/static/media/HomeCommunityCover.a13d084936f791650e3f.webp",
     "static/media/AdvertisingCoverHomeImage.webp": "/static/media/AdvertisingCoverHomeImage.cd06540afaa99afea2d7.webp",
     "static/media/labelanuneni.png": "/static/media/labelanuneni.46713d4a3b680b25e05d.png",
-    "static/media/DigitalMarketingImage.svg": "/static/media/DigitalMarketingImage.1404d3b39277f73bcf8fa8ace520653c.svg",
+    "static/media/MobileAppDevImage.svg": "/static/media/MobileAppDevImage.40733e3a07d13ad30e31e958ef1b3fc1.svg",
+    "static/media/WebDevelopmentImage.svg": "/static/media/WebDevelopmentImage.c1c4d1b3d4dedf9a4b820a7052d7b0ce.svg",
     "static/media/SR Portfolios.png": "/static/media/SR Portfolios.89330142b3f89c9f3688.png",
+    "static/media/DigitalMarketingImage.svg": "/static/media/DigitalMarketingImage.18d7a3a7de5724346babd40c79497439.svg",
     "static/media/HeroCoverBG.png": "/static/media/HeroCoverBG.d4a05e8db52361610406.png",
     "static/media/Archivitus.png": "/static/media/Archivitus.c629472999e8ce6f2bb0.png",
     "static/media/iliha.png": "/static/media/iliha.6d43be6339d1de6b59c1.png",
@@ -38,6 +41,7 @@
     "static/media/BrandingCoverHomeImage.webp": "/static/media/BrandingCoverHomeImage.7970592b5f9832414d5d.webp",
     "static/media/serpsit.png": "/static/media/serpsit.febc6f0f4bc609f126dc.png",
     "static/media/HomeResourceCover.webp": "/static/media/HomeResourceCover.9f085fb821100f9608e6.webp",
+    "static/media/AdvertisingImage.svg": "/static/media/AdvertisingImage.6f85429fa81cb559909edc641e2dc7e4.svg",
     "static/media/Subscribe.png": "/static/media/Subscribe.68f61a5d75abbc0d1333.png",
     "static/media/BlogCover.webp": "/static/media/BlogCover.373a57ef613fb5bebd9c.webp",
     "static/media/CTO.webp": "/static/media/CTO.46bbe4bbab9a938c6dbe.webp",
@@ -47,6 +51,7 @@
     "static/media/chaitanya.webp": "/static/media/chaitanya.498f899598a22ed9ec09.webp",
     "static/media/WebDevelopmentCoverHomeImage.webp": "/static/media/WebDevelopmentCoverHomeImage.fedded6ba4610c9b69a1.webp",
     "static/media/saikiran.webp": "/static/media/saikiran.e75af162cb4535eaa499.webp",
+    "static/media/GraphicDesignImage.svg": "/static/media/GraphicDesignImage.4b1d425d4c82a6944cb8c60ae352040d.svg",
     "static/media/AlohaTechLogo.png": "/static/media/AlohaTechLogo.b03845811bdb827004d6.png",
     "static/media/RemarketingandRetargeting.webp": "/static/media/RemarketingandRetargeting.bc6a7e1c6c04f4d484dd.webp",
     "static/media/Business Card.webp": "/static/media/Business Card.2137db28b63c2943bc6d.webp",
@@ -144,6 +149,7 @@
     "static/media/webrevamp.svg": "/static/media/webrevamp.5db8d95ce4f7f1a3c8836b7630983134.svg",
     "static/media/Infographic Design.webp": "/static/media/Infographic Design.043ad33d34e7d3409101.webp",
     "index.html": "/index.html",
+    "static/media/HeroCoverBG.svg": "/static/media/HeroCoverBG.de4140ea56d97e173124c27d92a19abb.svg",
     "static/media/App Prototyping.webp": "/static/media/App Prototyping.6ad92d68417eff007e03.webp",
     "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/Visual Identity Design.webp": "/static/media/Visual Identity Design.e76d5ee740f5fee02cdd.webp",
@@ -151,11 +157,11 @@
     "static/media/User Experience Design.webp": "/static/media/User Experience Design.fda7b364511c5ead9577.webp",
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
-    "main.20e23cd0.css.map": "/static/css/main.20e23cd0.css.map",
-    "main.748ea035.js.map": "/static/js/main.748ea035.js.map"
+    "main.fad5525b.css.map": "/static/css/main.fad5525b.css.map",
+    "main.3916dad3.js.map": "/static/js/main.3916dad3.js.map"
   },
   "entrypoints": [
-    "static/css/main.20e23cd0.css",
-    "static/js/main.748ea035.js"
+    "static/css/main.fad5525b.css",
+    "static/js/main.3916dad3.js"
   ]
 }
