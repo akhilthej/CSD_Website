@@ -1,13 +1,14 @@
 import React, { useState } from "react";
+
 import {
   HeroCoverBG,
-  Advertising,
-  Branding,
-  DigitalMarketing,
-  GraphicDesign,
-  MobileAppDevelopment,
-  WebDevelopment,
-} from "../assets/data/Imagedata";
+  DigitalMarketingImage,
+  AdvertisingImage,
+  GraphicDesignImage,
+  BrandingImage,
+  MobileAppDevImage,
+  WebDevelopmentImage,
+} from "../assets2/image_data";
 
 import {
   DigitalmarketingIcon,
@@ -35,12 +36,12 @@ const ServicesTab = () => {
   };
 
   const images = {
-    "Digital Marketing": DigitalMarketing,
-    "Web Development": WebDevelopment,
-    "Mobile App Development": MobileAppDevelopment,
-    Branding: Branding,
-    "Graphic Design": GraphicDesign,
-    Advertising: Advertising,
+    "Digital Marketing": DigitalMarketingImage,
+    "Web Development": WebDevelopmentImage,
+    "Mobile App Development": MobileAppDevImage,
+    Branding: BrandingImage,
+    "Graphic Design": GraphicDesignImage,
+    Advertising: AdvertisingImage,
   };
 
   const descriptions = {
@@ -59,51 +60,56 @@ const ServicesTab = () => {
   };
 
   return (
-    <div className="flex flex-col md:flex-row min-h-screen w-full">
-      <div
-        className="flex-1 flex justify-center items-center relative min-h-[50vh]"
-      >
+    <div className="flex flex-col md:flex-row my-10 w-full">
+      <div className="flex-1 flex flex-col justify-center items-center relative min-h-[50vh]">
+        {/* Title and Description Above the Image */}
+        <div className="text-center p-4">
+          <h1 className="text-xl md:text-3xl font-bold mb-2">{selected}</h1>
+          <p className="text-sm md:text-lg max-w-md">
+            {descriptions[selected]}
+          </p>
+        </div>
+
+        {/* Image Below the Title and Description */}
         <img
           src={images[selected]}
           alt={selected}
-          className="w-72 object-contain z-10"
+          className="sm:w-full w-[300px] object-contain z-10"
         />
       </div>
 
       <div className="relative flex-1 flex flex-col justify-center items-center text-center p-6 md:p-12">
-  <div
-    className="absolute inset-0 bg-cover bg-center"
-    style={{
-      backgroundImage: `url(${HeroCoverBG})`,
-      opacity: 0.3,
-      zIndex: -1, // Ensure the background is behind the content
-    }}
-  ></div>
-  
-  <h1 className="text-xl md:text-3xl font-bold mb-3 relative z-10">{selected}</h1>
-  <p className="text-sm md:text-lg max-w-md relative z-10">{descriptions[selected]}</p>
-</div>
+        <div
+          className="absolute inset-0  w-52 bg-center"
+          style={{
+            backgroundImage: `url(${HeroCoverBG})`,
+            backgroundRepeat: "no-repeat", // Prevent the background from repeating
+            opacity: 0.3,
+            zIndex: -1, // Ensure the background is behind the content
+          }}
+        ></div>
 
-      <div className="flex-1 flex flex-col justify-center items-center p-4 md:p-8">
-        <div className="grid grid-cols-3 md:grid-cols-3 gap-2 w-full max-w-xs md:max-w-md">
-          {Object.keys(images).map((category) => (
-            <button
-              key={category}
-              onClick={() => handleButtonClick(category)}
-              className={`flex flex-col items-center p-2 rounded-lg transition-all duration-300 ${
-                selected === category ? "bg-gray-200 shadow-md" : "bg-white"
-              } hover:bg-gray-100`}
-            >
-              <img
-                src={icons[category]}
-                alt={category}
-                className="w-12 md:w-16 h-auto mb-2"
-              />
-              <span className="text-xs md:text-sm font-medium text-center">
-                {category}
-              </span>
-            </button>
-          ))}
+        <div className="flex-1 flex flex-col justify-center items-center p-4 md:p-8">
+          <div className="grid grid-cols-3 md:grid-cols-3 gap-2 w-full max-w-xs md:max-w-md">
+            {Object.keys(images).map((category) => (
+              <button
+                key={category}
+                onClick={() => handleButtonClick(category)}
+                className={`flex flex-col items-center p-2 rounded-lg transition-all duration-300 ${
+                  selected === category ? "bg-gray-200 shadow-md" : "bg-white"
+                } hover:bg-gray-100`}
+              >
+                <img
+                  src={icons[category]}
+                  alt={category}
+                  className="w-12 md:w-16 h-auto mb-2"
+                />
+                <span className="text-xs md:text-sm font-medium text-center">
+                  {category}
+                </span>
+              </button>
+            ))}
+          </div>
         </div>
       </div>
     </div>

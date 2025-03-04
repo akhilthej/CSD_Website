@@ -1,13 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import Pages from "./MultiMedia.json";
+import Pages from "./Page_Data_MultiMedia.json";
 import { GlobalData } from "../../../assets/data/GlodalData";
-import {
-  FixedPrice,
-  OntimeDelivery,
-  TimeManage,
-  HiringModel,
-} from "../../../assets/data/Imagedata";
 import { DISCORD_WEBHOOKS } from "../../../hooks/Apis";
 
 const LogoDesign = () => {

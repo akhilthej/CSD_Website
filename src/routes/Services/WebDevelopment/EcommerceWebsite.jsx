@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import Pages from "./WebDevelopment.json";
+import Pages from "./Page_Data_WebDevelopment.json";
 import { GlobalData } from "../../../assets/data/GlodalData";
 import { DISCORD_WEBHOOKS } from "../../../hooks/Apis";
 

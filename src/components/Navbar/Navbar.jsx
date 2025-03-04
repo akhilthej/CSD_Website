@@ -9,7 +9,7 @@ import {
   faPencil,
   faNetworkWired,
   faPhone,
-  faEnvelope,
+  faEnvelope,faBlog,faInfoCircle,
   faAd,
   faHandHoldingUsd,
   faChartLine,
@@ -674,7 +674,7 @@ const Navbar = () => {
                     <div className="w-1/3 p-4">
                       {/* Place your image and additional content here */}
                       <img
-                        className="w-[30rem] h-[10rem] object-cover"
+                        className="w-[30rem] h-[10rem] object-contain"
                         src={NavImages.link1}
                         alt=""
                       />
@@ -827,7 +827,7 @@ const Navbar = () => {
                     <div className="Column w-1/4 p-4">
                       {/* Place your image and additional content here */}
                       <img
-                        className="w-[30rem] h-[15rem] object-cover"
+                        className="w-[30rem] h-[15rem] object-contain"
                         src={NavImages.link2}
                         alt=""
                       />
@@ -1147,7 +1147,7 @@ const Navbar = () => {
                     <div className="Column w-1/4 p-4">
                       {/* Place your image and additional content here */}
                       <img
-                        className="w-[30rem] h-[15rem] object-cover"
+                        className="w-[30rem] h-[15rem] object-contain"
                         src={NavImages.link3}
                         alt=""
                       />
@@ -1299,7 +1299,7 @@ const Navbar = () => {
                     <div className="w-1/4 p-4">
                       {/* Place your image and additional content here */}
                       <img
-                        className="w-[30rem] h-[15rem] object-cover"
+                        className="w-[30rem] h-[15rem] object-contain"
                         src={NavImages.link4}
                         alt=""
                       />
@@ -1450,7 +1450,7 @@ const Navbar = () => {
                     <div className="w-1/4 p-4">
                       {/* Place your image and additional content here */}
                       <img
-                        className="w-[30rem] h-[15rem] object-cover"
+                        className="w-[30rem] h-[15rem] object-contain"
                         src={NavImages.link5}
                         alt=""
                       />
@@ -1541,95 +1541,186 @@ const Navbar = () => {
               </Menu>
             </li>
 
-            {/*mobile  menu */}
-            <li className="p-4  lg:hidden z-50">
-              <Menu as="div" className="relative inline-block text-left ">
-                <div>
-                  <Menu.Button className=" text-3xl">☰</Menu.Button>
-                </div>
+           {/*mobile menu */}
+<li className="p-4 lg:hidden z-50">
+  <Menu as="div" className="relative inline-block text-left ">
+    <div>
+      <Menu.Button className="text-3xl">☰</Menu.Button>
+    </div>
 
-                <Transition
-                  as={Fragment}
-                  enter="transition ease-out duration-100"
-                  enterFrom="transform opacity-0 scale-95"
-                  enterTo="transform opacity-100 scale-100"
-                  leave="transition ease-in duration-75"
-                  leaveFrom="transform opacity-100 scale-100"
-                  leaveTo="transform opacity-0 scale-95"
-                >
-                  <Menu.Items className="origin-top-right absolute right-0 mt-4 w-48 h-auto  sm:rounded-md  shadow-lg bg-gray-300  ring-black ring-opacity-5 divide-y divide-gray-400 z-50">
-                    <Menu.Item>
-                      {({ active }) => (
-                        <Link to="/services">
-                          <a
-                            className={classNames(
-                              active
-                                ? "bg-yellow-500 text-white"
-                                : "text-black",
-                              "block px-4 py-2 text-sm"
-                            )}
-                          >
-                            Services
-                          </a>
-                        </Link>
-                      )}
-                    </Menu.Item>
+    <Transition
+      as={Fragment}
+      enter="transition ease-out duration-100"
+      enterFrom="transform opacity-0 scale-95"
+      enterTo="transform opacity-100 scale-100"
+      leave="transition ease-in duration-75"
+      leaveFrom="transform opacity-100 scale-100"
+      leaveTo="transform opacity-0 scale-95"
+    >
+      <Menu.Items className="origin-top-right absolute right-0 mt-4 w-48 h-auto sm:rounded-md shadow-lg bg-gray-300 ring-black ring-opacity-5 divide-y divide-gray-400 z-50">
+        <Menu.Item>
+          {({ active }) => (
+            <Link to="/services">
+              <a
+                className={classNames(
+                  active ? "bg-yellow-500 text-white" : "text-black",
+                  "block px-4 py-2 text-sm flex items-center"
+                )}
+              >
+                <FontAwesomeIcon icon={faBuilding} className="mr-2" />
+                Services
+              </a>
+            </Link>
+          )}
+        </Menu.Item>
 
-                    <Menu.Item>
-                      {({ active }) => (
-                        <Link to="/blog">
-                          <a
-                            className={classNames(
-                              active
-                                ? "bg-yellow-500 text-white"
-                                : "text-black",
-                              "block px-4 py-2 text-sm"
-                            )}
-                          >
-                            Blogs
-                          </a>
-                        </Link>
-                      )}
-                    </Menu.Item>
+        <Menu.Item>
+          {({ active }) => (
+            <Link to="/services/best-web-developement-company">
+              <a
+                className={classNames(
+                  active ? "bg-yellow-500 text-white" : "text-black",
+                  "block px-4 py-2 text-sm flex items-center"
+                )}
+              >
+                <FontAwesomeIcon icon={faLaptop} className="mr-2" />
+                Web Development
+              </a>
+            </Link>
+          )}
+        </Menu.Item>
 
-                    <div />
-                    <Menu.Item>
-                      {({ active }) => (
-                        <Link to="/aboutus">
-                          <a
-                            className={classNames(
-                              active
-                                ? "bg-yellow-500 text-white"
-                                : "text-black",
-                              "block px-4 py-2 text-sm"
-                            )}
-                          >
-                            About us
-                          </a>
-                        </Link>
-                      )}
-                    </Menu.Item>
+        <Menu.Item>
+          {({ active }) => (
+            <Link to="/services/best-mobile-app-development-company">
+              <a
+                className={classNames(
+                  active ? "bg-yellow-500 text-white" : "text-black",
+                  "block px-4 py-2 text-sm flex items-center"
+                )}
+              >
+                <FontAwesomeIcon icon={faMobile} className="mr-2" />
+                Mobile App Development
+              </a>
+            </Link>
+          )}
+        </Menu.Item>
 
-                    <Menu.Item>
-                      {({ active }) => (
-                        <Link to="/contactus">
-                          <a
-                            className={classNames(
-                              active
-                                ? "bg-yellow-500 text-white"
-                                : "text-black",
-                              "block px-4 py-2 text-sm"
-                            )}
-                          >
-                            Contact
-                          </a>
-                        </Link>
-                      )}
-                    </Menu.Item>
-                  </Menu.Items>
-                </Transition>
-              </Menu>
-            </li>
+        <Menu.Item>
+          {({ active }) => (
+            <Link to="/services/best-graphic-designing-company">
+              <a
+                className={classNames(
+                  active ? "bg-yellow-500 text-white" : "text-black",
+                  "block px-4 py-2 text-sm flex items-center"
+                )}
+              >
+                <FontAwesomeIcon icon={faPalette} className="mr-2" />
+                MultiMedia
+              </a>
+            </Link>
+          )}
+        </Menu.Item>
+
+        <Menu.Item>
+          {({ active }) => (
+            <Link to="/services/best-digital-marketing-company-in-vizag">
+              <a
+                className={classNames(
+                  active ? "bg-yellow-500 text-white" : "text-black",
+                  "block px-4 py-2 text-sm flex items-center"
+                )}
+              >
+                <FontAwesomeIcon icon={faBullhorn} className="mr-2" />
+                Digital Marketing
+              </a>
+            </Link>
+          )}
+        </Menu.Item>
+
+        <Menu.Item>
+          {({ active }) => (
+            <Link to="/services/best-brand-services-company">
+              <a
+                className={classNames(
+                  active ? "bg-yellow-500 text-white" : "text-black",
+                  "block px-4 py-2 text-sm flex items-center"
+                )}
+              >
+                <FontAwesomeIcon icon={faHandHoldingUsd} className="mr-2" />
+                Branding
+              </a>
+            </Link>
+          )}
+        </Menu.Item>
+
+        <Menu.Item>
+          {({ active }) => (
+            <Link to="/services/best-advertising-company">
+              <a
+                className={classNames(
+                  active ? "bg-yellow-500 text-white" : "text-black",
+                  "block px-4 py-2 text-sm flex items-center"
+                )}
+              >
+                <FontAwesomeIcon icon={faAd} className="mr-2" />
+                Advertising
+              </a>
+            </Link>
+          )}
+        </Menu.Item>
+
+        <Menu.Item>
+          {({ active }) => (
+            <Link to="/blog">
+              <a
+                className={classNames(
+                  active ? "bg-yellow-500 text-white" : "text-black",
+                  "block px-4 py-2 text-sm flex items-center"
+                )}
+              >
+                <FontAwesomeIcon icon={faBlog} className="mr-2" />
+                Blogs
+              </a>
+            </Link>
+          )}
+        </Menu.Item>
+
+        <Menu.Item>
+          {({ active }) => (
+            <Link to="/aboutus">
+              <a
+                className={classNames(
+                  active ? "bg-yellow-500 text-white" : "text-black",
+                  "block px-4 py-2 text-sm flex items-center"
+                )}
+              >
+                <FontAwesomeIcon icon={faInfoCircle} className="mr-2" />
+                About us
+              </a>
+            </Link>
+          )}
+        </Menu.Item>
+
+        <Menu.Item>
+          {({ active }) => (
+            <Link to="/contactus">
+              <a
+                className={classNames(
+                  active ? "bg-yellow-500 text-white" : "text-black",
+                  "block px-4 py-2 text-sm flex items-center"
+                )}
+              >
+                <FontAwesomeIcon icon={faPhone} className="mr-2" />
+                Contact
+              </a>
+            </Link>
+          )}
+        </Menu.Item>
+      </Menu.Items>
+    </Transition>
+  </Menu>
+</li>
           </ul>
         </div>
       </div>
