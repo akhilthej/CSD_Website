@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.fad5525b.css",
-    "main.js": "/static/js/main.3916dad3.js",
+    "main.css": "/static/css/main.7b3a0709.css",
+    "main.js": "/static/js/main.e135d48b.js",
     "static/media/homepage1.webm": "/static/media/homepage1.87aef36ca97ae058373c.webm",
     "static/media/graphicdesignicon.svg": "/static/media/graphicdesignicon.abb07b3de8194fd8499260f8d8c6770f.svg",
+    "static/media/GraphicDesignBG.svg": "/static/media/GraphicDesignBG.26255a0cffed008676050c29f99289f8.svg",
     "static/media/BrandingImage.svg": "/static/media/BrandingImage.83e5242fbcd75b2402bd1d738a1eef30.svg",
     "static/media/advertisingicon.svg": "/static/media/advertisingicon.e6471d11824a9f9414138221b771d23f.svg",
     "static/media/LAN-001-white.png": "/static/media/LAN-001-white.4cd2dfdc96667fc57a19.png",
@@ -140,7 +141,6 @@
     "static/media/EcommerceMarketing.webp": "/static/media/EcommerceMarketing.63b63997b325792de0b7.webp",
     "static/media/Display Advertising.webp": "/static/media/Display Advertising.c68426064b005c9f2d66.webp",
     "static/media/crm_ermpannel.svg": "/static/media/crm_ermpannel.c9a188ec3cdbbeefcd7f3432bffece32.svg",
-    "static/media/CSDLogo.svg": "/static/media/CSDLogo.041d66dee62439cf6ddd948fb2b3b8b0.svg",
     "static/media/Brochure Design.webp": "/static/media/Brochure Design.15c64305684d0a1d2f5f.webp",
     "static/media/videomarketing.webp": "/static/media/videomarketing.16b5b34b446799534846.webp",
     "static/media/OntimeDelivery.svg": "/static/media/OntimeDelivery.2d9b87e51310b6c48d381d9335011a5a.svg",
@@ -157,11 +157,11 @@
     "static/media/User Experience Design.webp": "/static/media/User Experience Design.fda7b364511c5ead9577.webp",
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
-    "main.fad5525b.css.map": "/static/css/main.fad5525b.css.map",
-    "main.3916dad3.js.map": "/static/js/main.3916dad3.js.map"
+    "main.7b3a0709.css.map": "/static/css/main.7b3a0709.css.map",
+    "main.e135d48b.js.map": "/static/js/main.e135d48b.js.map"
   },
   "entrypoints": [
-    "static/css/main.fad5525b.css",
-    "static/js/main.3916dad3.js"
+    "static/css/main.7b3a0709.css",
+    "static/js/main.e135d48b.js"
   ]
 }
