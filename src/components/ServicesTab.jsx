@@ -1,13 +1,14 @@
 import React, { useState } from "react";
 
 import {
-  HeroCoverBG,
   DigitalMarketingImage,
   AdvertisingImage,
   GraphicDesignImage,
   BrandingImage,
   MobileAppDevImage,
   WebDevelopmentImage,
+
+  GraphicDesignBG,
 } from "../assets2/image_data";
 
 import {
@@ -26,6 +27,15 @@ const icons = {
   Branding: Brandingicon,
   "Graphic Design": Graphicdesignicon,
   Advertising: Advertisingicon,
+};
+
+const backgroundImages = {
+  "Digital Marketing": DigitalmarketingIcon,
+  "Web Development": WebDevelopmentImage, // Use the actual image import
+  "Mobile App Development": MobileAppDevImage, // Use the actual image import
+  Branding: BrandingImage, // Use the actual image import
+  "Graphic Design": GraphicDesignBG, // Use the actual image import
+  Advertising: AdvertisingImage, // Use the actual image import
 };
 
 const ServicesTab = () => {
@@ -60,37 +70,38 @@ const ServicesTab = () => {
   };
 
   return (
-    <div className="flex flex-col md:flex-row my-10 w-full">
-      <div className="flex-1 flex flex-col justify-center items-center relative min-h-[50vh]">
-        {/* Title and Description Above the Image */}
-        <div className="text-center p-4">
-          <h1 className="text-xl md:text-3xl font-bold mb-2">{selected}</h1>
-          <p className="text-sm md:text-lg max-w-md">
-            {descriptions[selected]}
-          </p>
+    <div
+      className="flex flex-col md:flex-row my-10 w-full"
+    >
+      {/* Image Section */}
+      <div className="flex-1" style={{ flex: "0 0 40%" }}>
+        <div className="flex justify-center items-center h-full">
+          <img
+            src={images[selected]}
+            alt={selected}
+            className="sm:w-[520px] w-[300px] object-contain z-10"
+          />
         </div>
-
-        {/* Image Below the Title and Description */}
-        <img
-          src={images[selected]}
-          alt={selected}
-          className="sm:w-full w-[300px] object-contain z-10"
-        />
       </div>
 
-      <div className="relative flex-1 flex flex-col justify-center items-center text-center p-6 md:p-12">
-        <div
-          className="absolute inset-0  w-52 bg-center"
-          style={{
-            backgroundImage: `url(${HeroCoverBG})`,
-            backgroundRepeat: "no-repeat", // Prevent the background from repeating
-            opacity: 0.3,
-            zIndex: -1, // Ensure the background is behind the content
-          }}
-        ></div>
+      {/* Title and Description Section */}
+      <div className="flex-1" style={{ flex: "0 0 40%" }}>
+        <div className="flex flex-col justify-center items-center text-center p-4 md:p-6 lg:p-12 relative h-full">
+          <div className="text-center p-2">
+            <h1 className="text-lg md:text-2xl lg:text-3xl font-bold mb-2">
+              {selected}
+            </h1>
+            <p className="text-sm md:text-base lg:text-lg max-w-md">
+              {descriptions[selected]}
+            </p>
+          </div>
+        </div>
+      </div>
 
-        <div className="flex-1 flex flex-col justify-center items-center p-4 md:p-8">
-          <div className="grid grid-cols-3 md:grid-cols-3 gap-2 w-full max-w-xs md:max-w-md">
+      {/* Icons Section */}
+      <div className="flex-1" style={{ flex: "0 0 20%" }}>
+        <div className="flex flex-row md:flex-col justify-center items-center p-2 md:p-4 lg:p-8 h-full">
+          <div className="flex flex-row md:flex-col justify-center items-center gap-2 md:gap-4 w-full max-w-xs md:max-w-md">
             {Object.keys(images).map((category) => (
               <button
                 key={category}
@@ -102,9 +113,9 @@ const ServicesTab = () => {
                 <img
                   src={icons[category]}
                   alt={category}
-                  className="w-12 md:w-16 h-auto mb-2"
+                  className="w-10 md:w-12 lg:w-16 h-auto mb-1"
                 />
-                <span className="text-xs md:text-sm font-medium text-center">
+                <span className="text-xs md :text-sm font-medium text-center">
                   {category}
                 </span>
               </button>

@@ -6,6 +6,8 @@ import MobileAppDevImage from "./Images/MobileAppDevImage.svg";
 import WebDevelopmentImage from "./Images/WebDevelopmentImage.svg";
 import HeroCoverBG from "./Images/HeroCoverBG.svg";
 
+import GraphicDesignBG from './Images/GraphicDesignBG.svg'
+
 export {
   HeroCoverBG,
   DigitalMarketingImage,
@@ -14,4 +16,6 @@ export {
   BrandingImage,
   MobileAppDevImage,
   WebDevelopmentImage,
+
+  GraphicDesignBG,
 };

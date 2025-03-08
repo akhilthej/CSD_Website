@@ -67,16 +67,11 @@ const routes = [
   { path: '/services/best-web-developement-company', element: <WebDevelopment /> },
   { path: '/services/web-developement-company-in-vizag', element: <WebDevelopment /> },
 
-  { path: '/build-business-website', element: <BusinessWebsite /> },
-  { path: '/best-website-for-business', element: <BusinessWebsite /> },
-  { path: '/build-a-business-website', element: <BusinessWebsite /> },
+  { path: '/services/web-developement-company-in-vizag/build-business-website', element: <BusinessWebsite /> },
 
-  { path: '/build-ecommerce-website', element: <EcommerceWebsite /> },
-  { path: '/ecommerce-website-india', element: <EcommerceWebsite /> },
+  { path: '/services/web-developement-company-in-vizag/build-ecommerce-website', element: <EcommerceWebsite /> },
 
-  { path: '/customize-your-website', element: <WebRevap /> },
   { path: '/website-rebuild', element: <WebRevap /> },
-  { path: '/customize-your-website', element: <WebRevap /> },
 
   { path: '/control-center-for-business', element: <CRMERP /> },
         /*---------WebDevelopment End---------*/
@@ -84,7 +79,6 @@ const routes = [
         /*---------MobileAppDevelopment---------*/
   { path: '/services/best-mobile-app-development-company', element: <MobileAppDevelopment /> },
   { path: '/services/mobile-app-development-in-vizag', element: <MobileAppDevelopment /> },
-  { path: '/services/best-mobile-app-development-in-vizag', element: <MobileAppDevelopment /> },
 
   { path: '/mobile-app-design', element: <MobileAppDesign /> },
   { path: '/ios-application-development', element: <IOSAppDevelopment /> },
