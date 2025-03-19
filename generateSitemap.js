@@ -15,24 +15,20 @@ const urls = [
   "/disclaimer",
 
   "/services",
+  "/calculator",
 
   /*---------WebDevelopment---------*/
   "/services/best-web-developement-company",
   "/services/web-developement-company-in-vizag",
-
-  "/services/best-web-developement-company/build-business-website",
-
-  "/services/best-web-developement-company/build-business-website/build-ecommerce-website",
-
-  "/services/best-web-developement-company/website-rebuild",
-
-  "/services/best-web-developement-company/control-center-for-business",
-  /*---------WebDevelopment---------*/
+  "/services/web-developement-company-in-vizag/build-business-website",
+  "/services/web-developement-company-in-vizag/build-ecommerce-website",
+  "/website-rebuild",
+  "/control-center-for-business",
+  /*---------WebDevelopment End---------*/
 
   /*---------MobileAppDevelopment---------*/
   "/services/best-mobile-app-development-company",
   "/services/mobile-app-development-in-vizag",
-
   "/mobile-app-design",
   "/ios-application-development",
   "/android-app-development",
@@ -44,13 +40,13 @@ const urls = [
   "/app-monetization-strategy",
   "/app-store-optimization",
   "/ecommerce-app-development",
+  /*---------MobileAppDevelopment End---------*/
 
-  /*---------MobileAppDevelopment---------*/
-
-  "/best-graphic-designing-company",
-  "/graphic-designing-company-in-vizag",
-  "/best-graphic-designing-in-vizag",
-  "/best-poster-designing-company",
+  /*---------Multimedia---------*/
+  "/services/best-graphic-designing-company",
+  "/services/graphic-designing-company-in-vizag",
+  "/services/best-graphic-designing-in-vizag",
+  "/services/best-poster-designing-company",
   "/logo-design",
   "/logo-design-company-in-vizag",
   "/brand-identity-design",
@@ -72,10 +68,10 @@ const urls = [
   "/rendering-and-visualization",
   "/motion-graphics-and-animation",
   "/photo-editing-and-retouching",
-  "/best-digital-marketing-company",
-  "/digital-marketing-company-in-vizag",
-  "/best-digital-marketing-company-in-vizag",
-  "/social-media-marketing-company",
+  /*---------Multimedia End---------*/
+
+  /*---------DigitalMarketing---------*/
+  "/services/best-digital-marketing-company-in-vizag",
   "/search-engine-optimization",
   "/content-marketing",
   "/social-media-marketing",
@@ -91,9 +87,12 @@ const urls = [
   "/marketing-automation",
   "/remarketing-retargeting",
   "/influencer-marketing",
-  "/best-brand-services-company",
-  "/brand-services-company-in-vizag",
-  "/best-brand-services-company-in-vizag",
+  /*---------DigitalMarketing End---------*/
+
+  /*---------BrandServices---------*/
+  "/services/best-brand-services-company",
+  "/services/brand-services-company-in-vizag",
+  "/services/best-brand-services-company-in-vizag",
   "/brand-identity-design-exclusive",
   "/brand-logo-design",
   "/brand-guidelines",
@@ -107,9 +106,12 @@ const urls = [
   "/rebranding-services",
   "/brand-research-and-analysis",
   "/brand-tracking-and-performance-evaluation",
-  "/best-advertising-company",
-  "/advertising-company-in-vizag",
-  "/best-advertising-company-in-vizag",
+  /*---------BrandServices End---------*/
+
+  /*---------Advertising---------*/
+  "/services/best-advertising-company",
+  "/services/advertising-company-in-vizag",
+  "/services/best-advertising-company-in-vizag",
   "/display-advertising",
   "/video-advertising",
   "/native-advertising",
@@ -120,9 +122,10 @@ const urls = [
   "/tv-advertising",
   "/ingame-advertising",
   "/theater-advertising",
+  /*---------Advertising End---------*/
 
-  " /blog",
-  " /blog/unleashingthepower-of-web-development-for-business-growth",
+  "/blog",
+  "/blog/:slug", // This is a dynamic route, you may want to generate specific slugs if needed
 ];
 
 const root = xmlbuilder.create("urlset", { version: "1.0", encoding: "UTF-8" });
