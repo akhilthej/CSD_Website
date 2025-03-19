@@ -28,22 +28,25 @@
     <loc>https://cyberspacedigital.in/services</loc>
   </url>
   <url>
+    <loc>https://cyberspacedigital.in/calculator</loc>
+  </url>
+  <url>
     <loc>https://cyberspacedigital.in/services/best-web-developement-company</loc>
   </url>
   <url>
     <loc>https://cyberspacedigital.in/services/web-developement-company-in-vizag</loc>
   </url>
   <url>
-    <loc>https://cyberspacedigital.in/services/best-web-developement-company/build-business-website</loc>
+    <loc>https://cyberspacedigital.in/services/web-developement-company-in-vizag/build-business-website</loc>
   </url>
   <url>
-    <loc>https://cyberspacedigital.in/services/best-web-developement-company/build-business-website/build-ecommerce-website</loc>
+    <loc>https://cyberspacedigital.in/services/web-developement-company-in-vizag/build-ecommerce-website</loc>
   </url>
   <url>
-    <loc>https://cyberspacedigital.in/services/best-web-developement-company/website-rebuild</loc>
+    <loc>https://cyberspacedigital.in/website-rebuild</loc>
   </url>
   <url>
-    <loc>https://cyberspacedigital.in/services/best-web-developement-company/control-center-for-business</loc>
+    <loc>https://cyberspacedigital.in/control-center-for-business</loc>
   </url>
   <url>
     <loc>https://cyberspacedigital.in/services/best-mobile-app-development-company</loc>
@@ -85,16 +88,16 @@
     <loc>https://cyberspacedigital.in/ecommerce-app-development</loc>
   </url>
   <url>
-    <loc>https://cyberspacedigital.in/best-graphic-designing-company</loc>
+    <loc>https://cyberspacedigital.in/services/best-graphic-designing-company</loc>
   </url>
   <url>
-    <loc>https://cyberspacedigital.in/graphic-designing-company-in-vizag</loc>
+    <loc>https://cyberspacedigital.in/services/graphic-designing-company-in-vizag</loc>
   </url>
   <url>
-    <loc>https://cyberspacedigital.in/best-graphic-designing-in-vizag</loc>
+    <loc>https://cyberspacedigital.in/services/best-graphic-designing-in-vizag</loc>
   </url>
   <url>
-    <loc>https://cyberspacedigital.in/best-poster-designing-company</loc>
+    <loc>https://cyberspacedigital.in/services/best-poster-designing-company</loc>
   </url>
   <url>
     <loc>https://cyberspacedigital.in/logo-design</loc>
@@ -160,16 +163,7 @@
     <loc>https://cyberspacedigital.in/photo-editing-and-retouching</loc>
   </url>
   <url>
-    <loc>https://cyberspacedigital.in/best-digital-marketing-company</loc>
-  </url>
-  <url>
-    <loc>https://cyberspacedigital.in/digital-marketing-company-in-vizag</loc>
-  </url>
-  <url>
-    <loc>https://cyberspacedigital.in/best-digital-marketing-company-in-vizag</loc>
-  </url>
-  <url>
-    <loc>https://cyberspacedigital.in/social-media-marketing-company</loc>
+    <loc>https://cyberspacedigital.in/services/best-digital-marketing-company-in-vizag</loc>
   </url>
   <url>
     <loc>https://cyberspacedigital.in/search-engine-optimization</loc>
@@ -217,13 +211,13 @@
     <loc>https://cyberspacedigital.in/influencer-marketing</loc>
   </url>
   <url>
-    <loc>https://cyberspacedigital.in/best-brand-services-company</loc>
+    <loc>https://cyberspacedigital.in/services/best-brand-services-company</loc>
   </url>
   <url>
-    <loc>https://cyberspacedigital.in/brand-services-company-in-vizag</loc>
+    <loc>https://cyberspacedigital.in/services/brand-services-company-in-vizag</loc>
   </url>
   <url>
-    <loc>https://cyberspacedigital.in/best-brand-services-company-in-vizag</loc>
+    <loc>https://cyberspacedigital.in/services/best-brand-services-company-in-vizag</loc>
   </url>
   <url>
     <loc>https://cyberspacedigital.in/brand-identity-design-exclusive</loc>
@@ -265,13 +259,13 @@
     <loc>https://cyberspacedigital.in/brand-tracking-and-performance-evaluation</loc>
   </url>
   <url>
-    <loc>https://cyberspacedigital.in/best-advertising-company</loc>
+    <loc>https://cyberspacedigital.in/services/best-advertising-company</loc>
   </url>
   <url>
-    <loc>https://cyberspacedigital.in/advertising-company-in-vizag</loc>
+    <loc>https://cyberspacedigital.in/services/advertising-company-in-vizag</loc>
   </url>
   <url>
-    <loc>https://cyberspacedigital.in/best-advertising-company-in-vizag</loc>
+    <loc>https://cyberspacedigital.in/services/best-advertising-company-in-vizag</loc>
   </url>
   <url>
     <loc>https://cyberspacedigital.in/display-advertising</loc>
@@ -304,9 +298,9 @@
     <loc>https://cyberspacedigital.in/theater-advertising</loc>
   </url>
   <url>
-    <loc>https://cyberspacedigital.in /blog</loc>
+    <loc>https://cyberspacedigital.in/blog</loc>
   </url>
   <url>
-    <loc>https://cyberspacedigital.in /blog/unleashingthepower-of-web-development-for-business-growth</loc>
+    <loc>https://cyberspacedigital.in/blog/:slug</loc>
   </url>
 </urlset>
