@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.44d4c51f.css",
-    "main.js": "/static/js/main.a3f4eac0.js",
+    "main.css": "/static/css/main.746d6862.css",
+    "main.js": "/static/js/main.bfe27430.js",
     "static/media/homepage1.webm": "/static/media/homepage1.87aef36ca97ae058373c.webm",
     "static/media/graphicdesignicon.svg": "/static/media/graphicdesignicon.abb07b3de8194fd8499260f8d8c6770f.svg",
     "static/media/GraphicDesignBG.svg": "/static/media/GraphicDesignBG.26255a0cffed008676050c29f99289f8.svg",
@@ -17,6 +17,7 @@
     "static/media/COO.webp": "/static/media/COO.1545b4ea1fdee0539f9b.webp",
     "static/media/StudioSpace.png": "/static/media/StudioSpace.d8b93f94745c061b304c.png",
     "static/media/brandingicon.svg": "/static/media/brandingicon.ff32d5a495056c552de4e0e40875cbbb.svg",
+    "static/media/ourproducts_contact.jpg": "/static/media/ourproducts_contact.a85e1fa594f6de850586.jpg",
     "static/media/Contact_us.png": "/static/media/Contact_us.6990aabf42791a1bf917.png",
     "static/media/webdevelopmenticon.svg": "/static/media/webdevelopmenticon.9530b03fb28732af7def6bfd5c25cab4.svg",
     "static/media/LAN-002.png": "/static/media/LAN-002.2866f1de5e70551c3b7a.png",
@@ -24,6 +25,12 @@
     "static/media/ARK-002.png": "/static/media/ARK-002.0907260de9996bb721f2.png",
     "static/media/ILA-002.png": "/static/media/ILA-002.dc2e513de4db7ae2ddb1.png",
     "static/media/latonskincare.png": "/static/media/latonskincare.15c94c8234f9ec607df6.png",
+    "static/media/crmgeni copy 2.jpg": "/static/media/crmgeni copy 2.fc00d44a37bedf7a0c15.jpg",
+    "static/media/crmgeni copy 3.jpg": "/static/media/crmgeni copy 3.fc00d44a37bedf7a0c15.jpg",
+    "static/media/crmgeni copy 4.jpg": "/static/media/crmgeni copy 4.fc00d44a37bedf7a0c15.jpg",
+    "static/media/crmgeni copy 5.jpg": "/static/media/crmgeni copy 5.fc00d44a37bedf7a0c15.jpg",
+    "static/media/crmgeni copy.jpg": "/static/media/crmgeni copy.fc00d44a37bedf7a0c15.jpg",
+    "static/media/crmgeni.jpg": "/static/media/crmgeni.fc00d44a37bedf7a0c15.jpg",
     "static/media/leormedia.pmg.png": "/static/media/leormedia.pmg.672319bd7d145f436f72.png",
     "static/media/ANR Travels.png": "/static/media/ANR Travels.d97762a6a6b9859958bd.png",
     "static/media/digitalmarketingicon.svg": "/static/media/digitalmarketingicon.855107affa8a55c410002f834b572b10.svg",
@@ -157,11 +164,11 @@
     "static/media/User Experience Design.webp": "/static/media/User Experience Design.fda7b364511c5ead9577.webp",
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
-    "main.44d4c51f.css.map": "/static/css/main.44d4c51f.css.map",
-    "main.a3f4eac0.js.map": "/static/js/main.a3f4eac0.js.map"
+    "main.746d6862.css.map": "/static/css/main.746d6862.css.map",
+    "main.bfe27430.js.map": "/static/js/main.bfe27430.js.map"
   },
   "entrypoints": [
-    "static/css/main.44d4c51f.css",
-    "static/js/main.a3f4eac0.js"
+    "static/css/main.746d6862.css",
+    "static/js/main.bfe27430.js"
   ]
 }
