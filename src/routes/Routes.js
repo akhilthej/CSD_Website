@@ -13,7 +13,7 @@ import Blog from './Blogs/Blog';
 import BlogFullPost from './Blogs/BlogFullPost';
 import Aboutus from './Aboutus';
 import Careers from './Careers/careers'
-import Contactus from './CONTACTUS';
+import Contactus from './Contactus';
 
 import Services from './Services/SERVICES';
 

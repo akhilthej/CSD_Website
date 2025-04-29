@@ -1,14 +1,18 @@
 import React, { useState } from "react";
 import { Helmet } from "react-helmet-async";
 import Contactcover from "../assets/CoverImages/Contact_us.png";
+import ourproducts_contact from "../assets/CoverImages/ourproducts_contact.jpg";
+import { FaFacebookF, FaLinkedinIn, FaInstagram } from "react-icons/fa";
+import { HiOutlineMail } from "react-icons/hi";
+import { FaEnvelope, FaPhone, FaWhatsapp } from "react-icons/fa";
+
+import Products_Slider from "../components/Sliders/Products_Slider";
 
 const ContactForm = () => {
-  const [honeypot, setHoneypot] = useState("");
   const [formData, setFormData] = useState({
     name: "",
     email: "",
-    subject: "",
-    phonenumber: "",
+    phone: "", // Added phone field
     message: "",
   });
 
@@ -19,17 +23,10 @@ const ContactForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    // Stop submission if honeypot field is filled
-    if (honeypot) {
-      console.warn("Bot detected! Submission blocked.");
-      return;
-    }
-
-    const discordWebhookUrl =
-      "https://discord.com/api/webhooks/1357789374594416791/a84l5wCS3gxtFkS_YyJy2We02mXvAgqPdnHulmjrLzVaIW0bWaaJgB3juGzuKPqoznKz"; // Replace with your actual webhook URL
+    const discordWebhookUrl = process.env.REACT_APP_DIS_API;
 
     const message = {
-      content: `Contact Form Submission\n\nName: ${formData.name}\nEmail: ${formData.email}\nSubject: ${formData.subject}\nPhone Number 1: ${formData.phonenumber}\nMessage: ${formData.message}`,
+      content: `Contact Form Submission\n\nName: ${formData.name}\nEmail: ${formData.email}\nPhone: ${formData.phone}\nMessage: ${formData.message}`,
     };
 
     try {
@@ -43,7 +40,7 @@ const ContactForm = () => {
 
       if (response.ok) {
         alert("Form submitted successfully!");
-        setFormData({ name: "", email: "", subject: "", phonenumber: "", message: "" });
+        setFormData({ name: "", email: "", phone: "", message: "" });
       } else {
         alert("Error submitting the form. Please try again later.");
       }
@@ -54,12 +51,12 @@ const ContactForm = () => {
   };
 
   return (
-    <div>
+    <div className="my-6">
       <Helmet>
         <title>Contact us - Cyber Space Digital</title>
         <meta
           name="description"
-          content="Web Development and Digital Marketing Company. We are here to build you business online. One stop for all your digital needs."
+          content="Web Development and Digital Marketing Company. We are here to build your business online. One stop for all your digital needs."
         />
         <link rel="canonical" href="/contactus" />
       </Helmet>
@@ -77,9 +74,7 @@ const ContactForm = () => {
           <div className="md:w-1/2 md:pr-10"></div>
           <div className="md:w-1/2 px-5">
             <div className="text-right md:text-left">
-              {" "}
-              {/* Align titles to the right on mobile, left on larger screens */}
-              <h3 className="cursor-default  text-2xl pb-5 md:text-6xl fade-in-down font-extrabold text-center text-white tracking-tight">
+              <h3 className="cursor-default text-2xl pb-5 md:text-6xl fade-in-down font-extrabold text-center text-white tracking-tight">
                 Get in touch,
                 <br />
                 we’d love to hear from you.
@@ -88,22 +83,28 @@ const ContactForm = () => {
                 You can contact us through mail or you can get in touch at our
                 digital office.
               </p>
-              <div className="mt-8 flex flex-wrap justify-center gap-4">
-                <a href="mailto:admin@cyberspacedigital.in">
-                  <a className="transform rounded-md bg-white px-5 py-3 font-medium text-black transition-colors hover:bg-black hover:text-white">
-                    Email
-                  </a>
+               {/* Button Row */}
+               <div className="mt-5 flex flex-row flex-wrap sm:flex-nowrap justify-center gap-2 sm:gap-4 overflow-x-auto">
+                <a
+                  href="mailto:mail@cyberspacedigital.in"
+                  className="flex items-center gap-2 whitespace-nowrap rounded-md bg-white px-4 py-2 text-sm sm:text-base font-medium text-black transition-colors hover:bg-black hover:text-white"
+                >
+                  <FaEnvelope />
+                  Email
                 </a>
-                <a href="tel:+91-814-340-7758">
-                  <a className="transform rounded-md bg-white px-5 py-3 font-medium text-black transition-colors hover:bg-black hover:text-white">
-                    Phone
-                  </a>
+                <a
+                  href="tel:+91-814-340-7758"
+                  className="flex items-center gap-2 whitespace-nowrap rounded-md bg-white px-4 py-2 text-sm sm:text-base font-medium text-black transition-colors hover:bg-black hover:text-white"
+                >
+                  <FaPhone />
+                  Phone
                 </a>
-
-                <a href="https://api.whatsapp.com/send?phone=918143407758&text=Welcome%20to%20Cyberspacedigital">
-                  <a className="transform rounded-md bg-white px-5 py-3 font-medium text-black transition-colors hover:bg-black hover:text-white">
-                    WhatsApp
-                  </a>
+                <a
+                  href="https://api.whatsapp.com/send?phone=918143407758&text=Welcome%20to%20Cyberspacedigital"
+                  className="flex items-center gap-2 whitespace-nowrap rounded-md bg-white px-4 py-2 text-sm sm:text-base font-medium text-black transition-colors hover:bg-black hover:text-white"
+                >
+                  <FaWhatsapp />
+                  WhatsApp
                 </a>
               </div>
             </div>
@@ -111,99 +112,180 @@ const ContactForm = () => {
         </div>
       </section>
 
-      {/*contact form*/}
-      <section
-      id="contact"
-      className="min-h-screen flex items-center justify-center bg-primary"
-    >
-      <div className="p-6 mx-auto max-w-xl bg-white rounded-md shadow-md font-[sans-serif]">
-        <h1 className="text-3xl text-black font-bold text-center mb-4">
-          Get in Touch
-        </h1>
-        <p className="text-lg text-gray-600 text-center mb-8">
-          We'd love to hear from you! Please fill out the form below to get in
-          touch with us.
-        </p>
-        <form onSubmit={handleSubmit} className="space-y-4">
-          <div className="flex flex-col">
-            <input
-              type="text"
-              name="honeypot"
-              value={honeypot}
-              onChange={(e) => setHoneypot(e.target.value)}
-              style={{ display: "none" }} // Hide the field from real users
-            />
-
-            <label className="text-lg text-gray-600 mb-2">Name:</label>
-            <input
-              type="text"
-              name="name"
-              placeholder="John Doe"
-              value={formData.name}
-              onChange={handleChange}
-              className="py-2.5 px-4 text-gray-800 bg-gray-100 border focus:border-black focus:bg-transparent text-sm outline-none transition-all"
-              required
-            />
+      <div className="grid sm:grid-cols-2 items-center gap-16 p-8 mx-auto max-w-4xl bg-white shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)] rounded-md text-[#333] font-[sans-serif]">
+        <div>
+          <h1 className="text-3xl font-extrabold">Let's Talk</h1>
+          <p className="text-sm text-gray-400 mt-3">
+            Have some big idea or brand to develop and need help? Then reach
+            out, we'd love to hear about your project and provide help.
+          </p>
+          <div className="mt-12">
+            <h2 className="text-lg font-extrabold">Email</h2>
+            <ul className="mt-3">
+              <li className="flex items-center">
+                <div className="bg-[#e6e6e6cf] h-10 w-10 rounded-full flex items-center justify-center shrink-0">
+                  <HiOutlineMail className="text-yellow-500 text-[20px]" />
+                </div>
+                <a
+                  target="blank"
+                  href="mailto:mail@cyberspacedigital.in"
+                  className="text-yellow-500 text-sm ml-3"
+                >
+                  <small className="block">Mail</small>
+                  <strong>mail@cyberspacedigital.in</strong>
+                </a>
+              </li>
+            </ul>
           </div>
-          <div className="flex flex-col">
-            <label className="text-lg text-gray-600 mb-2">Email:</label>
-            <input
-              type="email"
-              name="email"
-              placeholder="john.doe@example.com"
-              value={formData.email}
-              onChange={handleChange}
-              className="py-2.5 px-4 text-gray-800 bg-gray-100 border focus:border-black focus:bg-transparent text-sm outline-none transition-all"
-              required
-            />
+          <div className="mt-12">
+            <h2 className="text-lg font-extrabold">Socials</h2>
+            <ul className="flex mt-3 space-x-4">
+              <li className="bg-[#e6e6e6cf] h-10 w-10 rounded-full flex items-center justify-center shrink-0">
+                <a
+                  href="javascript:void(0)"
+                  className="text-yellow-500 text-[20px]"
+                >
+                  <FaFacebookF />
+                </a>
+              </li>
+              <li className="bg-[#e6e6e6cf] h-10 w-10 rounded-full flex items-center justify-center shrink-0">
+                <a
+                  href="javascript:void(0)"
+                  className="text-yellow-500 text-[20px]"
+                >
+                  <FaLinkedinIn />
+                </a>
+              </li>
+              <li className="bg-[#e6e6e6cf] h-10 w-10 rounded-full flex items-center justify-center shrink-0">
+                <a
+                  href="javascript:void(0)"
+                  className="text-yellow-500 text-[20px]"
+                >
+                  <FaInstagram />
+                </a>
+              </li>
+            </ul>
           </div>
-          <div className="flex flex-col">
-            <label className="text-lg text-gray-600 mb-2">Subject:</label>
-            <input
-              type="text"
-              name="subject"
-              placeholder="Hello World"
-              value={formData.subject}
-              onChange={handleChange}
-              className="py-2.5 px-4 text-gray-800 bg-gray-100 border focus:border-black focus:bg-transparent text-sm outline-none transition-all"
-              required
-            />
-          </div>
-          <div className="flex flex-col">
-            <label className="text-lg text-gray-600 mb-2">Phone Number:</label>
-            <input
-              type="tel"
-              name="phonenumber"
-              placeholder="123-456-7890"
-              value={formData.phonenumber}
-              onChange={handleChange}
-              className="py-2.5 px-4 text-gray-800 bg-gray-100 border focus:border-black focus:bg-transparent text-sm outline-none transition-all"
-              required
-            />
-          </div>
-         
-          <div className="flex flex-col">
-            <label className="text-lg text-gray-600 mb-2">Message:</label>
-            <textarea
-              name="message"
-              placeholder="Type your message here..."
-              rows="4"
-              value={formData.message}
-              onChange={handleChange}
-              className="px-4 text-gray-800 bg-gray-100 border focus:border-black focus:bg-transparent text-sm pt-3 outline-none transition-all"
-              required
-            ></textarea>
-          </div>
+        </div>
+        <form onSubmit={handleSubmit} className="ml-auto space-y-4">
+          <input
+            type="text"
+            name="name"
+            placeholder="Name"
+            value={formData.name}
+            onChange={handleChange}
+            className="w-full rounded-md py-2.5 px-4 border text-sm outline-yellow-500"
+            required
+          />
+          <input
+            type="email"
+            name="email"
+            placeholder="Email"
+            value={formData.email}
+            onChange={handleChange}
+            className="w-full rounded-md py-2.5 px-4 border text-sm outline-yellow-500"
+            required
+          />
+          <input
+            type="text"
+            name="phone" // Phone input field
+            placeholder="Phone Number" // Updated placeholder
+            value={formData.phone} // Binding to phone field
+            onChange={handleChange}
+            className="w-full rounded-md py-2.5 px-4 border text-sm outline-yellow-500"
+            required
+          />
+          <textarea
+            name="message"
+            placeholder="Message"
+            rows={6}
+            value={formData.message}
+            onChange={handleChange}
+            className="w-full rounded-md px-4 border text-sm pt-2.5 outline-yellow-500"
+            required
+          />
           <button
             type="submit"
-            className="text-white bg-black hover:bg-gray-900 tracking-wide text-sm px-4 py-2.5 w-full outline-none"
+            className="text-white bg-yellow-500 hover:bg-yellow-500 font-semibold rounded-md text-sm px-4 py-2.5 w-full"
           >
             Send
           </button>
         </form>
       </div>
-    </section>
 
+      {/* Quick Access */}
+      <section className="py-10 bg-gray-200">
+        <div className="flex flex-col items-center md:flex-row justify-center">
+          <div className="md:w-1/2 px-5">
+            <div className="text-right md:text-left">
+              <h3 className="cursor-default text-4xl fade-in-down font-extrabold text-center text-black tracking-tight">
+                QUICK ACTION
+              </h3>
+              <p className="cursor-default text-black text-sm text-center">
+                24/7 we are here to help you find your answers.
+              </p>
+              {/* Button Row */}
+              <div className="mt-5 flex flex-row flex-wrap sm:flex-nowrap justify-center gap-2 sm:gap-4 overflow-x-auto">
+                <a
+                  href="mailto:mail@cyberspacedigital.in"
+                  className="flex items-center gap-2 whitespace-nowrap rounded-md bg-black px-4 py-2 text-sm sm:text-base font-medium text-white transition-colors hover:bg-black hover:text-white"
+                >
+                  <FaEnvelope />
+                  Email
+                </a>
+                <a
+                  href="tel:+91-814-340-7758"
+                  className="flex items-center gap-2 whitespace-nowrap rounded-md bg-black px-4 py-2 text-sm sm:text-base font-medium text-white transition-colors hover:bg-black hover:text-white"
+                >
+                  <FaPhone />
+                  Phone
+                </a>
+                <a
+                  href="https://api.whatsapp.com/send?phone=918143407758&text=Welcome%20to%20Cyberspacedigital"
+                  className="flex items-center gap-2 whitespace-nowrap rounded-md bg-black px-4 py-2 text-sm sm:text-base font-medium text-white transition-colors hover:bg-black hover:text-white"
+                >
+                  <FaWhatsapp />
+                  WhatsApp
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Our Products */}
+      <section
+        className="py-10 sm:py-40 relative"
+        style={{
+          backgroundImage: `url("${ourproducts_contact}")`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
+      >
+        {/* Black gradient overlay */}
+        <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/40 to-transparent z-0"></div>
+
+        <div className="flex flex-col md:flex-row items-start justify-center relative z-10">
+          {/* Left Column with Content */}
+          <div className="w-full md:w-1/2 px-5">
+            <div className="text-left">
+              <h3 className="cursor-default text-2xl pb-5 md:text-6xl fade-in-down font-extrabold text-white tracking-tight">
+                Our Products
+              </h3>
+              <p className="cursor-default text-white sm:text-sm text-xs">
+                Products we have developed.
+              </p>
+            </div>
+          </div>
+
+          {/* Right Column Placeholder */}
+          <div className="hidden md:block md:w-1/2 md:pr-10"></div>
+        </div>
+      </section>
+
+      <Products_Slider />
+
+   
     </div>
   );
 };
