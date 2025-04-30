@@ -67,13 +67,13 @@ const routes = [
   { path: '/services/best-web-developement-company', element: <WebDevelopment /> },
   { path: '/services/web-developement-company-in-vizag', element: <WebDevelopment /> },
 
-  { path: '/services/web-developement-company-in-vizag/build-business-website', element: <BusinessWebsite /> },
+  { path: '/services/web-developement-company/build-business-website', element: <BusinessWebsite /> },
 
-  { path: '/services/web-developement-company-in-vizag/build-ecommerce-website', element: <EcommerceWebsite /> },
+  { path: '/services/web-developement-company/build-ecommerce-website', element: <EcommerceWebsite /> },
 
-  { path: '/website-rebuild', element: <WebRevap /> },
+  { path: '/services/web-developement-company/website-rebuild', element: <WebRevap /> },
 
-  { path: '/control-center-for-business', element: <CRMERP /> },
+  { path: '/services/web-developement-company/control-center-for-business', element: <CRMERP /> },
         /*---------WebDevelopment End---------*/
 
         /*---------MobileAppDevelopment---------*/

@@ -1,13 +1,13 @@
 import React from "react";
 import { Helmet } from "react-helmet-async";
-import aboutcover from "../assets/Aboutus/about.webp";
-import CEO from "../assets/Aboutus/Founder.webp";
-import CTO from "../assets/Aboutus/CTO.webp";
-import COO from "../assets/Aboutus/COO.webp";
-import Chaitanya from "../assets/Aboutus/chaitanya.webp";
-import SaiKiran from "../assets/Aboutus/saikiran.webp";
-import Srikar from "../assets/Aboutus/srikar.webp";
-import Varun from "../assets/Aboutus/varun.webp";
+import aboutcover from "../assets2/Aboutus/about.webp";
+import CEO from "../assets2/Aboutus/Founder.webp";
+import CTO from "../assets2/Aboutus/CTO.webp";
+import COO from "../assets2/Aboutus/COO.webp";
+import Chaitanya from "../assets2/Aboutus/chaitanya.webp";
+import SaiKiran from "../assets2/Aboutus/saikiran.webp";
+import Srikar from "../assets2/Aboutus/srikar.webp";
+import Varun from "../assets2/Aboutus/varun.webp";
 
 const Aboutus = () => {
   return (

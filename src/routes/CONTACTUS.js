@@ -51,7 +51,7 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="my-6">
+    <div className="mb-6">
       <Helmet>
         <title>Contact us - Cyber Space Digital</title>
         <meta

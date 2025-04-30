@@ -90,28 +90,28 @@ const Navbar = () => {
 
   const webDevelopmentLinks = [
     {
-      path: "/build-business-website",
+      path: "/services/web-developement-company/build-business-website",
       title: "Business Websites",
       description:
         "Our business website solutions are designed to drive growth, enhance visibility, and boost profitability in the digital landscape.",
       icon: faBuilding,
     },
     {
-      path: "/build-ecommerce-website",
+      path: "/services/web-developement-company/build-ecommerce-website",
       title: "E-commerce",
       description:
         "Elevate your online retail with our bespoke e-commerce solutions. Boost sales, engage customers, and thrive online.",
       icon: faCartShopping,
     },
     {
-      path: "/customize-your-website",
+      path: "/services/web-developement-company/website-rebuild",
       title: "Web Revamp",
       description:
         "Transform and modernize your existing website with our web revamp services. Stay ahead and impress your audience.",
       icon: faGlobe,
     },
     {
-      path: "/control-center-for-business",
+      path: "/services/web-developement-company/control-center-for-business",
       title: "CRM/ERP Panels",
       description:
         "Enhance business operations with our CRM/ERM panels. Streamline processes, manage data, and boost productivity effectively.",

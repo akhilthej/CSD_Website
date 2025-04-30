@@ -95,7 +95,7 @@ const GlobalData = {
       image: BusinessWebsites, 
       title: 'Business Websites',
       subtitle: 'Catalyzing Business Success: Our business website solutions are designed to drive growth, enhance visibility, and boost profitability in the digital landscape.',
-      slug: '/build-business-website',
+      slug: '/services/web-developement-company-in-vizag/build-business-website',
       buttonText: 'Get Quotation',
     },
     
@@ -103,21 +103,21 @@ const GlobalData = {
       image: Ecommerce, 
       title: 'E-commerce',
       subtitle: ' Crafting E-Commerce Excellence: Elevate your online retail with our bespoke e-commerce solutions. Boost sales, engage customers, and thrive online.',
-      slug: '/build-ecommerce-website',
+      slug: '/services/web-developement-company-in-vizag/build-ecommerce-website',
       buttonText: 'Get Quotation',
     },
     {
       image: WebRecamp, 
       title: 'Web Revamp',
       subtitle: 'Revamp Your Online Presence: Transform and modernize your existing website with our web revamp services. Stay ahead and impress your audience.',
-      slug: '/customize-your-website',
+      slug: '/services/web-developement-company/website-rebuild',
       buttonText: 'Get Quotation',
     },
     {
       image: CRMERM, 
       title: 'CRM/ERP Panels',
       subtitle: 'Efficient CRM/ERM Solutions: Enhance business operations with our CRM/ERM panels. Streamline processes, manage data, and boost productivity effectively.',
-      slug: '/control-center-for-business',
+      slug: '/services/web-developement-company/control-center-for-business',
       buttonText: 'Get Quotation',
     },
     

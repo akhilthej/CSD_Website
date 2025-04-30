@@ -4,8 +4,8 @@ import Pages from "./Page_Data_WebDevelopment.json";
 import { GlobalData } from "../../../assets/data/GlodalData";
 import { DISCORD_WEBHOOKS } from "../../../hooks/Apis";
 
-const CRMERPPanels = () => {
-  const { CRMERPPanels } = Pages;
+const EcommerceWebsite = () => {
+  const { EcommerceData } = Pages;
   const [showPopup, setShowPopup] = useState(false);
   const [selectedPlan, setSelectedPlan] = useState(null);
   const [name, setName] = useState("");
@@ -38,9 +38,9 @@ const CRMERPPanels = () => {
       <section
         className="py-10 sm:py-40"
         style={{
-          backgroundImage: `url(${CRMERPPanels.section1.backgroundImage.url})`,
-          backgroundSize: CRMERPPanels.section1.backgroundImage.size,
-          backgroundPosition: CRMERPPanels.section1.backgroundImage.position,
+          backgroundImage: `url(${EcommerceData.section1.backgroundImage.url})`,
+          backgroundSize: EcommerceData.section1.backgroundImage.size,
+          backgroundPosition: EcommerceData.section1.backgroundImage.position,
         }}
       >
         <div className="flex flex-col items-center md:flex-row justify-center">
@@ -50,10 +50,10 @@ const CRMERPPanels = () => {
               {" "}
               {/* Align titles to the right on mobile, left on larger screens */}
               <h3 className="cursor-default  text-2xl pb-5 md:text-6xl fade-in-down font-extrabold text-center text-white tracking-tight">
-                {CRMERPPanels.section1.title}
+                {EcommerceData.section1.title}
               </h3>
               <p className="cursor-default text-white sm:text-sm text-xs text-center sm:ml-0">
-                {CRMERPPanels.section1.subtitle}
+                {EcommerceData.section1.subtitle}
               </p>
               <div className="mt-8 flex flex-wrap justify-center gap-4">
                 <a href={`mailto:${GlobalData.company.companyEmail}`}>
@@ -76,10 +76,10 @@ const CRMERPPanels = () => {
       {/* Subtitle section2 */}
       <section className="text-center mx-auto my-8">
         <h2 className="cursor-default pb-2 font-extrabold text-transparent text-2xl md:text-5xl lg:text-6xl bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-600 mt-3  tracking-tight ">
-          {CRMERPPanels.section2.title}
+          {EcommerceData.section2.title}
         </h2>
         <p className="cursor-default text-sm font-medium text-black mt-5 mb-10">
-          {CRMERPPanels.section2.subtitle}
+          {EcommerceData.section2.subtitle}
         </p>
 
         <div className="flex items-center justify-center gap-4 flex-wrap"></div>
@@ -90,10 +90,10 @@ const CRMERPPanels = () => {
         <div className="grid max-w-screen-xl px-16 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
           <div className="mr-auto sm:mr-10 place-self-center lg:col-span-7">
             <h1 className="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl ">
-              {CRMERPPanels.section3.title}
+              {EcommerceData.section3.title}
             </h1>
             <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl ">
-              {CRMERPPanels.section3.paragraph}
+              {EcommerceData.section3.paragraph}
             </p>
             <a
               href="#"
@@ -116,8 +116,8 @@ const CRMERPPanels = () => {
           </div>
           <div className=" lg:mt-0 lg:col-span-5 lg:flex rounded-lg">
             <img
-              src={CRMERPPanels.section3.image.url}
-              alt={CRMERPPanels.section3.image.alt}
+              src={EcommerceData.section3.image.url}
+              alt={EcommerceData.section3.image.alt}
               className="rounded-lg"
             />
           </div>
@@ -136,7 +136,7 @@ const CRMERPPanels = () => {
           <div className="h-1 mx-auto bg-indigo-200 w-24 opacity-75 mt-4 rounded" />
           <div className="max-w-full md:max-w-6xl mx-auto my-3 md:px-8">
             <div className="flex flex-wrap justify-center -mx-4">
-              {CRMERPPanels.pricingData.map((plan, index) => (
+              {EcommerceData.pricingData.map((plan, index) => (
                 <div className="w-full sm:w-1/2 lg:w-1/3 px-4 mb-8" key={index}>
                   <div className="bg-white text-black rounded-lg  shadow-lg overflow-hidden">
                     <div className="block text-left text-sm sm:text-md max-w-sm mx-auto mt-2 text-black px-8 lg:px-6">
@@ -242,7 +242,7 @@ const CRMERPPanels = () => {
             Frequently Asked Questions
           </h2>
           <div className="grid gap-4">
-            {CRMERPPanels.LogofaqData.map((item, index) => (
+            {EcommerceData.LogofaqData.map((item, index) => (
               <div className="bg-white rounded-lg p-4 shadow-md" key={index}>
                 <details className="group">
                   <summary className="flex justify-between items-center font-medium cursor-pointer">
@@ -346,7 +346,7 @@ const CRMERPPanels = () => {
       {/* Request a Custom Design */}
       <section className="text-center mx-auto my-8">
         <h2 className="cursor-default pb-2 font-extrabold text-transparent text-2xl md:text-5xl lg:text-6xl bg-clip-text bg-gradient-to-r from-yellow-400 to-orange-600 mt-3  tracking-tight ">
-          Request a Custom {CRMERPPanels.section1.title}
+          Request a Custom {EcommerceData.section1.title}
         </h2>
         <p className="cursor-default text-sm font-medium text-black mt-5 mb-10">
           Explore our comprehensive documentation for more information on our
@@ -372,4 +372,4 @@ const CRMERPPanels = () => {
   );
 };
 
-export default CRMERPPanels;
+export default EcommerceWebsite;
