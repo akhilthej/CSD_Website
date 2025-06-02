@@ -100,7 +100,7 @@ const ServicesTab = () => {
 
       {/* Icons Section */}
       <div className="flex-1" style={{ flex: "0 0 20%" }}>
-        <div className="flex flex-row md:flex-col justify-center items-center p-2 md:p-4 lg:p-8 h-full">
+        <div className="flex overflow-auto flex-row md:flex-col justify-center items-center p-2 md:p-4 lg:p-8 h-full">
           <div className="flex flex-row md:flex-col justify-center items-center gap-2 md:gap-4 w-full max-w-xs md:max-w-md">
             {Object.keys(images).map((category) => (
               <button
